@@ -1,0 +1,54 @@
+nav:
+  Home: /  
+  Archives: /archives/
+  About: /about/
+#   Collect: /collect/
+  Github: http://github.com/Fantasy9527
+
+projects_url: http://github.com/Fantasy9527
+
+customize:
+    gravatar:
+        email: 
+    logo:
+        enabled: true
+        width: 50
+        height: 50
+        url: /images/logo2.png
+        gravatar: false
+    favicon: 
+      # eg. generate with http://realfavicongenerator.net/
+      desktop:
+        url: /images/favicon.ico
+        gravatar: false
+      android:
+        url: /images/favicon-192x192.png
+        gravator: false
+      apple:
+        url: /images/favicon-192x192.png
+        gravator: false
+    social_links:
+        github: http://github.com/Fantasy9527
+        weibo: http://weibo.com/u/1967233520
+    post_count: 10
+    highlight: rainbow
+    show_all_posts: false
+# RSS
+rss: false
+
+# Plugins
+plugins:
+    disqus_shortname: alili-tech # Disqus Comments Shortname
+
+# Miscellaneous
+miscellaneous:
+    open_graph: # see http://ogp.me
+        fb_app_id:
+        fb_admins:
+        twitter_id:
+        google_plus:
+
+# # Recommended posts
+# # Dependency: https://github.com/huiwang/hexo-recommended-posts
+# recommended_posts:
+#   enabled: false
