@@ -1,15 +1,15 @@
-{{ partial "head.html" . }}
+<!-- {{ partial "head.html" . }}
     <body>
        {{ partial "nav.html" . }}
 
         <section id="wrapper" class="post">
-<article>
+<article style="display:none">
     <header>
         <h1>
                         {{ .Title }}
         </h1>
         <h2 class="headline">
-                    {{ .Date.Format "Jan 2, 2006 15:04" }}
+                    {{ .Date.Format "Jan 2, 2006" }}
                     · {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
                     · {{ .ReadingTime }} minute read
         </h2>
@@ -24,7 +24,13 @@
     <section id="post-body">
                     {{ .Content }}
     </section>
-</article>
+</article> -->
+  
+  <!-- 
+
+
+
+
 
             {{ if .Site.Params.enableShare }}
                 {{ partial "share.html" . }}
@@ -43,4 +49,48 @@
 
         {{ partial "js.html" . }}
     </body>
+</html> -->
+
+
+
+{{ partial "head.html" . }}
+<body>
+    <div class="content index width mx-auto px3 my4">
+        <section id="wrapper" class="home">
+                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header>
+                    <h1 class="posttitle" itemprop="name headline">
+                            {{ .Title }}
+                        </h1>
+                      <div class="meta">
+                        <div class="postdate">
+                                <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">{{ .Date.Format "Jan 2, 2006" }}</time>
+                            </div>
+                        <div class="article-tag">
+                            <i class="fa fa-eye"></i>
+                            <span id="busuanzi_container_page_pv">
+                                <span id="busuanzi_value_page_pv">0</span>
+                              </span>
+                            </span>
+                        </div>
+                        
+                        <!-- <%- partial('_partial/post/tag') %> -->
+                      </div>
+                    </header>
+                    <!-- <%- partial('_partial/post/gallery') %> -->
+                
+                    <div class="content" itemprop="articleBody">
+                            {{ .Content }}
+                    </div>
+                  </article>
+                  {{ partial "comments.html" . }}
+           
+        </section>
+
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+</body>
+
 </html>
+
