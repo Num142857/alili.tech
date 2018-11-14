@@ -1,0 +1,3 @@
+[submodule "hugo-theme-cactus-plus"]
+	path = hugo-theme-cactus-plus
+	url = https://github.com/nodejh/hugo-theme-cactus-plus.git
