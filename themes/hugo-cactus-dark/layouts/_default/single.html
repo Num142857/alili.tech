@@ -64,7 +64,7 @@
                         </h1>
                       <div class="meta">
                         <div class="postdate">
-                                <time datetime="<%= date_xml(post.date) %>" itemprop="datePublished">{{ .Date.Format "Jan 2, 2006" }}</time>
+                                <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
                             </div>
                         <div class="article-tag">
                             <i class="fa fa-eye"></i>

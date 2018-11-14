@@ -1,7 +1,10 @@
-baseURL : "http://example.org/"
+baseURL : "/"
 languageCode : "en-us"
 title : "Alili"
 theme : "hugo-cactus-dark"
+permalinks:
+  post: /:year/:month/:title/3232/
+canonifyURLs: true
 params:
   customize:
       gravatar:
