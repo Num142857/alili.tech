@@ -3,7 +3,6 @@ languageCode : "en-us"
 title : "Alili"
 theme : "hugo-cactus-dark"
 permalinks:
-  post: /1112121/:year/:month/:title/
   archive: archive/:slug/
 params:
   customize:

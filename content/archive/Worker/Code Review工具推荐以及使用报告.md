@@ -3,7 +3,6 @@ title: Code Review工具推荐以及使用报告
 tags:
   - Code Review
 slug: cf2c83a
-aliases: [/posts/my-old-url/]
 date: 2018-11-12 00:00:00
 ---
 
