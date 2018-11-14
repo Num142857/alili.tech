@@ -8,9 +8,11 @@
 
         <!-- {{ partial "profile.html" . }} -->
 
-        <div class="content" itemprop="articleBody">
+        <article class="content" itemprop="articleBody">
+            <div class="content">
                 {{ .Content }}
-        </div>
+            </div>
+        </article>
         {{ partial "comments.html" . }}
     </div>
     {{ partial "footer.html" . }}

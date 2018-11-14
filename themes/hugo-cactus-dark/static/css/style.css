@@ -691,18 +691,20 @@ body {
     float: right
 }
 
-#header-post ol {
+#header-post ol,#header-post ul {
     list-style-type: none
 }
 
-#header-post ul {
+#header-post  #nav ul,
+#header-post  #actions ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: inline-block
 }
 
-#header-post ul li {
+#header-post #nav ul li ,
+#header-post #actions ul li {
     margin-right: 15px;
     display: inline-block;
     vertical-align: middle
@@ -753,7 +755,7 @@ body {
     text-align: right
 }
 
-#header-post #share,#header-post #toc {
+#header-post #share,#header-post #toc, #TableOfContents {
     clear: both;
     text-align: right;
     padding-top: 1rem
@@ -768,12 +770,16 @@ body {
     display: none
 }
 
-#header-post #toc .toc-level-2 {
+#header-post #toc .toc-level-2 ,#TableOfContents li{
     font-size: .8rem;
-    color: #c9cacc
+    color: #c9cacc;
+    padding-left:8px;
+}
+#TableOfContents li a{
+    padding-left:8px;
 }
 
-#header-post #toc .toc-level-2:before {
+#header-post #toc .toc-level-2:before ,#TableOfContents li:before {
     content: "#";
     color: #2bbc8a
 }
@@ -933,6 +939,7 @@ body {
     color: #666;
     line-height: 15px
 }
+
 
 #sociallinks,#sociallinks li {
     display: inline-block

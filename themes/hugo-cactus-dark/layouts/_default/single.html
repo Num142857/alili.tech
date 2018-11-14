@@ -1,5 +1,6 @@
 {{ partial "head.html" . }}
 <body>
+    {{ partial "actions_desktop.html" . }}
     <div class="content index width mx-auto px3 my4">
         <section id="wrapper" class="home">
                 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
@@ -36,6 +37,7 @@
                     <!-- <%- partial('_partial/post/gallery') %> -->
 
                     <div class="content" itemprop="articleBody">
+                            
                             {{ .Content }}
                             <h2> 本文链接：</h2>
                             {{.Permalink}}
