@@ -1,7 +1,6 @@
-<script src="{{ .Site.BaseURL }}js/jquery-3.3.1.min.js"></script>
+<script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
-<script src="{{ .Site.BaseURL }}js/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+
 
 {{ range .Site.Params.customJS }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
@@ -23,3 +22,27 @@ var _hmt = _hmt || [];
 })();
 </script>
 {{ end }}
+
+  <script>
+  (function(){
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+  <script>(function(){
+      var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?05520debdbedd780ba345d83b7d5e6f4":"https://jspassport.ssl.qhimg.com/11.0.1.js?05520debdbedd780ba345d83b7d5e6f4";
+      document.write('<script src="' + src + '" id="sozz"><\/script>');
+      })();
+      </script>
+
+<!-- <script async src="/js/jquery.min.js"></script> -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<script src="https://c.mipcdn.com/static/v1/mip.js"></script>

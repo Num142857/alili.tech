@@ -1,15 +1,21 @@
-	{{ partial "head.html" . }}
-	<body>
-    {{ partial "nav.html" . }}
+{{ partial "head.html" . }}
 
-    {{ partial "profile.html" . }}
+<body>
 
-    <section id="wrapper" class="home">
-        {{ partial "post-list.html"  . }}
-        {{ partial "pagination.html" . }}
-        {{ partial "footer.html"     . }}
-    </section>
+    <div class="content index width mx-auto px3 my4">
+        {{ partial "nav.html" . }}
+
+        <!-- {{ partial "profile.html" . }} -->
+
+        <section id="wrapper" class="home">
+            {{ partial "post-list.html" . }}
+            {{ partial "pagination.html" . }}
+            {{ partial "footer.html" . }}
+        </section>
+
+    </div>
 
     {{ partial "js.html" . }}
-    </body>
+</body>
+
 </html>

@@ -8,10 +8,14 @@ features = ["blog", "beautiful", "disqus", "rss", "syntax highlighting", "tags"]
 min_version = 0.20
 
 [author]
-  name = "nodejh"
+  name = "Fan"
   homepage = "https://github.com/nodejh"
 
 [[original]]
   name = "Cactus"
   homepage = "https://themes.gohugo.io/cactus/"
   repo = "https://github.com/digitalcraftsman/hugo-cactus-theme"
+
+projects_url = "http://github.com/Fantasy9527"
+rss = false
+

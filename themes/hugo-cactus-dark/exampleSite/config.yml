@@ -1,0 +1,48 @@
+baseurl: your_site_url_address
+languageCode: en
+title: site title
+theme: hugo-theme-cactus-plus
+googleAnalytics: your_google_analytics_id
+hasCJKLanguage: false
+params:
+  author: site_author
+  description: Site Description
+  bio: author biography
+  twitter: your_twitter_id
+  facebook: your_facebook_id
+  enableRSS: true
+  enableToc: true
+  enableDisqus: true
+  disqusShortname: your_disqus_short_name
+  enableSummary: true
+  useDescriptionReplaceSummary: false
+  enableGoogleAnalytics: true
+  enableBaiduAnalytics: false
+  baiduAnalytics: your_baidu_analysis_code
+  enableTwitterCard: true
+  twitterCardImage: ''
+  customCSS: []
+  customJS: []
+  home: ''
+  about: ''
+  archive: ''
+  subscribe: ''
+  olderPosts: ''
+  newerPosts: ''
+  copyright: ''
+  showLatestPosts: false
+  readMore: ''
+  enableShare: true
+  tweet: ''
+  share: ''
+  title404: ''
+  subtitle404: ''
+  iconFont: font-awesome
+  socialIconStyle: ''
+  
+social:
+  facebook-square: 'https://www.facebook.com/nodejh'
+  twitter-square: 'https://www.twitter.com/nodejh'
+  github-square: 'https://www.github.com/nodejh'
+
+
