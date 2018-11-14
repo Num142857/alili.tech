@@ -1,6 +1,6 @@
 ---
 title: Nodejs爬虫技巧-使用Puppeteer下载图片或文件
-tags: puppeteer
+tags: [puppeteer]
 keywords: 'Nodejs,爬虫,puppeteer,爬虫技巧,Chrome,浏览器'
 slug: 84622ce5
 date: 2018-10-23 20:32:05

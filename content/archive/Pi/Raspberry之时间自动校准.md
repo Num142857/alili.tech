@@ -1,6 +1,6 @@
 ---
 title: Raspberry之时间自动校准
-tags: Raspberry Pi
+tags: [Raspberry Pi]
 slug: 4befbcf0
 keywords: 树莓派,nodejs,ssh,前端,Raspberry,pi,时间
 date: 2017-01-20 22:30:05

@@ -1,6 +1,6 @@
 ---
 title: 微信浏览器动态修改Title
-tags: weChat
+tags: [weChat]
 slug: 1e2d080b
 keywords: 微信,浏览器,修改title
 date: 2016-05-26 11:43:05

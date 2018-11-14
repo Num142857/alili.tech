@@ -1,6 +1,6 @@
 ---
 title: 2018年11月Github Javascript开源项目精选
-tags: Trending
+tags: [Trending]
 slug: e57d7fd7
 date: 2018-11-08 00:00:00
 ---

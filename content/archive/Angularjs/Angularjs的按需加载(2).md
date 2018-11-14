@@ -3,7 +3,7 @@ title: Angularjs的按需加载(2)
 slug: e0d91a49
 date: 2016-05-31 20:34:35
 keywords: Angularjs,按需加载,解决方案
-tags: Angularjs
+tags: [Angularjs]
 ---
 上一篇我们实现了最简单的Angularjs的按需加载,
 

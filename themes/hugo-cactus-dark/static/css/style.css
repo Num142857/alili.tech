@@ -1203,6 +1203,7 @@ article .content .caption {
     background-image: none;
     -webkit-text-size-adjust:none; 
     white-space:nowrap;
+    line-height: 23px;
 }
 
 .blog-post-comments.v .power {

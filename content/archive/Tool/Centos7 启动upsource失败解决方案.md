@@ -1,6 +1,6 @@
 ---
 title: Centos7环境下启动Upsource失败解决办法
-tags: Upsource
+tags: [Upsource]
 slug: 66c1c154
 keywords: Upsource,Centos7,启动Upsource失败,代码审查
 date: 2018-09-29 19:33:33

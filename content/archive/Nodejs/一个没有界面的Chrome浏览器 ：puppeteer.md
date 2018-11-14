@@ -1,6 +1,6 @@
 ---
 title: 一个没有界面的Chrome浏览器：puppeteer
-tags: puppeteer
+tags: [puppeteer]
 slug: b9985e69
 keywords:  Nodejs,ts,map,typescript,puppeteer,Chrome,浏览器
 date: 2017-12-21 20:32:05

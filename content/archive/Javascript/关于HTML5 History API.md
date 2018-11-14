@@ -1,6 +1,6 @@
 ---
 title: 关于HTML5 History API
-tags: Javascript
+tags: [Javascript]
 slug: e8e7fab1
 keywords: Javascript,css,History,浏览器,http,HTML5
 date: 2016-06-06 23:52:35

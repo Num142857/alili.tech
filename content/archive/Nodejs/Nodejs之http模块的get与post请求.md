@@ -1,6 +1,6 @@
 ---
 title: Nodejs之http模块的get与post请求
-tags: Nodejs
+tags: [Nodejs]
 slug: 59cf5417
 keywords:  Nodejs,http,get,post,请求
 date: 2017-02-16 20:32:05

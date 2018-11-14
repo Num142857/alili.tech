@@ -1,6 +1,6 @@
 ---
 title: 基于Github与Coding等代码托管平台的自动化部署
-tags: Nodejs
+tags: [Nodejs]
 slug: ff76a1bd
 keywords:  Nodejs,自动化,webhook,网络,github,coding
 date: 2017-02-14 22:30:05

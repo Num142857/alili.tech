@@ -1,6 +1,6 @@
 ---
 title: MongoDB - 基本概念与其他数据库对比
-tags: MongoDB
+tags: [MongoDB]
 slug: 1f77f611
 keywords: MongoDB,基本概念,数据库,Database,Collection,Table,关系型数据库
 date: 2018-05-10 00:00:00

@@ -1,6 +1,6 @@
 ---
 title: 让Nodejs像浏览器一样Fetch你想要的
-tags: Nodejs
+tags: [Nodejs]
 slug: 5bc12a97
 keywords: Fetch,nodejs
 date: 2017-02-17 20:32:05

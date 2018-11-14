@@ -1,6 +1,6 @@
 ---
 title: Raspberry之利用SSH操作树莓派
-tags: Raspberry Pi
+tags: [Raspberry Pi]
 slug: 467ebcb2
 keywords: 树莓派,nodejs,ssh,前端,Raspberry,pi
 date: 2017-01-10 17:53:05

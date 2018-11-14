@@ -1,6 +1,6 @@
 ---
 title: 源码分析Angularjs中的Provider们的小小区别
-tags: Angularjs
+tags: [Angularjs]
 slug: 41effd04
 keywords: Angularjs,Provider,源码分析
 date: 2016-02-22 16:14:25

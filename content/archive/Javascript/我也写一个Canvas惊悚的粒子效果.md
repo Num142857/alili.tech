@@ -1,6 +1,6 @@
 ---
 title: 我也写一个Canvas惊悚的粒子效果
-tags: Javascript
+tags: [Javascript]
 slug: 95852f7d
 keywords: Javascript,html5,canvas
 date: 2016-09-04 11:46:35

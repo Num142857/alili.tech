@@ -1,6 +1,6 @@
 ---
 title: 基于shipit-deploy实现的多服务器自动化部署方案
-tags: Nodejs
+tags: [Nodejs]
 slug: fba46182
 keywords:  Nodejs,自动化,webhook,网络,github,coding,shipit-deploy
 date: 2017-12-17 20:32:05

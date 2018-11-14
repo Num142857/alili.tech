@@ -1,7 +1,7 @@
 ---
 title: Switch的NSP和XCI什么区别？
 keywords: 'Nintendo,任天堂,Switch,破解,原理'
-tags: Game
+tags: [Game]
 slug: 150b3ba6
 date: 2018-10-14 19:02:36
 ---

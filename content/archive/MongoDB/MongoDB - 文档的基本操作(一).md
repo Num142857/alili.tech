@@ -1,6 +1,6 @@
 ---
 title: MongoDB - 文档的基本操作 (一)
-tags: MongoDB
+tags: [MongoDB]
 slug: 9e29eec0
 keywords: MongoDB,基本概念,数据库,Database,Collection,Table,关系型数据库
 date: 2018-05-12 00:00:00

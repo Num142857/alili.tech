@@ -1,6 +1,6 @@
 ---
 title: Linux -  SSH连接远程服务器直接执行command时PATH不全解决方案
-tags: Linux
+tags: [Linux]
 keywords: 'Linux,Centos,ssh,copy,id,PATH不全,non-interactive mode'
 slug: a5e195cc
 date: 2018-03-15 20:32:05

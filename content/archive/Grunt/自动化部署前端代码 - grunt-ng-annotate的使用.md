@@ -3,7 +3,7 @@ title: 自动化部署前端代码 - grunt-ftp-deploy的使用
 slug: '20901007'
 date: 2015-06-14 23:36:00
 keywords: grunt,持续集成,前端自动发布,前端自动部署,grunt-ftp-deploy
-tags: 前端自动化
+tags: [前端自动化]
 ---
 
 每一次修改完代码之后,要部署到远程的服务器,我的操作步骤是:

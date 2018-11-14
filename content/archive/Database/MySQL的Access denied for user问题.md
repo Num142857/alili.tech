@@ -1,6 +1,6 @@
 ---
 title: MySQL的Access denied for user问题
-tags: Database
+tags: [Database]
 slug: 78cba2eb
 keywords: 数据库,MySQL,Access denied for user
 date: 2017-08-25 23:36:00

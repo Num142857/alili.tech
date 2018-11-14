@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Code隐藏从ts生成的额外js与map文件
-tags: Nodejs
+tags: [Nodejs]
 slug: b36fefc7
 keywords:  Nodejs,ts,map,typescript,Visual Studio Code,vscode
 date: 2017-11-22 20:32:05

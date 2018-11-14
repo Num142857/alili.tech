@@ -1,20 +1,3 @@
-<nav class="main-nav" style='display: none'>
-	{{ $url := replace .Permalink .Site.BaseURL "" }}
-	{{ if not .IsHome }}
-		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
-	{{ end }}
-	<a href='{{ .Site.BaseURL }}posts'>{{ with .Site.Params.archive }}{{ . }}{{ else }}Archive{{ end }}</a>
-	<a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
-	<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
-
-	{{ range $key, $val := .Site.Params.Links }}
-		<a href="{{ $val }}">{{ $key }}</a>
-	{{ end }}
-
-	{{ if .Site.Params.enableRSS }}
-	<a class="cta" href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}Subscribe{{ end }}</a>
-	{{ end }}
-</nav>
 
 <header id="header">
 	<a href="/">
@@ -22,7 +5,7 @@
 		<div id="logo" style='background-image: url({{.Site.Params.Customize.Logo.Url}});'></div>
 	  <div id="title">
 		<!-- <h1><%= page.tag || page.title || config.title %></h1> -->
-		<h1>{{.Site.Title}}</h1>
+		<h1>{{.Title}}</h1>
 	  </div>
 	</a>
 	<div id="nav">

@@ -1,6 +1,6 @@
 ---
 title: 让Webpack支持sftp上传文件
-tags: Webpack
+tags: [Webpack]
 slug: 5e4dd5b8
 keywords: webpack,自动化,持续集成,自动部署,sftp,自动发布
 date: 2017-07-18 11:43:05

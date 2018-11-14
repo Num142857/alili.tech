@@ -1,6 +1,6 @@
 ---
 title: Hexo的DTraceProviderBindings MODULE_NOT_FOUND问题
-tags: Hexo
+tags: [Hexo]
 slug: e25431a8
 keywords: Hexo,DTraceProviderBindings,MODULE_NOT_FOUND,问题
 date: 2017-02-19 21:32:05

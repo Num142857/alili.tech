@@ -1,6 +1,6 @@
 ---
 title: 2017年12月Github Javascript开源项目精选
-tags: Trending
+tags: [Trending]
 slug: 408ec5a5
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2017-12-08 00:00:00

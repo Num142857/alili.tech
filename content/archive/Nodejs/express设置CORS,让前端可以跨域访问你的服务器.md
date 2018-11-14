@@ -1,6 +1,6 @@
 ---
 title: 'Express设置CORS,让浏览器可以跨域访问你的服务器'
-tags: Nodejs
+tags: [Nodejs]
 slug: e06698c9
 keywords: Express,CORS,跨域,服务器
 date: 2017-02-18 21:32:05

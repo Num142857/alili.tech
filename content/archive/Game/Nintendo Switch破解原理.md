@@ -1,7 +1,7 @@
 ---
 title: Nintendo Switch破解原理
 keywords: 'Nintendo,任天堂,Switch,破解,原理'
-tags: Game
+tags: [Game]
 slug: 33fa548c
 date: 2018-10-11 19:02:36
 ---

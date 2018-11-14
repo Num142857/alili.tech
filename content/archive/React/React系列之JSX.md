@@ -1,6 +1,6 @@
 ---
 title: React系列之JSX
-tags: React
+tags: [React]
 slug: 10fba257
 keywords: react,脚手架,create-react-app
 date: 2017-07-13 19:33:33

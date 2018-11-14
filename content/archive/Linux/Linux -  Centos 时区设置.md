@@ -1,6 +1,6 @@
 ---
 title: Linux -  Centos 时区设置
-tags: Linux
+tags: [Linux]
 slug: 3f6742b1
 keywords: Linux,Centos,时区设置
 date: 2018-07-30 20:32:05

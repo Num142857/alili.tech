@@ -1,6 +1,6 @@
 ---
 title: Raspberry之系统安装
-tags: Raspberry Pi
+tags: [Raspberry Pi]
 slug: 2a0d2aea
 keywords: 树莓派,nodejs,ssh,前端,Raspberry,pi,安装,系统安装,NOOBS
 date: 2017-01-10 12:43:05

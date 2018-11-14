@@ -1,6 +1,6 @@
 ---
 title: 2018年05月Github Javascript开源项目精选
-tags: Trending
+tags: [Trending]
 slug: 45e861f0
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2018-05-08 00:00:00
