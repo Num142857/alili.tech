@@ -1200,7 +1200,9 @@ article .content .caption {
 }
 
 .tagcloud-wrap a,.tagcloud-wrap a:hover {
-    background-image: none
+    background-image: none;
+    -webkit-text-size-adjust:none; 
+    white-space:nowrap;
 }
 
 .blog-post-comments.v .power {

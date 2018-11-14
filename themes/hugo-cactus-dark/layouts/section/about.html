@@ -1,19 +1,20 @@
+
 {{ partial "head.html" . }}
+
 <body>
-{{ partial "nav.html" . }}
-{{ partial "profile.html" . }}
 
-<section id="wrapper" class="home">
-    {{ .Content }}
+    <div class="content index width mx-auto px3 my4">
+        {{ partial "nav.html" . }}
 
-    {{ if .Site.Params.enableDisqus }}
-        {{ if ne .Params.disabledisqus "true" }}
-            {{ partial "disqus.html" . }}
-        {{ end }}
-    {{ end }}
+        <!-- {{ partial "profile.html" . }} -->
 
+        <div class="content" itemprop="articleBody">
+                {{ .Content }}
+        </div>
+        {{ partial "comments.html" . }}
+    </div>
     {{ partial "footer.html" . }}
-</section>
-
-{{ partial "js.html" . }}
+    {{ partial "js.html" . }}
 </body>
+
+</html>
