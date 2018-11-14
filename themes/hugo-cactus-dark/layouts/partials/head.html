@@ -44,4 +44,15 @@
 			  }
 			}, true);
 			</script>
+		<script type="application/ld+json">
+			{
+				"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
+				"@id": "{{.Permalink}}",
+				"appid": "1613049289050283", 
+				"title": "{{ if .IsHome }}前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ end }}", 
+				"images": [],
+				"pubDate": "<%- date(Date.now(), "YYYY-MM-DD\THH:mm:ss") %>"
+				"pubDate": "{{ now.Format "2006-01-02T15:04:05"}}"
+			} 
+			</script>
 	</head>
