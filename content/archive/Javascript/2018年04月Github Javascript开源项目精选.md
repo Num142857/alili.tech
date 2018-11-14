@@ -1,7 +1,7 @@
 ---
 title: 2018年04月Github Javascript开源项目精选
 tags: Trending
-abbrlink: 731af103
+slug: 731af103
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2018-04-08 00:00:00
 ---

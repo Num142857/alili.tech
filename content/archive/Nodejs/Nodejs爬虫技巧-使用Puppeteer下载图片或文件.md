@@ -2,7 +2,7 @@
 title: Nodejs爬虫技巧-使用Puppeteer下载图片或文件
 tags: puppeteer
 keywords: 'Nodejs,爬虫,puppeteer,爬虫技巧,Chrome,浏览器'
-abbrlink: 84622ce5
+slug: 84622ce5
 date: 2018-10-23 20:32:05
 ---
 > 一些网站的图片不允许外链,我们想要下载这些网站的图片通过Puppeteer是比较好解决的.

@@ -3,7 +3,7 @@ title: Alili Weekly 前端周刊 第三期
 tags:
   - 前端周刊
   - Weekly
-abbrlink: 9196ee0d
+slug: 9196ee0d
 date: 2018-10-19 00:00:00
 ---
 ![Alili Weekly 前端周刊 第三期](https://static.alili.tech/images/github_24.png)

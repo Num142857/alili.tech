@@ -2,7 +2,7 @@
 title: 使用Eggjs(koa) & web3.js开发你的以太坊Dapp
 tags: 区块链
 keywords: '区块链,以太坊,koa,eggjs,Solidity,truffle'
-abbrlink: 69a6fd18
+slug: 69a6fd18
 date: 2018-10-10 19:33:33
 ---
 # Eggjs

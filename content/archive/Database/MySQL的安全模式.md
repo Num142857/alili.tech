@@ -1,7 +1,7 @@
 ---
 title: MySQL的安全模式
 tags: Database
-abbrlink: 49f93461
+slug: 49f93461
 keywords: 数据库,MySQL,安全模式
 date: 2017-08-26 23:36:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: MongoDB - 文档的基本操作 (二)
 tags: MongoDB
-abbrlink: 311875a2
+slug: 311875a2
 keywords: MongoDB,基本概念,数据库,Database,Collection,Table,关系型数据库
 date: 2018-05-13 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: Hexo的SEO优化(搜索引擎优化)
 tags: SEO
-abbrlink: 4105a341
+slug: 4105a341
 keywords: Hexo,SEO,搜索引擎优化,百度,谷歌,baidu,google,优化,曝光
 date: 2016-01-19 21:32:05
 ---

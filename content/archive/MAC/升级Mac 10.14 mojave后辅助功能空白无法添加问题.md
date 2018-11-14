@@ -2,7 +2,7 @@
 title: 升级Mac 10.14 mojave后辅助功能空白无法添加问题
 tags: mac
 keywords: 'Macbook,Pro,mojave,不可用,问题,辅助功能空白'
-abbrlink: b8bdc73c
+slug: b8bdc73c
 date: 2018-11-04 22:30:05
 ---
 

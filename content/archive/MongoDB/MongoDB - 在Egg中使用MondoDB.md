@@ -1,7 +1,7 @@
 ---
 title: MongoDB - 在Egg中使用MondoDB
 tags: MongoDB
-abbrlink: c165a1d9
+slug: c165a1d9
 keywords: MongoDB,eggjs
 date: 2018-05-18 00:00:00
 ---

@@ -3,7 +3,7 @@ title: Alili Weekly 前端周刊 第一期
 tags:
   - 前端周刊
   - Weekly
-abbrlink: ec9ea187
+slug: ec9ea187
 date: 2018-10-05 00:00:00
 ---
 ![](https://static.alili.tech/images/github_31.png)

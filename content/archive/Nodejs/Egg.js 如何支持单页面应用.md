@@ -1,7 +1,7 @@
 ---
 title: Egg.js 如何支持单页面应用
 tags: Nodejs
-abbrlink: 524de824
+slug: 524de824
 keywords: Eggjs,Nodejs,单页面应用
 date: 2017-12-01 22:30:05
 ---

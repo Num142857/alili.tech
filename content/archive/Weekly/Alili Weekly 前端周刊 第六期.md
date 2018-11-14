@@ -3,7 +3,7 @@ title: Alili Weekly 前端周刊 第六期
 tags:
   - 前端周刊
   - Weekly
-abbrlink: 2c2b79f6
+slug: 2c2b79f6
 date: 2018-11-09 00:00:00
 ---
 ![Alili Weekly 前端周刊 第六期](https://static.alili.tech/images/github_49.png)

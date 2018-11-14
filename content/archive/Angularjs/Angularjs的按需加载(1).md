@@ -1,6 +1,6 @@
 ---
 title: Angularjs的按需加载(1)
-abbrlink: cbf4498a
+slug: cbf4498a
 date: 2016-05-30 16:14:25
 keywords: Angularjs,按需加载,解决方案
 tags: Angularjs

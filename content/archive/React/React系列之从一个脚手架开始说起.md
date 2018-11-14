@@ -1,7 +1,7 @@
 ---
 title: 'React系列之从一个脚手架开始说起:create-react-app'
 tags: React
-abbrlink: 7a6daf6e
+slug: 7a6daf6e
 keywords: react,脚手架,create-react-app
 date: 2017-07-12 19:33:33
 ---

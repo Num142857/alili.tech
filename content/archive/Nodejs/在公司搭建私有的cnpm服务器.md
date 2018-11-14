@@ -1,7 +1,7 @@
 ---
 title: 在公司搭建私有的cnpm服务器
 tags: Nodejs
-abbrlink: eed8d24e
+slug: eed8d24e
 keywords:  Nodejs,ts,私有,服务器,typescript,verdaccio,npm,浏览器,cnpm
 date: 2017-11-24 22:30:05
 ---

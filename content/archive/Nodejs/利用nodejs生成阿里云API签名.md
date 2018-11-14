@@ -1,7 +1,7 @@
 ---
 title: 利用Nodejs生成阿里云API签名
 tags: Nodejs
-abbrlink: 7cafffa9
+slug: 7cafffa9
 keywords:  Nodejs,阿里云,签名
 date: 2017-02-13 21:32:05
 ---

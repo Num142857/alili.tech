@@ -1,6 +1,6 @@
 ---
 title: 自动化部署前端代码 - grunt-ftp-deploy的使用
-abbrlink: '20901007'
+slug: '20901007'
 date: 2015-06-14 23:36:00
 keywords: grunt,持续集成,前端自动发布,前端自动部署,grunt-ftp-deploy
 tags: 前端自动化

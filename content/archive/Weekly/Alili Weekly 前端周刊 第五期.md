@@ -3,7 +3,7 @@ title: Alili Weekly 前端周刊 第五期
 tags:
   - 前端周刊
   - Weekly
-abbrlink: 4925322f
+slug: 4925322f
 date: 2018-11-02 00:00:00
 ---
 ![Alili Weekly 前端周刊 第五期](https://static.alili.tech/images/github_15.png)

@@ -1,7 +1,7 @@
 ---
 title: 2018年11月Github Javascript开源项目精选
 tags: Trending
-abbrlink: e57d7fd7
+slug: e57d7fd7
 date: 2018-11-08 00:00:00
 ---
 ![](https://static.alili.tech/images/github_48.png)

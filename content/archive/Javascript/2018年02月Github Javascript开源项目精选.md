@@ -1,7 +1,7 @@
 ---
 title: 2018年02月Github Javascript开源项目精选
 tags: Trending
-abbrlink: c5359329
+slug: c5359329
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2018-02-22 00:00:00
 ---

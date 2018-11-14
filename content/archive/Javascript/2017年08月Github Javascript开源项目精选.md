@@ -1,7 +1,7 @@
 ---
 title: 2017年08月Github Javascript开源项目精选
 tags: Trending
-abbrlink: 650c34ac
+slug: 650c34ac
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2017-08-09 00:00:00
 ---

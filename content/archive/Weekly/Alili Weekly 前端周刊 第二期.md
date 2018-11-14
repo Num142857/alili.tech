@@ -3,7 +3,7 @@ title: Alili Weekly 前端周刊 第二期
 tags:
   - 前端周刊
   - Weekly
-abbrlink: dc884d5f
+slug: dc884d5f
 date: 2018-10-12 00:00:00
 ---
 ![Alili Weekly 前端周刊 第二期](https://static.alili.tech/images/github_61.png)

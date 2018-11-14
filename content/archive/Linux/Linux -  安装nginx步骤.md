@@ -1,7 +1,7 @@
 ---
 title: Linux - 安装nginx步骤
 tags: Linux
-abbrlink: d150fc3c
+slug: d150fc3c
 keywords: Linux,Centos,ssh,nginx,yum
 date: 2018-01-16 20:32:05
 ---

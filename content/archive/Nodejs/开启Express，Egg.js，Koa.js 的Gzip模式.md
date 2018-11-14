@@ -1,7 +1,7 @@
 ---
 title: 开启Express，Egg.js，Koa.js 的Gzip模式
 tags: Nodejs
-abbrlink: a8ce80b
+slug: a8ce80b
 keywords: 开启,Express,Egg.js,Koa.js,Gzip,nodejs,http
 date: 2017-12-13 20:32:05
 ---

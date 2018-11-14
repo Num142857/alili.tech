@@ -1,7 +1,7 @@
 ---
 title: MongoDB - 安装与启动
 tags: MongoDB
-abbrlink: f82d8042
+slug: f82d8042
 keywords: MongoDB,基本概念,数据库,Database,Collection,Table,关系型数据库
 date: 2018-05-09 00:00:00
 ---

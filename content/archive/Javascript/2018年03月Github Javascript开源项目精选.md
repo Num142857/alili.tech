@@ -1,7 +1,7 @@
 ---
 title: 2018年03月Github Javascript开源项目精选
 tags: Trending
-abbrlink: f3c703da
+slug: f3c703da
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2018-03-08 00:00:00
 ---

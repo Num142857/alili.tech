@@ -1,7 +1,7 @@
 ---
 title: Linux -  使用ssh-copy-id命令实现ssh Linux免密码登陆
 tags: Linux
-abbrlink: 5f4cf684
+slug: 5f4cf684
 keywords: Linux,Centos,ssh,copy,id,免密码
 date: 2017-12-16 20:32:05
 ---

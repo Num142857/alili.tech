@@ -2,7 +2,7 @@
 title: 如何通过 Code Review 帮助团队提升代码质量
 tags:
   - Code Review
-abbrlink: bbaf6d07
+slug: bbaf6d07
 date: 2018-11-08 00:00:00
 ---
 # 代码审查解决方案

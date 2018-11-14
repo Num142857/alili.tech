@@ -1,7 +1,7 @@
 ---
 title: Javascript的奇淫技巧
 tags: Javascript
-abbrlink: 7807a0b7
+slug: 7807a0b7
 keywords: Javascript,css,技巧,浏览器
 date: 2016-05-25 11:33:33
 ---

@@ -1,7 +1,7 @@
 ---
 title: Raspberry之安装Nodejs
 tags: Raspberry Pi
-abbrlink: 58ab432d
+slug: 58ab432d
 keywords: 树莓派,nodejs,ssh,前端,Raspberry,pi
 date: 2017-01-11 22:30:05
 ---

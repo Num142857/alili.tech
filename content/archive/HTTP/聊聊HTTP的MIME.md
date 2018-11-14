@@ -1,7 +1,7 @@
 ---
 title: 聊聊HTTP的MIME
 tags: HTTP
-abbrlink: 3b54e2d1
+slug: 3b54e2d1
 keywords: http,浏览器特性,MIME,格式
 date: 2017-07-26 16:14:25
 ---

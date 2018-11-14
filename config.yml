@@ -1,10 +1,10 @@
-baseURL : "/"
+baseURL : "https:alili.tech/"
 languageCode : "en-us"
 title : "Alili"
 theme : "hugo-cactus-dark"
 permalinks:
-  post: /:year/:month/:title/3232/
-canonifyURLs: true
+  post: /1112121/:year/:month/:title/
+  archive: archive/:slug/
 params:
   customize:
       gravatar:

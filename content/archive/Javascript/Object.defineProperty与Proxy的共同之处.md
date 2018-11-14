@@ -1,7 +1,7 @@
 ---
 title: Object.defineProperty与Proxy的共同之处
 tags: Javascript
-abbrlink: 4c861783
+slug: 4c861783
 keywords: Javascript,css,技巧,浏览器,Object.defineProperty,Proxy
 date: 2017-06-01 11:33:33
 ---

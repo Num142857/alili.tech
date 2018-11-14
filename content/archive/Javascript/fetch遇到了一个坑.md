@@ -1,6 +1,6 @@
 ---
 title: fetch遇到了一个坑
-abbrlink: d82a6654
+slug: d82a6654
 date: 2016-06-08 22:52:35
 keywords: Javascript,css,技巧,浏览器,fetch
 tags:

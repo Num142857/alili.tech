@@ -1,7 +1,7 @@
 ---
 title: Raspberry之开机启动pm2
 tags: Raspberry Pi
-abbrlink: 9b723d04
+slug: 9b723d04
 keywords: 树莓派,nodejs,ssh,前端,Raspberry,pi,pm2
 date: 2017-01-12 20:32:05
 ---

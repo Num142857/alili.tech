@@ -5,7 +5,7 @@ tags:
   - MicroFrontend
   - 前端架构
 keywords: '微前端,前端微服务化,前端自动化,解决方案,前端难题,Single,SPA'
-abbrlink: 22975f44
+slug: 22975f44
 date: 2018-10-31 00:00:00
 ---
 

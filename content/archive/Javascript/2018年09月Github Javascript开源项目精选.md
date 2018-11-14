@@ -1,7 +1,7 @@
 ---
 title: 2018年09月Github Javascript开源项目精选
 tags: Trending
-abbrlink: f2c7a3e5
+slug: f2c7a3e5
 keywords: Github,Javascript,前端趋势,未来前端,技术趋势,解决方案
 date: 2018-09-08 00:00:00
 ---

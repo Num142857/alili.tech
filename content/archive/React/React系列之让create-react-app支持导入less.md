@@ -1,7 +1,7 @@
 ---
 title: React系列之让create-react-app支持导入less
 tags: React
-abbrlink: 3b5f5a23
+slug: 3b5f5a23
 keywords: react,脚手架,less
 date: 2017-07-14 19:33:33
 ---

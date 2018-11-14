@@ -2,7 +2,7 @@
 title: Switch的NSP和XCI什么区别？
 keywords: 'Nintendo,任天堂,Switch,破解,原理'
 tags: Game
-abbrlink: 150b3ba6
+slug: 150b3ba6
 date: 2018-10-14 19:02:36
 ---
 最近在折腾Switch, 在游戏安装中出现了两种游戏格式,分别是

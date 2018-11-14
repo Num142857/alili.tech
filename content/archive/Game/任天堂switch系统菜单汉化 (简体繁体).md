@@ -2,7 +2,7 @@
 title: 任天堂Switch 6.0+ 系统菜单汉化
 keywords: 'Nintendo,任天堂,Switch,破解,系统菜单汉化,汉化'
 tags: Game
-abbrlink: b3ccb586
+slug: b3ccb586
 date: 2018-10-15 19:02:36
 ---
 

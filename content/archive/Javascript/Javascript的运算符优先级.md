@@ -1,7 +1,7 @@
 ---
 title: Javascript的运算符优先级
 tags: Javascript
-abbrlink: '6e692504'
+slug: '6e692504'
 keywords: Javascript,css,技巧,浏览器
 date: 2016-08-25 11:33:33
 ---

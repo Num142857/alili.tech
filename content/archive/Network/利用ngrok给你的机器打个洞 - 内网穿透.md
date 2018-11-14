@@ -1,7 +1,7 @@
 ---
 title: 利用ngrok给你的机器打个洞 - 内网穿透
 tags: Network
-abbrlink: df8d5e8d
+slug: df8d5e8d
 keywords: Network,网络,内网穿透,ngrok
 date: 2018-09-12 00:00:00
 ---

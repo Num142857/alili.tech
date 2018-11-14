@@ -1,7 +1,7 @@
 ---
 title: Linux - vim vi学习笔记
 tags: Linux
-abbrlink: 7f7747d0
+slug: 7f7747d0
 keywords: Linux,Centos,vi,vim
 date: 2018-02-17 20:32:05
 ---

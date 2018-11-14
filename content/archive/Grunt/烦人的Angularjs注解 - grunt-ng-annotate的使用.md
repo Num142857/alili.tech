@@ -1,6 +1,6 @@
 ---
 title: 烦人的Angularjs注解 - grunt-ng-annotate的使用
-abbrlink: c38cfa0d
+slug: c38cfa0d
 date: 2015-06-12 23:15:00
 keywords: Angularjs,annotate,注解,grunt,自动化,持续集成
 tags: [Angularjs,前端自动化]

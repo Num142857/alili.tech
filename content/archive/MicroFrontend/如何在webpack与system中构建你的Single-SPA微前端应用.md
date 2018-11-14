@@ -4,7 +4,7 @@ tags:
   - 微前端
   - MicroFrontend
 keywords: '微前端,前端微服务化,前端自动化,解决方案,前端难题,Single,SPA'
-abbrlink: 1a4f2dcf
+slug: 1a4f2dcf
 date: 2018-10-31 01:00:00
 ---
 

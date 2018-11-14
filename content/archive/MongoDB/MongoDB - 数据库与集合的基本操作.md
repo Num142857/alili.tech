@@ -1,7 +1,7 @@
 ---
 title: MongoDB - 数据库与集合的基本操作
 tags: MongoDB
-abbrlink: 3a26a4b
+slug: 3a26a4b
 keywords: MongoDB,基本概念,数据库,Database,Collection,Table,关系型数据库
 date: 2018-05-11 00:00:00
 ---

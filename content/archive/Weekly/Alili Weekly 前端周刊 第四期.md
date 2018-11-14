@@ -3,7 +3,7 @@ title: Alili Weekly 前端周刊 第四期
 tags:
   - 前端周刊
   - Weekly
-abbrlink: 26bbf768
+slug: 26bbf768
 date: 2018-10-26 00:00:00
 ---
 ![Alili Weekly 前端周刊 第四期](/images/github_7.png)

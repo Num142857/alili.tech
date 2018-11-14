@@ -2,7 +2,7 @@
 title: Git删除所有提交记录解决方案
 tags: Git
 keywords: 'git,push,解决方案,删除所有,提交记录,删除'
-abbrlink: ed854758
+slug: ed854758
 date: 2018-10-30 19:33:33
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: Macbook Pro蓝牙不可用问题
 tags: mac
-abbrlink: a8e3f4c2
+slug: a8e3f4c2
 keywords: Macbook,Pro,蓝牙,不可用,问题
 date: 2017-07-16 22:30:05
 ---

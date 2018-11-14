@@ -1,7 +1,7 @@
 ---
 title: '跨域还可以这样玩,使用CSS3特性做跨域'
 tags: Javascript
-abbrlink: b0bb249b
+slug: b0bb249b
 keywords: 跨域,Javascript,css,技巧,浏览器
 date: 2017-06-20 16:14:25
 ---

@@ -1,7 +1,7 @@
 ---
 title: HTTP的URI格式说明
 tags: HTTP
-abbrlink: 84afbeeb
+slug: 84afbeeb
 keywords: http,浏览器特性,URI,格式
 date: 2017-07-25 16:14:25
 ---
