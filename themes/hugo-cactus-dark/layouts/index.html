@@ -9,12 +9,13 @@
 
         <section id="wrapper" class="home">
             {{ partial "post-list.html" . }}
-            {{ partial "pagination.html" . }}
-            {{ partial "footer.html" . }}
+            <!-- {{ partial "pagination.html" . }} -->
+            {{ partial "project.html" . }}
+            
         </section>
 
     </div>
-
+    {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
 </body>
 

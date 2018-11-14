@@ -1,20 +1,43 @@
-<ul id="post-list">
-    {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
-    {{ $url := replace .Permalink .Site.BaseURL "" }}
-        {{ if ne $url "about/" }}
-<li>
-    <aside class="dates">{{ .Date.Format "Jan 2" }}</aside>
-    <a href='{{ .Permalink }}'>
-                    {{ .Title }}
-                    {{ if .Site.Params.enableSummary }}
-                        {{ if .Site.Params.useDescriptionReplaceSummary }}
-                <h2>{{ .Description | plainify }}</h2>
-                        {{ else }}
-                <h2>{{ .Summary | plainify | htmlUnescape }}</h2>
-                        {{ end }}
+<section id="about">
+<div class="description coding">
+        <p class="en prompt"></p>
+        <p class="ch prompt"></p>
+        <p class="author prompt "></p>
+        </div>
+  <p style="display: inline">
+      <span>
+          <i class="fa fa-eye"></i>
+          <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv">0</span>
+          </span>
+        </span>|
+
+        Find me on
+        <ul id="sociallinks">
+          {{ range $key, $val := .Site.Params.customize.social_links }}
+          <li><a class="icon" target="_blank" href="{{$val}}" title="<%= i %>"><i class="fa fa-{{$key}}"></i></a></li>
+          {{ end }}
+        </ul>.
+  </p>
+  <p class="prompt ad-text output new-output">
+      p.s. 网站已经支持PWA,可尝试添加到桌面
+  </p>
+  
+</section>
+<section id="writing">
+  
+        <span class="h1"><a href="">Writing</a></span>
+        <ul class="post-list" id="post-list">
+                {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
+                {{ $url := replace .Permalink .Site.BaseURL "" }}
+                    {{ if ne $url "about/" }}
+                    <li class="post-item">
+                            <div class="meta">
+                            <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+                        </div>
+                            <span> <a href='{{ .Permalink }}'>{{ .Title }}</a></span>
+                          </li>
                     {{ end }}
-    </a>
-</li>
-        {{ end }}
-    {{ end }}
-</ul>
+                {{ end }}
+            </ul>
+      </section> 

@@ -1,30 +1,68 @@
 {{ partial "head.html" . }}
 	<body>
-	{{ partial "nav.html" . }}
-	{{ partial "profile.html" . }}
+	<div class="content index width mx-auto px3 my4">
+		{{ partial "nav.html" . }}
+		
+		<div id="theme-tagcloud" class="tagcloud-wrap">
+			{{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
+			{{ $v1 := where $tags "Count" ">=" 0 }}
+			{{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
+			{{ range $v2 }}
+			{{ if .Term }}
+			{{ $tagURL := printf "tags/%s" .Term | relURL }}
 
-	<section id="wrapper" class="home">
-		{{ range .Data.Pages.GroupByDate "2006" }}
-		<div class="archive">
-			<h3>{{ .Key }}</h3>
-			<ul>
-					{{ range .Pages }}
-					<div class="post-item">
-						<div class="post-time">{{ .Date.Format "Jan 2" }}</div>
-						<a href="{{ .Permalink }}" class="post-link">
-							{{ .Title }}
-						</a>
-					</div>
-					{{ end }}
-			</ul>
-		</div>
-		{{ end }}
-		{{ partial "footer.html" . }}
-	</section>
+			<!-- {{ $tagSize := (div .Count 5)  add 11}} -->
+			{{$tagSize := 11}}
+			{{if gt .Count 5}} 
+			{{ $tagSize = 18 }}
+			{{end}}
+
+			{{if gt .Count 10}} 
+			{{ $tagSize = 22 }}
+			{{end}}
+
+			{{if gt .Count 15}} 
+			{{ $tagSize = 26 }}
+			{{end}}
+
+			{{if gt .Count 20}} 
+			{{ $tagSize = 30 }}
+			{{end}}
+
+			<a href="{{ $tagURL }}"  
+				style="font-size:{{ $tagSize }}px;text-transform:capitalize;" >
+				{{ .Term }} 
+				<!-- <span class="badge">({{ .Count }})</span> -->
+			</a>
+			{{ end }}
+			{{ end }}
+			</div>
+
+
+		<section id="wrapper" class="home">
+			{{ range .Data.Pages.GroupByDate "2006" }}
+			<div class="archive">
+				<h3>{{ .Key }}</h3>
+				<ul class="post-list" id="post-list">
+						{{ range .Pages }}
+						<li class="post-item">
+                            <div class="meta">
+                            <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+                        </div>
+                            <span> <a href='{{ .Permalink }}'>{{ .Title }}</a></span>
+                          </li>
+						{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+			
+		</section>
+
+    </div>
 
 	<div class="dd">
 	</div>
-
+	{{ partial "footer.html" . }}
 	{{ partial "js.html" . }}
 	</body>
 </html>

@@ -1,7 +1,6 @@
 ---
 title: Code Review工具推荐以及使用报告
-tags:
-  - Code Review
+tags: Code Review
 slug: cf2c83a
 date: 2018-11-12 00:00:00
 ---
