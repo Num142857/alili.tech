@@ -1,10 +1,11 @@
-baseURL : "https:alili.tech/"
+baseURL : "https://alili.tech/"
 languageCode : "en-us"
 title : "Alili"
 theme : "hugo-cactus-dark"
 permalinks:
   archive: archive/:slug/
 params:
+  keywords: [Alili,前端大爆炸,WEB BANG BANG BANG,web前端博客,前端模块化,前端工程化,前端数据监控,性能优化,网页制作,前端,js,html5,css,踩坑小报告,微前端,树莓派,前端开发,区块链,网络,Mongodb,Vue.js,Angular.js,node.js]
   customize:
       gravatar:
           email: 
@@ -50,3 +51,8 @@ params:
   # # Dependency: https://github.com/huiwang/hexo-recommended-posts
   # recommended_posts:
   #   enabled: false
+
+sitemap:
+    changefreq: monthly
+    filename: sitemap.xml
+    priority: 0.5
