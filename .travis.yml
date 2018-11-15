@@ -20,8 +20,8 @@ after_success:
     - git config --global user.email "incomparable9527@foxmail.com"
     - git config --global user.name "Fan"
     - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git container
-    - rm -rf container/blog
-    - cp -r blog container 
+    - rm -rf container/*
+    - cp -r blog/* container 
     - cd container
     - ls
     - git add .
