@@ -12,7 +12,6 @@ install:
     - ls
     - pwd
 
-
 script:
     - hugo -d blog
     - echo 'Hugo build done!'
