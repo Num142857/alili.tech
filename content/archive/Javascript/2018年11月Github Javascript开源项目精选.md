@@ -1,8 +1,8 @@
 ---
 title: 2018年11月Github Javascript开源项目精选 
-date: 2018-11-15 0:00:00
+date: 2018-11-08 0:00:00
 tags: [Trending]
-slug: trr0hiv5rd
+slug: e57d7fd7
 ---
 ![](https://static.alili.tech/images/github_28.png)
 ##   [leonardomso / 33-js-concepts](https://github.com/leonardomso/33-js-concepts) : 
