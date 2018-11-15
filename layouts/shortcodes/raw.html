@@ -1,9 +1,13 @@
 
 <div id='row'>
-    
     <script>
         $(function(){
-            $('#row').html("{{ .Inner }}");
+            var html = "{{.Inner}}"
+            html = html.replace(/"{/g,"{")
+            html = html.replace(/{"/g,"{")
+            html = html.replace(/"}/g,"}")
+            html = html.replace(/}"/g,"}")
+            $('#row').html(html);
         })
     </script>
 </div>

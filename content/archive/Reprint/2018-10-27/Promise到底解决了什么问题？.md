@@ -1,12 +1,12 @@
 ---
 title: Promise到底解决了什么问题？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 5de28baf
+slug: 5de28baf
 date: 2018-10-27 02:30:16
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6211;&#x7684;github&#x535A;&#x5BA2; <a href="https://github.com/zhuanyongxigua/blog" rel="nofollow noreferrer" target="_blank">https://github.com/zhuanyongxigua/blog</a></p><p>&#x5927;&#x5BB6;&#x90FD;&#x77E5;&#x9053;Promise&#x89E3;&#x51B3;&#x4E86;&#x56DE;&#x8C03;&#x5730;&#x72F1;&#x7684;&#x95EE;&#x9898;&#x3002;&#x8BF4;&#x5230;&#x56DE;&#x8C03;&#x5730;&#x72F1;&#xFF0C;&#x5F88;&#x5BB9;&#x6613;&#x60F3;&#x5230;&#x4E0B;&#x9762;&#x8FD9;&#x4E2A;<strong>&#x5BB9;&#x6613;&#x8BA9;&#x4EBA;&#x4EA7;&#x751F;&#x8BEF;&#x89E3;&#x7684;&#x56FE;&#x7247;</strong>&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016608986?w=721&amp;h=420" src="https://static.alili.tech/img/remote/1460000016608986?w=721&amp;h=420" alt="" title="" style="cursor:pointer;display:inline"></span></p><p><strong>&#x53EF;&#x56DE;&#x8C03;&#x5730;&#x72F1;&#x5230;&#x5E95;&#x662F;&#x4EC0;&#x4E48;&#xFF1F;&#x5B83;&#x5230;&#x5E95;&#x54EA;&#x91CC;&#x6709;&#x95EE;&#x9898;</strong>&#xFF1F;&#x662F;&#x56E0;&#x4E3A;&#x5D4C;&#x5957;&#x4E0D;&#x597D;&#x770B;&#x8FD8;&#x662F;&#x8BFB;&#x8D77;&#x6765;&#x4E0D;&#x65B9;&#x4FBF;&#xFF1F;</p><p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x8981;&#x60F3;&#x60F3;&#xFF0C;<strong>&#x5D4C;&#x5957;&#x5230;&#x5E95;&#x54EA;&#x91CC;&#x6709;&#x95EE;&#x9898;&#xFF1F;</strong></p><p>&#x4E3E;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="function a() {
   function b() {
     function c() {
@@ -206,7 +206,7 @@ Promise.race([doSomething(), timeoutPromise(3000)])
 <span class="hljs-built_in">Promise</span>.race([doSomething(), timeoutPromise(<span class="hljs-number">3000</span>)])
 .then(...)
 .catch(...);</code></pre><p><strong>&#x5BF9;&#x4E8E;&#x56DE;&#x8C03;&#x6B21;&#x6570;&#x592A;&#x5C11;&#x6216;&#x592A;&#x591A;&#x7684;&#x95EE;&#x9898;</strong>&#xFF0C;&#x7531;&#x4E8E;Promise&#x53EA;&#x80FD;&#x88AB;&#x51B3;&#x8BAE;&#x4E00;&#x6B21;&#xFF0C;&#x4E14;&#x51B3;&#x8BAE;&#x4E4B;&#x540E;&#x65E0;&#x6CD5;&#x6539;&#x53D8;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x5373;&#x4FBF;&#x662F;&#x591A;&#x6B21;&#x56DE;&#x8C03;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x5F71;&#x54CD;&#x7ED3;&#x679C;&#xFF0C;&#x51B3;&#x8BAE;&#x4E4B;&#x540E;&#x7684;&#x8C03;&#x7528;&#x90FD;&#x4F1A;&#x88AB;&#x5FFD;&#x7565;&#x3002;</p><p>&#x53C2;&#x8003;&#x8D44;&#x6599;&#xFF1A;</p><ul><li><a href="https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&amp;%20performance/README.md#you-dont-know-js-async--performance" rel="nofollow noreferrer" target="_blank">You Don&apos;t Know JS: Async &amp; Performance</a></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

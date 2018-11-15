@@ -1,12 +1,12 @@
 ---
 title: 2018年值得期待11个Javascript动画库
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b484c703
+slug: b484c703
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在浏览网页寻找一个整洁的Javascript动画库时，我发现很多“recommended”的动画库一段时间都没有维护。</p>
 <p>经过一些研究，我收集了11个最好的库，在你的应用程序中使用。我还添加了一些，主要是非维护的，有用的库。</p>
@@ -70,7 +70,7 @@ date: 2018-10-18 00:00:00
 <p><a href="https://github.com/airbnb/lottie-web" title="https://github.com/airbnb/lottie-web"><strong>airbnb/lottie-web</strong> _lottie-web - Render After Effects animations natively on Web, Android and iOS, and React Native…_github.com</a><a href="https://github.com/airbnb/lottie-web"></a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/11-javascript-animation-libraries-for-2018](https://www.zcfy.cc/article/11-javascript-animation-libraries-for-2018)

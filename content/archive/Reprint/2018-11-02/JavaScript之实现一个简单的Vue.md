@@ -1,12 +1,12 @@
 ---
 title: JavaScript之实现一个简单的Vue
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fba2b08e
+slug: fba2b08e
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>vue&#x7684;&#x4F7F;&#x7528;&#x76F8;&#x4FE1;&#x5927;&#x5BB6;&#x90FD;&#x5F88;&#x719F;&#x7EC3;&#x4E86;&#xFF0C;&#x4F7F;&#x7528;&#x8D77;&#x6765;&#x7B80;&#x5355;&#x3002;&#x4F46;&#x662F;&#x5927;&#x90E8;&#x5206;&#x4EBA;&#x4E0D;&#x77E5;&#x9053;&#x5176;&#x5185;&#x90E8;&#x7684;&#x539F;&#x7406;&#x662F;&#x600E;&#x4E48;&#x6837;&#x7684;&#xFF0C;&#x4ECA;&#x5929;&#x6211;&#x4EEC;&#x5C31;&#x6765;&#x4E00;&#x8D77;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;vue</p><h1 id="articleHeader0">Object.defineProperty()</h1><p>&#x5B9E;&#x73B0;&#x4E4B;&#x524D;&#x6211;&#x4EEC;&#x5F97;&#x5148;&#x770B;&#x4E00;&#x4E0B;<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty" rel="nofollow noreferrer" target="_blank">Object.defineProperty</a>&#x7684;&#x5B9E;&#x73B0;&#xFF0C;&#x56E0;&#x4E3A;vue&#x4E3B;&#x8981;&#x662F;&#x901A;&#x8FC7;&#x6570;&#x636E;&#x52AB;&#x6301;&#x6765;&#x5B9E;&#x73B0;&#x7684;&#xFF0C;&#x901A;&#x8FC7;<code>get</code>&#x3001;<code>set</code>&#x6765;&#x5B8C;&#x6210;&#x6570;&#x636E;&#x7684;&#x8BFB;&#x53D6;&#x548C;&#x66F4;&#x65B0;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var obj = {name:&apos;wclimb&apos;}
 var age = 24
 Object.defineProperty(obj,&apos;age&apos;,{
@@ -404,7 +404,7 @@ Object.defineProperty(obj,&apos;age&apos;,{
         <span class="hljs-keyword">this</span>.el[<span class="hljs-keyword">this</span>.type] = <span class="hljs-keyword">this</span>.vm.data[<span class="hljs-keyword">this</span>.value]
     }
 }</code></pre><p>&#x4E4B;&#x524D;&#x53D1;&#x5E03;&#x8BA2;&#x9605;&#x4E4B;&#x540E;&#x8D70;&#x4E86;&#x8FD9;&#x91CC;&#x9762;&#x7684;&#x64CD;&#x4F5C;&#xFF0C;&#x610F;&#x601D;&#x5C31;&#x662F;&#x628A;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x5982;&#xFF1A;node.innerHTML = &apos;&#x8FD9;&#x662F;data&#x91CC;&#x9762;&#x7684;&#x503C;&apos;&#x3001;node.value = &apos;&#x8FD9;&#x4E2A;&#x662F;&#x8868;&#x5355;&#x7684;&#x6570;&#x636E;&apos;</p><p>&#x90A3;&#x4E48;&#x6211;&#x4EEC;&#x4E3A;&#x4EC0;&#x4E48;&#x4E0D;&#x76F4;&#x63A5;&#x53BB;&#x66F4;&#x65B0;&#x5462;&#xFF0C;&#x8FD8;&#x9700;&#x8981;<code>update</code>&#x505A;&#x4EC0;&#x4E48;&#xFF0C;&#x4E0D;&#x662F;&#x591A;&#x6B64;&#x4E00;&#x4E3E;&#x5417;&#xFF1F;<br>&#x5176;&#x5B9E;<code>update</code>&#x8BB0;&#x5F97;&#x5417;&#xFF1F;&#x6211;&#x4EEC;&#x5728;&#x8BA2;&#x9605;&#x6C60;&#x91CC;&#x9762;&#x9700;&#x8981;&#x6279;&#x91CF;&#x66F4;&#x65B0;&#xFF0C;&#x5C31;&#x662F;&#x901A;&#x8FC7;&#x8C03;&#x7528;<code>Watcher</code>&#x539F;&#x578B;&#x4E0A;&#x7684;<code>update</code>&#x65B9;&#x6CD5;&#x3002;</p><h1 id="articleHeader10">&#x6548;&#x679C;</h1><p><a href="http://www.wclimb.site/myVue" rel="nofollow noreferrer" target="_blank">&#x5728;&#x7EBF;&#x6548;&#x679C;&#x5730;&#x5740;</a>&#xFF0C;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x6D4F;&#x89C8;&#x5668;&#x770B;&#x4E00;&#x4E0B;&#x6548;&#x679C;&#xFF0C;&#x7531;&#x4E8E;&#x672C;&#x4EBA;&#x592A;&#x61D2;&#x4E86;&#xFF0C;<code>gif</code>&#x6548;&#x679C;&#x56FE;&#x5C31;&#x5148;&#x4E0D;&#x653E;&#x4E86;&#xFF0C;&#x54C8;&#x54C8;&#x1F604;&#x1F604;</p><h1 id="articleHeader11">&#x5B8C;&#x6574;&#x4EE3;&#x7801;</h1><p>&#x5B8C;&#x6574;&#x4EE3;&#x7801;&#x5DF2;&#x7ECF;&#x653E;&#x5230;<code>github</code>&#x4E0A;&#x4E86; -&gt; <a href="https://github.com/wclimb/MyVue" rel="nofollow noreferrer" target="_blank">MyVue</a></p><h1 id="articleHeader12">&#x53C2;&#x8003;</h1><p><a href="https://segmentfault.com/a/1190000006599500">&#x5256;&#x6790;Vue&#x539F;&#x7406;&amp;&#x5B9E;&#x73B0;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;MVVM</a><br><a href="https://segmentfault.com/a/1190000015375217" target="_blank">&#x4EFF;Vue&#x5B9E;&#x73B0;&#x6781;&#x7B80;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 如何避免async await地狱
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fd2ef994
+slug: fd2ef994
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>async/await 让我们摆脱了回调地狱，但人们开始滥用它 - 这就导致async/await 地狱的诞生。</p>
 <p>在本文中，我将尝试解释什么是async/await hell，我也会分享一些提示来避免它。</p>
@@ -118,7 +118,7 @@ date: 2018-10-18 00:00:00
 也请分享Fb和Twitter。如果您想获得更新，请在 <a href="https://twitter.com/dev__adi">Twitter</a>和<a href="https://medium.com/@adityaa803/">Medium</a>上关注我。如果有什么不清楚或者你想指出什么，请在下面评论。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-to-escape-async-await-hell](https://www.zcfy.cc/article/how-to-escape-async-await-hell)

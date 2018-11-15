@@ -1,12 +1,12 @@
 ---
 title: javascript数值转换
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c29893f1
+slug: c29893f1
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x4EE5;&#x4E0B;&#x4E09;&#x4E2A;&#x51FD;&#x6570;&#x5C06;&#x975E;&#x6570;&#x503C;&#x8F6C;&#x6362;&#x4E3A;&#x6570;&#x503C;&#xFF1A;Number() &#x3001;parseInt()&#x548C; parseFloat()</blockquote><h2 id="articleHeader0">Number()&#x7684;&#x8F6C;&#x6362;&#x89C4;&#x5219;</h2><ol><li><p>Boolean&#x503C; true&#x4F1A;&#x88AB;&#x8F6C;&#x6362;&#x4E3A;1 false&#x4F1A;&#x88AB;&#x8F6C;&#x6362;&#x4E3A;0</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var correct = true
 Number(correct)
 1
@@ -102,7 +102,7 @@ var num6 = parseFloat(&quot;3.125e7&quot;); //31250000 " title="" data-original-
 <span class="hljs-keyword">var</span> num4 = <span class="hljs-built_in">parseFloat</span>(<span class="hljs-string">&quot;22.34.5&quot;</span>); <span class="hljs-comment">//22.34 </span>
 <span class="hljs-keyword">var</span> num5 = <span class="hljs-built_in">parseFloat</span>(<span class="hljs-string">&quot;0908.5&quot;</span>); <span class="hljs-comment">//908.5 </span>
 <span class="hljs-keyword">var</span> num6 = <span class="hljs-built_in">parseFloat</span>(<span class="hljs-string">&quot;3.125e7&quot;</span>); <span class="hljs-comment">//31250000 </span></code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

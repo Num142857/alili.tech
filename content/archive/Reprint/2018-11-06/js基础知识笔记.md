@@ -1,12 +1,12 @@
 ---
 title: js基础知识笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 27b392b3
+slug: 27b392b3
 date: 2018-11-06 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <ol><li><p><code>&lt;script&gt;</code><br><code>defer</code> &#x811A;&#x672C;&#x5EF6;&#x8FDF;&#x6267;&#x884C;&#xFF0C;&#x9002;&#x7528;&#x4E8E;&#x5916;&#x90E8;&#x811A;&#x672C;&#x6587;&#x4EF6;<br><code>async</code> &#x7ACB;&#x5373;&#x4E0B;&#x8F7D;&#xFF0C;&#x4E0D;&#x4FDD;&#x8BC1;&#x987A;&#x5E8F;&#xFF08;&#x5EFA;&#x8BAE;&#x4E0D;&#x4FEE;&#x6539;DOM&#xFF0C;&#x907F;&#x514D;&#x91CD;&#x7ED8;&#xFF09;<br>CDN&#x52A0;&#x901F; (Content Delivery Network&#xFF0C;&#x5185;&#x5BB9;&#x5206;&#x53D1;&#x7F51;&#x7EDC;) &#x63D0;&#x9AD8;&#x8BBF;&#x95EE;&#x7F51;&#x7AD9;&#x7684;&#x54CD;&#x5E94;&#x901F;&#x5EA6;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;script&gt;
 &#x3000;function loadScript(){
     document.write(unescape(&quot;%3Cscript src=&apos;&#x9632;&#x9519;&#x6587;&#x4EF6;&apos; %3E%3C/script%3E&quot;))
@@ -980,7 +980,7 @@ throw err; //&#x663E;&#x793A;&#x62A5;&#x9519;&#xFF0C;&#x5BFC;&#x81F4;&#x540E;&#x
 <span class="hljs-keyword">var</span> <span class="hljs-keyword">err</span> = new <span class="hljs-keyword">Error</span>(<span class="hljs-string">&quot;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&quot;</span>);
 console.<span class="hljs-keyword">error</span>(<span class="hljs-keyword">err</span>); <span class="hljs-comment">//&#x5355;&#x7EAF;&#x65E5;&#x5FD7;&#x8F93;&#x51FA;&#xFF0C;&#x4E0D;&#x5F71;&#x54CD;&#x4EE3;&#x7801;&#x6267;&#x884C;</span>
 throw <span class="hljs-keyword">err</span>; <span class="hljs-comment">//&#x663E;&#x793A;&#x62A5;&#x9519;&#xFF0C;&#x5BFC;&#x81F4;&#x540E;&#x9762;&#x4EE3;&#x7801;&#x4E0D;&#x89E3;&#x6790;</span></code></pre></li></ol>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

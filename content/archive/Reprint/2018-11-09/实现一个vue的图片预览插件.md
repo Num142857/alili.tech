@@ -1,12 +1,12 @@
 ---
 title: 实现一个vue的图片预览插件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: bfae2f17
+slug: bfae2f17
 date: 2018-11-09 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">vue-image-swipe</h1><p>&#x57FA;&#x4E8E;photoswipe&#x5B9E;&#x73B0;&#x7684;vue&#x56FE;&#x7247;&#x9884;&#x89C8;&#x7EC4;&#x4EF6;</p><h3 id="articleHeader1">&#x5B89;&#x88C5;</h3><p>1 &#x7B2C;&#x4E00;&#x6B65;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="npm install vue-image-swipe -D" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs mipsasm"><code style="word-break:break-word;white-space:initial">npm <span class="hljs-keyword">install </span>vue-image-<span class="hljs-keyword">swipe </span>-D</code></pre><p>2 &#x7B2C;&#x4E8C;&#x6B65;</p><p>vue &#x5165;&#x53E3;&#x6587;&#x4EF6;&#x5F15;&#x5165;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="import Vue from &apos;vue&apos;
 import VueImageSwipe from &apos;vue-image-swipe&apos;
 import &apos;vue-image-swipe/dist/vue-image-swipe.css&apos;
@@ -114,7 +114,7 @@ export default {
 <span class="hljs-attr">  showHideOpacity:</span> <span class="hljs-literal">true</span><span class="hljs-string">,</span>
 <span class="hljs-attr">  errorMsg:</span> <span class="hljs-string">&apos;&lt;div class=&quot;pswp__error-msg&quot;&gt;&#x56FE;&#x7247;&#x52A0;&#x8F7D;&#x5931;&#x8D25;&lt;/div&gt;&apos;</span><span class="hljs-string">,</span>
 <span class="hljs-string">}</span></code></pre><h3 id="articleHeader4">demo</h3><p><a href="https://zhhshen.github.io/vue-image-swipe/example/index.html" rel="nofollow noreferrer" target="_blank">demo</a></p><p><a href="https://github.com/zhhshen/vue-image-swipe" rel="nofollow noreferrer" target="_blank">&#x67E5;&#x770B;&#x6E90;&#x7801;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

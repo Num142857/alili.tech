@@ -1,12 +1,12 @@
 ---
 title: 'JavaScript: ECMAScript 2018（ES2018）有哪些新功能？'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4968ddc5
+slug: 4968ddc5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p0.ssl.qhimg.com/t019902c7bf8c4765f1.png" alt=""></p>
 <p>在最新的TC39会议上，选择了将进入<strong>“ECMAScript®2018语言规范”</strong>（ES2018）的新功能。 自<a href="https://www.bram.us/2017/07/18/es2017-es8-language-features/">ES2017</a> 合并以来已达到第4阶段的所有提案都已被选中。 这篇文章让我们快速了解了进入ES2018的功能。 </p>
@@ -44,7 +44,7 @@ date: 2018-10-18 00:00:00
 <p><em>💻 The examples embedded in this post are part of a talk on ESNext named</em> <strong><em>“What’s next for JavaScript?”</em></strong><em>, which I recently gave at a</em> <a href="https://fronteers.nl/vereniging/commissies/belgie"><em>Fronteers België</em></a> <em>meetup. I’m currently still in the process of preparing the slides for publication. I’m available for bringing this talk at your meetup/conference.</em></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-what-s-new-in-ecmascript-2018-es2018](https://www.zcfy.cc/article/javascript-what-s-new-in-ecmascript-2018-es2018)

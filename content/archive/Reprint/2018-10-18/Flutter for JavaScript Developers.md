@@ -1,12 +1,12 @@
 ---
 title: Flutter for JavaScript Developers
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c72de942
+slug: c72de942
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><a href="https://flutter.io/">Flutter</a> 是一个致力于“构建高性能和高精确性iOS与Android应用”的跨平台移动应用SDK。</p>
 <p>来源于<a href="https://flutter.io/technical-overview/">文档</a>的解释:</p>
@@ -134,7 +134,7 @@ date: 2018-10-18 00:00:00
 </blockquote>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/flutter-for-javascript-developers](https://www.zcfy.cc/article/flutter-for-javascript-developers)

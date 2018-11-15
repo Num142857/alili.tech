@@ -1,12 +1,12 @@
 ---
 title: 10个编译为JavaScript的语言
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dc09b6b6
+slug: dc09b6b6
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>现代应用相比普通的网页有<a href="https://www.sitepoint.com/anatomy-of-a-modern-javascript-application/">不同的要求</a>。但是浏览器是一个有着一套（大部分）固定可用的技术的平台，JavaScript依然是web应用的核心语言；任何需要在浏览器上跑的应用都需要使用这种语言。</p>
 <p>我们都知道Javascript并不是最好的语言，特别是在复杂的应用中，它可能不太能胜任。为了避免这种情况，一些新的语言或现有语言的编译器被创造出来，你不用写一行Javascript或者考虑这种语言的局限，就能生产在浏览器能运行的代码。</p>
@@ -409,7 +409,7 @@ echo(x.foo)</span> # 4566
 <p>你是否有尝试了这篇文章的任何一种语言，又或者你有自己的推荐？请在评论中让我知道！</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/10-languages-that-compile-to-javascript](https://www.zcfy.cc/article/10-languages-that-compile-to-javascript)

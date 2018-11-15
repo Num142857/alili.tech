@@ -1,12 +1,12 @@
 ---
 title: 手摸手，带你用vue撸后台 系列四(vueAdmin 一个极简的后台基础模板)
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1470dde1
+slug: 1470dde1
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>完整项目地址：<a href="https://github.com/PanJiaChen/vue-element-admin" rel="nofollow noreferrer" target="_blank">vue-element-admin</a>  </p>
@@ -457,7 +457,7 @@ export function getInfo(token) {
 <p>常规占坑，这里是手摸手，带你用vue撸后台系列。   <br>完整项目地址：<a href="https://github.com/PanJiaChen/vue-element-admin" rel="nofollow noreferrer" target="_blank">vue-element-admin</a>  <br>系类文章一：<a href="https://juejin.im/post/59097cd7a22b9d0065fb61d2" rel="nofollow noreferrer" target="_blank">手摸手，带你用vue撸后台 系列一（基础篇）</a>  <br>系类文章二：<a href="https://juejin.im/post/591aa14f570c35006961acac" rel="nofollow noreferrer" target="_blank">手摸手，带你用vue撸后台 系列二(登录权限篇)</a>  <br>系类文章三：<a href="https://juejin.im/post/593121aa0ce4630057f70d35" rel="nofollow noreferrer" target="_blank">手摸手，带你用vue 撸后台 系列三 (实战篇)</a>  <br>系类文章四：<a href="https://juejin.im/post/595b4d776fb9a06bbe7dba56" rel="nofollow noreferrer" target="_blank">手摸手，带你用vue撸后台 系列四(vueAdmin 一个极简的后台基础模板)</a>  <br>系类文章：<a href="https://juejin.im/post/59bb864b5188257e7a427c09" rel="nofollow noreferrer" target="_blank">手摸手，带你优雅的使用 icon</a>  <br>系类文章：<a href="https://segmentfault.com/a/1190000009090836">手摸手，带你封装一个vue component</a>  <br>楼主个人免费<a href="https://jianshiapp.com/circles/1209" rel="nofollow noreferrer" target="_blank">圈子</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

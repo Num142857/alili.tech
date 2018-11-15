@@ -1,12 +1,12 @@
 ---
 title: vue全家桶仿某鱼部分布局以及功能实现
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9f9a7b3c
+slug: 9f9a7b3c
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">前言</h2>
@@ -291,7 +291,7 @@ createImage(files, e) {
 <p>**很多东西细节想聊出来，比如嵌套路由所踩的坑..等，但是最近忙于找工作，时间问题就写到这里，有兴趣或者正在学习vue的同学可以查看我的github源码。<a href="https://github.com/LLZUPUP/vue-fallowFish" rel="nofollow noreferrer" target="_blank">fallow-fish</a><br><br><br>如果对你有帮助，可以star我的项目给我一点点的鼓励，也希望有志同道和的可以加入一起讨论，我也会第一时间帮你解答。**</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

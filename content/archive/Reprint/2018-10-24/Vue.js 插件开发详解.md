@@ -1,12 +1,12 @@
 ---
 title: Vue.js 插件开发详解
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4c1814ab
+slug: 4c1814ab
 date: 2018-10-24 08:17:54
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2>
@@ -263,7 +263,7 @@ Toast.install = <span class="hljs-function"><span class="hljs-keyword">function<
 </h3>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: JavaScript循环遍历你会用哪些？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 57db5607
+slug: 57db5607
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x603B;&#x7ED3;JavaScript&#x4E2D;&#x7684;&#x5FAA;&#x73AF;&#x904D;&#x5386;</blockquote><p>&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x548C;&#x5BF9;&#x8C61;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const arr = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;, &apos;d&apos;, &apos;e&apos;, &apos;f&apos;];" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="javascript hljs"><code class="javascript" style="word-break:break-word;white-space:initial"><span class="hljs-keyword">const</span> arr = [<span class="hljs-string">&apos;a&apos;</span>, <span class="hljs-string">&apos;b&apos;</span>, <span class="hljs-string">&apos;c&apos;</span>, <span class="hljs-string">&apos;d&apos;</span>, <span class="hljs-string">&apos;e&apos;</span>, <span class="hljs-string">&apos;f&apos;</span>];</code></pre><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const obj = {
     a: 1,
     b: 2,
@@ -70,7 +70,7 @@ console.log(arrData);    // [&quot;a&quot;, &quot;b&quot;, &quot;c&quot;, &quot;
 }" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="javascript hljs"><code class="javascript"><span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> value <span class="hljs-keyword">of</span> <span class="hljs-built_in">Object</span>.keys(obj)) {
     <span class="hljs-built_in">console</span>.log(value);    <span class="hljs-comment">// a b c d &#x5BF9;&#x8C61;&#x5C5E;&#x6027;</span>
 }</code></pre><h3 id="articleHeader5">&#x603B;&#x7ED3;</h3><ul><li>&#x7528;&#x4E8E;&#x904D;&#x5386;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x4F7F;&#x7528;&#xFF1A;for()&#xFF0C;forEach()&#xFF0C;map()&#xFF0C;for...of</li><li>&#x7528;&#x4E8E;&#x5FAA;&#x73AF;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#x4F7F;&#x7528;&#xFF1A;for...in</li></ul><blockquote>&#x5173;&#x4E8E;&#x4E0A;&#x8FF0;&#x5FAA;&#x73AF;&#x5BF9;&#x6027;&#x80FD;&#x7684;&#x5F71;&#x54CD;&#x4F1A;&#x540E;&#x7EED;&#x8865;&#x5145;</blockquote><p>&#x66F4;&#x591A;&#x5185;&#x5BB9;&#x8BF7;&#x5173;&#x6CE8;<a href="https://github.com/hezizi/Blog" rel="nofollow noreferrer" target="_blank">&#x6211;&#x7684;&#x535A;&#x5BA2;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

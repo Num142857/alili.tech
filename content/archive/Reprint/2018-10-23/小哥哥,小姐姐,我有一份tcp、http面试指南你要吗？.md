@@ -1,12 +1,12 @@
 ---
 title: '小哥哥,小姐姐,我有一份tcp、http面试指南你要吗？'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1d8dd1aa
+slug: 1d8dd1aa
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">来来来</h2>
@@ -140,7 +140,7 @@ date: 2018-10-23 00:00:00
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000014434218?w=500&amp;h=500" del-src="https://static.alili.tech/v-5bbf1b3b/global/img/squares.svg" alt="" title="" style="cursor: pointer;"></span></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

@@ -1,12 +1,12 @@
 ---
 title: 揭密 Vue 的双向绑定
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9b7ea80d
+slug: 9b7ea80d
 date: 2018-11-03 02:30:13
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>Vue &#x4E2D;&#x9700;&#x8981;&#x8F93;&#x5165;&#x4EC0;&#x4E48;&#x5185;&#x5BB9;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x81EA;&#x7136;&#x4F1A;&#x60F3;&#x5230;&#x4F7F;&#x7528; <code>&lt;input v-model=&quot;xxx&quot; /&gt;</code> &#x7684;&#x65B9;&#x5F0F;&#x6765;&#x5B9E;&#x73B0;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x3002;&#x4E0B;&#x9762;&#x662F;&#x4E00;&#x4E2A;&#x6700;&#x7B80;&#x5355;&#x7684;&#x793A;&#x4F8B;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;div id=&quot;app&quot;&gt;
     &lt;h2&gt;What&apos;s your name:&lt;/h2&gt;
     &lt;input v-model=&quot;name&quot; /&gt;
@@ -14,7 +14,7 @@ date: 2018-11-03 02:30:13
 &lt;/div&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code class="vue"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>What&apos;s your name:<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;name&quot;</span> /&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Hello </span><span class="hljs-template-variable">{{ name }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>Hello </span><span class="hljs-template-variable">"{{" name "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span></code></pre><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="new Vue({
     el: &quot;#app&quot;,
     data: {
@@ -67,10 +67,10 @@ date: 2018-11-03 02:30:13
           <span class="hljs-attr">v-bind:checked</span>=<span class="hljs-string">&quot;todo.done&quot;</span>&gt;</span>
 
         <span class="hljs-tag">&lt;<span class="hljs-name">del</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;todo.done&quot;</span>&gt;</span>
-          </span><span class="hljs-template-variable">{{ todo.text }}</span><span class="xml">
+          </span><span class="hljs-template-variable">"{{" todo.text "}}"</span><span class="xml">
         <span class="hljs-tag">&lt;/<span class="hljs-name">del</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">v-else</span>&gt;</span>
-          </span><span class="hljs-template-variable">{{ todo.text }}</span><span class="xml">
+          </span><span class="hljs-template-variable">"{{" todo.text "}}"</span><span class="xml">
         <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">label</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -189,7 +189,7 @@ date: 2018-11-03 02:30:13
     &lt;h2&gt;Todos ({{ countDone }}/{{ count }}):&lt;/h2&gt;
     &lt;!-- ... --&gt;
 &lt;/div&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code class="vue"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Todos (</span><span class="hljs-template-variable">{{ countDone }}</span><span class="xml">/</span><span class="hljs-template-variable">{{ count }}</span><span class="xml">):<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Todos (</span><span class="hljs-template-variable">"{{" countDone "}}"</span><span class="xml">/</span><span class="hljs-template-variable">"{{" count "}}"</span><span class="xml">):<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
     <span class="hljs-comment">&lt;!-- ... --&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span></code></pre><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="new Vue({
     // ...
@@ -326,7 +326,7 @@ if (modifiers.sync) {
         }
     }
 }</code></pre><p>&#x8BF4;&#x5B9E;&#x5728;&#x7684;&#xFF0C;&#x8981;&#x591A;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x610F;&#x4E49;&#x76F8;&#x540C;&#x540D;&#x79F0;&#x4E0D;&#x540C;&#x7684;&#x53D8;&#x91CF;&#x540D;&#x4E5F;&#x662F;&#x633A;&#x8D39;&#x8111;&#x7B4B;&#x7684;&#x3002;&#x5E0C;&#x671B; Vue &#x5728;&#x5C06;&#x6765;&#x7684;&#x7248;&#x672C;&#x4E2D;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x4E00;&#x5B9A;&#x7684;&#x6280;&#x672F;&#x624B;&#x6BB5;&#x51CF;&#x5316;&#x8FD9;&#x4E00;&#x8FC7;&#x7A0B;&#xFF0C;&#x6BD4;&#x5982;&#x4E3A;&#x5C5E;&#x6027;&#xFF08;Prop&#xFF09;&#x58F0;&#x660E;&#x6DFB;&#x52A0; <code>sync</code> &#x9009;&#x9879;&#xFF0C;&#x53EA;&#x8981;&#x58F0;&#x660E; <code>sync: true</code> &#x7684;&#x90FD;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8D4B;&#x503C;&#x5E76;&#x81EA;&#x52A8;&#x89E6;&#x53D1; <code>update:xxx</code> &#x4E8B;&#x4EF6;&#x3002;</p><p>&#x5F53;&#x7136;&#x4F5C;&#x4E3A;&#x4E00;&#x4E2A;&#x6846;&#x67B6;&#xFF0C;&#x5728;&#x89E3;&#x51B3;&#x4E00;&#x4E2A;&#x95EE;&#x9898;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x8FD8;&#x8981;&#x8003;&#x8651;&#x5BF9;&#x5176;&#x5B83;&#x7279;&#x6027;&#x7684;&#x5F71;&#x54CD;&#xFF0C;&#x4EE5;&#x53CA;&#x6846;&#x67B6;&#x7684;&#x6269;&#x5C55;&#x6027;&#x7B49;&#x95EE;&#x9898;&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x7EC8;&#x53CC;&#x5411;&#x7ED1;&#x5B9A;&#x4F1A;&#x6F14;&#x8FDB;&#x6210;&#x4EC0;&#x4E48;&#x6837;&#x5B50;&#xFF0C;&#x6211;&#x4EEC;&#x5BF9; Vue 3.0 &#x62ED;&#x76EE;&#x4EE5;&#x5F85;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

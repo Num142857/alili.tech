@@ -1,12 +1,12 @@
 ---
 title: 了解node.js事件循环
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 617ff6e6
+slug: 617ff6e6
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>node.js的第一个基本论点是I / O的性能消耗是很昂贵：</p>
 <p>﻿<a href="http://blog.mixu.net/files/2011/01/io-cost.png"><img src="https://p0.ssl.qhimg.com/t012a94409121d21cfb.png" alt="" title="io-cost"></a></p>
@@ -55,7 +55,7 @@ date: 2018-10-18 00:00:00
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/understanding-the-node-js-event-loop](https://www.zcfy.cc/article/understanding-the-node-js-event-loop)

@@ -1,12 +1,12 @@
 ---
 title: React Native with MobX — 入门
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dbf4a6bc
+slug: dbf4a6bc
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在这里，我们将结合MobX和React Native来创建一个简单的列表应用程序。 如果您正在寻找如何开始使用MobX和React Native，那么这应该是一个很好的选择。</p>
 <p><em>想学习React Native？ 查看</em> <a href="http://reactnative.training/"><em>React Native Training</em></a>_._</p>
@@ -91,7 +91,7 @@ date: 2018-10-19 00:00:00
 </blockquote>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/react-native-with-mobx-getting-started](https://www.zcfy.cc/article/react-native-with-mobx-getting-started)

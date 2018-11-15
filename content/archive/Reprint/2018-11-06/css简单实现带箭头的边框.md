@@ -1,12 +1,12 @@
 ---
 title: css简单实现带箭头的边框
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ddb6ae64
+slug: ddb6ae64
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x539F;&#x6587;&#x5730;&#x5740; <a href="https://tianshengjie.cn/article/6" rel="nofollow noreferrer" target="_blank">https://tianshengjie.cn/artic...</a></blockquote><h2 id="articleHeader0">css&#x7B80;&#x5355;&#x5B9E;&#x73B0;&#x5E26;&#x7BAD;&#x5934;&#x7684;&#x8FB9;&#x6846;</h2><h3 id="articleHeader1">&#x666E;&#x901A;&#x8FB9;&#x6846;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;style&gt;
     .border {
         width: 100px;
@@ -158,7 +158,7 @@ date: 2018-11-06 15:28:31
     }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;border-triangle-bottom&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></code></pre><p>&#x5C06;&#x8FB9;&#x6846;&#x989C;&#x8272;&#x6362;&#x6210;&#x597D;&#x770B;&#x7684;&#x84DD;&#x8272;&#xFF0C;&#x5C06;before&#x548C;after&#x4F2A;&#x5143;&#x7D20;&#x90FD;&#x8BBE;&#x7F6E;&#x4E3A;&#x7EDD;&#x5BF9;&#x5B9A;&#x4F4D;&#xFF0C;&#x5B9A;&#x4F4D;&#x5230;&#x8FB9;&#x6846;&#x5E95;&#x90E8;&#x5267;&#x4E2D;&#xFF0C;&#x5C06;after&#x4F2A;&#x5143;&#x7D20;&#x8BBE;&#x7F6E;&#x6210;&#x767D;&#x8272;&#xFF0C;&#x5E95;&#x90E8;&#x504F;&#x79FB;&#x91CF;&#x5927;&#x4E8E;before 1px&#xFF0C;&#x906E;&#x4F4F;&#x4E09;&#x89D2;&#x5F62;&#x5E95;&#x90E8;&#x7684;&#x989C;&#x8272;&#x3002;&#x8FD9;&#x6837;&#x4E00;&#x4E2A;&#x597D;&#x770B;&#x7684;&#x7BAD;&#x5934;&#x8FB9;&#x6846;&#x5C31;&#x5B9E;&#x73B0;&#x4E86;</p><p><span class="img-wrap"><img data-src="/img/bVbhBuQ?w=250&amp;h=118" src="https://static.alili.tech/img/bVbhBuQ?w=250&amp;h=118" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

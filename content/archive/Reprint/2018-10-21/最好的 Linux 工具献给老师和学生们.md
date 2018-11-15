@@ -1,12 +1,12 @@
 ---
 title: 最好的 Linux 工具献给老师和学生们
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 242eb708
+slug: 242eb708
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#最好的-linux-工具献给老师和学生们"></a>最好的 Linux 工具献给老师和学生们</h1>
 <p>Linux 是一个适合每个人的平台。如果你有一份合适的工作，Linux 已经可以满足或超过它的需求，其中一个工作是教育。如果你是一名教师或一名学生，Linux 已经准备好帮助你在几乎任何级别的教育系统领域中畅游。从辅助学习、写作论文、管理课程，到管理整个机构，Linux 已经全部涵盖了。</p>
@@ -95,7 +95,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/the-best-linux-tools-for-teachers-and-students)

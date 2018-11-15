@@ -1,12 +1,12 @@
 ---
 title: Vue.js2.0基础学习笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 85eff157
+slug: 85eff157
 date: 2018-11-11 02:30:07
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><strong>1&#x3001;&#x4F7F;&#x7528;&#x811A;&#x624B;&#x67B6;Vue-cli&#x6784;&#x5EFA;vue&#x9879;&#x76EE;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;&#xFF1A;vue create project  &#x6216; vue ui
 &#x8FDB;&#x5165;&#x9879;&#x76EE;&#x6839;&#x76EE;&#x5F55;&#xFF1A;cd project
 &#x5728;&#x670D;&#x52A1;&#x5668;&#x4E2D;&#x6253;&#x5F00;&#xFF1A;npm run serve  &#x6216;  yarn serve
@@ -98,8 +98,8 @@ vm.$watch(<span class="hljs-string">&apos;a&apos;</span>,function(newValue,oldVa
                  {text:&apos;Vue&apos;}
              ]
          }
-     })" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs dust"><code><span class="xml"> &#x6570;&#x636E;&#x7ED1;&#x5B9A;&#x8BED;&#x6CD5;&#xFF1A;<span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span></span><span class="hljs-template-variable">{{msg}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
- &#x4E00;&#x6B21;&#x6027;&#x6570;&#x636E;&#x7ED1;&#x5B9A;&#xFF1A;<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">v-once</span>&gt;</span></span><span class="hljs-template-variable">{{msg}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>    //&#x4F46;&#x6570;&#x636E;&#x6539;&#x53D8;&#x65F6;msg&#x4E0D;&#x66F4;&#x65B0;
+     })" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs dust"><code><span class="xml"> &#x6570;&#x636E;&#x7ED1;&#x5B9A;&#x8BED;&#x6CD5;&#xFF1A;<span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span></span><span class="hljs-template-variable">"{{"msg}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+ &#x4E00;&#x6B21;&#x6027;&#x6570;&#x636E;&#x7ED1;&#x5B9A;&#xFF1A;<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">v-once</span>&gt;</span></span><span class="hljs-template-variable">"{{"msg}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>    //&#x4F46;&#x6570;&#x636E;&#x6539;&#x53D8;&#x65F6;msg&#x4E0D;&#x66F4;&#x65B0;
  &#x6570;&#x636E;&#x7ED1;&#x5B9A;&#x53EA;&#x80FD;&#x89E3;&#x91CA;&#x666E;&#x901A;&#x6587;&#x672C;&#xFF0C;&#x89E3;&#x91CA;html&#x53EF;&#x7528;v-html&#xFF1A;<span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">v-html</span>=<span class="hljs-string">&quot;tem&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
  
  v-if&#x6307;&#x4EE4;&#xFF1A;&#x7528;&#x4E8E;&#x6761;&#x4EF6;&#x5224;&#x65AD;&#x79FB;&#x9664;&#x663E;&#x793A;&#x5143;&#x7D20;&#xFF0C;v-if&#x662F;&#x771F;&#x6B63;&#x7684;&#x6761;&#x4EF6;&#x6E32;&#x67D3;&#xFF0C;v-show&#x662F;&#x5207;&#x6362;display
@@ -126,7 +126,7 @@ vm.$watch(<span class="hljs-string">&apos;a&apos;</span>,function(newValue,oldVa
  
      <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">&quot;app&quot;</span>&gt;</span>
          <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
-             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;item in items&quot;</span>&gt;</span></span><span class="hljs-template-variable">{{item.text}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+             <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;item in items&quot;</span>&gt;</span></span><span class="hljs-template-variable">"{{"item.text}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
          <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
      var app=new Vue(</span><span class="hljs-template-variable">{
@@ -159,7 +159,7 @@ vm.$watch(<span class="hljs-string">&apos;a&apos;</span>,function(newValue,oldVa
      result: gsMdesrevrr
      
 &#x4FA6;&#x542C;&#x5668;watch&#x4FA6;&#x542C;&#x6570;&#x636E;&#x53D8;&#x5316;&#xFF08;Msg&#xFF09;&#xFF1A;&#x5F53;&#x9700;&#x8981;&#x5728;&#x6570;&#x636E;&#x53D8;&#x5316;&#x65F6;&#x6267;&#x884C;&#x5F02;&#x6B65;&#x6216;&#x5F00;&#x9500;&#x8F83;&#x5927;&#x7684;&#x64CD;&#x4F5C;&#x65F6;&#x4F7F;&#x7528;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs vim"><code> &#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x7528;&#x4E8E;&#x7B80;&#x5355;&#x8BA1;&#x7B97;&#xFF0C;&#x7531;&#x4E8E;&#x5728;&#x6570;&#x636E;&#x7ED1;&#x5B9A;&#x4E2D;&#x5199;&#x8868;&#x8FBE;&#x5F0F;&#x96BE;&#x4EE5;&#x7EF4;&#x62A4;&#xFF0C;&#x4E5F;&#x65E0;&#x6CD5;&#x8FDB;&#x884C;&#x6761;&#x4EF6;&#x5224;&#x65AD;&#x7B49;&#x52A8;&#x4F5C;,&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x4F1A;&#x6839;&#x636E;&#x5176;&#x4F9D;&#x8D56;&#x7684;&#x503C;&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x5E76;&#x7F13;&#x5B58;
-     <span class="hljs-symbol">&lt;span&gt;</span>{{reversedMsg}}&lt;/span&gt;
+     <span class="hljs-symbol">&lt;span&gt;</span>"{{"reversedMsg}}&lt;/span&gt;
      <span class="hljs-keyword">new</span> Vue({
          <span class="hljs-keyword">e</span><span class="hljs-variable">l:</span><span class="hljs-string">&apos;app&apos;</span>,
          dat<span class="hljs-variable">a:</span>{
@@ -194,7 +194,7 @@ data:{
 }
 &#x5EFA;&#x8BAE;&#x5C3D;&#x53EF;&#x80FD;&#x5728;&#x4F7F;&#x7528; v-for &#x65F6;&#x63D0;&#x4F9B; key&#xFF0C;&#x9664;&#x975E;&#x904D;&#x5386;&#x8F93;&#x51FA;&#x7684; DOM &#x5185;&#x5BB9;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x6216;&#x8005;&#x662F;&#x523B;&#x610F;&#x4F9D;&#x8D56;&#x9ED8;&#x8BA4;&#x884C;&#x4E3A;&#x4EE5;&#x83B7;&#x53D6;&#x6027;&#x80FD;&#x4E0A;&#x7684;&#x63D0;&#x5347;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs dust"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;(item,index) in items&quot;</span> <span class="hljs-attr">:key</span>=<span class="hljs-string">&quot;item.index&quot;</span> <span class="hljs-attr">v-if</span>(<span class="hljs-attr">item.age</span>&gt;</span>20)&gt;
-       <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span> </span><span class="hljs-template-variable">{{aaa}</span><span class="xml">}-</span><span class="hljs-template-variable">{{index}</span><span class="xml">}-</span><span class="hljs-template-variable">{{item.messge}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+       <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span> </span><span class="hljs-template-variable">"{{"aaa}</span><span class="xml">}-</span><span class="hljs-template-variable">"{{"index}</span><span class="xml">}-</span><span class="hljs-template-variable">"{{"item.messge}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
        <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;more&quot;</span>&gt;</span>&#x5E95;&#x90E8;&#x52A0;&#x8F7D;&#x6570;&#x636E;<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
@@ -403,7 +403,7 @@ methods&#xFF1A;{
 
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code><span class="xml">Vue.component(&apos;child&apos;,{
    props:[&apos;title&apos;],
-   template:&apos;<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span></span><span class="hljs-template-variable">{{title}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>&apos;
+   template:&apos;<span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span></span><span class="hljs-template-variable">"{{"title"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>&apos;
 })
 &#x5728;&#x7236;&#x7EC4;&#x4EF6;&#x4E2D;&#x4F7F;&#x7528;&#xFF1A;<span class="hljs-tag">&lt;<span class="hljs-name">child</span> <span class="hljs-attr">title</span>=<span class="hljs-string">&apos;&#x6211;&#x662F;&#x6807;&#x9898;&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">child</span>&gt;</span>
 
@@ -451,8 +451,8 @@ new Vue({
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code><span class="xml">   props:[&apos;post&apos;],
    template:`
        <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-           <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span></span><span class="hljs-template-variable">{{post.title}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
-           <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span></span><span class="hljs-template-variable">{{post.content}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+           <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span></span><span class="hljs-template-variable">"{{"post.title"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
+           <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span></span><span class="hljs-template-variable">"{{"post.content"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
    `
    })
@@ -540,7 +540,7 @@ new Vue({
    
    &#x4F7F;&#x7528; is &#x5B9E;&#x73B0;&#x52A8;&#x6001;&#x7EC4;&#x4EF6;
    <span class="hljs-tag">&lt;<span class="hljs-name">component</span> <span class="hljs-attr">:is</span>=<span class="hljs-string">&apos;creunt&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">component</span>&gt;</span></code></pre></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: electron 自动更新以及手动更新
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d20b79c4
+slug: d20b79c4
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x4ECE;&#x642D;&#x5EFA;&#x5F00;&#x59CB; &#x4F7F;&#x7528;&#x7684;&#x662F;electron-vue &#x6BD5;&#x7ADF;&#x65B9;&#x4FBF;&#x4E00;&#x70B9; &#x5982;&#x679C;&#x53EA;&#x60F3;&#x5B89;&#x88C5;electron &#x8BF7;&#x53C2;&#x89C1;&#x6211;&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x6587;&#x7AE0; <a href="https://segmentfault.com/a/1190000016028730">https://segmentfault.com/a/11...</a><br><span class="img-wrap"><img data-src="/img/bVbh772?w=988&amp;h=592" src="https://static.alili.tech/img/bVbh772?w=988&amp;h=592" alt="git.gif" title="git.gif" style="cursor:pointer"></span></p><h2 id="articleHeader0">&#x9996;&#x5148;&#x5B89;&#x88C5;Electron:</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="vue init simulatedgreg/electron-vue project1
 
 cd project1
@@ -596,7 +596,7 @@ app.on(<span class="hljs-string">&apos;activate&apos;</span>, () =&gt; {
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 
 </code></pre><p><span class="img-wrap"><img data-src="/img/bVbh77C?w=896&amp;h=438" src="https://static.alili.tech/img/bVbh77C?w=896&amp;h=438" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader11">&#x603B;&#x7ED3;</h2><p>&#x7531;&#x4E8E;&#x6211;&#x7684;&#x865A;&#x62DF;&#x673A;&#x662F;&#x5728;&#x672C;&#x5730; &#x6240;&#x4EE5;&#x4E0B;&#x8F7D;&#x901F;&#x5EA6;&#x8D85;&#x5FEB;<br>&#x540E;&#x6765;&#x6211;&#x5C06;&#x66F4;&#x65B0;&#x5730;&#x5740;&#x5207;&#x6362;&#x5230;&#x8FDC;&#x7A0B;&#x670D;&#x52A1;&#x5668; &#x4E0B;&#x9762;&#x662F;&#x64CD;&#x4F5C;&#x622A;&#x56FE;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

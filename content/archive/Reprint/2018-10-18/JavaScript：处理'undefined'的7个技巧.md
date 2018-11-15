@@ -1,12 +1,12 @@
 ---
 title: "JavaScript：处理'undefined'的7个技巧"
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 25e884f1
+slug: 25e884f1
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>我刚刚开始学习JavaScript时，大约是八年前，当时我对于undefined 和 null 比较困惑 ，因为他们都表示空值。他们有什么明确的区别吗？他们似乎都可以定义一个空值，而且 当你进行 在做null ===undefined 的比较时，结果是true。</p>
 <p>现在的大多数语言，像Ruby, Python or Java，他们有一个单独的空值（nil 或 null），这似乎才合理。</p>
@@ -640,7 +640,7 @@ obj.lastName; <span class="hljs-comment">// =&gt; undefined  </span>
 <p><em>What's your opinion about <code>undefined</code> in JavaScript? Feel free to write a comment bellow!</em></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/7-tips-to-handle-undefined-in-javascript-dmitri-pavlutin](https://www.zcfy.cc/article/7-tips-to-handle-undefined-in-javascript-dmitri-pavlutin)

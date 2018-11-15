@@ -1,12 +1,12 @@
 ---
 title: 判断ios和Android及PC端
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3c0e25ac
+slug: 3c0e25ac
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x5728;&#x505A;&#x79FB;&#x52A8;&#x7AEF;&#x65F6;&#xFF0C;&#x60F3;&#x8D77;&#x7528;navigator.userAgent&#x6765;&#x5BF9;&#x6D4F;&#x89C8;&#x5668;&#x7C7B;&#x578B;&#x8FDB;&#x884C;&#x5224;&#x65AD;&#xFF0C;&#x67E5;&#x4E86;&#x70B9;&#x8D44;&#x6599;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x603B;&#x7ED3;&#x4E0B;<br>&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x5C31;&#x662F;&#x79FB;&#x52A8;&#x7AEF;&#x7684;&#x7F29;&#x653E;&#x95EE;&#x9898;&#xFF0C;&#x5728;meta&#x6807;&#x7B7E;&#x4E2D;&#x8FDB;&#x884C;&#x8BBE;&#x7F6E;&#xFF0C;&#x5BF9;&#x90E8;&#x5206;&#x6D4F;&#x89C8;&#x5668;&#x8FDB;&#x884C;&#x5F3A;&#x5236;&#x6027;&#x7684;&#x9650;&#x5236;</blockquote><h1 id="articleHeader0">1.navigator&#x7684;&#x4E00;&#x4E9B;&#x5E38;&#x7528;&#x5C5E;&#x6027;</h1><ul><li>navigator&#x4E3A;window&#x5BF9;&#x8C61;&#x7684;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x6307;&#x5411;&#x4E86;&#x4E00;&#x4E2A;&#x5305;&#x542B;&#x6D4F;&#x89C8;&#x5668;&#x76F8;&#x5173;&#x4FE1;&#x606F;&#x7684;&#x5BF9;&#x8C61;</li></ul><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="navigator.appVersion &#x6D4F;&#x89C8;&#x5668;&#x7684;&#x7248;&#x672C;&#x53F7; 
 navigator.language &#x6D4F;&#x89C8;&#x5668;&#x4F7F;&#x7528;&#x7684;&#x8BED;&#x8A00; 
 navigator.userAgent &#x6D4F;&#x89C8;&#x5668;&#x7684;userAgent&#x4FE1;&#x606F;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs stylus"><code>navigator<span class="hljs-selector-class">.appVersion</span> &#x6D4F;&#x89C8;&#x5668;&#x7684;&#x7248;&#x672C;&#x53F7; 
@@ -172,7 +172,7 @@ if(browser.version.ios || browser.version.android || browser.version.mobilePhone
 <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;MobileOptimized&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;320&quot;</span>&gt;</span>
 <span class="hljs-comment">&lt;!-- windows phone &#x70B9;&#x51FB;&#x65E0;&#x9AD8;&#x5149; --&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">meta</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;msapplication-tap-highlight&quot;</span> <span class="hljs-attr">content</span>=<span class="hljs-string">&quot;no&quot;</span>&gt;</span></code></pre><blockquote>&#x6B63;&#x5728;&#x52AA;&#x529B;&#x5B66;&#x4E60;&#x4E2D;&#xFF0C;&#x82E5;&#x5BF9;&#x4F60;&#x7684;&#x5B66;&#x4E60;&#x6709;&#x5E2E;&#x52A9;&#xFF0C;&#x7559;&#x4E0B;&#x4F60;&#x7684;&#x5370;&#x8BB0;&#x5457;&#xFF08;&#x70B9;&#x4E2A;&#x8D5E;&#x54AF;^_^&#xFF09;</blockquote><ul><li><p>&#x5F80;&#x671F;&#x597D;&#x6587;&#x63A8;&#x8350;&#xFF1A;</p><ul><li><a href="https://segmentfault.com/a/1190000016068450">webpack&#x6253;&#x5305;&#xFF08;&#x6709;&#x9762;&#x8BD5;&#x9898;&#xFF09;</a></li><li><a href="https://segmentfault.com/a/1190000016255824" target="_blank">&#x7EAF;css&#x5B9E;&#x73B0;&#x7011;&#x5E03;&#x6D41;&#xFF08;multi-column&#x591A;&#x5217;&#x53CA;flex&#x5E03;&#x5C40;&#xFF09;</a></li><li><a href="https://segmentfault.com/a/1190000016082968">&#x753B;&#x4E09;&#x89D2;&#x5F62;</a></li></ul></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

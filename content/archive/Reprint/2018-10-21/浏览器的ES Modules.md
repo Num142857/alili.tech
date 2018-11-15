@@ -1,12 +1,12 @@
 ---
 title: 浏览器的ES Modules
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2fcf66e9
+slug: 2fcf66e9
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>标题是意译的，原文说的JS modules，实际上就是ES6的模块化特性，通过<code>&lt;script type="modules"&gt;</code>可以实现不经过打包直接在浏览器中import/export，此玩法确实让人眼前一亮。</p>
 <p>先看看<code>&lt;script type="modules"&gt;</code>的<a href="https://caniuse.com/#feat=es6-module">兼容性</a>。目前只有较新版本的chrome/firefox/safari/edge支持此特性，看来要普及使用还任重道远。下面跟着这篇文章深入了解一下涨涨姿势。</p>
@@ -234,7 +234,7 @@ container.append(thumbnail);
 </blockquote>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/using-javascript-modules-on-the-web](https://www.zcfy.cc/article/using-javascript-modules-on-the-web)

@@ -1,12 +1,12 @@
 ---
 title: 如何在Vue里建立长按指令
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b6184b9d
+slug: b6184b9d
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p0.ssl.qhimg.com/t016d5e9e243fc800e7.png" alt=""></p>
 <p>您是否曾想过按住按钮几秒钟才能在Vue应用程序中执行某个功能？</p>
@@ -82,7 +82,7 @@ date: 2018-10-18 00:00:00
 <p><a href="https://logrocket.com/signup/">在这里试一试吧。</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/building-a-long-press-directive-in-vue](https://www.zcfy.cc/article/building-a-long-press-directive-in-vue)

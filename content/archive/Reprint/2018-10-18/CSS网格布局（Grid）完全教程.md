@@ -1,12 +1,12 @@
 ---
 title: CSS网格布局（Grid）完全教程
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2dccc0a7
+slug: 2dccc0a7
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>CSS网格布局（Grid）是一套二维的页面布局系统，它的出现将完全颠覆页面布局的传统方式。创建本教程的目的是为了帮助您更好地理解和学习网格布局（Grid）。</p>
 <h2>目录</h2>
@@ -712,7 +712,7 @@ date: 2018-10-18 00:00:00
 <p><a href="http://topic.42du.cn/grid">【示例版】学习CSS网格布局</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/learn-css-grid-a-guide-to-learning-css-grid-jonathan-suh](https://www.zcfy.cc/article/learn-css-grid-a-guide-to-learning-css-grid-jonathan-suh)

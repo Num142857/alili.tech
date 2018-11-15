@@ -1,12 +1,12 @@
 ---
 title: 深入理解 ES Modules (手绘示例)
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '358064e7'
+slug: '358064e7'
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>虽然花了近十年的标准化工作才走到这一步，ES 模块终于为 JavaScript 带来了正式的，标准化的模块系统。</p>
 <p>漫长的等待终于要结束了，随着即将在五月发布的 Firefox 60 (目前尚处于 beta 版本中)，所有的主流浏览器都即将支持 ES 模块，并且 Node 模块工作小组目前也正在为 Node.js 添加对 ES 模块的支持。同时，<a href="https://www.youtube.com/watch?v=qR_b5gajwug">ES 模块对 WebAssembly</a> 的支持也正在进行当中。</p>
@@ -165,7 +165,7 @@ date: 2018-10-18 00:00:00
 <p>这意味着，你将可以使用 <code>type=module</code> 的方式来使用模块的导入和导出。然而，更多的模块特性也即将到来。处于 Stage 3 的提案 <a href="https://github.com/tc39/proposal-dynamic-import">dynamic import</a> 也在具体的进程中。<a href="https://github.com/tc39/proposal-import-meta">import.meta</a> 也是如此，它将支持 Node 上的一些用例。同时 <a href="https://github.com/domenic/package-name-maps">module resolution</a> 提案也会使得在浏览器和 Node.js 之间的差别变得更加平滑细微。所以我们能够期待未来可以鞥更好地使用模块。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/es-modules-a-cartoon-deep-dive-mozilla-hacks-the-web-developer-blog](https://www.zcfy.cc/article/es-modules-a-cartoon-deep-dive-mozilla-hacks-the-web-developer-blog)

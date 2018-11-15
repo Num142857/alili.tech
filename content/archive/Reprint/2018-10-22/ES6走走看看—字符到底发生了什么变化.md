@@ -1,12 +1,12 @@
 ---
 title: ES6走走看看—字符到底发生了什么变化
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: caa15126
+slug: caa15126
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>持续更新的github笔记，链接地址：<a href="https://github.com/qiqihaobenben/Front-End-Basics" rel="nofollow noreferrer" target="_blank">Front-End-Basics</a>  </p>
@@ -383,7 +383,7 @@ tag([<span class="hljs-string">'Hello '</span>, <span class="hljs-string">' worl
 <p><a href="http://www.ruanyifeng.com/blog/2011/06/birth_of_javascript.html" rel="nofollow noreferrer" target="_blank">Javascript诞生记</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

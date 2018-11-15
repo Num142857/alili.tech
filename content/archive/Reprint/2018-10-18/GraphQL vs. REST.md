@@ -1,12 +1,12 @@
 ---
 title: GraphQL vs. REST
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ac44b38
+slug: ac44b38
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h3>两种通过HTTP发送数据的方式：有什么区别？</h3>
 <p>通常情况下，GraphQL被视作一种革命性的对于API查询方式的思考，您可以发送查询，以便在一个请求中准确获取要查找的数据，而无需使用严格的服务器端定义。事实确实如此 - 当组织采用GraphQL时，它可以具有变革性，使前端和后端团队能够比以前更顺利地进行协作。 但实际上，这两种技术都涉及发送HTTP请求并接收一些结果，并且GraphQL包含许多内置的REST模型元素。</p>
@@ -119,7 +119,7 @@ date: 2018-10-18 00:00:00
 <p>另一方面，GraphQL没有REST那么多的工具和集成。 例如，您无法像使用REST结果一样轻松地缓存使用HTTP缓存的GraphQL结果。 但社区正在努力改善工具和基础设施。 例如，您可以使用<a href="http://www.apollographql.com/client">Apollo Client</a>和<a href="https://facebook.github.io/relay/">Relay</a>在您的前端缓存GraphQL结果，最近也可以在服务器上使用<a href="https://dev-blog.apollodata.com/introducing-apollo-engine-insights-error-reporting-and-caching-for-graphql-6a55147f63fc">Apollo Engine</a>.缓存GraphQL结果。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/graphql-vs-rest](https://www.zcfy.cc/article/graphql-vs-rest)

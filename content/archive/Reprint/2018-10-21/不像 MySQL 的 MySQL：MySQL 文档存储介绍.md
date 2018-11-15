@@ -1,12 +1,12 @@
 ---
 title: 不像 MySQL 的 MySQL：MySQL 文档存储介绍
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 76370fbf
+slug: 76370fbf
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#不像-mysql-的-mysqlmysql-文档存储介绍"></a>不像 MySQL 的 MySQL：MySQL 文档存储介绍</h1>
 <blockquote>
@@ -90,7 +90,7 @@ collection                      <span class="hljs-comment">// Get row for 'CAN'<
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [不像 MySQL 的 MySQL：MySQL 文档存储介绍](https://www.zcfy.cc/article/mysql-without-the-mysql-an-introduction-to-the-mysql-document-store)

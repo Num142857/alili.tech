@@ -1,12 +1,12 @@
 ---
 title: 使用Canvas操作像素
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b06c3a33
+slug: b06c3a33
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>现代浏览器支持通过<code>&lt;video&gt;</code>元素播放视频。大多数浏览器也可以通过<a href="https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia">MediaDevices.getUserMedia()</a> API访问摄像头。但即使这两件事结合起来，我们也无法直接访问和操纵这些像素。</p>
 <p>幸运的是，浏览器有一个<a href="https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API">Canvas API</a>，允许我们使用JavaScript绘制图形。实际上，我们可以从视频本身将图像绘制到<code>&lt;canvas&gt;</code>，这使我们能够操作和展示这些像素。</p>
@@ -394,7 +394,7 @@ applyGradient(imageData.<span class="hljs-keyword">data</span>);
 <p>您甚至可以在不使用图像或视频的情况下即时创建效果：</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/manipulating-pixels-using-canvas](https://www.zcfy.cc/article/manipulating-pixels-using-canvas)

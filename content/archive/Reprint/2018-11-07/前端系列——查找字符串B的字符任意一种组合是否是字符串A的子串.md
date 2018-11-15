@@ -1,12 +1,12 @@
 ---
 title: 前端系列——查找字符串B的字符任意一种组合是否是字符串A的子串
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ff1459e3
+slug: ff1459e3
 date: 2018-11-07 02:30:13
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">&#x9898;&#x76EE;&#x8981;&#x6C42;</h3><p>&#x8FD9;&#x9053;&#x7B97;&#x6CD5;&#x9898;&#x5728;&#x524D;&#x7AEF;&#x9762;&#x8BD5;&#x4E2D;&#x53EF;&#x80FD;&#x9047;&#x5230;&#xFF0C;&#x636E;&#x8BF4;&#x67D0;&#x6761;&#x51FA;&#x8FC7;&#x8FD9;&#x9898;&#x3002;</p><blockquote>&#x67E5;&#x627E;&#x5B57;&#x7B26;&#x4E32;B&#x7684;&#x5B57;&#x7B26;&#x4EFB;&#x610F;&#x4E00;&#x79CD;&#x7EC4;&#x5408;&#x662F;&#x5426;&#x662F;&#x5B57;&#x7B26;&#x4E32;A&#x7684;&#x5B50;&#x4E32;&#x3002;<br>&#x4F8B;&#x5982; A=abc123&#xFF0C;B=cba&#xFF0C;&#x5219;B&#x7684;&#x5176;&#x4E2D;&#x4E00;&#x79CD;&#x7EC4;&#x5408;abc&#x662F;A&#x7684;&#x5B50;&#x4E32;&#xFF0C;&#x7136;&#x540E;&#x8FD4;&#x56DE;true&#x3002;</blockquote><h3 id="articleHeader1">&#x7B97;&#x6CD5;&#x601D;&#x8DEF;</h3><p>&#x9898;&#x76EE;&#x7684;&#x51FA;&#x5904;&#x5DF2;&#x7ECF;&#x65E0;&#x4ECE;&#x8003;&#x7A76;&#xFF0C;&#x63A5;&#x4E0B;&#x6765;&#x6211;&#x4EEC;&#x4ECE;JavaScript&#x7684;&#x89D2;&#x5EA6;&#x6765;&#x5C01;&#x88C5;&#x8FD9;&#x6837;&#x4E00;&#x4E2A;&#x529F;&#x80FD;&#x51FD;&#x6570;&#x3002;</p><h4>&#x7A77;&#x4E3E;</h4><p>&#x4E00;&#x5F00;&#x59CB;&#x770B;&#x5230;&#x8FD9;&#x9053;&#x9898;&#xFF0C;&#x4F60;&#x4F1A;&#x60F3;&#x5230;&#x4EC0;&#x4E48;&#xFF1F;<br>&#x6211;&#x60F3;&#x5230;&#x7684;&#x662F;&#x5148;&#x5217;&#x4E3E;&#x51FA;B&#x7684;&#x6240;&#x6709;&#x6392;&#x5217;&#x7EC4;&#x5408;&#xFF0C;&#x5B58;&#x5230;&#x6570;&#x7EC4;&#x91CC;&#x9762;&#xFF0C;&#x7136;&#x540E;&#x904D;&#x5386;&#xFF0C;&#x5224;&#x65AD;&#x662F;&#x5426;&#x6709;&#x7EC4;&#x5408;&#x5305;&#x542B;&#x5728;A&#x4E2D;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x8FD4;&#x56DE;true&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;false&#x3002;<br>&#x5982;&#x679C;&#x4ECE;&#x9898;&#x76EE;&#x7ED9;&#x51FA;&#x7684;&#x4F8B;&#x5B50;&#x6765;&#x7A77;&#x4E3E;&#xFF0C;&#x4E00;&#x5171;6&#x79CD;&#x7EC4;&#x5408;&#xFF0C;&#x5F88;&#x5BB9;&#x6613;&#x7A77;&#x4E3E;&#x51FA;&#x6765;&#xFF0C;&#x4F46;&#x662F;&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;&#x975E;&#x5E38;&#x5927;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x600E;&#x4E48;&#x529E;&#x5462;&#xFF1F;<br>&#x6240;&#x4EE5;&#xFF0C;&#x7A77;&#x4E3E;&#x7684;&#x529E;&#x6CD5;&#x88AB;&#x6211;&#x6392;&#x9664;&#x4E86;&#x3002;</p><h4>&#x6807;&#x8BB0;&#x5220;&#x9664;&#x6CD5;</h4><p>&#x8FD9;&#x540D;&#x5B57;&#x542C;&#x8D77;&#x6765;&#x5F88;&#x5947;&#x602A;&#xFF0C;&#x600E;&#x4E48;&#x4E2A;&#x601D;&#x8DEF;&#x5462;&#xFF1F;</p><p>1&#x3001;A&#x7684;&#x6392;&#x5E8F;&#x80AF;&#x5B9A;&#x662F;&#x4E0D;&#x53D8;&#x7684;&#xFF0C;&#x65E2;&#x7136;&#x53EF;&#x53D8;&#x7684;&#x6211;&#x4EEC;&#x5F88;&#x96BE;&#x4E0B;&#x624B;&#xFF0C;&#x90A3;&#x4E48;&#x53EF;&#x4EE5;&#x4ECE;&#x4E0D;&#x53D8;&#x7684;&#x5730;&#x65B9;&#x5165;&#x624B;&#xFF0C;&#x4EE5;&#x4E0D;&#x53D8;&#x5E94;&#x4E07;&#x53D8;&#x3002;</p><p>2&#x3001;&#x770B;&#x5B57;&#x7B26;&#x4E32;&#x53EF;&#x80FD;&#x4E0D;&#x592A;&#x4E60;&#x60EF;&#xFF0C;&#x6211;&#x628A;A&#x548C;B&#x90FD;&#x8F6C;&#x6362;&#x6210;&#x6570;&#x7EC4;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="let a = A.split(&apos;&apos;) // [a, b, c, 1, 2, 3]
 let b = B.split(&apos;&apos;) // [c, b, a]" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="javascript hljs"><code class="javascript"><span class="hljs-keyword">let</span> a = A.split(<span class="hljs-string">&apos;&apos;</span>) <span class="hljs-comment">// [a, b, c, 1, 2, 3]</span>
 <span class="hljs-keyword">let</span> b = B.split(<span class="hljs-string">&apos;&apos;</span>) <span class="hljs-comment">// [c, b, a]</span></code></pre><p>3&#x3001;&#x5148;&#x8FC7;&#x6EE4;&#x6570;&#x7EC4;&#x4E3A;&#x7A7A;&#x7684;&#x60C5;&#x51B5;&#xFF0C;&#x5982;&#x679C;a&#x6216;&#x8005;b&#x4E3A;&#x7A7A;&#xFF0C;&#x90A3;&#x4E48;&#x4E0D;&#x9700;&#x8981;&#x6BD4;&#x8F83;&#xFF0C;&#x8FD4;&#x56DE;false&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="if (a.length === 0 || b.length === 0) {
@@ -226,7 +226,7 @@ interface(A, B)
 }
 interface(A, B)
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

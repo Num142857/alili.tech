@@ -1,12 +1,12 @@
 ---
 title: css实现波浪线及立方体
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 67000d76
+slug: 67000d76
 date: 2018-11-05 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x6700;&#x8FD1;&#x7684;&#x9879;&#x76EE;&#x6709;&#x505A;&#x5230;&#x8981;&#x753B;&#x51FA;&#x6CE2;&#x6D6A;&#x7EBF;&#x6548;&#x679C;&#xFF0C;&#x8FD9;&#x91CC;&#x662F;&#x5229;&#x7528;linear-gradient&#x6765;&#x5B9E;&#x73B0;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x753B;&#x5706;&#xFF0C;&#x7136;&#x540E;&#x5229;&#x7528;&#x5E95;&#x8272;&#x6765;&#x906E;&#x4F4F;&#x90E8;&#x5206;&#x5706;&#xFF1B;<br>&#x5229;&#x7528;css3&#x5C5E;&#x6027;perspective&#x52A0;&#x65CB;&#x8F6C;&#x5B9E;&#x73B0;&#x7ACB;&#x65B9;&#x4F53;</blockquote><h1 id="articleHeader0">1.css&#x5B9E;&#x73B0;&#x6CE2;&#x6D6A;&#x7EBF;</h1><ul><li>html</li></ul><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;div class=&quot;card-list&quot;&gt;
     &lt;div class=&quot;wave-container&quot;&gt;
         &lt;div class=&quot;wave&quot;&gt;&lt;/div&gt;
@@ -248,7 +248,7 @@ date: 2018-11-05 02:30:10
         <span class="hljs-attribute">transform</span>: <span class="hljs-built_in">translateZ</span>(-100px) <span class="hljs-built_in">rotateX</span>(360deg) <span class="hljs-built_in">rotateY</span>(360deg);
     }
 }</code></pre><ul><li>&#x6548;&#x679C;&#x56FE;</li></ul><blockquote><span class="img-wrap"><img data-src="/img/bVbh27W?w=1294&amp;h=483" src="https://static.alili.tech/img/bVbh27W?w=1294&amp;h=483" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></blockquote><ul><li>&#x4E3B;&#x8981;&#x5C31;&#x662F;&#x8BBE;&#x7F6E;&#x666F;&#x6DF1;perspective&#xFF0C;&#x7136;&#x540E;&#x5BF9;&#x6BCF;&#x4E2A;&#x9762;&#x65CB;&#x8F6C;&#x3001;&#x5E73;&#x79FB;</li></ul><blockquote>&#x6B63;&#x5728;&#x52AA;&#x529B;&#x5B66;&#x4E60;&#x4E2D;&#xFF0C;&#x82E5;&#x5BF9;&#x4F60;&#x7684;&#x5B66;&#x4E60;&#x6709;&#x5E2E;&#x52A9;&#xFF0C;&#x7559;&#x4E0B;&#x4F60;&#x7684;&#x5370;&#x8BB0;&#x5457;&#xFF08;&#x70B9;&#x4E2A;&#x8D5E;&#x54AF;^_^&#xFF09;</blockquote><ul><li><p>&#x5F80;&#x671F;&#x597D;&#x6587;&#x63A8;&#x8350;&#xFF1A;</p><ul><li><a href="https://segmentfault.com/a/1190000016068450">webpack&#x6253;&#x5305;&#xFF08;&#x6709;&#x9762;&#x8BD5;&#x9898;&#xFF09;</a></li><li><a href="https://segmentfault.com/a/1190000016255824" target="_blank">&#x7EAF;css&#x5B9E;&#x73B0;&#x7011;&#x5E03;&#x6D41;&#xFF08;multi-column&#x591A;&#x5217;&#x53CA;flex&#x5E03;&#x5C40;&#xFF09;</a></li><li><a href="https://segmentfault.com/a/1190000016082968">&#x753B;&#x4E09;&#x89D2;&#x5F62;</a></li><li><a href="https://segmentfault.com/a/1190000016542821" target="_blank">&#x5224;&#x65AD;ios&#x548C;Android&#x53CA;PC&#x7AEF;</a></li></ul></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

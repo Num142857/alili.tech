@@ -1,12 +1,12 @@
 ---
 title: React 新 Context API
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a6086f2b
+slug: a6086f2b
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><em>它更符合工程化, 不再是实验性的,” 现在它是一流的API! 并且它还使用了 RENDER PROP!</em></p>
 <p><strong>注意: 大家可以通过</strong> <a href="http://kcd.im/news"><strong>newsletter</strong></a><strong>获取我最新的资讯.我发送每封电子邮件两周后发布到</strong> <a href="https://blog.kentcdodds.com"><strong>我的博客</strong></a> <strong>. 订阅即可在收件箱中获得更早更多的内容! 💌</strong></p>
@@ -125,7 +125,7 @@ function <span class="hljs-type">ThemeAndLanguageConsumer</span>({children}) {
 <p>👋 大家好！我叫<a href="https://kentcdodds.com/">Kent C. Dodds</a>. 我是一名工作在<a href="https://www.paypal.com/">PayPal</a> 的全栈工程师. 我在PayPal 我职级是 <a href="https://github.com/tc39">the TC39</a>. 我比较热衷于 <a href="https://github.com/kentcdodds">开源社区</a>. 我在 <a href="https://egghead.io/instructors/kentcdodds">egghead.io</a>, <a href="https://frontendmasters.com/">Frontend Masters</a>, and <a href="https://workshop.me/?a=kent">Workshop.me</a>上是一名讲师. 并且我还是一名 <a href="https://developers.google.com/experts/people/kent-c-dodds">谷歌开发者</a>. I’m 我幸福地结婚了，还有四个孩子的父亲。 我喜欢我的家人，喜欢编码，JavaScript和React.</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/react-s-new-context-api](https://www.zcfy.cc/article/react-s-new-context-api)

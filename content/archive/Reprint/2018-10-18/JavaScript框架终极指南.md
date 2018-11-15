@@ -1,12 +1,12 @@
 ---
 title: JavaScript框架终极指南
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ee781fe9
+slug: ee781fe9
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>紧跟JavaScript框架的脚步是一个挑战。现在有太多的框架，几乎一个月就会出来一个新的。那么如何知道到底哪一个比较合适你的项目呢？它们分别有什么优点和缺点呢？你要如何开始呢？</p>
 <p>这就是这篇指南出来的意义。它是一个活生生的文档，是所有已知前端JavaScript框架的参考（不包括归档或弃用的项目）。在这种情况下，“框架”一词在广义上被广泛使用。它包括像React这样的用户界面(UI)库，以及像Angular一样的完整框架。</p>
@@ -966,7 +966,7 @@ Coming in at a very slender 1KB, [Hyperapp]是一个具有最低限度API的库�
 <p>下次再续，快乐编程...</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/the-ultimate-guide-to-javascript-frameworks](https://www.zcfy.cc/article/the-ultimate-guide-to-javascript-frameworks)

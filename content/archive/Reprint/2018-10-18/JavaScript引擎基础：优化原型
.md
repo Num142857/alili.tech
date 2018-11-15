@@ -1,12 +1,12 @@
 ---
 title: "JavaScript引擎基础：优化原型"
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 44173d64
+slug: 44173d64
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>本文对所有 JavaScript 引擎中常见的一些关键基础内容进行了介绍——这不仅仅局限于 V8 引擎(<a href="https://twitter.com/v8js">https://twitter.com/v8js)</a>。作为一名 JavaScript 开发者，深入了解 JavaScript 引擎是如何工作的将有助于你了解自己所写代码的性能特征。</p>
 <p><a href="https://mathiasbynens.be/notes/shapes-ics">前一篇</a>文章中，我们讨论了 JavaScript 引擎是如何通过 Shapes 和 Inline Caches 来优化访问对象与数组的。本文将介绍引擎在优化流程中的一些权衡与取舍，并对其在优化原型属性访问方面的优化加速工作进行介绍。</p>
@@ -267,7 +267,7 @@ someObject.foo();
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-engine-fundamentals-optimizing-prototypes](https://www.zcfy.cc/article/javascript-engine-fundamentals-optimizing-prototypes)

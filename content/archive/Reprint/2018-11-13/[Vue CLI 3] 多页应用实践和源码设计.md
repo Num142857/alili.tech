@@ -1,12 +1,12 @@
 ---
 title: '[Vue CLI 3] 多页应用实践和源码设计'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d0e854c9
+slug: d0e854c9
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6211;&#x4EEC;&#x770B;&#x4E00;&#x4E0B;&#x5B98;&#x7F51;&#x7ED9;&#x7684; multi-page &#x7684;&#x914D;&#x7F6E;&#xFF1A;&#x9700;&#x8981;&#x5728; <code>vue.config.js</code> &#x914D;&#x7F6E; <code>pages</code>&#xFF0C;&#x793A;&#x4F8B;&#x5982;&#x4E0B;&#xFF1A;</p><pre><code>pages: {
     index: {
       // page &#x7684;&#x5165;&#x53E3;
@@ -68,7 +68,7 @@ webpackConfig
           filename: ensureRelative(outputDir, filename),
           title
         })</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

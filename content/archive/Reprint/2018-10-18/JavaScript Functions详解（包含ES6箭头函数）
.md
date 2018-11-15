@@ -1,12 +1,12 @@
 ---
 title: JavaScript Functions详解（包含ES6箭头函数）
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2d483fa4
+slug: 2d483fa4
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h2>简介</h2>
 <p>JavaScript中的所有内容都发生在函数中。</p>
@@ -207,7 +207,7 @@ dosomething = <span class="hljs-function"><span class="hljs-keyword">function</s
 <p>这是因为<code>var</code>声明被提升并用<code>undefined</code>作为值初始化，而<code>const</code>和<code>let</code>被提升但未初始化。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-functions](https://www.zcfy.cc/article/javascript-functions)

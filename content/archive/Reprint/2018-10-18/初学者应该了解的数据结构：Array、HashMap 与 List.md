@@ -1,12 +1,12 @@
 ---
 title: 初学者应该了解的数据结构：Array、HashMap 与 List
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6bceb83f
+slug: 6bceb83f
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p0.ssl.qhimg.com/t019eeef36aa559bfc6.jpg" alt="Data Structures for Beginners: Arrays, HashMaps, and Lists"> </p>
 <p>当开发程序时，我们（通常）需要在内存中存储数据。根据操作数据方式的不同，可能会选择不同的数据结构。有很多常用的数据结构，如：Array、Map、Set、List、Tree、Graph 等等。（然而）为程序选取合适的数据结构可能并不容易。因此，希望这篇文章能帮助你了解（不同数据结构的）表现，以求在工作中合理地使用它们。</p>
@@ -1424,7 +1424,7 @@ console.<span class="hljs-built_in">log</span>(insertMap(<span class="hljs-built
 <p>注意： <strong>二叉搜索树</strong> 与其他树结构、图结构，将在另一篇文章中讨论。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists](https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists)

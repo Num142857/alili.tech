@@ -1,12 +1,12 @@
 ---
 title: Vue.js是如何做到数据响应的？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a86700c5
+slug: a86700c5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>许多前端JavaScript框架（例如Angular，React和Vue）都有自己的<em>数据相应</em>引擎。通过了解相应性及其工作原理，您可以提高开发技能并更有效地使用JavaScript框架。在视频和下面的文章中，我们构建了您在Vue源代码中看到的相同类型的Reactivity。</p>
 <p>如果您观看此视频而不是阅读文章，请观看系列中的下一个<a href="https://www.vuemastery.com/courses/advanced-components/evan-you-on-proxies/">视频</a>，与Vue的创建者Evan You讨论反应性和代理。</p>
@@ -127,7 +127,7 @@ date: 2018-10-18 00:00:00
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/the-best-explanation-of-javascript-reactivity](https://www.zcfy.cc/article/the-best-explanation-of-javascript-reactivity)

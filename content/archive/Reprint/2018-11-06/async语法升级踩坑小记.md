@@ -1,12 +1,12 @@
 ---
 title: async语法升级踩坑小记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '31485486'
+slug: '31485486'
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x4ECE;&#x4ECA;&#x5E74;&#x8FC7;&#x5B8C;&#x5E74;&#x56DE;&#x6765;&#xFF0C;&#x4E09;&#x6708;&#x4EFD;&#x5F00;&#x59CB;&#xFF0C;&#x5C31;&#x4E00;&#x76F4;&#x5728;&#x505A;&#x91CD;&#x6784;&#x76F8;&#x5173;&#x7684;&#x4E8B;&#x60C5;&#x3002;<br>&#x5C31;&#x5728;&#x4ECA;&#x5929;&#x521A;&#x521A;&#x4E0A;&#x7EBF;&#x4E86;&#x6700;&#x65B0;&#x4E00;&#x6B21;&#x7684;&#x91CD;&#x6784;&#x4EE3;&#x7801;&#xFF0C;&#x5E0C;&#x671B;&#x9AD8;&#x5CF0;&#x671F;&#x5B89;&#x597D;&#xFF0C;&#x63A5;&#x8FD1;&#x534A;&#x5E74;&#x7684;Node.js&#x4EE3;&#x7801;&#x91CD;&#x6784;&#x3002;<br>&#x5305;&#x542B;&#x4ECE;<code>callback</code>+<code>async.waterfall</code>&#x5230;<code>generator</code>+<code>co</code>&#xFF0C;&#x7EDF;&#x7EDF;&#x5347;&#x7EA7;&#x4E3A;&#x4E86;<code>async</code>&#xFF0C;&#x8FD8;&#x987A;&#x5E26;&#x63A8;&#x52A8;&#x4E86;<code>TypeScript</code>&#x5728;&#x6211;&#x53F8;&#x7684;&#x4F7F;&#x7528;&#x3002;<br>&#x8FD9;&#x4E9B;&#x65E5;&#x5B50;&#x4E5F;&#x8E29;&#x4E86;&#x4E0D;&#x5C11;&#x5751;&#xFF0C;&#x4E5F;&#x603B;&#x7ED3;&#x4E86;&#x4E00;&#x4E9B;&#x5C0F;&#x5C0F;&#x7684;&#x4F18;&#x5316;&#x65B9;&#x6848;&#xFF0C;&#x8FDB;&#x884C;&#x7CBE;&#x7B80;&#x540E;&#x5C06;&#x4E00;&#x4E9B;&#x6BD4;&#x8F83;&#x5173;&#x952E;&#x7684;&#x70B9;&#xFF0C;&#x62FF;&#x51FA;&#x6765;&#x5206;&#x4EAB;&#x7ED9;&#x5927;&#x5BB6;&#xFF0C;&#x5E0C;&#x671B;&#x6709;&#x540C;&#x6837;&#x5728;&#x505A;&#x91CD;&#x6784;&#x7684;&#x5C0F;&#x4F19;&#x4F34;&#x4EEC;&#x53EF;&#x4EE5;&#x7ED5;&#x8FC7;&#x8FD9;&#x4E9B;&#x3002;</blockquote><h2 id="articleHeader0">&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x5347;&#x7EA7;</h2><p>&#x9996;&#x5148;&#x8FD8;&#x662F;&#x8981;&#x8C08;&#x8C08;&#x6539;&#x4EE3;&#x7801;&#x7684;&#x7406;&#x7531;&#xFF0C;&#x6BD5;&#x7ADF;&#x91CD;&#x6784;&#x80AF;&#x5B9A;&#x662F;&#x8981;&#x6709;&#x5408;&#x7406;&#x7684;&#x7406;&#x7531;&#x7684;&#x3002;<br>&#x5982;&#x679C;&#x5355;&#x7EAF;&#x60F3;&#x770B;&#x5347;&#x7EA7;&#x76F8;&#x5173;&#x4E8B;&#x9879;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x9009;&#x62E9;&#x8DF3;&#x8FC7;&#x8FD9;&#x90E8;&#x5206;&#x3002;</p><h3 id="articleHeader1">Callback</h3><p>&#x4ECE;&#x6700;&#x539F;&#x59CB;&#x7684;&#x5F00;&#x59CB;&#x8BF4;&#x8D77;&#xFF0C;&#x671F;&#x95F4;&#x786E;&#x5B9E;&#x9047;&#x5230;&#x4E86;&#x51E0;&#x4E2A;&#x5E74;&#x4EE3;&#x4E45;&#x8FDC;&#x7684;&#x9879;&#x76EE;&#xFF0C;<code>Node 0.x</code>&#xFF0C;&#x4F7F;&#x7528;&#x7684;&#x666E;&#x901A;<code>callback</code>&#xFF0C;&#x4E5F;&#x6709;&#x4E00;&#x4E9B;&#x4F1A;&#x5E94;&#x7528;&#x4E0A;<a href="https://www.npmjs.com/package/async" rel="nofollow noreferrer" target="_blank">async.waterfall</a>&#x8FD9;&#x6837;&#x5728;&#x5F53;&#x5E74;&#x770B;&#x8D77;&#x6765;&#x5F88;&#x4F18;&#x79C0;&#x7684;&#x5DE5;&#x5177;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="// &#x666E;&#x901A;&#x7684;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x8C03;&#x7528;
 var fs = require(&apos;fs&apos;)
 
@@ -310,7 +310,7 @@ router.get(<span class="hljs-string">&apos;/&apos;</span>, <span class="hljs-key
     <span class="hljs-attr">code</span>: <span class="hljs-number">200</span>
   }
 })</code></pre><h2 id="articleHeader11">&#x5C0F;&#x7ED3;</h2><p>&#x91CD;&#x6784;&#x9879;&#x76EE;&#x662F;&#x4E00;&#x4EF6;&#x5F88;&#x6709;&#x610F;&#x601D;&#x7684;&#x4E8B;&#x513F;&#xFF0C;&#x4F46;&#x662F;&#x5BF9;&#x4E8E;&#x4E00;&#x4E9B;&#x6CE8;&#x91CA;&#x6587;&#x6863;&#x90FD;&#x5F88;&#x7F3A;&#x5931;&#x7684;&#x9879;&#x76EE;&#x6765;&#x8BF4;&#xFF0C;&#x91CD;&#x6784;&#x5219;&#x662F;&#x4E00;&#x4EF6;&#x75DB;&#x82E6;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x56E0;&#x4E3A;&#x4F60;&#x9700;&#x8981;&#x4ECE;&#x4EE3;&#x7801;&#x4E2D;&#x83B7;&#x53D6;&#x903B;&#x8F91;&#xFF0C;&#x800C;&#x4F5C;&#x4E3A;&#x52A8;&#x6001;&#x811A;&#x672C;&#x8BED;&#x8A00;&#x7684;<code>JavaScript</code>&#xFF0C;&#x5176;&#x5728;&#x5927;&#x578B;&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x53EF;&#x7EF4;&#x62A4;&#x6027;&#x5E76;&#x4E0D;&#x662F;&#x5F88;&#x9AD8;&#x3002;<br>&#x6240;&#x4EE5;&#x5982;&#x679C;&#x6761;&#x4EF6;&#x5141;&#x8BB8;&#xFF0C;&#x8FD8;&#x662F;&#x5EFA;&#x8BAE;&#x9009;&#x62E9;<code>TypeScript</code>&#x4E4B;&#x7C7B;&#x7684;&#x5DE5;&#x5177;&#x6765;&#x5E2E;&#x52A9;&#x66F4;&#x597D;&#x7684;&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 'Tutorial: 在React中使用GraphQL mutation'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 32ffef6d
+slug: 32ffef6d
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在本教程中，您将学习如何使用简单的mutation来修改服务器上的数据并保持客户端上的状态同步。 具体来说，我们将创建一个将项目添加到列表的mutation。</p>
 <p><img src="https://p0.ssl.qhimg.com/t011484902f00001a99.png" alt=""></p>
@@ -137,7 +137,7 @@ mutate({         <span class="hljs-attr">variables</span>: { <span class="hljs-a
 <p><img src="https://p0.ssl.qhimg.com/t01e7df7341936f1cad.png" alt=""></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/tutorial-graphql-mutations-with-react)

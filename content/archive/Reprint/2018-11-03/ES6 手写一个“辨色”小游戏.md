@@ -1,12 +1,12 @@
 ---
 title: ES6 手写一个“辨色”小游戏
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ed435f3d
+slug: ed435f3d
 date: 2018-11-03 02:30:13
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/bVbhaOC?w=1003&amp;h=474" src="https://static.alili.tech/img/bVbhaOC?w=1003&amp;h=474" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><h1 id="articleHeader0">1. &#x524D;&#x8A00;</h1><p>&#x4F9D;&#x7A00;&#x8BB0;&#x5F97;&#x51E0;&#x5E74;&#x524D;&#x670B;&#x53CB;&#x5708;&#x6D41;&#x884C;&#x7684;&#x8FA8;&#x8272;&#x5C0F;&#x6E38;&#x620F;&#xFF0C;&#x627E;&#x51FA;&#x989C;&#x8272;&#x4E0D;&#x540C;&#x7684;&#x77E9;&#x5F62;&#x3002;&#x524D;&#x4E9B;&#x5929;&#x7A81;&#x53D1;&#x5947;&#x60F3;&#xFF0C;&#x6253;&#x7B97;&#x81EA;&#x5DF1;&#x624B;&#x5199;&#x4E00;&#x4E2A;&#x7C7B;&#x4F3C;&#x7684;&#x6E38;&#x620F;&#xFF0C;&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x5148;&#x4E0A; <a href="https://zxpsuper.github.io/Demo/color/" rel="nofollow noreferrer" target="_blank">Demo</a>&#x3002; --<a href="https://github.com/zxpsuper/Demo" rel="nofollow noreferrer" target="_blank">&#x9879;&#x76EE;&#x6E90;&#x7801;</a></p><p>&#x672C;&#x5B9E;&#x4F8B;&#x57FA;&#x4E8E; ES6 &#x5B9E;&#x73B0;&#xFF0C;&#x5E76;&#x517C;&#x5BB9; ie9&#x53CA;&#x4EE5;&#x4E0A;&#x3002;</p><h1 id="articleHeader1">2. &#x9879;&#x76EE;&#x7ED3;&#x6784;</h1><p><code>index.html index.css index.js</code></p><p>&#x672C;&#x6587;&#x4E3B;&#x8981;&#x8BB2;&#x8FF0;&#x5982;&#x4F55;&#x4F7F;&#x7528; js &#x5B9E;&#x73B0;&#x529F;&#x80FD;&#xFF0C;html css &#x4E0D;&#x5728;&#x6B64;&#x8303;&#x56F4;&#x3002;&#x76F4;&#x63A5;&#x4E0A;&#x4EE3;&#x7801;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;!--index.html--&gt;
 &lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -782,7 +782,7 @@ module.exports = {
   },
 };
 </code></pre><p>index.js &#x6587;&#x4EF6;&#x6700;&#x540E;&#x4E00;&#x884C;&#x6DFB;&#x52A0; <code>export default ColorGame</code></p><p>&#x6267;&#x884C;&#x547D;&#x4EE4;<code>webpack --config ./webpack.js</code></p><p>index.html &#x5F15;&#x5165;&#x751F;&#x6210;&#x7684; <code>colorGame.js</code> &#x5373;&#x53EF;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

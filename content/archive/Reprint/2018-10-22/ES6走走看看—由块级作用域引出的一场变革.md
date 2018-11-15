@@ -1,12 +1,12 @@
 ---
 title: ES6走走看看—由块级作用域引出的一场变革
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dfea777f
+slug: dfea777f
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>持续更新的github笔记，链接地址：<a href="https://github.com/qiqihaobenben/Front-End-Basics" rel="nofollow noreferrer" target="_blank">Front-End-Basics</a>  </p>
@@ -25,7 +25,7 @@ date: 2018-10-22 00:00:00
       <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="{{{{{{let text = 'Hello World!'}}}}}}" title="" data-original-title="复制"></span>
       <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="放进笔记"></span>
       </div>
-      </div><pre class="hljs xquery"><code style="word-break: break-word; white-space: initial;">{{{{{{let text = <span class="hljs-string">'Hello World!'</span>}}}}}}</code></pre>
+      </div><pre class="hljs xquery"><code style="word-break: break-word; white-space: initial;">"{{"{{{{let text = <span class="hljs-string">'Hello World!'</span>}}}}"}}"</code></pre>
 <p>因为有了块级作用域，然后我们才有继续往下聊的可能。</p>
 <h2 id="articleHeader1">1、 块级声明</h2>
 <p>块级声明是用于声明在指定块的作用域之外无法访问的变量。</p>
@@ -443,7 +443,7 @@ f() === <span class="hljs-number">1</span>; <span class="hljs-comment">// true</
 <p>在严格模式下，所有支持ECMAScript 6的浏览器以相同的方式处理：只有在shouldDefineZero为true的情况下定义zero，并且作用域只是这个块内。</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

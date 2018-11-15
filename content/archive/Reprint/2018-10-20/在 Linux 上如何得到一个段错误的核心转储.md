@@ -1,12 +1,12 @@
 ---
 title: 在 Linux 上如何得到一个段错误的核心转储
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 18b31796
+slug: 18b31796
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#在-linux-上如何得到一个段错误的核心转储"></a>在 Linux 上如何得到一个段错误的核心转储</h1>
 <p>本周工作中，我花了整整一周的时间来尝试调试一个段错误。我以前从来没有这样做过，我花了很长时间才弄清楚其中涉及的一些基本事情（获得核心转储、找到导致段错误的行号）。于是便有了这篇博客来解释如何做那些事情！</p>
@@ -121,7 +121,7 @@ sharedlibrary
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-to-get-a-core-dump-for-a-segfault-on-linux](https://www.zcfy.cc/article/how-to-get-a-core-dump-for-a-segfault-on-linux)

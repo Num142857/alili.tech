@@ -1,12 +1,12 @@
 ---
 title: 前端爬坑日记之vue内嵌iframe并跨域通信
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 49baafed
+slug: 49baafed
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x7531;&#x4E8E;&#x8BE5;&#x9879;&#x76EE;&#x662F;&#x57FA;&#x4E8E;&#x539F;&#x672C;&#x7684;&#x5B89;&#x5353;app&#xFF0C;&#x505A;&#x7684;&#x5FAE;&#x4FE1;h5&#xFF0C;&#x6240;&#x4EE5;&#x539F;&#x6765;&#x7684;&#x4F7F;&#x7528;webview&#x7684;&#x9875;&#x9762;&#x73B0;&#x5728;&#x9700;&#x8981;&#x5728;vue&#x4E2D;&#x5B9E;&#x73B0;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x4F7F;&#x7528;iframe<br>&#x67E5;&#x770B;&#x4E86;&#x5F88;&#x591A;&#x5F88;&#x591A;&#x6587;&#x6863;&#xFF0C;&#x5176;&#x4E2D;&#x8FD9;&#x4E00;&#x7BC7;&#x662F;&#x5F88;&#x6709;&#x4EF7;&#x503C;&#x7684; <a href="https://gist.github.com/pbojinov/8965299" rel="nofollow noreferrer">https://gist.github.com/pboji...</a></p><p>&#x4E0B;&#x9762;&#x5C06;3&#x5929;&#x7684;&#x722C;&#x5751;&#x6700;&#x7EC8;&#x4EE5;&#x95EE;&#x7B54;&#x7684;&#x65B9;&#x5F0F;&#x603B;&#x7ED3;&#x5982;&#x4E0B;&#xFF1A;</p><p>1&#x3001;Vue&#x7EC4;&#x4EF6;&#x4E2D;&#x5982;&#x4F55;&#x5F15;&#x5165;iframe&#xFF1F;</p><p>2&#x3001;vue&#x5982;&#x4F55;&#x83B7;&#x53D6;iframe&#x5BF9;&#x8C61;&#x4EE5;&#x53CA;iframe&#x5185;&#x7684;window&#x5BF9;&#x8C61;&#xFF1F;</p><p>3&#x3001;vue&#x5982;&#x4F55;&#x5411;iframe&#x5185;&#x4F20;&#x9001;&#x4FE1;&#x606F;&#xFF1F;</p><p>4&#x3001;iframe&#x5185;&#x5982;&#x4F55;&#x5411;&#x5916;&#x90E8;vue&#x53D1;&#x9001;&#x4FE1;&#x606F;&#xFF1F;</p><p>1&#x3001;Vue&#x7EC4;&#x4EF6;&#x4E2D;&#x5982;&#x4F55;&#x5F15;&#x5165;iframe&#xFF1F;</p><pre><code>&lt;template&gt;
   &lt;div class=&quot;act-form&quot;&gt;
     &lt;iframe :src=&quot;src&quot;&gt;&lt;/iframe&gt;
@@ -256,7 +256,7 @@ export default {
   }
 }
 &lt;/script&gt;</code></pre><p>&#x6B22;&#x8FCE;&#x5927;&#x5BB6;&#x6765;&#x770B;&#x770B;&#x6211;&#x7684;&#x535A;&#x5BA2; <a href="https://www.windzh.com" rel="nofollow noreferrer">https://www.windzh.com</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: iView 发布后台管理系统 iview-admin，没错，它就是你想要的
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 225c3b1d
+slug: 225c3b1d
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000011603206" src="https://static.alili.tech/img/remote/1460000011603206" alt="" title="" style="cursor: pointer; display: inline;"></span></p>
@@ -194,7 +194,7 @@ date: 2018-10-23 00:00:00
 <p>Copyright (c) 2016-present, iView</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

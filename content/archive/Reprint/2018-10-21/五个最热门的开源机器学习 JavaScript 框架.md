@@ -1,12 +1,12 @@
 ---
 title: 五个最热门的开源机器学习 JavaScript 框架
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e7b0e14f
+slug: e7b0e14f
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#五个最热门的开源机器学习-javascript-框架"></a>五个最热门的开源机器学习 JavaScript 框架</h1>
 <blockquote>
@@ -41,7 +41,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/5-trending-open-source-machine-learning-javascript-frameworks](https://www.zcfy.cc/article/5-trending-open-source-machine-learning-javascript-frameworks)

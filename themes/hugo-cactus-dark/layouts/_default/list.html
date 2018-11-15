@@ -8,13 +8,16 @@
 			<div class="archive">
 				<h3>{{ .Key }}</h3>
 				<ul class="post-list" id="post-list">
-						{{ range .Pages }}
-						<li class="post-item">
-                            <div class="meta">
-                            <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
-                        </div>
-                            <span> <a href='{{ .Permalink }}'>{{ .Title }}</a></span>
-                          </li>
+						{{ range  where .Pages "Params.hidden" "ne" "true" }}
+						{{ $url := replace .Permalink .Site.BaseURL "" }}
+							{{ if ne $url "about/" }}
+							<li class="post-item">
+									<div class="meta">
+									<time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+								</div>
+									<span> <a href='{{ .Permalink }}'>{{ .Title }}</a></span>
+								</li>
+							{{ end }}
 						{{ end }}
 				</ul>
 			</div>

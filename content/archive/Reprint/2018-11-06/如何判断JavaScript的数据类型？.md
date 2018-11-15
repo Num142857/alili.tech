@@ -1,12 +1,12 @@
 ---
 title: 如何判断JavaScript的数据类型？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1873d70a
+slug: 1873d70a
 date: 2018-11-06 15:28:30
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x672C;&#x6587;&#x5C06;&#x8BB2;&#x89E3;&#x6211;&#x76EE;&#x524D;&#x6240;&#x77E5;&#x9053;&#x7684;&#x5224;&#x65AD;<code>JavaScript</code>&#x6570;&#x636E;&#x7C7B;&#x578B;&#x7684;&#x65B9;&#x6CD5;&#x3002;<br><code>JavaScript</code>&#x6570;&#x636E;&#x7C7B;&#x578B;&#x4E00;&#x5171;&#x6709;<code>7</code>&#x79CD;&#xFF1A;</p><ul><li>Undefined</li><li>Null</li><li>Boolean</li><li>String</li><li>Symbol</li><li>Number</li><li>Object</li></ul><p>&#x9664;&#x4E86;<code>Object</code>&#x4E4B;&#x5916;&#x7684;<code>6</code>&#x79CD;&#x5C5E;&#x4E8E;<strong>&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;</strong>&#x3002;&#x6709;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x4F1A;&#x7EC6;&#x5206;<code>Object</code>&#x7684;&#x7C7B;&#x578B;&#xFF0C;&#x6BD4;&#x5982;<code>Array</code>&#xFF0C;<code>Function</code>&#xFF0C;<code>Date</code>&#xFF0C;<code>RegExp</code>&#x7B49;&#x3002;</p><h2 id="articleHeader0">typeof</h2><p><code>typeof</code>&#x53EF;&#x4EE5;&#x7528;&#x6765;&#x533A;&#x5206;&#x9664;&#x4E86;<code>Null</code>&#x7C7B;&#x578B;&#x4EE5;&#x5916;&#x7684;<strong>&#x539F;&#x59CB;&#x6570;&#x636E;&#x7C7B;&#x578B;</strong>&#xFF0C;<strong>&#x5BF9;&#x8C61;&#x7C7B;&#x578B;</strong>&#x7684;&#x53EF;&#x4EE5;&#x4ECE;<strong>&#x666E;&#x901A;&#x5BF9;&#x8C61;</strong>&#x91CC;&#x9762;&#x8BC6;&#x522B;&#x51FA;<strong>&#x51FD;&#x6570;</strong>&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="typeof undefined // &quot;undefined&quot;
 typeof null // &quot;object&quot;
 typeof 1 // &quot;number&quot;
@@ -94,7 +94,7 @@ Array.isArray({}) // false
 (function () {console.log(Array.isArray(arguments))}()) // false" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs javascript"><code><span class="hljs-built_in">Array</span>.isArray([]) <span class="hljs-comment">// true</span>
 <span class="hljs-built_in">Array</span>.isArray({}) <span class="hljs-comment">// false</span>
 (<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{<span class="hljs-built_in">console</span>.log(<span class="hljs-built_in">Array</span>.isArray(<span class="hljs-built_in">arguments</span>))}()) <span class="hljs-comment">// false</span></code></pre><h2 id="articleHeader4">&#x603B;&#x7ED3;</h2><p>&#x672C;&#x6587;&#x8BB2;&#x89E3;&#x4E86;&#x6211;&#x76EE;&#x524D;&#x6240;&#x77E5;&#x9053;&#x7684;&#x5224;&#x65AD;<code>JavaScript</code>&#x6570;&#x636E;&#x7C7B;&#x578B;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x5E0C;&#x671B;&#x5927;&#x5BB6;&#x80FD;&#x6709;&#x6240;&#x6536;&#x83B7;&#x3002;&#x5982;&#x679C;&#x672C;&#x6587;&#x6709;&#x4EC0;&#x4E48;&#x9519;&#x8BEF;&#x6216;&#x8005;&#x4E0D;&#x4E25;&#x8C28;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x6B22;&#x8FCE;&#x5728;&#x8BC4;&#x8BBA;&#x533A;&#x7559;&#x8A00;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

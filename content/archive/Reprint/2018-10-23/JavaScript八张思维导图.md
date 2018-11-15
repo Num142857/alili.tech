@@ -1,12 +1,12 @@
 ---
 title: JavaScript八张思维导图
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1a9f0cef
+slug: 1a9f0cef
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>不知不觉做前端已经五年多了，无论是从最初的jQuery还是现在火热的Angular，Vue，React等前端框架，甚至是nodejs等服务端的兴起，归根到底，我始终觉着一切的核心还是JavaScript。于是最近就有了一个想法，想要梳理一下这些年学习以及使用JS的心得。</p>
@@ -24,7 +24,7 @@ date: 2018-10-23 00:00:00
 <p>作者：小小程序猿（^_^）<br>出处：<a href="http://www.cnblogs.com/lidgblogs/" rel="nofollow noreferrer" target="_blank">http://www.cnblogs.com/lidgbl...</a>　<br>欢迎转载，但未经作者同意必须保留此段声明，且在文章页面明显位置给出原文连接，否则保留追究法律责任的权利。</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

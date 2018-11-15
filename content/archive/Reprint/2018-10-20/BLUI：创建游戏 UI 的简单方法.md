@@ -1,12 +1,12 @@
 ---
 title: BLUI：创建游戏 UI 的简单方法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6adc68c9
+slug: 6adc68c9
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#blui创建游戏-ui-的简单方法"></a>BLUI：创建游戏 UI 的简单方法</h1>
 <blockquote>
@@ -35,7 +35,7 @@ date: 2018-10-20 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/blui-an-easy-way-to-create-game-ui](https://www.zcfy.cc/article/blui-an-easy-way-to-create-game-ui)

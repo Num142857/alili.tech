@@ -1,12 +1,12 @@
 ---
 title: 笔记：js参数传递问题
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 11ab453f
+slug: 11ab453f
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2><strong>&#x524D;&#x8A00;</strong></h2><pre><code>var a = [1],b=[1];
 a==b;     //fasle
 var c = b;
@@ -50,7 +50,7 @@ change(a,b);
 console.log(a);  //&quot;5,6&quot; 
 console.log(b);  //&quot;4,2,3&quot;
 </code></pre><p>&#x2003;&#x2003;&#x56E0;&#x4E3A;js&#x6CA1;&#x6709;&#x5757;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x6240;&#x4EE5;&#x5B83;&#x5728;change&#x91CC;&#x627E;&#x4E0D;&#x5230;&#x53D8;&#x91CF;a&#xFF0C;b&#x5C31;&#x4F1A;&#x81EA;&#x89C9;&#x7684;&#x5230;&#x4E0A;&#x5C42;&#x53BB;&#x627E;&#xFF0C;&#x6240;&#x4EE5;&#x8FD9;&#x91CC;&#x7684;a&#xFF0C;b&#x662F;&#x5168;&#x5C40;&#x53D8;&#x91CF;&#x7684;&#x5F15;&#x7528;&#x3002;<br>&#x6B22;&#x8FCE;&#x641C;&#x7D22;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#xFF1A;<strong>&#x4E00;&#x7EBF;&#x7801;&#x519C;</strong><br>&#x6216;&#x626B;&#x7801;&#x5173;&#x6CE8;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbgoy5?w=258&amp;h=258" src="https://static.alili.tech/img/bVbgoy5?w=258&amp;h=258" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

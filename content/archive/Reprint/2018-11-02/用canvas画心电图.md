@@ -1,12 +1,12 @@
 ---
 title: 用canvas画心电图
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2a62a43c
+slug: 2a62a43c
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x6548;&#x679C;&#x56FE;&#xFF1A;</h2><p><span class="img-wrap"><img data-src="/img/bVbgBXI?w=640&amp;h=400" src="https://static.alili.tech/img/bVbgBXI?w=640&amp;h=400" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader1">&#x601D;&#x8DEF;&#xFF1A;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&#x200B;1.&#x6A21;&#x62DF;&#x70B9;&#xFF08;&#x5982;&#x679C;&#x4F60;&#x6709;&#x771F;&#x5B9E;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x90A3;&#x5C31;&#x662F;&#x628A;&#x6570;&#x636E;&#x5E7B;&#x5316;&#x6210;canvas&#x5BF9;&#x5E94;&#x7684;&#x5750;&#x6807;&#x70B9;&#xFF09;
 
 &#x200B;  &#x6A21;&#x62DF;&#x70B9;&#x65F6;&#x6CE8;&#x610F;&#x7684;&#x70B9;&#x5C31;&#x662F;&#x9AD8;&#x8D77;&#x90E8;&#x5206;&#x9700;&#x8981;&#x5BF9;&#x79F0;&#x4EE5;&#x53CA;&#x4E3A;&#x4E86;&#x597D;&#x770B;&#x8981;&#x968F;&#x673A;&#x51FA;&#x73B0;&#x4E0A;&#x4E0A;&#x4E0B;&#x4E0B;
@@ -340,7 +340,7 @@ date: 2018-11-02 02:30:12
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre><h2 id="articleHeader3">&#x5907;&#x6CE8;</h2><p>&#x4EE3;&#x7801;&#x6CA1;&#x6709;&#x6CE8;&#x91CA;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x770B;&#x4E0D;&#x61C2;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#x6211;<br>sf&#x4E0A;&#x8054;&#x7CFB;&#x4E0D;&#x5230;&#x7684;&#x8BDD;&#x53EF;&#x4EE5;&#x8054;&#x7CFB;&#x6211;&#x7684;&#x516C;&#x4F17;&#x53F7;&#xFF1A;&#x6709;&#x4E00;&#x4E2A;&#x59D1;&#x5A18;&#x5728;coding &#x6B22;&#x8FCE;&#x4E00;&#x8D77;&#x4EA4;&#x6D41;&#x5B66;&#x4E60;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

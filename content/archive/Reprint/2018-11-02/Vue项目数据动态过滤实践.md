@@ -1,12 +1,12 @@
 ---
 title: Vue项目数据动态过滤实践
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c22fd7d7
+slug: c22fd7d7
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x662F;&#x5728;&#x4E0B;&#x5728;&#x505A;&#x4E00;&#x4E2A;Vue&#x9879;&#x76EE;&#x4E2D;&#x9047;&#x5230;&#x7684;&#x5B9E;&#x9645;&#x573A;&#x666F;&#xFF0C;&#x8FD9;&#x91CC;&#x8BB0;&#x5F55;&#x4E00;&#x4E0B;&#x6211;&#x9047;&#x5230;&#x95EE;&#x9898;&#x4E4B;&#x540E;&#x7684;&#x601D;&#x8003;&#x548C;&#x6700;&#x540E;&#x600E;&#x4E48;&#x89E3;&#x51B3;&#x7684;(&#x8001;&#x5E74;&#x7A0B;&#x5E8F;&#x5458;&#x8BB0;&#x6027;&#x4E0D;&#x597D; -&#x3002;-)&#xFF0C;&#x8FC7;&#x7A0B;&#x4E2D;&#x4F1A;&#x6D89;&#x53CA;&#x5230;&#x4E00;&#x4E9B;Vue&#x6E90;&#x7801;&#x7684;&#x6982;&#x5FF5;&#x6BD4;&#x5982;<code>$mount</code>&#x3001;<code>render watcher</code>&#x7B49;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x592A;&#x4E86;&#x89E3;&#x7684;&#x8BDD;&#x53EF;&#x4EE5;&#x7785;&#x7785; <a href="https://juejin.im/post/5b38830de51d455888216675" rel="nofollow noreferrer" target="_blank">Vue&#x6E90;&#x7801;&#x9605;&#x8BFB;&#x7CFB;&#x5217;&#x6587;&#x7AE0;</a> ~</p><p>&#x95EE;&#x9898;&#x662F;&#x8FD9;&#x6837;&#x7684;&#xFF1A;&#x9875;&#x9762;&#x4ECE;&#x540E;&#x53F0;&#x62FF;&#x5230;&#x7684;&#x6570;&#x636E;&#x662F;&#x7531;<code>0</code>&#x3001;<code>1</code>&#x4E4B;&#x7C7B;&#x7684;key&#xFF0C;&#x800C;&#x8FD9;&#x4E2A;key&#x4EE3;&#x8868;&#x7684;value&#x6BD4;&#x5982;<code>0-&#x5973;</code>&#x3001;<code>1-&#x7537;</code>&#x7684;&#x5BF9;&#x5E94;&#x5173;&#x7CFB;&#x662F;&#x8981;&#x4ECE;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x6570;&#x636E;&#x5B57;&#x5178;&#x63A5;&#x53E3;&#x62FF;&#x5230;&#x7684;&#xFF1B;&#x7C7B;&#x4F3C;&#x4E8E;<a href="https://easy-mock.com/mock/59e6f5dd34be4b482ca23abe/ele-template/manage/config/sys-param/list-all" rel="nofollow noreferrer" target="_blank">&#x8FD9;&#x6837;&#x7684;Api</a>&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="{
   &quot;SEX_TYPE&quot;: [
     { &quot;paramValue&quot;: 0, &quot;paramDesc&quot;: &quot;&#x5973;&quot; },
@@ -53,7 +53,7 @@ date: 2018-11-02 02:30:12
   }
 &lt;/script&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code class="vue"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-    </span><span class="hljs-template-variable">{{ rootFilters( sexVal )}}</span><span class="xml">
+    </span><span class="hljs-template-variable">"{{" rootFilters( sexVal )"}}"</span><span class="xml">
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
  
@@ -249,7 +249,7 @@ new Vue({
   }
 &lt;/script&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code class="vue"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-    </span><span class="hljs-template-variable">{{ $root._rootFilters( sexVal )}}</span><span class="xml">
+    </span><span class="hljs-template-variable">"{{" $root._rootFilters( sexVal )"}}"</span><span class="xml">
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
  
@@ -266,7 +266,7 @@ new Vue({
     }
   }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></span></code></pre><p>&#x8FD9;&#x91CC;&#x4E0D;&#x4EC5;&#x6CE8;&#x518C;&#x4E86;&#x8FC7;&#x6EE4;&#x5668;&#xFF0C;&#x800C;&#x4E14;&#x4E5F;&#x66B4;&#x9732;&#x4E86;&#x6570;&#x636E;&#x5B57;&#x5178;&#xFF0C;&#x4EE5;&#x65B9;&#x4FBF;&#x67D0;&#x4E9B;&#x5730;&#x65B9;&#x7684;&#x5217;&#x8868;&#x663E;&#x793A;&#xFF0C;&#x6BD5;&#x7ADF;&#x8FD9;&#x662F;&#x5B9E;&#x9645;&#x9879;&#x76EE;&#x4E2D;&#x5E38;&#x89C1;&#x7684;&#x573A;&#x666F;&#x3002;</p><p>&#x5F53;&#x7136;&#x5982;&#x679C;&#x4F7F;&#x7528;vuex&#x66F4;&#x597D;&#xFF0C;&#x4E0D;&#x8FC7;&#x8FD9;&#x91CC;&#x7684;&#x573A;&#x666F;&#x4E2A;&#x4EBA;&#x89C9;&#x5F97;&#x6CA1;&#x5FC5;&#x8981;&#x7528;vuex&#xFF0C;&#x5982;&#x679C;&#x8FD8;&#x6709;&#x66F4;&#x597D;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x8BA8;&#x8BBA;&#x4E00;&#x4E0B;&#x4E0B;&#x554A;~</p><hr><p>&#x7F51;&#x4E0A;&#x7684;&#x5E16;&#x5B50;&#x5927;&#x591A;&#x6DF1;&#x6D45;&#x4E0D;&#x4E00;&#xFF0C;&#x751A;&#x81F3;&#x6709;&#x4E9B;&#x524D;&#x540E;&#x77DB;&#x76FE;&#xFF0C;&#x5728;&#x4E0B;&#x7684;&#x6587;&#x7AE0;&#x90FD;&#x662F;&#x5B66;&#x4E60;&#x8FC7;&#x7A0B;&#x4E2D;&#x7684;&#x603B;&#x7ED3;&#xFF0C;&#x5982;&#x679C;&#x53D1;&#x73B0;&#x9519;&#x8BEF;&#xFF0C;&#x6B22;&#x8FCE;&#x7559;&#x8A00;&#x6307;&#x51FA;~</p><blockquote><p>&#x53C2;&#x8003;&#xFF1A;</p><ol><li><a href="https://github.com/vuejs/vue" rel="nofollow noreferrer" target="_blank">Vue.js 2.5.17 &#x6E90;&#x7801;</a></li><li><a href="https://juejin.im/post/5b38830de51d455888216675" rel="nofollow noreferrer" target="_blank">Vue&#x6E90;&#x7801;&#x9605;&#x8BFB;&#x7CFB;&#x5217;</a></li><li><a href="https://codepen.io/SHERlocked93/pen/GXmXrM" rel="nofollow noreferrer" target="_blank">Vue 2.5.17 filter test</a><button class="btn btn-xs btn-default ml10 preview" data-url="SHERlocked93/pen/GXmXrM" data-typeid="3">&#x70B9;&#x51FB;&#x9884;&#x89C8;</button></li></ol></blockquote>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

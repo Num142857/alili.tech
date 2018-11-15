@@ -1,12 +1,12 @@
 ---
 title: Orbital Apps：新一代 Linux 程序
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ed27bb94
+slug: ed27bb94
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#orbital-apps新一代-linux-程序"></a>Orbital Apps：新一代 Linux 程序</h1>
 <p>今天，我们要了解 <strong>Orbital Apps</strong> 或 <strong>ORB</strong>（<strong>O</strong>pen <strong>R</strong>unnable <strong>B</strong>undle）<strong>apps</strong>（开放可运行程序包），一个自由的、跨平台的开源程序集合。所有 ORB 程序都是可移动的。你可以将它们安装在你的 Linux 系统或 USB 驱动器上，以便你可以在任何系统上使用相同的程序。它们不需要 root 权限，并且没有依赖关系。所有必需的依赖关系都包含在程序中。只需将 ORB 程序复制到 USB 驱动器并将其插入到任何 Linux 系统中就立即开始使用它们。所有设置和配置以及程序的数据都将存储在 USB 驱动器上。由于不需要在本地驱动器上安装程序，我们可以在联机或脱机的计算机上运行应用程序。这意味着我们不需要 Internet 来下载任何依赖。</p>
@@ -60,7 +60,7 @@ date: 2018-10-22 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

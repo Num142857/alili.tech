@@ -1,12 +1,12 @@
 ---
 title: 10个为您的下一个Web应用程序使用Nuxt.js的理由
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 544102cc
+slug: 544102cc
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>如果你是一个Vue开发者，可能你听说过Nuxt.js。但是你可能不太知道关于它的所有炒作。你可能会问，为什么我要在一个框架里面再用一个框架，Vue已经让开发JavaScript应用变得很容易了，Nuxt.js背后的想法是什么？</p>
 <p>这篇文章，我们将讲述为什么要在你的下一个项目中使用Nuxt的10个原因。</p>
@@ -95,7 +95,7 @@ date: 2018-10-18 00:00:00
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/10-reasons-to-use-nuxt-js-for-your-next-web-application](https://www.zcfy.cc/article/10-reasons-to-use-nuxt-js-for-your-next-web-application)

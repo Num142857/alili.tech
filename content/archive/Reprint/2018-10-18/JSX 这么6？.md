@@ -1,12 +1,12 @@
 ---
 title: JSX 这么6？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dd3b254f
+slug: dd3b254f
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>本文会先解释一下JSX的工作原理，再介绍一下如何用“不寻常”的方式来使用JSX。如果你已经了解了JSX的工作原理，可以跳过第一部分。如果你只想学一些实用的东西，那可以跳过第二部分。</p>
 <hr>
@@ -186,7 +186,7 @@ console.log(
 <p>欢迎评论。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/jsx-can-do-that](https://www.zcfy.cc/article/jsx-can-do-that)

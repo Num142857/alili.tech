@@ -1,12 +1,12 @@
 ---
 title: 在React中跨组件分发状态的三种方法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4cec9d39
+slug: 4cec9d39
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>当我问自己第一百次时，我正在研究一个典型的CRUD屏幕：“我应该将状态保留在这个组件中还是将其移动到父组件？”。</p>
 <p>如果需要对子组件的状态进行轻微控制。您可能也遇到了同样的问题。</p>
@@ -267,7 +267,7 @@ render(<span class="hljs-variable">&lt;BookApp /&gt;</span>, document.getElement
 <p>感谢你的阅读。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/three-approaches-to-distribute-the-state-across-components-in-react](https://www.zcfy.cc/article/three-approaches-to-distribute-the-state-across-components-in-react)

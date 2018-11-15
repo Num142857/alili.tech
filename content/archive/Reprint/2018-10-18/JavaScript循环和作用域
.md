@@ -1,12 +1,12 @@
 ---
 title: JavaScript循环和作用域
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: db5efcc5
+slug: db5efcc5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><a href="https://flaviocopes.com/javascript/">JavaScript</a>有一个特点，也许会让开发者头痛, 是与循环和作用域相关的.</p>
 <p>举个例子:</p>
@@ -101,7 +101,7 @@ date: 2018-10-18 00:00:00
 
 </span></code></pre>
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-loops-and-scope](https://www.zcfy.cc/article/javascript-loops-and-scope)

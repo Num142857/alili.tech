@@ -1,12 +1,12 @@
 ---
 title: vue 指令---气泡提示(手撸实战)
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 82bb16b
+slug: 82bb16b
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <hr><p><strong>&#x83DC;&#x9E1F;&#x5B66;&#x4E60;&#x4E4B;&#x8DEF;</strong><br>//L6zt github<br>&#x81EA;&#x5DF1; &#x5728;&#x9020;&#x7EC4;&#x4EF6;&#x8F6E;&#x5B50;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x778E;&#x641E;&#x3002;<br>&#x81EA;&#x5DF1;&#x5199;&#x4E86;&#x4E2A;slider&#x7EC4;&#x4EF6;&#xFF0C;&#x60F3;&#x52A0;&#x4E2A;&#x6C14;&#x6CE1;&#x63D0;&#x793A;&#x3002;&#x4E3A;&#x4E86;&#x590D;&#x7528;&#x548C;&#x7701;&#x4E8B;&#x7279;&#x6B64;&#x5199;&#x4E86;&#x4E2A;&#x6307;&#x4EE4;&#x6765;&#x89E3;&#x51B3;&#x3002;<br><a href="http://vuecompoents.jcmark.cn/slider" rel="nofollow noreferrer" target="_blank">&#x9884;&#x89C8;&#x5730;&#x5740;</a><br><a href="https://github.com/L6zt/components" rel="nofollow noreferrer" target="_blank">&#x9879;&#x76EE;&#x5730;&#x5740;</a> github &#x6211;&#x53EB;&#x7ED9;&#x5B83;&#x80E1;&#x535A;<br><span class="img-wrap"><img data-src="/img/bVbijKd?w=774&amp;h=208" src="https://static.alili.tech/img/bVbijKd?w=774&amp;h=208" alt="&#x6548;&#x679C;&#x56FE;&#x7247;" title="&#x6548;&#x679C;&#x56FE;&#x7247;" style="cursor:pointer;display:inline"></span></p><hr><p><strong>&#x6211;&#x5BF9;&#x6307;&#x4EE4;&#x7684;&#x7406;&#x89E3;:</strong> &#x524D;&#x4E0D;&#x4E45;&#x770B;&#x8FC7; &#x4E00;&#x90E8;&#x5206;vnode&#x5B9E;&#x73B0;&#x6E90;&#x7801;&#xFF0C;&#x5948;&#x4F55;&#x8D44;&#x8D28;&#x6709;&#x9650;...&#x770B;&#x4E0D;&#x61C2;&#x3002;<br>vnode&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;-----&gt; &#x751F;&#x6210;&#x524D;&#x3001;&#x751F;&#x6210;&#x540E;&#x3001;&#x751F;&#x6210;&#x771F;&#x6B63;dom&#x3001;&#x66F4;&#x65B0; vnode&#x3001;&#x66F4;&#x65B0;dom &#x3001; &#x9500;&#x6BC1;&#x3002;<br>&#x800C;Vue&#x7684;&#x6307;&#x4EE4;&#x5219;&#x662F;&#x4F9D;&#x8D56;&#x4E8E;vnode &#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#xFF0C; &#x65E0;&#x975E;&#x4E5F;&#x662F;&#x6709;&#x4EE5;&#x4E0A;&#x7C7B;&#x4F3C;&#x7684;&#x94A9;&#x5B50;&#x3002;<br><strong>&#x4EE3;&#x7801;&#x6548;&#x679C;</strong><br>&#x6307;&#x4EE4;&#x6302;A&#x5143;&#x7D20;&#x4E0A;&#xFF0C;&#x9ED8;&#x8BA4;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x6C14;&#x6CE1;&#x5BB9;&#x5668;B&#x63D2;&#x5165;&#x5230; body &#x91CC;&#x9762;&#xFF0C;B &#x4F1A;&#x83B7;&#x53D6; &#x5143;&#x7D20; A &#x7684;&#x4F4D;&#x7F6E;&#x4FE1;&#x606F; &#x548C; &#x81EA;&#x5DF1;&#x7684;<br>&#x5927;&#x5C0F;&#x4FE1;&#x606F;&#xFF0C;&#x7ECF;&#x8FC7; &#x4E00;&#x4E9B;&#x5217;&#x7684;&#x8FD0;&#x7B97;&#xFF0C;B &#x5143;&#x7D20;&#x4F1A;&#x5B9A;&#x4F4D;&#x5230; A &#x7684; &#x4E2D;&#x95F4; &#x4E0A; &#x4F4D;&#x7F6E;&#x3002; &#x5F53;&#x9F20;&#x6807;&#x653E;&#x5230; A &#x4E0A; B &#x5C31;&#x4F1A;&#x663E;&#x793A;&#x51FA;&#x6765;&#xFF0C;&#x79BB;&#x5F00;&#x5C31;&#x4F1A;&#x6D88;&#x5931;&#x3002;</p><h2 id="articleHeader0">&#x4EE5;&#x4E0B;&#x4EE3;&#x7801;</h2><p><strong>&#x6C14;&#x6CE1;&#x6307;&#x4EE4;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="import { on , off , once, contains, elemOffset, position, addClass, removeClass } from &apos;../utils/dom&apos;;
 import Vue from &apos;vue&apos;
 const global = window;
@@ -870,7 +870,7 @@ export const on = ({el, type, fn}) =&gt; {
         }
     };
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

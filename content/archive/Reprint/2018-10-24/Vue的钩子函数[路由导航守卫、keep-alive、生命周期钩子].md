@@ -1,12 +1,12 @@
 ---
 title: 'Vue的钩子函数[路由导航守卫、keep-alive、生命周期钩子]'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e6561d69
+slug: e6561d69
 date: 2018-10-24 08:17:53
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000015727282?w=500&amp;h=317" del-src="https://static.alili.tech/img/remote/1460000015727282?w=500&amp;h=317" alt="" title="" style="cursor: pointer; display: inline;"></span></p>
@@ -623,7 +623,7 @@ new Router(</span><span class="hljs-template-variable">{
 <p><a href="https://segmentfault.com/a/1190000010546663">keep-alive&#x7684;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#x4E0E;&#x4F7F;&#x7528;(&#x914D;&#x5408;router-view&#x7F13;&#x5B58;&#x6574;&#x4E2A;&#x8DEF;&#x7531;&#x9875;&#x9762;)</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

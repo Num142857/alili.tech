@@ -1,12 +1,12 @@
 ---
 title: 手把手教你用原生JavaScript造轮子（1）——分页器（最后更新：Vue插件版本，本篇Over！）
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 5eb2f494
+slug: 5eb2f494
 date: 2018-10-24 08:17:54
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>&#x65E5;&#x5E38;&#x5DE5;&#x4F5C;&#x4E2D;&#x7ECF;&#x5E38;&#x4F1A;&#x53D1;&#x73B0;&#x6709;&#x5927;&#x91CF;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x662F;&#x91CD;&#x590D;&#x7684;&#xFF0C;&#x800C;&#x7528;&#x522B;&#x4EBA;&#x7684;&#x63D2;&#x4EF6;&#x4E5F;&#x4E0D;&#x80FD;&#x5B8C;&#x7F8E;&#x89E3;&#x51B3;&#x4E00;&#x4E9B;&#x5B9A;&#x5236;&#x5316;&#x7684;&#x9700;&#x6C42;&#xFF0C;&#x6240;&#x4EE5;&#x6211;&#x51B3;&#x5B9A;&#x628A;&#x4E00;&#x4E9B;&#x5E38;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#x62BD;&#x79BB;&#x3001;&#x5C01;&#x88C5;&#x51FA;&#x6765;&#xFF0C;&#x5F62;&#x6210;&#x4E00;&#x5957;&#x81EA;&#x5DF1;&#x7684;&#x63D2;&#x4EF6;&#x5E93;&#x3002;&#x540C;&#x65F6;&#xFF0C;&#x6211;&#x5C06;&#x7528;&#x8FD9;&#x4E2A;&#x6559;&#x7A0B;&#x7CFB;&#x5217;&#x8BB0;&#x5F55;&#x4E0B;&#x6BCF;&#x4E00;&#x4E2A;&#x63D2;&#x4EF6;&#x7684;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#xFF0C;&#x624B;&#x628A;&#x624B;&#x6559;&#x4F60;&#x5982;&#x4F55;&#x4E00;&#x6B65;&#x4E00;&#x6B65;&#x53BB;&#x9020;&#x51FA;&#x4E00;&#x5957;&#x5B9E;&#x7528;&#x6027;&#x3001;&#x53EF;&#x590D;&#x7528;&#x6027;&#x9AD8;&#x7684;&#x8F6E;&#x5B50;&#x3002;</p>
@@ -2137,8 +2137,8 @@ Vue.use(VueWheelsPagination)</code></pre>
       </div>
       </div><pre class="xml hljs"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">lang</span>=<span class="hljs-string">&quot;html&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">nav</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination&quot;</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item first&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goFirst()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &gt; 1&quot;</span>&gt;</span>{{info.firstInfo}}<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item prev&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goPrev()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &gt; 1&quot;</span>&gt;</span>{{info.prevInfo}}<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item first&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goFirst()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &gt; 1&quot;</span>&gt;</span>"{{"info.firstInfo"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item prev&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goPrev()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &gt; 1&quot;</span>&gt;</span>"{{"info.prevInfo"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-list&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;ellipsis&quot;</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goFirst()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &gt; 1&quot;</span>&gt;</span>1<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item ellipsis&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber - (max + 1) &gt; 1&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
@@ -2149,7 +2149,7 @@ Vue.use(VueWheelsPagination)</code></pre>
           <span class="hljs-attr">:key</span>=<span class="hljs-string">&quot;pageNumber - pageIndex&quot;</span>&gt;</span>
         {{pageNumber - pageIndex}}
       <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item current&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goPage(pageNumber)&quot;</span>&gt;</span>{{pageNumber}}<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item current&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goPage(pageNumber)&quot;</span>&gt;</span>"{{"pageNumber"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item&quot;</span>
           @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goPage(pageNumber + pageIndex)&quot;</span>
           <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber + pageIndex &lt; pageCount&quot;</span>
@@ -2158,7 +2158,7 @@ Vue.use(VueWheelsPagination)</code></pre>
         {{pageNumber + pageIndex}}
       <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item ellipsis&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber + max + 1 &lt; pageCount&quot;</span>&gt;</span>...<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goLast()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &lt; pageCount&quot;</span>&gt;</span>{{pageCount}}<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goLast()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &lt; pageCount&quot;</span>&gt;</span>"{{"pageCount"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-list&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;!ellipsis&quot;</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">:class</span>=<span class="hljs-string">&quot;pageIndex === pageNumber ? &apos;pagination-item current&apos; : &apos;pagination-item&apos;&quot;</span>
@@ -2183,8 +2183,8 @@ Vue.use(VueWheelsPagination)</code></pre>
         {{pageIndex}}
       <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item next&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goNext()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &lt; pageCount&quot;</span>&gt;</span>{{info.nextInfo}}<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item last&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goLast()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &lt; pageCount&quot;</span>&gt;</span>{{info.lastInfo}}<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item next&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goNext()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &lt; pageCount&quot;</span>&gt;</span>"{{"info.nextInfo"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;javascript:;&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;pagination-item last&quot;</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;goLast()&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pageNumber &lt; pageCount&quot;</span>&gt;</span>"{{"info.lastInfo"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">nav</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></code></pre>
 <p>&#x5982;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x76F4;&#x63A5;&#x5728;&#x5355;&#x6587;&#x4EF6;&#x7EC4;&#x4EF6;&#x7684;<code>template</code>&#x6807;&#x7B7E;&#x4E2D;&#x5C31;&#x5B8C;&#x6210;&#x4E86;&#x8FD9;&#x4E2A;&#x63D2;&#x4EF6;&#x5927;&#x90E8;&#x5206;&#x7684;&#x6E32;&#x67D3;&#x903B;&#x8F91;&#x3002;&#x76F8;&#x5BF9;&#x539F;&#x751F;JS&#x5B9E;&#x73B0;&#x7684;&#x7248;&#x672C;&#xFF0C;&#x4E0D;&#x4EC5;&#x8F7B;&#x677E;&#x7701;&#x53BB;&#x4E86;&#x4E8B;&#x4EF6;&#x76D1;&#x542C;&#x3001;DOM&#x64CD;&#x4F5C;&#x7B49;&#x6B65;&#x9AA4;&#xFF0C;&#x800C;&#x4E14;&#x8BA9;&#x6211;&#x4EEC;&#x80FD;&#x53EA;&#x5173;&#x6CE8;&#x63D2;&#x4EF6;&#x672C;&#x8EAB;&#x5177;&#x4F53;&#x7684;&#x4EA4;&#x4E92;&#x903B;&#x8F91;&#xFF0C;&#x53EF;&#x4EE5;&#x8BF4;&#x5927;&#x5927;&#x51CF;&#x8F7B;&#x4E86;&#x5F00;&#x53D1;&#x96BE;&#x5EA6;&#xFF0C;&#x5E76;&#x63D0;&#x5347;&#x4E86;&#x9875;&#x9762;&#x6027;&#x80FD;&#x3002;&#x5269;&#x4E0B;&#x7684;&#x6570;&#x636E;&#x90E8;&#x5206;&#x7684;&#x903B;&#x8F91;&#x53CA;&#x4EA4;&#x4E92;&#x5904;&#x7406;&#xFF0C;&#x5728;JS&#x4E2D;&#x5B8C;&#x6210;&#x5373;&#x53EF;&#x3002;</p>
@@ -2503,7 +2503,7 @@ Vue.use(VueWheelsPagination)</code></pre>
 </ul>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

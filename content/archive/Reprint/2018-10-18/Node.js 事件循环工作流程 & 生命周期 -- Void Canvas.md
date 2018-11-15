@@ -1,12 +1,12 @@
 ---
 title: Node.js 事件循环工作流程 & 生命周期 -- Void Canvas
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f2555a
+slug: f2555a
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>一年前在描述  <a href="http://voidcanvas.com/setimmediate-vs-nexttick-vs-settimeout/">setImmediate &amp; process.nextTick</a> 的区别时，我写了一些关于具体的 node 的事件循环的架构。出乎我的意料，读过那篇文章的读者对于事件循环的这一部分变得更加有兴趣，我收到了很多反馈，也有很多读者在站内搜索相应的关键词，这就是我为什么决定回来写 nodejs 的事件循环的工作流程。</p>
 <blockquote>
@@ -189,7 +189,7 @@ setTimeout(<span class="hljs-function"><span class="hljs-params">()</span>=&gt;<
 </ol>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/node-js-event-loop-workflow-lifecycle-in-low-level-void-canvas](https://www.zcfy.cc/article/node-js-event-loop-workflow-lifecycle-in-low-level-void-canvas)

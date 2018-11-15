@@ -1,12 +1,12 @@
 ---
 title: 三个值得期待的JavaScript新功能！
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 31c9727c
+slug: 31c9727c
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>让我们来看看JavaScript中一些有用的即将推出的功能。您将看到他们的语法，链接以及时了解他们的进度，我们将编写一个小型测试套件，以展示如何立即开始使用这些提案！</p>
 <h4>JavaScript是如何更新迭代的</h4>
@@ -120,7 +120,7 @@ date: 2018-10-18 00:00:00
 <p><a href="https://github.com/tc39/proposal-pipeline-operator" title="https://github.com/tc39/proposal-pipeline-operator"><strong>tc39/proposal-pipeline-operator</strong> _proposal-pipeline-operator - A proposal for adding the simple-but-useful pipeline operator to JavaScript._github.com</a><a href="https://github.com/tc39/proposal-pipeline-operator"></a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/here-are-three-upcoming-changes-to-javascript-that-you-ll-love](https://www.zcfy.cc/article/here-are-three-upcoming-changes-to-javascript-that-you-ll-love)

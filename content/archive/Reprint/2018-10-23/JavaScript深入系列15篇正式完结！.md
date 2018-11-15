@@ -1,12 +1,12 @@
 ---
 title: JavaScript深入系列15篇正式完结！
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fa6f85aa
+slug: fa6f85aa
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">写在前面</h2>
@@ -58,7 +58,7 @@ date: 2018-10-23 00:00:00
 <p>感谢大家的阅读和支持，我是冴羽，JavaScript 专题系列再见啦！[]~(￣▽￣)~**</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

@@ -1,12 +1,12 @@
 ---
 title: 基于element的区间选择组件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 92007a9e
+slug: 92007a9e
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>公司的系统中，产品经理在设计时经常要求对某个字段进行区间阈值设置或者作为筛选条件。但是苦于element中没有非常契合的组件（slider组件并不支持两端均能设定），于是自己动手造了一个。</p>
@@ -219,7 +219,7 @@ resetForm() {
 <p><a href="https://segmentfault.com/n/1330000016295830">源码链接</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

@@ -1,12 +1,12 @@
 ---
 title: TypeScript在react项目中的实践
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c955a8e6
+slug: c955a8e6
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x524D;&#x6BB5;&#x65F6;&#x95F4;&#x6709;&#x5199;&#x8FC7;&#x4E00;&#x4E2A;<a href="https://segmentfault.com/a/1190000015719697">TypeScript&#x5728;node&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x5B9E;&#x8DF5;</a>&#x3002;<br>&#x5728;&#x91CC;&#x8FB9;&#x6709;&#x89E3;&#x91CA;&#x4E86;&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x4F7F;&#x7528;<code>TS</code>&#xFF0C;&#x4EE5;&#x53CA;&#x5728;<code>Node</code>&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x662F;&#x600E;&#x6837;&#x7684;&#x3002;<br>&#x4F46;&#x662F;&#x90A3;&#x4EC5;&#x4EC5;&#x662F;&#x4E00;&#x4E2A;&#x7EAF;&#x63A5;&#x53E3;&#x9879;&#x76EE;&#xFF0C;&#x78B0;&#x5DE7;&#x8D76;&#x4E0A;&#x8FD1;&#x671F;&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x91CD;&#x6784;&#x4E5F;&#x7531;&#x6211;&#x6765;&#x4E3B;&#x6301;&#xFF0C;&#x7ECF;&#x8FC7;&#x4E0A;&#x6B21;&#x7684;&#x5B9E;&#x8DF5;&#x4EE5;&#x540E;&#xFF0C;&#x5C1D;&#x5230;&#x4E86;<code>TS</code>&#x6240;&#x5E26;&#x6765;&#x7684;&#x751C;&#x5934;&#xFF0C;&#x6BEB;&#x4E0D;&#x72B9;&#x8C6B;&#x7684;&#x9009;&#x62E9;&#x7528;<code>TS</code>+<code>React</code>&#x6765;&#x91CD;&#x6784;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x3002;<br>&#x8FD9;&#x6B21;&#x7684;&#x91CD;&#x6784;&#x4E0D;&#x4EC5;&#x5305;&#x62EC;<code>Node</code>&#x7684;&#x91CD;&#x6784;&#xFF08;&#x4E4B;&#x524D;&#x662F;<code>Express</code>&#x7684;&#x9879;&#x76EE;&#xFF09;&#xFF0C;&#x540C;&#x65F6;&#x8FD8;&#x5305;&#x62EC;&#x524D;&#x7AEF;&#x7684;&#x91CD;&#x6784;&#xFF08;&#x4E4B;&#x524D;&#x662F;&#x7531;<code>jQuery</code>&#x9A71;&#x52A8;&#x7684;&#x591A;&#x9875;&#x5E94;&#x7528;&#xFF09;&#x3002;</p><h2>&#x9879;&#x76EE;&#x7ED3;&#x6784;</h2><p>&#x56E0;&#x4E3A;&#x76EE;&#x524D;&#x9879;&#x76EE;&#x662F;&#x6CA1;&#x6709;&#x505A;&#x524D;&#x540E;&#x5206;&#x79BB;&#x7684;&#x6253;&#x7B97;&#x7684;&#xFF08;&#x4E00;&#x4E2A;&#x5185;&#x90E8;&#x5DE5;&#x5177;&#x5E73;&#x53F0;&#x7C7B;&#x7684;&#x9879;&#x76EE;&#xFF09;&#xFF0C;&#x6240;&#x4EE5;&#x5927;&#x81F4;&#x7ED3;&#x6784;&#x5C31;&#x662F;&#x57FA;&#x4E8E;&#x4E0A;&#x6B21;<code>Node</code>&#x9879;&#x76EE;&#x7684;&#x7ED3;&#x6784;&#xFF0C;&#x5728;&#x5176;&#x4E4B;&#x4E0A;&#x6DFB;&#x52A0;&#x4E86;&#x4E00;&#x4E9B;<code>FrontEnd</code>&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#xFF1A;</p><pre><code class="diff">  .
   &#x251C;&#x2500;&#x2500; README.md
   &#x251C;&#x2500;&#x2500; copy-static-assets.ts
@@ -269,7 +269,7 @@ export default class {
     })
   }
 }</code></pre><p><em>&#x76EE;&#x524D;&#x7684;&#x793A;&#x4F8B;&#x4EE3;&#x7801;&#x91C7;&#x7528;&#x7684;&#x4E0A;&#x8FB9;&#x7684;&#x65B9;&#x6848;</em></p><h2>&#x5C0F;&#x7ED3;</h2><p>&#x81F3;&#x6B64;&#xFF0C;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;TS&#x524D;&#x540E;&#x7AEF;&#x9879;&#x76EE;&#x67B6;&#x6784;&#x5C31;&#x5DF2;&#x7ECF;&#x642D;&#x5EFA;&#x5B8C;&#x6210;&#x4E86;&#xFF08;&#x5269;&#x4E0B;&#x7684;&#x4EFB;&#x52A1;&#x5C31;&#x662F;&#x5F80;&#x9AA8;&#x67B6;&#x91CC;&#x8FB9;&#x586B;&#x4EE3;&#x7801;&#x4E86;&#xFF09;&#x3002;<br>&#x6211;&#x5DF2;&#x7ECF;&#x66F4;&#x65B0;&#x4E86;&#x4E4B;&#x524D;&#x7684;<a href="https://github.com/Jiasm/typescript-example" rel="nofollow noreferrer">typescript-exmaple</a> &#x5728;&#x91CC;&#x8FB9;&#x6DFB;&#x52A0;&#x4E86;&#x672C;&#x6B21;&#x91CD;&#x6784;&#x6240;&#x4F7F;&#x7528;&#x7684;&#x4E00;&#x4E9B;&#x524D;&#x7AEF;<code>TS</code>+<code>React</code>&#x7684;&#x793A;&#x4F8B;&#xFF0C;&#x8FD8;&#x5305;&#x62EC;&#x9488;&#x5BF9;<code>@Render</code>&#x7684;&#x4E00;&#x4E9B;&#x517C;&#x5BB9;&#x3002;</p><p><code>TypeScript</code>&#x662F;&#x4E00;&#x4E2A;&#x5F88;&#x68D2;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x89E3;&#x51B3;&#x4E86;N&#x591A;<code>javaScript</code>&#x79CD;&#x4EE4;&#x4EBA;&#x8BDF;&#x75C5;&#x7684;&#x95EE;&#x9898;&#x3002;<br>&#x4F7F;&#x7528;&#x9759;&#x6001;&#x8BED;&#x8A00;&#x6765;&#x8FDB;&#x884C;&#x5F00;&#x53D1;&#x4E0D;&#x4EC5;&#x80FD;&#x591F;&#x63D0;&#x9AD8;&#x5F00;&#x53D1;&#x7684;&#x6548;&#x7387;&#xFF0C;&#x540C;&#x65F6;&#x8FD8;&#x80FD;&#x964D;&#x4F4E;&#x9519;&#x8BEF;&#x51FA;&#x73B0;&#x7684;&#x51E0;&#x7387;&#x3002;<br>&#x7ED3;&#x5408;&#x7740;&#x5F3A;&#x5927;&#x7684;<code>vs code</code>&#xFF0C;Enjoy it.</p><p>&#x5982;&#x679C;&#x5728;&#x4F7F;&#x7528;<code>TS</code>&#x7684;&#x8FC7;&#x7A0B;&#x4E2D;&#x6709;&#x4EC0;&#x4E48;&#x95EE;&#x9898;&#x3001;&#x6216;&#x8005;&#x6709;&#x4EC0;&#x4E48;&#x66F4;&#x597D;&#x7684;&#x60F3;&#x6CD5;&#xFF0C;&#x6B22;&#x8FCE;&#x6765;&#x6C9F;&#x901A;&#x8BA8;&#x8BBA;&#x3002;</p><h3>One more things</h3><p>Blued&#x524D;&#x7AEF;/Node&#x56E2;&#x961F;&#x62DB;&#x4EBA;&#x3002;&#x3002;&#x521D;&#x4E2D;&#x9AD8;&#x90FD;&#x6709;HC<br>&#x5750;&#x6807;&#x5E1D;&#x90FD;&#x671D;&#x9633;&#x53CC;&#x4E95;&#xFF0C;&#x6709;&#x5174;&#x8DA3;&#x7684;&#x8BF7;&#x8054;&#x7CFB;&#x6211;&#xFF1A;<br>wechat&#xFF1A; github_jiasm<br>mail&#xFF1A; jiashunming@blued.com</p><p>&#x6B22;&#x8FCE;&#x7838;&#x7B80;&#x5386;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

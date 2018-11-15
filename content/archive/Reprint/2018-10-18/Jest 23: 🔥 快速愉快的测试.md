@@ -1,12 +1,12 @@
 ---
 title: "Jest 23: \U0001F525 快速愉快的测试 "
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 916cf636
+slug: 916cf636
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>今天我们很高兴地宣布Jest 23，这是我们迄今为止最大的主要版本！我们与100多名贡献者一起发布了大量功能和错误修复程序。感谢社区中的每个人让JavaScript测试更加轻松。</p>
 <p>我们也欢迎<a href="https://babeljs.io/">Babel</a> 和<a href="https://webpack.js.org/">Webpack</a>加入Jest社区！从Mocha转换为Jest 23 Beta后，Webpack的总测试套件时间从13分钟减少到2分20秒。 <a href="https://twitter.com/search?q=%23blazingmeansgood">#blazingmeansgood</a></p>
@@ -94,7 +94,7 @@ date: 2018-10-18 00:00:00
 如果您想为Jest做出贡献，请随时与我们联系<a href="https://github.com/facebook/jest">GitHub</a>或<a href="">Discord</a>.</em></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/jest-23-blazing-fast-delightful-testing](https://www.zcfy.cc/article/jest-23-blazing-fast-delightful-testing)

@@ -1,12 +1,12 @@
 ---
 title: 如何在无响应的 Linux 系统中杀掉内存消耗最大的进程
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 961ee5ac
+slug: 961ee5ac
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在无响应的-linux-系统中杀掉内存消耗最大的进程"></a>如何在无响应的 Linux 系统中杀掉内存消耗最大的进程</h1>
 <p>作为一名博客作者，我收藏了很多博客、网站和论坛用来寻找 Linux 和 Unix 相关的内容。有时候，我在浏览器中开启了非常多的标签页，导致操作系统会无响应好几分钟。我不能移动我的鼠标，也不能杀掉一个进程或关闭任何开启的标签页。在这种情况下，我别无选择，只能强制重启系统。当然我也用了 <strong>OneTab</strong> （LCTT 译注：OneTab 是一个 Chrome 的 Extension，可以将标签页转化成一个列表保存。）和 <strong>Greate Suspender</strong> （LCTT 译注：Great Suspender 是一个 Chrome 的 Extension， 可以自动冻结标签页）这样浏览器拓展，但它们在这里也起不到太大的作用。 我经常耗尽我的内存。而这就是 <strong>Early OOM</strong> 起作用的时候了。在情况严重时，它会杀掉一个未响应系统中的内存消耗最大的进程。Early OOM 每秒会检测可用内存和空余交换区 10 次，一旦两者都低于 10%，它就会把最大的进程杀死。</p>
@@ -95,7 +95,7 @@ Usage: earlyoom [OPTION]...
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

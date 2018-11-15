@@ -1,12 +1,12 @@
 ---
 title: 使用ES6让你的React代码提升到一个新档次
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3ef11629
+slug: 3ef11629
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>ES6使您的代码更具表现力和可读性。</p>
 <p>而且它与React完美配合！</p>
@@ -61,7 +61,7 @@ date: 2018-10-18 00:00:00
 </code></pre>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/take-your-es6-in-react-to-the-next-level](https://www.zcfy.cc/article/take-your-es6-in-react-to-the-next-level)

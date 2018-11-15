@@ -1,12 +1,12 @@
 ---
 title: 3 个 Python 模板库比较
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c2e956a5
+slug: c2e956a5
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#3-个-python-模板库比较"></a>3 个 Python 模板库比较</h1>
 <blockquote>
@@ -77,7 +77,7 @@ mytemplate = Template(<span class="hljs-attribute">filename</span>=<span class="
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/3-python-template-libraries-compared)

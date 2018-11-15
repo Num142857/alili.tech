@@ -1,12 +1,12 @@
 ---
 title: JS中this的4种绑定规则
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c08a79c2
+slug: c08a79c2
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">this</h2><ul><li>ES6&#x4E2D;&#x7684;&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x91C7;&#x7528;&#x7684;&#x662F;&#x8BCD;&#x6CD5;&#x4F5C;&#x7528;&#x57DF;&#x3002;</li><li>&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x4F7F;&#x7528;this&#xFF1A;&#x4F7F;API&#x8BBE;&#x8BA1;&#x5F97;&#x66F4;&#x7B80;&#x6D01;&#x4E14;&#x6613;&#x4E8E;&#x590D;&#x7528;&#x3002;</li><li>this&#x5373;&#x4E0D;&#x6307;&#x5411;&#x81EA;&#x8EAB;&#xFF0C;&#x4E5F;&#x4E0D;&#x6307;&#x5411;&#x51FD;&#x6570;&#x7684;&#x8BCD;&#x6CD5;&#x4F5C;&#x7528;&#x57DF;&#x3002;</li><li>this&#x7684;&#x6307;&#x5411;&#x53EA;&#x53D6;&#x51B3;&#x4E8E;&#x51FD;&#x6570;&#x7684;&#x8C03;&#x7528;&#x65B9;&#x5F0F;</li></ul><h2 id="articleHeader1">this&#x7ED1;&#x5B9A;&#x89C4;&#x5219;</h2><ul><li>new &gt; &#x663E;&#x793A;&#x7ED1;&#x5B9A; &gt; &#x9690;&#x5F0F;&#x7ED1;&#x5B9A; &gt; &#x9ED8;&#x8BA4;&#x7ED1;&#x5B9A;</li></ul><h3 id="articleHeader2">&#x9ED8;&#x8BA4;&#x7ED1;&#x5B9A;</h3><ul><li>&#x5F53;&#x72EC;&#x7ACB;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x65F6;&#xFF0C;&#x4E0D;&#x7BA1;&#x662F;&#x5426;&#x5728;&#x8C03;&#x7528;&#x6808;&#x4E2D;&#xFF0C;this&#x90FD;&#x6307;&#x5411;&#x5168;&#x5C40;&#x5BF9;&#x8C61;&#xFF08;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x4E3A;window&#xFF09;</li><li>&#x4E25;&#x683C;&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;&#x4E0D;&#x80FD;&#x5C06;&#x5168;&#x5C40;&#x5BF9;&#x8C61;&#x7528;&#x4E8E;&#x9ED8;&#x8BA4;&#x7ED1;&#x5B9A;&#x3002;</li></ul><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var a = 2;
 function foo(){
     console.log(this.a);
@@ -294,7 +294,7 @@ foo.call( obj ); // 2" title="" data-original-title="&#x590D;&#x5236;"></span> <
 };
 
 foo.call( obj ); <span class="hljs-comment">// 2</span></code></pre><h3 id="articleHeader7">this&#x7ED1;&#x5B9A;&#x7684;&#x8DA3;&#x9898;&#xFF1A;</h3><p><a href="https://www.zhihu.com/question/21466212" rel="nofollow noreferrer" target="_blank">&#x77E5;&#x4E4E;&#x94FE;&#x63A5;-arguments&#x5BF9;&#x8C61;&#x8C03;&#x7528;</a></p><p>&#x66F4;&#x591A;&#x535A;&#x5BA2;&#xFF1A;<a href="https://github.com/Lmagic16/blog" rel="nofollow noreferrer" target="_blank">https://github.com/Lmagic16/blog</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

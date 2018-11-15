@@ -1,12 +1,12 @@
 ---
 title: Javascript-apply、call、bind
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c6eb39dc
+slug: c6eb39dc
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">apply&#x3001;call&#x3001;bind&#x7684;&#x4F5C;&#x7528;</h3><p>&#x5728;javascript&#x4E2D;&#xFF0C;&#x4E09;&#x8005;&#x4F5C;&#x7528;&#x662F;&#x6539;&#x53D8;&#x67D0;&#x4E2A;&#x51FD;&#x6570;&#x7684;&#x6267;&#x884C;&#x4E0A;&#x4E0B;&#x6587;&#xFF08;<a href="https://www.ecma-international.org/ecma-262/5.1/#sec-10.3" rel="nofollow noreferrer" target="_blank">Execution Context</a>&#xFF09;&#xFF0C;&#x5177;&#x4F53;&#x4F5C;&#x7528;&#x662F;&#x6539;&#x53D8;&#x51FD;&#x6570;&#x4F53;&#x5185;&#x90E8;this&#x7684;&#x6307;&#x5411;&#x3002;</p><p>&#x4E3E;&#x4E2A;&#x6817;&#x5B50;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="function example() {}
 example.prototype = {
     name: &apos;will&apos;,
@@ -100,7 +100,7 @@ isArray({}) <span class="hljs-comment">// false</span></code></pre><h4>React&#x4
     }
     ...
 }</code></pre><h4>&#x7B49;&#x7B49;...</h4><h3 id="articleHeader3">&#x603B;&#x7ED3;</h3><p>&#x4E09;&#x8005;&#x4F5C;&#x7528;&#x90FD;&#x662F;&#x6539;&#x53D8;&#x51FD;&#x6570;this&#x7684;&#x6307;&#x5411;<br>&#x4E09;&#x8005;&#x7B2C;&#x4E00;&#x4E2A;&#x4F20;&#x53C2;&#x90FD;&#x662F;&#x8981;this&#x8981;&#x6307;&#x5411;&#x7684;&#x5BF9;&#x8C61;<br>apply&#x3001;call&#x662F;&#x7ACB;&#x5373;&#x6267;&#x884C;&#x51FD;&#x6570;&#xFF0C;bind&#x9700;&#x8981;&#x518D;&#x6B21;&#x8C03;&#x7528;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

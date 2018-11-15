@@ -1,12 +1,12 @@
 ---
 title: 你所不了解的 Bash：关于 Bash 数组的介绍
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6df83367
+slug: 6df83367
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#你所不了解的-bash关于-bash-数组的介绍"></a>你所不了解的 Bash：关于 Bash 数组的介绍</h1>
 <blockquote>
@@ -163,7 +163,7 @@ for t <span class="hljs-keyword">in</span> all_threads:
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/you-don-t-know-bash-an-introduction-to-bash-arrays](https://www.zcfy.cc/article/you-don-t-know-bash-an-introduction-to-bash-arrays)

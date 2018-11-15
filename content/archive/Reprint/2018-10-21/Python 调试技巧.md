@@ -1,12 +1,12 @@
 ---
 title: Python 调试技巧
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c317b289
+slug: c317b289
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#python-调试技巧"></a>Python 调试技巧</h1>
 <p>当进行调试时，你有很多选择，但是很难给出一直有效的通用建议（除了“你试过关闭再打开么？”以外）。</p>
@@ -45,7 +45,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [Python 调试技巧](https://www.zcfy.cc/article/python-debugging-tips)

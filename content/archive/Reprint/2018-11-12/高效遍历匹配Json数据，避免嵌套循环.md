@@ -1,12 +1,12 @@
 ---
 title: 高效遍历匹配Json数据，避免嵌套循环
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 65f55222
+slug: 65f55222
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x5DE5;&#x4F5C;&#x4E2D;&#x7ECF;&#x5E38;&#x4F1A;&#x9047;&#x5230;&#x8FD9;&#x6837;&#x7684;&#x9700;&#x6C42;&#xFF1A;<br>1.&#x8D2D;&#x7269;&#x8F66;&#x5217;&#x8868;&#x4E2D;&#x52FE;&#x9009;&#x67D0;&#x4E9B;&#xFF0C;&#x70B9;&#x51FB;&#x4EFB;&#x610F;&#x4E00;&#x9879;&#xFF0C;&#x524D;&#x5F80;&#x8BE6;&#x60C5;&#x9875;&#xFF0C;&#x518D;&#x8FD4;&#x56DE;&#x8D2D;&#x7269;&#x8F66;&#x4F9D;&#x65E7;&#x9700;&#x8981;&#x5448;&#x73B0;&#x52FE;&#x9009;&#x72B6;&#x6001;<br>2.&#x52FE;&#x9009;&#x4EBA;&#x5458;&#x540E;&#xFF0C;&#x524D;&#x5F80;&#x522B;&#x7684;&#x9875;&#x9762;&#xFF0C;&#x518D;&#x6B21;&#x8FD4;&#x56DE;&#xFF0C;&#x4EBA;&#x5458;&#x4F9D;&#x65E7;&#x7A0B;&#x52FE;&#x9009;&#x72B6;&#x6001;<br>3.&#x7B49;&#x7B49;....</blockquote><h5><strong>&#x6570;&#x636E;&#x7ED3;&#x6784;&#x5982;&#x4E0B;&#xFF1A;</strong></h5><pre><code>// &#x7F13;&#x5B58;&#x6570;&#x636E;
 var students = [
         { id: 35, name: &apos;&#x5C0F;&#x660E;&apos;, age: 25, address: &apos;&#x73AF;&#x7403;&#x4E2D;&#x5FC3;&apos;,checked:true},
@@ -60,7 +60,7 @@ function Array2Json(arr, obj = {}) {
     // &#x6700;&#x7EC8;&#x5F97;&#x5230;&#x7684;data&#x5C31;&#x662F;&#x8FD8;&#x539F;&#x4E86;&#x52FE;&#x9009;&#x72B6;&#x6001;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x6E32;&#x67D3;&#x5728;&#x754C;&#x9762;&#x4E0A;
     console.log(data)
     </code></pre><blockquote>&#x5199;&#x5B8C;&#x4E86;&#xFF0C;&#x8981;&#x4E0B;&#x73ED;&#x4E86;&#xFF0C;&#x54C8;&#x54C8;&#x54C8;&#x54C8;</blockquote><p><span class="img-wrap"><img data-src="/img/bVbgtMO?w=690&amp;h=690" src="https://static.alili.tech/img/bVbgtMO?w=690&amp;h=690" alt="clipboard.png" title="clipboard.png"></span></p><p><strong>---------------------------------------&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;------------------&#x8C22;&#x8C22;-----------------</strong></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

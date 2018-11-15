@@ -1,12 +1,12 @@
 ---
 title: 'Tutorial: GraphQL输入类型和自定义解析器'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 28e8dc11
+slug: 28e8dc11
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <hr>
 <p>这是我们全栈GraphQL + React教程的第5部分，它指导您创建消息传递应用程序。 每个部分都是独立的，并且引入了新的关键概念，这意味着在执行此操作之前，您不必完成所有其他部分。 但万一你好奇，以下是我们到目前为止的内容：</p>
@@ -135,7 +135,7 @@ evt.target.value = <span class="hljs-string">''</span>;
 <p>非常感谢<a href="https://medium.com/@helfer">Jonas Helfer</a> 的指导!</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/tutorial-graphql-input-types-and-custom-resolvers)

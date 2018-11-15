@@ -1,12 +1,12 @@
 ---
 title: 即将发布的JavaScript2018：异步生成器，更好的正则表达式
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3afe893
+slug: 3afe893
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>发布于2018年6月的年度<a href="http://www.ecma-international.org/ecma-262/9.0/index.html">ECMAScript 更新</a>, 尽管在常见功能上仅次于ECMAScript6， 但仍是至今为止最大的年度版本。</p>
 <p><a href="https://github.com/bterlson">Brian Terlson</a>，是ECMAScript的编辑兼微软在 <a href="https://github.com/tc39">ECMA TC39委员会</a>的代表 ，在The New Stack上发表：这个版本两个最大的开发功能是异步生成器和一些大家期待已久的正则表达式改进，和Rest/Spread属性。</p>
@@ -37,7 +37,7 @@ date: 2018-10-18 00:00:00
 <p>特性图<a href="https://pixabay.com/en/res-the-wind-pbx-current-3615421/">来自</a>Pixabay。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/what-s-coming-up-in-javascript-2018-async-generators-better-regex](https://www.zcfy.cc/article/what-s-coming-up-in-javascript-2018-async-generators-better-regex)

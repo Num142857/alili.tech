@@ -1,12 +1,12 @@
 ---
 title: vue+vuex的应用笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '2814e449'
+slug: '2814e449'
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3>&#x5E94;&#x7528;&#x622A;&#x56FE;</h3><p><span class="img-wrap"><img data-src="/img/bVbgvXZ?w=431&amp;h=386" src="https://static.alili.tech/img/bVbgvXZ?w=431&amp;h=386" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></p><h3>&#x529F;&#x80FD;&#x63CF;&#x8FF0;</h3><blockquote>&#x586B;&#x5199;&#x9080;&#x8BF7;&#x7801;&#x6CE8;&#x518C;&#x83B7;&#x5F97;&#x4F18;&#x60E0;&#x5238;<br>1&#x3001;&#x586B;&#x5199;&#x9080;&#x8BF7;&#x7801;<br>2&#x3001;&#x586B;&#x5199;&#x8054;&#x7CFB;&#x65B9;&#x5F0F;<br>3&#x3001;&#x586B;&#x5199;&#x8D26;&#x53F7;&#x4FE1;&#x606F;<br>4&#x3001;&#x5B8C;&#x6210;&#x6CE8;&#x518C;<br>2&#x548C;3&#x9700;&#x8981;&#x5FC5;&#x586B;&#x9A8C;&#x8BC1;</blockquote><h3>&#x5177;&#x4F53;&#x4EE3;&#x7801;</h3><h4>index.js</h4><blockquote>&#x77E5;&#x8BC6;&#x70B9;:<br>&#x52A0;&#x8F7D;vue&#x3001;elementUi<br>&#x8F93;&#x51FA;app&#x3001;store<br>ES6&#x6A21;&#x5757;&#x4E3B;&#x8981;&#x6709;&#x4E24;&#x4E2A;&#x529F;&#x80FD;&#xFF1A;export&#x548C;import<br><strong>export</strong> &#x7528;&#x4E8E;&#x5BF9;&#x5916;&#x8F93;&#x51FA;&#x672C;&#x6A21;&#x5757;&#xFF08;&#x4E00;&#x4E2A;&#x6587;&#x4EF6;&#x53EF;&#x4EE5;&#x7406;&#x89E3;&#x4E3A;&#x4E00;&#x4E2A;&#x6A21;&#x5757;&#xFF09;&#x53D8;&#x91CF;&#x7684;&#x63A5;&#x53E3;</blockquote><pre><code>var name = &apos;lily&apos;;
 var age = 19
 export {
@@ -306,7 +306,7 @@ export default {
 };
 
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

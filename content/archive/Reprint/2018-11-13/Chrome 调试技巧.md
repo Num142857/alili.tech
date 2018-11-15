@@ -1,12 +1,12 @@
 ---
 title: Chrome 调试技巧
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f8120d2
+slug: f8120d2
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote><strong>&#x5199;&#x5728;&#x524D;&#x9762;</strong><br>&#x672C;&#x6587;&#x5305;&#x62EC;&#x6D4F;&#x89C8;&#x5668;&#x8C03;&#x8BD5;&#xFF0C;&#x4E0D;&#x5305;&#x62EC;web&#x79FB;&#x52A8;&#x7AEF;&#x8C03;&#x8BD5;&#x3002;<br>&#x672C;&#x6587;&#x8C03;&#x8BD5;&#x5747;&#x5728;chrome&#x6D4F;&#x89C8;&#x5668;&#x8FDB;&#x884C;</blockquote><h3>alert</h3><p>&#x8FD9;&#x4E2A;&#x4E0D;&#x7528;&#x591A;&#x8BF4;&#x4E86;&#xFF0C;&#x4E0D;&#x8A00;&#x81EA;&#x660E;</p><h3>console</h3><h4>&#x57FA;&#x672C;&#x8F93;&#x51FA;</h4><p>&#x60F3;&#x5FC5;&#x5927;&#x5BB6;&#x90FD;&#x5728;&#x7528;console.log&#x5728;&#x63A7;&#x5236;&#x53F0;&#x8F93;&#x51FA;&#x70B9;&#x4E1C;&#x897F;&#xFF0C;&#x5176;&#x5B9E;console&#x8FD8;&#x6709;&#x5176;&#x5B83;&#x7684;&#x65B9;&#x6CD5;&#xFF1A;</p><pre><code class="javascript">console.log(&quot;&#x6253;&#x5370;&#x5B57;&#x7B26;&#x4E32;&quot;);//&#x5728;&#x63A7;&#x5236;&#x53F0;&#x6253;&#x5370;&#x81EA;&#x5B9A;&#x4E49;&#x5B57;&#x7B26;&#x4E32;
 console.error(&quot;&#x6211;&#x662F;&#x4E2A;&#x9519;&#x8BEF;&quot;);//&#x5728;&#x63A7;&#x5236;&#x53F0;&#x6253;&#x5370;&#x81EA;&#x5B9A;&#x4E49;&#x9519;&#x8BEF;&#x4FE1;&#x606F;
 console.info(&quot;&#x6211;&#x662F;&#x4E2A;&#x4FE1;&#x606F;&quot;);//&#x5728;&#x63A7;&#x5236;&#x53F0;&#x6253;&#x5370;&#x81EA;&#x5B9A;&#x4E49;&#x4FE1;&#x606F;
@@ -62,7 +62,7 @@ setInterval(function(){
 console.log(arr);
 arr[0].num += 1;
 }, 1000);</code></pre><p><span class="img-wrap"><img data-src="/img/remote/1460000016256747?w=478&amp;h=464" src="https://static.alili.tech/img/remote/1460000016256747?w=478&amp;h=464" alt="careful" title="careful"></span></p><p>&#x8FD9;&#x91CC;&#xFF0C;&#x7B2C;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#x4E2D;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#x7684;&#x503C;&#x662F;&#x4E0D;&#x53EF;&#x9760;&#x7684;&#x3002;&#x5F53;&#x4F60;&#x7B2C;&#x4E00;&#x6B21;&#x5728;&#x5F00;&#x53D1;&#x8005;&#x5DE5;&#x5177;&#x4E2D;&#x663E;&#x793A;&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x65F6;&#xFF0C;num&#x7684;&#x503C;&#x5C31;&#x5DF2;&#x7ECF;&#x786E;&#x5B9A;&#x4E86;&#x3002;&#x4E4B;&#x540E;&#x65E0;&#x8BBA;&#x4F60;&#x5BF9;&#x540C;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x91CD;&#x65B0;&#x6253;&#x5F00;&#x591A;&#x5C11;&#x6B21;&#x90FD;&#x4E0D;&#x4F1A;&#x53D8;&#x5316;&#x3002;</p><p>2.&#x5C3D;&#x53EF;&#x80FD;&#x4F7F;&#x7528; source map&#x3002;&#x6709;&#x65F6;&#x751F;&#x4EA7;&#x4EE3;&#x7801;&#x4E0D;&#x80FD;&#x4F7F;&#x7528;source map&#xFF0C;&#x4F46;&#x4E0D;&#x7BA1;&#x600E;&#x6837;&#xFF0C;&#x4F60;&#x90FD;&#x4E0D;&#x5E94;&#x8BE5;&#x76F4;&#x63A5;&#x5BF9;&#x751F;&#x4EA7;&#x4EE3;&#x7801;&#x8FDB;&#x884C;&#x8C03;&#x8BD5;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

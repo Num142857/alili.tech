@@ -1,12 +1,12 @@
 ---
 title: JavaScript中高阶函数的魅力
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c1a81f38
+slug: c1a81f38
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <blockquote>高阶函数是指至少满足下列条件之一的函数 1：函数可以作为参数被传递 2：函数可以作为返回值输出</blockquote>
@@ -542,7 +542,7 @@ addEventLazy(<span class="hljs-built_in">document</span>.getElementById(<span cl
 <p><a href="https://github.com/QDMarkMan/CodeBlog/blob/master/Javascript/highOrderFunc.md" rel="nofollow noreferrer" target="_blank">原文地址</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

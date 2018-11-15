@@ -1,12 +1,12 @@
 ---
 title: 为什么尽量别用setInterval
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8830c0b7
+slug: 8830c0b7
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在开发一个在线聊天工具时，经常会有过多少毫秒就重复执行一次某操作的需求。“没问题”，大家都说，“用setInterval好了。”我觉得这个点子很糟糕。</p>
 <h2>原因之一：setInterval无视代码错误</h2>
@@ -21,7 +21,7 @@ date: 2018-10-18 00:00:00
 <p>如果确实要保证事件“匀速”被触发，那可以用希望的延迟减去上次调用所花时间，然后将得到的差值作为延迟动态指定给setTimeout。 不过，要注意的是<a href="http://ejohn.org/blog/accuracy-of-javascript-time/">JavaScript的计时器并不是非常精确</a>。因此你不可能得到绝对“平均”的延迟，即使使用setInterval也不行，原因很多（比如垃圾回收、JavaScript是单线程的，等等）。此外，当前浏览器也会将最小的超时时间固定在4ms到15ms之间。因此不要指望一点误差也没有。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/why-i-consider-setinterval-to-be-harmful-zetafleet](https://www.zcfy.cc/article/why-i-consider-setinterval-to-be-harmful-zetafleet)

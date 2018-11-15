@@ -1,12 +1,12 @@
 ---
 title: vue中使用cookies和crypto-js实现记住密码和加密
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8cf05ebf
+slug: 8cf05ebf
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x4E0D;&#x591A;BB&#xFF0C;&#x641E;&#x5FEB;&#x3001;&#x641E;&#x5FEB;&#x3001;</p><h2 id="articleHeader0">&#x4F7F;&#x7528;crypto-js&#x52A0;&#x89E3;&#x5BC6;</h2><p>&#x7B2C;&#x4E00;&#x6B65;&#xFF0C;&#x5B89;&#x88C5;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="npm install crypto-js" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs cmake"><code style="word-break:break-word;white-space:initial">npm <span class="hljs-keyword">install</span> crypto-js</code></pre><p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF0C;&#x5728;&#x4F60;&#x9700;&#x8981;&#x7684;vue&#x7EC4;&#x4EF6;&#x5185;import</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="import CryptoJS from &quot;crypto-js&quot;;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs capnproto"><code style="word-break:break-word;white-space:initial"><span class="hljs-keyword">import</span> CryptoJS <span class="hljs-keyword">from</span> <span class="hljs-string">&quot;crypto-js&quot;</span>;</code></pre><p>&#x7B2C;&#x4E09;&#x6B65;&#xFF0C;&#x4F7F;&#x7528;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="    // Encrypt &#x52A0;&#x5BC6; 
     var cipherText = CryptoJS.AES.encrypt(
       &quot;my message&quot;,
@@ -178,7 +178,7 @@ date: 2018-11-08 02:30:09
       this.getCookie<span class="hljs-comment">()</span>;
     }
   }</code></pre><p>&#x6700;&#x540E;&#xFF0C;&#x754C;&#x9762;&#x8D34;&#x4E0A;&#xFF0C;&#x5176;&#x4E2D;rememberPsw&#x662F;&#x8BB0;&#x4F4F;&#x5BC6;&#x7801;&#x6309;&#x94AE;&#x7684;v-model&#x503C;&#xFF0C;currentPortId&#x662F;&#x7B2C;&#x4E00;&#x4E2A;&#x6846;&#x7684;v-model&#x503C;&#xFF0C;password&#x5C31;&#x662F;&#x7B2C;&#x4E8C;&#x4E2A;&#x6846;&#x7684;v-model&#x503C;&#x5566;&#x3002;</p><p><span class="img-wrap"><img data-src="/img/bVbhfKX?w=371&amp;h=183" src="https://static.alili.tech/img/bVbhfKX?w=371&amp;h=183" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader2">&#x6700;&#x540E;</h2><p>&#x6211;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;&#x65B0;&#x624B;&#xFF0C;&#x5199;&#x5F97;&#x4E0D;&#x597D;&#x7684;&#x5730;&#x65B9;&#x8BF7;&#x8F7B;&#x55B7;~&#x6709;&#x597D;&#x7684;&#x5EFA;&#x8BAE;&#x4E5F;&#x53EF;&#x4EE5;&#x8BC4;&#x8BBA;&#x544A;&#x8BC9;&#x4E0B;~&#x8C22;&#x8C22;&#x5927;&#x5BB6;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

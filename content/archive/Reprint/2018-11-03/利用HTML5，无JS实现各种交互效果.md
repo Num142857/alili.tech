@@ -1,12 +1,12 @@
 ---
 title: 利用HTML5，无JS实现各种交互效果
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d886bfab
+slug: d886bfab
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x672C;&#x6587;&#x5229;&#x7528;&#x7684;&#x662F;HTML5 details, summary</blockquote><p>&#x9996;&#x5148;</p><p>&#x4E00;&#x3001;&#x4E86;&#x89E3;HTML5 details, summary&#x9ED8;&#x8BA4;&#x4EA4;&#x4E92;&#x884C;&#x4E3A;</p><p><code>&lt;details&gt;</code> &#x6807;&#x7B7E;&#x5728;Chrome&#xFF0C;Firefox&#x7B49;&#x6D4F;&#x89C8;&#x5668;&#x4E0B;&#x9ED8;&#x8BA4;&#x662F;&#x6709;&#x5C55;&#x5F00;&#x6536;&#x8D77;&#x884C;&#x4E3A;&#x7684;&#xFF0C;&#x4F8B;&#x5982;&#x4E0B;&#x9762;HTML&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;details&gt;
 
     &lt;summary&gt;&#x8FD9;&#x662F;&#x6458;&#x8981;1&lt;/summary&gt;
@@ -458,7 +458,7 @@ summary {
   <span class="hljs-attribute">pointer-events</span>: none;
 }
 </code></pre><p>&#x8FD9;&#x6837;&#x5C31;&#x4E0D;&#x80FD;&#x70B9;&#xFF0C;&#x4E5F;&#x4E0D;&#x4F1A;&#x6709;outline&#x8F6E;&#x5ED3;&#x3002;</p><h3 id="articleHeader2">&#x516D;&#x3001;&#x517C;&#x5BB9;&#x6027;&#x4EE5;&#x53CA;Polyfill</h3><p>&#x517C;&#x5BB9;&#x6027;&#x5982;&#x4E0B;&#x56FE;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016718899" src="https://static.alili.tech/img/remote/1460000016718899" alt="detailas&#x517C;&#x5BB9;&#x6027;" title="detailas&#x517C;&#x5BB9;&#x6027;" style="cursor:pointer;display:inline"></span></p><p>&#x9664;&#x4E86;IE&#x548C;Edge&#x6D4F;&#x89C8;&#x5668;&#xFF0C;&#x5927;&#x597D;&#x6CB3;&#x5C71;&#x4E00;&#x7247;&#x7EFF;&#xFF0C;&#x81F3;&#x5C11;&#x79FB;&#x52A8;&#x7AEF;&#x53EF;&#x4EE5;&#x7528;&#x5F97;&#x6BD4;&#x8F83;&#x5F00;&#x5FC3;&#x3002;</p><p>&#x5982;&#x679C;&#x60F3;&#x8981;&#x5728;&#x684C;&#x9762;web&#x7F51;&#x9875;&#x4F7F;&#x7528;<code>&lt;details&gt;</code>&#x5143;&#x7D20;&#x7684;&#x68D2;&#x68D2;&#x54D2;&#x7279;&#x6027;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5BF9;&#x5176;&#x8FDB;&#x884C;Polyfill</p><p>&#x5BF9;&#x952E;&#x76D8;&#x8BBF;&#x95EE;&#xFF0C;&#x4E8B;&#x4EF6;toggle&#x90FD;&#x505A;&#x4E86;&#x517C;&#x5BB9;&#x3002;</p><p>&#x5982;&#x679C;&#x5F00;&#x53D1;&#x7B56;&#x7565;&#x662F;&#x5BF9;&#x4E0D;&#x652F;&#x6301;&#x7684;IE&#x8FDB;&#x884C;&#x7279;&#x5F02;&#x5904;&#x7406;&#xFF0C;&#x5219;&#x4E0B;&#x9762;&#x7684;JS&#x5224;&#x65AD;&#x662F;&#x5426;&#x652F;&#x6301;&lt;details&gt;&#x5143;&#x7D20;&#x7684;&#x811A;&#x672C;&#x53EF;&#x80FD;&#x5BF9;&#x4F60;&#x6709;&#x7528;&#xFF1A;</p><p><code>var isSupportDetails = &apos;open&apos; in document.createElement(&apos;details&apos;);</code></p><p>&#x6700;&#x540E;&#xFF0C;&#x65E0;JS&#x5B9E;&#x73B0;&#x7684;&#x597D;&#x5904;&#x6709;&#xFF1A;</p><p>&#x7701;&#x4E86;&#x4EE3;&#x7801;&#xFF0C;&#x52A0;&#x8F7D;&#x5FEB;&#x4E86;&#xFF1B;<br>&#x5B9E;&#x73B0;&#x66F4;&#x7B80;&#x5355;&#x4E86;&#xFF0C;&#x5F00;&#x53D1;&#x5FEB;&#x4E86;&#xFF1B;<br>JS&#x8FD8;&#x6CA1;&#x52A0;&#x8F7D;&#x4EA4;&#x4E92;&#x4E5F;&#x80FD;&#x8FDB;&#x884C;&#xFF0C;&#x4F53;&#x9A8C;&#x597D;&#x4E86;&#xFF1B;<br>&#x952E;&#x76D8;&#x65E0;&#x969C;&#x788D;&#x548C;aria&#x9605;&#x8BFB;&#x8BBE;&#x5907;&#x65E0;&#x969C;&#x788D;&#x5929;&#x7136;&#x652F;&#x6301;&#xFF0C;&#x4F53;&#x9A8C;&#x6863;&#x6B21;&#x9AD8;&#x4E86;&#x3002;</p><blockquote>&#x8FD9;&#x91CC;&#x63A8;&#x8350;&#x4E00;&#x4E0B;&#x6211;&#x7684;&#x524D;&#x7AEF;&#x5B66;&#x4E60;&#x4EA4;&#x6D41;&#x7FA4;&#xFF1A;784783012 &#xFF0C;&#x91CC;&#x9762;&#x90FD;&#x662F;&#x5B66;&#x4E60;&#x524D;&#x7AEF;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x5236;&#x4F5C;&#x9177;&#x70AB;&#x7684;&#x7F51;&#x9875;&#xFF0C;&#x60F3;&#x5B66;&#x4E60;&#x77E5;&#x8BC6;&#x3002;&#x81EA;&#x5DF1;&#x6574;&#x7406;&#x4E86;&#x4E00;&#x4EFD;2018&#x6700;&#x5168;&#x9762;&#x524D;&#x7AEF;&#x5B66;&#x4E60;&#x8D44;&#x6599;&#xFF0C;&#x4ECE;&#x6700;&#x57FA;&#x7840;&#x7684;HTML+CSS+JS&#x5230;&#x79FB;&#x52A8;&#x7AEF;HTML5&#x5230;&#x5404;&#x79CD;&#x6846;&#x67B6;&#x7684;&#x5B66;&#x4E60;&#x8D44;&#x6599;&#x90FD;&#x6709;&#x6574;&#x7406;&#xFF0C;&#x9001;&#x7ED9;&#x6BCF;&#x4E00;&#x4F4D;&#x524D;&#x7AEF;&#x5C0F;&#x4F19;&#x4F34;&#xFF0C;&#x6709;&#x60F3;&#x5B66;&#x4E60;web&#x524D;&#x7AEF;&#x7684;&#xFF0C;&#x6216;&#x662F;&#x8F6C;&#x884C;&#xFF0C;&#x6216;&#x662F;&#x5927;&#x5B66;&#x751F;&#xFF0C;&#x8FD8;&#x6709;&#x5DE5;&#x4F5C;&#x4E2D;&#x60F3;&#x63D0;&#x5347;&#x81EA;&#x5DF1;&#x80FD;&#x529B;&#x7684;&#xFF0C;&#x6B63;&#x5728;&#x5B66;&#x4E60;&#x7684;&#x5C0F;&#x4F19;&#x4F34;&#x6B22;&#x8FCE;&#x52A0;&#x5165;&#x5B66;&#x4E60;&#x3002;</blockquote>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 通过proxies设置常量
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ea99420
+slug: ea99420
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在这篇博文中，介绍了一种快速设置常量的奇淫技巧（类似于枚举值，但是并没有封装在命名空间里）。这是一个具有教育意义的难题，而不是你应该在代码中实际使用的东西。</p>
 <h2>一个简单的版本</h2>
@@ -75,7 +75,7 @@ const {foo: foo, <span class="hljs-keyword">bar: </span><span class="hljs-keywor
 <hr>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/setting-up-constants-via-proxies](https://www.zcfy.cc/article/setting-up-constants-via-proxies)

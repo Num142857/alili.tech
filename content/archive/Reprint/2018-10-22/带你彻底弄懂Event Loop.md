@@ -1,12 +1,12 @@
 ---
 title: 带你彻底弄懂Event Loop
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: bc9bb1af
+slug: bc9bb1af
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h1 id="articleHeader0">前言</h1>
@@ -801,7 +801,7 @@ setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span
 <p><a href="https://cnodejs.org/topic/5a9108d78d6e16e56bb80882" rel="nofollow noreferrer" target="_blank">不要混淆nodejs和浏览器中的event loop</a><br><a href="https://github.com/SunShinewyf/issue-blog/issues/34#issuecomment-371106502" rel="nofollow noreferrer" target="_blank">node中的Event模块</a><br><a href="https://jsblog.insiderattack.net/promises-next-ticks-and-immediates-nodejs-event-loop-part-3-9226cbe7a6aa" rel="nofollow noreferrer" target="_blank">Promises, process.nextTick And setImmediate</a><br><a href="https://segmentfault.com/a/1190000013660033">浏览器和Node不同的事件循环</a><br><a href="https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/" rel="nofollow noreferrer" target="_blank">Tasks, microtasks, queues and schedules</a><br><a href="https://github.com/ccforward/cc/issues/47" rel="nofollow noreferrer" target="_blank">理解事件循环浅析</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

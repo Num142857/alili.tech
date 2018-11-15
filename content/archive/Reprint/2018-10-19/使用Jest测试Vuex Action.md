@@ -1,12 +1,12 @@
 ---
 title: 使用Jest测试Vuex Action
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4984842d
+slug: 4984842d
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在隔离状态下测试Action是非常直接的。action应该与调用它的组件解耦，独立的进行测试。</p>
 <p><a href="https://lmiller1990.github.io/vue-testing-handbook/vuex-in-components-mutations-and-actions.html">本文</a>主要讲述在组件中正确的测试action</p>
@@ -73,7 +73,7 @@ date: 2018-10-19 00:00:00
 <p>在<a href="https://github.com/lmiller1990/vue-testing-handbook/tree/master/demo-app/tests/unit/actions.spec.js">这里</a>可以找到本页描述的测试的源代码</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/testing-vuex-actions-correctly-with-jest](https://www.zcfy.cc/article/testing-vuex-actions-correctly-with-jest)

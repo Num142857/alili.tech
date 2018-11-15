@@ -1,12 +1,12 @@
 ---
 title: JavaScript常用数组操作方法，包含ES6方法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 882dba7e
+slug: 882dba7e
 date: 2018-11-07 02:30:15
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x4E00;&#x3001;concat()</h2><p>concat() &#x65B9;&#x6CD5;&#x7528;&#x4E8E;&#x8FDE;&#x63A5;&#x4E24;&#x4E2A;&#x6216;&#x591A;&#x4E2A;&#x6570;&#x7EC4;&#x3002;&#x8BE5;&#x65B9;&#x6CD5;&#x4E0D;&#x4F1A;&#x6539;&#x53D8;&#x73B0;&#x6709;&#x7684;&#x6570;&#x7EC4;&#xFF0C;&#x4EC5;&#x4F1A;&#x8FD4;&#x56DE;&#x88AB;&#x8FDE;&#x63A5;&#x6570;&#x7EC4;&#x7684;&#x4E00;&#x4E2A;&#x526F;&#x672C;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var arr1 = [1,2,3];
 var arr2 = [4,5];
 var arr3 = arr1.concat(arr2);
@@ -322,7 +322,7 @@ a.includes(4); // false
 a.includes(<span class="hljs-number">2</span>); <span class="hljs-comment">// true</span>
 a.includes(<span class="hljs-number">4</span>); <span class="hljs-comment">// false</span>
 </code></pre><p><a href="https://segmentfault.com/a/1190000016603159">JavaScript&#x5B57;&#x7B26;&#x4E32;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;&#x5927;&#x5168;&#xFF0C;&#x5305;&#x542B;ES6&#x65B9;&#x6CD5;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

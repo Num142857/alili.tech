@@ -1,12 +1,12 @@
 ---
 title: 【Vue】详解组件的基础与高级用法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 64f1660a
+slug: 64f1660a
 date: 2018-11-09 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>Vue.js &#x6700;&#x6838;&#x5FC3;&#x7684;&#x529F;&#x80FD;&#x5C31;&#x662F;&#x7EC4;&#x4EF6;&#xFF08;Component&#xFF09;&#xFF0C;&#x4ECE;&#x7EC4;&#x4EF6;&#x7684;&#x6784;&#x5EFA;&#x3001;&#x6CE8;&#x518C;&#x5230;&#x7EC4;&#x4EF6;&#x95F4;&#x901A;&#x4FE1;&#xFF0C;Vue 2.x &#x63D0;&#x4F9B;&#x4E86;&#x66F4;&#x591A;&#x65B9;&#x5F0F;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x66F4;&#x7075;&#x6D3B;&#x5730;&#x4F7F;&#x7528;&#x7EC4;&#x4EF6;&#x6765;&#x5B9E;&#x73B0;&#x4E0D;&#x540C;&#x9700;&#x6C42;&#x3002;</blockquote><h1 id="articleHeader0">&#x6784;&#x5EFA;&#x7EC4;&#x4EF6;</h1><h3 id="articleHeader1">&#x7EC4;&#x4EF6;&#x57FA;&#x7840;</h3><p>&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x7531; template&#x3001;data&#x3001;computed&#x3001;methods&#x7B49;&#x9009;&#x9879;&#x7EC4;&#x6210;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF1A;</p><ul><li>template &#x7684; DOM &#x7ED3;&#x6784;&#x5FC5;&#x987B;&#x6709;&#x6839;&#x5143;&#x7D20;</li><li>data &#x5FC5;&#x987B;&#x662F;&#x51FD;&#x6570;&#xFF0C;&#x6570;&#x636E;&#x901A;&#x8FC7; return &#x8FD4;&#x56DE;&#x51FA;&#x53BB;</li></ul><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="// &#x793A;&#x4F8B;&#xFF1A;&#x5B9A;&#x4E49;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6; MyComponent
 var MyComponent = {{
   data: function () {
@@ -166,7 +166,7 @@ requireComponent.keys().forEach(<span class="hljs-function"><span class="hljs-pa
 &lt;/script&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code class="vue"><span class="xml">// ChildComponent.vue
 <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>&#x5B50;&#x7EC4;&#x4EF6;&#xFF1A;<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span></span><span class="hljs-template-variable">{{message}}</span><span class="xml">
+      <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>&#x5B50;&#x7EC4;&#x4EF6;&#xFF1A;<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span></span><span class="hljs-template-variable">"{{"message"}}"</span><span class="xml">
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
@@ -281,7 +281,7 @@ requireComponent.keys().forEach(<span class="hljs-function"><span class="hljs-pa
 <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>&#x7236;&#x7EC4;&#x4EF6;<span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x6570;&#x503C;&#xFF1A;</span><span class="hljs-template-variable">{{total}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>&#x6570;&#x503C;&#xFF1A;</span><span class="hljs-template-variable">"{{"total}</span><span class="xml">}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">ChildComponent</span> @<span class="hljs-attr">increase</span>=<span class="hljs-string">&quot;getTotal&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ChildComponent</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
@@ -331,7 +331,7 @@ requireComponent.keys().forEach(<span class="hljs-function"><span class="hljs-pa
 &lt;/script&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code class="vue"><span class="xml">// parentComponent.vue
 <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{message}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+      <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{"message"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">ChildComponent</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">ChildComponent</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
@@ -420,7 +420,7 @@ export default new Vue;" title="" data-original-title="&#x590D;&#x5236;"></span>
 <span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">b</span>&gt;</span>&#x7EC4;&#x4EF6;B&#xFF1A;<span class="hljs-tag">&lt;/<span class="hljs-name">b</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">button</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;handleBus&quot;</span>&gt;</span>&#x63A5;&#x6536;&#x7EC4;&#x4EF6;A&#x7684;&#x4FE1;&#x606F;<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{message}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{"message"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
@@ -536,7 +536,7 @@ export default new Vue;" title="" data-original-title="&#x590D;&#x5236;"></span>
     }
   }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre><p>&#x6539;&#x53D8; <code>this.currentView</code>&#x7684;&#x503C;&#x5C31;&#x53EF;&#x4EE5;&#x81EA;&#x7531;&#x5207;&#x6362; AB &#x7EC4;&#x4EF6;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbg0WS?w=1344&amp;h=336" src="https://static.alili.tech/img/bVbg0WS?w=1344&amp;h=336" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><blockquote>&#x4E0E;&#x4E4B;&#x7C7B;&#x4F3C;&#x7684;&#x662F;<code>vue-router</code>&#x7684;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#xFF0C;&#x524D;&#x7AEF;&#x8DEF;&#x7531;&#x5230;&#x4E0D;&#x540C;&#x7684;&#x97F5;&#x5B9E;&#x9645;&#x4E0A;&#x5C31;&#x662F;&#x52A0;&#x8F7D;&#x4E0D;&#x540C;&#x7684;&#x7EC4;&#x4EF6;&#x3002;</blockquote><hr><h4>&#x8981;&#x7EE7;&#x7EED;&#x52A0;&#x6CB9;&#x5462;&#xFF0C;&#x5C11;&#x5E74;&#xFF01;</h4>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

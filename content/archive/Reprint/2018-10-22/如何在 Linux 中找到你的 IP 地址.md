@@ -1,12 +1,12 @@
 ---
 title: 如何在 Linux 中找到你的 IP 地址
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 27b45adc
+slug: 27b45adc
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-linux-中找到你的-ip-地址"></a>如何在 Linux 中找到你的 IP 地址</h1>
 <blockquote>
@@ -48,7 +48,7 @@ date: 2018-10-22 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

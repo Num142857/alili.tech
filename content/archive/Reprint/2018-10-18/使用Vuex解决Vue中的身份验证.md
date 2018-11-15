@@ -1,12 +1,12 @@
 ---
 title: 使用Vuex解决Vue中的身份验证
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: bd062f28
+slug: bd062f28
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>传统方式中，许多人使用本地存储，来管理通过客户端验证生成的tokens。一个大问题是如何有更好的方式，来管理验证tokens，从而允许我们来存储更大的用户信息。</p>
 <p>这就是<a href="https://vuex.vuejs.org">Vuex</a>的作用。 Vuex为<a href="https://vuejs.org">Vue.js</a>应用管理状态.。对于应用中所有的组件来说，它被当做中央存储，并用规则确保状态只能以可预见的方式改变。</p>
@@ -412,7 +412,7 @@ export default router
 <p>我希望这可以帮助您建立更好的应用。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/handling-authentication-in-vue-using-vuex](https://www.zcfy.cc/article/handling-authentication-in-vue-using-vuex)

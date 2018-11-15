@@ -1,12 +1,12 @@
 ---
 title: 配置webpack中dev.env.js、prod.env.js，解决不同命令下项目启动和打包到指定的环境
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e17e1faa
+slug: e17e1faa
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x524D;&#x540E;&#x7AEF;&#x5206;&#x79BB;&#x7684;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x6709;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x3001;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;&#x3001;&#x9884;&#x751F;&#x4EA7;&#x73AF;&#x5883;&#x548C;&#x751F;&#x4EA7;&#x73AF;&#x5883;&#x3002;</p><blockquote><strong>1</strong>&#x3001;&#x5F00;&#x53D1;&#x73AF;&#x5883;&#x4E0B;&#x8C03;&#x8BD5;&#x63A5;&#x53E3;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x4E00;&#x822C;&#x90FD;&#x4F1A;&#x6709;&#x597D;&#x51E0;&#x4E2A;&#x63A5;&#x53E3;&#x5730;&#x5740;&#xFF08;&#x5F00;&#x53D1;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x7684;&#xFF0C;&#x672C;&#x5730;&#x7684;&#xFF0C;&#x63A5;&#x53E3;&#x5F00;&#x53D1;&#x4EBA;&#x5458;&#x7684;&#xFF0C;&#x4E03;&#x4E03;&#x516B;&#x516B;&#x7684;&#x63A5;&#x53E3;&#x5730;&#x5740;&#xFF09;&#xFF0C;&#x8981;&#x6839;&#x636E;&#x60C5;&#x51B5;&#x624B;&#x52A8;&#x6765;&#x5207;&#x6362;&#x63A5;&#x53E3;&#x5730;&#x5740;&#x3002;<p><strong>2</strong>&#x3001;&#x6253;&#x5305;&#x65F6;&#x8981;&#x90E8;&#x7F72;&#x9879;&#x76EE;&#x5230;&#x4E0D;&#x540C;&#x7684;&#x73AF;&#x5883;&#xFF0C;&#x800C;&#x8FD9;&#x4E5F;&#x9700;&#x8981;&#x6BCF;&#x6B21;&#x90FD;&#x6839;&#x636E;&#x60C5;&#x51B5;&#x5207;&#x6362;&#x63A5;&#x53E3;&#x5730;&#x5740;&#x3002;</p></blockquote><p>&#x867D;&#x8BF4;&#x624B;&#x52A8;&#x6765;&#x5207;&#x6362;&#x5730;&#x5740;&#x662F;&#x53EF;&#x4EE5;&#x6EE1;&#x8DB3;&#x9700;&#x6C42;&#x7684;&#xFF0C;&#x4F46;&#x662F;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x5C5E;&#x4E0D;&#x662F;&#x4E00;&#x79CD;&#x8F83;&#x4E3A;&#x4F18;&#x96C5;&#x7684;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#x3002;&#x90A3;&#x4E48;&#xFF0C;&#x6211;&#x4EEC;&#x6362;&#x4E00;&#x79CD;&#x4F18;&#x96C5;&#x4E00;&#x70B9;&#x7684;&#x65B9;&#x5F0F;&#x6765;&#x89E3;&#x51B3;&#x3002;</p><p><strong>&#x901A;&#x8FC7;&#x4FEE;&#x6539;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#xFF0C;&#x8BA9;&#x542F;&#x52A8;&#x548C;&#x6253;&#x5305;&#x9879;&#x76EE;&#x65F6;&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684;&#x547D;&#x4EE4;&#xFF0C;&#x8FBE;&#x5230;&#x9884;&#x671F;&#x7684;&#x7ED3;&#x679C;&#x3002;</strong></p><p>&#x4E0B;&#x9762;&#x5C31;&#x4EE5;Vue&#x9879;&#x76EE;&#x4E3A;&#x4F8B;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;&#x4E0A;&#x8FF0;&#x7684;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF0C;&#x5982;&#x679C;&#x60A8;&#x6709;&#x66F4;&#x597D;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x70E6;&#x8BF7;&#x8054;&#x7CFB;&#x6211;&#xFF0C;&#x5927;&#x5BB6;&#x76F8;&#x4E92;&#x4EA4;&#x6D41;&#x5B66;&#x4E60;&#x3002;</p><p><strong>1</strong>&#x3001;&#x542F;&#x52A8;&#x9879;&#x76EE;&#x65F6;&#xFF0C;&#x9700;&#x8981;&#x4FEE;&#x6539;<code>/package.json</code>&#x3001;<code>/config/dev.env.js</code>&#x548C;<code>/src/main.js</code>&#x6587;&#x4EF6;<br>&#x3000;1). &#x5728;<code>/package.json</code>&#x4E2D;&#xFF0C;&#x4E3A;&#x542F;&#x52A8;&#x547D;&#x4EE4;&#x8BBE;&#x7F6E;&#x4E0D;&#x540C;&#x7684;&#x53C2;&#x6570;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&quot;scripts&quot;: {
     &quot;dev&quot;: &quot;webpack-dev-server --inline --progress --config build/webpack.dev.conf.js&quot;,
     &quot;dev_test&quot;: &quot;webpack-dev-server --inline --progress --env=test --config build/webpack.dev.conf.js&quot;,
@@ -156,7 +156,7 @@ Vue.prototype.$baseUrl = process.env.baseUrl
   <span class="hljs-attr">components</span>: { App },
   <span class="hljs-attr">template</span>: <span class="hljs-string">&apos;&lt;App/&gt;&apos;</span>
 })</code></pre><p>&#x5728;&#x6253;&#x5305;&#x4E0D;&#x540C;&#x73AF;&#x5883;&#x4E0B;&#x9879;&#x76EE;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x76F4;&#x63A5;&#x7528;&#x5BF9;&#x5E94;&#x7684;&#x547D;&#x4EE4;<strong>npm run build</strong>&#x3001;<strong>npm run build test</strong>&#x3001;<strong>npm run build prod</strong>&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x518D;&#x4E5F;&#x4E0D;&#x7528;&#x53BB;&#x6587;&#x4EF6;&#x4E2D;&#x4FEE;&#x6539;&#x63A5;&#x53E3;&#x5730;&#x5740;&#x4E86;&#x3002;</p><p>&#x8FD9;&#x6837;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x4E00;&#x52B3;&#x6C38;&#x9038;&#x4E86;&#xFF0C;&#x5728;&#x542F;&#x52A8;&#x548C;&#x6253;&#x5305;&#x9879;&#x76EE;&#x7684;&#x65F6;&#x5019;&#x4E00;&#x6761;&#x547D;&#x4EE4;&#x76F4;&#x63A5;&#x641E;&#x5B9A;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

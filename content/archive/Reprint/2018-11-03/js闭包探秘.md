@@ -1,12 +1,12 @@
 ---
 title: js闭包探秘
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c554210b
+slug: c554210b
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x8BD1;&#x8005;&#xFF1A;&#x95ED;&#x5305;&#x90FD;&#x88AB;&#x8BA8;&#x8BBA;&#x70C2;&#x4E86;&#xFF0C;&#x4E0D;&#x7406;&#x89E3;&#x95ED;&#x5305;&#x90FD;&#x4E0D;&#x597D;&#x610F;&#x601D;&#x8BF4;&#x81EA;&#x5DF1;&#x4F1A;js&#xFF0C;&#x4F46;&#x6211;&#x770B;&#x5230;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x8FD8;&#x662F;&#x611F;&#x89C9;&#x773C;&#x524D;&#x4E00;&#x4EAE;&#xFF0C;&#x4E5F;&#x8BA9;&#x6211;&#x5BF9;&#x95ED;&#x5305;&#x6709;&#x4E86;&#x4E00;&#x4E9B;&#x65B0;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x5E76;&#x4E14;&#x6D89;&#x53CA;&#x4E86;&#x4E00;&#x4E9B;&#x7C7B;&#x548C;&#x539F;&#x578B;&#x94FE;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x7BC7;2012&#x5E74;&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x7A0D;&#x5FAE;&#x6709;&#x70B9;&#x65E9;&#xFF0C;&#x5185;&#x5BB9;&#x4E5F;&#x7565;&#x5FAE;&#x57FA;&#x7840;&#xFF0C;&#x4F46;&#x662F;&#x5F88;&#x660E;&#x6670;&#xFF0C;&#x5E0C;&#x671B;&#x80FD;&#x7ED9;&#x8BFB;&#x8005;&#x5E26;&#x6765;&#x65B0;&#x7684;&#x7406;&#x89E3;&#x3002;</blockquote><p>&#x95ED;&#x5305;(Closure) &#x662F;javascript&#x8FD9;&#x95E8;&#x8BED;&#x8A00;&#x4E2D;&#x6709;&#x4E9B;&#x590D;&#x6742;&#x5E76;&#x4E14;&#x5145;&#x6EE1;&#x8BEF;&#x89E3;&#x7684;&#x7279;&#x6027;&#x3002;&#x7B80;&#x8A00;&#x4E4B;&#xFF0C;&#x95ED;&#x5305;&#x662F;&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#xFF08;function&#xFF09;&#x548C;&#x8BE5;&#x65B9;&#x6CD5;&#x521B;&#x5EFA;&#x65F6;&#x73AF;&#x5883;&#x7684;&#x5F15;&#x7528;&#xFF08;reference to the enviroment&#xFF09;&#x3002;&#x4E3A;&#x4E86;&#x5B8C;&#x5168;&#x7406;&#x89E3;&#x95ED;&#x5305;&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x9700;&#x8981;&#x7406;&#x89E3;&#x4E24;&#x4E2A;js&#x4E2D;&#x7684;&#x7279;&#x6027;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;&#x4E00;&#x7EA7;&#x65B9;&#x6CD5;(first-class function)&#xFF0C;&#x53E6;&#x4E00;&#x4E2A;&#x662F;&#x5185;&#x90E8;&#x65B9;&#x6CD5;(inner function)&#x3002;</p><h2 id="articleHeader0">&#x4E00;&#x7EA7;&#x65B9;&#x6CD5;/First-Class Functions</h2><p>&#x5728;js&#x4E2D;&#xFF0C;&#x65B9;&#x6CD5;&#x662F;&#x5934;&#x7B49;&#x516C;&#x6C11;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x53EF;&#x4EE5;&#x88AB;&#x8F7B;&#x6613;&#x8F6C;&#x6362;&#x6210;&#x5176;&#x4ED6;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x3002;&#x6BD4;&#x5982;&#xFF0C;&#x4E00;&#x7EA7;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x5B9E;&#x65F6;&#x6784;&#x5EFA;&#x5E76;&#x4E14;&#x8D4B;&#x503C;&#x7ED9;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x3002;&#x4E5F;&#x53EF;&#x4EE5;&#x4F20;&#x9012;&#x7ED9;&#x5176;&#x4ED6;&#x65B9;&#x6CD5;&#xFF0C;&#x6216;&#x8005;&#x901A;&#x8FC7;&#x5176;&#x4ED6;&#x65B9;&#x6CD5;&#x8FD4;&#x56DE;&#x3002;&#x9664;&#x4E86;&#x6EE1;&#x8DB3;&#x8FD9;&#x4E9B;&#x6807;&#x51C6;&#x4EE5;&#x5916;&#xFF0C;&#x65B9;&#x6CD5;&#x4E5F;&#x62E5;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;<br>&#x901A;&#x8FC7;&#x4E0B;&#x8FF0;&#x4F8B;&#x5B50;&#xFF0C;&#x6211;&#x4EEC;&#x6765;&#x770B;&#x4E00;&#x4E0B;&#x4E00;&#x7EA7;&#x65B9;&#x6CD5;&#x7684;&#x80FD;&#x529B;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var foo = function() {
   alert(&quot;Hello World!&quot;);
 };
@@ -284,7 +284,7 @@ Person.prototype.sayHello = function() {
 Person.prototype.sayHello = <span class="hljs-function"><span class="hljs-keyword">function</span><span class="hljs-params">()</span> </span>{
   alert(<span class="hljs-string">&quot;Hello!&quot;</span>);
 };</code></pre><h2 id="articleHeader5">&#x9700;&#x8981;&#x8BB0;&#x5F97;&#x4E00;&#x4E9B;&#x4E8B;&#x60C5;</h2><ul><li>&#x95ED;&#x5305;&#x5305;&#x542B;&#x4E86;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;&#x4EE5;&#x53CA;&#x521B;&#x5EFA;&#x5B83;&#x7684;&#x4EE3;&#x7801;&#x73AF;&#x5883;&#x5F15;&#x7528;</li><li>&#x95ED;&#x5305;&#x4F1A;&#x5728;&#x5916;&#x90E8;&#x51FD;&#x6570;&#x5305;&#x542B;&#x5185;&#x90E8;&#x51FD;&#x6570;&#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x5F62;&#x6210;</li><li>&#x95ED;&#x5305;&#x53EF;&#x4EE5;&#x8F7B;&#x677E;&#x7684;&#x5E2E;&#x52A9;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x4F20;&#x5165;&#x53C2;&#x6570;</li><li>&#x7C7B;&#x7684;&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x95ED;&#x5305;&#x6A21;&#x62DF;</li><li>&#x7C7B;&#x7684;&#x6784;&#x9020;&#x5668;&#x4E2D;&#x4F7F;&#x7528;&#x95ED;&#x5305;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x597D;&#x4E3B;&#x610F;&#xFF0C;&#x5C06;&#x5B83;&#x4EEC;&#x653E;&#x5230;&#x539F;&#x578B;&#x94FE;&#x4E2D;</li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

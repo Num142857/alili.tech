@@ -1,12 +1,12 @@
 ---
 title: package.json 非官方字段集合
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a77ab9e3
+slug: a77ab9e3
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">package.json &#x975E;&#x5B98;&#x65B9;&#x5B57;&#x6BB5;&#x96C6;&#x5408;</h1><p><code>package.json</code> &#x5B98;&#x65B9;&#x5B57;&#x6BB5;&#x8BF7;&#x53C2;&#x8003; <a href="https://docs.npmjs.com/files/package.json" rel="nofollow noreferrer" target="_blank">https://docs.npmjs.com/files/package.json</a>&#x3002;&#x4E0B;&#x9762;&#x4ECB;&#x7ECD;&#x7684;&#x662F;&#x975E;&#x5B98;&#x65B9;&#x5B57;&#x6BB5;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x5404;&#x79CD;&#x5DE5;&#x5177;&#x5B9A;&#x4E49;&#x7684;&#x76F8;&#x5173;&#x5B57;&#x6BB5;&#x3002;</p><h2 id="articleHeader1">1. <a href="https://github.com/yarnpkg/yarn" rel="nofollow noreferrer" target="_blank">yarn</a> &#x76F8;&#x5173;&#x5B57;&#x6BB5;</h2><p><a href="https://github.com/yarnpkg/yarn" rel="nofollow noreferrer" target="_blank">yarn</a>: &#x7C7B;&#x4F3C; <code>npm</code> &#x7684;&#x4F9D;&#x8D56;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF0C;&#x4F46; <code>yarn</code> &#x7F13;&#x5B58;&#x4E86;&#x6BCF;&#x4E2A;&#x4E0B;&#x8F7D;&#x8FC7;&#x7684;&#x5305;&#xFF0C;&#x6240;&#x4EE5;&#x518D;&#x6B21;&#x4F7F;&#x7528;&#x65F6;&#x65E0;&#x9700;&#x91CD;&#x590D;&#x4E0B;&#x8F7D;&#xFF0C;&#x540C;&#x65F6;&#x5229;&#x7528;&#x5E76;&#x884C;&#x4E0B;&#x8F7D;&#x4EE5;&#x6700;&#x5927;&#x5316;&#x8D44;&#x6E90;&#x5229;&#x7528;&#x7387;&#xFF0C;&#x56E0;&#x6B64;&#x5B89;&#x88C5;&#x901F;&#x5EA6;&#x66F4;&#x5FEB;&#x3002;</p><h3 id="articleHeader2"><code>flat</code></h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="{
   &quot;flat&quot;: true
 }" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs json"><code>{
@@ -166,7 +166,7 @@ https://unpkg.com/jquery@[latestVersion]/[pkg.main] " title="" data-original-tit
     ]
   }
 }</code></pre><p>&#x914D;&#x7F6E; <code>standard</code>.</p><p>&#x8BE6;&#x7EC6;&#x53C2;&#x8003; <a href="https://standardjs.com/" rel="nofollow noreferrer" target="_blank">https://standardjs.com/</a>.</p><h2 id="articleHeader40">17. &#x5176;&#x4ED6;</h2><h3 id="articleHeader41"><code>style</code></h3><p>&#x58F0;&#x660E;&#x5F53;&#x524D;&#x6A21;&#x5757;&#x5305;&#x542B; <code>style</code> &#x90E8;&#x5206;&#xFF0C;&#x5E76;&#x6307;&#x5B9A;&#x5165;&#x53E3;&#x6587;&#x4EF6;&#x3002;</p><p>&#x652F;&#x6301;&#x7684;&#x5DE5;&#x5177;&#xFF1A;</p><ul><li><a href="https://github.com/rotundasoftware/parcelify" rel="nofollow noreferrer" target="_blank">parcelify</a></li><li><a href="https://github.com/Raynos/npm-less" rel="nofollow noreferrer" target="_blank">npm-less</a></li><li><a href="https://github.com/reworkcss/rework-npm" rel="nofollow noreferrer" target="_blank">rework-npm</a></li><li><a href="https://github.com/defunctzombie/npm-css" rel="nofollow noreferrer" target="_blank">npm-css</a></li></ul><p>&#x8BE6;&#x7EC6;&#x53C2;&#x8003; <a href="https://jaketrent.com/post/package-json-style-attribute/" rel="nofollow noreferrer" target="_blank">Package.json &quot;style&quot; Attribute</a>, <a href="https://github.com/cssinjs/istf-spec" rel="nofollow noreferrer" target="_blank">istf-spec</a>.</p><h3 id="articleHeader42"><code>less</code></h3><p>&#x4E0E; <code>style</code> &#x4E00;&#x6837;&#xFF0C;&#x4F46;&#x662F;&#x662F; <code>less</code> &#x6587;&#x4EF6;&#x3002;</p><p>&#x652F;&#x6301;&#x7684;&#x5DE5;&#x5177;&#xFF1A;</p><ul><li><a href="https://github.com/Raynos/npm-less" rel="nofollow noreferrer" target="_blank">npm-less</a></li></ul><h2 id="articleHeader43">18. &#x66F4;&#x591A;</h2><p>&#x53C2;&#x8003; <a href="https://github.com/stereobooster/package.json" rel="nofollow noreferrer" target="_blank">package.json fields explained</a>.</p><h2 id="articleHeader44">19. &#x540E;&#x7EED;</h2><p>&#x66F4;&#x591A;&#x535A;&#x5BA2;&#xFF0C;&#x67E5;&#x770B; <a href="https://github.com/senntyou/blogs" rel="nofollow noreferrer" target="_blank">https://github.com/senntyou/blogs</a></p><p>&#x4F5C;&#x8005;&#xFF1A;<a href="https://github.com/senntyou" rel="nofollow noreferrer" target="_blank">&#x6DF1;&#x4E88;&#x4E4B; (@senntyou)</a></p><p>&#x7248;&#x6743;&#x58F0;&#x660E;&#xFF1A;&#x81EA;&#x7531;&#x8F6C;&#x8F7D;-&#x975E;&#x5546;&#x7528;-&#x975E;&#x884D;&#x751F;-&#x4FDD;&#x6301;&#x7F72;&#x540D;&#xFF08;<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" rel="nofollow noreferrer" target="_blank">&#x521B;&#x610F;&#x5171;&#x4EAB;3.0&#x8BB8;&#x53EF;&#x8BC1;</a>&#xFF09;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 从零到有模拟实现一个Set类
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 5ec856df
+slug: 5ec856df
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2><blockquote>es6&#x65B0;&#x589E;&#x4E86;Set&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;&#x5B83;&#x5141;&#x8BB8;&#x4F60;&#x5B58;&#x50A8;&#x4EFB;&#x4F55;&#x7C7B;&#x578B;&#x7684;&#x552F;&#x4E00;&#x503C;&#xFF0C;&#x65E0;&#x8BBA;&#x662F;&#x539F;&#x59CB;&#x503C;&#x8FD8;&#x662F;&#x5BF9;&#x8C61;&#x5F15;&#x7528;&#x3002;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x5E0C;&#x671B;&#x901A;&#x8FC7;&#x6A21;&#x62DF;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;Set&#x6765;&#x589E;&#x52A0;&#x5BF9;&#x5B83;&#x7684;&#x7406;&#x89E3;&#x3002;</blockquote><p><a href="https://github.com/qianlongo/blog/issues/34" rel="nofollow noreferrer" target="_blank">&#x539F;&#x6587;&#x94FE;&#x63A5;</a></p><h2 id="articleHeader1">&#x7528;&#x5728;&#x524D;&#x9762;</h2><blockquote>&#x5B9E;&#x9645;&#x5DE5;&#x4F5C;&#x548C;&#x5B66;&#x4E60;&#x8FC7;&#x7A0B;&#x4E2D;&#xFF0C;&#x4F60;&#x53EF;&#x80FD;&#x4E5F;&#x7ECF;&#x5E38;&#x7528;Set&#x6765;&#x5BF9;&#x6570;&#x7EC4;&#x505A;&#x53BB;&#x91CD;&#x5904;&#x7406;</blockquote><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="
 let unique = (array) =&gt; {
   return [ ...new Set(array) ]
@@ -642,7 +642,7 @@ console.log(it.next()) // { done: true, value: undefined }
   <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>
 }
 </code></pre><p>&#x5230;&#x8FD9;&#x91CC;&#x4E0A;&#x9762;&#x7684;&#x95EE;&#x9898;2&#x5C31;&#x53EF;&#x4EE5;&#x89E3;&#x91CA;&#x901A;&#x4E86;&#x3002;</p><p>&#x518D;&#x770B;&#x770B;&#x95EE;&#x9898;1<code>&#x4E3A;&#x4EC0;&#x4E48;</code>[ ...s2 ]<code>&#x53EF;&#x4EE5;&#x5F97;&#x5230;&#x6570;&#x7EC4;</code>[ &apos;s&apos;, &apos;e&apos;, &apos;t&apos; ]<code>&#x5462;&#xFF1F;</code>,&#x539F;&#x56E0;&#x4E5F;&#x662F;&#x6211;&#x4EEC;&#x7ED9;<code>Set</code>&#x3001;<code>keys</code>&#x3001;<code>values</code>&#x3001;<code>entries</code>&#x90E8;&#x7F72;&#x4E86;Symbol.iterator&#xFF0C;&#x4F7F;&#x4E4B;&#x5177;&#x6709;&#x201C;iterator&#x201D;&#x63A5;&#x53E3;,&#x800C;&#x6269;&#x5C55;&#x8FD0;&#x7B97;&#x7B26;<code>...</code>&#x7684;&#x7279;&#x70B9;&#x4E4B;&#x4E00;&#x5C31;&#x662F;&#x4EFB;&#x4F55;&#x5177;&#x6709;Iterator&#x63A5;&#x53E3;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x90FD;&#x53EF;&#x4EE5;&#x7528;&#x6269;&#x5C55;&#x8FD0;&#x7B97;&#x7B26;&#x8F6C;&#x4E3A;&#x771F;&#x6B63;&#x7684;&#x6570;&#x7EC4;&#x3002;</p><h2 id="articleHeader9">&#x7ED3;&#x5C3E;</h2><blockquote>&#x6A21;&#x62DF;&#x8FC7;&#x7A0B;&#x4E2D;&#x53EF;&#x80FD;&#x4F1A;&#x6709;&#x76F8;&#x5E94;&#x7684;&#x9519;&#x8BEF;&#xFF0C;&#x4E5F;&#x4E0D;&#x662F;&#x548C;&#x539F;&#x751F;&#x7684;&#x5B9E;&#x73B0;&#x5B8C;&#x5168;&#x4E00;&#x81F4;&#x3002;&#x4EC5;&#x5F53;&#x5B66;&#x4E60;&#x4E4B;&#x7528;&#xFF0C;&#x6B22;&#x8FCE;&#x5927;&#x5BB6;&#x62CD;&#x7816;&#x3002;</blockquote><p><a href="https://github.com/qianlongo/blog/issues/34" rel="nofollow noreferrer" target="_blank">&#x539F;&#x6587;&#x94FE;&#x63A5;</a></p><h2 id="articleHeader10">&#x53C2;&#x8003;</h2><ol><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Set" rel="nofollow noreferrer" target="_blank">Set</a></li><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Iterators_and_Generators" rel="nofollow noreferrer" target="_blank">&#x8FED;&#x4EE3;&#x5668;&#x548C;&#x751F;&#x6210;&#x5668;</a></li><li><a href="https://github.com/mqyqingfeng/Blog/issues/91" rel="nofollow noreferrer" target="_blank">ES6 &#x7CFB;&#x5217;&#x4E4B;&#x6A21;&#x62DF;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A; Set &#x6570;&#x636E;&#x7ED3;&#x6784;</a></li><li><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_syntax" rel="nofollow noreferrer" target="_blank">&#x5C55;&#x5F00;&#x8BED;&#x6CD5;</a></li><li><a href="http://es6.ruanyifeng.com/?search=%E6%89%A9%E5%B1%95%E7%AC%A6&amp;x=0&amp;y=0#docs/iterator#for---of-%E5%BE%AA%E7%8E%AF" rel="nofollow noreferrer" target="_blank">for...of &#x5FAA;&#x73AF;</a></li></ol>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

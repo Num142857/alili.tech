@@ -1,12 +1,12 @@
 ---
 title: MongoDB常用语句
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fffda355
+slug: fffda355
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x5982;&#x679C;&#x89C9;&#x5F97; Mongodb &#x8BED;&#x53E5;&#x4E0D;&#x592A;&#x597D;&#x7406;&#x89E3;&#xFF0C;&#x53EF;&#x4EE5;&#x548C; SQL &#x8BED;&#x53E5;&#x8FDB;&#x884C;&#x5BF9;&#x6BD4;&#xFF0C;&#x5B66;&#x8D77;&#x6765;&#x8981;&#x5BB9;&#x6613;&#x5F88;&#x591A;&#x3002;</p><p><strong>1. &#x67E5;&#x8BE2;(find)</strong></p><ul><li><p>&#x67E5;&#x8BE2;&#x6240;&#x6709;&#x7ED3;&#x679C;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="select * from article
 db.article.find()" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="sql hljs"><code class="sql"><span class="hljs-keyword">select</span> * <span class="hljs-keyword">from</span> article
 db.article.find()</code></pre></li><li><p>&#x6307;&#x5B9A;&#x8FD4;&#x56DE;&#x54EA;&#x4E9B;&#x952E;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="select title, author from article
@@ -90,7 +90,7 @@ db.article.remove()" title="" data-original-title="&#x590D;&#x5236;"></span> <sp
 db.article.remove()</code></pre></li><li><p>&#x5220;&#x9664;&#x6307;&#x5B9A;&#x6587;&#x6863;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=" delete from article where title = &quot;mongodb&quot;
  db.article.remove({title: &quot;mongodb&quot;})" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="sql hljs"><code class="sql"> <span class="hljs-keyword">delete</span> <span class="hljs-keyword">from</span> article <span class="hljs-keyword">where</span> title = <span class="hljs-string">&quot;mongodb&quot;</span>
  db.article.remove({title: <span class="hljs-string">&quot;mongodb&quot;</span>})</code></pre></li></ul><p>&#x66F4;&#x591A;&#x53C2;&#x8003;&#xFF1A;<a href="http://ghmagical.com/article/page/id/Bj7qgmJ3CJUE" rel="nofollow noreferrer" target="_blank">MongoDB&#x5E38;&#x7528;&#x8BED;&#x53E5;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

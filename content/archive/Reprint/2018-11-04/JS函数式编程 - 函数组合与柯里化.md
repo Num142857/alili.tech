@@ -1,12 +1,12 @@
 ---
 title: JS函数式编程 - 函数组合与柯里化
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4680a232
+slug: 4680a232
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6211;&#x4EEC;&#x90FD;&#x77E5;&#x9053;&#x5355;&#x4E00;&#x804C;&#x8D23;&#x539F;&#x5219;&#xFF0C;&#x5176;&#x5B9E;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7684;SOLID&#x4E2D;&#x7684;S(SRP, Single responsibility principle)&#x3002;&#x5728;&#x51FD;&#x6570;&#x5F0F;&#x5F53;&#x4E2D;&#x6BCF;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x5355;&#x5143;&#xFF0C;&#x540C;&#x6837;&#x5E94;&#x8BE5;&#x53EA;&#x505A;&#x4E00;&#x4EF6;&#x4E8B;&#x3002;&#x4F46;&#x662F;&#x73B0;&#x5B9E;&#x4E16;&#x754C;&#x603B;&#x662F;&#x590D;&#x6742;&#x7684;&#xFF0C;&#x5F53;&#x628A;&#x73B0;&#x5B9E;&#x4E16;&#x754C;&#x6620;&#x5C04;&#x5230;&#x7F16;&#x7A0B;&#x65F6;&#xFF0C;&#x5355;&#x4E00;&#x7684;&#x51FD;&#x6570;&#x5C31;&#x6CA1;&#x6709;&#x592A;&#x5927;&#x7684;&#x610F;&#x4E49;&#x3002;&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#x5C31;&#x9700;&#x8981;&#x51FD;&#x6570;&#x7EC4;&#x5408;&#x548C;&#x67EF;&#x91CC;&#x5316;&#x4E86;&#x3002;</p><h2 id="articleHeader0">&#x94FE;&#x5F0F;&#x8C03;&#x7528;</h2><p>&#x5982;&#x679C;&#x7528;&#x8FC7;jQuery&#x7684;&#x90FD;&#x6653;&#x5F97;&#x5565;&#x662F;&#x94FE;&#x5F0F;&#x8C03;&#x7528;&#xFF0C;&#x6BD4;&#x5982;<code>$(&apos;.post&apos;).eq(1).attr(&apos;data-test&apos;, &apos;test&apos;)</code>.javascript&#x539F;&#x751F;&#x7684;&#x4E00;&#x4E9B;&#x5B57;&#x7B26;&#x4E32;&#x548C;&#x6570;&#x7EC4;&#x7684;&#x65B9;&#x6CD5;&#x4E5F;&#x80FD;&#x5199;&#x51FA;&#x94FE;&#x5F0F;&#x8C03;&#x7528;&#x7684;&#x98CE;&#x683C;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&apos;Hello, world!&apos;.split(&apos;&apos;).reverse().join(&apos;&apos;) // &quot;!dlrow ,olleH&quot;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="javascript hljs"><code class="js" style="word-break:break-word;white-space:initial"><span class="hljs-string">&apos;Hello, world!&apos;</span>.split(<span class="hljs-string">&apos;&apos;</span>).reverse().join(<span class="hljs-string">&apos;&apos;</span>) <span class="hljs-comment">// &quot;!dlrow ,olleH&quot;</span></code></pre><p>&#x9996;&#x5148;&#x94FE;&#x5F0F;&#x8C03;&#x7528;&#x662F;&#x57FA;&#x4E8E;&#x5BF9;&#x8C61;&#x7684;&#xFF0C;&#x4E0A;&#x9762;&#x7684;&#x4E00;&#x4E2A;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;<code>split</code>, <code>reverse</code>, <code>join</code>&#x5982;&#x679C;&#x8131;&#x79BB;&#x7684;&#x524D;&#x9762;&#x7684;&#x5BF9;&#x8C61;&quot;Hello, world!&quot;&#x662F;&#x73A9;&#x4E0D;&#x8D77;&#x6765;&#x7684;&#x3002;</p><p>&#x800C;&#x5728;&#x51FD;&#x6570;&#x5F0F;&#x7F16;&#x7A0B;&#x4E2D;&#x65B9;&#x6CD5;&#x662F;&#x72EC;&#x7ACB;&#x4E8E;&#x6570;&#x636E;&#x7684;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x628A;&#x4E0A;&#x9762;&#x4EE5;&#x51FD;&#x6570;&#x5F0F;&#x7684;&#x65B9;&#x5F0F;&#x5728;&#x5199;&#x4E00;&#x904D;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="
 const split = (tag, xs) =&gt; xs.split(tag)
 const reverse = xs =&gt; xs.reverse()
@@ -102,7 +102,7 @@ reverseWords(&apos;Hello,world!&apos;);" title="" data-original-title="&#x590D;&
 <span class="hljs-keyword">const</span> reverseWords = compose(join(<span class="hljs-string">&apos;&apos;</span>), getReverseArray)
 
 reverseWords(<span class="hljs-string">&apos;Hello,world!&apos;</span>);</code></pre><p>&#x8111;&#x56FE;&#x8865;&#x5145;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbh67q?w=4624&amp;h=1822" src="https://static.alili.tech/img/bVbh67q?w=4624&amp;h=1822" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><p>OK&#xFF0C;&#x4E0B;&#x4E00;&#x7BC7;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;&#x8303;&#x7574;&#x8F6E;&#xFF0C;&#x548C;&#x51FD;&#x5B50;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

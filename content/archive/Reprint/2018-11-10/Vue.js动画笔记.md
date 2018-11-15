@@ -1,12 +1,12 @@
 ---
 title: Vue.js动画笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ea91dcd5
+slug: ea91dcd5
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><strong>1&#x3001;Vue.js&#x4E2D;&#x7684;&#x5143;&#x7D20;&#x52A8;&#x753B;&#x6216;&#x9875;&#x9762;&#x8DF3;&#x8F6C;&#x52A8;&#x753B;&#x6709;&#x591A;&#x79CD;&#x5B9E;&#x73B0;&#x65B9;&#x5F0F;&#x6BD4;&#x5982;&#xFF1A;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="1&#x3001;&#x81EA;&#x5DF1;&#x624B;&#x52A8;&#x5199;CSS3&#x52A8;&#x753B;&#x6765;&#x5B9E;&#x73B0;
 2&#x3001;&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;CSS&#x52A8;&#x753B;&#x5E93;&#x5982;&#xFF1A;Animate.css
 3&#x3001;&#x5728;&#x6784;&#x5B50;&#x51FD;&#x6570;&#x4E2D;&#x64CD;&#x4F5C;DOM
@@ -468,7 +468,7 @@ new Vue({
     &lt;<span class="hljs-string">button </span>@<span class="hljs-string">click=</span><span class="hljs-string">&apos;shuffle&apos;</span>&gt;&#x6253;&#x4E71;&lt;/<span class="hljs-string">button&gt;</span>
     &lt;<span class="hljs-string">transition-group </span><span class="hljs-string">name=</span><span class="hljs-string">&apos;list&apos;</span> <span class="hljs-string">tag=</span><span class="hljs-string">&apos;div&apos;</span>&gt;
         &lt;<span class="hljs-string">span </span><span class="hljs-string">v-for=</span><span class="hljs-string">&apos;item in items&apos;</span> :<span class="hljs-string">key=</span><span class="hljs-string">&apos;item&apos;</span> <span class="hljs-string">class=</span><span class="hljs-string">&apos;list-item&apos;</span>&gt;
-            {{<span class="hljs-string">item}</span>}
+            "{{"<span class="hljs-string">item}</span>}
         &lt;/<span class="hljs-string">span&gt;</span>
     &lt;/<span class="hljs-string">transition-group&gt;</span>
 &lt;/<span class="hljs-string">div&gt;</span>
@@ -710,7 +710,7 @@ Vue.component(<span class="hljs-string">&apos;my-special-transition&apos;</span>
 //&#x6700;&#x7EC8;&#x65B9;&#x6848;&#x662F;&#x7EC4;&#x4EF6;&#x901A;&#x8FC7;&#x63A5;&#x53D7; props &#x6765;&#x52A8;&#x6001;&#x4FEE;&#x6539;&#x4E4B;&#x524D;&#x7684;&#x8FC7;&#x6E21;&#x3002;&#x4E00;&#x53E5;&#x8001;&#x8BDD;&#xFF0C;&#x552F;&#x4E00;&#x7684;&#x9650;&#x5236;&#x662F;&#x4F60;&#x7684;&#x60F3;&#x8C61;&#x529B;&#x3002;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs javascript"><code>&lt;transition :name=<span class="hljs-string">&quot;transitionName&quot;</span>&gt; <span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">transition</span>&gt;</span></span>
 <span class="hljs-comment">//&#x901A;&#x8FC7;&#x4E8B;&#x4EF6;&#x7684;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x83B7;&#x53D6;&#x5230;&#x76F8;&#x5E94;&#x4E0A;&#x4E0B;&#x6587;&#x6570;&#x636E;&#x3002;&#x8FD9;&#x610F;&#x5473;&#x7740;&#xFF0C;&#x53EF;&#x4EE5;&#x6839;&#x636E;&#x7EC4;&#x4EF6;&#x7684;&#x72B6;&#x6001;&#x901A;&#x8FC7; JavaScript &#x8FC7;&#x6E21;&#x8BBE;&#x7F6E;&#x4E0D;&#x540C;&#x7684;&#x8FC7;&#x6E21;&#x6548;&#x679C;</span>
 <span class="hljs-comment">//&#x6700;&#x7EC8;&#x65B9;&#x6848;&#x662F;&#x7EC4;&#x4EF6;&#x901A;&#x8FC7;&#x63A5;&#x53D7; props &#x6765;&#x52A8;&#x6001;&#x4FEE;&#x6539;&#x4E4B;&#x524D;&#x7684;&#x8FC7;&#x6E21;&#x3002;&#x4E00;&#x53E5;&#x8001;&#x8BDD;&#xFF0C;&#x552F;&#x4E00;&#x7684;&#x9650;&#x5236;&#x662F;&#x4F60;&#x7684;&#x60F3;&#x8C61;&#x529B;&#x3002;</span></code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: webpack在es6和less自动更新上的简单构建
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3f067123
+slug: 3f067123
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><strong>更新于2015年/11月/08 babel 6.0版本</strong></p>
 <p>仅仅是一个开发工具包？克隆压缩 <a href="https://github.com/jamesknelson/webpack-black-triangle">webpack-black-triangle</a> 或是 <a href="http://unicornstandard.com/packages/boilerplate.html">Unicorn Standard Starter Kit</a>的工作原理</p>
@@ -182,7 +182,7 @@ $ npm <span class="hljs-keyword">install </span>webpack-dev-server webpack <span
 <p>首先，要把它进行压缩. 然后, 您可能引入一些环境变量，以便在开发和生产中设置不同的API键。你需要提取CSS作为一个分开的文件, 并进行缓存. 这需要一些方法来修改你的src属性</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/webpack-made-simple-building-es6-less-with-autorefresh](https://www.zcfy.cc/article/webpack-made-simple-building-es6-less-with-autorefresh)

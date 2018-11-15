@@ -1,12 +1,12 @@
 ---
 title: 手摸手，带你用vue撸后台 系列三(实战篇)
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b82f32d7
+slug: b82f32d7
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>完整项目地址：<a href="https://github.com/PanJiaChen/vue-element-admin" rel="nofollow noreferrer" target="_blank">vue-element-admin</a>  <br>系类文章一：<a href="https://segmentfault.com/a/1190000009275424">手摸手，带你用vue撸后台 系列一(基础篇)</a><br>系类文章二：<a href="https://segmentfault.com/a/1190000009506097" target="_blank">手摸手，带你用vue撸后台 系列二(登录权限篇)</a><br>系类文章三：<a href="https://segmentfault.com/a/1190000009762198">手摸手，带你用vue撸后台 系列三(实战篇）</a><br>系类文章四：<a href="https://segmentfault.com/a/1190000010043013" target="_blank">手摸手，带你用vue撸后台 系列四(vueAdmin 一个极简的后台基础模板)</a><br>系类文章：<a href="https://segmentfault.com/a/1190000012213278">手摸手，带你优雅的使用 icon</a><br>系类文章：<a href="https://segmentfault.com/a/1190000009090836" target="_blank">手摸手，带你封装一个vue component</a></p>
@@ -213,7 +213,7 @@ let sortable = Sortable.create(el)" title="" data-original-title="复制"></span
       <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="<el-table-column min-width=&quot;300px&quot; label=&quot;标题&quot;>
   <template scope=&quot;scope&quot;>
     <el-input v-show=&quot;scope.row.edit&quot; size=&quot;small&quot; v-model=&quot;scope.row.title&quot;></el-input>
-    <span v-show=&quot;!scope.row.edit&quot;>{{ scope.row.title }}</span>
+    <span v-show=&quot;!scope.row.edit&quot;>"{{" scope.row.title "}}"</span>
   </template>
 </el-table-column>
 <el-table-column align=&quot;center&quot; label=&quot;编辑&quot; width=&quot;120&quot;>
@@ -228,7 +228,7 @@ let sortable = Sortable.create(el)" title="" data-original-title="复制"></span
       </div><pre class="hljs django"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">el-table-column</span> <span class="hljs-attr">min-width</span>=<span class="hljs-string">"300px"</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"标题"</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">template</span> <span class="hljs-attr">scope</span>=<span class="hljs-string">"scope"</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">el-input</span> <span class="hljs-attr">v-show</span>=<span class="hljs-string">"scope.row.edit"</span> <span class="hljs-attr">size</span>=<span class="hljs-string">"small"</span> <span class="hljs-attr">v-model</span>=<span class="hljs-string">"scope.row.title"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">el-input</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">v-show</span>=<span class="hljs-string">"!scope.row.edit"</span>&gt;</span></span><span class="hljs-template-variable">{{ scope.row.title }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">v-show</span>=<span class="hljs-string">"!scope.row.edit"</span>&gt;</span></span><span class="hljs-template-variable">"{{" scope.row.title "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">el-table-column</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">el-table-column</span> <span class="hljs-attr">align</span>=<span class="hljs-string">"center"</span> <span class="hljs-attr">label</span>=<span class="hljs-string">"编辑"</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"120"</span>&gt;</span>
@@ -786,7 +786,7 @@ created() {
 <p>常规占坑，这里是手摸手，带你用vue撸后台系列。   <br>完整项目地址：<a href="https://github.com/PanJiaChen/vue-element-admin" rel="nofollow noreferrer" target="_blank">vue-element-admin</a>  <br>系类文章一：<a href="https://segmentfault.com/a/1190000009275424">手摸手，带你用vue撸后台 系列一(基础篇)</a><br>系类文章二：<a href="https://segmentfault.com/a/1190000009506097" target="_blank">手摸手，带你用vue撸后台 系列二(登录权限篇)</a><br>系类文章三：<a href="https://segmentfault.com/a/1190000009762198">手摸手，带你用vue撸后台 系列三(实战篇）</a><br>系类文章四：<a href="https://segmentfault.com/a/1190000010043013" target="_blank">手摸手，带你用vue撸后台 系列四(vueAdmin 一个极简的后台基础模板)</a><br>系类文章：<a href="https://segmentfault.com/a/1190000012213278">手摸手，带你优雅的使用 icon</a><br>系类文章：<a href="https://segmentfault.com/a/1190000009090836" target="_blank">手摸手，带你封装一个vue component</a>  <br>楼主个人免费<a href="https://jianshiapp.com/circles/1209" rel="nofollow noreferrer" target="_blank">圈子</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

@@ -1,12 +1,12 @@
 ---
 title: Vue-Router基础学习笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 972e35d8
+slug: 972e35d8
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><strong>1&#x3001;&#x5B89;&#x88C5;vue-router</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="npm install vue-router
 yarn add vue-router" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs dockerfile"><code>npm install vue-router
 yarn <span class="hljs-keyword">add</span><span class="bash"> vue-router</span></code></pre><p><strong>2&#x3001;&#x5F15;&#x5165;&#x6CE8;&#x518C;vue-router</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="import Vue from &apos;vue&apos;
@@ -292,7 +292,7 @@ const router = new VueRouter({
     [&#x4F7F;&#x7528;&#x4E2D;&#x95F4;&#x4EF6;][<span class="hljs-number">1</span>]
 
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

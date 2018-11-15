@@ -1,12 +1,12 @@
 ---
 title: Javascript模块全揽
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 5602bcda
+slug: 5602bcda
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>之前写的文章<a href="https://segmentfault.com/a/1190000016101940">急速Js全栈教程</a>得到了不错的阅读量，霸屏掘金头条3天，点赞过千，阅读近万，甚至还有人在评论区打广告，可见也是一个小小的生态了；）。看来和JS全栈有关的内容，还是有人颇有兴趣的。</p>
@@ -704,7 +704,7 @@ http-<span class="hljs-keyword">server</span>
 <p>这些未尽的内容，或许在未来的文章中表达之。</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

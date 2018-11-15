@@ -1,12 +1,12 @@
 ---
 title: 初学者应该了解的数据结构： Graph
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: cf024897
+slug: cf024897
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在这篇文章中，我们将要探索非线性的数据结构：图，将涵盖它的基本概念及其典型的应用。</p>
 <p>你很可能在不同的应用中接触到图（或树）。比如你想知道从家出发怎么去公司最近，就可以利用图的（寻路）算法来得到答案！我们将探讨上述场景与其他有趣的情况。</p>
@@ -461,7 +461,7 @@ console.log(values)<span class="hljs-comment">; // [1, 4, 8, 3, 7, 6, 10, 2, 5, 
 <p>图可以是很多现实场景的抽象，如机场，社交网络，互联网等。我们介绍了一些图的基础算法，如广度优先搜索（BFS）与深度优先搜索（DFS）等。同时权衡了图的不同实现方式：邻接矩阵和邻接表。我们将在另外一篇文章（更深入地）介绍图的其他应用，如查找图的两个顶点间的最短距离及其他有趣的算法（译者注：这篇文章介绍的比较基础，图的各种算法才是最有趣的，有兴趣的同学可以搜索相关的慕课)）。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/graph-data-structures-for-beginners](https://www.zcfy.cc/article/graph-data-structures-for-beginners)

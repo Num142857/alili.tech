@@ -1,12 +1,12 @@
 ---
 title: Flexbox 很棒，但有些情况不适用
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8ed5ceaa
+slug: 8ed5ceaa
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>对大部分的人来说（如果你写过CSS），Flexbox 可以说是完美，但它是否适合所有场景呢？</p>
 <p><img src="https://cdn-images-1.medium.com/max/1600/1*GHWUvoGa5fZLrGRjQuSnKg.jpeg" alt=""></p>
@@ -79,7 +79,7 @@ indesignsecrets.com</p>
 注册免费送</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/flexbox-is-awesome-but-don-t-use-it-here-ohans-emmanuel-medium](https://www.zcfy.cc/article/flexbox-is-awesome-but-don-t-use-it-here-ohans-emmanuel-medium)

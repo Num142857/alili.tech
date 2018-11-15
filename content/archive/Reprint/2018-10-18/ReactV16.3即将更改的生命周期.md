@@ -1,12 +1,12 @@
 ---
 title: ReactV16.3即将更改的生命周期
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 66f04d69
+slug: 66f04d69
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>March 27, 2018 by <a href="https://github.com/bvaughn">Brian Vaughn</a></p>
 <p>一年多来，React团队一直致力于实现异步渲染。上个月，他在JSConf冰岛的演讲中，<a href="https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html">丹揭示了一些令人兴奋的新的异步渲染可能性</a>。现在，我们希望与您分享我们在学习这些功能时学到的一些经验教训，以及一些帮助您准备组件以在启动时进行异步渲染的方法。</p>
@@ -604,7 +604,7 @@ export <span class="hljs-keyword">default</span> <span class="hljs-type">Example
 </code></pre><p><a href="https://github.com/reactjs/reactjs.org/tree/master/content/blog/2018-03-27-update-on-async-rendering.md">文章来源</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/update-on-async-rendering](https://www.zcfy.cc/article/update-on-async-rendering)

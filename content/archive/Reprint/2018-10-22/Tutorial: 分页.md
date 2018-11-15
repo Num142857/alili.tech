@@ -1,12 +1,12 @@
 ---
 title: 'Tutorial: 分页'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 66bfda4
+slug: 66bfda4
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <hr>
 <p>这是我们的完整的React + GraphQL教程系列的第8部分。 每个部分都是独立的，并且引入了一个新的关键概念，因此您可以单独执行每个部分，也可以按照整个系列学习 - 当然这取决于您！</p>
@@ -113,7 +113,7 @@ const messageFeed = {        messages: <span class="hljs-type">channel</span>.me
 <p><img src="https://p0.ssl.qhimg.com/t014fc6606574d991f5.jpg" alt=""></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

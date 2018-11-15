@@ -1,12 +1,12 @@
 ---
 title: 如何在 Fedora 上安装 Pipenv
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6b2dd12d
+slug: 6b2dd12d
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-fedora-上安装-pipenv"></a>如何在 Fedora 上安装 Pipenv</h1>
 <p>Pipenv 的目标是将打包界（bundler、composer、npm、cargo、yarn 等）最好的东西带到 Python 世界来。它试图解决一些问题，并简化整个管理过程。</p>
@@ -56,7 +56,7 @@ Updated Pipfile.lock (b14837)
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-to-install-pipenv-on-fedora](https://www.zcfy.cc/article/how-to-install-pipenv-on-fedora)

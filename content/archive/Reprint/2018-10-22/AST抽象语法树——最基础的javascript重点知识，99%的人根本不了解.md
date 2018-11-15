@@ -1,12 +1,12 @@
 ---
 title: AST抽象语法树——最基础的javascript重点知识，99%的人根本不了解
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 78fc0aba
+slug: 78fc0aba
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <blockquote>抽象语法树（AST），是一个非常基础而重要的知识点，但国内的文档却几乎一片空白。<p>本文将带大家从底层了解AST,并且通过发布一个小型前端工具，来带大家了解AST的强大功能</p>
@@ -983,7 +983,7 @@ recast.run(<span class="hljs-function"><span class="hljs-keyword">function</span
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000016231517?w=658&amp;h=893" src="https://static.alili.tech/img/remote/1460000016231517?w=658&amp;h=893" alt="image" title="image" style="cursor: pointer; display: inline;"></span></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

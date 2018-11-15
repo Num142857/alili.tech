@@ -1,12 +1,12 @@
 ---
 title: JavaScript实现继承
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 68a1ada0
+slug: 68a1ada0
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2>&#x7B80;&#x4ECB;</h2><p>&#x672C;&#x6587;&#x4E0D;&#x51C6;&#x5907;&#x6DF1;&#x5165;&#x7EC6;&#x8282;&#xFF0C;&#x4E3B;&#x8981;&#x662F;&#x5BF9;&#x300A;JavaScript&#x9AD8;&#x7EA7;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x4E2D;&#x300B;&#x4ECB;&#x7ECD;&#x7684;JS&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#x505A;&#x4E00;&#x4E2A;&#x603B;&#x7ED3;&#xFF0C;&#x6BD5;&#x7ADF;&#x597D;&#x8BB0;&#x6027;&#x4E0D;&#x5982;&#x70C2;&#x7B14;&#x5934;&#x3002;&#x6587;&#x672B;&#x4F1A;&#x9644;&#x5E26;&#x4E00;&#x5F20;&#x795E;&#x56FE;&#xFF0C;&#x641E;&#x6E05;&#x695A;&#x8FD9;&#x5F20;&#x56FE;&#xFF0C;&#x539F;&#x578B;&#x94FE;&#x4E5F;&#x5C31;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x95EE;&#x9898;&#x4E86;&#x3002;</p><h2>ES5&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#x7684;&#x516D;&#x79CD;&#x65B9;&#x5F0F;</h2><h3>1. &#x539F;&#x578B;&#x94FE;</h3><p>&#x57FA;&#x672C;&#x601D;&#x60F3;&#xFF1A;</p><p><strong>&#x5229;&#x7528;&#x539F;&#x578B;&#x94FE;&#x8BA9;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7EE7;&#x627F;&#x53E6;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;</strong></p><pre><code>function SuperType () {
   this.property = true;
 }
@@ -301,7 +301,7 @@ var instance2 = new SubType(&apos;Peter&apos;, 30);
 instance2.sayAge();                                   // 30
 instance2.sayName();                                  // &quot;Peter&quot;
 console.log(instance2.colors);                        // [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;]</code></pre><p>&#x7528;ES6&#x7684;&#x8BED;&#x6CD5;&#x6765;&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#x975E;&#x5E38;&#x7684;&#x7B80;&#x5355;&#xFF0C;&#x4E0B;&#x9762;&#x662F;&#x628A;&#x8FD9;&#x6BB5;&#x4EE3;&#x7801;&#x653E;&#x5230;Babel&#x91CC;&#x8F6C;&#x7801;&#x7684;&#x7ED3;&#x679C;&#x56FE;&#x7247;&#xFF1A;</p><p><span class="img-wrap"><img data-src="http://p54fus2hp.bkt.clouddn.com/blog/20180828/babel-es6-extend.png" src="https://static.alili.techhttp://p54fus2hp.bkt.clouddn.com/blog/20180828/babel-es6-extend.png" alt="babel-es6-extend" title="babel-es6-extend"></span></p><p>&#x53EF;&#x4EE5;&#x770B;&#x5230;&#xFF0C;&#x5E95;&#x5C42;&#x5176;&#x5B9E;&#x4E5F;&#x662F;&#x7528;&#x5BC4;&#x751F;&#x7EC4;&#x5408;&#x5F0F;&#x7EE7;&#x627F;&#x6765;&#x5B9E;&#x73B0;&#x7684;&#x3002;</p><h2>&#x603B;&#x7ED3;</h2><p>ES5&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#x6709;6&#x79CD;&#x65B9;&#x5F0F;&#xFF1A;</p><ol><li>&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;</li><li>&#x501F;&#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7EE7;&#x627F;</li><li>&#x7EC4;&#x5408;&#x7EE7;&#x627F;</li><li>&#x539F;&#x578B;&#x5F0F;&#x7EE7;&#x627F;</li><li>&#x5BC4;&#x751F;&#x5F0F;&#x7EE7;&#x627F;</li><li>&#x5BC4;&#x751F;&#x7EC4;&#x5408;&#x5F0F;&#x7EE7;&#x627F;</li></ol><p>&#x5BC4;&#x751F;&#x7EC4;&#x5408;&#x5F0F;&#x7EE7;&#x627F;&#x662F;&#x5927;&#x5BB6;&#x516C;&#x8BA4;&#x7684;&#x6700;&#x597D;&#x7684;&#x5B9E;&#x73B0;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7EE7;&#x627F;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p><p>ES6&#x65B0;&#x589E;class&#x548C;extends&#x8BED;&#x6CD5;&#xFF0C;&#x7528;&#x6765;&#x5B9A;&#x4E49;&#x7C7B;&#x548C;&#x5B9E;&#x73B0;&#x7EE7;&#x627F;&#xFF0C;&#x5E95;&#x5C42;&#x4E5F;&#x662F;&#x91C7;&#x7528;&#x4E86;&#x5BC4;&#x751F;&#x7EC4;&#x5408;&#x5F0F;&#x7EE7;&#x627F;&#x3002;</p><p>&#x9644;&#x56FE;&#xFF1A;</p><p><span class="img-wrap"><img data-src="http://p54fus2hp.bkt.clouddn.com/blog/20180829/JavaScript_prototype.png" src="https://static.alili.techhttp://p54fus2hp.bkt.clouddn.com/blog/20180829/JavaScript_prototype.png" alt="prototype" title="prototype"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

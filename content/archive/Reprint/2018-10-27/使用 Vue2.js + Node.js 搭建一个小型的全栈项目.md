@@ -1,12 +1,12 @@
 ---
 title: 使用 Vue2.js + Node.js 搭建一个小型的全栈项目
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9193f7e
+slug: 9193f7e
 date: 2018-10-27 02:30:17
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">&#x5199;&#x5728;&#x524D;&#x9762;</h1><p>&#x7531;&#x4E8E;&#x6700;&#x8FD1;&#x516C;&#x53F8;&#x4E1A;&#x52A1;&#x4E0D;&#x662F;&#x5F88;&#x5FD9;&#xFF0C;&#x7A7A;&#x95F2;&#x65F6;&#x95F4;&#x6BD4;&#x8F83;&#x591A;&#xFF0C;&#x4E8E;&#x662F;&#x5C31;&#x5728;&#x7EA0;&#x7ED3;Vue.js&#xFF08;&#x4E4B;&#x524D;&#x5C31;&#x5B66;&#x4E60;&#x8FC7;&#xFF09;&#x548C;Node.js&#x5148;&#x4E13;&#x7814;&#x54EA;&#x4E2A;&#x6BD4;&#x8F83;&#x597D;&#xFF0C;&#x6700;&#x7EC8;&#x9009;&#x62E9;&#x4E86;&#x5148;&#x73A9;&#x73A9;Node.js&#x3002;&#x7ECF;&#x8FC7;&#x4E00;&#x6BB5;&#x65F6;&#x95F4;&#x7684;&#x5B66;&#x4E60;&#xFF0C;&#x5C31;&#x6709;&#x4E86;&#x6559;&#x7A0B; <a href="http://www.wclimb.site/2017/07/12/Node-Koa2-Mysql-%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E5%8D%9A%E5%AE%A2/" rel="nofollow noreferrer" target="_blank">Node+Koa2+Mysql &#x642D;&#x5EFA;&#x7B80;&#x6613;&#x535A;&#x5BA2;</a> <a href="https://github.com/wclimb/Koa2-blog" rel="nofollow noreferrer" target="_blank">GitHub&#x5730;&#x5740;</a>&#xFF0C;&#x60F3;&#x8981;&#x4E86;&#x89E3;&#x7684;&#x53EF;&#x4EE5;&#x5148;&#x770B;&#x770B;&#xFF0C;&#x4E2A;&#x4EBA;&#x6C34;&#x5E73;&#x6709;&#x9650;&#xFF0C;&#x5E0C;&#x671B;&#x53EF;&#x4EE5;&#x5E2E;&#x5230;&#x4F60;&#x3002;<br>&#x5927;&#x6982;&#x8FC7;&#x6765;&#x4E00;&#x4E2A;&#x591A;&#x6708;&#xFF0C;&#x6211;&#x51B3;&#x5B9A;&#x4E24;&#x8DEF;&#x5F00;&#x5DE5;&#x3002;&#x4F7F;&#x7528;Node.js&#x7ED9;&#x524D;&#x7AEF;&#x5199;&#x63A5;&#x53E3;&#xFF0C;&#x914D;&#x5907;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x529F;&#x80FD;&#xFF0C;&#x5148;&#x628A;&#x540E;&#x53F0;&#x642D;&#x5EFA;&#x597D;&#x3002;&#x5927;&#x6982;&#x51E0;&#x5929;&#x8FC7;&#x540E;&#xFF0C;&#x540E;&#x53F0;&#x4E00;&#x4E9B;&#x7B80;&#x5355;&#x7684;&#x529F;&#x80FD;&#x5B9E;&#x73B0;&#x540E;&#xFF0C;&#x5C31;&#x5F00;&#x59CB;&#x7528;Vue.js&#x5F00;&#x59CB;&#x642D;&#x5EFA;&#x524D;&#x53F0;&#xFF0C;&#x4E5F;&#x4E00;&#x76F4;&#x5728;&#x60F3;&#x505A;&#x70B9;&#x4EC0;&#x4E48;&#x6BD4;&#x8F83;&#x597D;&#xFF0C;&#x4E8E;&#x662F;&#x5C31;&#x505A;&#x4E86;&#x4E2A;&#x8C46;&#x74E3;&#x8BC4;&#x5206;&#x7C7B;&#x4F3C;&#x7684;&#x9879;&#x76EE;&#x3002;</p><blockquote>&#x524D;&#x7AEF;&#x9879;&#x76EE;&#x5730;&#x5740; <a href="https://github.com/wclimb/vue-video" rel="nofollow noreferrer" target="_blank">https://github.com/wclimb/vue...</a><br>&#x524D;&#x7AEF;&#x9884;&#x89C8; <a href="http://video.wclimb.site" rel="nofollow noreferrer" target="_blank">http://video.wclimb.site</a><p>&#x540E;&#x7AEF;&#x9879;&#x76EE;&#x5730;&#x5740; <a href="https://github.com/wclimb/video-admin" rel="nofollow noreferrer" target="_blank">https://github.com/wclimb/vid...</a><br>&#x540E;&#x53F0;&#x7BA1;&#x7406; <a href="http://vue.wclimb.site" rel="nofollow noreferrer" target="_blank">http://vue.wclimb.site</a></p><p>API&#x63A5;&#x53E3;&#x5730;&#x5740; <a href="https://github.com/wclimb/video-admin/blob/master/API.md" rel="nofollow noreferrer" target="_blank">https://github.com/wclimb/vid...</a></p></blockquote><h2 id="articleHeader1">&#x6280;&#x672F;&#x6808;(Vue2.js + Node.js &#x5168;&#x6808;&#x9879;&#x76EE;)</h2><blockquote>&#x7531;&#x4E8E;&#x9875;&#x9762;&#x4E0D;&#x662F;&#x5F88;&#x591A;&#xFF0C;vuex&#x7528;&#x7684;&#x4E0D;&#x591A;&#xFF0C;&#x5173;&#x952E;&#x638C;&#x63E1;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x5C31;&#x597D;&#x4E86;</blockquote><p><code>vue2</code> + <code>vuex</code> + <code>vue-router</code> + <code>webpack</code> + <code>fetch</code> + <code>sass</code> + <code>flex</code> + <code>svg</code> + <code>&#x963F;&#x91CC;&#x5B57;&#x4F53;&#x56FE;&#x6807;</code></p><h2 id="articleHeader2">&#x8FD0;&#x884C;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="git clone https://github.com/wclimb/vue-video.git
 
 cd vue-video
@@ -68,7 +68,7 @@ ps: &#x5982;&#x679C;&#x6253;&#x5305;&#x4E4B;&#x540E;&#x6587;&#x4EF6;&#x8FD0;&#x8
 </span>|<span class="hljs-string">-- index.html                       // &#x5165;&#x53E3;html&#x6587;&#x4EF6;
 </span>|<span class="hljs-string">-- package.json                     // &#x9879;&#x76EE;&#x53CA;&#x5DE5;&#x5177;&#x7684;&#x4F9D;&#x8D56;&#x914D;&#x7F6E;&#x6587;&#x4EF6;
 </span></code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

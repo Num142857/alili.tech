@@ -1,12 +1,12 @@
 ---
 title: 在 Linux 命令行中自定义文本颜色
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a3140e25
+slug: a3140e25
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#在-linux-命令行中自定义文本颜色"></a>在 Linux 命令行中自定义文本颜色</h1>
 <blockquote>
@@ -124,7 +124,7 @@ export LS_COLORS
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/customizing-your-text-colors-on-the-linux-command-line](https://www.zcfy.cc/article/customizing-your-text-colors-on-the-linux-command-line)

@@ -1,12 +1,12 @@
 ---
 title: 像程序员一样思考：如何只使用 JavaScript，HTML 和 CSS 开发贪食蛇游戏
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: bdd791ff
+slug: bdd791ff
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>大家好👋</p>
 <p>欢迎上车。今天我们将开始一场激动人心的冒险，在这里我们将开发属于我们自己的贪食蛇游戏🐍。通过将其分解为一个个简短的步骤来学习如何解决问题。在这段旅程结束时，你会学到一些新东西，并且有信心能独立探索更多。</p>
@@ -1005,7 +1005,7 @@ drawSnake()<span class="hljs-comment">;</span>
 <p>期待下次再见。✨</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-css](https://www.zcfy.cc/article/think-like-a-programmer-how-to-build-snake-using-only-javascript-html-css)

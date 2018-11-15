@@ -1,12 +1,12 @@
 ---
 title: 基于moment写一个滑动日历
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 177bd834
+slug: 177bd834
 date: 2018-11-09 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6548;&#x679C;&#x5982;&#x56FE;&#xFF08;&#x65E5;&#x671F;&#x53EF;&#x5DE6;&#x53F3;&#x6ED1;&#x52A8;&#xFF09;<br><span class="img-wrap"><img data-src="/img/bVbghzo?w=321&amp;h=112" src="https://static.alili.tech/img/bVbghzo?w=321&amp;h=112" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x601D;&#x8DEF;&#xFF1A;<br>1&#x3001;&#x5148;&#x5F97;&#x5230;&#x76F8;&#x90BB;&#x4E09;&#x4E2A;&#x5468;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x521D;&#x59CB;&#x5316;&#x7684;&#x65F6;&#x5019;&#x5BB9;&#x5668;&#x5411;&#x5DE6;&#x79FB;&#x52A8;&#x4E00;&#x4E2A;&#x89C6;&#x53E3;&#x7684;&#x8DDD;&#x79BB;&#xFF0C;&#x786E;&#x4FDD;&#x4E2D;&#x95F4;&#x5468;&#x5728;&#x53EF;&#x89C6;&#x8303;&#x56F4;&#xFF08;&#x5728;&#x53EF;&#x89C6;&#x8303;&#x56F4;&#x7684;&#x7D22;&#x5F15;&#x4E3A;1&#xFF09;<br>2&#x3001;&#x89E6;&#x6478;&#x79FB;&#x52A8;&#x9636;&#x6BB5;&#xFF0C;&#x6BD4;&#x5982;&#x5411;&#x5DE6;&#x79FB;&#x52A8;&#xFF0C;&#x76F8;&#x5F53;&#x4E8E;&#x6539;&#x53D8;&#x53EF;&#x662F;&#x8303;&#x56F4;&#x7684;&#x7D22;&#x5F15;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;2&#xFF0C;&#x5373;&#x5411;&#x5DE6;&#x79FB;&#x52A8;&#x8FC7;&#x4E24;&#x4E2A;&#x89C6;&#x53E3;&#x7684;&#x8303;&#x56F4;<br>3&#x3001;&#x79FB;&#x52A8;&#x7ED3;&#x675F;&#xFF0C;&#x8FD9;&#x65F6;&#x53F3;&#x8FB9;&#x5DF2;&#x7ECF;&#x6CA1;&#x6709;&#x5F85;&#x663E;&#x793A;&#x7684;&#x6570;&#x636E;&#xFF0C;&#x9700;&#x8981;&#x91CD;&#x7EC4;&#x6570;&#x636E;&#xFF0C;&#x518D;&#x5411;&#x540E;&#x52A0;&#x4E00;&#x5468;&#xFF0C;&#x4F7F;&#x5F53;&#x524D;&#x663E;&#x793A;&#x7684;&#x5468;&#x5728;&#x4E2D;&#x95F4;&#xFF0C;&#x540C;&#x65F6;&#x9700;&#x8981;&#x6539;&#x53D8;&#x663E;&#x793A;&#x7684;&#x7D22;&#x5F15;&#x4E3A;1</p><h2 id="articleHeader0">1&#x3001;&#x7528;<a href="http://momentjs.cn/docs/" rel="nofollow noreferrer" target="_blank">moment</a>&#x5904;&#x7406;&#x65E5;&#x671F;&#x6570;&#x636E;</h2><p>&#x5728;&#x5F53;&#x524D;&#x89C6;&#x53E3;&#x5185;&#x663E;&#x793A;&#x672C;&#x5468;&#x7684;7&#x5929;&#xFF0C;&#x7531;&#x4E8E;&#x9700;&#x8981;&#x6ED1;&#x52A8;&#xFF0C;&#x6240;&#x4EE5;&#x4E8B;&#x5148;&#x8FD8;&#x9700;&#x8981;&#x628A;&#x4ECA;&#x5929;&#x4EE5;&#x524D;&#x7684;&#x4E00;&#x5468;&#x548C;&#x4EE5;&#x540E;&#x7684;&#x4E00;&#x5468;&#x51C6;&#x5907;&#x597D;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="let today = moment().format(&apos;YYYY-MM-DD&apos;) // &#x5F53;&#x524D;&#x65E5;&#x671F;&#xFF1A;&quot;2018-09-14&quot;
 moment(today).subtract(7, &apos;d&apos;).format(&apos;YYYY-MM-DD&apos;) // &#x4E0A;&#x4E00;&#x5468;&#x7684;&#x4ECA;&#x5929;&#xFF1A;&quot;2018-09-07&quot;
 moment(today).add(7, &apos;d&apos;).format(&apos;YYYY-MM-DD&apos;) // &#x4E0B;&#x4E00;&#x5468;&#x7684;&#x4ECA;&#x5929;&#xFF1A;&quot;2018-09-21&quot;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs stylus"><code>let today = moment().format(<span class="hljs-string">&apos;YYYY-MM-DD&apos;</span>) <span class="hljs-comment">// &#x5F53;&#x524D;&#x65E5;&#x671F;&#xFF1A;&quot;2018-09-14&quot;</span>
@@ -48,7 +48,7 @@ moment(today).add(7, &apos;d&apos;).format(&apos;YYYY-MM-DD&apos;) // &#x4E0B;&#
             &lt;/template&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs applescript"><code>            &lt;template v-<span class="hljs-keyword">for</span>=<span class="hljs-string">&quot;(item, index) in dates&quot;</span>&gt;
                 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&quot;slider&quot;</span>&gt;
                     &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&quot;day&quot;</span> v-<span class="hljs-keyword">for</span>=<span class="hljs-string">&quot;(day, dayIndex) in getDays(item.date)&quot;</span>&gt;
-                        &lt;<span class="hljs-keyword">div</span> :<span class="hljs-built_in">class</span>=<span class="hljs-string">&quot;{today: day.date === defaultDate}&quot;</span>&gt;{{<span class="hljs-built_in">day</span>.<span class="hljs-built_in">date</span>.split(&apos;-&apos;)[<span class="hljs-number">2</span>]}}&lt;/<span class="hljs-keyword">div</span>&gt;
+                        &lt;<span class="hljs-keyword">div</span> :<span class="hljs-built_in">class</span>=<span class="hljs-string">&quot;{today: day.date === defaultDate}&quot;</span>&gt;"{{"<span class="hljs-built_in">day</span>.<span class="hljs-built_in">date</span>.split(&apos;-&apos;)[<span class="hljs-number">2</span>]}}&lt;/<span class="hljs-keyword">div</span>&gt;
                     &lt;/<span class="hljs-keyword">div</span>&gt;
                 &lt;/<span class="hljs-keyword">div</span>&gt;
             &lt;/template&gt;</code></pre><p>&#x8FD9;&#x91CC;&#xFF0C;&#x9759;&#x6001;&#x663E;&#x793A;&#x5DF2;&#x7ECF;&#x5B8C;&#x6210;</p><h2 id="articleHeader1">&#x4E3A;&#x7EC4;&#x4EF6;&#x6DFB;&#x52A0;&#x6ED1;&#x52A8;&#x529F;&#x80FD;</h2><p>&#x6539;&#x5199;&#x4E0A;&#x65B9;&#x7684;&#x9875;&#x9762;&#x6E32;&#x67D3;&#x4EE3;&#x7801;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="   &lt;div class=&quot;week-slider&quot;&gt;
@@ -190,7 +190,7 @@ moment(today).add(7, &apos;d&apos;).format(&apos;YYYY-MM-DD&apos;) // &#x4E0B;&#
             <span class="hljs-keyword">this</span>.actIndex = <span class="hljs-number">1</span>
         }
       }</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

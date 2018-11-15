@@ -1,12 +1,12 @@
 ---
 title: vue移动端下拉刷新、上拉加载
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8d66ec23
+slug: 8d66ec23
 date: 2018-11-11 02:30:07
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x7531;&#x4E8E;&#x81EA;&#x8EAB;&#x7684;&#x9879;&#x76EE;&#x6BD4;&#x8F83;&#x7B80;&#x5355;&#xFF0C;&#x53EA;&#x6709;&#x51E0;&#x4E2A;H5&#x9875;&#x9762;&#xFF0C;&#x7528;&#x6765;&#x5D4C;&#x5165;app&#x4E2D;&#xFF0C;&#x6240;&#x6709;&#x6CA1;&#x6709;&#x5F15;&#x5165;&#x79FB;&#x52A8;&#x7AEF;&#x7684;UI&#x6846;&#x67B6;&#xFF0C;&#x4F46;&#x662F;&#x4ECB;&#x4E8E;&#x80FD;&#x8BA9;&#x7528;&#x6237;&#x5728;&#x6D4F;&#x89C8;H5&#x9875;&#x9762;&#x65F6;&#x6709;&#x4E0B;&#x62C9;&#x5237;&#x65B0;&#x548C;&#x4E0A;&#x62C9;&#x52A0;&#x8F7D;&#xFF0C;&#x6709;&#x66F4;&#x597D;&#x7684;&#x7528;&#x6237;&#x4F53;&#x9A8C;&#xFF0C;&#x81EA;&#x5DF1;&#x5199;&#x7EC4;&#x4EF6;&#x5B9E;&#x73B0;&#x3002;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016309648?w=375&amp;h=667" src="https://static.alili.tech/img/remote/1460000016309648?w=375&amp;h=667" alt="Refresh&amp;Load" title="Refresh&amp;Load" style="cursor:pointer;display:inline"></span></p><blockquote><strong>1</strong>&#x3001;&#x4E0B;&#x62C9;&#x5237;&#x65B0;<code>DropDownRefresh.vue</code></blockquote><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;template lang=&quot;html&quot;&gt;
     &lt;div class=&quot;refreshMoudle&quot; @touchstart=&quot;touchStart($event)&quot; @touchmove=&quot;touchMove($event)&quot; @touchend=&quot;touchEnd($event)&quot; :style=&quot;{transform: &apos;translate3d(0,&apos; + top + &apos;px, 0)&apos;}&quot;&gt;
       &lt;header class=&quot;pull-refresh&quot;&gt;
@@ -150,15 +150,15 @@ export default {
         <span class="hljs-tag">&lt;<span class="hljs-name">slot</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;pull-refresh&quot;</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;down-tip&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;dropDownState==1&quot;</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;dropDownStateText.downImg&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;down-tip-img&quot;</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">&quot;require(&apos;../../assets/images/refreshAndReload/&apos;+dropDownStateText.downImg)&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;down-tip-text&quot;</span>&gt;</span>{{dropDownStateText.downTxt}}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;down-tip-text&quot;</span>&gt;</span>"{{"dropDownStateText.downTxt"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;up-tip&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;dropDownState==2&quot;</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;dropDownStateText.upImg&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;up-tip-img&quot;</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">&quot;require(&apos;../../assets/images/refreshAndReload/&apos;+dropDownStateText.upImg)&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;up-tip-text&quot;</span>&gt;</span>{{dropDownStateText.upTxt}}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;up-tip-text&quot;</span>&gt;</span>"{{"dropDownStateText.upTxt"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;refresh-tip&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;dropDownState==3&quot;</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">img</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;dropDownStateText.refreshImg&quot;</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;refresh-tip-img&quot;</span> <span class="hljs-attr">:src</span>=<span class="hljs-string">&quot;require(&apos;../../assets/images/refreshAndReload/&apos;+dropDownStateText.refreshImg)&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;refresh-tip-text&quot;</span>&gt;</span>{{dropDownStateText.refreshTxt}}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;refresh-tip-text&quot;</span>&gt;</span>"{{"dropDownStateText.refreshTxt"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
           <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">slot</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">header</span>&gt;</span>
@@ -422,15 +422,15 @@ export default {
     <span class="hljs-tag">&lt;<span class="hljs-name">footer</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;load-more&quot;</span>&gt;</span>
       <span class="hljs-tag">&lt;<span class="hljs-name">slot</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;load-more&quot;</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;moreData-tip&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pullUpState==1&quot;</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;moreData-tip-text&quot;</span>&gt;</span>{{pullUpStateText.moreDataTxt}}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;moreData-tip-text&quot;</span>&gt;</span>"{{"pullUpStateText.moreDataTxt"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;loadingMoreData-tip&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pullUpState==2&quot;</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;icon-loading&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;loadingMoreData-tip-text&quot;</span>&gt;</span>{{pullUpStateText.loadingMoreDataTxt}}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;loadingMoreData-tip-text&quot;</span>&gt;</span>"{{"pullUpStateText.loadingMoreDataTxt"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;noMoreData-tip&quot;</span> <span class="hljs-attr">v-if</span>=<span class="hljs-string">&quot;pullUpState==3&quot;</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;connectingLine&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;noMoreData-tip-text&quot;</span>&gt;</span>{{pullUpStateText.noMoreDataTxt}}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;noMoreData-tip-text&quot;</span>&gt;</span>"{{"pullUpStateText.noMoreDataTxt"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;connectingLine&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
       <span class="hljs-tag">&lt;/<span class="hljs-name">slot</span>&gt;</span>
@@ -1770,7 +1770,7 @@ export default {
   margin-left: 20px;
 }
 &lt;/style&gt;</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: JavaScript编程语言简介
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d1d5ae47
+slug: d1d5ae47
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h2>介绍</h2>
 <p>JavaScript是世界上最流行的编程语言之一。</p>
@@ -43,7 +43,7 @@ date: 2018-10-19 00:00:00
 <p>目前最新批准的JavaScript版本是 <a href="https://flaviocopes.com/ecmascript/#es2017-aka-es8">ES2017</a>.</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/introduction-to-the-javascript-programming-language](https://www.zcfy.cc/article/introduction-to-the-javascript-programming-language)

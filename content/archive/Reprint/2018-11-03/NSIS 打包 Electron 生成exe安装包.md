@@ -1,12 +1,12 @@
 ---
 title: NSIS 打包 Electron 生成exe安装包
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4d8e09b4
+slug: 4d8e09b4
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6BCF;&#x6B21;&#x6587;&#x7AE0;&#x90FD;&#x4ECE;0&#x5F00;&#x59CB;<br>&#x4ECE;&#x642D;&#x5EFA;&#x5F00;&#x59CB; &#x4F7F;&#x7528;&#x7684;&#x662F;electron-vue &#x6BD5;&#x7ADF;&#x65B9;&#x4FBF;&#x4E00;&#x70B9; &#x5982;&#x679C;&#x53EA;&#x60F3;&#x5B89;&#x88C5;electron &#x8BF7;&#x53C2;&#x89C1;&#x6211;&#x7684;&#x53E6;&#x4E00;&#x4E2A;&#x6587;&#x7AE0;<a href="https://segmentfault.com/a/1190000016028730">https://segmentfault.com/a/11...</a></p><hr><p>&#x5F00;&#x53D1;&#x76EE;&#x5F55;: F:lee`<br>&#x5F00;&#x53D1;&#x73AF;&#x5883;: <code>windows10</code><br>IDE: <code>phpstorm</code></p><h2 id="articleHeader0">&#x5B89;&#x88C5;electron</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="vue init simulatedgreg/electron-vue project3
 
 cd project1
@@ -46,7 +46,7 @@ FunctionEnd" title="" data-original-title="&#x590D;&#x5236;"></span> <span type=
    <span class="hljs-keyword">Quit</span>
    no_run:
 <span class="hljs-keyword">FunctionEnd</span></code></pre><p><span class="img-wrap"><img data-src="/img/bVbigv6?w=417&amp;h=176" src="https://static.alili.tech/img/bVbigv6?w=417&amp;h=176" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><h3 id="articleHeader9">NSIS&#x8FD0;&#x884C;&#x5FC5;&#x987B;&#x4E3A;&#x7BA1;&#x7406;&#x5458;</h3><p>&#x8BF7;&#x4EE5;&#x7BA1;&#x7406;&#x5458;&#x8EAB;&#x4EFD;&#x8FD0;&#x884C;VNISEdit &#x7F16;&#x8BD1;&#x73AF;&#x5883; &#x4E0D;&#x7136;&#x4F1A;&#x7EC8;&#x6B62;&#x7F16;&#x8BD1;&#x5E76;&#x4E14;&#x6709;&#x4E00;&#x4E2A;&#x8B66;&#x544A; &#x597D;&#x50CF;&#x662F;&#x9700;&#x8981;&#x63D0;&#x7EA7; &#x4EC0;&#x4E48;&#x4EC0;&#x4E48;&#x7684;!</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

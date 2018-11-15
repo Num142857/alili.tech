@@ -1,12 +1,12 @@
 ---
 title: 干货分享：vue2.0做移动端开发用到的相关插件和经验总结
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a428074f
+slug: a428074f
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6700;&#x8FD1;&#x4E00;&#x76F4;&#x5728;&#x505A;&#x79FB;&#x52A8;&#x7AEF;&#x5FAE;&#x4FE1;&#x516C;&#x4F17;&#x53F7;&#x9879;&#x76EE;&#x7684;&#x5F00;&#x53D1;&#xFF0C;&#x4E5F;&#x662F;&#x6211;&#x9996;&#x6B21;&#x7528;vue&#x6765;&#x5F00;&#x53D1;&#x79FB;&#x52A8;&#x7AEF;&#x9879;&#x76EE;&#xFF0C;&#x524D;&#x671F;&#x79EF;&#x7D2F;&#x7684;&#x79FB;&#x52A8;&#x7AEF;&#x5F00;&#x53D1;&#x7ECF;&#x9A8C;&#x8F83;&#x5C11;&#x3002;&#x7ECF;&#x8FC7;&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x7684;&#x953B;&#x70BC;&#xFF0C;&#x52A0;&#x6DF1;&#x4E86;&#x5BF9;vue&#x76F8;&#x5173;&#x77E5;&#x8BC6;&#x70B9;&#x7684;&#x7406;&#x89E3;&#x548C;&#x8FD0;&#x7528;&#xFF0C;&#x540C;&#x65F6;&#xFF0C;&#x5728;&#x9879;&#x76EE;&#x4E2D;&#x6240;&#x6D89;&#x53CA;&#x5230;&#x7684;&#x5FAE;&#x4FE1;api(&#x5FAE;&#x4FE1;&#x5206;&#x4EAB;&#xFF0C;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;)&#xFF0C;&#x767E;&#x5EA6;&#x5730;&#x56FE;api(&#x5982;&#x4F55;&#x5B9E;&#x4F8B;&#x5316;&#x5730;&#x56FE;&#xFF0C;&#x7ED9;&#x5730;&#x56FE;&#x6DFB;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x8986;&#x76D6;&#x7269;&#xFF0C;&#x7ED9;&#x5730;&#x56FE;&#x6DFB;&#x52A0;&#x81EA;&#x5B9A;&#x4E49;&#x6807;&#x6CE8;&#xFF0C;&#x5BF9;&#x5730;&#x56FE;&#x8FDB;&#x884C;&#x7F29;&#x653E;&#xFF0C;&#x62D6;&#x62FD;&#x7B49;)&#x7684;&#x76F8;&#x5173;&#x4F7F;&#x7528;&#xFF0C;&#x5F00;&#x9614;&#x4E86;&#x81EA;&#x5DF1;&#x7684;&#x77E5;&#x8BC6;&#x773C;&#x754C;&#xFF1B;&#x73B0;&#x5C06;&#x6211;&#x5F00;&#x53D1;&#x8FC7;&#x7A0B;&#x4E2D;&#x79EF;&#x7D2F;&#x7684;&#x76F8;&#x5173;&#x7ECF;&#x9A8C;&#x4E0E;&#x5927;&#x5BB6;&#x8FDB;&#x884C;&#x5206;&#x4EAB;&#xFF0C;&#x5E0C;&#x671B;&#x548C;&#x5927;&#x5BB6;&#x4E00;&#x8D77;&#x5B66;&#x4E60;&#x548C;&#x8FDB;&#x6B65;....</p><ul><li>vux&#xFF1A;Vue &#x79FB;&#x52A8;&#x7AEF; UI &#x7EC4;&#x4EF6;&#x5E93;&#x7684;&#x4F7F;&#x7528;&#xFF1B;</li><li>vue-lazyload &#xFF1A;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x6613;&#x7528;&#x7684; Vue &#x56FE;&#x7247;&#x5EF6;&#x8FDF;&#x52A0;&#x8F7D;&#x63D2;&#x4EF6;&#xFF1B;</li><li>vuex&#xFF1A;vue&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#x8BE6;&#x7EC6;&#x5165;&#x95E8;&#xFF1B;</li><li>async/await&#xFF1A;&#x5F02;&#x6B65;&#x795E;&#x5668;&#x6765;&#x5C01;&#x88C5;&#x63A5;&#x53E3;&#x8BF7;&#x6C42;&#x6587;&#x4EF6;fetch.js</li><li>vue &#x9879;&#x76EE;&#x4E2D;&#x7684;&#x8FED;&#x4EE3;&#x5224;&#x65AD;&#x6280;&#x5DE7;&#xFF1B;</li><li>vue &#x9879;&#x76EE;&#x4E2D;&#x5E38;&#x7528;&#x7684;&#x56FE;&#x7247;&#x5F15;&#x5165;&#x65B9;&#x5F0F;&#xFF1B;</li><li><p>&#x5FAE;&#x4FE1;api&#x5728;vue&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x4F7F;&#x7528;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="1. vue2&#x5B9E;&#x73B0;&#x5FAE;&#x4FE1;&#x5206;&#x4EAB;&#x5751;&#x70B9;&#x548C;&#x7ECF;&#x9A8C; &#xFF1B;
 
 2. vue2&#x5B9E;&#x73B0;&#x5FAE;&#x4FE1;&#x652F;&#x4ED8;&#x5751;&#x70B9;&#x548C;&#x7ECF;&#x9A8C;&#xFF1B;
@@ -1084,7 +1084,7 @@ gc.getLocation(item, function (rs) {   //getLocation&#x51FD;&#x6570;&#x7528;&#x6
         let province = addComp.province;//&#x83B7;&#x53D6;&#x7701;&#x4EFD;
         let city = addComp.city;//&#x83B7;&#x53D6;&#x57CE;&#x5E02;
 });</code></pre><p>&#x9879;&#x76EE;&#x5B9E;&#x8DF5;&#xFF1A;&#x57FA;&#x4E8E;<a href="https://juejin.im/post/5a3f223351882506e50cda5c" rel="nofollow noreferrer" target="_blank">vue2.0 +vuex+ element-ui</a>&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;</p><p>&#x6B22;&#x8FCE;&#x52A0;&#x5165;&#x8BA8;&#x8BBA;&#x7EC4;&#xFF0C;&#x4E00;&#x8D77;&#x6765;&#x5B66;&#x4E60;&#x7528;<a href="https://juejin.im/post/5a3f223351882506e50cda5c" rel="nofollow noreferrer" target="_blank">vue,vuex,element,express,mongodb</a>&#x6765;&#x6784;&#x5EFA;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#xFF1B;</p><p>&#x4E00;&#x8D77;&#x6765;&#x7528;&#x9879;&#x76EE;&#x5B9E;&#x6218;&#x52A0;&#x6DF1;&#x81EA;&#x5DF1;&#x5BF9;&#x77E5;&#x8BC6;&#x7684;&#x7406;&#x89E3;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

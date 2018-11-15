@@ -1,12 +1,12 @@
 ---
 title: 使用 TypeScript 改造构建工具及测试用例
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f0ef0977
+slug: f0ef0977
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>最近的一段时间一直在搞<code>TypeScript</code>，一个巨硬出品、赋予<code>JavaScript</code>语言静态类型和编译的语言。  <br>第一个完全使用<code>TypeScript</code>重构的纯<code>Node.js</code>项目已经上线并稳定运行了。  <br>第二个前后端的项目目前也在重构中，关于前端基于<code>webpack</code>的<code>TypeScript</code>套路之前也有提到过：<a href="https://segmentfault.com/a/1190000016163937">TypeScript在react项目中的实践</a>。  </p>
@@ -305,7 +305,7 @@ mocha -r ts-node/register <span class="hljs-built_in">test</span>/number-comma.s
 </ul>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

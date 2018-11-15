@@ -1,12 +1,12 @@
 ---
 title: 使用Node，Vue和ElasticSearch构建实时搜索引擎
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 670f1fcf
+slug: 670f1fcf
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>（相关阅读：
 <a href="https://nodejs.org/en/about/">node.js</a>,
@@ -298,11 +298,11 @@ app .listen( app.get( <span class="hljs-string">'port'</span> ), <span class="hl
             <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
                 <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
 
-                    </span><span class="hljs-template-variable">{{ result._source.name }}</span><span class="xml">, </span><span class="hljs-template-variable">{{ result._source.country }}</span><span class="xml"> 
+                    </span><span class="hljs-template-variable">"{{" result._source.name "}}"</span><span class="xml">, </span><span class="hljs-template-variable">"{{" result._source.country "}}"</span><span class="xml"> 
                 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
                 <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
 
-                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>lat:</span><span class="hljs-template-variable">{{ result._source.lat }}</span><span class="xml">, long: </span><span class="hljs-template-variable">{{ result._source.lng }}</span><span class="xml">.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>lat:</span><span class="hljs-template-variable">"{{" result._source.lat "}}"</span><span class="xml">, long: </span><span class="hljs-template-variable">"{{" result._source.lng "}}"</span><span class="xml">.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
                 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -465,11 +465,11 @@ sudo <span class="hljs-class"><span class="hljs-keyword">service</span> <span cl
             <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
                 <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
 
-                    </span><span class="hljs-template-variable">{{ result._source.name }}</span><span class="xml">, </span><span class="hljs-template-variable">{{ result._source.country }}</span><span class="xml"> 
+                    </span><span class="hljs-template-variable">"{{" result._source.name "}}"</span><span class="xml">, </span><span class="hljs-template-variable">"{{" result._source.country "}}"</span><span class="xml"> 
                 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
                 <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
 
-                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>lat:</span><span class="hljs-template-variable">{{ result._source.lat }}</span><span class="xml">, long: </span><span class="hljs-template-variable">{{ result._source.lng }}</span><span class="xml">.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>lat:</span><span class="hljs-template-variable">"{{" result._source.lat "}}"</span><span class="xml">, long: </span><span class="hljs-template-variable">"{{" result._source.lng "}}"</span><span class="xml">.<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
                 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
@@ -596,7 +596,7 @@ sudo <span class="hljs-class"><span class="hljs-keyword">service</span> <span cl
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/build-a-real-time-search-engine-with-node-vue-and-elasticsearch](https://www.zcfy.cc/article/build-a-real-time-search-engine-with-node-vue-and-elasticsearch)

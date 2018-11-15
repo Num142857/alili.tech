@@ -1,12 +1,12 @@
 ---
 title: Vue全家桶+Socket.io+Koa2打造一个智能聊天室 接口已开放
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 7fd30818
+slug: 7fd30818
 date: 2018-10-24 08:17:54
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h1 id="articleHeader0">Vue.js+Socket.io+Koa2&#x6253;&#x9020;&#x4E00;&#x4E2A;&#x667A;&#x80FD;&#x804A;&#x5929;&#x5BA4;</h1>
@@ -129,7 +129,7 @@ io.on(<span class="hljs-string">&apos;connection&apos;</span>, <span class="hljs
 <p>&#x4E2A;&#x4EBA;&#x7F51;&#x7AD9;&#xFF1A; ?<a href="https://microzz.com/" rel="nofollow noreferrer" target="_blank">https://microzz.com/</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

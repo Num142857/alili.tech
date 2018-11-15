@@ -1,12 +1,12 @@
 ---
 title: '[vuejs 踩坑实战系列] keep-alive 被 beforeRouteEnter 骗了'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '17897695'
+slug: '17897695'
 date: 2018-11-07 02:30:16
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x5927;&#x5BB6;&#x4E2D;&#x79CB;&#x5047;&#x671F;&#x5FEB;&#x4E50;&#xFF0C;&#x5047;&#x671F;&#x5206;&#x4EAB;&#x4E00;&#x4E9B;&#x5B9E;&#x6218;&#x6587;&#x7AE0;&#x7ED9;&#x5927;&#x5BB6;&#xFF0C;<code>&#x539F;&#x521B;&#x4E0D;&#x6613;&#xFF0C;&#x6B22;&#x8FCE;&#x8F6C;&#x53D1;&#xFF0C;&#x4E00;&#x8D77;&#x5B66;&#x4E60;</code></p><hr><p>&#x73B0;&#x5728;&#x5927;&#x5BB6;&#x57FA;&#x672C;&#x90FD;&#x5728;<code>&#x5355;&#x9875;&#x5E94;&#x7528;</code>&#x91CC;&#x9762;&#x4F7F;&#x7528;&#x4E86; <code>keep-alive</code> &#x6765;<code>&#x7F13;&#x5B58;&#x4E0D;&#x6D3B;&#x52A8;&#x7684;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x9500;&#x6BC1;&#x5B83;&#x4EEC;</code>&#x3002;</p><p>&#x5982;&#x679C;&#x4F60;&#x8FD8;&#x6CA1;&#x6709;&#x4F7F;&#x7528;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x770B;&#x5B98;&#x65B9;&#x7684;&#x4ECB;&#x7ECD;&#xFF08;&#x5982;&#x679C;&#x5927;&#x5BB6;&#x9700;&#x8981;&#x4E00;&#x4E9B;&#x65B0;&#x624B;&#x5165;&#x95E8;&#x7684;&#x6587;&#x7AE0;&#x53EF;&#x4EE5;&#x7559;&#x8A00;&#x54C8;&#xFF09;&#xFF1A;<a href="https://cn.vuejs.org/v2/api/#keep-alive" rel="nofollow noreferrer" target="_blank">https://cn.vuejs.org/v2/api/#...</a></p><p>&#x7528;&#x6CD5;&#x5F88;&#x7B80;&#x5355;&#xFF1A;&#x4E3B;&#x8981;&#x662F;<code>&#x5305;&#x88F9;</code></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;keep-alive&gt;
   ...
 &lt;/keep-alive&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs armasm"><code>&lt;<span class="hljs-meta">keep</span>-alive&gt;
@@ -54,7 +54,7 @@ date: 2018-11-07 02:30:16
     <span class="hljs-comment">//...</span>
   }
 }</code></pre><p>&#x5927;&#x529F;&#x544A;&#x6210;&#x5566;</p><blockquote>&#x62B1;&#x6B49;&#xFF0C;&#x8FD9;&#x91CC;&#x7684; activated &#x4E0D;&#x4F1A;&#x90A3;&#x4E48;&#x53CA;&#x65F6;&#x5730;&#x66F4;&#x65B0; isFromTester&#xFF0C;&#x6240;&#x4EE5;<code>&#x7B2C;&#x4E00;&#x6B21;&#x4F60;&#x83B7;&#x53D6;&#x7684;&#x4E0D;&#x662F; true</code>&#xFF0C;&#x7B2C;&#x4E8C;&#x6B21;&#x662F;&#x53EF;&#x4EE5;&#x7684;</blockquote><p>&#x90A3;&#x6211;&#x4EEC;&#x5C31;&#x8981;&#x6765;&#x5228;&#x6839;&#x95EE;&#x5E95;&#x4E86;&#xFF0C;&#x5230;&#x5E95;&#x4E3A;&#x5565;&#x4E0D;&#x662F;&#x53CA;&#x65F6;&#x66F4;&#x65B0;&#x7684;&#x5462;&#xFF1F;</p><p>&#x6709;&#x6CA1;&#x6709;&#x4EBA;&#x60F3;&#x5230;&#x4E86; vue &#x91CC;&#x9762;&#x4E00;&#x4E2A;&#x5F88;&#x5E38;&#x89C1;&#x7684; <code>nextTick</code> &#x8FD9;&#x4E2A;&#x4E1C;&#x897F;&#xFF1F;</p><p>&#x662F;&#x6EF4;&#xFF0C;&#x5C31;&#x662F;&#x5B83;&#xFF0C;&#x5B83;&#x9A97;&#x4E86; activated&#xFF0C;&#x771F;&#x76F8;&#x5728;&#x8FD9;&#x91CC;&#xFF1A;&#xFF08;&#x6211;&#x4EEC;&#x7701;&#x53BB;&#x4E86;&#x5F88;&#x591A;&#x8DEF;&#x7531;&#x4E8B;&#x4EF6;&#x91CC;&#x9762;&#x81EA;&#x5DF1;&#x7684;&#x5904;&#x7406;&#x903B;&#x8F91;&#x548C; vue activated &#x7684; hook &#x7684;&#x89E6;&#x53D1;&#xFF09;</p><p><span class="img-wrap"><img data-src="/img/bVbhmX3?w=1050&amp;h=606" src="https://static.alili.tech/img/bVbhmX3?w=1050&amp;h=606" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 使用Jest测试JavaScript (入门篇)
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 624d0c17
+slug: 624d0c17
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3><strong>1 &#x4EC0;&#x4E48;&#x662F; Jest?</strong></h3><p><span class="img-wrap"><img data-src="/img/remote/1460000016232251?w=972&amp;h=503" src="https://static.alili.tech/img/remote/1460000016232251?w=972&amp;h=503" alt="image_1cm920qh8c84igb1o1lbsi16jb16.png-43.4kB" title="image_1cm920qh8c84igb1o1lbsi16jb16.png-43.4kB"></span></p><p>Jest&#x662F; Facebook &#x7684;&#x4E00;&#x5957;&#x5F00;&#x6E90;&#x7684; JavaScript &#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#xFF0C; &#x5B83;&#x81EA;&#x52A8;&#x96C6;&#x6210;&#x4E86;&#x65AD;&#x8A00;&#x3001;JSDom&#x3001;&#x8986;&#x76D6;&#x7387;&#x62A5;&#x544A;&#x7B49;&#x5F00;&#x53D1;&#x8005;&#x6240;&#x9700;&#x8981;&#x7684;&#x6240;&#x6709;&#x6D4B;&#x8BD5;&#x5DE5;&#x5177;&#xFF0C;&#x662F;&#x4E00;&#x6B3E;&#x51E0;&#x4E4E;&#x96F6;&#x914D;&#x7F6E;&#x7684;&#x6D4B;&#x8BD5;&#x6846;&#x67B6;&#x3002;&#x5E76;&#x4E14;&#x5B83;&#x5BF9;&#x540C;&#x6837;&#x662F; Facebook &#x7684;&#x5F00;&#x6E90;&#x524D;&#x7AEF;&#x6846;&#x67B6; React &#x7684;&#x6D4B;&#x8BD5;&#x5341;&#x5206;&#x53CB;&#x597D;&#x3002;</p><h3><strong>2 &#x5B89;&#x88C5;Jest</strong></h3><h4><strong>2.1 &#x521D;&#x59CB;&#x5316;<code>package.json</code></strong></h4><p>&#x5728;<code>shell</code>&#x4E2D;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#xFF0C;&#x521D;&#x59CB;&#x5316;&#x524D;&#x7AEF;&#x9879;&#x76EE;&#x5E76;&#x751F;&#x6210;<code>package.json</code>&#xFF1A;</p><pre><code>npm init -y</code></pre><h4><strong>2.2 &#x5B89;&#x88C5;Jest&#x53CA;&#x76F8;&#x5173;&#x4F9D;&#x8D56;</strong></h4><p>&#x5728;<code>shell</code>&#x4E2D;&#x8F93;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#xFF0C;&#x5B89;&#x88C5;&#x6D4B;&#x8BD5;&#x6240;&#x9700;&#x8981;&#x7684;&#x4F9D;&#x8D56;&#xFF1A;</p><pre><code>npm install -D jest babel-jest babel-core babel-preset-env regenerator-runtime</code></pre><p><code>babel-jest</code>&#x3001; <code>babel-core</code>&#x3001; <code>regenerator-runtime</code>&#x3001;<code>babel-preset-env</code>&#x8FD9;&#x51E0;&#x4E2A;&#x4F9D;&#x8D56;&#x662F;&#x4E3A;&#x4E86;&#x8BA9;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;ES6&#x7684;&#x8BED;&#x6CD5;&#x7279;&#x6027;&#x8FDB;&#x884C;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#xFF0C;ES6&#x63D0;&#x4F9B;&#x7684; <code>import</code> &#x6765;&#x5BFC;&#x5165;&#x6A21;&#x5757;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;Jest&#x672C;&#x8EAB;&#x662F;&#x4E0D;&#x652F;&#x6301;&#x7684;&#x3002;</p><h4><strong>2.3 &#x6DFB;&#x52A0;<code>.babelrc</code>&#x6587;&#x4EF6;</strong></h4><p>&#x5728;&#x9879;&#x76EE;&#x7684;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x6DFB;&#x52A0;<code>.babelrc</code>&#x6587;&#x4EF6;&#xFF0C;&#x5E76;&#x5728;&#x6587;&#x4EF6;&#x590D;&#x5236;&#x5982;&#x4E0B;&#x5185;&#x5BB9;:</p><pre><code class="JSON">{
   &quot;presets&quot;: [&quot;env&quot;]
 }</code></pre><h4><strong>2.4 &#x4FEE;&#x6539;<code>package.json</code>&#x4E2D;&#x7684;<code>test</code>&#x811A;&#x672C;</strong></h4><p>&#x6253;&#x5F00;<code>package.json</code>&#x6587;&#x4EF6;&#xFF0C;&#x5C06;<code>script</code>&#x4E0B;&#x7684;<code>test</code>&#x7684;&#x503C;&#x4FEE;&#x6539;&#x4E3A;<code>jest</code>&#xFF1A;</p><pre><code>&quot;scripts&quot;: {
@@ -102,7 +102,7 @@ test(&apos;fetchUser() &#x53EF;&#x4EE5;&#x8BF7;&#x6C42;&#x5230;&#x4E00;&#x4E2A;&
   const data =  await functions.fetchUser();
   expect(data.name).toBe(&apos;Leanne Graham&apos;)
 })</code></pre><p>&#x5F53;&#x7136;&#x6211;&#x4EEC;&#x65E2;&#x7136;&#x5B89;&#x88C5;&#x4E86;<code>Babel</code>&#xFF0C;&#x4E3A;&#x4F55;&#x4E0D;&#x4F7F;&#x7528;<code>async</code>&#x548C;<code>await</code>&#x7684;&#x8BED;&#x6CD5;&#x6765;&#x7CBE;&#x7B80;&#x6211;&#x4EEC;&#x7684;&#x5F02;&#x6B65;&#x6D4B;&#x8BD5;&#x4EE3;&#x7801;&#x5462;? &#x4F46;&#x662F;&#x522B;&#x5FD8;&#x8BB0;&#x90FD;&#x9700;&#x8981;&#x8C03;&#x7528;<code>expect.assertions</code>&#x65B9;&#x6CD5;</p><h2>&#x53C2;&#x8003;&#x8D44;&#x6599;</h2><p>&#x3010;1&#x3011; Jest&#x5B98;&#x65B9;&#x6587;&#x6863;(<a href="https://jestjs.io/zh-Hans/)" rel="nofollow noreferrer">https://jestjs.io/zh-Hans/)</a><br>&#x3010;2&#x3011; Jest Crash Course - Unit Testing in JavaScript(<a href="https://www.youtube.com/watch?v=7r4xVDI2vho)" rel="nofollow noreferrer">https://www.youtube.com/watch...</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

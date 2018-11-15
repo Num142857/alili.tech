@@ -1,12 +1,12 @@
 ---
 title: JavaScript数组去重（12种方法，史上最全）
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 515a54e3
+slug: 515a54e3
 date: 2018-11-09 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#xFF0C;&#x4E00;&#x822C;&#x90FD;&#x662F;&#x5728;&#x9762;&#x8BD5;&#x7684;&#x65F6;&#x5019;&#x624D;&#x4F1A;&#x78B0;&#x5230;&#xFF0C;&#x4E00;&#x822C;&#x662F;&#x8981;&#x6C42;&#x624B;&#x5199;&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#x65B9;&#x6CD5;&#x7684;&#x4EE3;&#x7801;&#x3002;&#x5982;&#x679C;&#x662F;&#x88AB;&#x63D0;&#x95EE;&#x5230;&#xFF0C;&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#x7684;&#x65B9;&#x6CD5;&#x6709;&#x54EA;&#x4E9B;&#xFF1F;&#x4F60;&#x80FD;&#x7B54;&#x51FA;&#x5176;&#x4E2D;&#x7684;10&#x79CD;&#xFF0C;&#x9762;&#x8BD5;&#x5B98;&#x5F88;&#x6709;&#x53EF;&#x80FD;&#x5BF9;&#x4F60;&#x522E;&#x76EE;&#x76F8;&#x770B;&#x3002;<br>&#x5728;&#x771F;&#x5B9E;&#x7684;&#x9879;&#x76EE;&#x4E2D;&#x78B0;&#x5230;&#x7684;&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#xFF0C;&#x4E00;&#x822C;&#x90FD;&#x662F;&#x540E;&#x53F0;&#x53BB;&#x5904;&#x7406;&#xFF0C;&#x5F88;&#x5C11;&#x8BA9;&#x524D;&#x7AEF;&#x5904;&#x7406;&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#x3002;&#x867D;&#x7136;&#x65E5;&#x5E38;&#x9879;&#x76EE;&#x7528;&#x5230;&#x7684;&#x6982;&#x7387;&#x6BD4;&#x8F83;&#x4F4E;&#xFF0C;&#x4F46;&#x8FD8;&#x662F;&#x9700;&#x8981;&#x4E86;&#x89E3;&#x4E00;&#x4E0B;&#xFF0C;&#x4EE5;&#x9632;&#x9762;&#x8BD5;&#x7684;&#x65F6;&#x5019;&#x53EF;&#x80FD;&#x56DE;&#x88AB;&#x95EE;&#x5230;&#x3002;</p><p>&#x6CE8;&#xFF1A;&#x5199;&#x7684;&#x5306;&#x5FD9;&#xFF0C;&#x52A0;&#x4E0A;&#x8FD9;&#x51E0;&#x5929;&#x6709;&#x70B9;&#x5FD9;&#xFF0C;&#x8FD8;&#x6CA1;&#x6709;&#x975E;&#x5E38;&#x8BA4;&#x771F;&#x6838;&#x5BF9;&#x8FC7;&#xFF0C;&#x4E0D;&#x8FC7;&#x601D;&#x8DEF;&#x662F;&#x6CA1;&#x6709;&#x95EE;&#x9898;&#xFF0C;&#x53EF;&#x80FD;&#x4E00;&#x4E9B;&#x5C0F;&#x7EC6;&#x8282;&#x51FA;&#x9519;&#x800C;&#x5DF2;&#x3002;</p><h2 id="articleHeader0">&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#x7684;&#x65B9;&#x6CD5;</h2><h2 id="articleHeader1">&#x4E00;&#x3001;&#x5229;&#x7528;ES6 Set&#x53BB;&#x91CD;&#xFF08;ES6&#x4E2D;&#x6700;&#x5E38;&#x7528;&#xFF09;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="function unique (arr) {
   return Array.from(new Set(arr))
 }
@@ -292,7 +292,7 @@ var arr = [<span class="hljs-number">1</span>,<span class="hljs-number">1</span>
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs cos"><code>[.<span class="hljs-built_in">..new</span> <span class="hljs-keyword">Set</span>(arr)] 
 <span class="hljs-comment">//&#x4EE3;&#x7801;&#x5C31;&#x662F;&#x8FD9;&#x4E48;&#x5C11;----&#xFF08;&#x5176;&#x5B9E;&#xFF0C;&#x4E25;&#x683C;&#x6765;&#x8BF4;&#x5E76;&#x4E0D;&#x7B97;&#x662F;&#x4E00;&#x79CD;&#xFF0C;&#x76F8;&#x5BF9;&#x4E8E;&#x7B2C;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;&#x6765;&#x8BF4;&#x53EA;&#x662F;&#x7B80;&#x5316;&#x4E86;&#x4EE3;&#x7801;&#xFF09;</span>
 </code></pre><p>PS&#xFF1A;&#x6709;&#x4E9B;&#x6587;&#x7AE0;&#x63D0;&#x5230;&#x4E86;foreach+indexOf&#x6570;&#x7EC4;&#x53BB;&#x91CD;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x4E2A;&#x4EBA;&#x89C9;&#x5F97;&#x90FD;&#x662F;&#x5927;&#x540C;&#x5C0F;&#x5F02;&#xFF0C;&#x6240;&#x4EE5;&#x6CA1;&#x6709;&#x5199;&#x4E0A;&#x53BB;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

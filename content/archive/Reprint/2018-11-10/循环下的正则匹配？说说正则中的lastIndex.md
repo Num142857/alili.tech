@@ -1,12 +1,12 @@
 ---
 title: 循环下的正则匹配？说说正则中的lastIndex
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: afda056b
+slug: afda056b
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6700;&#x8FD1;&#x5728;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x5339;&#x914D;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x6211;&#x9047;&#x5230;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x6709;&#x610F;&#x601D;&#x7684;&#x73B0;&#x8C61;&#xFF0C;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#x6240;&#x793A;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const reg = /\.jpg/g;
 const arr = [
     &apos;test1.jpg&apos;,
@@ -56,7 +56,7 @@ arr.map(item =&gt; console.log(reg.test(item), reg.lastIndex));" title="" data-o
     <span class="hljs-string">&apos;test5.jpg&apos;</span>,
 ];
 arr.map(<span class="hljs-function"><span class="hljs-params">item</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(reg.test(item), reg.lastIndex));</code></pre><p>&#x901A;&#x8FC7;&#x4E24;&#x7EC4;&#x5B9E;&#x9A8C;&#x7684;&#x5BF9;&#x6BD4;&#x89C2;&#x5BDF;&#xFF0C;&#x53D1;&#x73B0;&#x786E;&#x5B9E;&#x5982;&#x6B64;&#xFF1A;</p><p>&#x5728;&#x7B2C;&#x4E00;&#x4E2A;&#x5B9E;&#x9A8C;&#x4E2D;&#xFF0C;&#x7531;&#x4E8E;&#x6570;&#x7EC4;&#x4E2D;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x957F;&#x5EA6;&#x90FD;&#x662F;&#x4E00;&#x81F4;&#x7684;&#xFF0C;&#x6210;&#x529F;&#x5339;&#x914D;&#x540E;<code>lastIndex</code>&#x7684;&#x503C;&#x76F4;&#x63A5;&#x66F4;&#x65B0;&#x4E3A;9&#xFF0C;&#x4E0B;&#x6B21;&#x5339;&#x914D;&#x7684;&#x65F6;&#x5019;&#x76F4;&#x63A5;&#x4ECE;&#x7B2C;10&#x4E2A;&#x5B57;&#x7B26;&#x5F00;&#x59CB;&#xFF08;&#x5F88;&#x660E;&#x663E;&#x6839;&#x672C;&#x5C31;&#x6CA1;&#x7B2C;10&#x4E2A;&#x5B57;&#x7B26;&#x561B;&#xFF09;&#xFF0C;&#x56E0;&#x6B64;&#x5339;&#x914D;&#x5931;&#x8D25;&#xFF0C;<code>lastIndex</code>&#x91CD;&#x7F6E;&#x4E3A;0&#x3002;&#x4EE5;&#x6B64;&#x7C7B;&#x63A8;&#xFF0C;&#x6700;&#x7EC8;&#x4EE5;<code>9</code>&#x3001;<code>0</code>&#x3001;<code>9</code>&#x7684;&#x5F62;&#x5F0F;&#x4EA4;&#x66FF;&#x6253;&#x5370;&#x3002;</p><p>&#x800C;&#x7B2C;&#x4E8C;&#x4E2A;&#x5B9E;&#x9A8C;&#x7531;&#x4E8E;&#x6211;&#x4EEC;&#x589E;&#x52A0;&#x4E86;&#x90E8;&#x5206;&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x957F;&#x5EA6;&#xFF0C;&#x56E0;&#x6B64;&#x5BF9;&#x4E8E;&#x7B2C;2&#x3001;4&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x800C;&#x8A00;&#xFF0C;&#x5373;&#x4F7F;&#x4ECE;&#x7B2C;9&#x4E2A;&#x5B57;&#x7B26;&#x5F00;&#x59CB;&#x5339;&#x914D;&#xFF0C;&#x4F9D;&#x7136;&#x80FD;&#x5339;&#x914D;&#x5230;&#x540E;&#x8FB9;&#x7684;<code>.jpg</code>&#xFF0C;&#x6545;<code>lastIndex</code>&#x7EE7;&#x7EED;&#x66F4;&#x65B0;&#x5230;13</p><hr><p>&#x901A;&#x8FC7;&#x8FD9;&#x6B21;&#x5C0F;&#x5C0F;&#x7684;&#x5B9E;&#x9A8C;&#xFF0C;&#x6211;&#x4EEC;&#x53D1;&#x73B0;&#x4F7F;&#x7528;&#x6B63;&#x5219;&#x7684;&#x65F6;&#x5019;&#x8FD8;&#x662F;&#x8981;&#x591A;&#x52A0;&#x5C0F;&#x5FC3;&#xFF0C;&#x5BF9;&#x4E8E;<code>test</code>&#x548C;<code>exec</code>&#x65B9;&#x6CD5;&#xFF0C;&#x6700;&#x597D;&#x8FD8;&#x662F;&#x4E0D;&#x8981;&#x968F;&#x610F;&#x52A0;&#x4E0A;&#x5168;&#x5C40;&#x6807;&#x5FD7;<code>g</code>&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

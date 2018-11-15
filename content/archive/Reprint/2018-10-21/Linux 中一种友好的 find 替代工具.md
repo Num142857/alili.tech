@@ -1,12 +1,12 @@
 ---
 title: Linux 中一种友好的 find 替代工具
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b14f61b5
+slug: b14f61b5
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#linux-中一种友好的-find-替代工具"></a>Linux 中一种友好的 find 替代工具</h1>
 <blockquote>
@@ -70,7 +70,7 @@ linux<span class="hljs-selector-class">.md</span>
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [Linux 中一种友好的 find 替代工具](https://www.zcfy.cc/article/a-friendly-alternative-to-the-find-tool-in-linux)

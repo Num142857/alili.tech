@@ -1,12 +1,12 @@
 ---
 title: webpack 从入门到上线
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 50b1ed1
+slug: 50b1ed1
 date: 2018-10-29 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">webpack &#x662F;&#x4EC0;&#x4E48;</h2><p><span class="img-wrap"><img data-src="/img/bVzLhA?w=2598&amp;h=1299" src="https://static.alili.tech/img/bVzLhA?w=2598&amp;h=1299" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x4E00;&#x9879;&#x6280;&#x672F;&#x3001;&#x4E00;&#x4E2A;&#x5DE5;&#x5177;&#x7684;&#x51FA;&#x73B0;&#xFF0C;&#x80AF;&#x5B9A;&#x662F;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x95EE;&#x9898;&#x7684;&#x3002;&#x90A3;&#x4E48;&#xFF0C;webpack &#x662F;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x4EC0;&#x4E48;&#x95EE;&#x9898;&#xFF1F;&#x7B54;&#x6848;&#x662F;&#xFF1A;<strong>&#x6587;&#x4EF6;&#x4F9D;&#x8D56;&#x7BA1;&#x7406;</strong>&#x3002;&#x6D4F;&#x89C8;&#x5668;&#x7AEF;&#x7684; Js, &#x51FA;&#x4E8E;&#x5B89;&#x5168;&#x7684;&#x8003;&#x8651;&#xFF0C;&#x5BF9;&#x672C;&#x5730;&#x6587;&#x4EF6;&#x6CA1;&#x6709;&#x64CD;&#x4F5C;&#x6743;&#x9650;&#xFF0C;&#x4E0D;&#x80FD;&#x5F15;&#x7528;&#x5176;&#x5B83; js, css &#x7B49;&#x6587;&#x4EF6;&#x3002;&#x800C; webpack &#x5C31;&#x662F;&#x7528;&#x6765;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x7684;&#xFF0C;&#x8BA9;&#x4F60;&#x7684;&#x9879;&#x76EE;&#x53EF;&#x4EE5;&#x5F88;&#x597D;&#x5730;&#x5206;&#x6587;&#x4EF6;&#x3001;&#x5206;&#x6A21;&#x5757;&#xFF0C;&#x800C;&#x4E14;&#x5B83;&#x5BF9;&#x5916;&#x90E8;&#x6587;&#x4EF6;&#x7684;&#x5F15;&#x5165;&#x540C;&#x65F6;&#x652F;&#x6301; cmd, amd &#x548C; commondJs &#x8FD9;&#x4E09;&#x79CD;&#x5F62;&#x5F0F;&#xFF0C;&#x591F;&#x6709;&#x8BDA;&#x610F;&#x3002;<br>&#x6216;&#x8BB8;&#x4F60;&#x8981;&#x8BF4;&#x4E86;&#xFF0C;&#x89E3;&#x51B3;&#x6587;&#x4EF6;&#x4F9D;&#x8D56;&#xFF0C;&#x65E9;&#x5728; require.js &#x548C; sea.js &#x7684;&#x65F6;&#x5019;&#xFF0C;&#x90FD;&#x5DF2;&#x7ECF;&#x89E3;&#x51B3;&#x4E86;&#x5440;&#xFF01;&#x90A3;&#x4E48;&#xFF0C;webpack &#x5728;&#x8FD9;&#x65B9;&#x9762;&#xFF0C;&#x6709;&#x54EA;&#x4E9B;&#x65B0;&#x7684;&#x7A81;&#x7834;&#xFF1A;</p><ol><li>&#x652F;&#x6301;&#x5F15;&#x7528;&#x5404;&#x79CD;&#x62D3;&#x5C55;&#x540D;&#x7684;&#x6587;&#x4EF6;</li><li>&#x80FD;&#x591F;&#x5728;&#x4E0D;&#x4F9D;&#x8D56; gulp &#x6216; grunt &#x7684;&#x60C5;&#x51B5;&#x4E0B;&#x76F4;&#x63A5;&#x4EA7;&#x51FA;&#x6253;&#x5305;&#x6587;&#x4EF6;</li><li>&#x652F;&#x6301;&#x5B9E;&#x65F6;&#x7F16;&#x8BD1;&#xFF0C;&#x6D4F;&#x89C8;&#x5668;&#x540C;&#x6B65;&#x5237;&#x65B0;</li></ol><p>&#x8FD9;&#x4E2A;&#x65F6;&#x5019;&#xFF0C;&#x662F;&#x4E0D;&#x662F;&#x5F88;&#x60F3;&#x5531;&#x4E00;&#x4E0B;&#x738B;&#x529B;&#x5B8F;&#x7684;&#x300A;&#x552F;&#x4E00;&#x300B;&#xFF1A;&#x786E;&#x5B9A;&#x4F60;&#x5C31;&#x662F;&#x6211;&#x7684;&#x552F;&#x4E00;&#xFF01;<br>OK&#xFF0C;&#x8FDB;&#x5165;&#x6B63;&#x9898;&#x3002;</p><h2 id="articleHeader1">&#x5B89;&#x88C5;&#x4E0E;&#x8FD0;&#x884C;</h2><p>&#x76EE;&#x524D;&#xFF0C;&#x6211;&#x4EEC;&#x7684;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x662F;&#x8FD9;&#x6837;&#x7684;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="webpack_demo
 |--src
 |  |--pages
@@ -228,7 +228,7 @@ module.exports = {
     },
     <span class="hljs-comment">// &#x5176;&#x5B83;&#x914D;&#x7F6E;...</span>
 };</code></pre></li><li>&#x538B;&#x7F29;&#x3002;&#x7528; <code>webpack -p</code> &#x89E3;&#x51B3;&#x4E86;&#x3002;</li><li>&#x66FF;&#x6362; HTML &#x4E2D;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x7684;&#x8DEF;&#x5F84;&#x3002;&#x53EF;&#x4EE5;&#x7528; webpack &#x7684;&#x63D2;&#x4EF6;&#xFF0C;<code>html-webpack-plugin</code> &#x6765;&#x505A;&#x3002;&#x6216;&#x8005;&#xFF0C;&#x4F60;&#x5BF9; gulp &#x8FD8;&#x662F;&#x6BD4;&#x8F83;&#x719F;&#x6089;&#x7684;&#x8BDD;&#xFF0C;&#x7528; <code>gulp-prefix</code> &#x6765;&#x5B9E;&#x73B0;&#x3002;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x8BE6;&#x7EC6;&#x5199;&#x914D;&#x7F6E;&#x4E86;&#x3002;</li></ol><p>&#x7136;&#x540E;&#xFF0C;&#x606D;&#x559C;&#x4F60;&#x770B;&#x5B8C;&#x4E86;&#xFF01;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

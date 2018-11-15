@@ -1,12 +1,12 @@
 ---
 title: BetterScroll：可能是目前最好用的移动端滚动插件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 743c5acb
+slug: 743c5acb
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>BetterScroll 是一款重点解决移动端各种滚动场景需求的开源插件（<a href="https://github.com/ustbhuangyi/better-scroll" rel="nofollow noreferrer" target="_blank">GitHub地址</a>），有下列功能支持滚动列表，下拉刷新，上拉刷新，轮播图，slider等功能。<br>为了满足这些功能，better-scroll通过使用惯性滚动、边界回弹、滚动条淡入淡出来确保滚动的流畅。同时还支持很多API和事件，具体支持的事件可以查看官网讲的非常详细。<br>由于它基于原生JavaScript 实现，不依赖任何框架，所以既可以原生 JavaScript 引用，也可以与目前前端 MVVM 框架结合使用，比如，其官网上的示例就是与 Vue 的结合。</p>
@@ -390,7 +390,7 @@ date: 2018-10-23 00:00:00
 <p>至于为什么这个标题不写better-scroll的源码分析呢，我怕有些人说有些源码分析的文章就是垃圾，所以至少在字面上进行改变(逃。。。)</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

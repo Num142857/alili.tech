@@ -1,12 +1,12 @@
 ---
 title: React Autocomplete（自动完成输入）示例教程
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2b34ccbc
+slug: 2b34ccbc
 date: 2018-11-11 02:30:07
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>React Autocomplete&#x793A;&#x4F8B;&#x6559;&#x7A0B;&#x662F;&#x4ECA;&#x5929;&#x7684;&#x4E3B;&#x9898;&#x3002;&#x5728;&#x73B0;&#x4EE3;Web&#x5F00;&#x53D1;&#x4E2D;&#xFF0C;&#x4F7F;&#x7528;React&#x6539;&#x5584;&#x7528;&#x6237;&#x4F53;&#x9A8C;&#x662F;&#x5F88;&#x5BB9;&#x6613;&#x3002;&#x81EA;&#x52A8;&#x5B8C;&#x6210;&#x7684;&#x6982;&#x5FF5;&#x5F88;&#x7B80;&#x5355;&#x3002;&#x5B83;&#x662F;&#x57FA;&#x4E8E;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x5EFA;&#x8BAE;&#x5217;&#x8868;&#x3002;&#x7136;&#x540E;&#xFF0C;&#x7528;&#x6237;&#x53EF;&#x4EE5;&#x6309;Enter&#x952E;&#x4EE5;&#x5B8C;&#x6210;&#x77ED;&#x8BED;&#x3002;&#x5B83;&#x8282;&#x7701;&#x4E86;&#x7528;&#x6237;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x8FD9;&#x4F7F;&#x7528;&#x6237;&#x975E;&#x5E38;&#x6EE1;&#x610F;&#x3002;&#x81EA;&#x52A8;&#x586B;&#x5145;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;&#x591A;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#xFF0C;&#x5982;&#x4F55;&#x8FC7;&#x6EE4;&#x5E76;&#x5448;&#x73B0;&#x7ED9;&#x7528;&#x6237;&#xFF0C;&#x5728;&#x672C;&#x6587;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x4F7F;&#x7528;&#x4F20;&#x9012;&#x7ED9;&#x6211;&#x4EEC;&#x7EC4;&#x4EF6;&#x7684;&#x56FA;&#x5B9A;&#x63A8;&#x8350;&#x5217;&#x8868;&#x3002;&#x5728;&#x7528;&#x6237;&#x8F93;&#x5165;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x5C06;&#x8FC7;&#x6EE4;&#x7ED3;&#x679C;&#xFF0C;&#x5E76;&#x4EC5;&#x5728;&#x5EFA;&#x8BAE;&#x4E2D;&#x7684;&#x4EFB;&#x4F55;&#x4F4D;&#x7F6E;&#x663E;&#x793A;&#x5305;&#x542B;&#x7528;&#x6237;&#x8F93;&#x5165;&#x7684;&#x5B57;&#x6BB5;&#x3002;</p><p>&#x5982;&#x679C;&#x60A8;&#x60F3;&#x4E86;&#x89E3;&#x6709;&#x5173;React.js&#x7684;&#x66F4;&#x591A;&#x4FE1;&#x606F;&#xFF0C;&#x8BF7;&#x67E5;&#x770B;&#x6B64;React 16 - &#x5B8C;&#x6574;&#x6307;&#x5357;&#xFF08;&#x5305;&#x62EC;React Router 4&#x548C;Redux&#xFF09;&#x6307;&#x5357;&#x3002;&#x5B83;&#x6709;&#x4E00;&#x4E2A;&#x5173;&#x4E8E;React&#x548C;Redux&#x7684;&#x7B80;&#x77ED;&#x4ECB;&#x7ECD;&#x3002;React 16 - &#x5B8C;&#x6574;&#x6307;&#x5357;&#xFF08;&#x5305;&#x62EC;React Router 4&#x548C;Redux&#xFF09;</p><p>React Autocomplete&#x793A;&#x4F8B;&#x6559;&#x7A0B;<br>&#x6211;&#x4EEC;&#x5728;&#x672C;&#x6559;&#x7A0B;&#x4E2D;&#x4F7F;&#x7528;&#x540D;&#x4E3A; [react-autocomplete]&#x7684;&#x5E93;(<a href="https://github.com/reactjs/react-autocomplete)" rel="nofollow noreferrer" target="_blank">https://github.com/reactjs/re...</a>&#x3002;&#x4F46;&#x9996;&#x5148;&#xFF0C;&#x8BA9;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x5B89;&#x88C5; React.js &#x547D;&#x4EE4;&#x3002;</p><h3 id="articleHeader0">1:&#x5B89;&#x88C5; React.js.</h3><p>&#x952E;&#x5165;&#x4EE5;&#x4E0B;&#x547D;&#x4EE4;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="npx create-react-app my-app
 cd my-app
 npm start" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs dsconfig"><code><span class="hljs-string">npx </span><span class="hljs-built_in">create-react-app</span> <span class="hljs-string">my-app
@@ -410,7 +410,7 @@ font-weight: bold;
 <span class="hljs-attribute">color</span>: <span class="hljs-number">#454545</span>;
 <span class="hljs-attribute">font-weight</span>: bold;
 }</code></pre><p>&#x4FDD;&#x5B58;&#x6240;&#x6709;&#x6587;&#x4EF6;&#x5E76;&#x8F6C;&#x5230; http&#xFF1A;// localhost&#xFF1A;3000 /</p><p>&#x4ECE;&#x6570;&#x636E;&#x6570;&#x7EC4;&#x4E2D;&#x952E;&#x5165;&#x80A1;&#x7968;&#xFF0C;&#x60A8;&#x5C06;&#x83B7;&#x5F97;&#x5EFA;&#x8BAE;&#x8865;&#x5168;&#x5217;&#x8868;&#x3002;</p><p><span class="img-wrap"><img data-src="/img/bVbgBEQ?w=163&amp;h=140" src="https://static.alili.tech/img/bVbgBEQ?w=163&amp;h=140" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x6240;&#x4EE5;&#xFF0C;&#x6700;&#x540E;&#xFF0C;&#x6211;&#x4EEC;&#x5DF2;&#x7ECF;&#x5B8C;&#x6210;&#x4E86; React Autocomplete&#x793A;&#x4F8B;&#x6559;&#x7A0B;&#x3002;&#x611F;&#x8C22;&#x60A8;&#x7684;&#x53C2;&#x4E0E;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

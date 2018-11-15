@@ -1,12 +1,12 @@
 ---
 title: Vue2 后台管理系统解决方案
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8a357947
+slug: 8a357947
 date: 2018-10-24 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>&#x57FA;&#x4E8E;Vue.js 2.x&#x7CFB;&#x5217; + Element UI &#x7684;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#x7CFB;&#x7EDF;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;</p>
@@ -481,7 +481,7 @@ npm un vue-datasource -S
 </h3>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

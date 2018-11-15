@@ -1,12 +1,12 @@
 ---
 title: 扩展微信小程序 Page 构造函数，修改生命周期函数
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e33f3d95
+slug: e33f3d95
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><strong>&#x4E0D;BB,&#x76F4;&#x63A5;&#x6B63;&#x9898;</strong></p><h2>&#x4E00;. &#x5C06;&#x516C;&#x5171;&#x65B9;&#x6CD5;&#x7ED1;&#x5B9A;&#x5230;Page&#x4E0A;</h2><ul><li><p>&#x5355;&#x4E2A;&#x7ED1;&#x5B9A;</p><pre><code>const oldPage = Page
 Page = function(app) {
   // &#x6CE8;&#x610F;&#x516C;&#x5171;&#x51FD;&#x6570;&#x7684;&#x540D;&#x5B57;&#x4E0D;&#x8981;&#x91CD;&#x590D;&#xFF0C;&#x5426;&#x5219;&#x8986;&#x76D6;
@@ -40,7 +40,7 @@ App({
 
 })
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

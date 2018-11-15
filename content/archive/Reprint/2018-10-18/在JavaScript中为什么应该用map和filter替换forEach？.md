@@ -1,12 +1,12 @@
 ---
 title: 在JavaScript中为什么应该用map和filter替换forEach？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e3f771f8
+slug: e3f771f8
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><em>当你需要拷贝一个数组的全部或者部分到一个新数组的时候，优先使用map和filter而不是forEach。</em></p>
 <p>咨询工作的好处之一是我可以看到无数的项目。这些项目在规模、使用的编程语言和开发人员的能力方面差别很大。虽然有很多我觉得应该废弃的模式，但是在JavaScript中，我觉得最应该废弃的是使用forEach创建新的数组。事实上，这个模式非常简单，看起来如下所示：</p>
@@ -57,7 +57,7 @@ people.forEach(<span class="hljs-keyword">person</span> =&gt; {
 <p>使用map和filter有很多好处，比如关注点分离、易于测试、可读性和异步编程的支持。因此，对我来说这是一个明智的选择。但是，我经常遇到使用forEach的开发人员。虽然函数式编程可能有点儿吓人，但是这些方法并没有什么好害怕的，即使它们有一些函数式编程的特征。map和filter在<a href="https://en.wikipedia.org/wiki/Reactive_programming">响应式编程</a>中也被大量的用到。由于<a href="http://reactivex.io/rxjs/">RxJS</a>，现在响应式编程在JavaScript中被越来越多的用到。但请注意，它们可能会永久地改变你的编码方式。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/why-you-should-replace-foreach-with-map-and-filter-in-javascript](https://www.zcfy.cc/article/why-you-should-replace-foreach-with-map-and-filter-in-javascript)

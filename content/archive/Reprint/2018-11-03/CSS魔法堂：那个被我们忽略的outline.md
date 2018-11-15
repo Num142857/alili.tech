@@ -1,12 +1,12 @@
 ---
 title: CSS魔法堂：那个被我们忽略的outline
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 73d3572d
+slug: 73d3572d
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>&#x2003;&#x5728;<a href="https://www.cnblogs.com/fsjohnhuang/p/9741345.html" rel="nofollow noreferrer" target="_blank">CSS&#x9B54;&#x6CD5;&#x5802;&#xFF1A;&#x6539;&#x53D8;&#x5355;&#x9009;&#x6846;&#x989C;&#x8272;&#x5C31;&#x8FD9;&#x4E48;&#x5439;&#x6BDB;&#x6C42;&#x75B5;&#xFF01;</a>&#x4E2D;&#x6211;&#x4EEC;&#x8981;&#x6A21;&#x62DF;&#x539F;&#x751F;&#x5355;&#x9009;&#x6846;&#x901A;&#x8FC7;<code>Tab</code>&#x952E;&#x83B7;&#x5F97;&#x7126;&#x70B9;&#x7684;&#x6548;&#x679C;&#xFF0C;&#x8FD9;&#x91CC;&#x6D89;&#x53CA;&#x5230;&#x4E00;&#x4E2A;&#x5E38;&#x5E38;&#x88AB;&#x5FFD;&#x7565;&#x7684;&#x5C5E;&#x6027;&#x2014;&#x2014;<code>outline</code>&#xFF0C;&#x7531;&#x4E8E;&#x4E4B;&#x524D;&#x5BF9;&#x5176;&#x5370;&#x8C61;&#x786E;&#x5B9E;&#x6709;&#x4E9B;&#x6A21;&#x7CCA;&#xFF0C;&#x4E8E;&#x662F;&#x672C;&#x6587;&#x6253;&#x7B97;&#x5BF9;&#x5176;&#x8FDB;&#x884C;&#x7A0D;&#x5FAE;&#x6DF1;&#x5165;&#x7684;&#x7814;&#x7A76;^_^</p><h2 id="articleHeader1">Spec&#x662F;&#x8FD9;&#x6837;&#x63CF;&#x8FF0;&#x5B83;&#x7684;</h2><h3 id="articleHeader2">&#x4F5C;&#x7528;</h3><p>&#x2003;&#x7528;&#x4E8E;&#x521B;&#x5EFA;&#x53EF;&#x89C6;&#x5BF9;&#x8C61;&#x7684;&#x8F6E;&#x5ED3;(&#x5143;&#x7D20;&#x7684;border-box)&#xFF0C;&#x5982;&#x8868;&#x5355;&#x6309;&#x94AE;&#x8F6E;&#x5ED3;&#x7B49;&#x3002;</p><h3 id="articleHeader3">&#x4E0E;border&#x4E0D;&#x540C;</h3><ol><li>outline&#x4E0D;&#x5360;&#x6587;&#x6863;&#x7A7A;&#x95F4;&#xFF1B;</li><li>outline&#x4E0D;&#x4E00;&#x5B9A;&#x662F;&#x77E9;&#x5F62;&#x3002;</li></ol><h3 id="articleHeader4">&#x5177;&#x4F53;&#x5C5E;&#x6027;&#x8BF4;&#x660E;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="/* &#x8F6E;&#x5ED3;&#x7EBF;&#x989C;&#x8272; 
  * invert&#x8868;&#x793A;&#x4E3A;&#x989C;&#x8272;&#x53CD;&#x8F6C;&#xFF0C;&#x5373;&#x4F7F;&#x8F6E;&#x5ED3;&#x5728;&#x4E0D;&#x540C;&#x7684;&#x80CC;&#x666F;&#x989C;&#x8272;&#x4E2D;&#x90FD;&#x53EF;&#x89C1; 
  */
@@ -122,7 +122,7 @@ outline-offset: <span class="hljs-number">0</span>px;</code></pre><h2 id="articl
   <span class="hljs-keyword">const</span> el = <span class="hljs-built_in">document</span>.querySelector(<span class="hljs-string">&quot;.outline&quot;</span>)
   el.textContent = !!~navigator.appVersion.indexOf(<span class="hljs-string">&quot;Chrome&quot;</span>) ? <span class="hljs-string">&quot;Chrome&quot;</span> : <span class="hljs-string">&quot;FireFox&quot;</span>
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre><p><span class="img-wrap"><img data-src="/img/remote/1460000016616332" src="https://static.alili.tech/img/remote/1460000016616332" alt="" title="" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader11">&#x603B;&#x7ED3;</h2><p>&#x2003;&#x5C0A;&#x91CD;&#x539F;&#x521B;&#xFF0C;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x6765;&#x81EA;&#xFF1A;<a href="https://www.cnblogs.com/fsjohnhuang/p/9753554.html" rel="nofollow noreferrer" target="_blank">https://www.cnblogs.com/fsjoh...</a> ^_^&#x80A5;&#x4ED4;John</p><h2 id="articleHeader12">&#x53C2;&#x8003;</h2><p><a href="https://www.xuebuyuan.com/757567.html" rel="nofollow noreferrer" target="_blank">https://www.xuebuyuan.com/757...</a><br><a href="https://www.zhangxinxu.com/wordpress/2010/01/%E9%A1%B5%E9%9D%A2%E5%8F%AF%E7%94%A8%E6%80%A7%E4%B9%8Boutline%E8%BD%AE%E5%BB%93%E5%A4%96%E6%A1%86%E7%9A%84%E4%B8%80%E4%BA%9B%E7%A0%94%E7%A9%B6/" rel="nofollow noreferrer" target="_blank">https://www.zhangxinxu.com/wo...</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

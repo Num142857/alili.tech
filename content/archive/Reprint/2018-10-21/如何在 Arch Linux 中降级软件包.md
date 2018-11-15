@@ -1,12 +1,12 @@
 ---
 title: 如何在 Arch Linux 中降级软件包
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dd1d712b
+slug: dd1d712b
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-arch-linux-中降级软件包"></a>如何在 Arch Linux 中降级软件包</h1>
 <p>正如你了解的，Arch Linux 是一个滚动版本和 DIY（自己动手）发行版。因此，在经常更新时必须小心，特别是从 AUR 等第三方存储库安装或更新软件包。如果你不知道自己在做什么，那么最终很可能会破坏系统。你有责任使 Arch Linux 更加稳定。但是，我们都会犯错误，要时刻小心是很难的。有时候，你想更新到最新的版本，但你可能会被破损的包卡住。不要惊慌！在这种情况下，你可以简单地回滚到旧的稳定包。这个简短的教程描述了如何在 Arch Linux 中以及它的变体，如 Antergos，Manjaro Linux 中降级一个包，</p>
@@ -116,7 +116,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/how-to-downgrade-a-package-in-arch-linux)

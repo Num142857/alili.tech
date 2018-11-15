@@ -1,12 +1,12 @@
 ---
 title: vue组件通信全面总结
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 109c9ece
+slug: 109c9ece
 date: 2018-11-05 02:30:11
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x5199;&#x5728;&#x524D;&#x9762;</h2><p>&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x662F;&#x662F;&#x5B9E;&#x9645;&#x5F00;&#x53D1;&#x4E2D;&#x975E;&#x5E38;&#x5E38;&#x7528;&#x7684;&#x4E00;&#x73AF;&#xFF0C;&#x5982;&#x4F55;&#x4F7F;&#x7528;&#x5BF9;&#x9879;&#x76EE;&#x6574;&#x4F53;&#x8BBE;&#x8BA1;&#x3001;&#x5F00;&#x53D1;&#x3001;&#x89C4;&#x8303;&#x90FD;&#x6709;&#x5F88;&#x5B9E;&#x9645;&#x7684;&#x7684;&#x4F5C;&#x7528;&#xFF0C;&#x6211;&#x5728;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x4E2D;&#x5BF9;&#x6B64;&#x6DF1;&#x6709;&#x4F53;&#x4F1A;&#xFF0C;&#x603B;&#x7ED3;&#x4E0B;vue&#x7EC4;&#x4EF6;&#x95F4;&#x901A;&#x4FE1;&#x7684;&#x51E0;&#x79CD;&#x65B9;&#x5F0F;&#xFF0C;&#x8BA8;&#x8BBA;&#x4E0B;&#x5404;&#x81EA;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;</p><hr><p><strong>&#x6587;&#x7AE0;&#x5BF9;&#x76F8;&#x5173;&#x573A;&#x666F;&#x9884;&#x89C8;</strong></p><ul><li>&#x7236;-&gt;&#x5B50;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;</li><li>&#x5B50;-&gt;&#x7236;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;</li><li>&#x5144;&#x5F1F;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;</li><li>&#x7EC4;&#x4EF6;&#x6DF1;&#x5C42;&#x5D4C;&#x5957;&#xFF0C;&#x7956;&#x5148;&#x7EC4;&#x4EF6;&#x4E0E;&#x5B50;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;</li></ul><p><strong>&#x6587;&#x7AE0;&#x76F8;&#x5173;&#x6280;&#x672F;&#x9884;&#x89C8;</strong><br>prop&#x3001;emit&#x3001;bus&#x3001;vuex&#x3001;&#x8DEF;&#x7531;URL&#x3001;provide/inject&#x3001;<strong>$attrs/inheritAttrs</strong></p><p><em>&#x6CE8;&#xFF1A;&#x4EE5;&#x4E0B;&#x4ECB;&#x7ECD;&#x4E0E;&#x4EE3;&#x7801;&#x73AF;&#x5883;&#xFF1A;<strong>vue2.0+&#x3001;vue-cli2</strong></em></p><h2 id="articleHeader1">&#x7236;-&gt;&#x5B50;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x6570;&#x636E;&#x4F20;&#x9012;</h2><p>&#x7236;&#x5B50;&#x7EC4;&#x4EF6;&#x7684;&#x901A;&#x4FE1;&#x662F;&#x5F00;&#x53D1;&#x662F;&#x6700;&#x5E38;&#x7528;&#x7684;&#x4E5F;&#x662F;&#x6700;&#x91CD;&#x8981;&#x7684;&#xFF0C;&#x4F60;&#x4EEC;&#x4E00;&#x5B9A;&#x77E5;&#x9053;&#x7236;&#x5B50;&#x901A;&#x4FE1;&#x662F;&#x7528;prop&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;,&#x50CF;&#x8FD9;&#x6837;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="//&#x7236;&#x7EC4;&#x4EF6;,&#x4F20;&#x9012;&#x6570;&#x636E;
 &lt;editor :inputIndex=&quot;data&quot; :inputName=&quot;&#x738B;&#x6587;&#x5065;&quot;&gt;&lt;/editor&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs javascript"><code><span class="hljs-comment">//&#x7236;&#x7EC4;&#x4EF6;,&#x4F20;&#x9012;&#x6570;&#x636E;</span>
 &lt;editor :inputIndex=<span class="hljs-string">&quot;data&quot;</span> :inputName=<span class="hljs-string">&quot;&#x738B;&#x6587;&#x5065;&quot;</span>&gt;<span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">editor</span>&gt;</span></span></code></pre><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="//&#x5B50;&#x7EC4;&#x4EF6;&#xFF0C;&#x63A5;&#x53D7;&#x6570;&#x636E;&#xFF0C;&#x5B9A;&#x4E49;&#x4F20;&#x9012;&#x6570;&#x636E;&#x7684;&#x7C7B;&#x578B;type&#x4E0E;&#x9ED8;&#x8BA4;&#x503C;default
@@ -180,7 +180,7 @@ export default {
 &lt;/script&gt;
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs htmlbars"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>
-    &lt;<span class="hljs-attr">h1</span>&gt;</span></span><span class="hljs-template-variable">{{<span class="hljs-built_in">input</span>}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+    &lt;<span class="hljs-attr">h1</span>&gt;</span></span><span class="hljs-template-variable">"{{"<span class="hljs-built_in">input</span>"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">child2</span> <span class="hljs-attr">:child</span>=<span class="hljs-string">&quot;child&quot;</span> <span class="hljs-attr">v-bind</span>=<span class="hljs-string">&apos;$attrs&apos;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">child2</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
@@ -222,7 +222,7 @@ export default {
 &lt;/script&gt;
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-    </span><span class="hljs-template-variable">{{$attrs.output.name}}</span><span class="xml">
+    </span><span class="hljs-template-variable">"{{"$attrs.output.name"}}"</span><span class="xml">
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
@@ -234,7 +234,7 @@ export default {
 }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </span></code></pre><p>&#x770B;&#x8D77;&#x6765;&#x8FD8;&#x662F;&#x633A;&#x597D;&#x7528;&#x7684;&#xFF0C;&#x8FD8;&#x6CA1;&#x5728;&#x5177;&#x4F53;&#x9879;&#x76EE;&#x4E2D;&#x7528;&#x8FC7;&#xFF0C;&#x76F8;&#x4FE1;&#x4E0D;&#x4E45;&#x4F1A;&#x7528;&#x5230;&#x7684;&#xFF0C;&#x5982;&#x679C;&#x8FD8;&#x6709;&#x4EC0;&#x4E48;&#x95EE;&#x9898;&#x6B22;&#x8FCE;&#x7559;&#x8A00;</p><p><strong>$children/$parent</strong><br>&#x5F53;&#x7136;&#x4F60;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7528;$children/$parent&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x7EC4;&#x4EF6;&#x7684;&#x5B50;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x6216;&#x7236;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#xFF08;&#x5982;&#x679C;&#x6709;&#x7684;&#x8BDD;&#xFF09;&#xFF0C;&#x4E5F;&#x80FD;&#x5BF9;&#x5176;&#x505A;&#x4E9B;&#x64CD;&#x4F5C;&#xFF0C;&#x4E0D;&#x8FC7;&#x5E76;&#x4E0D;&#x63A8;&#x8350;&#x8FD9;&#x4E48;&#x505A;<br>&#x4F60;&#x8FD8;&#x53EF;&#x4EE5;&#x653E;&#x5230;localStorage&#xFF0C;sessionStorage&#xFF0C;cooikes&#x4E4B;&#x7C7B;&#x7684;&#x5B58;&#x5728;&#x672C;&#x5730;&#x5F53;&#x7136;&#x4E5F;&#x80FD;&#x505A;&#x5230;&#x7EC4;&#x4EF6;&#x95F4;&#x7684;&#x901A;&#x4FE1;</p><h2 id="articleHeader6">&#x5199;&#x5728;&#x7ED3;&#x5C3E;</h2><p>&#x6587;&#x7AE0;&#x53EA;&#x662F;&#x6574;&#x7406;&#x4E00;&#x4E0B;&#x7B14;&#x8BB0;&#xFF0C;&#x8C08;&#x4E00;&#x8C08;&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;&#x548C;&#x7ECF;&#x9A8C;&#xFF0C;&#x5E76;&#x6CA1;&#x6709;&#x4E25;&#x8C28;&#x7684;&#x63AA;&#x8F9E;&#x548C;&#x8BE6;&#x7EC6;&#x7684;&#x8FC7;&#x7A0B;&#xFF0C;&#x5982;&#x6709;&#x9519;&#x8BEF;&#x671B;&#x6307;&#x6B63;</p><hr><p>&#x539F;&#x521B;&#x6587;&#x7AE0;&#x8F6C;&#x8F7D;&#x5F15;&#x7528;&#x8BF7;&#x6CE8;&#x660E;&#x539F;&#x6587;&#x94FE;&#x63A5;<a href="http://blog.wwenj.com/index.php/archives/69/" rel="nofollow noreferrer" target="_blank"></a><a href="http://blog.wwenj.com/index.php/archives/69/" rel="nofollow noreferrer" target="_blank">http://blog.wwenj.com/index.p...</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

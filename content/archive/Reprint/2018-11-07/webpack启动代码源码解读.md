@@ -1,12 +1,12 @@
 ---
 title: webpack启动代码源码解读
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 510918a4
+slug: 510918a4
 date: 2018-11-07 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <ul><li><h3 id="articleHeader0">&#x524D;&#x8A00;</h3></li></ul><p>&#x867D;&#x7136;&#x6BCF;&#x5929;&#x90FD;&#x5728;&#x7528;webpack&#xFF0C;&#x4F46;&#x4E00;&#x76F4;&#x89C9;&#x5F97;&#x9694;&#x7740;&#x4E00;&#x5C42;&#x795E;&#x79D8;&#x7684;&#x9762;&#x7EB1;&#xFF0C;&#x5BF9;&#x5B83;&#x7684;&#x5DE5;&#x4F5C;&#x539F;&#x7406;&#x4E00;&#x76F4;&#x4F3C;&#x61C2;&#x975E;&#x61C2;&#x3002;&#x5B83;&#x662F;&#x5982;&#x4F55;&#x7528;&#x539F;&#x751F;JS&#x5B9E;&#x73B0;&#x6A21;&#x5757;&#x95F4;&#x7684;&#x4F9D;&#x8D56;&#x7BA1;&#x7406;&#x7684;&#x5462;&#xFF1F;&#x5BF9;&#x4E8E;&#x6309;&#x9700;&#x52A0;&#x8F7D;&#x7684;&#x6A21;&#x5757;&#xFF0C;&#x5B83;&#x662F;&#x901A;&#x8FC7;&#x4EC0;&#x4E48;&#x65B9;&#x5F0F;&#x52A8;&#x6001;&#x83B7;&#x53D6;&#x7684;&#xFF1F;&#x6253;&#x5305;&#x5B8C;&#x6210;&#x540E;&#x90A3;&#x4E00;&#x5806;<code>/******/</code>&#x5F00;&#x5934;&#x7684;&#x4EE3;&#x7801;&#x662F;&#x7528;&#x6765;&#x5E72;&#x4EC0;&#x4E48;&#x7684;&#xFF1F;&#x672C;&#x6587;&#x5C06;&#x56F4;&#x7ED5;&#x4EE5;&#x4E0A;3&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x5BF9;&#x7167;&#x7740;&#x6E90;&#x7801;&#x7ED9;&#x51FA;&#x89E3;&#x7B54;&#x3002;</p><p>&#x5982;&#x679C;&#x4F60;&#x5BF9;webpack&#x7684;&#x914D;&#x7F6E;&#x8C03;&#x4F18;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x770B;&#x6211;&#x4E4B;&#x524D;&#x5199;&#x7684;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#xFF1A;<a href="https://segmentfault.com/a/1190000016484002?_ea=4565036">webpack&#x8C03;&#x4F18;&#x603B;&#x7ED3;</a></p><ul><li><h3 id="articleHeader1">&#x6A21;&#x5757;&#x7BA1;&#x7406;</h3></li></ul><p>&#x5148;&#x5199;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;JS&#x6587;&#x4EF6;&#xFF0C;&#x770B;&#x770B;webpack&#x6253;&#x5305;&#x540E;&#x4F1A;&#x662F;&#x4EC0;&#x4E48;&#x6837;&#x5B50;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="// main.js
 console.log(&apos;Hello Dickens&apos;);
 
@@ -516,7 +516,7 @@ import(&apos;./logger&apos;).then(logger =&gt; {
         }
     })
 ]);</code></pre><p>&#x4EE3;&#x7801;&#x975E;&#x5E38;&#x597D;&#x7406;&#x89E3;&#xFF0C;&#x52A0;&#x8F7D;&#x6210;&#x529F;&#x540E;&#x7ACB;&#x5373;&#x8C03;&#x7528;&#x4E0A;&#x6587;&#x63D0;&#x5230;&#x7684;<code>webpackJsonp</code>&#x65B9;&#x6CD5;&#xFF0C;&#x5C06;chunkId&#x548C;&#x6A21;&#x5757;&#x5185;&#x5BB9;&#x4F20;&#x5165;&#x3002;&#x8FD9;&#x91CC;&#x8981;&#x5206;&#x6E05;2&#x4E2A;&#x6982;&#x5FF5;&#xFF0C;&#x4E00;&#x4E2A;&#x662F;chunkId&#xFF0C;&#x4E00;&#x4E2A;moduleId&#x3002;&#x8FD9;&#x4E2A;chunk&#x7684;chunkId&#x662F;0&#xFF0C;&#x91CC;&#x9762;&#x53EA;&#x5305;&#x542B;&#x4E00;&#x4E2A;module&#xFF0C;moduleId&#x662F;1&#x3002;&#x4E00;&#x4E2A;chunk&#x91CC;&#x9762;&#x53EF;&#x4EE5;&#x5305;&#x542B;&#x591A;&#x4E2A;module&#x3002;</p><ul><li><h3 id="articleHeader3">&#x603B;&#x7ED3;</h3></li></ul><p>&#x672C;&#x6587;&#x901A;&#x8FC7;&#x5206;&#x6790;webpack&#x751F;&#x6210;&#x7684;&#x542F;&#x52A8;&#x4EE3;&#x7801;&#xFF0C;&#x8BB2;&#x89E3;&#x4E86;webpack&#x662F;&#x5982;&#x4F55;&#x5B9E;&#x73B0;&#x6A21;&#x5757;&#x7BA1;&#x7406;&#x548C;&#x52A8;&#x6001;&#x52A0;&#x8F7D;&#x7684;&#xFF0C;&#x5E0C;&#x671B;&#x5BF9;&#x4F60;&#x6709;&#x6240;&#x5E2E;&#x52A9;&#x3002;</p><p>&#x5982;&#x679C;&#x4F60;&#x5BF9;webpack&#x7684;&#x914D;&#x7F6E;&#x8C03;&#x4F18;&#x611F;&#x5174;&#x8DA3;&#xFF0C;&#x53EF;&#x4EE5;&#x770B;&#x770B;&#x6211;&#x4E4B;&#x524D;&#x5199;&#x7684;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#xFF1A;<a href="https://segmentfault.com/a/1190000016484002?_ea=4565036" target="_blank">webpack&#x8C03;&#x4F18;&#x603B;&#x7ED3;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

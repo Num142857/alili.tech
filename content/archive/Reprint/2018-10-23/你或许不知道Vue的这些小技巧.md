@@ -1,12 +1,12 @@
 ---
 title: 你或许不知道Vue的这些小技巧
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d4881399
+slug: d4881399
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000015157249?w=950&amp;h=633" src="https://static.alili.tech/img/remote/1460000015157249?w=950&amp;h=633" alt="" title="" style="cursor: pointer; display: inline;"></span></p>
@@ -212,7 +212,7 @@ date: 2018-10-23 00:00:00
       <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="放进笔记"></span>
       </div>
       </div><pre class="hljs django"><code><span class="xml">    <span class="hljs-comment">&lt;!-- 在双花括号中 --&gt;</span>
-    </span><span class="hljs-template-variable">{{ message | filterTest }}</span><span class="xml">
+    </span><span class="hljs-template-variable">"{{" message | filterTest "}}"</span><span class="xml">
     <span class="hljs-comment">&lt;!-- 在 `v-bind` 中 --&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">:id</span>=<span class="hljs-string">"message | filterTest"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </span></code></pre>
@@ -311,13 +311,13 @@ date: 2018-10-23 00:00:00
       <div class="widget-codetool--inner">
       <span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="全选"></span>
       <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="    <div v-for=&quot;n in 5&quot;>
-        <span>这里会被渲染5次，渲染模板{{n}}</span>
+        <span>这里会被渲染5次，渲染模板{{n"}}"</span>
      </div>
 " title="" data-original-title="复制"></span>
       <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="放进笔记"></span>
       </div>
       </div><pre class="hljs django"><code><span class="xml">    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">"n in 5"</span>&gt;</span>
-        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>这里会被渲染5次，渲染模板</span><span class="hljs-template-variable">{{n}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>这里会被渲染5次，渲染模板</span><span class="hljs-template-variable">"{{"n"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
      <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 </span></code></pre>
 <p><strong>v-if尽量不要与v-for在同一节点使用</strong>:</p>
@@ -576,7 +576,7 @@ date: 2018-10-23 00:00:00
 <p><a href="https://cn.vuejs.org/v2/api/" rel="nofollow noreferrer" target="_blank">Vue Api文档</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

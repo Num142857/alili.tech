@@ -1,12 +1,12 @@
 ---
 title: 离屏Canvas — 使用Web Worker提高你的Canvas运行速度
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e116eb40
+slug: e116eb40
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>现在因为有了离屏Canvas，你可以不用在你的主线程中绘制图像了！</p>
 <p><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/canvas">Canvas</a> 是一个非常受欢迎的表现方式，同时也是WebGL的入口。它能绘制图形，图片，展示动画，甚至是处理视频内容。它经常被用来在富媒体web应用中创建炫酷的用户界面或者是制作在线（web）游戏。</p>
@@ -75,7 +75,7 @@ canvas.style = { width: <span class="hljs-number">0</span>, height: <span class=
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/offscreencanvas-speed-up-your-canvas-operations-with-a-web-worker](https://www.zcfy.cc/article/offscreencanvas-speed-up-your-canvas-operations-with-a-web-worker)

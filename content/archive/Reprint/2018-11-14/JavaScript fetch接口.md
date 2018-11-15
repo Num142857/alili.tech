@@ -1,12 +1,12 @@
 ---
 title: JavaScript fetch接口
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6808d2da
+slug: 6808d2da
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1>JavaScript fetch&#x63A5;&#x53E3;</h1><p>&#x5982;&#x679C;&#x770B;&#x7F51;&#x4E0A;&#x7684;fetch&#x6559;&#x7A0B;&#xFF0C;&#x4F1A;&#x9996;&#x5148;&#x5BF9;&#x6BD4;XMLHttpRequest&#x548C;fetch&#x7684;&#x4F18;&#x52A3;&#xFF0C;&#x7136;&#x540E;&#x5F15;&#x51FA;&#x4E00;&#x5806;&#x770B;&#x4E86;&#x5F88;&#x5FEB;&#x4F1A;&#x5FD8;&#x8BB0;&#x7684;&#x5185;&#x5BB9;(&#x672C;&#x4EBA;&#x8BB0;&#x6027;&#x4E0D;&#x597D;)&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x6211;&#x5199;&#x4E00;&#x7BC7;&#x5173;&#x4E8E;fetch&#x7684;&#x6587;&#x7AE0;&#xFF0C;&#x4E3A;&#x4E86;&#x81EA;&#x5DF1;&#x770B;&#x7740;&#x65B9;&#x4FBF;&#xFF0C;&#x6BD5;&#x7ADF;&#x5DE5;&#x4F5C;&#x4E2D;&#x7528;&#x5230;&#x7684;&#x4E5F;&#x5C31;&#x662F;&#x4E00;&#x4E9B;&#x5F88;&#x57FA;&#x7840;&#x7684;&#x70B9;&#x800C;&#x5DF2;&#x3002;</p><p>fetch&#xFF0C;&#x8BF4;&#x767D;&#x4E86;&#xFF0C;&#x5C31;&#x662F;XMLHttpRequest&#x7684;&#x4E00;&#x79CD;&#x66FF;&#x4EE3;&#x65B9;&#x6848;&#x3002;&#x5982;&#x679C;&#x6709;&#x4EBA;&#x95EE;&#x4F60;&#xFF0C;&#x9664;&#x4E86;Ajax&#x83B7;&#x53D6;&#x540E;&#x53F0;&#x6570;&#x636E;&#x4E4B;&#x5916;&#xFF0C;&#x8FD8;&#x6709;&#x6CA1;&#x6709;&#x5176;&#x4ED6;&#x7684;&#x66FF;&#x4EE3;&#x65B9;&#x6848;&#xFF1F;</p><p>&#x8FD9;&#x662F;&#x4F60;&#x5C31;&#x53EF;&#x4EE5;&#x56DE;&#x7B54;&#xFF0C;<strong>&#x9664;&#x4E86;XMLHttpRequest&#x5BF9;&#x8C61;&#x6765;&#x83B7;&#x53D6;&#x540E;&#x53F0;&#x7684;&#x6570;&#x636E;&#x4E4B;&#x5916;&#xFF0C;&#x8FD8;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;&#x4E00;&#x79CD;&#x66F4;&#x4F18;&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;fetch&#x3002;</strong></p><h2>fetch&#x7684;&#x6848;&#x4F8B;</h2><h3>&#x4E0B;&#x9762;&#x6211;&#x4EEC;&#x6765;&#x5199;&#x7B2C;&#x4E00;&#x4E2A;fetch&#x83B7;&#x53D6;&#x540E;&#x7AEF;&#x6570;&#x636E;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</h3><pre><code>// &#x901A;&#x8FC7;fetch&#x83B7;&#x53D6;&#x767E;&#x5EA6;&#x7684;&#x9519;&#x8BEF;&#x63D0;&#x793A;&#x9875;&#x9762;
 fetch(&apos;https://www.baidu.com/search/error.html&apos;) // &#x8FD4;&#x56DE;&#x4E00;&#x4E2A;Promise&#x5BF9;&#x8C61;
   .then((res)=&gt;{
@@ -87,7 +87,7 @@ fetch(&apos;https://www.baidu.com/search/error.html&apos;, {
   .then((res)=&gt;{
     console.log(res)
   })</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

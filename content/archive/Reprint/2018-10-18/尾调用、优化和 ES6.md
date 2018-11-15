@@ -1,12 +1,12 @@
 ---
 title: 尾调用、优化和 ES6
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c15585ca
+slug: c15585ca
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#尾调用优化和-es6"></a>尾调用、优化和 ES6</h1>
 <p>在探秘“栈”的倒数第二篇文章中，我们提到了尾调用tail call、编译优化、以及新发布的 JavaScript 上合理尾调用proper tail call。</p>
@@ -120,7 +120,7 @@ date: 2018-10-18 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/tail-calls-optimization-and-es6](https://www.zcfy.cc/article/tail-calls-optimization-and-es6)

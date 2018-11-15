@@ -1,12 +1,12 @@
 ---
 title: '前端每日实战：153# 视频演示如何用 CSS 和 VanillaJS 创作一组 tooltip 提示框'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 783eb983
+slug: 783eb983
 date: 2018-11-05 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/bVbh12C?w=400&amp;h=303" src="https://static.alili.tech/img/bVbh12C?w=400&amp;h=303" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader0">&#x6548;&#x679C;&#x9884;&#x89C8;</h2><p>&#x6309;&#x4E0B;&#x53F3;&#x4FA7;&#x7684;&#x201C;&#x70B9;&#x51FB;&#x9884;&#x89C8;&#x201D;&#x6309;&#x94AE;&#x53EF;&#x4EE5;&#x5728;&#x5F53;&#x524D;&#x9875;&#x9762;&#x9884;&#x89C8;&#xFF0C;&#x70B9;&#x51FB;&#x94FE;&#x63A5;&#x53EF;&#x4EE5;&#x5168;&#x5C4F;&#x9884;&#x89C8;&#x3002;</p><p><a href="https://codepen.io/comehope/pen/rqyoYY" rel="nofollow noreferrer" target="_blank">https://codepen.io/comehope/pen/rqyoYY</a><button class="btn btn-xs btn-default ml10 preview" data-url="comehope/pen/rqyoYY" data-typeid="3">&#x70B9;&#x51FB;&#x9884;&#x89C8;</button></p><h2 id="articleHeader1">&#x53EF;&#x4EA4;&#x4E92;&#x89C6;&#x9891;</h2><p>&#x6B64;&#x89C6;&#x9891;&#x662F;&#x53EF;&#x4EE5;&#x4EA4;&#x4E92;&#x7684;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x968F;&#x65F6;&#x6682;&#x505C;&#x89C6;&#x9891;&#xFF0C;&#x7F16;&#x8F91;&#x89C6;&#x9891;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x3002;</p><p>&#x8BF7;&#x7528; chrome, safari, edge &#x6253;&#x5F00;&#x89C2;&#x770B;&#x3002;</p><p><a href="https://scrimba.com/p/pEgDAM/c6p2Es2" rel="nofollow noreferrer" target="_blank">https://scrimba.com/p/pEgDAM/c6p2Es2</a></p><h2 id="articleHeader2">&#x6E90;&#x4EE3;&#x7801;&#x4E0B;&#x8F7D;</h2><p>&#x6BCF;&#x65E5;&#x524D;&#x7AEF;&#x5B9E;&#x6218;&#x7CFB;&#x5217;&#x7684;&#x5168;&#x90E8;&#x6E90;&#x4EE3;&#x7801;&#x8BF7;&#x4ECE; github &#x4E0B;&#x8F7D;&#xFF1A;</p><p><a href="https://github.com/comehope/front-end-daily-challenges" rel="nofollow noreferrer" target="_blank">https://github.com/comehope/front-end-daily-challenges</a></p><h2 id="articleHeader3">&#x4EE3;&#x7801;&#x89E3;&#x8BFB;</h2><p>&#x5B9A;&#x4E49; dom&#xFF0C;&#x5BB9;&#x5668;&#x4E2D;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x540D;&#x4E3A; <code>.emoji</code> &#x7684;&#x5B50;&#x5BB9;&#x5668;&#xFF0C;&#x4EE3;&#x8868;&#x4E00;&#x4E2A;&#x5934;&#x50CF;&#xFF0C;&#x5B83;&#x7684;&#x5B50;&#x5143;&#x7D20; <code>eye left</code>&#x3001;<code>eye right</code>&#x3001;<code>mouth</code> &#x5206;&#x522B;&#x4EE3;&#x8868;&#x5DE6;&#x773C;&#x3001;&#x53F3;&#x773C;&#x548C;&#x5634;&#x5DF4;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;section class=&quot;container&quot;&gt;
     &lt;div class=&quot;emoji&quot;&gt;
         &lt;span class=&quot;eye left&quot;&gt;&lt;/span&gt;
@@ -452,7 +452,7 @@ DIRECTIONS.forEach(<span class="hljs-function"><span class="hljs-params">directi
     <span class="hljs-attribute">visibility</span>: visible;
     <span class="hljs-attribute">filter</span>: <span class="hljs-built_in">opacity</span>(1);
 }</code></pre><p>&#x5927;&#x529F;&#x544A;&#x6210;&#xFF01;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

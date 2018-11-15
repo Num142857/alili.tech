@@ -1,12 +1,12 @@
 ---
 title: 后端工程师必知必会的前端 css 知识
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 27056ced
+slug: 27056ced
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x540E;&#x7AEF;&#x5DE5;&#x7A0B;&#x5E08;&#x867D;&#x7136;&#x5927;&#x90E8;&#x5206;&#x5DE5;&#x4F5C;&#x90FD;&#x662F;&#x8DDF;&#x670D;&#x52A1;&#x5668;&#x7F13;&#x5B58;&#x6570;&#x636E;&#x5E93;&#x6253;&#x4EA4;&#x9053;&#xFF0C;&#x4F46;&#x6709;&#x65F6;&#x4E5F;&#x9700;&#x8981;&#x5199;&#x4E00;&#x4E9B;&#x524D;&#x7AEF;&#x4EE3;&#x7801;&#x3002;</p><p>&#x6709;&#x4E9B;&#x516C;&#x53F8;&#x7684;OAM&#x540E;&#x53F0;&#x57FA;&#x672C;&#x662F;&#x7531;&#x540E;&#x7AEF;&#x5DE5;&#x7A0B;&#x5E08;&#x627F;&#x5305;&#x7684;&#xFF0C;&#x6240;&#x4EE5;&#x524D;&#x7AEF;&#x57FA;&#x7840;&#x77E5;&#x8BC6;&#x662F;&#x5FC5;&#x987B;&#x8981;&#x638C;&#x63E1;&#x7684;&#xFF1B;&#x5C31;&#x7B97;&#x5F00;&#x53D1;&#x4E2D;&#x4E0D;&#x76F4;&#x63A5;&#x5199;&#x524D;&#x6BB5;&#x4EE3;&#x7801;&#xFF0C;&#x4E86;&#x89E3;&#x524D;&#x7AEF;&#x77E5;&#x8BC6;&#x80FD;&#x8BA9;&#x6211;&#x4EEC;&#x8DDF;&#x524D;&#x7AEF;&#x5C0F;&#x4F19;&#x4F34;&#x66F4;&#x6109;&#x5FEB;&#x7684;&#x4EA4;&#x6D41;&#x3002;</p><p>Js&#x5BF9;&#x4E8E;&#x540E;&#x7AEF;&#x5C0F;&#x4F19;&#x4F34;&#x6765;&#x8BF4;&#x4E0D;&#x7B97;&#x96BE;&#x70B9;&#xFF0C;&#x80FD;&#x591F;&#x987A;&#x624B;&#x7684;&#x4F7F;&#x7528;&#xFF08;&#x5F53;&#x7136;&#x5341;&#x5206;&#x4F9D;&#x8D56; jQuery&#xFF09;&#xFF0C;&#x6D89;&#x53CA;&#x5230; css &#x5C31;&#x4F1A;&#x6709;&#x70B9;&#x61F5;&#x903C;&#x4E86;&#x3002;</p><p>&#x540E;&#x53F0;&#x5F00;&#x53D1;&#x4E00;&#x822C;&#x4E0D;&#x4F1A;&#x7528;&#x5230;&#x592A;&#x96BE;&#x7684;&#x524D;&#x7AEF;&#x6280;&#x5DE7;&#xFF0C;&#x80FD;&#x591F;&#x5728;&#x5B8C;&#x6210;&#x6B63;&#x786E;&#x5E03;&#x5C40;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x518D;&#x7A0D;&#x5FAE;&#x505A;&#x4E00;&#x4E9B;&#x7F8E;&#x5316;&#xFF0C;&#x5C31;&#x5DF2;&#x7ECF;&#x591F;&#x7528;&#x4E86;&#x3002;</p><p>&#x4E0B;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x6709;&#x4E00;&#x4E9B;&#x4EE3;&#x7801;&#x6837;&#x4F8B;&#xFF0C;&#x8FD9;&#x662F;&#x4E00;&#x90E8;&#x5206;&#x524D;&#x7F6E;&#x7684; css &#x6837;&#x5F0F;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=".green {
     background-color: lightseagreen;
 }
@@ -394,7 +394,7 @@ date: 2018-11-08 02:30:09
 
 &lt;<span class="hljs-keyword">div</span> <span class="hljs-built_in">class</span>=<span class="hljs-string">&quot;red&quot;</span> style=<span class="hljs-string">&quot;border-top-left-radius: 50px; border-bottom-right-radius: 50px; width: 100px; height: 50px&quot;</span>&gt;
 &lt;/<span class="hljs-keyword">div</span>&gt;</code></pre><p>&#x6548;&#x679C;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbhgFO?w=150&amp;h=133" src="https://static.alili.tech/img/bVbhgFO?w=150&amp;h=133" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader5">&#x629B;&#x5F03;jQuery&#xFF0C;&#x62E5;&#x62B1; vue</h2><p><strong>&#x81F3;&#x5C11;&#x80FD;&#x63D0;&#x9AD8;&#x4E00;&#x500D;&#x7684;&#x5DE5;&#x4F5C;&#x6548;&#x7387;&#x548C;N&#x500D;&#x7684;&#x53EF;&#x7EF4;&#x62A4;&#x6027;&#x3002;</strong></p><p>&#x4EE5;&#x4E0A;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

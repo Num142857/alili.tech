@@ -1,12 +1,12 @@
 ---
 title: 6 个可以帮你理解互联网工作原理的 RFC
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: efd6a16f
+slug: efd6a16f
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#6-个可以帮你理解互联网工作原理的-rfc"></a>6 个可以帮你理解互联网工作原理的 RFC</h1>
 <blockquote>
@@ -43,7 +43,7 @@ date: 2018-10-20 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/6-rfcs-for-understanding-how-the-internet-works](https://www.zcfy.cc/article/6-rfcs-for-understanding-how-the-internet-works)

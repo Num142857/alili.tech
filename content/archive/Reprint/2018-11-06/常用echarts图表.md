@@ -1,12 +1,12 @@
 ---
 title: 常用echarts图表
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b9c36d8a
+slug: b9c36d8a
 date: 2018-11-06 15:28:30
 ---
 
-{{% raw %}}
+{{< raw >}}
 <div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="//&#x672C;&#x6587;&#x4EE3;&#x7801;&#x57FA;&#x4E8E;ehcarts4.0&#x5F00;&#x53D1;
 //https://cdn.bootcss.com/echarts/4.0.0/echarts.min.js
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs crystal"><code>/<span class="hljs-regexp">/&#x672C;&#x6587;&#x4EE3;&#x7801;&#x57FA;&#x4E8E;ehcarts4.0&#x5F00;&#x53D1;
@@ -784,7 +784,7 @@ var option = {
           <span class="hljs-string">}</span>
       <span class="hljs-string">]</span>
   <span class="hljs-string">}</span></code></pre><h3 id="articleHeader4">&#x521B;&#x5EFA;&#x5B9E;&#x4F8B;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var chart = echarts.init(document.getElementById(&apos;chartBox&apos;));" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs dart"><code style="word-break:break-word;white-space:initial"><span class="hljs-keyword">var</span> chart = echarts.init(<span class="hljs-built_in">document</span>.getElementById(<span class="hljs-string">&apos;chartBox&apos;</span>));</code></pre><h3 id="articleHeader5">&#x8BBE;&#x7F6E;&#x56FE;&#x8868;&#x5B9E;&#x4F8B;&#x7684;&#x914D;&#x7F6E;&#x9879;</h3><blockquote>&#x8BBE;&#x7F6E;&#x56FE;&#x8868;&#x5B9E;&#x4F8B;&#x7684;&#x914D;&#x7F6E;&#x9879;&#x4EE5;&#x53CA;&#x6570;&#x636E;&#xFF0C;&#x4E07;&#x80FD;&#x63A5;&#x53E3;&#xFF0C;&#x6240;&#x6709;&#x53C2;&#x6570;&#x548C;&#x6570;&#x636E;&#x7684;&#x4FEE;&#x6539;&#x90FD;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;setOption&#x5B8C;&#x6210;&#xFF0C;ECharts &#x4F1A;&#x5408;&#x5E76;&#x65B0;&#x7684;&#x53C2;&#x6570;&#x548C;&#x6570;&#x636E;&#xFF0C;&#x7136;&#x540E;&#x5237;&#x65B0;&#x56FE;&#x8868;</blockquote><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="chart.setOption(option);" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs abnf"><code style="word-break:break-word;white-space:initial">chart.setOption(option)<span class="hljs-comment">;</span></code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

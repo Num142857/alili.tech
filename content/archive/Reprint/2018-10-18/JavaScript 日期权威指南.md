@@ -1,12 +1,12 @@
 ---
 title: JavaScript 日期权威指南
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fc1b6dd6
+slug: fc1b6dd6
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h2>简介</h2>
 <p>使用日期可以<em>complicated</em>。无论技术如何，开发人员都会感受到痛苦。</p>
@@ -247,7 +247,7 @@ date.setUTCMilliseconds(<span class="hljs-keyword">new</span><span class="hljs-t
 </code></pre><p>请记住，getTime（）返回的毫秒数，因此您需要在比较中考虑时间因素。2018年7月10日07:22:13 不等于2018年7月10日。在这种情况下，您可以使用setHours（0,0,0,0）重置时间。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/the-definitive-guide-to-javascript-dates](https://www.zcfy.cc/article/the-definitive-guide-to-javascript-dates)

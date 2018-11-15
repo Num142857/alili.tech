@@ -1,12 +1,12 @@
 ---
 title: ES6 系列之 WeakMap
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b5caf17c
+slug: b5caf17c
 date: 2018-10-27 02:30:17
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>&#x6211;&#x4EEC;&#x5148;&#x4ECE; WeakMap &#x7684;&#x7279;&#x6027;&#x8BF4;&#x8D77;&#xFF0C;&#x7136;&#x540E;&#x804A;&#x804A; WeakMap &#x7684;&#x4E00;&#x4E9B;&#x5E94;&#x7528;&#x573A;&#x666F;&#x3002;</p><h2 id="articleHeader1">&#x7279;&#x6027;</h2><h3 id="articleHeader2">1. WeakMap &#x53EA;&#x63A5;&#x53D7;&#x5BF9;&#x8C61;&#x4F5C;&#x4E3A;&#x952E;&#x540D;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const map = new WeakMap();
 map.set(1, 2);
 // TypeError: Invalid value used as weak map key
@@ -218,7 +218,7 @@ export default Person;" title="" data-original-title="&#x590D;&#x5236;"></span> 
 }
 
 <span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> Person;</code></pre><h2 id="articleHeader8">ES6 &#x7CFB;&#x5217;</h2><p>ES6 &#x7CFB;&#x5217;&#x76EE;&#x5F55;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/mqyqingfeng/Blog" rel="nofollow noreferrer" target="_blank">https://github.com/mqyqingfeng/Blog</a></p><p>ES6 &#x7CFB;&#x5217;&#x9884;&#x8BA1;&#x5199;&#x4E8C;&#x5341;&#x7BC7;&#x5DE6;&#x53F3;&#xFF0C;&#x65E8;&#x5728;&#x52A0;&#x6DF1; ES6 &#x90E8;&#x5206;&#x77E5;&#x8BC6;&#x70B9;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x91CD;&#x70B9;&#x8BB2;&#x89E3;&#x5757;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#x3001;&#x6807;&#x7B7E;&#x6A21;&#x677F;&#x3001;&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x3001;Symbol&#x3001;Set&#x3001;Map &#x4EE5;&#x53CA; Promise &#x7684;&#x6A21;&#x62DF;&#x5B9E;&#x73B0;&#x3001;&#x6A21;&#x5757;&#x52A0;&#x8F7D;&#x65B9;&#x6848;&#x3001;&#x5F02;&#x6B65;&#x5904;&#x7406;&#x7B49;&#x5185;&#x5BB9;&#x3002;</p><p>&#x5982;&#x679C;&#x6709;&#x9519;&#x8BEF;&#x6216;&#x8005;&#x4E0D;&#x4E25;&#x8C28;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x8BF7;&#x52A1;&#x5FC5;&#x7ED9;&#x4E88;&#x6307;&#x6B63;&#xFF0C;&#x5341;&#x5206;&#x611F;&#x8C22;&#x3002;&#x5982;&#x679C;&#x559C;&#x6B22;&#x6216;&#x8005;&#x6709;&#x6240;&#x542F;&#x53D1;&#xFF0C;&#x6B22;&#x8FCE; star&#xFF0C;&#x5BF9;&#x4F5C;&#x8005;&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x9F13;&#x52B1;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

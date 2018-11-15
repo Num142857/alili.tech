@@ -1,12 +1,12 @@
 ---
 title: vue权限路由实现方式总结
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 97e1d046
+slug: 97e1d046
 date: 2018-10-24 08:17:53
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">&#x4F7F;&#x7528;&#x5168;&#x5C40;&#x8DEF;&#x7531;&#x5B88;&#x536B;</h2>
@@ -781,7 +781,7 @@ export default {
 <p>&#x6BD4;&#x8F83;&#x63A8;&#x8350;&#x540E;&#x9762;&#x4E24;&#x79CD;&#x5B9E;&#x73B0;&#x65B9;&#x5F0F;&#x3002;</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

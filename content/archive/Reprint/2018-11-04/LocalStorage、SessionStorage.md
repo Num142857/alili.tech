@@ -1,12 +1,12 @@
 ---
 title: LocalStorage、SessionStorage
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 16707ed1
+slug: 16707ed1
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><code>window.sessionStorage</code>&#x548C;<code>window.localStorage</code>&#x63A5;&#x53E3;&#x7528;&#x4E8E;&#x811A;&#x672C;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x4FDD;&#x5B58;&#x6570;&#x636E;&#x3002;</p><h2 id="articleHeader0">LocalStorage</h2><h3 id="articleHeader1">&#x57FA;&#x672C;&#x4F7F;&#x7528;</h3><h4>&#x8BBE;&#x7F6E;</h4><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="window.sessionStorage.setItem(&apos;key&apos;, &apos;value&apos;);
 window.localStorage.setItem(&apos;key&apos;, &apos;value&apos;);" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs coffeescript"><code><span class="hljs-built_in">window</span>.sessionStorage.setItem(<span class="hljs-string">&apos;key&apos;</span>, <span class="hljs-string">&apos;value&apos;</span>);
 <span class="hljs-built_in">window</span>.localStorage.setItem(<span class="hljs-string">&apos;key&apos;</span>, <span class="hljs-string">&apos;value&apos;</span>);</code></pre><h4>&#x83B7;&#x53D6;</h4><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="window.sessionStorage.getItem(&apos;key&apos;)
@@ -26,7 +26,7 @@ window.localStorage.clear()" title="" data-original-title="&#x590D;&#x5236;"></s
     localStorage.setItem(<span class="hljs-string">&apos;&#x5DF2;&#x7ECF;&#x63D0;&#x793A;&#x4E86;&apos;</span>&#xFF0C; <span class="hljs-literal">true</span>)
  }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span></code></pre><h3 id="articleHeader4">&#x603B;&#x7ED3;</h3><ol><li>LocalStorage &#x8DDF; HTTP <strong>&#x65E0;&#x5173;</strong>(&#x800C;cookie&#x662F;http&#x7684;&#x4E00;&#x4E2A;&#x5934;)</li><li>&#x53D1;&#x9001;HTTP&#x8BF7;&#x6C42;&#x65F6; &#x4E0D;&#x4F1A;&#x5E26;&#x4E0A; LocalStorage &#x7684;&#x503C;</li><li>&#x53EA;&#x6709;&#x76F8;&#x540C;&#x57DF;&#x540D;&#x7684;&#x9875;&#x9762;&#x624D;&#x80FD;&#x4E92;&#x76F8;&#x8BFB;&#x53D6; LocalStorage&#xFF08;&#x6CA1;&#x6709;&#x540C;&#x6E90;&#x90A3;&#x4E48;&#x4E25;&#x683C;&#xFF09;</li><li>&#x6BCF;&#x4E2A;&#x57DF;&#x540D; localStorage &#x6700;&#x5927;&#x5B58;&#x50A8;&#x91CF;&#x4E3A; 5Mb &#x5DE6;&#x53F3;&#xFF08;&#x6BCF;&#x4E2A;&#x6D4F;&#x89C8;&#x5668;&#x4E0D;&#x4E00;&#x6837;&#xFF09;</li><li>&#x5E38;&#x7528;&#x573A;&#x666F;&#xFF1A;&#x8BB0;&#x5F55;&#x6709;&#x6CA1;&#x6709;&#x63D0;&#x793A;&#x8FC7;&#x7528;&#x6237;&#xFF08;&#x6CA1;&#x6709;&#x7528;&#x7684;&#x4FE1;&#x606F;&#xFF0C;&#x4E0D;&#x80FD;&#x8BB0;&#x5F55;&#x5BC6;&#x7801;&#xFF09;</li><li>LocalStorage &#x6C38;&#x4E45;&#x6709;&#x6548;&#xFF0C;&#x9664;&#x975E;&#x7528;&#x6237;&#x4E3B;&#x52A8;<strong>&#x6E05;&#x7406;&#x7F13;&#x5B58;</strong></li></ol><h2 id="articleHeader5">SessionStorage</h2><p>sessionStorage&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;&#x7528;&#x4E8E;&#x6D4F;&#x89C8;&#x5668;&#x7684;<strong>&#x4E00;&#x6B21;&#x4F1A;&#x8BDD;&#xFF08;session&#xFF09;</strong>&#xFF0C;<strong>&#x5F53;&#x4F1A;&#x8BDD;&#x7ED3;&#x675F;</strong>&#xFF08;&#x901A;&#x5E38;&#x662F;<strong>&#x7A97;&#x53E3;&#x5173;&#x95ED;</strong>&#xFF09;&#xFF0C;&#x6570;&#x636E;<strong>&#x88AB;&#x6E05;&#x7A7A;</strong>&#xFF1B;localStorage&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;&#x957F;&#x671F;&#x5B58;&#x5728;&#xFF0C;&#x4E0B;&#x4E00;&#x6B21;&#x8BBF;&#x95EE;&#x8BE5;&#x7F51;&#x7AD9;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7F51;&#x9875;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x8BFB;&#x53D6;&#x4EE5;&#x524D;&#x4FDD;&#x5B58;&#x7684;&#x6570;&#x636E;&#x3002;&#x9664;&#x4E86;&#x4FDD;&#x5B58;&#x671F;&#x9650;&#x7684;&#x957F;&#x77ED;&#x4E0D;&#x540C;&#xFF0C;&#x8FD9;&#x4E24;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;<strong>&#x5176;&#x4ED6;&#x65B9;&#x9762;&#x90FD;&#x4E00;&#x81F4;</strong>&#x3002;</p><p>&#x603B;&#x7ED3;&#xFF1A;SessionStorage &#x5728;<strong>&#x7528;&#x6237;&#x5173;&#x95ED;&#x9875;&#x9762;&#xFF08;&#x4F1A;&#x8BDD;&#x7ED3;&#x675F;&#xFF09;&#x540E;&#x5C31;&#x5931;&#x6548;</strong>&#x3002;&#x5176;&#x4F59;&#x7684;&#x548C;localstorage&#x4E00;&#x6837;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: '/dev/[u]random：对熵的解释'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ddc3e3dd
+slug: ddc3e3dd
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#devurandom对熵的解释"></a>/dev/[u]random：对熵的解释</h1>
 <h3><a href="#熵"></a>熵</h3>
@@ -74,7 +74,7 @@ Created symlink from /etc/systemd/system/multi-user.target.wants/haveged.service
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

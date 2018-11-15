@@ -1,12 +1,12 @@
 ---
 title: 浅谈使用 Vue 构建前端 10w+ 代码量的单页面应用开发底层
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9a0ea8f2
+slug: 9a0ea8f2
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000015472616?w=845&amp;h=622" src="https://static.alili.tech/img/remote/1460000015472616?w=845&amp;h=622" alt="" title="" style="cursor: pointer; display: inline;"></span></p>
@@ -1677,7 +1677,7 @@ export default {
 <p>(逃~)</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

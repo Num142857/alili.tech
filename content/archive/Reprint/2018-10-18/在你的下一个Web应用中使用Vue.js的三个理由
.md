@@ -1,12 +1,12 @@
 ---
 title: 在你的下一个Web应用中使用Vue.js的三个理由
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d3f22047
+slug: d3f22047
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h4>Vue.js是那么地易上手，它在提供了大量开箱即用的功能的同时也提供了良好的性能。请继续阅读以下事例及代码片段以便更加了解Vue.js。</h4>
 <p>选择一个JavaScript框架真是太难了——因为有太多的框架可以供我们使用，并且它们之间的差距并不是很明显。如果你认为生产率（“我开发起来有多快”）和性能（“我的网页性能如何”）是最重要的两点的话，就让我展示一下为什么Vue.js是一个非常可靠的构建网页以及SPA（单页Web应用）的框架吧。</p>
@@ -108,7 +108,7 @@ date: 2018-10-18 00:00:00
 <p>如果您有兴趣将内容管理系统集成到你的Vue.js项目中——以便非技术的作者和文章编辑可以在他们所熟悉的环境下编辑网站的内容的话——请查看Vue.js的官方完整文档以及插件库和启动项目等。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/3-reasons-to-use-vue-js-in-your-next-web-project](https://www.zcfy.cc/article/3-reasons-to-use-vue-js-in-your-next-web-project)

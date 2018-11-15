@@ -1,12 +1,12 @@
 ---
 title: 用原生 JS 实现 MVVM 框架1——观察者模式和数据监控
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4bb4bd4b
+slug: 4bb4bd4b
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x5728;&#x524D;&#x7AEF;&#x9875;&#x9762;&#x4E2D;&#xFF0C;&#x628A; Model &#x7528;&#x7EAF; JS &#x5BF9;&#x8C61;&#x8868;&#x793A;&#xFF0C;View &#x8D1F;&#x8D23;&#x663E;&#x793A;&#xFF0C;&#x4E24;&#x8005;&#x505A;&#x5230;&#x4E86;&#x6700;&#x5927;&#x5316;&#x7684;&#x5206;&#x79BB;</p><p>&#x628A; Model &#x548C; View &#x5173;&#x8054;&#x8D77;&#x6765;&#x7684;&#x5C31;&#x662F; ViewModel&#x3002;ViewModel &#x8D1F;&#x8D23;&#x628A; Model &#x7684;&#x6570;&#x636E;&#x540C;&#x6B65;&#x5230; View &#x4E2D;&#x663E;&#x793A;&#x51FA;&#x6765;&#xFF0C;&#x8FD8;&#x8D1F;&#x8D23;&#x628A; View &#x7684;&#x4FEE;&#x6539;&#x540C;&#x6B65;&#x56DE; Model&#x3002;</p><p>MVVM &#x7684;&#x8BBE;&#x8BA1;&#x601D;&#x60F3;&#xFF1A;&#x5173;&#x6CE8; Model &#x7684;&#x53D8;&#x5316;&#xFF0C;&#x8BA9; MVVM &#x6846;&#x67B6;&#x53BB;&#x81EA;&#x52A8;&#x66F4;&#x65B0; DOM &#x7684;&#x72B6;&#x6001;&#xFF0C;&#x4ECE;&#x800C;&#x628A;&#x5F00;&#x53D1;&#x8005;&#x4ECE;&#x64CD;&#x4F5C; DOM &#x7684;&#x7E41;&#x7410;&#x6B65;&#x9AA4;&#x4E2D;&#x89E3;&#x8131;&#x51FA;&#x6765;&#x3002;</p><p>&#x4E86;&#x89E3;&#x4E86; MVVM &#x601D;&#x60F3;&#x540E;&#xFF0C;&#x81EA;&#x5DF1;&#x7528;&#x539F;&#x751F; JS &#x5B9E;&#x73B0;&#x4E00;&#x4E2A; MVVM &#x6846;&#x67B6;&#x3002;</p><p>&#x5B9E;&#x73B0; MVVM &#x6846;&#x67B6;&#x524D;&#x5148;&#x6765;&#x770B;&#x51E0;&#x4E2A;&#x57FA;&#x672C;&#x7528;&#x6CD5;&#xFF1A;</p><h2>Object.defineProperty</h2><p>&#x666E;&#x901A;&#x58F0;&#x660E;&#x5BF9;&#x8C61;&#xFF0C;&#x5B9A;&#x4E49;&#x548C;&#x4FEE;&#x6539;&#x5C5E;&#x6027;</p><pre><code>let obj = {}
 obj.name = &apos;zhangsan&apos;
 obj.age = 20</code></pre><p>&#x7528;<code>ObjectdefineProperty</code>&#x58F0;&#x660E;&#x5BF9;&#x8C61;<br>&#x8BED;&#x6CD5;&#xFF1A;</p><ul><li><code>Object.defineProperty(obj,prop,descriptor)</code></li><li><code>obj</code>&#xFF1A;&#x8981;&#x5904;&#x7406;&#x7684;&#x76EE;&#x6807;&#x5BF9;&#x8C61;</li><li><code>prop</code>&#xFF1A;&#x8981;&#x5B9A;&#x4E49;&#x6216;&#x4FEE;&#x6539;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x540D;&#x79F0;</li><li><code>descriptor</code>&#xFF1A;&#x5C06;&#x88AB;&#x5B9A;&#x4E49;&#x6216;&#x4FEE;&#x6539;&#x7684;&#x5C5E;&#x6027;&#x63CF;&#x8FF0;&#x7B26;</li></ul><pre><code>let obj = {}
@@ -161,7 +161,7 @@ subject.notify()
 
 /****** &#x8F93;&#x51FA; *******/
 lisi update...</code></pre><p>MVVM &#x6846;&#x67B6;&#x7684;&#x5185;&#x90E8;&#x57FA;&#x672C;&#x539F;&#x7406;&#x5C31;&#x662F;&#x4E0A;&#x9762;&#x8FD9;&#x4E9B;&#xFF0C;&#x4E0B;&#x4E00;&#x7BC7;&#x7528;&#x4EE3;&#x7801;&#x5199;&#x4E00;&#x904D;&#x5B8C;&#x6574;&#x7684; MVVM &#x6846;&#x67B6;&#x3002;</p><p>&#x7528;&#x539F;&#x751F; JS &#x5B9E;&#x73B0; MVVM &#x6846;&#x67B6;MVVM &#x6846;&#x67B6;&#x7CFB;&#x5217;&#xFF1A;<br><a href="https://segmentfault.com/a/1190000016236834">&#x7528;&#x539F;&#x751F; JS &#x5B9E;&#x73B0; MVVM &#x6846;&#x67B6;2&#x2014;&#x2014;&#x5355;&#x5411;&#x7ED1;&#x5B9A;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

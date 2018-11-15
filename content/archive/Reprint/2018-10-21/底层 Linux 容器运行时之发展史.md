@@ -1,12 +1,12 @@
 ---
 title: 底层 Linux 容器运行时之发展史
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 7e3006e1
+slug: 7e3006e1
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#底层-linux-容器运行时之发展史"></a>底层 Linux 容器运行时之发展史</h1>
 <blockquote>
@@ -66,7 +66,7 @@ lrwxrwxrwx. 1<span class="hljs-title"> root</span> root 0<span class="hljs-title
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [底层 Linux 容器运行时之发展史](https://www.zcfy.cc/article/a-history-of-low-level-linux-container-runtimes)

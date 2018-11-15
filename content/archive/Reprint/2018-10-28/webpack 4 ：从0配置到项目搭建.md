@@ -1,12 +1,12 @@
 ---
 title: webpack 4 ：从0配置到项目搭建
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a7580a50
+slug: a7580a50
 date: 2018-10-28 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x672C;&#x6587;&#x9996;&#x53D1;<a href="https://phoebecodespace.github.io/2018/07/04/webpack-4-tutorial/" rel="nofollow noreferrer" target="_blank">&#x6211;&#x7684;&#x535A;&#x5BA2;</a><br>&#x672C;&#x6587;&#x6D89;&#x53CA;&#x5230;<a href="https://github.com/phoebeCodeSpace/webpack4-learning" rel="nofollow noreferrer" target="_blank">&#x76F8;&#x5173;&#x4EE3;&#x7801;</a></blockquote><p>webpack4&#x53D1;&#x5E03;&#x4EE5;&#x6765;&#xFF0C;&#x6211;&#x5199;&#x9879;&#x76EE;&#x90FD;&#x662F;&#x7528;&#x811A;&#x624B;&#x67B6;&#xFF0C;&#x5373;&#x4F7F;&#x518D;&#x7B80;&#x5355;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x771F;&#x7684;&#x662F;really shame&#x3002;&#x3002;&#x867D;&#x7136;&#x9053;&#x542C;&#x9014;&#x8BF4;&#x4E86;&#x5F88;&#x591A; webpack4 &#x7684;&#x7279;&#x6027;&#xFF0C;&#x5374;&#x6CA1;&#x6709;&#x5C1D;&#x8BD5;&#x8FC7;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x7ED9;&#x4EBA;&#x7684;&#x611F;&#x89C9;&#x5C31;&#x662F;&#xFF0C;em...&#x5F88;&#x96BE;&#x3002;&#x4F46;&#x662F;&#x4ECA;&#x5929;&#x6211;&#x4ECE;&#x6700;&#x7B80;&#x5355;&#x7684;&#x90E8;&#x5206;&#x5F00;&#x59CB;&#xFF0C;&#x4E00;&#x70B9;&#x70B9;&#x642D;&#x5EFA;&#x8D77;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#x3002;</p><h2 id="articleHeader0">0&#x914D;&#x7F6E;&#xFF0C;&#x914D;&#x7F6E;&#x4E86;&#x4EC0;&#x4E48;</h2><p>&#x8BA9;&#x6211;&#x4EEC;&#x4ECE;0&#x5F00;&#x59CB;&#xFF0C;&#x65B0;&#x5EFA;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#xFF0C;&#x5728;&#x7EC8;&#x7AEF;&#x6267;&#x884C;&#x4EE5;&#x4E0B;&#x8BED;&#x53E5;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="mkdir webpack-4-quickstart &amp;&amp; cd webpack-4-quickstart
 npm init -y
 npm i webpack --save-dev
@@ -502,7 +502,7 @@ module.exports = {
             ]
         }
     };</code></pre><p>&#x4E00;&#x4E2A;&#x7B80;&#x6613;&#x7684; vue-cli &#x4E5F;&#x642D;&#x5EFA;&#x5B8C;&#x6210;&#xFF0C;&#x5982;&#x679C;&#x4F60;&#x60F3;&#x770B;<a href="https://github.com/phoebeCodeSpace/webpack4-learning/blob/master/webpack-vue/webpack.config.js" rel="nofollow noreferrer" target="_blank">&#x5B8C;&#x6574;&#x4EE3;&#x7801;</a></p><h2 id="articleHeader13">&#x53C2;&#x8003;&#x8D44;&#x6E90;</h2><ul><li><a href="https://webpack.js.org/concepts/" rel="nofollow noreferrer" target="_blank">webpack documentation</a></li><li><a href="https://www.valentinog.com/blog/webpack-tutorial/" rel="nofollow noreferrer" target="_blank">Webpack 4 Tutorial: from 0 Conf to Production Mode</a></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

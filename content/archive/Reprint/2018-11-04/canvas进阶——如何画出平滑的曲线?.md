@@ -1,12 +1,12 @@
 ---
 title: canvas进阶——如何画出平滑的曲线?
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1e9c78b9
+slug: 1e9c78b9
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">&#x80CC;&#x666F;&#x6982;&#x8981;</h3><p>&#x76F8;&#x4FE1;&#x5927;&#x5BB6;&#x5E73;&#x65F6;&#x5728;&#x5B66;&#x4E60;canvas &#x6216; &#x9879;&#x76EE;&#x5F00;&#x53D1;&#x4E2D;&#x4F7F;&#x7528;canvas&#x7684;&#x65F6;&#x5019;&#x5E94;&#x8BE5;&#x90FD;&#x9047;&#x5230;&#x8FC7;&#x8FD9;&#x6837;&#x7684;&#x9700;&#x6C42;&#xFF1A;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A;&#x53EF;&#x4EE5;&#x4E66;&#x5199;&#x7684;&#x753B;&#x677F;&#x5C0F;&#x5DE5;&#x5177;&#x3002;</p><p>&#x55EF;&#xFF0C;&#x76F8;&#x4FE1;&#x8FD9;&#x5BF9;canvas&#x4F7F;&#x7528;&#x8F83;&#x719F;&#x7684;&#x7AE5;&#x978B;&#x6765;&#x8BF4;&#x4EC5;&#x4EC5;&#x53EA;&#x662F;&#x51E0;&#x5341;&#x884C;&#x4EE3;&#x7801;&#x5C31;&#x53EF;&#x4EE5;&#x641E;&#x6382;&#x7684;&#x4E8B;&#x60C5;&#xFF0C;&#x4EE5;&#x4E0B;demo&#x5C31;&#x662F;&#x4E00;&#x4E2A;&#x518D;&#x4E5F;&#x7B80;&#x5355;&#x4E0D;&#x8FC7;&#x7684;&#x4F8B;&#x5B50;&#x4E86;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -284,7 +284,7 @@ canvas.addEventListener(<span class="hljs-string">&apos;mouseout&apos;</span>, u
     ctx.stroke();
     ctx.closePath();
 }</code></pre><p>&#x5728;&#x539F;&#x6709;&#x7684;&#x57FA;&#x7840;&#x4E0A;&#xFF0C;&#x6211;&#x4EEC;&#x521B;&#x5EFA;&#x4E86;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;<code>points</code>&#x7528;&#x4E8E;&#x4FDD;&#x5B58;&#x4E4B;&#x524D;<code>mousemove</code>&#x4E8B;&#x4EF6;&#x4E2D;&#x9F20;&#x6807;&#x7ECF;&#x8FC7;&#x7684;&#x70B9;&#xFF0C;&#x6839;&#x636E;&#x8BE5;&#x7B97;&#x6CD5;&#x53EF;&#x77E5;&#x8981;&#x7ED8;&#x5236;&#x4E8C;&#x6B21;&#x8D1D;&#x585E;&#x5C14;&#x66F2;&#x7EBF;&#x8D77;&#x7801;&#x9700;&#x8981;3&#x4E2A;&#x70B9;&#x4EE5;&#x4E0A;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x53EA;&#x6709;&#x5728;<code>points</code>&#x4E2D;&#x7684;&#x70B9;&#x6570;&#x5927;&#x4E8E;3&#x65F6;&#x624D;&#x5F00;&#x59CB;&#x7ED8;&#x5236;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x7684;&#x5904;&#x7406;&#x5C31;&#x8DDF;&#x8BE5;&#x7B97;&#x6CD5;&#x4E00;&#x6BDB;&#x4E00;&#x6837;&#x4E86;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#x3002;</p><p>&#x4EE3;&#x7801;&#x66F4;&#x65B0;&#x540E;&#x6211;&#x4EEC;&#x7684;&#x66F2;&#x7EBF;&#x4E5F;&#x53D8;&#x5F97;&#x5E73;&#x6ED1;&#x4E86;&#x8BB8;&#x591A;&#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016672576?w=613&amp;h=366" src="https://static.alili.tech/img/remote/1460000016672576?w=613&amp;h=366" alt="howToDrawLineSmoothly_5" title="howToDrawLineSmoothly_5" style="cursor:pointer;display:inline"></span></p><p>&#x672C;&#x6587;&#x5230;&#x8FD9;&#x91CC;&#x5C31;&#x7ED3;&#x675F;&#x4E86;&#xFF0C;&#x5E0C;&#x671B;&#x5927;&#x5BB6;&#x5728;canvas&#x753B;&#x677F;&#x4E2D;&#x201C;&#x753B;&#x201D;&#x5F97;&#x6109;&#x5FEB;~&#x6211;&#x4EEC;&#x4E0B;&#x6B21;&#x518D;&#x89C1;&#xFF1A;&#xFF09;</p><p>&#x611F;&#x5174;&#x8DA3;&#x7684;&#x7AE5;&#x978B;&#x53EF;<a href="https://github.com/JS-Hao/blog" rel="nofollow noreferrer" target="_blank">&#x6233;&#x8FD9;&#x91CC;</a>&#x5173;&#x6CE8;&#x6211;&#x7684;&#x535A;&#x5BA2;&#xFF0C;&#x4EFB;&#x4F55;&#x65B0;&#x9C9C;&#x597D;&#x73A9;&#x7684;&#x535A;&#x6587;&#x5C06;&#x4F1A;&#x7B2C;&#x4E00;&#x65F6;&#x95F4;&#x5206;&#x4EAB;&#x5230;&#x8FD9;&#x513F;&#x54E6;~</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

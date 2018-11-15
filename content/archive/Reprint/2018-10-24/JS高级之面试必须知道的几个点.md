@@ -1,12 +1,12 @@
 ---
 title: JS高级之面试必须知道的几个点
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '1249e040'
+slug: '1249e040'
 date: 2018-10-24 08:17:53
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2>
@@ -870,7 +870,7 @@ obj.say();
 <p><a href="https://www.cnblogs.com/tugenhua0707/p/5198407.html" rel="nofollow noreferrer" target="_blank">https://www.cnblogs.com/tugen...</a><br><a href="https://www.cnblogs.com/humin/p/4556820.html#undefined" rel="nofollow noreferrer" target="_blank">https://www.cnblogs.com/humin...</a><br><a href="https://www.cnblogs.com/chengzp/p/prototype.html" rel="nofollow noreferrer" target="_blank">https://www.cnblogs.com/cheng...</a><br><a href="https://www.cnblogs.com/chengzp/p/prototype.html" rel="nofollow noreferrer" target="_blank">https://www.cnblogs.com/cheng...</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

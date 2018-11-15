@@ -1,12 +1,12 @@
 ---
 title: H5video 上传预览图片视频，设置、预览视频某秒的海报帧
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4214947a
+slug: 4214947a
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/bVbfZhC?w=206&amp;h=162" src="https://static.alili.tech/img/bVbfZhC?w=206&amp;h=162" alt="clipboard.png" title="clipboard.png"></span></p><p>&#x5F53;&#x4E00;&#x6536;&#x5230;&#x4E0A;&#x4F20;&#x56FE;&#x7247;&#x89C6;&#x9891;&#x5E76;&#x53EF;&#x4EE5;&#x52A8;&#x6001;&#x8BBE;&#x7F6E;&#x89C6;&#x9891;&#x663E;&#x793A;&#x7684;&#x6D77;&#x62A5;&#x5E27;&#x7684;&#x9700;&#x6C42;&#x65F6;&#xFF0C;&#x4E3B;&#x8981;&#x60F3;&#x7684;&#x662F;&#x600E;&#x4E48;&#x6837;&#x89E3;&#x6790;&#x89C6;&#x9891;&#x5E76;&#x83B7;&#x53D6;&#x4FDD;&#x5B58;&#x6BCF;&#x5E27;&#x7684;&#x56FE;&#x7247;&#xFF0C;&#x767E;&#x5EA6;&#x51FA;&#x6765;&#x7684;&#x5927;&#x591A;&#x662F;&#x7C7B;&#x4F3C;&#x4E0B;&#x9762;&#x8FD9;&#x79CD;&#x9700;&#x8981;&#x64AD;&#x653E;video&#x5E76;&#x70B9;&#x51FB;&#x622A;&#x56FE;&#x7684;&#xFF0C;&#x6216;&#x8005;&#x662F;&#x7528;php ffmpeg&#x6269;&#x5C55;&#xFF0C;&#x8DDF;&#x9700;&#x6C42;&#x4E0D;&#x4E00;&#x81F4;&#xFF0C;&#x6709;&#x70B9;&#x6293;&#x72C2;&#x4E86;&#xFF0C;&#x7136;&#x540E;&#x5C31;&#x5148;&#x505A;&#x4E86;&#x89C6;&#x9891;&#x56FE;&#x7247;&#x7684;&#x9884;&#x89C8;&#x529F;&#x80FD;&#xFF0C;&#x8FDB;&#x800C;&#x5BF9;&#x8BBE;&#x7F6E;&#x6D77;&#x62A5;&#x5E27;&#x6362;&#x4E86;&#x79CD;&#x601D;&#x8DEF;&#xFF0C;&#x901A;&#x8FC7;&#x8F93;&#x5165;&#x8BBE;&#x7F6E;video&#x5F00;&#x59CB;&#x64AD;&#x653E;&#x7684;&#x65F6;&#x95F4;&#xFF0C;&#x53D6;&#x6D88;&#x81EA;&#x52A8;&#x64AD;&#x653E;&#x548C;&#x63A7;&#x5236;&#x6761;&#xFF0C;&#x8FD9;&#x6837;&#x7528;&#x6237;&#x770B;&#x5230;&#x7684;&#x5C31;&#x662F;&#x4E00;&#x5F20;&#x56FE;&#x7247;</p><pre><code> /*&#x9884;&#x89C8;*/
               
 $(&apos;.qtuploader__items&apos;).on(&apos;click&apos;, &apos;[name=&quot;viewVideoPicBtn&quot;]&apos;, function() {
@@ -83,7 +83,7 @@ $(&apos;.qtuploader__items&apos;).on(&apos;click&apos;, &apos;[name=&quot;viewVi
     return arr;
   }
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: '前端进阶系列(二):css常见布局解决方案'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3e2653f2
+slug: 3e2653f2
 date: 2018-11-05 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x6C34;&#x5E73;&#x5C45;&#x4E2D;&#x5E03;&#x5C40;</h2><h3 id="articleHeader1">margin+&#x5B9A;&#x5BBD;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;div class=&quot;parent&quot;&gt;
   &lt;div class=&quot;child&quot;&gt;Demo&lt;/div&gt;
 &lt;/div&gt;
@@ -490,7 +490,7 @@ date: 2018-11-05 02:30:10
     <span class="hljs-attribute">flex</span>: <span class="hljs-number">1</span>;
   }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">style</span>&gt;</span></code></pre><ul><li>&#x4F4E;&#x7248;&#x672C;&#x6D4F;&#x89C8;&#x5668;&#x517C;&#x5BB9;&#x6027;&#x95EE;&#x9898;</li><li>&#x6027;&#x80FD;&#x95EE;&#x9898;&#xFF0C;&#x53EA;&#x662F;&#x9002;&#x5408;&#x5C0F;&#x8303;&#x56F4;&#x5E03;&#x5C40;</li></ul><p>&#x4EE5;&#x4E0A;&#x5C31;&#x662F;&#x5E38;&#x89C1;&#x7684;&#x51E0;&#x79CD;&#x5E03;&#x5C40;&#x3002;</p><p>&#x53C2;&#x8003;&#x6587;&#x7AE0;&#xFF1A;</p><ul><li><a href="https://coolshell.cn/articles/6840.html" rel="nofollow noreferrer" target="_blank">CSS &#x5E03;&#x5C40;:40&#x4E2A;&#x6559;&#x7A0B;&#x3001;&#x6280;&#x5DE7;&#x3001;&#x4F8B;&#x5B50;&#x548C;&#x6700;&#x4F73;&#x5B9E;&#x8DF5;</a></li><li><a href="http://www.imooc.com/article/17719" rel="nofollow noreferrer" target="_blank">CSS&#x5E38;&#x89C1;&#x5E03;&#x5C40;&#x53CA;&#x89E3;&#x51B3;&#x65B9;&#x6848;</a></li><li><a href="https://segmentfault.com/a/1190000006047872">CSS display&#x5C5E;&#x6027;&#x8BE6;&#x89E3;</a></li><li><a href="http://www.imooc.com/article/2235" rel="nofollow noreferrer" target="_blank">&#x53F2;&#x4E0A;&#x6700;&#x5168;Html&#x548C;CSS&#x5E03;&#x5C40;&#x6280;&#x5DE7;</a></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

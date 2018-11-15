@@ -1,12 +1,12 @@
 ---
 title: 五分钟 Styled-components 高级实用技巧
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dce0b689
+slug: dce0b689
 date: 2018-10-26 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x5199;&#x5728;&#x524D;&#x9762;&#x7684;&#x5E9F;&#x8BDD;</h2><p>&#x56DE;&#x5230;2013&#x5E74;&#xFF0C;React&#x51ED;&#x7A7A;&#x51FA;&#x4E16;&#x3002;&#x4F46;&#x662F;&#x5728;&#x90A3;&#x65F6;&#xFF0C;&#x6211;&#x4EEC;&#x4F1A;&#x60F3;&#xFF0C;oh shit! &#x6211;&#x4EEC;&#x597D;&#x4E0D;&#x5BB9;&#x6613;&#x5206;&#x79BB;&#x4E86;HTML/CSS/JS, &#x4E3A;&#x4EC0;&#x4E48;&#x51FA;&#x73B0;&#x4E86;JSX&#xFF0C;&#x6211;&#x4EEC;&#x53C8;&#x9700;&#x8981;&#x628A;HTML&#x548C;JS&#x8026;&#x5408;&#x5728;&#x4E00;&#x8D77;&#xFF1F;React &#x521B;&#x9020;&#x4E86; HTML in JS. &#x5728;React&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x77E5;&#x9053;&#xFF0C;&#x4E00;&#x5207;&#x5373;&#x7EC4;&#x4EF6;&#x3002;&#x90A3;&#x65E2;&#x7136;HTML&#x80FD;&#x5728;js&#x91CC;&#x5199;&#xFF0C;&#x4E3A;&#x4EC0;&#x4E48;&#x6211;&#x4EEC;&#x4E0D;&#x628A;CSS&#x4E5F;&#x4E00;&#x8D77;&#x5199;&#x5462;&#xFF1F;&#x8FD9;&#x6837;&#x4E0D;&#x624D;&#x662F;&#x4E00;&#x4E2A;&#x771F;&#x6B63;&#x7684;&#x7EC4;&#x4EF6;&#x5417;&#xFF1F;</p><p>Styled-components&#x5C31;&#x662F;&#x4E3A;React&#x800C;&#x751F;&#x7684;&#xFF0C;&#x5B83;&#x662F;CSS in JS&#x7684;&#x4E0B;&#x4E00;&#x4EE3;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;&#x4EE5;&#x5F80;&#x6211;&#x4EEC;&#x60F3;&#x8981;&#x505A;&#x5230;css scope&#x90FD;&#x9700;&#x8981;&#x5728;webpack&#x4E2D;&#x5404;&#x79CD;&#x914D;&#x7F6E;&#xFF0C;&#x6216;&#x8005;&#x4F7F;&#x7528;js&#x7684;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#x3002;&#x800C;styled-components&#x4F60;&#x53EA;&#x9700;&#x8981;<code>import styled from &apos;styled-components&apos;;</code>&#x5373;&#x53EF;&#x3002;</p><p>&#x751A;&#x81F3;React&#x5B8C;&#x7F8E;&#x7684;&#x7ED3;&#x5408;&#xFF0C;&#x4E0D;&#x4EC5;&#x662F;&#x4ECE;TagName&#x4E0A;&#xFF0C;&#x8FD8;&#x6709;Props&#x4E0A;&#x3002;&#x4F7F;&#x6211;&#x4EEC;&#x7684;&#x4EE3;&#x7801;&#x6709;&#x66F4;&#x597D;&#x7684;&#x8BED;&#x4E49;&#x5316;&#xFF0C;&#x53EF;&#x7EF4;&#x62A4;&#x6027;&#x66F4;&#x5F3A;&#xFF0C;&#x6548;&#x7387;&#x66F4;&#x9AD8;&#x3002;&#x5F53;&#x7136;&#x6211;&#x4EEC;&#x65E0;&#x9700;&#x8003;&#x8651;&#x5B83;&#x7684;&#x5B66;&#x4E60;&#x6210;&#x672C;&#xFF0C;&#x53EA;&#x8981;&#x4F60;&#x7528;&#x8FC7;CSS&#x6216;&#x8005;SASS&#x90FD;&#x53EF;&#x4EE5;&#x7ACB;&#x523B;&#x4E0A;&#x624B;&#xFF0C;&#x56E0;&#x4E3A;&#x5B83;&#x672C;&#x8EAB;&#x5C31;&#x662F;&#x4E00;&#x79CD;&#x8D85;&#x96C6;&#x7684;&#x5B58;&#x5728;&#x3002;</p><blockquote>&#x63A5;&#x4E0B;&#x6765;&#xFF0C;&#x6211;&#x4F1A;&#x9010;&#x6B65;&#x7684;&#x4ECB;&#x7ECD;&#x4E00;&#x4E9B;&#x8FD9;&#x6BB5;&#x65F6;&#x95F4;&#x4EE5;&#x6765;&#xFF0C;&#x6211;&#x975E;&#x5E38;&#x559C;&#x6B22;&#x7684;&#x72EC;&#x6709;&#x7684;&#x7279;&#x6027;&#x3002;</blockquote><h2 id="articleHeader1">&#x5F00;&#x80C3;&#x83DC;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const Button = styled.button`
   background: #abcdef;
   border-radius: 3px;
@@ -176,7 +176,7 @@ const Icon = styled.span`
     <span class="hljs-tag">&lt;/<span class="hljs-name">StyledThemeProvider</span>&gt;</span></span>
   );
 };</code></pre><p>&#x4E4B;&#x540E;&#x53EA;&#x9700;&#x8981;&#x628A;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x8C03;&#x7528;&#x7684;&#x7EC4;&#x4EF6;&#x4F7F;&#x7528;styled-components&#x63D0;&#x4F9B;&#x7684;<code>withTheme</code>&#x5305;&#x88C5;&#x4E00;&#x4E0B;&#x6211;&#x4EEC;&#x7684;&#x7EC4;&#x4EF6;&#x6765;&#x83B7;&#x53D6;&#x6211;&#x4EEC;&#x7684;theme&#x3002;</p><p>&#x8FD9;&#x6837;&#x65E2;&#x53EF;&#x4EE5;&#x5728;&#x6211;&#x4EEC;&#x7684;styled-components&#x91CC;&#x53D6;&#x5230;theme&#xFF0C;material&#x91CC;&#x4E5F;&#x53EF;&#x4EE5;&#x4E86;&#x3002;</p><blockquote>&#x4EE5;&#x4E0A;&#x5C31;&#x662F;&#x6211;&#x4EEC;&#x6240;&#x6709;&#x7684;&#x6280;&#x5DE7;&#x4E86;&#xFF0C; &#x770B;&#x4E86;&#x8FD9;&#x4E48;&#x591A;&#x6709;&#x610F;&#x601D;&#x7684;&#x9ED1;&#x79D1;&#x6280;&#xFF0C;&#x96BE;&#x9053;&#x4F60;&#x8FD8;&#x4E0D;&#x7231;&#x4E0A;styled-components&#x5417;&#xFF1F;</blockquote><p>&#x4E2A;&#x4EBA;&#x7F51;&#x7AD9; <a href="http://www.meckodo.com" rel="nofollow noreferrer" target="_blank">http://www.meckodo</a></p><p>Github: <a href="https://github.com/MeCKodo" rel="nofollow noreferrer" target="_blank">https://github.com/MeCKodo</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

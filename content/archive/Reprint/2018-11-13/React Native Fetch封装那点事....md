@@ -1,12 +1,12 @@
 ---
 title: React Native Fetch封装那点事...
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 427b815b
+slug: 427b815b
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6BCF;&#x4E00;&#x95E8;&#x8BED;&#x8A00;&#x90FD;&#x79BB;&#x4E0D;&#x5F00;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#xFF0C;&#x6709;&#x81EA;&#x5DF1;&#x7684;&#x4E00;&#x5957;Networking Api&#x3002;React Native&#x4F7F;&#x7528;&#x7684;&#x662F;Fetch&#x3002; &#x4ECA;&#x5929;&#x6211;&#x4EEC;&#x6765;&#x8C08;&#x8C08;&#x4E0E;Fetch&#x76F8;&#x5173;&#x7684;&#x4E00;&#x4E9B;&#x4E8B;&#x60C5;&#x3002;</p><h2>purpose</h2><p>&#x901A;&#x8FC7;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#xFF0C;&#x4F60;&#x5C06;&#x4E86;&#x89E3;&#x5230;&#x4EE5;&#x4E0B;&#x51E0;&#x70B9;&#x5173;&#x4E8E;Fetch&#x7684;&#x72EC;&#x5BB6;&#x62A5;&#x9053;</p><ul><li>Fetch&#x7684;&#x7B80;&#x5355;&#x8FD0;&#x7528;</li><li>Fetch&#x7684;&#x4E3B;&#x8981;Api</li><li>Fetch&#x4F7F;&#x7528;&#x6CE8;&#x610F;&#x4E8B;&#x9879;</li><li>Fetch&#x7684;Promise&#x5C01;&#x88C5;</li></ul><h2>fetch</h2><p>fetch&#x7684;&#x4F7F;&#x7528;&#x975E;&#x5E38;&#x7B80;&#x5355;&#xFF0C;&#x53EA;&#x9700;&#x4F20;&#x5165;&#x8BF7;&#x6C42;&#x7684;url</p><pre><code>fetch(&apos;https://facebook.github.io/react-native/movies.json&apos;);</code></pre><p>&#x5F53;&#x7136;&#x662F;&#x5426;&#x8BF7;&#x6C42;&#x6210;&#x529F;&#x4E0E;&#x6570;&#x636E;&#x7684;&#x5904;&#x7406;&#xFF0C;&#x6211;&#x4EEC;&#x8FD8;&#x9700;&#x5904;&#x7406;&#x6210;&#x529F;&#x4E0E;&#x5931;&#x8D25;&#x7684;&#x56DE;&#x8C03;</p><pre><code>function getMoviesFromApiAsync() {
   return fetch(&apos;https://facebook.github.io/react-native/movies.json&apos;)
     .then((response) =&gt; response.json())
@@ -104,7 +104,7 @@ p.then(success =&gt; {
         shareInfo: res.data.shareInfo
     });
 });</code></pre><p>&#x4EE5;&#x4E0A;&#x662F;&#x6709;&#x5173;fetch&#x7684;&#x5168;&#x90E8;&#x5185;&#x5BB9;&#xFF0C;&#x5F53;&#x7136;&#x5728;React Native&#x4E2D;&#x8FD8;&#x6709;&#x5176;&#x5B83;&#x7684;&#x7B2C;&#x4E09;&#x65B9;&#x8BF7;&#x6C42;&#x5E93;&#xFF1A;XMLHttpRequest&#xFF0C;&#x540C;&#x65F6;&#x4E5F;&#x652F;&#x6301;WebSockets&#x3002;&#x611F;&#x5174;&#x8DA3;&#x7684;&#x4E5F;&#x53EF;&#x4EE5;&#x53BB;&#x4E86;&#x89E3;&#x4E00;&#x4E0B;&#xFF0C;&#x76F8;&#x4FE1;&#x4F1A;&#x6709;&#x4E0D;&#x9519;&#x7684;&#x6536;&#x83B7;&#x3002;</p><h2>&#x7CBE;&#x9009;&#x6587;&#x7AE0;</h2><p><a href="https://segmentfault.com/a/1190000016149881">5&#x5206;&#x949F;&#x5403;&#x900F;React Native Flexbox</a></p><p><a href="https://segmentfault.com/a/1190000016128693">ViewDragHelper&#x4E4B;&#x624B;&#x52BF;&#x64CD;&#x4F5C;&#x795E;&#x5668;</a></p><p><a href="https://segmentfault.com/a/1190000011994447">tensorflow-&#x68AF;&#x5EA6;&#x4E0B;&#x964D;,&#x6709;&#x8FD9;&#x4E00;&#x7BC7;&#x5C31;&#x8DB3;&#x591F;&#x4E86;</a></p><p><a href="https://segmentfault.com/a/1190000005753446">&#x4E03;&#x5927;&#x6392;&#x5E8F;&#x7B97;&#x6CD5;&#x603B;&#x7ED3;(java)</a></p><p>&#x62C9;&#x7C89;&#x73AF;&#x8282;&#xFF1A;&#x611F;&#x89C9;&#x4E0D;&#x9519;&#x7684;&#x53EF;&#x4EE5;&#x6765;&#x4E00;&#x6CE2;&#x5173;&#x6CE8;&#xFF0C;&#x626B;&#x63CF;&#x4E0B;&#x65B9;&#x4E8C;&#x7EF4;&#x7801;&#xFF0C;&#x5173;&#x6CE8;&#x516C;&#x4F17;&#x53F7;&#xFF0C;&#x53CA;&#x65F6;&#x83B7;&#x53D6;&#x6700;&#x65B0;&#x77E5;&#x8BC6;&#x6280;&#x5DE7;&#x3002;</p><p><span class="img-wrap"><img data-src="/img/bVbfPXQ?w=600&amp;h=600" src="https://static.alili.tech/img/bVbfPXQ?w=600&amp;h=600" alt="clipboard.png" title="clipboard.png"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

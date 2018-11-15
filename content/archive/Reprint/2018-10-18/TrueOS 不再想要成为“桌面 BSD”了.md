@@ -1,12 +1,12 @@
 ---
 title: TrueOS 不再想要成为“桌面 BSD”了
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ff392d72
+slug: ff392d72
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#trueos-不再想要成为桌面-bsd了"></a>TrueOS 不再想要成为“桌面 BSD”了</h1>
 <p><a href="https://www.trueos.org/">TrueOS</a> 很快会有一些非常重大的变化。今天，我们将了解桌面 BSD 领域将会发生什么。</p>
@@ -32,7 +32,7 @@ date: 2018-10-18 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/trueos-doesnt-want-to-be-bsd-for-desktop-anymore](https://www.zcfy.cc/article/trueos-doesnt-want-to-be-bsd-for-desktop-anymore)

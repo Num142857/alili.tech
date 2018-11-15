@@ -1,12 +1,12 @@
 ---
 title: 学习React之前你需要知道的的JavaScript基础知识
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 7f16801f
+slug: 7f16801f
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在我的研讨会期间，更多的材料是关于JavaScript而不是React。其中大部分归结为JavaScript ES6以及功能和语法，但也包括三元运算符，语言中的简写版本，此对象，JavaScript内置函数（map，reduce，filter）或更常识性的概念，如：可组合性，可重用性，不变性或高阶函数。这些是基础知识，在开始使用React之前你不需要掌握这些基础知识，但在学习或实践它时肯定会出现这些基础知识。</p>
 <p>以下演练是我尝试为您提供一个几乎广泛但简明的列表，其中列出了所有不同的JavaScript功能，以补充您的React应用程序。如果您有任何其他不在列表中的内容，只需对本文发表评论，我会及时更新。</p>
@@ -893,7 +893,7 @@ const { users, ...rest } = this.<span class="hljs-keyword">state</span>;
 <hr>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-fundamentals-before-learning-react](https://www.zcfy.cc/article/javascript-fundamentals-before-learning-react)

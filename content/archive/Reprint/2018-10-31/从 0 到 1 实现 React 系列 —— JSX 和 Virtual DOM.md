@@ -1,12 +1,12 @@
 ---
 title: 从 0 到 1 实现 React 系列 —— JSX 和 Virtual DOM
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e9e32d3a
+slug: e9e32d3a
 date: 2018-10-31 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><a href="https://github.com/MuYunyun/blog" rel="nofollow noreferrer" target="_blank">&#x4F5C;&#x8005;&#x7684;&#x535A;&#x5BA2;</a></p><p>&#x770B;&#x6E90;&#x7801;&#x4E00;&#x4E2A;&#x75DB;&#x5904;&#x662F;&#x4F1A;&#x9677;&#x8FDB;&#x7406;&#x4E0D;&#x987A;&#x4E3B;&#x5E72;&#x7684;&#x56F0;&#x5C40;&#x4E2D;&#xFF0C;&#x672C;&#x7CFB;&#x5217;&#x6587;&#x7AE0;&#x5728;&#x5B9E;&#x73B0;&#x4E00;&#x4E2A; (x)react &#x7684;&#x540C;&#x65F6;&#x7406;&#x987A; React &#x6846;&#x67B6;&#x7684;&#x4E3B;&#x5E72;&#x5185;&#x5BB9;(JSX/&#x865A;&#x62DF;DOM/...)</p><h3 id="articleHeader0">&#x73AF;&#x5883;&#x51C6;&#x5907;</h3><p>&#x9879;&#x76EE;&#x6253;&#x5305;&#x5DE5;&#x5177;&#x9009;&#x62E9;&#x4E86; parcel&#xFF0C;&#x4F7F;&#x7528;&#x5176;&#x53EF;&#x4EE5;&#x5FEB;&#x901F;&#x5730;&#x8FDB;&#x5165;&#x9879;&#x76EE;&#x5F00;&#x53D1;&#x7684;&#x72B6;&#x6001;&#x3002;<a href="https://parceljs.org/getting_started.html" rel="nofollow noreferrer" target="_blank">&#x5FEB;&#x901F;&#x5F00;&#x59CB;</a></p><p>&#x6B64;&#x5916;&#x9700;&#x8981;&#x5B89;&#x88C5;&#x4EE5;&#x4E0B; babel &#x63D2;&#x4EF6;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&quot;babel-core&quot;: &quot;^6.26.0&quot;,
 &quot;babel-preset-env&quot;: &quot;^1.6.1&quot;,
 &quot;babel-plugin-transform-react-jsx&quot;: &quot;^6.24.1&quot;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="javascript hljs"><code class="js"><span class="hljs-string">&quot;babel-core&quot;</span>: <span class="hljs-string">&quot;^6.26.0&quot;</span>,
@@ -242,7 +242,7 @@ render(&lt;A /&gt;, document.body) // &#x7EC4;&#x4EF6;&#x7684;&#x6302;&#x8F7D;" 
 }
 
 render(&lt;<span class="hljs-type">A</span> /&gt;, document.body) <span class="hljs-comment">// &#x7EC4;&#x4EF6;&#x7684;&#x6302;&#x8F7D;</span></code></pre><h3 id="articleHeader5">&#x9879;&#x76EE;&#x8BF4;&#x660E;</h3><p>&#x8BE5;&#x7CFB;&#x5217;&#x6587;&#x7AE0;&#x4F1A;&#x5C3D;&#x53EF;&#x80FD;&#x7684;&#x5206;&#x6790;&#x9879;&#x76EE;&#x7EC6;&#x8282;&#xFF0C;&#x5177;&#x4F53;&#x7684;&#x8FD8;&#x662F;&#x4EE5;&#x9879;&#x76EE;&#x5B9E;&#x9645;&#x4EE3;&#x7801;&#x4E3A;&#x51C6;&#x3002;</p><p><a href="https://github.com/MuYunyun/cpreact" rel="nofollow noreferrer" target="_blank">&#x9879;&#x76EE;&#x5730;&#x5740;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

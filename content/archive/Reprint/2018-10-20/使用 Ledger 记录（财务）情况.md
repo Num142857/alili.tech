@@ -1,12 +1,12 @@
 ---
 title: 使用 Ledger 记录（财务）情况
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6bdca400
+slug: 6bdca400
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#使用-ledger-记录财务情况"></a>使用 Ledger 记录（财务）情况</h1>
 <p>自 2005 年搬到加拿大以来，我使用 <a href="http://www.ledger-cli.org/">Ledger CLI</a> 来跟踪我的财务状况。我喜欢纯文本的方式，它支持虚拟信封意味着我可以同时将我的银行帐户余额和我的虚拟分配到不同的目录下。以下是我们如何使用这些虚拟信封分别管理我们的财务状况。</p>
@@ -48,7 +48,7 @@ date: 2018-10-20 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/keeping-financial-score-with-ledger](https://www.zcfy.cc/article/keeping-financial-score-with-ledger)

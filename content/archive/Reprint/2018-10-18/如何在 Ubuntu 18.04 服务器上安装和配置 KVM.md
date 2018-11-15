@@ -1,12 +1,12 @@
 ---
 title: 如何在 Ubuntu 18.04 服务器上安装和配置 KVM
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 42a45001
+slug: 42a45001
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-ubuntu-1804-服务器上安装和配置-kvm"></a>如何在 Ubuntu 18.04 服务器上安装和配置 KVM</h1>
 <p><strong>KVM</strong>（基于内核的虚拟机）是一款为类 Linux 系统提供的开源的全虚拟化解决方案，KVM 使用虚拟化扩展（如 <strong>Intel VT</strong> 或 <strong>AMD-V</strong>）提供虚拟化功能。无论何时我们在任何 Linux 机器上安装 KVM，都会通过加载诸如 <code>kvm-intel.ko</code>（基于 Intel 的机器）和 <code>kvm-amd.ko</code>（基于 amd 的机器）的内核模块，使其成为管理程序hyervisor（LCTT 译注：一种监控和管理虚拟机运行的核心软件层）。</p>
@@ -123,7 +123,7 @@ linuxtechi@kvm-ubuntu18-04:~$ sudo update-rc.d libvirtd <span class="hljs-builti
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-to-install-and-configure-kvm-on-ubuntu-18-04-lts-server](https://www.zcfy.cc/article/how-to-install-and-configure-kvm-on-ubuntu-18-04-lts-server)

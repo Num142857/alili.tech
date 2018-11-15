@@ -1,12 +1,12 @@
 ---
 title: 面试题：你能写一个Vue的双向数据绑定吗？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4da0f3f4
+slug: 4da0f3f4
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <blockquote>&#x5728;&#x76EE;&#x524D;&#x7684;&#x524D;&#x7AEF;&#x9762;&#x8BD5;&#x4E2D;&#xFF0C;vue&#x7684;&#x53CC;&#x5411;&#x6570;&#x636E;&#x7ED1;&#x5B9A;&#x5DF2;&#x7ECF;&#x6210;&#x4E3A;&#x4E86;&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x5BB9;&#x6613;&#x8003;&#x5230;&#x7684;&#x70B9;&#xFF0C;&#x5373;&#x4F7F;&#x4E0D;&#x80FD;&#x5F53;&#x573A;&#x5199;&#x51FA;&#x6765;&#xFF0C;&#x81F3;&#x5C11;&#x4E5F;&#x8981;&#x80FD;&#x8BF4;&#x51FA;&#x539F;&#x7406;&#x3002;&#x672C;&#x7BC7;&#x6587;&#x7AE0;&#x4E2D;&#x6211;&#x5C06;&#x4F1A;&#x4EFF;&#x7167;vue&#x5199;&#x4E00;&#x4E2A;&#x53CC;&#x5411;&#x6570;&#x636E;&#x7ED1;&#x5B9A;&#x7684;&#x5B9E;&#x4F8B;&#xFF0C;&#x540D;&#x5B57;&#x5C31;&#x53EB;myVue&#x5427;&#x3002;&#x7ED3;&#x5408;&#x6CE8;&#x91CA;&#xFF0C;&#x5E0C;&#x671B;&#x80FD;&#x8BA9;&#x5927;&#x5BB6;&#x6709;&#x6240;&#x6536;&#x83B7;&#x3002;</blockquote>
@@ -111,7 +111,7 @@ myVue.prototype._init = <span class="hljs-function"><span class="hljs-keyword">f
     <span class="hljs-keyword">this</span>.$options = options;  <span class="hljs-comment">// options &#x4E3A;&#x4E0A;&#x9762;&#x4F7F;&#x7528;&#x65F6;&#x4F20;&#x5165;&#x7684;&#x7ED3;&#x6784;&#x4F53;&#xFF0C;&#x5305;&#x62EC;el,data,methods</span>
     <span class="hljs-keyword">this</span>.$el = <span class="hljs-built_in">document</span>.querySelector(options.el); <span class="hljs-comment">// el&#x662F; #app, this.$el&#x662F;id&#x4E3A;app&#x7684;Element&#x5143;&#x7D20;</span>
     <span class="hljs-keyword">this</span>.$data = options.data; <span class="hljs-comment">// this.$data = {number: 0}</span>
-    <span class="hljs-keyword">this</span>.$methods = options.methods;  <span class="hljs-comment">// this.$methods = {increment: function(){}}</span>
+    <span class="hljs-keyword">this</span>.$methods = options.methods;  <span class="hljs-comment">// this.$methods = {increment: function(){"}}"</span>
   }</code></pre>
 <p>&#x63A5;&#x4E0B;&#x6765;&#x5B9E;&#x73B0;_obverse&#x51FD;&#x6570;&#xFF0C;&#x5BF9;data&#x8FDB;&#x884C;&#x5904;&#x7406;&#xFF0C;&#x91CD;&#x5199;data&#x7684;set&#x548C;get&#x51FD;&#x6570;</p>
 <p>&#x5E76;&#x6539;&#x9020;_init&#x51FD;&#x6570;</p>
@@ -693,7 +693,7 @@ myVue.prototype._complie = <span class="hljs-function"><span class="hljs-keyword
 <p>&#x5982;&#x679C;&#x559C;&#x6B22;&#x8BF7;&#x5173;&#x6CE8;&#x6211;&#x7684;<a href="https://github.com/louzhedong/blog" rel="nofollow noreferrer" target="_blank">Github</a>&#xFF0C;&#x7ED9;&#x4E2A;<a href="https://github.com/louzhedong/blog" rel="nofollow noreferrer" target="_blank">Star</a>&#x5427;&#xFF0C;&#x6211;&#x4F1A;&#x5B9A;&#x671F;&#x5206;&#x4EAB;&#x4E00;&#x4E9B;JS&#x4E2D;&#x7684;&#x77E5;&#x8BC6;&#xFF0C;^_^</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

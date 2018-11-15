@@ -1,12 +1,12 @@
 ---
 title: 你可能从未听说过的15种HTML元素方法！
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 851f52a0
+slug: 851f52a0
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h3>初学者须知</h3>
 <p>我们来讨论HTML和DOM之间的区别。</p>
@@ -86,7 +86,7 @@ date: 2018-10-18 00:00:00
 <p>.select（）方法将选择您调用它的任何输入中的所有文本。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/15-html-element-methods-you-ve-potentially-never-heard-of](https://www.zcfy.cc/article/15-html-element-methods-you-ve-potentially-never-heard-of)

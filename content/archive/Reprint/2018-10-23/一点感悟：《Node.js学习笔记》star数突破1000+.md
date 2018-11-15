@@ -1,12 +1,12 @@
 ---
 title: 一点感悟：《Node.js学习笔记》star数突破1000+
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: cb6887ef
+slug: cb6887ef
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">写作背景</h2>
@@ -57,7 +57,7 @@ date: 2018-10-23 00:00:00
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/bVbbUnr?w=300&amp;h=390" src="https://static.alili.tech/img/bVbbUnr?w=300&amp;h=390" alt="图片描述" title="图片描述" style="cursor: pointer; display: inline;"></span></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

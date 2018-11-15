@@ -1,12 +1,12 @@
 ---
 title: '现代JS中的流控制：: Callbacks to Promises to Async/Await'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c7e93bce
+slug: c7e93bce
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><strong>JavaScript经常声称是<em>asynchronous</em>。那是什么意思？它如何影响发展？近年来这种方法有何变化？</strong></p>
 <p>请思考以下代码：</p>
@@ -348,7 +348,7 @@ ayscWait(<span class="hljs-number">1000</span>);
 <p>幸运的是，async / await提供了清晰度。代码看起来是同步的，但它不能独占单个处理线程。它将改变你编写JavaScript的方式！</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/flow-control-in-modern-js-callbacks-to-promises-to-async-await](https://www.zcfy.cc/article/flow-control-in-modern-js-callbacks-to-promises-to-async-await)

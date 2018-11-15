@@ -1,12 +1,12 @@
 ---
 title: Rest/Spread 属性 • 探索 ES2018 和 ES2019
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ec733d60
+slug: ec733d60
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h2>Rest/Spread 属性</h2>
 <p>Sebastian Markbåge的ECMAScript提案『<a href="https://github.com/sebmarkbage/ecmascript-rest-spread">Rest/Spread属性</a>』可以：</p>
@@ -245,7 +245,7 @@ TypeError: Cannot assign <span class="hljs-keyword">to</span> <span class="hljs-
 </span></code></pre>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/rest-spread-properties-exploring-es2018-and-es2019)

@@ -1,12 +1,12 @@
 ---
 title: 3 款 Linux 桌面的日记程序
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 329f08a9
+slug: 329f08a9
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#3-款-linux-桌面的日记程序"></a>3 款 Linux 桌面的日记程序</h1>
 <blockquote>
@@ -42,7 +42,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/3-journaling-applications-for-the-linux-desktop](https://www.zcfy.cc/article/3-journaling-applications-for-the-linux-desktop)

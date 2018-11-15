@@ -1,12 +1,12 @@
 ---
 title: React中组件通信的几种方式
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: dd028b50
+slug: dd028b50
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/remote/1460000012361466?w=1240&amp;h=667" src="https://static.alili.tech/img/remote/1460000012361466?w=1240&amp;h=667" alt="react&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;" title="react&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;" style="cursor:pointer;display:inline"></span></p><blockquote>&#x9996;&#x6B21;&#x53D1;&#x8868;&#x5728;<a href="http://wangyaxing.cn/2017/12/10/react%E4%B8%AD%E7%BB%84%E4%BB%B6%E9%80%9A%E4%BF%A1%E7%9A%84%E5%87%A0%E7%A7%8D%E6%96%B9%E5%BC%8F/#more" rel="nofollow noreferrer" target="_blank">&#x4E2A;&#x4EBA;&#x535A;&#x5BA2;</a></blockquote><h1 id="articleHeader0">&#x9700;&#x8981;&#x7EC4;&#x4EF6;&#x4E4B;&#x8FDB;&#x884C;&#x901A;&#x4FE1;&#x7684;&#x51E0;&#x79CD;&#x60C5;&#x51B5;</h1><ul><li>&#x7236;&#x7EC4;&#x4EF6;&#x5411;&#x5B50;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;</li><li>&#x5B50;&#x7EC4;&#x4EF6;&#x5411;&#x7236;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;</li><li>&#x8DE8;&#x7EA7;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;</li><li>&#x6CA1;&#x6709;&#x5D4C;&#x5957;&#x5173;&#x7CFB;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;</li></ul><h2 id="articleHeader1">1. &#x7236;&#x7EC4;&#x4EF6;&#x5411;&#x5B50;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;</h2><p>React&#x6570;&#x636E;&#x6D41;&#x52A8;&#x662F;&#x5355;&#x5411;&#x7684;,&#x7236;&#x7EC4;&#x4EF6;&#x5411;&#x5B50;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x4E5F;&#x662F;&#x6700;&#x5E38;&#x89C1;&#x7684;;&#x7236;&#x7EC4;&#x4EF6;&#x901A;&#x8FC7;props&#x5411;&#x5B50;&#x7EC4;&#x4EF6;&#x4F20;&#x9012;&#x9700;&#x8981;&#x7684;&#x4FE1;&#x606F;<br>Child.jsx</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="import React from &apos;react&apos;;
 import PropTypes from &apos;prop-types&apos;;
 
@@ -199,7 +199,7 @@ export default ListItem;
     render() {
         <span class="hljs-keyword">const</span> { value } = <span class="hljs-keyword">this</span>.props;
         <span class="hljs-keyword">return</span> (
-            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">style</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">background:</span> <span class="hljs-attr">this.context.color</span> }}&gt;</span>
+            <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"{{"</span> <span class="hljs-attr">background:</span> <span class="hljs-attr">this.context.color</span> }}&gt;</span>
                 <span class="hljs-tag">&lt;<span class="hljs-name">span</span>&gt;</span>{value}<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
             <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span></span>
         );
@@ -440,7 +440,7 @@ export default class App extends Component {
         );
     }
 }</code></pre><p>&#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;&#x662F;&#x5178;&#x578B;&#x7684;&#x53D1;&#x5E03;&#x8BA2;&#x9605;&#x6A21;&#x5F0F;,&#x901A;&#x8FC7;&#x5411;&#x4E8B;&#x4EF6;&#x5BF9;&#x8C61;&#x4E0A;&#x6DFB;&#x52A0;&#x76D1;&#x542C;&#x5668;&#x548C;&#x89E6;&#x53D1;&#x4E8B;&#x4EF6;&#x6765;&#x5B9E;&#x73B0;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;</p><h2 id="articleHeader8">&#x603B;&#x7ED3;</h2><ul><li>&#x7236;&#x7EC4;&#x4EF6;&#x5411;&#x5B50;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;: props</li><li>&#x5B50;&#x7EC4;&#x4EF6;&#x5411;&#x7236;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;: &#x56DE;&#x8C03;&#x51FD;&#x6570;/&#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;</li><li>&#x8DE8;&#x7EA7;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;: &#x5C42;&#x5C42;&#x7EC4;&#x4EF6;&#x4F20;&#x9012;props/context</li><li>&#x6CA1;&#x6709;&#x5D4C;&#x5957;&#x5173;&#x7CFB;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;: &#x81EA;&#x5B9A;&#x4E49;&#x4E8B;&#x4EF6;</li></ul><blockquote>&#x5728;&#x8FDB;&#x884C;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x7684;&#x65F6;&#x5019;,&#x4E3B;&#x8981;&#x770B;&#x4E1A;&#x52A1;&#x7684;&#x5177;&#x4F53;&#x9700;&#x6C42;,&#x9009;&#x62E9;&#x6700;&#x5408;&#x9002;&#x7684;;<br>&#x5F53;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x590D;&#x6742;&#x5230;&#x4E00;&#x5B9A;&#x7A0B;&#x5EA6;,&#x5C31;&#x53EF;&#x4EE5;&#x8003;&#x8651;&#x5F15;&#x5165;<a href="http://cn.mobx.js.org/" rel="nofollow noreferrer" target="_blank">Mobx</a>,<a href="https://redux.js.org/" rel="nofollow noreferrer" target="_blank">Redux</a>&#x7B49;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x5DE5;&#x5177;</blockquote><h2 id="articleHeader9">&#x53C2;&#x8003;</h2><p><a href="https://reactjs.org/docs/components-and-props.html" rel="nofollow noreferrer" target="_blank">reactjs&#x5B98;&#x65B9;&#x6587;&#x6863;</a><br><a href="https://book.douban.com/subject/26918038/" rel="nofollow noreferrer" target="_blank">&#x6DF1;&#x5165;React&#x6280;&#x672F;&#x6808;</a><br><a href="http://www.jianshu.com/p/fb915d9c99c4" rel="nofollow noreferrer" target="_blank">React&#x4E2D;&#x7EC4;&#x4EF6;&#x95F4;&#x901A;&#x4FE1;&#x7684;&#x51E0;&#x79CD;&#x65B9;&#x5F0F;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

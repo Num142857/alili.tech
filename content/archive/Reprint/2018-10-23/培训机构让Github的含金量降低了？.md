@@ -1,12 +1,12 @@
 ---
 title: 培训机构让Github的含金量降低了？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b2887750
+slug: b2887750
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <blockquote>所有人都想成功，都想有高薪的工作，但是太多的人想一步登天，只有少数人愿意脚踏实地。</blockquote>
@@ -58,7 +58,7 @@ date: 2018-10-23 00:00:00
 <p>我的博客即将搬运同步至腾讯云+社区，邀请大家一同入驻：<a href="https://cloud.tencent.com/developer/support-plan?invite_code=3rsgjc8znlc0o" rel="nofollow noreferrer" target="_blank">https://cloud.tencent.com/dev...</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

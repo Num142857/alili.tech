@@ -1,12 +1,12 @@
 ---
 title: 'Hello Vue: Vue快速入门教程 '
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6e67a2bf
+slug: 6e67a2bf
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>Vue快速入门教程，此教程包括使用Kendo UI for Vue的组件。希望通过此教程能够成为你学习vue的一个很好的起点。这其中还包含一个可扩展的事例，如果你感兴趣可以深入学习下去。</p>
 <p>本教程针对的是第一次使用Vue资源管理器。我将向您展示如何使用Vue创建一个简单的示例，然后我将添加一些交互性和UI组件，最后添加更多功能和<a href="https://www.telerik.com/ kendo-vue-ui">Kendo UI</a>组件。虽然本教程演示非常基础，但它概述了使用Vue添加特性和功能的所有关键元素。扩展演示代码并交换更复杂的组件非常容易。我的例子，如Vue本身，是可扩展的。</p>
@@ -37,7 +37,7 @@ date: 2018-10-18 00:00:00
 <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   <span class="hljs-comment">&lt;!-- text --&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"sg1"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ m1 }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{" m1 "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
@@ -48,7 +48,7 @@ date: 2018-10-18 00:00:00
 <p>首先，让我们跳到文档<code>&lt;body&gt;</code>。这里，我们有一个带有属性的</p>
 <p>`元素，id =“sg1”。</p>
 <pre><code class="hljs django"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"sg1"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ m1 }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{" m1 "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 
 </span></code></pre><p>Vue的核心是能够使用简单的模板语法以声明方式将数据呈现给DOM。</p>
@@ -103,8 +103,8 @@ date: 2018-10-18 00:00:00
 <span class="hljs-tag">&lt;<span class="hljs-name">body</span>&gt;</span>
   <span class="hljs-comment">&lt;!-- text and the button --&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"sg1"</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ m1 }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">v-on:click</span>=<span class="hljs-string">"staygo"</span>&gt;</span></span><span class="hljs-template-variable">{{ btext }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{" m1 "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">v-on:click</span>=<span class="hljs-string">"staygo"</span>&gt;</span></span><span class="hljs-template-variable">"{{" btext "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
@@ -150,7 +150,7 @@ date: 2018-10-18 00:00:00
 <p>我们还在<code>&amp;lt;body&amp;gt;</code>部分添加了一个<code>&lt;div&gt;</code>元素。在这里，您会看到一些新文本以及<code>&amp;lt;kendo-dropdownlist&amp;gt;</code>元素：</p>
 <pre><code class="hljs django"><span class="xml"><span class="hljs-comment">&lt;!-- second text and the DropDownList component --&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"sg2"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"vue-app"</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ m2 }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{" m2 "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">h4</span>&gt;</span>Singer:<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">kendo-dropdownlist</span> <span class="hljs-attr">:data-source</span>=<span class="hljs-string">"singerOptions"</span>
                        <span class="hljs-attr">:data-text-field</span>=<span class="hljs-string">"'text'"</span>
@@ -214,7 +214,7 @@ date: 2018-10-18 00:00:00
 <p>GitHub上提供了本文中的源代码: <a href="https://github.com/JohnWilloughby/HelloVue">HelloVue</a>.</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/hello-vue-a-quick-tutorial-on-getting-started-with-vue](https://www.zcfy.cc/article/hello-vue-a-quick-tutorial-on-getting-started-with-vue)

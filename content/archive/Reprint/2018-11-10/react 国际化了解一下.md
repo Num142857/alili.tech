@@ -1,12 +1,12 @@
 ---
 title: react 国际化了解一下
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d7abaa10
+slug: d7abaa10
 date: 2018-11-10 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">&#x80CC;&#x666F;</h1><p>&#x697C;&#x4E3B;&#x6700;&#x8FD1;&#x65B0;&#x63A5;&#x4E86;&#x4E00;&#x4E2A;&#x9879;&#x76EE;&#xFF0C;&#x4ECE;0&#x5F00;&#x59CB;&#x505A;&#xFF0C;&#x9700;&#x8981;&#x505A;&#x591A;&#x8BED;&#x8A00;&#x7684;&#x56FD;&#x9645;&#x5316;&#xFF0C;&#x4ECA;&#x5929;&#x641E;&#x4E86;&#x4E00;&#x4E0B;&#xFF0C;&#x57FA;&#x672C;&#x8FBE;&#x5230;&#x4E86;&#x60F3;&#x8981;&#x7684;&#x6548;&#x679C;&#xFF0C; &#x5728;&#x8FD9;&#x91CC;&#x7B80;&#x5355;&#x5206;&#x4EAB;&#x4E0B;&#xFF1A;</p><hr><h2 id="articleHeader1">&#x4E00;&#x4E9B;&#x63A2;&#x7D22;</h2><p>&#x4E5F;&#x8BF4;&#x4E0D;&#x4E0A;&#x662F;&#x63A2;&#x7D22;&#x5427;&#xFF0C;&#x5C31;Google&#x4E86;&#x4E00;&#x6CE2;&#xFF0C; GitHub &#x4E0A;&#x627E;&#x4E86;&#x4E00;&#x4E2A;&#x6BD4;&#x8F83;&#x6210;&#x719F;&#x7684;&#x5E93; <code>react-i18next</code>&#xFF0C; &#x5199;&#x4E86;&#x4E00;&#x4E9B;&#x4EE3;&#x7801;&#xFF0C;&#x73B0;&#x5C06;&#x8FC7;&#x7A0B;&#x5206;&#x4EAB;&#x4E00;&#x4E0B;&#xFF0C; &#x9644;&#x5E26;&#x8BE6;&#x7EC6;&#x4EE3;&#x7801;&#xFF0C;&#x624B;&#x628A;&#x624B;&#x6559;&#x4F60;&#x5B9E;&#x73B0;&#x56FD;&#x9645;&#x5316;&#x3002;</p><h2 id="articleHeader2">&#x5148;&#x7779;&#x4E3A;&#x5FEB;</h2><p>&#x5148;&#x770B;&#x4E00;&#x4E0B;&#x6700;&#x540E;&#x7684;&#x6210;&#x679C;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=" // ...
 import i18n from &apos;@src/i18n&apos;;
 
@@ -688,7 +688,7 @@ console.log(&apos;&#x54C8;&#x54C8;&#x54C8;&#x54C8;&#x54C8;i18n&#x6765;&#x4E00;&#
     <span class="hljs-keyword">import</span>(<span class="hljs-string">&apos;./app.js&apos;</span>)
   })
 </code></pre><p><br>&#x5F53;&#x7136;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x514D;&#x4E86;&#x8FD9;&#x4E00;&#x6B65;&#xFF0C;&#x76F4;&#x63A5;&#x4E0B;&#x8F7D;&#x597D;&#x653E;&#x5230;&#x5DE5;&#x7A0B;&#x91CC;&#x6765;&#x3002;</p><p>&#x5927;&#x6982;&#x5C31;&#x662F;&#x8FD9;&#x6837;&#xFF0C;&#x4EE5;&#x4E0A;&#x5C31;&#x662F;&#x5B9E;&#x73B0;&#x56FD;&#x9645;&#x5316;&#x7684;&#x5168;&#x90E8;&#x4EE3;&#x7801;&#xFF0C;&#x5E0C;&#x671B;&#x5BF9;&#x5927;&#x5BB6;&#x6709;&#x6240;&#x5E2E;&#x52A9;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

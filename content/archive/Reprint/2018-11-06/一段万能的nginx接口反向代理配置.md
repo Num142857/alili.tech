@@ -1,12 +1,12 @@
 ---
 title: 一段万能的nginx接口反向代理配置
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 23cae450
+slug: 23cae450
 date: 2018-11-06 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x4F5C;&#x4E3A;&#x524D;&#x7AEF;&#x5F00;&#x53D1;&#xFF0C;&#x6BCF;&#x6B21;&#x8C03;&#x8BD5;&#x63A5;&#x53E3;&#xFF0C;&#x628A;&#x4EE3;&#x7801;&#x53D1;&#x5230;&#x6D4B;&#x8BD5;&#x670D;&#x52A1;&#x5668;&#xFF0C;&#x662F;&#x5F88;&#x8D39;&#x65F6;&#x8D39;&#x4E8B;&#x7684;&#x4E00;&#x4EF6;&#x4E8B;&#x60C5;&#x3002;<br>&#x4E3A;&#x4E86;&#x63D0;&#x9AD8;&#x6548;&#x7387;&#xFF0C;&#x60F3;&#x5230;&#x4E86;nginx&#x53CD;&#x5411;&#x4EE3;&#x7406;&#x6765;&#x89E3;&#x51B3;&#x8FD9;&#x4E00;&#x95EE;&#x9898;&#x3002;</p><p>&#x63A5;&#x53E3;&#x5730;&#x5740;&#xFF1A;<br>test.com</p><p>&#x8BBF;&#x95EE;&#x5730;&#x5740;&#xFF1A;<br>localhost</p><p>&#x6700;&#x6838;&#x5FC3;&#x7684;&#x95EE;&#x9898;&#x5C31;&#x662F;&#xFF0C;&#x767B;&#x5F55;&#x65F6;&#xFF0C;&#x65E0;&#x6CD5;&#x5199;&#x5165;cookie&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x4E3A;&#x4E86;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#xFF0C;&#x8D70;&#x4E86;&#x4E0D;&#x5C11;&#x5F2F;&#x8DEF;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="worker_processes  1;
 events {
     worker_connections  1024;
@@ -506,7 +506,7 @@ http {
 }
 
 exports = <span class="hljs-built_in">module</span>.exports = buildNginxConfig;</code></pre><p>&#x6709;&#x4E86;&#x8FD9;&#x4E2A;&#x4E07;&#x80FD;&#x53CD;&#x5411;&#x4EE3;&#x7406;&#xFF0C;&#x53EF;&#x4EE5;&#x968F;&#x5FC3;&#x6240;&#x6B32;&#x7684;&#x73A9;&#x8F6C;&#x4EFB;&#x4F55;&#x7F51;&#x7AD9;&#x63A5;&#x53E3;&#x4E86;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

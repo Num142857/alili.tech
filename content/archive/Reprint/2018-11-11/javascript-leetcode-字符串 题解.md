@@ -1,12 +1,12 @@
 ---
 title: javascript-leetcode-字符串 题解
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4c5d915e
+slug: 4c5d915e
 date: 2018-11-11 02:30:07
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x953B;&#x70BC;&#x81EA;&#x5DF1;&#x7684;&#x80FD;&#x529B;&#xFF0C;&#x8BA9;&#x81EA;&#x5DF1;&#x66F4;&#x52A0;&#x719F;&#x6089;&#x5404;&#x4E2A;api&#x7684;&#x4F7F;&#x7528;&#x3002;<br>&#x4E0B;&#x9762;&#x662F;<strong>javascript</strong>&#x7248;&#x672C;&#x7684;<strong>leetcode</strong>&#x9898;&#x76EE;&#xFF08;<em>&#x5B57;&#x7B26;&#x4E32;&#x5165;&#x95E8;&#x9898;&#x7EC4;</em>&#xFF09;&#x89E3;&#x6CD5;&#x3002;<a href="https://leetcode-cn.com" rel="nofollow noreferrer" target="_blank">leetCode&#x5730;&#x5740;</a>&#x3002;</p><h2 id="articleHeader0">1.&#x53CD;&#x8F6C;&#x5B57;&#x7B26;&#x4E32;</h2><h3 id="articleHeader1">&#x8BF4;&#x660E;</h3><p>&#x7F16;&#x5199;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5176;&#x4F5C;&#x7528;&#x662F;&#x5C06;&#x8F93;&#x5165;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x53CD;&#x8F6C;&#x8FC7;&#x6765;&#x3002;</p><h3 id="articleHeader2">&#x793A;&#x4F8B;</h3><h4>&#x793A;&#x4F8B;1:</h4><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&#x8F93;&#x5165;: &quot;hello&quot;
 &#x8F93;&#x51FA;: &quot;olleh&quot;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs 1c"><code>&#x8F93;&#x5165;: <span class="hljs-string">&quot;hello&quot;</span>
 &#x8F93;&#x51FA;: <span class="hljs-string">&quot;olleh&quot;</span></code></pre><h4>&#x793A;&#x4F8B; 2:</h4><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&#x8F93;&#x5165;: &quot;A man, a plan, a canal: Panama&quot;
@@ -314,7 +314,7 @@ var longestCommonPrefix = function(strs) {
     }
     <span class="hljs-params">return</span> _<span class="hljs-params">arr</span>[0] || &apos;&apos;
 };</span></code></pre><h3 id="articleHeader44">&#x70B9;&#x8BC4;</h3><p>&#x60F3;&#x6CD5;&#x662F;&#x505A;&#x4E00;&#x4E2A;&#x516C;&#x5171;&#x524D;&#x7F00;&#x6570;&#x7EC4;&#xFF0C;&#x904D;&#x5386;&#xFF0C;&#x5982;&#x679C;&#x6709;&#x4E0D;&#x6EE1;&#x8DB3;&#x7684;&#xFF0C;&#x5C31;&#x64CD;&#x4F5C;&#x8FD9;&#x4E2A;&#x524D;&#x7F00;&#x6570;&#x7EC4;&#xFF0C;&#x76F4;&#x5230;&#x6700;&#x540E;&#xFF0C;&#x5269;&#x4E0B;&#x7684;&#x5C31;&#x662F;&#x6EE1;&#x8DB3;&#x7684;&#x3002;&#x53D6;&#x6700;&#x5927;&#x7684;&#x4E00;&#x4E2A;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

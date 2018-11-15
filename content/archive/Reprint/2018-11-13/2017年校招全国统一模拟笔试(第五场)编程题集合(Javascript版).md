@@ -1,12 +1,12 @@
 ---
 title: 2017年校招全国统一模拟笔试(第五场)编程题集合(Javascript版)
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8a9263c
+slug: 8a9263c
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <blockquote>&#x5730;&#x5740;&#xFF1A;<a href="https://www.nowcoder.com/test/5986669/summary" rel="nofollow noreferrer">2017&#x5E74;&#x6821;&#x62DB;&#x5168;&#x56FD;&#x7EDF;&#x4E00;&#x6A21;&#x62DF;&#x7B14;&#x8BD5;(&#x7B2C;&#x4E94;&#x573A;)&#x7F16;&#x7A0B;&#x9898;&#x96C6;&#x5408;</a></blockquote><h3>&#x5076;&#x4E32; (AC)</h3><p>&#x5982;&#x679C;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7531;&#x4E24;&#x4E2A;&#x76F8;&#x540C;&#x5B57;&#x7B26;&#x4E32;&#x8FDE;&#x63A5;&#x800C;&#x6210;,&#x5C31;&#x79F0;&#x8FD9;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x662F;&#x5076;&#x4E32;&#x3002;&#x4F8B;&#x5982;&quot;xyzxyz&quot;&#x548C;&quot;aaaaaa&quot;&#x662F;&#x5076;&#x4E32;,&#x4F46;&#x662F;&quot;ababab&quot;&#x548C;&quot;xyzxy&quot;&#x5374;&#x4E0D;&#x662F;&#x3002;<br>&#x725B;&#x725B;&#x73B0;&#x5728;&#x7ED9;&#x4F60;&#x4E00;&#x4E2A;&#x53EA;&#x5305;&#x542B;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x7684;&#x5076;&#x4E32;s,&#x4F60;&#x53EF;&#x4EE5;&#x4ECE;&#x5B57;&#x7B26;&#x4E32;s&#x7684;&#x672B;&#x5C3E;&#x5220;&#x9664;1&#x548C;&#x6216;&#x8005;&#x591A;&#x4E2A;&#x5B57;&#x7B26;,&#x4FDD;&#x8BC1;&#x5220;&#x9664;&#x4E4B;&#x540E;&#x7684;&#x5B57;&#x7B26;&#x4E32;&#x8FD8;&#x662F;&#x4E00;&#x4E2A;&#x5076;&#x4E32;,&#x725B;&#x725B;&#x60F3;&#x77E5;&#x9053;&#x5220;&#x9664;&#x4E4B;&#x540E;&#x5F97;&#x5230;&#x6700;&#x957F;&#x5076;&#x4E32;&#x957F;&#x5EA6;&#x662F;&#x591A;&#x5C11;&#x3002;</p><p>&#x8F93;&#x5165;&#x63CF;&#x8FF0;:<br>&#x8F93;&#x5165;&#x5305;&#x62EC;&#x4E00;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;s,&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;length(2 &#x2264; length &#x2264; 200),&#x4FDD;&#x8BC1;s&#x662F;&#x4E00;&#x4E2A;&#x5076;&#x4E32;&#x4E14;&#x7531;&#x5C0F;&#x5199;&#x5B57;&#x6BCD;&#x6784;&#x6210;</p><p>&#x8F93;&#x51FA;&#x63CF;&#x8FF0;:<br>&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x6574;&#x6570;,&#x8868;&#x793A;&#x5220;&#x9664;&#x4E4B;&#x540E;&#x80FD;&#x5F97;&#x5230;&#x7684;&#x6700;&#x957F;&#x5076;&#x4E32;&#x957F;&#x5EA6;&#x662F;&#x591A;&#x5C11;&#x3002;&#x4FDD;&#x8BC1;&#x6D4B;&#x8BD5;&#x6570;&#x636E;&#x6709;&#x975E;&#x96F6;&#x89E3;</p><p>&#x8F93;&#x5165;&#x4F8B;&#x5B50;1:</p><blockquote>abaababaab</blockquote><p>&#x8F93;&#x51FA;&#x4F8B;&#x5B50;1:</p><blockquote>6</blockquote><pre><code class="js">var readline = require(&apos;readline&apos;);
 const rl = readline.createInterface({
   input: process.stdin,
@@ -111,7 +111,7 @@ rl.on(&apos;line&apos;, function(line) {
   }
   console.log(num);
 });</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

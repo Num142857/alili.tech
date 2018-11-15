@@ -1,12 +1,12 @@
 ---
 title: Vue.js状态管理模式 Vuex
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '42494691'
+slug: '42494691'
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/bVDxBu?w=701&amp;h=551" src="https://static.alili.tech/img/bVDxBu?w=701&amp;h=551" alt="clipboard.png" title="clipboard.png"></span></p><blockquote>vuex &#x662F;&#x4E00;&#x4E2A;&#x4E13;&#x4E3A; Vue.js &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x7684;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;&#x3002;&#x5B83;&#x91C7;&#x7528;&#x96C6;&#x4E2D;&#x5F0F;&#x5B58;&#x50A8;&#x7BA1;&#x7406;&#x5E94;&#x7528;&#x7684;&#x6240;&#x6709;&#x7EC4;&#x4EF6;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5E76;&#x4EE5;&#x76F8;&#x5E94;&#x7684;&#x89C4;&#x5219;&#x4FDD;&#x8BC1;&#x72B6;&#x6001;&#x4EE5;&#x4E00;&#x79CD;&#x53EF;&#x9884;&#x6D4B;&#x7684;&#x65B9;&#x5F0F;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x3002;</blockquote><h1>&#x5B89;&#x88C5;&#x3001;&#x4F7F;&#x7528; vuex</h1><p>&#x9996;&#x5148;&#x6211;&#x4EEC;&#x5728; vue.js 2.0 &#x5F00;&#x53D1;&#x73AF;&#x5883;&#x4E2D;&#x5B89;&#x88C5; vuex :</p><pre><code>npm install vuex --save</code></pre><p>&#x7136;&#x540E; , &#x5728; main.js &#x4E2D;&#x52A0;&#x5165; :</p><pre><code>import vuex from &apos;vuex&apos;
 Vue.use(vuex);
 const store = new vuex.Store({//store&#x5BF9;&#x8C61;
@@ -139,7 +139,7 @@ mutations: {
 store.dispatch(&apos;incrementAsync&apos;, {
   amount: 10
 })</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

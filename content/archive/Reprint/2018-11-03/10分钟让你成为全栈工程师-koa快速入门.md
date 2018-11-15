@@ -1,12 +1,12 @@
 ---
 title: 10分钟让你成为全栈工程师-koa快速入门
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b91d9f4d
+slug: b91d9f4d
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>&#x968F;&#x7740;&#x6280;&#x672F;&#x7684;&#x4E0D;&#x65AD;&#x53D1;&#x5C55;&#xFF0C;&#x524D;&#x7AEF;&#x5DE5;&#x7A0B;&#x5E08;&#x4E5F;&#x88AB;&#x8D4B;&#x4E88;&#x4E86;&#x8D8A;&#x6765;&#x8D8A;&#x591A;&#x7684;&#x804C;&#x8D23;&#x3002;&#x4E0D;&#x518D;&#x662F;&#x4ECE;&#x524D;&#x53EA;&#x9700;&#x8981;&#x5207;&#x4E2A;&#x56FE;&#xFF0C;&#x52A0;&#x4E2A;css&#x6837;&#x5F0F;&#x5C31;&#x80FD;&#x5B8C;&#x6210;&#x4EFB;&#x52A1;&#x7684;&#x5207;&#x56FE;&#x4ED4;&#x4E86;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#xFF0C;&#x5B8C;&#x6210;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x767B;&#x5F55;&#x6CE8;&#x518C;&#xFF0C;&#x80FD;&#x8BA9;&#x4F60;&#x5FEB;&#x901F;&#x4E0A;&#x624B;&#xFF0C;&#x6210;&#x4E3A;&#x4E00;&#x4E2A;&#x2018;&#x5C0F;&#x5168;&#x6808;&#x5DE5;&#x7A0B;&#x5E08;&#x2019;&#xFF0C;here we go &#xFF01;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016726034" src="https://static.alili.tech/img/remote/1460000016726034" alt="15371488705139" title="15371488705139" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader1">koa&#x5FEB;&#x901F;&#x5F00;&#x59CB;</h2><h3 id="articleHeader2">&#x5B89;&#x88C5;</h3><ul><li>&#x56E0;&#x4E3A;node.js v7.6.x&#x5DF2;&#x7ECF;&#x5B8C;&#x5168;&#x652F;&#x6301;async/await&#x8BED;&#x6CD5;&#xFF0C;&#x6240;&#x4EE5;&#x8BF7;&#x4FDD;&#x8BC1;node&#x7684;&#x7248;&#x672C;&#x5728;7.6&#x4EE5;&#x4E0A;</li><li><p>&#x63A8;&#x8350;&#x4E00;&#x4E2A;node&#x7684;&#x591A;&#x7248;&#x672C;&#x7BA1;&#x7406;&#x5DE5;&#x5177;&#xFF1A;nvm&#x3002;&#x5982;&#x4F55;&#x5B89;&#x88C5;&#x8FD9;&#x91CC;&#x4E0D;&#x518D;&#x8D58;&#x8FF0;&#xFF0C;&#x7F51;&#x4E0A;&#x7684;&#x6559;&#x7A0B;&#x6709;&#x5F88;&#x591A;</p><ul><li><a href="https://github.com/creationix/nvm" rel="nofollow noreferrer" target="_blank">https://github.com/creationix...</a></li></ul></li></ul><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="
 // &#x521D;&#x59CB;&#x5316;package.json
 npm init
@@ -394,7 +394,7 @@ app.keys = [<span class="hljs-string">&apos;some secret hurr&apos;</span>];
 };
 app.use(session(CONFIG, app));
 </code></pre><h3 id="articleHeader9">&#x5C0F;&#x7ED3;</h3><p>&#x5728;&#x6D89;&#x53CA;&#x5230;&#x81EA;&#x5DF1;&#x6CA1;&#x6709;&#x63A5;&#x89E6;&#x8FC7;&#x7684;&#x9886;&#x57DF;&#x65F6;&#xFF0C;&#x6211;&#x4E00;&#x76F4;&#x63A8;&#x5D07;&#x5148;&#x770B;&#x770B;&#x8981;&#x600E;&#x4E48;&#x73A9;&#xFF0C;&#x7B49;&#x81EA;&#x5DF1;&#x4F1A;&#x73A9;&#x4E86;&#x4EE5;&#x540E;&#xFF0C;&#x518D;&#x770B;&#x770B;&#x201C;&#x7A76;&#x7ADF;&#x201D;&#x600E;&#x4E48;&#x73A9;&#x3002;&#x6211;&#x4EEC;&#x901A;&#x8FC7;&#x4E0A;&#x9762;&#x7684;&#x4EE3;&#x7801;&#x548C;&#x63CF;&#x8FF0;&#xFF0C;&#x5DF2;&#x7ECF;&#x5BF9;koa&#x53CA;node&#x6709;&#x4E00;&#x4E2A;&#x521D;&#x6B65;&#x7684;&#x5370;&#x8C61;&#x548C;&#x6982;&#x5FF5;&#x3002;&#x4E0B;&#x7BC7;&#x6587;&#x7AE0;&#x6211;&#x4EEC;&#x4F1A;&#x6709;&#x4E2D;&#x95F4;&#x4EF6;&#x7684;&#x62C6;&#x5206;&#xFF0C;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#xFF0C;&#x8BB0;&#x5F55;&#x65E5;&#x5FD7;&#xFF0C;&#x7BA1;&#x7406;&#x89C4;&#x8303;&#x7B49;&#x3002;&#x8BA9;&#x6211;&#x4EEC;&#x5171;&#x540C;&#x6210;&#x957F;&#xFF01;</p><h2 id="articleHeader10">&#x5E7F;&#x800C;&#x544A;&#x4E4B;</h2><p>&#x672C;&#x6587;&#x53D1;&#x5E03;&#x4E8E;<a href="https://github.com/BooheeFE/weekly" rel="nofollow noreferrer" target="_blank">&#x8584;&#x8377;&#x524D;&#x7AEF;&#x5468;&#x520A;</a>&#xFF0C;&#x6B22;&#x8FCE;Watch &amp; Star &#x2605;&#xFF0C;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;</p><h3 id="articleHeader11">&#x6B22;&#x8FCE;&#x8BA8;&#x8BBA;&#xFF0C;&#x70B9;&#x4E2A;&#x8D5E;&#x518D;&#x8D70;&#x5427; &#xFF61;&#x25D5;&#x203F;&#x25D5;&#xFF61; &#xFF5E;</h3>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: JavaScript六种非常经典的对象继承方式
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 65c5edce
+slug: 65c5edce
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2>&#x4E00;&#x3001;&#x539F;&#x578B;&#x94FE;&#x7EE7;&#x627F;</h2><p>&#x91CD;&#x70B9;&#xFF1A;&#x5229;&#x7528;&#x539F;&#x578B;&#x8BA9;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7EE7;&#x627F;&#x53E6;&#x5916;&#x4E00;&#x4E2A;&#x5F15;&#x7528;&#x7C7B;&#x578B;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x539F;&#x578B;&#xFF0C;&#x5B9E;&#x4F8B;&#x4E4B;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#xFF1A;&#x6BCF;&#x4E2A;&#x6784;&#x9020;&#x51FD;&#x6570;&#x90FD;&#x6709;&#x4E00;&#x4E2A;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#xFF0C;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x6307;&#x9488;&#xFF0C;&#x800C;&#x5B9E;&#x4F8B;&#x90FD;&#x5305;&#x542B;&#x4E00;&#x4E2A;&#x6307;&#x5411;&#x539F;&#x578B;&#x5BF9;&#x8C61;&#x7684;&#x5185;&#x90E8;&#x6307;&#x9488;&#x3002;</p><pre><code>function SuperType(){
   this.property = true;
 }
@@ -163,7 +163,7 @@ var example2 = new SubType(&quot;def&quot;, 22);
 
 example1.colors.push(&quot;pink&quot;); // [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;, &quot;pink&quot;]
 example1.colors.push(&quot;black&quot;); // [&quot;red&quot;, &quot;blue&quot;, &quot;green&quot;, &quot;black&quot;]</code></pre><p>&#x5BC4;&#x751F;&#x7EC4;&#x5408;&#x7EE7;&#x627F;&#x96C6;&#x5408;&#x4E86;&#x524D;&#x9762;&#x51E0;&#x79CD;&#x7EE7;&#x627F;&#x4F18;&#x70B9;&#xFF0C;&#x51E0;&#x4E4E;&#x907F;&#x514D;&#x4E86;&#x4E0A;&#x9762;&#x7EE7;&#x627F;&#x65B9;&#x5F0F;&#x7684;&#x6240;&#x6709;&#x7F3A;&#x9677;&#xFF0C;&#x662F;&#x6267;&#x884C;&#x6548;&#x7387;&#x6700;&#x9AD8;&#x4E5F;&#x662F;&#x5E94;&#x7528;&#x9762;&#x6700;&#x5E7F;&#x7684;&#x3002;</p><p>&#x7F3A;&#x70B9;&#xFF1A;<br>&#x5B9E;&#x73B0;&#x7684;&#x8FC7;&#x7A0B;&#x76F8;&#x5BF9;&#x7E41;&#x7410;&#x3002;</p><p><strong>&#x4E3A;&#x4EC0;&#x4E48;&#x8981;&#x5B66;&#x4E60;&#x8FD9;&#x4E9B;&#x7EE7;&#x627F;&#x65B9;&#x5F0F;&#xFF0C;&#x660E;&#x660E;&#x53EF;&#x4EE5;&#x76F4;&#x63A5;&#x7EE7;&#x627F;&#x4E3A;&#x4EC0;&#x4E48;&#x8FD8;&#x8981;&#x641E;&#x8FD9;&#x4E48;&#x9EBB;&#x70E6;&#xFF1F;</strong>&#x4E3B;&#x8981;&#x662F;&#x4E3A;&#x4E86;&#x5B66;&#x4E60;&#x5B83;&#x4EEC;&#x7684;&#x601D;&#x60F3;&#xFF0C;&#x6253;&#x4E0B;&#x66F4;&#x597D;&#x7684;&#x57FA;&#x7840;&#xFF0C;&#x4E3A;&#x4EE5;&#x540E;&#x9605;&#x8BFB;&#x6846;&#x67B6;&#x6E90;&#x7801;&#xFF0C;&#x6216;&#x81EA;&#x5DF1;&#x5C01;&#x88C5;&#x7EC4;&#x4EF6;&#x751A;&#x81F3;&#x6846;&#x67B6;&#x5927;&#x6709;&#x76CA;&#x5904;&#x3002;</p><p>&#x65F6;&#x95F4;&#x6709;&#x70B9;&#x5306;&#x5FD9;&#xFF0C;&#x6CA1;&#x6709;&#x52A0;&#x4E0A;ES6&#x7684;extends&#xFF0C;&#x6709;&#x7A7A;&#x518D;&#x8865;&#x4E0A;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

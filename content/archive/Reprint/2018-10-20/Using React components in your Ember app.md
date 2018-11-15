@@ -1,12 +1,12 @@
 ---
 title: Using React components in your Ember app
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 414ae069
+slug: 414ae069
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <blockquote>
 <p><em>声明:</em> 我是学习Ember.js团队的一员，本篇文章不是要比较react和ember.这两个框架都非常棒！</p>
@@ -245,7 +245,7 @@ ember <span class="hljs-keyword">generate</span> vendor-shim react-dom
           <span class="hljs-attr">onExit</span>=<span class="hljs-string">{this.deactivateModal}</span>
           <span class="hljs-attr">initialFocus</span>=<span class="hljs-string">"#demo-one-deactivate"</span>
           <span class="hljs-attr">getApplicationNode</span>=<span class="hljs-string">{this.getApplicationNode}</span>
-          <span class="hljs-attr">underlayStyle</span>=<span class="hljs-string">{{</span> <span class="hljs-attr">paddingTop:</span> '<span class="hljs-attr">2em</span>' }}
+          <span class="hljs-attr">underlayStyle</span>=<span class="hljs-string">"{{"</span> <span class="hljs-attr">paddingTop:</span> '<span class="hljs-attr">2em</span>' }}
         &gt;</span>
           <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"demo-two-modal"</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"modal"</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">header</span> <span class="hljs-attr">className</span>=<span class="hljs-string">"modal-header"</span>&gt;</span>
@@ -327,7 +327,7 @@ export <span class="hljs-keyword">default</span> ReactComponent.extend({
 <p>如果你喜欢这篇文章, 在twitter <a href="https://twitter.com/sivakumar_k/">@sivakumar_k</a>上关注我。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/using-react-components-in-your-ember-app](https://www.zcfy.cc/article/using-react-components-in-your-ember-app)

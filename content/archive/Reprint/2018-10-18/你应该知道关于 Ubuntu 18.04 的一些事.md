@@ -1,12 +1,12 @@
 ---
 title: 你应该知道关于 Ubuntu 18.04 的一些事
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 192f9dbe
+slug: 192f9dbe
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#你应该知道关于-ubuntu-1804-的一些事"></a>你应该知道关于 Ubuntu 18.04 的一些事</h1>
 <p><a href="https://linux.cn/article-9583-1.html">Ubuntu 18.04 版本</a> 已经到来。我可以在各种 Facebook 群组和论坛中看到许多来自 Ubuntu 用户的提问。我还在 Facebook 和 Instagram 上组织了 Q&amp;A 会议，以了解 Ubuntu 用户对 Ubuntu 18.04 的想法。</p>
@@ -78,7 +78,7 @@ date: 2018-10-18 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/things-you-should-know-about-ubuntu-18-04](https://www.zcfy.cc/article/things-you-should-know-about-ubuntu-18-04)

@@ -28,7 +28,7 @@
   
         <span class="h1"><a href="">Writing</a></span>
         <ul class="post-list" id="post-list">
-                {{ range where .Paginator.Pages "Params.hidden" "ne" "true" }}
+                {{ range where .Pages "Params.hidden" "ne" "true" }}
                 {{ $url := replace .Permalink .Site.BaseURL "" }}
                     {{ if ne $url "about/" }}
                     <li class="post-item">

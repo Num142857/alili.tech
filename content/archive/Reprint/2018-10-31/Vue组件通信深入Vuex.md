@@ -1,12 +1,12 @@
 ---
 title: Vue组件通信深入Vuex
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9b908a87
+slug: 9b908a87
 date: 2018-10-31 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><strong>&#x5EFA;&#x8BAE;&#xFF1A;&#x535A;&#x5BA2;&#x4E2D;&#x7684;&#x4F8B;&#x5B50;&#x90FD;&#x653E;&#x5728;<a href="https://github.com/lxyc/vue_blog_project" rel="nofollow noreferrer" target="_blank">vue_blog_project</a>&#x5DE5;&#x7A0B;&#x4E2D;&#xFF0C;&#x63A8;&#x8350;&#x7ED3;&#x5408;&#x5DE5;&#x7A0B;&#x5B9E;&#x4F8B;&#x4E0E;&#x535A;&#x5BA2;&#x4E00;&#x540C;&#x5B66;&#x4E60;</strong></p><p>&#x4E0A;&#x4E00;&#x7BC7;&#x535A;&#x5BA2;&#xFF08;<a href="https://segmentfault.com/a/1190000014775073">Vue&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x6DF1;&#x5165;</a>&#xFF09;&#x4E2D;&#xFF0C;&#x4ECB;&#x7ECD;&#x4E86;&#x591A;&#x79CD;&#x65B9;&#x6CD5;&#x6765;&#x5B9E;&#x73B0;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#xFF0C;&#x4F46;&#x662F;&#x6D89;&#x53CA;&#x5230;&#x6DF1;&#x5C42;&#x5D4C;&#x5957;&#x548C;&#x975E;&#x76F4;&#x63A5;&#x5173;&#x8054;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#x65F6;&#xFF0C;&#x90FD;&#x4F1A;&#x9047;&#x5230;<strong>&#x65E0;&#x6CD5;&#x8FFD;&#x8E2A;&#x6570;&#x636E;&#x548C;&#x8C03;&#x8BD5;&#x7684;&#x95EE;&#x9898;</strong>&#xFF0C;&#x800C;vuex&#x5C31;&#x662F;&#x4E3A;&#x89E3;&#x51B3;&#x6B64;&#x7C7B;&#x95EE;&#x9898;&#x800C;&#x751F;&#x7684;&#x3002;</p><p>&#x8FD9;&#x7BC7;&#x535A;&#x5BA2;&#x5C06;&#x7B80;&#x8981;&#x7684;&#x4ECB;&#x7ECD;vuex&#x7684;&#x57FA;&#x672C;&#x7528;&#x6CD5;&#x548C;&#x6700;&#x4F73;&#x5B9E;&#x8DF5;&#xFF0C;&#x7136;&#x540E;&#x5B8C;&#x6210;&#x4E0B;&#x9762;&#x7684;demo</p><p><span class="img-wrap"><img data-src="/img/bVbafK0?w=787&amp;h=484" src="https://static.alili.tech/img/bVbafK0?w=787&amp;h=484" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader0">1. Vuex &#x7B80;&#x4ECB;</h2><p>&#x58F0;&#x660E;&#xFF1A;&#x5728;&#x6B64;&#x4EC5;&#x4ECB;&#x7ECD;Vuex&#x7CBE;&#x534E;&#x77E5;&#x8BC6;&#xFF0C;&#x66F4;&#x8BE6;&#x5C3D;&#x7684;&#x77E5;&#x8BC6;&#x8BF7;&#x53C2;&#x8003;<a href="https://vuex.vuejs.org/zh-cn/intro.html" rel="nofollow noreferrer" target="_blank">Vuex&#x4E2D;&#x6587;&#x5B98;&#x7F51;</a></p><h3 id="articleHeader1">1.1 &#x521D;&#x8BC6;Vuex</h3><blockquote>Vuex &#x662F;&#x4E00;&#x4E2A;&#x4E13;&#x4E3A; Vue.js &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x7684;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;&#x3002;&#x5B83;&#x91C7;&#x7528;&#x96C6;&#x4E2D;&#x5F0F;&#x5B58;&#x50A8;&#x7BA1;&#x7406;&#x5E94;&#x7528;&#x7684;&#x6240;&#x6709;&#x7EC4;&#x4EF6;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5E76;&#x4EE5;&#x76F8;&#x5E94;&#x7684;&#x89C4;&#x5219;&#x4FDD;&#x8BC1;&#x72B6;&#x6001;&#x4EE5;&#x4E00;&#x79CD;&#x53EF;&#x9884;&#x6D4B;&#x7684;&#x65B9;&#x5F0F;&#x53D1;&#x751F;&#x53D8;&#x5316;</blockquote><p>Vuex &#x89E3;&#x51B3;&#x4E86;<code>&#x591A;&#x4E2A;&#x89C6;&#x56FE;&#x4F9D;&#x8D56;&#x4E8E;&#x540C;&#x4E00;&#x72B6;&#x6001;</code>&#x548C;<code>&#x6765;&#x81EA;&#x4E0D;&#x540C;&#x89C6;&#x56FE;&#x7684;&#x884C;&#x4E3A;&#x9700;&#x8981;&#x53D8;&#x66F4;&#x540C;&#x4E00;&#x72B6;&#x6001;</code>&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x5C06;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x7CBE;&#x529B;&#x805A;&#x7126;&#x4E8E;&#x6570;&#x636E;&#x7684;&#x66F4;&#x65B0;&#x800C;&#x4E0D;&#x662F;&#x6570;&#x636E;&#x5728;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x4F20;&#x9012;&#x4E0A;</p><h3 id="articleHeader2">1.2 Vuex&#x5404;&#x4E2A;&#x6A21;&#x5757;</h3><p>&#xFF08;1&#xFF09;<code>state</code>&#xFF1A;&#x7528;&#x4E8E;&#x6570;&#x636E;&#x7684;&#x5B58;&#x50A8;&#xFF0C;&#x662F;store&#x4E2D;&#x7684;<strong>&#x552F;&#x4E00;&#x6570;&#x636E;&#x6E90;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="// &#x5B9A;&#x4E49;
 new Vuex.Store({
     state: {
@@ -385,12 +385,12 @@ export default {
 &lt;/script&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="xml hljs"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">ul</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;product-wrapper&quot;</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row header&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;(th,i) in tHeader&quot;</span> <span class="hljs-attr">:key</span>=<span class="hljs-string">&quot;i&quot;</span>&gt;</span>{{ th }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;(th,i) in tHeader&quot;</span> <span class="hljs-attr">:key</span>=<span class="hljs-string">&quot;i&quot;</span>&gt;</span>"{{" th "}}"<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
         <span class="hljs-tag">&lt;<span class="hljs-name">li</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;row&quot;</span> <span class="hljs-attr">v-for</span>=<span class="hljs-string">&quot;product in currentProducts&quot;</span> <span class="hljs-attr">:key</span>=<span class="hljs-string">&quot;product.id&quot;</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{{ product.title }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{{ product.price }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
-            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>{{ product.inventory - product.quantity }}<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>"{{" product.title "}}"<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>"{{" product.price "}}"<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>"{{" product.inventory - product.quantity "}}"<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
             <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
                 <span class="hljs-tag">&lt;<span class="hljs-name">el-input-number</span>
                     <span class="hljs-attr">:min</span>=<span class="hljs-string">&quot;0&quot;</span> <span class="hljs-attr">:max</span>=<span class="hljs-string">&quot;product.inventory&quot;</span>
@@ -470,7 +470,7 @@ export default {
             {{ product.title }} - {{ product.price }} x {{ product.quantity }}
         <span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>
     <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>
-    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Total: {{ total }}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Total: {{ total "}}"<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
     <span class="hljs-tag">&lt;<span class="hljs-name">el-button</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;clearCartProducts&quot;</span>&gt;</span>CLEAR<span class="hljs-tag">&lt;/<span class="hljs-name">el-button</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span></span>
@@ -550,7 +550,7 @@ export default {
         commit(types.CLEAR_CART_PRODUCTS)
     }
 }</code></pre><p>&#x53E6;&#x5916;&#xFF0C;<strong>&#x5728;&#x7EC4;&#x4EF6;&#x5F15;&#x7528;mutation&#x90E8;&#x5206;&#x4E5F;&#x9700;&#x8981;&#x4F5C;&#x76F8;&#x5E94;&#x4FEE;&#x6539;</strong></p><p>&#x5728;&#x6B64;&#x4EC5;&#x5C06;demo&#x4E2D;&#x7684;&#x6838;&#x5FC3;&#x90E8;&#x5206;&#x5217;&#x51FA;&#xFF0C;&#x5B8C;&#x6574;&#x7684;&#x4EE3;&#x7801;&#x8BF7;&#x67E5;&#x770B;<a href="https://github.com/lxyc/vue_blog_project" rel="nofollow noreferrer" target="_blank">demo&#x6E90;&#x7801;</a></p><p><a href="https://segmentfault.com/a/1190000014775073">&#x4E0A;&#x4E00;&#x7BC7;&#xFF1A;Vue&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x6DF1;&#x5165;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

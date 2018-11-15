@@ -1,12 +1,12 @@
 ---
 title: 将你的树莓派打造成一个 Tor 中继节点
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 7e43fcce
+slug: 7e43fcce
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#将你的树莓派打造成一个-tor-中继节点"></a>将你的树莓派打造成一个 Tor 中继节点</h1>
 <blockquote>
@@ -78,7 +78,7 @@ RelayBandwidthBurst <span class="hljs-number">2400</span> KBytes
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/turn-your-raspberry-pi-into-a-tor-relay-node](https://www.zcfy.cc/article/turn-your-raspberry-pi-into-a-tor-relay-node)

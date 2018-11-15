@@ -1,12 +1,12 @@
 ---
 title: zzupdate：单条命令升级 Ubuntu 18.04 LTS
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8bc4dcb0
+slug: 8bc4dcb0
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#zzupdate单条命令升级-ubuntu-1804-lts"></a>zzupdate：单条命令升级 Ubuntu 18.04 LTS</h1>
 <p>Ubuntu 18.04 版本已经发布，并得到各个社区的一致好评，因为 Ubuntu 18.04 可能是 Ubuntu 多年来最令人兴奋的版本。</p>
@@ -322,7 +322,7 @@ UBUNTU_CODENAME=bionic
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

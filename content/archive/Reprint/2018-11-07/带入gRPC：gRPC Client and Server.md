@@ -1,12 +1,12 @@
 ---
 title: 带入gRPC：gRPC Client and Server
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f29e3b28
+slug: f29e3b28
 date: 2018-11-07 02:30:16
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">&#x5E26;&#x5165;gRPC&#xFF1A;gRPC Client and Server</h1><p>&#x539F;&#x6587;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/EDDYCJY/blog/blob/master/golang/gRPC/2018-09-23-%E5%B8%A6%E5%85%A5gRPC%E4%BA%8C-gRPC-Client-and-Server.md" rel="nofollow noreferrer" target="_blank">&#x5E26;&#x5165;gRPC&#xFF1A;gRPC Client and Server</a></p><p>&#x9879;&#x76EE;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/EDDYCJY/go-grpc-example" rel="nofollow noreferrer" target="_blank">go-grpc-example</a></p><h2 id="articleHeader1">&#x524D;&#x8A00;</h2><p>&#x672C;&#x7AE0;&#x8282;&#x5C06;&#x4F7F;&#x7528; Go &#x6765;&#x7F16;&#x5199; gRPC Server &#x548C; Client&#xFF0C;&#x8BA9;&#x5176;&#x4E92;&#x76F8;&#x901A;&#x8BAF;&#x3002;&#x5728;&#x6B64;&#x4E4B;&#x4E0A;&#x4F1A;&#x4F7F;&#x7528;&#x5230;&#x5982;&#x4E0B;&#x5E93;&#xFF1A;</p><ul><li>google.golang.org/grpc</li><li>github.com/golang/protobuf/protoc-gen-go</li></ul><h2 id="articleHeader2">&#x5B89;&#x88C5;</h2><h3 id="articleHeader3">gRPC</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="go get -u google.golang.org/grpc" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs stylus"><code style="word-break:break-word;white-space:initial">go get -u google<span class="hljs-selector-class">.golang</span><span class="hljs-selector-class">.org</span>/grpc</code></pre><h3 id="articleHeader4">Protocol Buffers v3</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="wget https://github.com/google/protobuf/releases/download/v3.5.1/protobuf-all-3.5.1.zip
 unzip protobuf-all-3.5.1.zip
 cd protobuf-3.5.1/
@@ -284,7 +284,7 @@ $ go run client.go
 $GOPATH/github.<span class="hljs-keyword">com</span>/EDDYCJY/<span class="hljs-keyword">go</span>-grpc-example/client
 $ <span class="hljs-keyword">go</span> run client.<span class="hljs-keyword">go</span> 
 <span class="hljs-number">2018</span>/<span class="hljs-number">09</span>/<span class="hljs-number">23</span> <span class="hljs-number">11</span>:<span class="hljs-number">06</span>:<span class="hljs-number">23</span> resp: gRPC Server</code></pre><h2 id="articleHeader15">&#x603B;&#x7ED3;</h2><p>&#x5728;&#x672C;&#x7AE0;&#x8282;&#xFF0C;&#x6211;&#x4EEC;&#x5BF9; Protobuf&#x3001;gRPC Client/Server &#x5206;&#x522B;&#x90FD;&#x8FDB;&#x884C;&#x4E86;&#x4ECB;&#x7ECD;&#x3002;&#x5E0C;&#x671B;&#x4F60;&#x7ED3;&#x5408;&#x6587;&#x4E2D;&#x8BB2;&#x8FF0;&#x5185;&#x5BB9;&#x518D;&#x5199;&#x4E00;&#x4E2A; Demo &#x8FDB;&#x884C;&#x6DF1;&#x5165;&#x4E86;&#x89E3;&#xFF0C;&#x80AF;&#x5B9A;&#x4F1A;&#x66F4;&#x68D2; &#x1F914;</p><h2 id="articleHeader16">&#x7CFB;&#x5217;&#x76EE;&#x5F55;</h2><ul><li><a href="https://segmentfault.com/a/1190000016496136" target="_blank">&#x5E26;&#x5165;gRPC&#xFF1A;gRPC&#x53CA;&#x76F8;&#x5173;&#x4ECB;&#x7ECD;</a></li><li><a href="https://segmentfault.com/a/1190000016496165">&#x5E26;&#x5165;gRPC&#xFF1A;gRPC Client and Server</a></li><li><a href="https://segmentfault.com/a/1190000016503114" target="_blank">&#x5E26;&#x5165;gRPC&#xFF1A;gRPC Streaming, Client and Server</a></li></ul>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

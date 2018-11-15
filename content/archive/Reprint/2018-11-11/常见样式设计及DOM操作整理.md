@@ -1,12 +1,12 @@
 ---
 title: 常见样式设计及DOM操作整理
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b01c1896
+slug: b01c1896
 date: 2018-11-11 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">css&#x90E8;&#x5206;</h1><h3 id="articleHeader1">&#x4E3A;&#x4E0D;&#x540C;&#x94FE;&#x63A5;&#x6DFB;&#x52A0;&#x4E0D;&#x540C;&#x6837;&#x5F0F;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="a[href^=&quot;http&quot;]{
 padding-right: 20px;
 background: url(external.gif) no-repeat center right;
@@ -610,7 +610,7 @@ JS_ver.supports = <span class="hljs-function"><span class="hljs-keyword">functio
 &#x3000;&#x3000;}
 &#x3000;&#x3000;document.getElementById(<span class="hljs-name">&apos;myUL&apos;</span>).appendChild(<span class="hljs-name">Frag</span>)<span class="hljs-comment">;</span>
 })()<span class="hljs-comment">;</span></code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

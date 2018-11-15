@@ -1,12 +1,12 @@
 ---
 title: JavaScript中的this
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a5ceba90
+slug: a5ceba90
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><code>this</code> 在不同的地方被调用有不同的值。</p>
 <p>不知道这些细节可能会导致很多头疼的问题, 所以你不妨花5分钟的时间来了解一下这些坑。</p>
@@ -145,7 +145,7 @@ drive.apply(car, [<span class="hljs-number">100</span>])
 
 </code></pre>
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/this-in-javascript](https://www.zcfy.cc/article/this-in-javascript)

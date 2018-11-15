@@ -1,12 +1,12 @@
 ---
 title: 现代 js 框架存在的根本原因
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 52a4b9a5
+slug: 52a4b9a5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>我曾见过很多很多人盲目地使用（前端）框架，如 React，Angular 或 Vue等等。这些框架提供了许多有意思的东西，然而通常人们（自以为）使用框架是因为：</p>
 <ul>
@@ -73,7 +73,7 @@ date: 2018-10-18 00:00:00
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/the-deepest-reason-why-modern-javascript-frameworks-exist](https://www.zcfy.cc/article/the-deepest-reason-why-modern-javascript-frameworks-exist)

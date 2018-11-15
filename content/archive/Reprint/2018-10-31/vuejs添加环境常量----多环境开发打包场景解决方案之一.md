@@ -1,12 +1,12 @@
 ---
 title: vuejs添加环境常量----多环境开发打包场景解决方案之一
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e5a44fb1
+slug: e5a44fb1
 date: 2018-10-31 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>2018/8/24&#x66F4;&#x65B0;&#xFF1A;<br>&#x76EE;&#x524D;VUE CLI 3.0 &#x5DF2;&#x7ECF;&#x63D0;&#x4F9B;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x914D;&#x7F6E;&#x4E86;&#xFF0C;&#x5EFA;&#x8BAE;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x3002;</p><h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>vue-cli&#x6784;&#x5EFA;&#x7684;&#x9879;&#x76EE;&#x6CA1;&#x6709;angular-cli&#x6807;&#x914D;&#x7684;environments&#x73AF;&#x5883;&#x4F9D;&#x8D56;&#xFF0C;&#x53EA;&#x533A;&#x5206;&#x5F00;&#x53D1;&#x6A21;&#x5F0F;&#x3001;&#x5355;&#x5143;&#x6D4B;&#x8BD5;&#x6A21;&#x5F0F;&#x548C;&#x751F;&#x4EA7;&#x6A21;&#x5F0F;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="//config
 dev.env.js
 test.env.js
@@ -122,7 +122,7 @@ process.env.BASE_URL = HOST_CONF.baseUrl
 </span></code></pre><p>//&#x6253;&#x5305;&#x6D4B;&#x8BD5;&#x73AF;&#x5883;</p><p><span class="img-wrap"><img data-src="/img/bVbaGn7?w=597&amp;h=208" src="https://static.alili.tech/img/bVbaGn7?w=597&amp;h=208" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>//&#x672C;&#x5730;&#x8C03;&#x8BD5;&#x751F;&#x4EA7;&#x73AF;&#x5883;</p><p><span class="img-wrap"><img data-src="/img/bVbaGiR?w=581&amp;h=278" src="https://static.alili.tech/img/bVbaGiR?w=581&amp;h=278" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><h2 id="articleHeader4">&#x6253;&#x5305;&#x6240;&#x6709;&#x73AF;&#x5883;</h2><p>/package.json &#x201C;script&quot;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=" &quot;build-all&quot;: &quot;npm run build --dev &amp;&amp; npm run build --test &amp;&amp; npm run build --pro&quot;
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs n1ql"><code> &quot;<span class="hljs-keyword">build</span>-<span class="hljs-keyword">all</span><span class="hljs-string">&quot;: &quot;</span>npm run <span class="hljs-keyword">build</span> --dev &amp;&amp; npm run <span class="hljs-keyword">build</span> --test &amp;&amp; npm run <span class="hljs-keyword">build</span> --pro<span class="hljs-string">&quot;
 </span></code></pre><h2 id="articleHeader5">&#x76EE;&#x524D;&#x53D1;&#x73B0;&#x7684;&#x95EE;&#x9898;</h2><p>&#x547D;&#x4EE4;&#x884C;&#x53C2;&#x6570;&#xFF08;process.argv&#xFF09;&#x6709;&#x4FDD;&#x7559;&#x5173;&#x952E;&#x5B57;&#x6216;&#x8005;&#x662F;&#x88AB;&#x5360;&#x7528;&#x7684;&#xFF0C;&#x5982;prod,&#x9700;&#x8981;&#x6CE8;&#x610F;&#x89C4;&#x907F;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

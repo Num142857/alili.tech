@@ -1,12 +1,12 @@
 ---
 title: 学习 canvas 的 globalCompositeOperation 做出的神奇效果
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fc01489
+slug: fc01489
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h3 id="articleHeader0">说明</h3>
@@ -335,7 +335,7 @@ date: 2018-10-22 00:00:00
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/remote/1460000016248923?w=600&amp;h=342" src="https://static.alili.tech/img/remote/1460000016248923?w=600&amp;h=342" alt="这里写图片描述" title="这里写图片描述" style="cursor: pointer; display: inline;"></span></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

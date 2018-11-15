@@ -1,12 +1,12 @@
 ---
 title: js浅拷贝与深拷贝方法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2e32f070
+slug: 2e32f070
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>js&#x6709;&#x4E94;&#x79CD;&#x57FA;&#x672C;&#x6570;&#x636E;&#x7C7B;&#x578B;&#xFF0C;string,number,boolean,null,undefind&#x3002;&#x8FD9;&#x4E94;&#x79CD;&#x7C7B;&#x578B;&#x7684;&#x8D4B;&#x503C;&#xFF0C;&#x5C31;&#x662F;&#x503C;&#x4F20;&#x9012;&#x3002;&#x7279;&#x6B8A;&#x7C7B;&#x578B;&#x5BF9;&#x8C61;&#x7684;&#x8D4B;&#x503C;&#x662F;&#x5C06;&#x5BF9;&#x8C61;&#x5730;&#x5740;&#x7684;&#x5F15;&#x7528;&#x8D4B;&#x503C;&#x3002;&#x8FD9;&#x65F6;&#x5019;&#x4FEE;&#x6539;&#x5BF9;&#x8C61;&#x4E2D;&#x7684;&#x5C5E;&#x6027;&#x6216;&#x8005;&#x503C;&#xFF0C;&#x4F1A;&#x5BFC;&#x81F4;&#x6240;&#x6709;&#x5F15;&#x7528;&#x8FD9;&#x4E2A;&#x5BF9;&#x8C61;&#x7684;&#x503C;&#x6539;&#x53D8;&#x3002;&#x5982;&#x679C;&#x60F3;&#x8981;&#x771F;&#x7684;&#x590D;&#x5236;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5BF9;&#x8C61;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x590D;&#x5236;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x5C31;&#x8981;&#x7528;&#x5230;&#x5BF9;&#x8C61;&#x7684;&#x6DF1;&#x62F7;&#x8D1D;&#x3002;</p><h2 id="articleHeader0">&#x6D45;&#x62F7;&#x8D1D;&#x5B9E;&#x73B0;&#x65B9;&#x5F0F;</h2><h3 id="articleHeader1">1.&#x2018;=&#x2019;&#x8D4B;&#x503C;&#x3002;</h3><p>&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x6700;&#x57FA;&#x7840;&#x7684;&#x8D4B;&#x503C;&#x65B9;&#x5F0F;&#xFF0C;&#x53EA;&#x662F;&#x5C06;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#x8D4B;&#x503C;&#x3002;</p><h3 id="articleHeader2">2.Object.assign()</h3><p>Object.assign&#x662F;ES6&#x7684;&#x65B0;&#x51FD;&#x6570;&#x3002;Object.assign() &#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x628A;&#x4EFB;&#x610F;&#x591A;&#x4E2A;&#x7684;&#x6E90;&#x5BF9;&#x8C61;&#x81EA;&#x8EAB;&#x7684;&#x53EF;&#x679A;&#x4E3E;&#x5C5E;&#x6027;&#x62F7;&#x8D1D;&#x7ED9;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#xFF0C;&#x7136;&#x540E;&#x8FD4;&#x56DE;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#x3002;&#x4F46;&#x662F; Object.assign() &#x8FDB;&#x884C;&#x7684;&#x662F;&#x6D45;&#x62F7;&#x8D1D;&#xFF0C;&#x62F7;&#x8D1D;&#x7684;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x800C;&#x4E0D;&#x662F;&#x5BF9;&#x8C61;&#x672C;&#x8EAB;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="Object.assign(target, ...sources)" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs css"><code style="word-break:break-word;white-space:initial"><span class="hljs-selector-tag">Object</span><span class="hljs-selector-class">.assign</span>(<span class="hljs-selector-tag">target</span>, ..<span class="hljs-selector-class">.sources</span>)</code></pre><p>&#x53C2;&#x6570;&#xFF1A;<br>target&#xFF1A;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#x3002;<br>sources&#xFF1A;&#x4EFB;&#x610F;&#x591A;&#x4E2A;&#x6E90;&#x5BF9;&#x8C61;&#x3002;<br>&#x8FD4;&#x56DE;&#x503C;&#xFF1A;&#x76EE;&#x6807;&#x5BF9;&#x8C61;&#x4F1A;&#x88AB;&#x8FD4;&#x56DE;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var obj = { a: {a: &quot;hello&quot;, b: 21} };
 var initalObj = Object.assign({}, obj);
 
@@ -152,7 +152,7 @@ console.log(obj1.b.f === obj2.b.f);
 <span class="hljs-keyword">var</span> obj2 = $.extend(<span class="hljs-literal">true</span>, {}, obj1);
 <span class="hljs-built_in">console</span>.log(obj1.b.f === obj2.b.f);
 <span class="hljs-comment">// false</span></code></pre><h3 id="articleHeader9">6.&#x7B2C;&#x4E09;&#x65B9;&#x51FD;&#x6570;</h3><p>&#x8FD8;&#x6709;&#x4E00;&#x4E9B;&#x5176;&#x5B83;&#x7684;&#x7B2C;&#x4E09;&#x65B9;&#x51FD;&#x6570;&#x5E93;&#x6709;&#x6DF1;&#x62F7;&#x8D1D;function&#xFF0C;&#x5982;lodash&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

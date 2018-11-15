@@ -1,12 +1,12 @@
 ---
 title: 4 种基于 Markdown 的幻灯片生成器
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 248f9ce2
+slug: 248f9ce2
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#4-种基于-markdown-的幻灯片生成器"></a>4 种基于 Markdown 的幻灯片生成器</h1>
 <blockquote>
@@ -50,7 +50,7 @@ date: 2018-10-18 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/4-markdown-powered-slide-generators](https://www.zcfy.cc/article/4-markdown-powered-slide-generators)

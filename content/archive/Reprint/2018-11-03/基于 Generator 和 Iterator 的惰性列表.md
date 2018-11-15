@@ -1,12 +1,12 @@
 ---
 title: 基于 Generator 和 Iterator 的惰性列表
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6456fa88
+slug: 6456fa88
 date: 2018-11-03 02:30:13
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x521D;&#x8BC6; Lazy List</h2><p>&#x5982;&#x679C;&#x6709;&#x4E86;&#x89E3;&#x8FC7; Haskell &#x7684;&#x670B;&#x53CB;&#xFF0C;&#x5BF9;&#x4E0B;&#x9762;&#x7684;&#x8FD9;&#x4E9B;&#x8868;&#x8FBE;&#x4E00;&#x5B9A;&#x4E0D;&#x964C;&#x751F;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="repeat 1 -- =&gt; [1, 1, 1, 1, 1,...]
 cycle &quot;abc&quot; -- =&gt; &quot;abcabcabc...&quot;
 [1, 3..] -- =&gt; [1, 3, 5, 7, ...]" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="haskell hljs"><code class="Haskell"><span class="hljs-title">repeat</span> <span class="hljs-number">1</span> <span class="hljs-comment">-- =&gt; [1, 1, 1, 1, 1,...]</span>
@@ -354,7 +354,7 @@ export function* zipWith&lt;T, G, R&gt;(
     valB = itorB.next();
   }
 }</code></pre><p>&#x66F4;&#x591A;&#x7684;&#x65B9;&#x6CD5;&#x53EF;&#x4EE5;&#x53BB;&#x5E95;&#x90E8;&#x7684;&#x70B9;&#x5F00;&#x6211;&#x7684; repo&#xFF0C;&#x8FD9;&#x91CC;&#x5C31;&#x4E0D;&#x4E00;&#x4E00;&#x5217;&#x4E3E;&#x4E86;&#x3002;</p><h2 id="articleHeader6">&#x7ED3;&#x8BED;</h2><p>Generator &#x548C; Iterator &#x662F; ES6 &#x5E26;&#x7ED9;&#x6211;&#x4EEC;&#x7684;&#x975E;&#x5E38;&#x5F3A;&#x5927;&#x7684;&#x8BED;&#x8A00;&#x5C42;&#x9762;&#x7684;&#x80FD;&#x529B;&#xFF0C;&#x5B83;&#x672C;&#x8EAB;&#x7684;&#x6C42;&#x503C;&#x53EF;&#x4EE5;&#x770B;&#x4F5C;&#x662F;&#x60F0;&#x6027;&#x7684;&#x3002;</p><p>&#x5DEE;&#x4E0D;&#x591A;&#x5728;13&#x5E74;&#x5DE6;&#x53F3;&#xFF0C;TJ &#x7684; <a href="https://github.com/tj/co" rel="nofollow noreferrer" target="_blank">co</a> &#x521A;&#x51FA;&#x6765;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5176;&#x4EE3;&#x7801;&#x7684;&#x77ED;&#x5C0F;&#x7CBE;&#x608D;&#x53EF;&#x4EE5;&#x8BF4;&#x662F;&#x76F8;&#x5F53;&#x60CA;&#x8273;&#x7684;&#x3002;&#x7136;&#x800C;&#x5728;&#x6211;&#x4EEC;&#x7684;&#x4F7F;&#x7528;&#x4E2D;&#xFF0C;&#x4E00;&#x6765;&#x53D7;&#x9650;&#x4E8E;&#x6D4F;&#x89C8;&#x5668;&#x517C;&#x5BB9;&#x6027;&#xFF0C;&#x4E8C;&#x6765;&#x53D7;&#x9650;&#x4E8E;&#x6211;&#x4EEC;&#x7684;&#x4F7F;&#x7528;&#x573A;&#x666F;&#xFF0C;&#x4E2A;&#x4EBA;&#x8BA4;&#x4E3A;&#x6211;&#x4EEC;&#x5BF9;&#x5176;&#x7279;&#x6027;&#x5F00;&#x53D1;&#x5F97;&#x8FD8;&#x8FDC;&#x8FDC;&#x4E0D;&#x591F;&#x3002;&#x7ED3;&#x5408; IO&#x3001;network&#xFF0C;Generator &#x548C; Iterator &#x8FD8;&#x80FD;&#x4E3A;&#x6211;&#x4EEC;&#x505A;&#x66F4;&#x591A;&#x7684;&#x4E8B;&#x60C5;&#x3002;</p><p>&#x53E6;&#x5916;&#xFF0C;&#x9700;&#x8981;&#x7279;&#x522B;&#x8BF4;&#x660E;&#x7684;&#x662F;&#xFF0C;&#x867D;&#x7136;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x901A;&#x7BC7;&#x662F;&#x5728;&#x8BB2;&#x60F0;&#x6027;&#x5217;&#x8868;&#xFF0C;&#x4F46;&#x662F;&#x60F0;&#x6027;&#x5217;&#x8868;&#x5E76;&#x4E0D;&#x662F;&#x94F6;&#x5F39;&#xFF0C;&#x76F8;&#x53CD;&#x7684;&#xFF0C;&#x60F0;&#x6027;&#x7ED3;&#x6784;&#x7684;&#x6EE5;&#x7528;&#x4F1A;&#x5728;&#x7A0B;&#x5E8F;&#x7684;&#x6267;&#x884C;&#x8FC7;&#x7A0B;&#x4E2D;&#x7F13;&#x5B58;&#x5927;&#x91CF;&#x7684;thunk&#xFF0C;&#x589E;&#x5927;&#x5728;&#x5185;&#x5B58;&#x4E0A;&#x7684;&#x5F00;&#x9500;&#x3002;</p><p>&#x6700;&#x540E;&#xFF0C;&#x5229;&#x76CA;&#x76F8;&#x5173; - &#x6709;&#x8D5E;&#x62DB;&#x524D;&#x7AEF;&#xFF0C;&#x7B80;&#x5386;&#x8BF7;&#x6295; <code>wangqiao@youzan.com</code>&#x3002;</p><p>&#x5B8C;&#x6574;&#x4EE3;&#x7801;&#x8BF7;&#x79FB;&#x6B65; <a href="https://github.com/nodew/lazyList" rel="nofollow noreferrer" target="_blank">GitHub</a>&#x3002;</p><p>&#x672C;&#x6587;&#x9996;&#x53D1;&#x4E8E;<a href="https://tech.youzan.com/lazy-list-with-generator-and-iterator/" rel="nofollow noreferrer" target="_blank">&#x6709;&#x8D5E;&#x6280;&#x672F;&#x535A;&#x5BA2;</a>&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 37个JavaScript基本面试问题和解答
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 933bbe19
+slug: 933bbe19
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h3>1、使用typeof bar ===“object”来确定bar是否是一个对象时有什么潜在的缺陷？这个陷阱如何避免？</h3>
 <p>尽管typeof bar ===“object”是检查bar是否是对象的可靠方法，但JavaScript中令人惊讶的问题是<em>null</em>也被认为是一个对象！</p>
@@ -753,7 +753,7 @@ outer();
 <p>面试比棘手的技术问题要多，所以这些仅仅是作为指导。并不是每个值得聘用的“A”候选人都能够回答所有问题，也不会回答他们都保证有“A”候选人。<a href="https://www.toptal.com/freelance/in-search-of-the-elite-few-finding-and-hiring-the-best-developers-in-the-industry">在这一天结束时，招聘仍然是一门艺术，一门科学 - 还有很多工作。</a>.</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/37-essential-javascript-interview-questions-and-answers](https://www.zcfy.cc/article/37-essential-javascript-interview-questions-and-answers)

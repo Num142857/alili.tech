@@ -1,12 +1,12 @@
 ---
 title: 在webpack中使用prefetch/preload
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ccbf6875
+slug: ccbf6875
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>这是什么？</p>
 <h4>什么是prefetch？</h4>
@@ -87,7 +87,7 @@ date: 2018-10-19 00:00:00
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/link-rel-prefetch-preload-in-webpack](https://www.zcfy.cc/article/link-rel-prefetch-preload-in-webpack)

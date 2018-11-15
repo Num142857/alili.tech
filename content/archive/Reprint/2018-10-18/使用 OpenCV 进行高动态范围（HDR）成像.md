@@ -1,12 +1,12 @@
 ---
 title: 使用 OpenCV 进行高动态范围（HDR）成像
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 855c5353
+slug: 855c5353
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#使用-opencv-进行高动态范围hdr成像"></a>使用 OpenCV 进行高动态范围（HDR）成像</h1>
 <p>在本教程中，我们将学习如何使用由不同曝光设置拍摄的多张图像创建高动态范围High Dynamic Range（HDR）图像。 我们将以 C++ 和 Python 两种形式分享代码。</p>
@@ -270,7 +270,7 @@ cv2.imwrite(<span class="hljs-string">"ldr-Mantiuk.jpg"</span>, ldrMantiuk * 255
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/high-dynamic-range-imaging-using-opencv-cpp-python](https://www.zcfy.cc/article/high-dynamic-range-imaging-using-opencv-cpp-python)

@@ -1,12 +1,12 @@
 ---
 title: 一步一步教你用 Vue.js + Vuex 制作专门收藏微信公众号的 app
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b5a8e07a
+slug: b5a8e07a
 date: 2018-10-29 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x53EA;&#x770B;&#x4E0D;&#x8D5E;&#xFF0C;&#x6216;&#x8005;&#x53EA;&#x6536;&#x85CF;&#x4E0D;&#x8D5E;&#x7684;&#x90FD;&#x662F;&#x800D;&#x6D41;&#x6C13;&#xFF0C;&#x653E;&#x5B66;&#x522B;&#x8D70;&#xFF0C;&#x6211;&#x627E;&#x6211;&#x54E5;&#x6536;&#x62FE;&#x4F60;&#x4EEC;&#x3002;</p><blockquote><p>&#x9879;&#x76EE;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/jrainlau/wechat-subscriptor" rel="nofollow noreferrer" target="_blank">https://github.com/jrainlau/wechat-subscriptor</a></p></blockquote><p><span class="img-wrap"><img data-src="/img/bVyFVF" src="https://static.alili.tech/img/bVyFVF" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer"></span></p><p><span class="img-wrap"><img data-src="/img/bVyFV9" src="https://static.alili.tech/img/bVyFV9" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer"></span></p><h2 id="articleHeader0">&#x4E0B;&#x8F7D;&amp;&#x8FD0;&#x884C;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="git clone git@github.com:jrainlau/wechat-subscriptor.git
 cd wechat-subscriptor &amp;&amp; npm install
 
@@ -256,7 +256,7 @@ vuex: {
     }
   }
 }</code></pre><p>&#x7ED3;&#x679C;&#x90E8;&#x5206;&#x4E3B;&#x8981;&#x5728;&#x4E8E;&#x5C55;&#x793A;&#xFF0C;&#x9700;&#x8981;&#x89E6;&#x53D1;<code>action</code>&#x7684;&#x5730;&#x65B9;&#x4EC5;&#x4EC5;&#x662F;&#x6DFB;&#x52A0;&#x5230;&#x6536;&#x85CF;&#x5939;&#x8FD9;&#x4E00;&#x64CD;&#x4F5C;&#x3002;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x5730;&#x65B9;&#x662F;&#x5E94;&#x5F53;&#x907F;&#x514D;&#x91CD;&#x590D;&#x6DFB;&#x52A0;&#xFF0C;&#x6240;&#x4EE5;&#x4F7F;&#x7528;&#x4E86;<code>for...of</code>&#x5FAA;&#x73AF;&#xFF0C;&#x5F53;&#x6570;&#x7EC4;&#x4E2D;&#x5DF2;&#x6709;&#x5F53;&#x524D;&#x5143;&#x7D20;&#x7684;&#x65F6;&#x5019;&#x5C31;&#x4E0D;&#x518D;&#x6DFB;&#x52A0;&#x4E86;&#x3002;</p><h2 id="articleHeader7">&#x5C3E;&#x58F0;</h2><p>&#x5173;&#x952E;&#x7684;&#x903B;&#x8F91;&#x90E8;&#x5206;&#x4EE3;&#x7801;&#x5206;&#x6790;&#x5B8C;&#x6BD5;&#xFF0C;&#x8FD9;&#x4E2A;APP&#x4E5F;&#x5C31;&#x8FD9;&#x4E48;&#x4E00;&#x56DE;&#x4E8B;&#x513F;&#xFF0C;UI&#x90E8;&#x5206;&#x5C31;&#x4E0D;&#x7EC6;&#x8BF4;&#x4E86;&#xFF0C;&#x770B;&#x770B;&#x9879;&#x76EE;&#x6E90;&#x7801;&#x6216;&#x8005;&#x4F60;&#x81EA;&#x5DF1;DIY&#x5C31;&#x53EF;&#x4EE5;&#x3002;&#x81F3;&#x4E8E;&#x6253;&#x5305;&#x6210;APP&#xFF0C;&#x9996;&#x5148;&#x4F60;&#x8981;&#x4E0B;&#x8F7D;HBuilder&#xFF0C;&#x7136;&#x540E;&#x901A;&#x8FC7;&#x5B83;&#x76F4;&#x63A5;&#x6253;&#x5305;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x914D;&#x5957;&#x4F7F;&#x7528;<code>mui</code>&#x80FD;&#x591F;&#x4F53;&#x9A8C;&#x66F4;&#x597D;&#x7684;&#x6548;&#x679C;&#xFF0C;&#x4E0D;&#x77E5;&#x9053;&#x4E3A;&#x4EC0;&#x4E48;&#x90A3;&#x4E48;&#x591A;&#x4EBA;&#x9ED1;&#x5B83;&#x3002;</p><p>&#x641C;&#x72D7;&#x63D0;&#x4F9B;&#x7684;API&#x5F88;&#x5F3A;&#x5927;&#xFF0C;&#x4F46;&#x662F;&#x63D0;&#x9192;&#x4E00;&#x4E0B;&#xFF0C;&#x5343;&#x4E07;&#x4E0D;&#x8981;&#x64CD;&#x4F5C;&#x592A;&#x8FC7;&#x9891;&#x7E41;&#xFF0C;&#x4E0D;&#x7136;&#x4F60;&#x7684;IP&#x4F1A;&#x88AB;&#x5B83;&#x5C01;&#x6389;&#xFF0C;&#x6211;&#x7684;&#x5DF2;&#x7ECF;&#x88AB;&#x5C01;&#x4E86;&#x2026;&#x2026;</p><p><code>Weex</code>&#x5DF2;&#x7ECF;&#x51FA;&#x6765;&#x4E86;&#xFF0C;&#x901A;&#x8FC7;&#x5B83;&#x53EF;&#x4EE5;&#x6784;&#x5EFA;Native&#x5E94;&#x7528;&#xFF0C;&#x60F3;&#x60F3;&#x4E5F;&#x662F;&#x6FC0;&#x52A8;&#x554A;&#xFF0C;&#x5F85;&#x5FC3;&#x8840;&#x6765;&#x6F6E;&#x5C31;&#x628A;&#x672C;&#x6587;&#x7684;&#x9879;&#x76EE;&#x505A;&#x6210;<code>Weex</code>&#x7248;&#x672C;&#x7684;&#x73A9;&#x73A9;&#x2026;&#x2026;</p><p>&#x6700;&#x540E;&#x7684;&#x6700;&#x540E;&#xFF0C;&#x611F;&#x8C22;&#x4F60;&#x7684;&#x9605;&#x8BFB;&#xFF0C;&#x5982;&#x679C;&#x89C9;&#x5F97;&#x6211;&#x7684;&#x6587;&#x7AE0;&#x4E0D;&#x9519;&#xFF0C;&#x6B22;&#x8FCE;&#x5173;&#x6CE8;&#x6211;&#x7684;&#x4E13;&#x680F;&#xFF0C;&#x4E0B;&#x6B21;&#x89C1;&#xFF01;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

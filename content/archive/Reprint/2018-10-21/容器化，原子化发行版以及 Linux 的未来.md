@@ -1,12 +1,12 @@
 ---
 title: 容器化，原子化发行版以及 Linux 的未来
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 45f223e6
+slug: 45f223e6
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#容器化原子化发行版以及-linux-的未来"></a>容器化，原子化发行版以及 Linux 的未来</h1>
 <blockquote>
@@ -54,7 +54,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

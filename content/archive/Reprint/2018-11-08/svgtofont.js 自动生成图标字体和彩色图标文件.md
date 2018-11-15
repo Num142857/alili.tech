@@ -1,12 +1,12 @@
 ---
 title: svgtofont.js 自动生成图标字体和彩色图标文件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6abbdd3b
+slug: 6abbdd3b
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x6211;&#x901A;&#x8FC7; <a href="http://iconfont.cn/" rel="nofollow noreferrer" target="_blank">iconfont</a> &#x6216;&#x8005; <a href="https://icomoon.io" rel="nofollow noreferrer" target="_blank">icomoon</a> &#x6765;&#x5B9E;&#x73B0;&#x56FE;&#x6807;&#x7BA1;&#x7406;&#x751F;&#x6210;&#x5B57;&#x4F53;&#xFF0C;&#x5BFC;&#x5165;&#x5230;&#x9879;&#x76EE;&#x4E2D;&#x4F7F;&#x7528;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&#x250C;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2510;                                  &#x250C;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2510;
 &#x2502;iconfont&#x2502;&#x2500;&#x2500;&#x2510;                               &#x2502;  Project   &#x2502;
 &#x2514;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2518;  &#x2502;  &#x250C;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2510;  &#x250C;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2510;   &#x2502; &#x250C;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2510; &#x2502;
@@ -300,7 +300,7 @@ svgtofont.woff2</code></pre><p>&#x9884;&#x89C8;demo <code>font-class.html</code>
 <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;iconfont&quot;</span>&gt;</span>&amp;#59907;<span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span></code></pre><h3 id="articleHeader20">Class Name</h3><p>&#x652F;&#x6301;<code>.less</code>&#x548C;<code>.css</code>&#x6837;&#x5F0F;&#x5F15;&#x7528;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;node_modules/fonts/svgtofont.css&quot;&gt;
 &lt;i class=&quot;svgtofont-apple&quot;&gt;&lt;/i&gt;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="xml hljs"><code class="html"><span class="hljs-tag">&lt;<span class="hljs-name">link</span> <span class="hljs-attr">rel</span>=<span class="hljs-string">&quot;stylesheet&quot;</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text/css&quot;</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;node_modules/fonts/svgtofont.css&quot;</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">i</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;svgtofont-apple&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">i</span>&gt;</span></code></pre><h2 id="articleHeader21">License</h2><p>Licensed under the <a href="https://opensource.org/licenses/MIT" rel="nofollow noreferrer" target="_blank">MIT License</a>.</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

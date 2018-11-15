@@ -1,12 +1,12 @@
 ---
 title: js中reduce的神奇用法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3ec7546c
+slug: 3ec7546c
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2><span class="img-wrap"><img data-src="/img/remote/1460000016287314?w=6000&amp;h=3000" src="https://static.alili.tech/img/remote/1460000016287314?w=6000&amp;h=3000" alt="" title=""></span></h2><blockquote>&#x6700;&#x8FD1;&#x7ECF;&#x5E38;&#x5728;&#x9879;&#x76EE;&#x4E2D;&#x7ECF;&#x5E38;&#x770B;&#x5230;&#x522B;&#x4EBA;&#x7528;reduce&#x5904;&#x7406;&#x6570;&#x636E;&#xFF0C;&#x5F88;&#x662F;&#x725B;&#x63B0;&#xFF0C;&#x5F88;&#x68A6;&#x5E7B;&#xFF0C; &#x4E0D;&#x5982;&#x81EA;&#x5DF1;&#x7422;&#x78E8;&#x7422;&#x78E8;&#x3002;</blockquote><h3>&#x5148;&#x770B;w3c&#x8BED;&#x6CD5;</h3><pre><code>array.reduce(function(total, currentValue, currentIndex, arr), initialValue);
 /*
   total: &#x5FC5;&#x9700;&#x3002;&#x521D;&#x59CB;&#x503C;, &#x6216;&#x8005;&#x8BA1;&#x7B97;&#x7ED3;&#x675F;&#x540E;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x3002;
@@ -91,7 +91,7 @@ var res = arr.reduce((x, y) =&gt; x.concat(y), []);</code></pre><h4>&#x5BF9;&#x8
     }
     return obj;
   }, []);</code></pre><blockquote>&#x53C2;&#x8003;&#x6587;&#x7AE0;<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce" rel="nofollow noreferrer"></a><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce" rel="nofollow noreferrer">https://developer.mozilla.org...</a><br><a href="https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001435119854495d29b9b3d7028477a96ed74db95032675000" rel="nofollow noreferrer"></a><a href="https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001435119854495d29b9b3d7028477a96ed74db95032675000" rel="nofollow noreferrer">https://www.liaoxuefeng.com/w...</a><br><a href="https://aotu.io/notes/2016/04/14/js-reduce/index.html" rel="nofollow noreferrer"></a><a href="https://aotu.io/notes/2016/04/14/js-reduce/index.html" rel="nofollow noreferrer">https://aotu.io/notes/2016/04...</a></blockquote>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

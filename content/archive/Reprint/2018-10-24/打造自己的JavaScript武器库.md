@@ -1,12 +1,12 @@
 ---
 title: 打造自己的JavaScript武器库
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d15832d
+slug: d15832d
 date: 2018-10-24 08:17:54
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/bVYmF0?w=640&amp;h=442" del-src="https://static.alili.tech/img/bVYmF0?w=640&amp;h=442" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor: pointer; display: inline;"></span></p>
@@ -1910,7 +1910,7 @@ import { getOS } from &quot;outils&quot;;
 <p>&#x5DE5;&#x6B32;&#x5584;&#x5176;&#x4E8B;&#x5FC5;&#x5148;&#x5229;&#x5176;&#x5668;&#x3002;&#x6709;&#x4E86;&#x5C5E;&#x4E8E;&#x81EA;&#x5DF1;&#x7684;&#x8FD9;&#x628A;&#x5229;&#x5668;&#xFF0C;&#x5E0C;&#x671B;&#x52A0;&#x73ED;&#x4E5F;&#x4F1A;&#x53D8;&#x6210;&#x5962;&#x671B;&#x3002;O(&#x2229;_&#x2229;)O&#x54C8;&#x54C8;~</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

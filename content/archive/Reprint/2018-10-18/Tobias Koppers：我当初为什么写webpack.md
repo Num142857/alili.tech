@@ -1,12 +1,12 @@
 ---
 title: Tobias Koppers：我当初为什么写webpack
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3c853404
+slug: 3c853404
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>Tobias Koppers是一位自由软件开发者，家住德国纽伦堡。他因写出webpack这个已有数百万开发者使用的开源软件而名噪一时。他目前专注于JavaScript和开源项目。以下是我对他个人的专访，希望对大家有所启发。</p>
 <p><strong>Gregor：你好，Tobias，JavaScript社区都在谈论webpack，就连谷歌也已经把它集成到了自己的Angular CLI项目中了。很高兴webpack诞生于纽伦堡，离我的老家英戈尔施塔特（德国）不远。跟我们分享一下，你当时怎么想起来写webpack的，它怎么那么快就受到了大家欢迎的？</strong></p>
@@ -39,7 +39,7 @@ date: 2018-10-18 00:00:00
 <p><strong>Tobias：</strong> 不客气。我要感谢社区。Webpack并不是“我的”工具，它是500多位志愿者共同的成果。Webpacks成功也是源于这个伟大的生态。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/interview-with-webpack-founder-tobias-koppers](https://www.zcfy.cc/article/interview-with-webpack-founder-tobias-koppers)

@@ -1,12 +1,12 @@
 ---
 title: 'JavaScript(E5,6) 正则学习总结学习，可看可不看！'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6a7bdd09
+slug: 6a7bdd09
 date: 2018-11-03 02:30:13
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">1.&#x6982;&#x8FF0;</h2><p>&#x6B63;&#x5219;&#x8868;&#x8FBE;&#x5F0F;&#xFF08;regular expression&#xFF09;&#x662F;&#x4E00;&#x79CD;&#x8868;&#x8FBE;&#x6587;&#x672C;&#x6A21;&#x5F0F;&#xFF08;&#x5373;&#x5B57;&#x7B26;&#x4E32;&#x7ED3;&#x6784;&#xFF09;&#x7684;&#x65B9;&#x6CD5;&#x3002;</p><p><strong>&#x521B;&#x5EFA;&#x65B9;&#x5F0F;&#x6709;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#xFF1A;</strong></p><p>&#x4E00;&#x79CD;&#x662F;&#x4F7F;&#x7528;&#x5B57;&#x9762;&#x91CF;&#xFF0C;&#x4EE5;&#x659C;&#x6760;&#x8868;&#x793A;&#x5F00;&#x59CB;&#x548C;&#x7ED3;&#x675F;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var regex = /xyz/
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs javascript"><code><span class="hljs-keyword">var</span> regex = <span class="hljs-regexp">/xyz/</span>
 </code></pre><p>&#x53E6;&#x4E00;&#x79CD;&#x662F;&#x4F7F;&#x7528;RegExp&#x6784;&#x9020;&#x51FD;&#x6570;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var regex = new RegExp(&apos;xyz&apos;); 
@@ -322,7 +322,7 @@ console.log(r); //100,002,003,232,322
 
 <span class="hljs-built_in">console</span>.log(r); <span class="hljs-comment">//100,002,003,232,322</span>
 </code></pre><h4>&#x53C2;&#x8003;&#x94FE;&#x63A5;</h4><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions" rel="nofollow noreferrer" target="_blank"></a><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Regular_Expressions" rel="nofollow noreferrer" target="_blank">https://developer.mozilla.org...</a></p><p><a href="https://wangdoc.com/javascript/stdlib/regexp.html" rel="nofollow noreferrer" target="_blank"></a><a href="https://wangdoc.com/javascript/stdlib/regexp.html" rel="nofollow noreferrer" target="_blank">https://wangdoc.com/javascrip...</a></p><p><strong>&#x4E00;&#x4E2A;&#x7B28;&#x7B28;&#x7684;&#x7801;&#x519C;&#xFF0C;&#x6211;&#x7684;&#x4E16;&#x754C;&#x53EA;&#x80FD;&#x7EC8;&#x8EAB;&#x5B66;&#x4E60;&#xFF01;</strong><br><span class="img-wrap"><img data-src="/img/bVbg32a?w=258&amp;h=258" src="https://static.alili.tech/img/bVbg32a?w=258&amp;h=258" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

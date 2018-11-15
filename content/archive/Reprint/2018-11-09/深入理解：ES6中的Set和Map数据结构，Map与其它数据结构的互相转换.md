@@ -1,12 +1,12 @@
 ---
 title: 深入理解：ES6中的Set和Map数据结构，Map与其它数据结构的互相转换
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 66ba1d75
+slug: 66ba1d75
 date: 2018-11-09 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6587;&#x4E2D;&#x7684;&#x5185;&#x5BB9;&#x4E3B;&#x8981;&#x662F;&#x6765;&#x81EA;&#x4E8E;&#x962E;&#x4E00;&#x5CF0;&#x7684;&#x300A;ES6&#x6807;&#x51C6;&#x5165;&#x95E8;&#x300B;&#xFF08;&#x7B2C;&#x4E09;&#x7248;&#xFF09;&#x3002;<a href="https://segmentfault.com/a/1190000016068235">&#x300A;&#x5B66;&#x4E60;ES6&#x7B14;&#x8BB0;&#x2500;&#x2500;&#x5DE5;&#x4F5C;&#x4E2D;&#x5E38;&#x7528;&#x5230;&#x7684;ES6&#x8BED;&#x6CD5;&#x300B;</a>&#x53EA;&#x662F;&#x7B80;&#x5355;&#x63D0;&#x53CA;Set&#x548C;Map&#xFF0C;&#x4ECA;&#x5929;&#x6709;&#x7A7A;&#x4E8E;&#x662F;&#x5199;&#x4E86;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x2500;&#x2500;&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;&#xFF1A;ES6&#x4E2D;&#x7684;Set&#x548C;Map&#x6570;&#x636E;&#x7ED3;&#x6784;&#xFF0C;Map&#x4E0E;&#x5176;&#x5B83;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x7684;&#x4E92;&#x76F8;&#x8F6C;&#x6362;&#x300B;&#x3002;</p><h2 id="articleHeader0">ES6 &#x7684; Set:</h2><p>ES6 &#x63D0;&#x4F9B;&#x4E86;&#x65B0;&#x7684;&#x6570;&#x636E;&#x7ED3;&#x6784;&#x2500;&#x2500;Set&#x3002;&#x5B83;&#x7C7B;&#x4F3C;&#x4E8E;&#x6570;&#x7EC4;&#xFF0C;&#x4F46;&#x662F;&#x6210;&#x5458;&#x7684;&#x503C;&#x90FD;&#x662F;&#x552F;&#x4E00;&#x7684;&#xFF0C;&#x6CA1;&#x6709;&#x91CD;&#x590D;&#x7684;&#x503C;&#x3002;<br>Set &#x672C;&#x8EAB;&#x662F;&#x4E00;&#x4E2A;&#x6784;&#x9020;&#x51FD;&#x6570;&#xFF0C;&#x7528;&#x6765;&#x751F;&#x6210; Set &#x6570;&#x636E;&#x7ED3;&#x6784;&#x3002;<br><strong>Array&#x548C;Set&#x5BF9;&#x6BD4;</strong><br>&#x90FD;&#x662F;&#x4E00;&#x4E2A;&#x5B58;&#x50A8;&#x591A;&#x503C;&#x7684;&#x5BB9;&#x5668;&#xFF0C;&#x4E24;&#x8005;&#x53EF;&#x4EE5;&#x4E92;&#x76F8;&#x8F6C;&#x6362;&#xFF0C;&#x4F46;&#x662F;&#x5728;&#x4F7F;&#x7528;&#x573A;&#x666F;&#x4E0A;&#x6709;&#x533A;&#x522B;&#x3002;&#x5982;&#x4E0B;:<br>&#x2460;Array&#x7684;indexOf&#x65B9;&#x6CD5;&#x6BD4;Set&#x7684;has&#x65B9;&#x6CD5;&#x6548;&#x7387;&#x4F4E;&#x4E0B;<br>&#x2461;Set&#x4E0D;&#x542B;&#x6709;&#x91CD;&#x590D;&#x503C;&#xFF08;&#x53EF;&#x4EE5;&#x5229;&#x7528;&#x8FD9;&#x4E2A;&#x7279;&#x6027;&#x5B9E;&#x73B0;&#x5BF9;&#x4E00;&#x4E2A;&#x6570;&#x7EC4;&#x7684;&#x53BB;&#x91CD;&#xFF09;<br>&#x2462;Set&#x901A;&#x8FC7;delete&#x65B9;&#x6CD5;&#x5220;&#x9664;&#x67D0;&#x4E2A;&#x503C;&#xFF0C;&#x800C;Array&#x53EA;&#x80FD;&#x901A;&#x8FC7;splice&#x3002;&#x4E24;&#x8005;&#x7684;&#x4F7F;&#x7528;&#x65B9;&#x4FBF;&#x7A0B;&#x5EA6;&#x524D;&#x8005;&#x66F4;&#x4F18;<br>&#x2463;Array&#x7684;&#x5F88;&#x591A;&#x65B0;&#x65B9;&#x6CD5;map&#x3001;filter&#x3001;some&#x3001;every&#x7B49;&#x662F;Set&#x6CA1;&#x6709;&#x7684;&#xFF08;&#x4F46;&#x662F;&#x901A;&#x8FC7;&#x4E24;&#x8005;&#x53EF;&#x4EE5;&#x4E92;&#x76F8;&#x8F6C;&#x6362;&#x6765;&#x4F7F;&#x7528;&#xFF09;</p><h2 id="articleHeader1">&#x4E00;&#x3001;Set &#x5B9E;&#x4F8B;&#x7684;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;&#xFF1A;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="let set = new Set();
 set.add(1);
 set.add(&quot;1&quot;);
@@ -418,7 +418,7 @@ jsonToMap(&apos;[[<span class="hljs-literal">true</span>,<span class="hljs-numbe
 // Map {<span class="hljs-literal">true</span> =&gt; <span class="hljs-number">7</span>, Object {foo: <span class="hljs-number">3</span>} =&gt; [<span class="hljs-symbol">&apos;abc</span>&apos;]}
 
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

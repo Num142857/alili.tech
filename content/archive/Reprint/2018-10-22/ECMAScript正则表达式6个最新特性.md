@@ -1,12 +1,12 @@
 ---
 title: ECMAScript正则表达式6个最新特性
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e54a5961
+slug: e54a5961
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><strong>译者按：</strong> 还没学好ES6？ECMAScript 2018已经到来啦！</p>
@@ -235,7 +235,7 @@ for (const match of string.matchAll(regex)) {
 <p>转载时请注明作者Fundebug以及本文地址：<br><a href="https://blog.fundebug.com/2018/08/30/ecmascript-regular-expression-new-features/" rel="nofollow noreferrer" target="_blank">https://blog.fundebug.com/2018/08/30/ecmascript-regular-expression-new-features/</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

@@ -1,12 +1,12 @@
 ---
 title: JavaScript字符串操作方法大全，包含ES6方法
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 946c440d
+slug: 946c440d
 date: 2018-11-06 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x4E00;&#x3001;charAt()</h2><p>&#x8FD4;&#x56DE;&#x5728;&#x6307;&#x5B9A;&#x4F4D;&#x7F6E;&#x7684;&#x5B57;&#x7B26;&#x3002;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var str=&quot;abc&quot;
 console.log(str.charAt(0))//a
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs openscad"><code>var <span class="hljs-built_in">str</span>=<span class="hljs-string">&quot;abc&quot;</span>
@@ -268,7 +268,7 @@ let msg = `Hello, ${place}`;
   `).join(&apos;&apos;)}
   <span class="hljs-tag">&lt;/<span class="hljs-name">table</span>&gt;</span>
 `;</code></pre><p>PS: &#x6587;&#x4E2D;ES6&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x4E3B;&#x8981;&#x6765;&#x81EA;&#x4E8E;&#x962E;&#x4E00;&#x5CF0;&#x7684;&#x300A;ES6&#x6807;&#x51C6;&#x5165;&#x95E8;&#x300B;&#x3002;<br><a href="https://segmentfault.com/a/1190000016503330">JavaScript&#x5E38;&#x7528;&#x6570;&#x7EC4;&#x64CD;&#x4F5C;&#x65B9;&#x6CD5;&#xFF0C;&#x5305;&#x542B;ES6&#x65B9;&#x6CD5;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

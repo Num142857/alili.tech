@@ -1,12 +1,12 @@
 ---
 title: 2018年值得关注的10大JavaScript动画库
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fd528aee
+slug: fd528aee
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><a href="">原文链接</a></p>
 <p>现代网站客户端提供了高质量的动画，导致了JavaScript动画库的需求不断增加。幸运的是，供应似乎与需求相匹配，且有多种选择。至于选择哪一个就难以定夺了。在这一年里，许多动画库有可能完善得更好，为创建动画提供更好的解决方案。</p>
@@ -90,7 +90,7 @@ date: 2018-10-18 00:00:00
 <p><a href="https://www.linkedin.com/in/anton-shaleynikov-45812a1/">作者Anton Shaleynikov</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/10-javascript-animation-libraries-to-follow-in-2018](https://www.zcfy.cc/article/10-javascript-animation-libraries-to-follow-in-2018)

@@ -1,12 +1,12 @@
 ---
 title: 手动实现一个compose函数
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e72090d9
+slug: e72090d9
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <pre><code>&#x5728;redux&#x4E2D;&#x5408;&#x5E76;reducer&#x7684;&#x65F6;&#x5019;&#x6709;&#x7528;&#x5230;compose&#x8FD9;&#x4E2A;&#x51FD;&#x6570;&#x5C06;&#x591A;&#x4E2A;reducer&#x5408;&#x6210;&#x4E00;&#x4E2A;&#xFF0C;&#x90A3;&#x4E48;&#x8FD9;&#x4E2A;compose&#x51FD;&#x6570;&#x8BE5;&#x600E;&#x4E48;&#x5B9E;&#x73B0;&#x5462;&#xFF1F;
 
 </code></pre><pre><code>function compose(...fns) { //fns&#x662F;&#x4F20;&#x5165;&#x7684;&#x51FD;&#x6570;
@@ -18,7 +18,7 @@ date: 2018-11-13 02:30:09
     }
   };
 }</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

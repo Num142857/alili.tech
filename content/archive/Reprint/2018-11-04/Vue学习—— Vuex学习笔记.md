@@ -1,12 +1,12 @@
 ---
 title: Vue学习—— Vuex学习笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d70f710e
+slug: d70f710e
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x7EC4;&#x4EF6;&#x662F;Vue&#x6700;&#x5F3A;&#x5927;&#x7684;&#x529F;&#x80FD;&#x4E4B;&#x4E00;&#xFF0C;&#x800C;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#x7684;&#x4F5C;&#x7528;&#x57DF;&#x662F;&#x76F8;&#x4E92;&#x72EC;&#x7ACB;&#x7684;&#xFF0C;&#x610F;&#x5473;&#x7740;&#x4E0D;&#x540C;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x6570;&#x636E;&#x662F;&#x65E0;&#x6CD5;&#x76F8;&#x4E92;&#x4F7F;&#x7528;&#x3002;&#x7EC4;&#x4EF6;&#x95F4;&#x5982;&#x4F55;&#x4F20;&#x9012;&#x6570;&#x636E;&#x5C31;&#x663E;&#x5F97;&#x81F3;&#x5173;&#x91CD;&#x8981;&#xFF0C;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x4E3B;&#x8981;&#x662F;&#x4ECB;&#x7ECD;Vuex&#x3002;&#x5C3D;&#x91CF;&#x4EE5;&#x901A;&#x4FD7;&#x6613;&#x61C2;&#x7684;&#x5B9E;&#x4F8B;&#x8BB2;&#x8FF0;&#x8FD9;&#x5176;&#x4E2D;&#x7684;&#x5DEE;&#x522B;&#xFF0C;&#x5E0C;&#x671B;&#x5BF9;&#x5C0F;&#x4F19;&#x4F34;&#x6709;&#x4E9B;&#x8BB8;&#x5E2E;&#x52A9;&#x3002;</p><h2 id="articleHeader0">&#x4E00;&#x3001;Vuex &#x662F;&#x4EC0;&#x4E48;&#xFF1F;</h2><p>Vuex &#x662F;&#x4E00;&#x4E2A;&#x4E13;&#x4E3A; Vue.js &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x5F00;&#x53D1;&#x7684;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;&#x3002;&#x5B83;&#x91C7;&#x7528;&#x96C6;&#x4E2D;&#x5F0F;&#x5B58;&#x50A8;&#x7BA1;&#x7406;&#x5E94;&#x7528;&#x7684;&#x6240;&#x6709;&#x7EC4;&#x4EF6;&#x7684;&#x72B6;&#x6001;&#xFF0C;&#x5E76;&#x4EE5;&#x76F8;&#x5E94;&#x7684;&#x89C4;&#x5219;&#x4FDD;&#x8BC1;&#x72B6;&#x6001;&#x4EE5;&#x4E00;&#x79CD;&#x53EF;&#x9884;&#x6D4B;&#x7684;&#x65B9;&#x5F0F;&#x53D1;&#x751F;&#x53D8;&#x5316;&#x3002;</p><h2 id="articleHeader1">&#x4E8C;&#x3001;&#x4EC0;&#x4E48;&#x662F;&#x201C;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x6A21;&#x5F0F;&#x201D;&#xFF1F;</h2><p>&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684; Vue &#x8BA1;&#x6570;&#x5E94;&#x7528;&#x5F00;&#x59CB;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="new Vue({
   // state
   data () {
@@ -325,12 +325,12 @@ export default {
 &lt;/script&gt;
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">&quot;store&quot;</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>
-    </span><span class="hljs-template-variable">{{$store.state.count}}</span><span class="xml">
+    </span><span class="hljs-template-variable">"{{"$store.state.count"}}"</span><span class="xml">
   <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;increase&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>+<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">button</span> @<span class="hljs-attr">click</span>=<span class="hljs-string">&quot;decrease&quot;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">strong</span>&gt;</span>-<span class="hljs-tag">&lt;/<span class="hljs-name">strong</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
-  <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span></span><span class="hljs-template-variable">{{$store.state.show}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">h3</span>&gt;</span></span><span class="hljs-template-variable">"{{"$store.state.show"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h3</span>&gt;</span>
   <span class="hljs-tag">&lt;<span class="hljs-name">input</span>
     <span class="hljs-attr">placeholder</span>=<span class="hljs-string">&quot;&#x8BF7;&#x8F93;&#x5165;&#x5185;&#x5BB9;&quot;</span>
     <span class="hljs-attr">v-model</span>=<span class="hljs-string">&quot;obj&quot;</span>
@@ -360,7 +360,7 @@ export default {
 }
 </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 </span></code></pre><p><a href="https://vuex.vuejs.org/zh/installation.html" rel="nofollow noreferrer" target="_blank">Vuex&#x5B98;&#x65B9;&#x6587;&#x6863;</a></p><p><a href="https://segmentfault.com/a/1190000016344599">Vue&#x9762;&#x8BD5;&#x4E2D;&#xFF0C;&#x7ECF;&#x5E38;&#x4F1A;&#x88AB;&#x95EE;&#x5230;&#x7684;&#x9762;&#x8BD5;&#x9898;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

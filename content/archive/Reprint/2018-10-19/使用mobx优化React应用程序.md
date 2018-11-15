@@ -1,12 +1,12 @@
 ---
 title: 使用mobx优化React应用程序
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 48d77083
+slug: 48d77083
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p0.ssl.qhimg.com/t012d37db783bb423d1.png" alt=""></p>
 <h1>使用mobx优化React应用程序</h1>
@@ -38,7 +38,7 @@ date: 2018-10-19 00:00:00
 <p>您的网络应用程序是否存在性能问题？ <a href="https://lavrton.com/web-perf.html">点我求助.</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/optimizing-react-application-with-mobx](https://www.zcfy.cc/article/optimizing-react-application-with-mobx)

@@ -1,12 +1,12 @@
 ---
 title: React v16.3.0：新的生命周期和上下文API - React Blog
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ca95dd4a
+slug: ca95dd4a
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>作者 <a href="https://github.com/bvaughn">Brian Vaughn</a>     2018年3月29日 </p>
 <p>几天前， 我们 <a href="https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html">写了一篇关于对以前的生命周期方法进行更改的文章</a>, 包括逐步迁移策略。 在React 16.3.0中， 我们正在添加一些新的生命周期方法来辅助迁移。我们还为长期被要求的功能引入了新的API： 一个官方的context API，一个转发的ref API和一个更符合人类使用的ref API.</p>
@@ -188,7 +188,7 @@ const <span class="hljs-type">FancyThemedButton</span> = withTheme(<span class="
 <p><a href="https://github.com/reactjs/reactjs.org/tree/master/content/blog/2018-03-29-react-v-16-3.md">编辑此页面</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/react-v16-3-0-new-lifecycles-and-context-api-react-blog](https://www.zcfy.cc/article/react-v16-3-0-new-lifecycles-and-context-api-react-blog)

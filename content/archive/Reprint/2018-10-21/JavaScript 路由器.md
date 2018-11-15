@@ -1,12 +1,12 @@
 ---
 title: JavaScript 路由器
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 46c8b65b
+slug: 46c8b65b
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#javascript-路由器"></a>JavaScript 路由器</h1>
 <p>构建单页面应用（SPA）有许多的框架/库，但是我希望它们能少一些。我有一个解决方案，我想共享给大家。</p>
@@ -174,7 +174,7 @@ function homePage() {
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-router](https://www.zcfy.cc/article/javascript-router)

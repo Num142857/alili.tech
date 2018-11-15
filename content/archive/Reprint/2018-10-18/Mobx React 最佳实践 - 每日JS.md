@@ -1,12 +1,12 @@
 ---
 title: Mobx React 最佳实践 - 每日JS
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f2571b7a
+slug: f2571b7a
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p0.ssl.qhimg.com/t011ff6737b8c8ad266.png" alt=""></p>
 <h1>Mobx React — 最佳实践</h1>
@@ -35,7 +35,7 @@ date: 2018-10-18 00:00:00
 <p>始终尝试构建受控组件。 这使得测试组件和组件的整体复杂性易于处理。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/mobx-react-best-practices-dailyjs](https://www.zcfy.cc/article/mobx-react-best-practices-dailyjs)

@@ -1,12 +1,12 @@
 ---
 title: 使用Nuxt.js简单的服务器端渲染，路由和页面转换CSS-Tricks
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 28b3438b
+slug: 28b3438b
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>有点罗嗦的标题，是吧？什么是服务器端渲染？它与路由和页面转换有什么关系？什么是Nuxt.js？有趣的是，尽管听起来很复杂，但使用Nuxt.js并探索其好处并不困难。让我们开始吧！</p>
 <h3>服务器端渲染</h3>
@@ -281,7 +281,7 @@ export default {
 <p>如果您想了解更多关于Nuxt的信息，<a href="https://nuxtjs.org/">Nuxt的文档</a>非常甜蜜，并且有很多示例可供您使用。如果您想了解更多关于Vue的信息，我刚刚在<a href="https://frontendmasters.com/courses/">Frontend Masters</a>上发了一个课程，<a href="">所有材料都是开源的</a>，或者你可以查看我们的<a href="https://css-tricks.com/guides/vue/">Guide for Vue</a>，或者你可以去<a href="https://vuejs.org/">docs</a>，写得非常好。快乐的编码！</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/simple-server-side-rendering-routing-and-page-transitions-with-nuxt-js-css-tricks](https://www.zcfy.cc/article/simple-server-side-rendering-routing-and-page-transitions-with-nuxt-js-css-tricks)

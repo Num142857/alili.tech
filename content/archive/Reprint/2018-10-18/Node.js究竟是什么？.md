@@ -1,12 +1,12 @@
 ---
 title: Node.js究竟是什么？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b8f53d6
+slug: b8f53d6
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1>What exactly is Node.js?</h1>
 <p>Node.js是一个JavaScript运行时环境。听起来不错，但这是什么意思？这是如何运作的？</p>
@@ -89,7 +89,7 @@ date: 2018-10-18 00:00:00
 <p>您可以通过<a href="https://www.freecodecamp.org/">freeCodeCamp.org</a>来获取使用大量的资源来了解关于Node.js的更多信息。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/what-exactly-is-node-js](https://www.zcfy.cc/article/what-exactly-is-node-js)

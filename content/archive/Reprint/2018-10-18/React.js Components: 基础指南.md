@@ -1,12 +1,12 @@
 ---
 title: 'React.js Components: 基础指南 '
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 67b05647
+slug: 67b05647
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>创建和管理React组件的各种方式，涌现的大量状态管理工具等等都是这些挑战的焦点。我们今天能做的就是在React（基于社区选择）中将最常用的做法引入桌面并讨论它们。</p>
 <p>其中，我们将学习React中的一些有用的主题和术语。这些主题包括：</p>
@@ -249,7 +249,7 @@ Comment.defaultProps = {
 <p>就是这么简单！</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/reactjs-components-learning-the-basics](https://www.zcfy.cc/article/reactjs-components-learning-the-basics)

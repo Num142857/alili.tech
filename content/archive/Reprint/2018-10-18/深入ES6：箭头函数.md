@@ -1,12 +1,12 @@
 ---
 title: 深入ES6：箭头函数
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 87f6ebe4
+slug: 87f6ebe4
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>箭头从一开始就一直是JavaScript的一部分。第一个JavaScript教程建议在HTML注释中包装内联脚本。这会阻止不支持JS的浏览器错误地将JS代码显示为文本。你会写这样的东西：</p>
 <pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">script</span> <span class="hljs-attr">language</span>=<span class="hljs-string">"javascript"</span>&gt;</span><span class="undefined">
@@ -121,7 +121,7 @@ $(<span class="hljs-string">"#confetti-btn"</span>).click(<span class="hljs-func
 <p>箭头函数也在Microsoft Edge预览版中实现。如果您有兴趣在Web上使用它们，它们也可以在<a href="http://babeljs.io/">Babel</a>，<a href="https://github.com/google/traceur-compiler#what-is-traceur">Traceur</a>, 和 <a href="http://www.typescriptlang.org/">TypeScript</a>中使用。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/es6-in-depth-arrow-functions-mozilla-hacks-the-web-developer-blog](https://www.zcfy.cc/article/es6-in-depth-arrow-functions-mozilla-hacks-the-web-developer-blog)

@@ -1,12 +1,12 @@
 ---
 title: 用这样的 Vi 配置来保存和组织你的笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: bcdc328b
+slug: bcdc328b
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#用这样的-vi-配置来保存和组织你的笔记"></a>用这样的 Vi 配置来保存和组织你的笔记</h1>
 <blockquote>
@@ -67,7 +67,7 @@ autocmd! BufWritePost * silent! !git add .;git commit -m "vim autocommit" &gt; /
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [用这样的 Vi 配置来保存和组织你的笔记](https://www.zcfy.cc/article/use-this-vi-setup-to-keep-and-organize-your-notes)

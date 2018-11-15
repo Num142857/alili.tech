@@ -1,12 +1,12 @@
 ---
 title: 常用JS方法整理
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 7f867ab0
+slug: 7f867ab0
 date: 2018-10-26 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x76EE;&#x5F55;&#xFF1A;</p><ol><li>&#x622A;&#x53D6;&#x6307;&#x5B9A;&#x5B57;&#x8282;&#x6570;&#x7684;&#x5B57;&#x7B26;&#x4E32;</li><li>&#x5224;&#x65AD;&#x662F;&#x5426;&#x5FAE;&#x4FE1;</li><li>&#x83B7;&#x53D6;&#x65F6;&#x95F4;&#x683C;&#x5F0F;&#x7684;&#x51E0;&#x4E2A;&#x4E3E;&#x4F8B;</li><li>&#x83B7;&#x53D6;&#x5B57;&#x7B26;&#x4E32;&#x5B57;&#x8282;&#x957F;&#x5EA6;</li><li>&#x5BF9;&#x8C61;&#x514B;&#x9686;&#x3001;&#x6DF1;&#x62F7;&#x8D1D;</li><li>&#x7EC4;&#x7EC7;&#x7ED3;&#x6784;&#x4EE3;&#x7801;&#x8BC1;&#x9A8C;&#x8BC1;</li><li>&#x8EAB;&#x4EFD;&#x8BC1;&#x53F7;&#x9A8C;&#x8BC1;</li><li>js&#x6B63;&#x5219;&#x4E3A;url&#x6DFB;&#x52A0;http&#x6807;&#x8BC6;</li><li>URL&#x6709;&#x6548;&#x6027;&#x6821;&#x9A8C;&#x65B9;&#x6CD5;</li><li>&#x81EA;&#x5B9A;&#x4E49;jsonp&#x65B9;&#x6CD5;</li><li>cookie&#x64CD;&#x4F5C;</li><li>&#x751F;&#x6210;&#x968F;&#x673A;&#x5B57;&#x7B26;&#x4E32; (&#x53EF;&#x6307;&#x5B9A;&#x957F;&#x5EA6;)</li><li>&#x6D4F;&#x89C8;&#x5668;&#x5224;&#x65AD;</li><li>Rem&#x79FB;&#x52A8;&#x7AEF;&#x9002;&#x914D;</li><li>&#x83B7;&#x53D6;url&#x540E;&#x53C2;&#x6570;</li><li>&#x52A8;&#x6001;&#x52A0;&#x8F7D;JS</li><li>&#x751F;&#x6210;&#x968F;&#x673A;&#x989C;&#x8272;&#x503C;</li></ol><h1 id="articleHeader0">1.&#x622A;&#x53D6;&#x6307;&#x5B9A;&#x5B57;&#x8282;&#x6570;&#x7684;&#x5B57;&#x7B26;&#x4E32;</h1><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="/**
  * &#x622A;&#x53D6;&#x6307;&#x5B9A;&#x5B57;&#x8282;&#x7684;&#x5B57;&#x7B26;&#x4E32;
  * @param str &#x8981;&#x622A;&#x53D6;&#x7684;&#x5B57;&#x7B26;&#x7A7F;
@@ -844,7 +844,7 @@ rem.initHandle();
   <span class="hljs-keyword">return</span> <span class="hljs-string">&apos;#&apos;</span> + rgb.join(<span class="hljs-string">&apos;&apos;</span>)
 }
 </code></pre><p>&#x539F;&#x6587;&#xFF1A;<a href="https://frontendjs.com/topic/230/%E5%B8%B8%E7%94%A8js%E6%96%B9%E6%B3%95%E6%95%B4%E7%90%86" rel="nofollow noreferrer" target="_blank">https://frontendjs.com/topic/...</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

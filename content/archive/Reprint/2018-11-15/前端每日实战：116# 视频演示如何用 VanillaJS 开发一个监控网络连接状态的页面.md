@@ -1,11 +1,11 @@
 ---
 title: '前端每日实战：116# 视频演示如何用 VanillaJS 开发一个监控网络连接状态的页面' 
 date: 2018-11-15 2:30:08
-reprint: true
+hidden: true
 categories: reprint
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/bVbfQmV?w=400&amp;h=305" src="https://static.alili.tech/img/bVbfQmV?w=400&amp;h=305" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></p><h2>&#x6548;&#x679C;&#x9884;&#x89C8;</h2><p>&#x6309;&#x4E0B;&#x53F3;&#x4FA7;&#x7684;&#x201C;&#x70B9;&#x51FB;&#x9884;&#x89C8;&#x201D;&#x6309;&#x94AE;&#x53EF;&#x4EE5;&#x5728;&#x5F53;&#x524D;&#x9875;&#x9762;&#x9884;&#x89C8;&#xFF0C;&#x70B9;&#x51FB;&#x94FE;&#x63A5;&#x53EF;&#x4EE5;&#x5168;&#x5C4F;&#x9884;&#x89C8;&#x3002;</p><p><a href="https://codepen.io/comehope/pen/oPjWvw" rel="nofollow noreferrer">https://codepen.io/comehope/pen/oPjWvw</a></p><h2>&#x53EF;&#x4EA4;&#x4E92;&#x89C6;&#x9891;</h2><p>&#x6B64;&#x89C6;&#x9891;&#x662F;&#x53EF;&#x4EE5;&#x4EA4;&#x4E92;&#x7684;&#xFF0C;&#x4F60;&#x53EF;&#x4EE5;&#x968F;&#x65F6;&#x6682;&#x505C;&#x89C6;&#x9891;&#xFF0C;&#x7F16;&#x8F91;&#x89C6;&#x9891;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x3002;</p><p>&#x8BF7;&#x7528; chrome, safari, edge &#x6253;&#x5F00;&#x89C2;&#x770B;&#x3002;</p><p><a href="https://scrimba.com/p/pEgDAM/ceNm8CW" rel="nofollow noreferrer">https://scrimba.com/p/pEgDAM/ceNm8CW</a></p><h2>&#x6E90;&#x4EE3;&#x7801;&#x4E0B;&#x8F7D;</h2><p>&#x6BCF;&#x65E5;&#x524D;&#x7AEF;&#x5B9E;&#x6218;&#x7CFB;&#x5217;&#x7684;&#x5168;&#x90E8;&#x6E90;&#x4EE3;&#x7801;&#x8BF7;&#x4ECE; github &#x4E0B;&#x8F7D;&#xFF1A;</p><p><a href="https://github.com/comehope/front-end-daily-challenges" rel="nofollow noreferrer">https://github.com/comehope/front-end-daily-challenges</a></p><h2>&#x4EE3;&#x7801;&#x89E3;&#x8BFB;</h2><p>navigator.onLine &#x5C5E;&#x6027;&#x7528;&#x4E8E;&#x83B7;&#x53D6;&#x5728;&#x7EBF;&#x72B6;&#x6001;&#xFF0C;&#x518D;&#x914D;&#x5408;&#x76F8;&#x5E94;&#x7684;&#x4E8B;&#x4EF6;&#x89E6;&#x53D1;&#xFF0C;&#x5C31;&#x53EF;&#x4EE5;&#x5F00;&#x53D1;&#x4E00;&#x4E2A;&#x5728;&#x7EBF;&#x68C0;&#x6D4B;&#x5DE5;&#x5177;&#x4E86;&#x3002;&#x6574;&#x4E2A;&#x8FC7;&#x7A0B;&#x5206;&#x6210;&#x4E24;&#x90E8;&#x5206;&#xFF0C;&#x5148;&#x753B;&#x51FA;&#x89C6;&#x89C9;&#x6548;&#x679C;&#xFF0C;&#x518D;&#x68C0;&#x6D4B;&#x5728;&#x7EBF;/&#x79BB;&#x7EBF;&#x72B6;&#x6001;&#x3002;</p><p>&#x5B9A;&#x4E49; dom&#xFF0C;&#x5BB9;&#x5668;&#x4E2D;&#x5305;&#x542B;&#x5BA2;&#x6237;&#x7AEF;&#x3001;&#x4FE1;&#x53F7;&#x548C;&#x670D;&#x52A1;&#x5668;&#xFF1A;</p><pre><code class="html">&lt;div class=&quot;detector&quot;&gt;
     &lt;div class=&quot;client&quot;&gt;&lt;/div&gt;
     &lt;div class=&quot;signal&quot;&gt;&lt;/div&gt;
@@ -149,7 +149,7 @@ body {
 
 detectOnlineStatus()</code></pre><p>&#x73B0;&#x5728;&#xFF0C;&#x5173;&#x6389; wifi &#x8FDE;&#x63A5;&#xFF0C;&#x7136;&#x540E;&#x5237;&#x65B0;&#x9875;&#x9762;&#xFF0C;&#x9875;&#x9762;&#x4F1A;&#x91C7;&#x7528;&#x7EA2;&#x8272;&#x4E3B;&#x9898;&#xFF1B;&#x518D;&#x6253;&#x5F00; wifi &#x8FDE;&#x63A5;&#xFF0C;&#x7136;&#x540E;&#x5237;&#x65B0;&#x9875;&#x9762;&#xFF0C;&#x9875;&#x9762;&#x4F1A;&#x91C7;&#x7528;&#x7EFF;&#x8272;&#x4E3B;&#x9898;&#x3002;</p><p>&#x63A5;&#x4E0B;&#x6765;&#x628A;&#x68C0;&#x6D4B;&#x51FD;&#x6570;&#x4E0E;&#x7CFB;&#x7EDF;&#x4E8B;&#x4EF6;&#x7ED1;&#x5B9A;&#xFF0C;&#x5F53;&#x8FDE;&#x63A5;&#x65AD;&#x5F00;&#x6216;&#x91CD;&#x65B0;&#x8FDE;&#x63A5;&#x65F6;&#xFF0C;&#x9875;&#x9762;&#x4F1A;&#x81EA;&#x52A8;&#x8BBE;&#x7F6E;&#x4E3B;&#x9898;&#xFF0C;&#x4E0D;&#x7528;&#x624B;&#x52A8;&#x5237;&#x65B0;&#x9875;&#x9762;&#x4E86;&#xFF1A;</p><pre><code class="javascript">window.addEventListener(&apos;online&apos;, detectOnlineStatus)
 window.addEventListener(&apos;offline&apos;, detectOnlineStatus)</code></pre><p>&#x5927;&#x529F;&#x544A;&#x6210;&#xFF01;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

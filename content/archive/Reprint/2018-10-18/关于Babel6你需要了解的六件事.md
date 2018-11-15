@@ -1,12 +1,12 @@
 ---
 title: 关于Babel6你需要了解的六件事
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2ef1009
+slug: 2ef1009
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>在过去的一年中，Babel已经成为将ES2015和JSX转变成枯燥的旧JavaScript的前沿工具。但是看起来在一夜之间，<em>Babel 6</em>改变了一切。 babel包被弃用，运行的babel实际上并没有将ES2015转换成ES5，而且旧的文档基本上已经<a href="https://github.com/babel/babel.github.io/tree/862b43db93e48762671267034a50c30c00e433e2">消失</a></p>
 <p>但不要惊慌！为了让您迅速了解，我列出了六个最重要的变化的简要列表。如果你需要更多的帮助，我的<a href="http://jamesknelson.com/the-complete-guide-to-es6-with-babel-6/">ES6与Babel 6</a> 完全指南将会引导你完成实际的细节;包括CLI，Webpack，Mocha和Gulp。</p>
@@ -56,7 +56,7 @@ Webpack变得简单：使用Autorefresh构建ES6 / LESS</a></li>
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/the-six-things-you-need-to-know-about-babel-6](https://www.zcfy.cc/article/the-six-things-you-need-to-know-about-babel-6)

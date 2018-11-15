@@ -1,12 +1,12 @@
 ---
 title: 自定义元素介绍 - DEV社区
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 45c69746
+slug: 45c69746
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h2>引言</h2>
 <p>自定义元素是Web组件的一个子集，在我看来这是web 开发中最酷的概念之一，自定义元素让我们能够通过原生的 web 平台来构建组件，而不是依赖于 React、Angular Vue 或者其他的中间库或者框架。</p>
@@ -154,7 +154,7 @@ window.customElements.define(<span class="hljs-symbol">'hello</span>-component',
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/an-introduction-to-custom-elements-dev-community](https://www.zcfy.cc/article/an-introduction-to-custom-elements-dev-community)

@@ -1,12 +1,12 @@
 ---
 title: 如何在 X 中启动用户软件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3643cbd8
+slug: 3643cbd8
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-x-中启动用户软件"></a>如何在 X 中启动用户软件</h1>
 <p>目前有很多方法可以在开启用户会话时启动软件。</p>
@@ -65,7 +65,7 @@ date: 2018-10-22 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

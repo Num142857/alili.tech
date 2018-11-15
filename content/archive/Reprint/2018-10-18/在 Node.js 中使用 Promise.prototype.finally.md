@@ -1,12 +1,12 @@
 ---
 title: 在 Node.js 中使用 Promise.prototype.finally
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c8c91cd5
+slug: c8c91cd5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally">Promise.prototype.finally()</a>  最近达到了 TC39 提案的 <a href="https://github.com/tc39/proposals/blob/master/finished-proposals.md">第 4 阶段</a> 。这意味着 <code>Promise.prototype.finally()</code> 提案被采纳成为 <a href="https://tc39.github.io/ecma262/#sec-promise.prototype.finally">ECMAScript 最新特性草案</a> 的一部分，登陆 Node.js 现在只是时间问题了。这篇文章会向大家展示 <code>Promise.prototype.finally()</code> 的用法和简化版 Polyfill 的写法。</p>
 <p><img src="https://p0.ssl.qhimg.com/t01fc30e562a31d7177.png" alt=""></p>
@@ -170,7 +170,7 @@ promiseThatRejects.
 <p><img src="https://p0.ssl.qhimg.com/t01d067cf4198b33407.png" alt=""></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/using-promise-prototype-finally-in-node-js](https://www.zcfy.cc/article/using-promise-prototype-finally-in-node-js)

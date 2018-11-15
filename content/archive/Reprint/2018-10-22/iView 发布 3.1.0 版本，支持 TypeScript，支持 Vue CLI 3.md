@@ -1,12 +1,12 @@
 ---
 title: iView 发布 3.1.0 版本，支持 TypeScript，支持 Vue CLI 3
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c127c8b3
+slug: c127c8b3
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/bVbgnSF?w=1600&amp;h=800" src="https://static.alili.tech/img/bVbgnSF?w=1600&amp;h=800" alt="图片描述" title="图片描述" style="cursor: pointer; display: inline;"></span></p>
@@ -58,7 +58,7 @@ date: 2018-10-22 00:00:00
 <p>特别感谢 <a href="https://github.com/yangdan8" rel="nofollow noreferrer" target="_blank">@yangdan8</a> 和 <a href="https://github.com/lcx960324" rel="nofollow noreferrer" target="_blank">@lcx960324</a> 在该版本对 iView 支持 TypeScript 的贡献！</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

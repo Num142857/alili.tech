@@ -1,14 +1,14 @@
 ---
 title: stylus编码规范
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 5e6298dc
+slug: 5e6298dc
 date: 2018-11-07 02:30:14
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x8BE6;&#x89C1; <a href="https://github.com/leeseean/stylus-style-guide" rel="nofollow noreferrer" target="_blank">https://github.com/leeseean/stylus-style-guide</a>,&#x8BF7;&#x591A;&#x6307;&#x6559;&#x548C;issue&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

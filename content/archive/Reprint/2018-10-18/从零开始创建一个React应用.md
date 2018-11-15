@@ -1,12 +1,12 @@
 ---
 title: 从零开始创建一个React应用
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 745f47ee
+slug: 745f47ee
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>我的同事 - 罗伯特 - 为前端迷们制作了一个<a href="https://blog.risingstack.com/free-local-api-server-nodejs/">超级简单的本地API服务器</a>。您可以使用单个命令将其启动，并通过使用它们构建应用程序来使用它来学习客户端框架。该服务器有几个端点，认证和一个<a href="https://freebieapiserver.docs.apiary.io/#reference/user-registration-and-login/log-in">文档页面</a> ，让你真正专注于客户端。</p>
 <p><strong>我决定为这个API构建一个React应用程序，并直播这个过程。</strong></p>
@@ -22,7 +22,7 @@ date: 2018-10-18 00:00:00
 <p>Bests, Berci</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/building-a-react-app-from-scratch](https://www.zcfy.cc/article/building-a-react-app-from-scratch)

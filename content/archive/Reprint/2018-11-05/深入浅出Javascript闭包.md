@@ -1,12 +1,12 @@
 ---
 title: 深入浅出Javascript闭包
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1c8afc86
+slug: 1c8afc86
 date: 2018-11-05 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x4E00;&#x3001;&#x5F15;&#x5B50;</h2><p>&#x95ED;&#x5305;&#xFF08;closure&#xFF09;&#x662F; Javascript &#x8BED;&#x8A00;&#x7684;&#x4E00;&#x4E2A;&#x96BE;&#x70B9;&#xFF0C;&#x9762;&#x8BD5;&#x65F6;&#x5E38;&#x88AB;&#x95EE;&#x53CA;&#xFF0C;&#x4E5F;&#x662F;&#x5B83;&#x7684;&#x7279;&#x8272;&#xFF0C;&#x5F88;&#x591A;&#x9AD8;&#x7EA7;&#x5E94;&#x7528;&#x90FD;&#x8981;&#x4F9D;&#x9760;&#x95ED;&#x5305;&#x5B9E;&#x73B0;&#x3002;&#x672C;&#x6587;&#x5C3D;&#x53EF;&#x80FD;&#x7528;&#x7B80;&#x5355;&#x6613;&#x61C2;&#x7684;&#x8BDD;&#xFF0C;&#x8BB2;&#x6E05;&#x695A;&#x95ED;&#x5305;&#x7684;&#x6982;&#x5FF5;&#x3001;&#x4F5C;&#x7528;&#x53CA;&#x5176;&#x5E38;&#x89C1;&#x7684;&#x9762;&#x8BD5;&#x9898;&#x3002;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016657656?w=1255&amp;h=617" src="https://static.alili.tech/img/remote/1460000016657656?w=1255&amp;h=617" alt="&#x672C;&#x6587;&#x6846;&#x67B6;&#x56FE;" title="&#x672C;&#x6587;&#x6846;&#x67B6;&#x56FE;" style="cursor:pointer;display:inline"></span></p><p>&#x6211;&#x4EEC;&#x5148;&#x6765;&#x770B;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="var n = 999;
 function f1() {
 console.log(n);
@@ -208,7 +208,7 @@ var f=fn();//fn&#x6267;&#x884C;&#x5F62;&#x6210;&#x7684;&#x8FD9;&#x4E2A;&#x79C1;&
         }
       })(<span class="hljs-name">i</span>)
     }</code></pre><p><strong>&#x5982;&#x679C;&#x89C9;&#x5F97;&#x6587;&#x7AE0;&#x5BF9;&#x4F60;&#x6709;&#x4E9B;&#x8BB8;&#x5E2E;&#x52A9;&#xFF0C;&#x6B22;&#x8FCE;&#x5728;<a href="https://github.com/ljianshu/Blog" rel="nofollow noreferrer" target="_blank">&#x6211;&#x7684;GitHub&#x535A;&#x5BA2;</a>&#x70B9;&#x8D5E;&#x548C;&#x5173;&#x6CE8;&#xFF0C;&#x611F;&#x6FC0;&#x4E0D;&#x5C3D;&#xFF01;</strong></p><p>ps:&#x6587;&#x7AE0;&#x4E8E;2018.10.06&#x91CD;&#x65B0;&#x4FEE;&#x6539;,&#x5E0C;&#x671B;&#x5BF9;&#x4F60;&#x4EEC;&#x6709;&#x6240;&#x6536;&#x83B7;&#xFF01;</p><h2 id="articleHeader6">&#x53C2;&#x8003;&#x6587;&#x7AE0;</h2><p><a href="https://wangdoc.com/javascript/types/function.html#%E9%97%AD%E5%8C%85" rel="nofollow noreferrer" target="_blank">Javascript&#x6559;&#x7A0B;</a></p><p><a href="https://book.douban.com/subject/26351021/" rel="nofollow noreferrer" target="_blank">&#x4F60;&#x4E0D;&#x77E5;&#x9053;&#x7684;Javascript&#x4E0A;&#x5377;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

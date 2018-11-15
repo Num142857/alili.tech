@@ -1,12 +1,12 @@
 ---
 title: React高级组件精讲
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: bf7b1ea
+slug: bf7b1ea
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x4E00;&#x3001;&#x57FA;&#x672C;&#x6982;&#x5FF5;</h2><p>&#x9AD8;&#x7EA7;&#x51FD;&#x6570;&#x662F;&#x4EE5;&#x51FD;&#x6570;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x5E76;&#x4E14;&#x8FD4;&#x56DE;&#x4E5F;&#x662F;&#x51FD;&#x6570;&#x7684;&#x7684;&#x51FD;&#x6570;&#x3002;&#x7C7B;&#x4F3C;&#x7684;&#xFF0C;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#xFF08;&#x7B80;&#x79F0;HOC&#xFF09;&#x63A5;&#x6536; React &#x7EC4;&#x4EF6;&#x4E3A;&#x53C2;&#x6570;&#xFF0C;&#x5E76;&#x4E14;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A;&#x65B0;&#x7684;React&#x7EC4;&#x4EF6;&#x3002;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x672C;&#x8D28;&#x4E5F;&#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF0C;&#x5E76;&#x4E0D;&#x662F;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x3002;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x7684;&#x51FD;&#x6570;&#x5F62;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const EnhanceComponent = higherOrderComponent(WrappedComponent)
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs lisp"><code>const EnhanceComponent = higherOrderComponent(<span class="hljs-name">WrappedComponent</span>)
 </code></pre><p>&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x7B80;&#x5355;&#x7684;&#x4F8B;&#x5B50;&#x89E3;&#x91CA;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x662F;&#x5982;&#x4F55;&#x590D;&#x7528;&#x7684;&#x3002;&#x73B0;&#x5728;&#x6709;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;MyComponent&#xFF0C;&#x9700;&#x8981;&#x4ECE;LocalStorage&#x4E2D;&#x83B7;&#x53D6;&#x6570;&#x636E;&#xFF0C;&#x7136;&#x540E;&#x6E32;&#x67D3;&#x5230;&#x754C;&#x9762;&#x3002;&#x4E00;&#x822C;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x8FD9;&#x6837;&#x5B9E;&#x73B0;:</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="import React, { Component } from &apos;react&apos;
@@ -382,7 +382,7 @@ const <span class="hljs-type">MyComponent2WithPersistentData</span> = withPersis
   }
 }
 </code></pre><p>&#x6839;&#x636E; WrappedComponent&#x7684; this.props.loggedIn &#x5224;&#x8BFB;&#x7528;&#x6237;&#x662F;&#x5426;&#x5DF2;&#x7ECF;&#x767B;&#x5F55;&#xFF0C;&#x5982;&#x679C;&#x767B;&#x5F55;&#xFF0C;&#x5C31;&#x901A;&#x8FC7; super.render()&#x8C03;&#x7528; WrappedComponent &#x7684; render &#x65B9;&#x6CD5;&#x6B63;&#x5E38;&#x6E32;&#x67D3;&#x7EC4;&#x4EF6;&#xFF0C;&#x5426;&#x5219;&#x8FD4;&#x56DE;&#x4E00;&#x4E2A; null&#xFF0C; &#x7EE7;&#x627F;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x5BF9;&#x88AB;&#x5305;&#x88C5;&#x7EC4;&#x4EF6;&#x5177;&#x6709;&#x4FB5;&#x5165;&#x6027;&#xFF0C;&#x5F53;&#x7EC4;&#x5408;&#x591A;&#x4E2A;&#x9AD8;&#x9636;&#x4F7F;&#x7528;&#x65F6;&#xFF0C;&#x5F88;&#x5BB9;&#x6613;&#x56E0;&#x4E3A;&#x5B50;&#x7C7B;&#x7EC4;&#x4EF6;&#x5FD8;&#x8BB0;&#x901A;&#x8FC7; super&#x8C03;&#x7528;&#x7236;&#x7C7B;&#x7EC4;&#x4EF6;&#x65B9;&#x6CD5;&#x800C;&#x5BFC;&#x81F4;&#x903B;&#x8F91;&#x4E22;&#x5931;&#x3002;&#x56E0;&#x6B64;&#xFF0C;&#x5728;&#x4F7F;&#x7528;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x65F6;&#xFF0C;&#x5E94;&#x5C3D;&#x91CF;&#x901A;&#x8FC7;&#x4EE3;&#x7406;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x9AD8;&#x9636;&#x7EC4;&#x4EF6;&#x3002;</p><p><a href="#">&#x4EE5;&#x4E0A;&#x4E3B;&#x8981;&#x53C2;&#x8003; &#x300A;React &#x8FDB;&#x9636;&#x4E4B;&#x8DEF;&#x300B;&#x8FD9;&#x672C;&#x4E66;</a></p><blockquote>&#x613F;&#x4F60;&#x6210;&#x4E3A;&#x7EC8;&#x8EAB;&#x5B66;&#x4E60;&#x8005;</blockquote><p>&#x60F3;&#x4E86;&#x89E3;&#x66F4;&#x591A;&#x751F;&#x6D3B;&#x4E0D;&#x4E3A;&#x4EBA;&#x77E5;&#x7684;&#x4E00;&#x9762;&#xFF0C;&#x53EF;&#x4EE5;&#x5173;&#x6CE8;&#x6211;&#x7684;&#x5927;&#x8FC1;&#x4E16;&#x754C;&#x5662;</p><p><span class="img-wrap"><img data-src="/img/bVbgW9s?w=344&amp;h=344" src="https://static.alili.tech/img/bVbgW9s?w=344&amp;h=344" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

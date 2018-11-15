@@ -1,12 +1,12 @@
 ---
 title: 关于如何在部署环境修改process.env & 本地测试
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4abce9bf
+slug: 4abce9bf
 date: 2018-11-06 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">&#x524D;&#x8A00;</h1><p>&#x6700;&#x8FD1;&#x5728;&#x641E;&#x4E00;&#x4E9B;&#x76D1;&#x63A7;&#x7684;&#x4E1C;&#x897F;&#xFF0C; &#x9700;&#x8981;<code>&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684;&#x73AF;&#x5883;&#x4E0A;&#x62A5;&#x5230;&#x4E0D;&#x540C;&#x7684;&#x5730;&#x5740;</code>&#xFF0C;&#x4E2D;&#x95F4;&#x9047;&#x5230;&#x4E86;&#x4E00;&#x4E9B;&#x95EE;&#x9898;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x7B80;&#x5355;&#x603B;&#x7ED3;&#x5206;&#x4EAB;&#x4E0B;&#x3002;</p><h2 id="articleHeader1">&#x5173;&#x4E8E;process.env</h2><p>&#x5047;&#x5982;&#x4F60;&#x5BF9;process.env &#x76F8;&#x5173;&#x7684;&#x6982;&#x5FF5;&#x8FD8;&#x4E0D;&#x719F;&#x6089;&#xFF0C; &#x8BF7;&#x79FB;&#x6B65;&#xFF1A;<br><a href="https://segmentfault.com/a/1190000011683741">Node&#x73AF;&#x5883;&#x53D8;&#x91CF; process.env &#x7684;&#x90A3;&#x4E9B;&#x4E8B;&#x513F;</a> , &#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x603B;&#x7ED3;&#x7684;&#x6BD4;&#x8F83;&#x597D;&#x3002;</p><p>webpack &#x5728;&#x6784;&#x5EFA;&#x7684;&#x65F6;&#x5019;&#xFF0C; &#x53EF;&#x4EE5;&#x4E3A;process.env &#x8D4B;&#x503C;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="
 // Do this as the first thing so that any code reading it knows the right env.
 process.env.BABEL_ENV = &apos;development&apos;;
@@ -56,7 +56,7 @@ console.log(process.env.env);
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs css"><code>
 <span class="hljs-selector-tag">console</span><span class="hljs-selector-class">.log</span>(<span class="hljs-selector-tag">process</span><span class="hljs-selector-class">.env</span><span class="hljs-selector-class">.env</span>);
 </code></pre><p><span class="img-wrap"><img data-src="/img/bVbhHUf?w=82&amp;h=41" src="https://static.alili.tech/img/bVbhHUf?w=82&amp;h=41" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x8FD9;&#x6837;&#x5C31;&#x53EF;&#x4EE5;&#x4E86; :)</p><p>&#x5E0C;&#x671B;&#x5BF9;&#x5927;&#x5BB6;&#x6709;&#x6240;&#x542F;&#x53D1;&#xFF0C; &#x8C22;&#x8C22;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

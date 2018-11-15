@@ -1,12 +1,12 @@
 ---
 title: Webpack4 搭建 Vue 项目
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ed7f036f
+slug: ed7f036f
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1 id="articleHeader0">1. &#x524D;&#x8A00;</h1><p>&#x7531;&#x4E8E; Parcel &#x6253;&#x5305;&#x5DE5;&#x5177;&#x7684;&#x5F71;&#x54CD;&#xFF0C;webpack4 &#x4E5F;&#x8FFD;&#x6C42;&#x96F6;&#x914D;&#x7F6E;&#x642D;&#x5EFA;&#x9879;&#x76EE;&#x3002;&#x800C;&#x524D;&#x9635;&#x5B50;&#x51FA;&#x73B0;&#x7684; vue-cli 3.0&#x4E5F;&#x662F;&#x57FA;&#x4E8E; webpack4 &#x96F6;&#x914D;&#x7F6E;&#x7684;&#x601D;&#x60F3;&#x521B;&#x5EFA;&#x7684;&#x3002;&#x5BF9;&#x4E8E;&#x4E00;&#x4E9B;&#x4E60;&#x60EF;webpack3 &#x7684;&#x5F00;&#x53D1;&#x8005;&#x96BE;&#x514D;&#x6709;&#x4E9B;&#x4E0D;&#x4E60;&#x60EF;&#x3002;&#x672C;&#x6587;&#x5C31;&#x5E26;&#x4F60;&#x7ED5;&#x8FC7; vue-cli&#xFF0C;&#x7528; webpack4 &#x4E00;&#x6B65;&#x6B65;&#x642D;&#x5EFA; vue &#x9879;&#x76EE;&#x3002;</p><p><strong>&#x6CE8;&#xFF1A;&#xFF08;&#x672C;&#x6587;&#x8BB2;&#x8FF0;&#x7684;&#x662F;webpack4&#x57FA;&#x7840;&#x914D;&#x7F6E;&#xFF0C;&#x6587;&#x7AE0;&#x6709;&#x70B9;&#x957F;&#xFF0C;&#x8BF7;&#x8010;&#x5FC3;&#x770B;&#x5B8C;&#x3002;&#x6216;&#x8005;&#x76F4;&#x63A5;&#x67E5;&#x770B;<a href="https://github.com/zxpsuper/createVue" rel="nofollow noreferrer" target="_blank">&#x9879;&#x76EE;&#x6E90;&#x7801;</a>&#xFF0C;&#x6216;&#x8005;<code>ctrl + w</code>&#xFF09;</strong></p><h1 id="articleHeader1">2. &#x9879;&#x76EE;&#x642D;&#x5EFA;</h1><ol><li>&#x521B;&#x5EFA; createVue &#x6587;&#x4EF6;&#x5939;&#xFF0C;&#x8FDB;&#x5165;&#x8BE5;&#x6587;&#x4EF6;&#x5939;&#xFF0C; <code>npm init</code> &#x521D;&#x59CB;&#x5316;&#x9879;&#x76EE;</li><li>&#x5B89;&#x88C5; webpack &#x56DB;&#x4EF6;&#x5957;</li></ol><p><code>npm i webpack webpack-cli webpack-dev-server webpack-merge --save-dev</code></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="// &#x5F53;&#x524D;&#x6211;&#x4F7F;&#x7528;&#x7248;&#x672C;
 &quot;webpack&quot;: &quot;^4.16.3&quot;,
 &quot;webpack-cli&quot;: &quot;^3.1.0&quot;,
@@ -718,7 +718,7 @@ module.exports = merge(common, {
     ]
   },
 })</code></pre><p>&#x6700;&#x540E;&#xFF0C;&#x518D;&#x62D3;&#x5C55;&#x4E00;&#x4E2A; hash, chunkhash, contenthash &#x7684;&#x533A;&#x522B;</p><ul><li>hash&#x662F;&#x8DDF;&#x6574;&#x4E2A;&#x9879;&#x76EE;&#x7684;&#x6784;&#x5EFA;&#x76F8;&#x5173;&#xFF0C;&#x53EA;&#x8981;&#x9879;&#x76EE;&#x91CC;&#x6709;&#x6587;&#x4EF6;&#x66F4;&#x6539;&#xFF0C;&#x6574;&#x4E2A;&#x9879;&#x76EE;&#x6784;&#x5EFA;&#x7684;hash&#x503C;&#x90FD;&#x4F1A;&#x66F4;&#x6539;&#xFF0C;&#x5E76;&#x4E14;&#x5168;&#x90E8;&#x6587;&#x4EF6;&#x90FD;&#x5171;&#x7528;&#x76F8;&#x540C;&#x7684;hash&#x503C;</li><li>chunkhash&#x548C;hash&#x4E0D;&#x4E00;&#x6837;&#xFF0C;&#x5B83;&#x6839;&#x636E;&#x4E0D;&#x540C;&#x7684;&#x5165;&#x53E3;&#x6587;&#x4EF6;(Entry)&#x8FDB;&#x884C;&#x4F9D;&#x8D56;&#x6587;&#x4EF6;&#x89E3;&#x6790;&#x3001;&#x6784;&#x5EFA;&#x5BF9;&#x5E94;&#x7684;chunk&#xFF0C;&#x751F;&#x6210;&#x5BF9;&#x5E94;&#x7684;&#x54C8;&#x5E0C;&#x503C;&#x3002;</li><li>contenthash &#x66F4;&#x7EC6;&#x81F4;&#x5730;&#x6839;&#x636E;&#x5185;&#x5BB9;&#x66F4;&#x6539;&#xFF0C;&#x751F;&#x6210;&#x5BF9;&#x5E94;&#x7684;&#x54C8;&#x5E0C;&#x503C;&#x3002;&#x89E3;&#x51B3;chunkhash &#x6587;&#x4EF6;&#x4E2D;&#x5F15;&#x5165;&#x7684;&#x6587;&#x4EF6;&#x540D;&#x56E0; chunkhash &#x53D8;&#x52A8;&#x800C;&#x53D8;&#x52A8;&#x7684;&#x95EE;&#x9898;</li></ul><p><a href="https://github.com/zxpsuper/createVue" rel="nofollow noreferrer" target="_blank">&#x9879;&#x76EE;&#x6E90;&#x7801;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: vue-cli中的webpack配置
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '98736992'
+slug: '98736992'
 date: 2018-10-29 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">&#x7248;&#x672C;&#x53F7;</h3><p><code>vue-cli</code> 2.8.1 (&#x7EC8;&#x7AEF;&#x901A;&#x8FC7;<code>vue -V</code> &#x53EF;&#x67E5;&#x770B;)</p><p><code>vue</code> 2.2.2</p><p><code>webpack</code> 2.2.1</p><h3 id="articleHeader1">&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&#x251C;&#x2500;&#x2500; README.md
 &#x251C;&#x2500;&#x2500; build
 &#x2502;&#xA0;&#xA0; &#x251C;&#x2500;&#x2500; build.js
@@ -666,7 +666,7 @@ rm(path.join(config.build.assetsRoot, config.build.assetsSubDirectory), err =&gt
     }) + <span class="hljs-string">&apos;\n\n&apos;</span>)
   })
 })</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

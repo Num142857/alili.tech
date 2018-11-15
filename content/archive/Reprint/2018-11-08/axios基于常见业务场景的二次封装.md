@@ -1,12 +1,12 @@
 ---
 title: axios基于常见业务场景的二次封装
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: cab82713
+slug: cab82713
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">axios</h2><p><a href="https://github.com/axios/axios" rel="nofollow noreferrer" target="_blank">axios</a> &#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; promise &#x7684; HTTP &#x5E93;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x548C; node.js &#x4E2D;&#x3002;<br>&#x5728;&#x524D;&#x7AEF;&#x6846;&#x67B6;&#x4E2D;&#x7684;&#x5E94;&#x7528;&#x4E5F;&#x662F;&#x7279;&#x522B;&#x5E7F;&#x6CDB;&#xFF0C;&#x4E0D;&#x7BA1;&#x662F;vue&#x8FD8;&#x662F;react&#xFF0C;&#x90FD;&#x6709;&#x5F88;&#x591A;&#x9879;&#x76EE;&#x7528;axios&#x4F5C;&#x4E3A;&#x7F51;&#x7EDC;&#x8BF7;&#x6C42;&#x5E93;&#x3002;<br>&#x6211;&#x5728;&#x6700;&#x8FD1;&#x7684;&#x51E0;&#x4E2A;&#x9879;&#x76EE;&#x4E2D;&#x90FD;&#x6709;&#x4F7F;&#x7528;axios&#xFF0C;&#x5E76;&#x57FA;&#x4E8E;axios&#x6839;&#x636E;&#x5E38;&#x89C1;&#x7684;&#x4E1A;&#x52A1;&#x573A;&#x666F;&#x5C01;&#x88C5;&#x4E86;&#x4E00;&#x4E2A;&#x901A;&#x7528;&#x7684;request&#x670D;&#x52A1;&#x3002;</p><p><strong>&#x4E1A;&#x52A1;&#x573A;&#x666F;&#xFF1A;</strong></p><ol><li>&#x5168;&#x5C40;&#x8BF7;&#x6C42;&#x914D;&#x7F6E;&#x3002;</li><li>get,post,put,delete&#x7B49;&#x8BF7;&#x6C42;&#x7684;promise&#x5C01;&#x88C5;&#x3002;</li><li>&#x5168;&#x5C40;&#x8BF7;&#x6C42;&#x72B6;&#x6001;&#x7BA1;&#x7406;&#x3002;</li><li>&#x53D6;&#x6D88;&#x91CD;&#x590D;&#x8BF7;&#x6C42;&#x3002;</li><li>&#x8DEF;&#x7531;&#x8DF3;&#x8F6C;&#x53D6;&#x6D88;&#x5F53;&#x524D;&#x9875;&#x9762;&#x8BF7;&#x6C42;&#x3002;</li><li>&#x8BF7;&#x6C42;&#x643A;&#x5E26;token&#xFF0C;&#x6743;&#x9650;&#x9519;&#x8BEF;&#x7EDF;&#x4E00;&#x7BA1;&#x7406;&#x3002;</li></ol><h2 id="articleHeader1">&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;</h2><hr><p>&#x5B9A;&#x4E49;&#x5168;&#x5C40;&#x7684;&#x9ED8;&#x8BA4;&#x914D;&#x7F6E;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="axios.defaults.timeout = 10000 //&#x8D85;&#x65F6;&#x53D6;&#x6D88;&#x8BF7;&#x6C42;
 axios.defaults.headers.post[&apos;Content-Type&apos;] = &apos;application/json;charset=UTF-8&apos;
 axios.defaults.baseURL = process.env.BASE_URL //&#x6302;&#x8F7D;&#x5728;process&#x4E0B;&#x7684;&#x73AF;&#x5883;&#x5E38;&#x91CF;&#xFF0C;&#x5728;&#x6211;&#x53E6;&#x4E00;&#x7BC7;&#x6587;&#x7AE0;&#x6709;&#x8BE6;&#x7EC6;&#x8BF4;&#x660E;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs stylus"><code>axios<span class="hljs-selector-class">.defaults</span><span class="hljs-selector-class">.timeout</span> = <span class="hljs-number">10000</span> <span class="hljs-comment">//&#x8D85;&#x65F6;&#x53D6;&#x6D88;&#x8BF7;&#x6C42;</span>
@@ -368,7 +368,7 @@ axios.interceptors.response.use(<span class="hljs-function"><span class="hljs-ke
 <span class="hljs-keyword">export</span> {sources, post, get}
 
 </span></code></pre><p>&#x4EE5;&#x4E0A;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: Promise.prototype.finally() • 探索 ES2018 和 ES2019
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 99750d9b
+slug: 99750d9b
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1>Promise.prototype.finally()</h1>
 <p>本章主要解释由Jordan Harband提出的"<a href="https://github.com/tc39/proposal-promise-finally">Promise.prototype.finally</a>"提案。</p>
@@ -78,7 +78,7 @@ db.open()
 <p>探索ES6 - 《<a href="http://exploringjs.com/es6/ch_promises.html">用于异步编程的Promises</a>》(译者注：翻译版《<a href="https://es6-org.github.io/exploring-es6/">探索ES6</a>》)</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

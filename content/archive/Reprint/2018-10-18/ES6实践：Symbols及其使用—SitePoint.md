@@ -1,12 +1,12 @@
 ---
 title: ES6实践：Symbols及其使用—SitePoint
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e33ba1d1
+slug: e33ba1d1
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><strong>虽然ES2015已经引入了许多开发人员期待已久的语言特性，但还有一些新特性不太为人所知和理解，其好处也不太清楚——比如symbols。</strong></p>
 <p>symbol（符号）是一种新的原始数据类型，一个确保不会和其它符号冲突的唯一令牌。从这个意义上讲，你可以把符号看作是一种<a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a>（通用唯一识别码）。 让我们看看符号是如何工作的，以及我们能用它做些什么。</p>
@@ -130,7 +130,7 @@ debbie === mike
 <p>虽然引入符号的主要原因似乎是为了在兼容现有代码的前提下为语言添加新功能，但它们确实有一些有趣的用途。对于所有开发人员来说，至少对它们有一个基本的了解，并且熟悉最常用的、有名的符号及其用途是值得的。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/es6-in-action-symbols-and-their-uses-sitepoint](https://www.zcfy.cc/article/es6-in-action-symbols-and-their-uses-sitepoint)

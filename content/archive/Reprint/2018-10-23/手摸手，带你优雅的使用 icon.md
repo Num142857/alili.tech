@@ -1,12 +1,12 @@
 ---
 title: 手摸手，带你优雅的使用 icon
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1e5cc6f0
+slug: 1e5cc6f0
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">前言</h2>
@@ -367,7 +367,7 @@ requireAll(req)</code></pre>
 <p>本文所涉及的技术在 <a href="https://github.com/PanJiaChen/vue-element-admin" rel="nofollow noreferrer" target="_blank">vue-element-admin</a> 中可以找到完整的实例。<br><code>vue-element-admin</code>也发布了新版本和配套的<a href="https://panjiachen.github.io/vue-element-admin-site/#/" rel="nofollow noreferrer" target="_blank">中文文档</a>(文档真的写的我要吐血了)不管使不使用本项目都推荐一看，应该能对你写vue的项目有所帮助。欢迎使用和提出不足。<br>楼主个人免费<a href="https://jianshiapp.com/circles/1209" rel="nofollow noreferrer" target="_blank">圈子</a>。</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

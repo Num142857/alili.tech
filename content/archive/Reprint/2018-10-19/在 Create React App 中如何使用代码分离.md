@@ -1,12 +1,12 @@
 ---
 title: 在 Create React App 中如何使用代码分离
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a8b35793
+slug: a8b35793
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>虽然说「代码分离」并不是构建 React 应用程序的必要步骤，但是如果你对什么是「代码分离」感兴趣并想知道它是如何帮我们构建大型 React 应用程序的话，请继续往下阅读。</p>
 <h3>代码分离</h3>
@@ -237,7 +237,7 @@ export default ({ childProps }) =&gt;
 <p>想要了解如何添加预加载以及该组件其他的功能，你可以查看<a href="https://github.com/thejameskyle/react-loadable">react-loadable</a> 的 github 仓库来了解更多特性，并享受「code splitting」的乐趣！</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/code-splitting-in-create-react-app](https://www.zcfy.cc/article/code-splitting-in-create-react-app)

@@ -1,12 +1,12 @@
 ---
 title: Iceworks 2.7.0 发布，海量图表供你选择
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 340bdc28
+slug: 340bdc28
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h1 id="articleHeader0">Iceworks 2.7.0 发布，海量图表供你选择</h1>
@@ -82,7 +82,7 @@ date: 2018-10-22 00:00:00
 </ul>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

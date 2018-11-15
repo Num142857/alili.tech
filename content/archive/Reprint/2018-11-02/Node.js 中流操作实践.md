@@ -1,12 +1,12 @@
 ---
 title: Node.js 中流操作实践
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6d879c2b
+slug: 6d879c2b
 date: 2018-11-02 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/remote/1460000016328758?w=1967&amp;h=821" src="https://static.alili.tech/img/remote/1460000016328758?w=1967&amp;h=821" alt="node js banner" title="node js banner" style="cursor:pointer;display:inline"></span></p><blockquote>&#x672C;&#x6587;&#x8282;&#x9009;&#x81EA; <a href="https://parg.co/m56" rel="nofollow noreferrer" target="_blank">Node.js CheatSheet | Node.js &#x8BED;&#x6CD5;&#x57FA;&#x7840;&#x3001;&#x6846;&#x67B6;&#x4F7F;&#x7528;&#x4E0E;&#x5B9E;&#x8DF5;&#x6280;&#x5DE7;</a>&#xFF0C;&#x4E5F;&#x53EF;&#x4EE5;&#x9605;&#x8BFB; <a href="https://parg.co/Yha" rel="nofollow noreferrer" target="_blank">JavaScript CheatSheet</a> &#x6216;&#x8005; <a href="https://github.com/wxyyxc1992/Web-Series" rel="nofollow noreferrer" target="_blank">&#x73B0;&#x4EE3; Web &#x5F00;&#x53D1;&#x57FA;&#x7840;&#x4E0E;&#x5DE5;&#x7A0B;&#x5B9E;&#x8DF5;</a> &#x4E86;&#x89E3;&#x66F4;&#x591A; JavaScript/Node.js &#x7684;&#x5B9E;&#x9645;&#x5E94;&#x7528;&#x3002;</blockquote><p>Stream &#x662F; Node.js &#x4E2D;&#x7684;&#x57FA;&#x7840;&#x6982;&#x5FF5;&#xFF0C;&#x7C7B;&#x4F3C;&#x4E8E; EventEmitter&#xFF0C;&#x4E13;&#x6CE8;&#x4E8E; IO &#x7BA1;&#x9053;&#x4E2D;&#x4E8B;&#x4EF6;&#x9A71;&#x52A8;&#x7684;&#x6570;&#x636E;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#xFF1B;&#x7C7B;&#x6BD4;&#x4E8E;&#x6570;&#x7EC4;&#x6216;&#x8005;&#x6620;&#x5C04;&#xFF0C;Stream &#x4E5F;&#x662F;&#x6570;&#x636E;&#x7684;&#x96C6;&#x5408;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x5176;&#x4EE3;&#x8868;&#x4E86;&#x4E0D;&#x4E00;&#x5B9A;&#x6B63;&#x5728;&#x5185;&#x5B58;&#x4E2D;&#x7684;&#x6570;&#x636E;&#x3002;&#x3002;Node.js &#x7684; Stream &#x5206;&#x4E3A;&#x4EE5;&#x4E0B;&#x7C7B;&#x578B;&#xFF1A;</p><ul><li>Readable Stream: &#x53EF;&#x8BFB;&#x6D41;&#xFF0C;&#x6570;&#x636E;&#x7684;&#x4EA7;&#x751F;&#x8005;&#xFF0C;&#x8B6C;&#x5982; process.stdin</li><li>Writable Stream: &#x53EF;&#x5199;&#x6D41;&#xFF0C;&#x6570;&#x636E;&#x7684;&#x6D88;&#x8D39;&#x8005;&#xFF0C;&#x8B6C;&#x5982; process.stdout &#x6216;&#x8005; process.stderr</li><li>Duplex Stream: &#x53CC;&#x5411;&#x6D41;&#xFF0C;&#x5373;&#x53EF;&#x8BFB;&#x4E5F;&#x53EF;&#x5199;</li><li>Transform Stream: &#x8F6C;&#x5316;&#x6D41;&#xFF0C;&#x6570;&#x636E;&#x7684;&#x8F6C;&#x5316;&#x8005;</li></ul><p>Stream &#x672C;&#x8EAB;&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x5957;&#x63A5;&#x53E3;&#x89C4;&#x8303;&#xFF0C;&#x5F88;&#x591A; Node.js &#x4E2D;&#x7684;&#x5185;&#x5EFA;&#x6A21;&#x5757;&#x90FD;&#x9075;&#x5FAA;&#x4E86;&#x8BE5;&#x89C4;&#x8303;&#xFF0C;&#x8B6C;&#x5982;&#x8457;&#x540D;&#x7684; <code>fs</code> &#x6A21;&#x5757;&#xFF0C;&#x5373;&#x662F;&#x4F7F;&#x7528; Stream &#x63A5;&#x53E3;&#x6765;&#x8FDB;&#x884C;&#x6587;&#x4EF6;&#x8BFB;&#x5199;&#xFF1B;&#x540C;&#x6837;&#x7684;&#xFF0C;&#x6BCF;&#x4E2A; HTTP &#x8BF7;&#x6C42;&#x662F;&#x53EF;&#x8BFB;&#x6D41;&#xFF0C;&#x800C; HTTP &#x54CD;&#x5E94;&#x5219;&#x662F;&#x53EF;&#x5199;&#x6D41;&#x3002;</p><p><span class="img-wrap"><img data-src="/img/remote/1460000016328759" src="https://static.alili.tech/img/remote/1460000016328759" alt="" title="" style="cursor:pointer;display:inline"></span></p><h3 id="articleHeader0">Readable Stream</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const stream = require(&apos;stream&apos;);
 const fs = require(&apos;fs&apos;);
 
@@ -366,7 +366,7 @@ Base64Encoder.prototype._transform = <span class="hljs-function"><span class="hl
 };
 
 process.stdin.pipe(<span class="hljs-keyword">new</span> Base64Encoder()).pipe(process.stdout);</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

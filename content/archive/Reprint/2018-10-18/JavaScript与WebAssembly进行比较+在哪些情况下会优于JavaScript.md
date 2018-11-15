@@ -1,12 +1,12 @@
 ---
 title: JavaScript与WebAssembly进行比较+在哪些情况下会优于JavaScript
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 86189f01
+slug: 86189f01
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>这是专门探索JavaScript及其构建组件的系列的第6期。在识别和描述核心元素的过程中，我们还分享了构建<a href="https://www.sessionstack.com/?utm_source=medium&amp;utm_medium=blog&amp;utm_content=Post-6-webassembly-intro">SessionStack</a>时使用的一些经验法则，这是一个轻量级但健壮且高性能的JavaScript应用程序，以帮助用户实时查看和重现其Web应用程序的缺陷。</p>
 <p>如果你错过了前面的章节，你可以在这里找到它们：</p>
@@ -90,7 +90,7 @@ WebAssembly在浏览器中加载速度更快，因为只有已编译的wasm文�
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-javascript-works-a-comparison-with-webassembly-why-in-certain-cases-it-s-better-to-use-it-over-javascript](https://www.zcfy.cc/article/how-javascript-works-a-comparison-with-webassembly-why-in-certain-cases-it-s-better-to-use-it-over-javascript)

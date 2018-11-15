@@ -1,12 +1,12 @@
 ---
 title: vue-router页面跳转 以及页面配置
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c5b6aaa6
+slug: c5b6aaa6
 date: 2018-11-06 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6628;&#x5929;&#x81EA;&#x5DF1;&#x5728;&#x5BB6;&#x505A;&#x4E86;&#x4E00;&#x4E2A;&#x524D;&#x7AEF;&#x4E0A;&#x7EBF;&#x7CFB;&#x7EDF;&#xFF0C;&#x4F7F;&#x7528;&#x5230;&#x7684;&#x6280;&#x672F;&#x6709;VUE&#x6846;&#x67B6;&#xFF0C;element-ui, vue-router<br>&#x4F20;&#x9001;&#x95E8;&#xFF1A;<a href="https://github.com/liyang1234567890/online-project" rel="nofollow noreferrer" target="_blank">https://github.com/liyang1234...</a><br>&#x9875;&#x9762;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbhLN4?w=1297&amp;h=662" src="https://static.alili.tech/img/bVbhLN4?w=1297&amp;h=662" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p><span class="img-wrap"><img data-src="/img/bVbhLN8?w=1297&amp;h=662" src="https://static.alili.tech/img/bVbhLN8?w=1297&amp;h=662" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p><span class="img-wrap"><img data-src="/img/bVbhLN9?w=1364&amp;h=662" src="https://static.alili.tech/img/bVbhLN9?w=1364&amp;h=662" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x5176;&#x4E2D;&#x7684;router&#x7684;&#x4F7F;&#x7528;&#x65B9;&#x6CD5;&#x548C;&#x4E00;&#x4E9B;&#x914D;&#x7F6E;&#x6587;&#x4EF6; webpack&#x5165;&#x53E3;&#x6587;&#x4EF6;main.js,router&#x7684;index.js&#x5185;&#x5BB9;&#x5982;&#x4E0B;&#xFF1A;</p><h2 id="articleHeader0">&#x4F7F;&#x7528;router</h2><p><strong>&#x5B98;&#x65B9;&#x4F8B;&#x5B50;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;script src=&quot;https://unpkg.com/vue/dist/vue.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;https://unpkg.com/vue-router/dist/vue-router.js&quot;&gt;&lt;/script&gt;
 
@@ -211,7 +211,7 @@ npm <span class="hljs-keyword">run</span> dev
  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Index<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
      <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>&gt;</span>
-     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{sContent}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{"sContent"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
@@ -229,7 +229,7 @@ npm <span class="hljs-keyword">run</span> dev
  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
      <span class="hljs-tag">&lt;<span class="hljs-name">h2</span>&gt;</span>Hello Vue.js<span class="hljs-tag">&lt;/<span class="hljs-name">h2</span>&gt;</span>
      <span class="hljs-tag">&lt;<span class="hljs-name">hr</span>/&gt;</span>
-     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{sContent}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+     <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{"sContent"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">script</span>&gt;</span><span class="javascript">
@@ -300,7 +300,7 @@ router
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs django"><code><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
 <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
  ![](./assets/logo.png)
- <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span></span><span class="hljs-template-variable">{{msg}}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span></span><span class="hljs-template-variable">"{{"msg"}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
  <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>
    <span class="hljs-tag">&lt;<span class="hljs-name">router-link</span> <span class="hljs-attr">to</span>=<span class="hljs-string">&apos;/index&apos;</span> <span class="hljs-attr">tag</span>=<span class="hljs-string">&apos;li&apos;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/index&quot;</span>&gt;</span>Index<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">router-link</span>&gt;</span>
    <span class="hljs-tag">&lt;<span class="hljs-name">router-link</span> <span class="hljs-attr">to</span>=<span class="hljs-string">&apos;/hello&apos;</span> <span class="hljs-attr">tag</span>=<span class="hljs-string">&apos;li&apos;</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">&quot;/hello&quot;</span>&gt;</span>Hello<span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">router-link</span>&gt;</span>
@@ -334,7 +334,7 @@ router
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span>
 </code></pre><p>&#x8FD0;&#x884C;&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbhLPY?w=817&amp;h=498" src="https://static.alili.tech/img/bVbhLPY?w=817&amp;h=498" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

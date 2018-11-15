@@ -1,12 +1,12 @@
 ---
 title: webpack4.17.1起步
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2f960d3d
+slug: 2f960d3d
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2>&#x672C;&#x5730;&#x5B89;&#x88C5;webpack</h2><pre><code>npm install --save-dev webpack
 </code></pre><p>&#x5982;&#x679C;&#x4F7F;&#x7528;webpack4+&#x7248;&#x672C;&#xFF0C;&#x9700;&#x8981;&#x5B89;&#x88C5;webpack-cli</p><pre><code>npm install webpack webpack-cli --save-dev
 </code></pre><hr><h2>&#x521D;&#x59CB;&#x5316;npm</h2><p>&#x521D;&#x59CB;&#x5316;npm&#x540E;&#xFF0C;&#x4F1A;&#x751F;&#x6839;&#x76EE;&#x5F55;&#x4E0B;&#x6210;&#x4E00;&#x4E2A;package.json</p><pre><code>npm init -y</code></pre><h2>&#x521B;&#x5EFA;&#x6587;&#x4EF6;&#x76EE;&#x5F55;&#xFF0C;&#x6587;&#x4EF6;&#xFF0C;&#x5185;&#x5BB9;</h2><p>&#x6587;&#x4EF6;&#x7ED3;&#x6784;</p><pre><code>webpack
@@ -78,7 +78,7 @@ module.exports = {
      },
     ...
 }</code></pre><p>&#x73B0;&#x5728;&#x6211;&#x4EEC;&#x5C31;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;npm run build &#x547D;&#x4EE4;&#xFF0C;&#x6765;&#x4EE3;&#x66FF;npx&#x547D;&#x4EE4;&#xFF0C;&#x8FD9;&#x91CC;&#x9047;&#x5230;&#x4E00;&#x70B9;&#x95EE;&#x9898;QAQ</p><blockquote>&#x5728;&#x6267;&#x884C;cnpm run build&#x603B;&#x662F;&#x4F1A;&#x51FA;&#x73B0;One CLI for webpack must be installed. These are recommended choices......</blockquote><p><span class="img-wrap"><img data-src="/img/bVbf943?w=580&amp;h=186" src="https://static.alili.tech/img/bVbf943?w=580&amp;h=186" alt="clipboard.png" title="clipboard.png"></span></p><p>&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF1A;</p><ol><li><p>&#x5168;&#x5C40;&#x5B89;&#x88C5;webpack-cli</p><pre><code>cnpm i webpack-cli -g</code></pre></li><li><p>&#x5728;&#x9879;&#x76EE;&#x91CC;&#x518D;&#x505A;&#x4E00;&#x4E2A;&#x672C;&#x5730;&#x5B89;&#x88C5;</p><pre><code>cnpm i webpack -D</code></pre></li><li>&#x8FD0;&#x884C;cnpm run build &#x8C22;&#x5929;&#x8C22;&#x5730;&#xFF0C;&#x7EC8;&#x4E8E;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x6784;&#x5EFA;&#x6210;&#x529F;&#x4E86;<p><span class="img-wrap"><img data-src="/img/bVbf96p?w=570&amp;h=293" src="https://static.alili.tech/img/bVbf96p?w=570&amp;h=293" alt="clipboard.png" title="clipboard.png"></span></p><p>&#x67E5;&#x770B;&#x9879;&#x76EE;&#x76EE;&#x5F55;&#xFF0C;&#x4F1A;&#x8F93;&#x51FA;&#x4E00;&#x4E2A;&#x538B;&#x7F29;&#x4E86;&#x7684;bundle.js&#x6587;&#x4EF6;&#x5230;dist&#x6587;&#x4EF6;&#x5939;&#x4E2D;</p><p><span class="img-wrap"><img data-src="/img/bVbf97M?w=256&amp;h=187" src="https://static.alili.tech/img/bVbf97M?w=256&amp;h=187" alt="clipboard.png" title="clipboard.png"></span></p></li></ol><p>&#x5230;&#x6B64;&#x5DF2;&#x7ECF;&#x5B9E;&#x73B0;&#x4E86;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x7684;&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#xFF0C;&#x4F60;&#x5E94;&#x8BE5;&#x79FB;&#x81F3;&#x4E0B;&#x4E00;&#x7AE0;&#x8282;&#x7684;&#x7BA1;&#x7406;&#x8D44;&#x6E90;&#x6307;&#x5357;&#xFF0C;&#x4EE5;&#x4E86;&#x89E3;&#x5982;&#x4F55;&#x901A;&#x8FC7; webpack &#x6765;&#x7BA1;&#x7406;&#x8D44;&#x6E90;&#xFF0C;&#x4F8B;&#x5982;&#x56FE;&#x7247;&#x3001;&#x5B57;&#x4F53;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

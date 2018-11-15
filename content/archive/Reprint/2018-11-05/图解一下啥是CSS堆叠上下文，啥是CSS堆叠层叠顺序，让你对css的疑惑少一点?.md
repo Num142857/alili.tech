@@ -1,12 +1,12 @@
 ---
 title: 图解一下啥是CSS堆叠上下文，啥是CSS堆叠层叠顺序，让你对css的疑惑少一点?
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b3209b2b
+slug: b3209b2b
 date: 2018-11-05 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">CSS &#x5806;&#x53E0;&#x4E0A;&#x4E0B;&#x6587;&#x662F;&#x5565;&#xFF1F;</h2><p>&#x6211;&#x4EEC;&#x6709;&#x4E00;&#x4E2A;&#x57FA;&#x672C;&#x6837;&#x5F0F;&#x7684; div&#xFF0C;&#x6837;&#x5F0F;&#x5982;&#x4E0B;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="div{
     width: 200px;
     height: 200px;
@@ -306,7 +306,7 @@ date: 2018-11-05 02:30:10
   <span class="hljs-attribute">z-index</span>: <span class="hljs-number">1</span>;
 }
 </code></pre><p>&#x6548;&#x679C;&#x5982;&#x4E0B;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbh3as?w=650&amp;h=534" src="https://static.alili.tech/img/bVbh3as?w=650&amp;h=534" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x5148;&#x5206;&#x6790;a &#x548C; b&#x5B83;&#x4EEC;&#x662F;&#x8C01;&#x8986;&#x76D6;&#x8C01;&#xFF0C;&#x56E0;&#x4E3A; &#x4E24;&#x4E2A;&#x5B9A;&#x4F4D;&#x548C;z-index&#x90FD;&#x4E00;&#x6837;&#x6240;&#x4EE5; b &#x4F1A;&#x8986;&#x76D6; a&#x3002;&#x8FD8;&#x6709;&#x4E00;&#x4E2A;&#x73B0;&#x8C61;&#x6709;&#x6CA1;&#x6709;&#x53D1;&#x73B0;&#xFF0C; b1 &#x76D6;&#x4F4F;&#x4E86; a1? &#x660E;&#x660E; a1 &#x7684; z-index &#x5927;&#x4E8E; b1,&#x8FD9;&#x662F;&#x4E3A;&#x4EC0;&#x4E48;&#xFF1F;&#x4E3A;&#x4EC0;&#x4E48;&#x5C0F;&#x7684;&#x4F1A;&#x76D6;&#x4F4F;&#x5927;&#x7684;&#xFF1F;&#x4E3A;&#x4EC0;&#x4E48;&#xFF1F;</p><p>&#x56E0;&#x4E3A; b &#x6BD4; a &#x9AD8;&#x4E00;&#x70B9;&#xFF0C;&#x6240;&#x4EE5; b &#x91CC;&#x9762;&#x7684;&#x5185;&#x5BB9;&#x90FD;&#x4F1A;&#x6BD4; a &#x9AD8;&#x4E00;&#x70B9;&#x3002;&#x8FD9;&#x5C31;&#x662F; CSS&#x5806;&#x53E0;&#x4E0A;&#x4E0B;&#x6587;&#x4E00;&#x4E2A;&#x7279;&#x6027;&#x3002;</p><p>&#x6BD4;&#x5982;&#x8BF4;&#x963F;&#x91CC;&#x5DF4;&#x5DF4;&#x6709;&#x4E00;&#x4E2A;&#x5947;&#x602A;&#x7684;&#x90E8;&#x95E8;&#x53EB;&#x505A;&#x653F;&#x59D4;&#xFF0C;&#x662F;&#x7531;&#x9A6C;&#x4E91;&#x7B49;&#x4E00;&#x4E9B;&#x521B;&#x59CB;&#x4EBA;&#x7EC4;&#x6210;&#x7684;&#x3002;&#x5728;&#x8FD9;&#x4E2A;&#x90E8;&#x95E8;&#x91CC;&#x9762;&#xFF0C;&#x4F60;&#x662F;&#x4E0D;&#x662F;&#x90FD;&#x6BD4;&#x5176;&#x5B83;&#x90E8;&#x95E8;&#x8981;&#x9AD8;&#x7EA7;&#x70B9;&#x3002;</p><p><strong>&#x6240;&#x4EE5; b1 &#x867D;&#x7136;&#x5728; b &#x91CC;&#x9762;&#x7B49;&#x7EA7;&#x4E3A;0&#xFF0C;&#x5728; b &#x662F;&#x9AD8;&#x7EA7;&#x7684;&#x4E00;&#x4E2A;&#x90E8;&#x95E8;&#xFF0C;&#x5C31;&#x662F;&#x53EF;&#x4EE5;&#x538B;&#x8FC7;&#x4F60; a &#x8FD9;&#x4E2A;&#x90E8;&#x95E8;&#x91CC;&#x9762;&#x7684; 2 &#x7EA7;&#x7684;&#x4EBA;&#x3002;</strong></p><p>&#x4ECA;&#x5929;&#x8BF4;&#x8FD9;&#x4E9B;&#x4E86;&#xFF0C;&#x5982;&#x679C;&#x8FD8;&#x592A;&#x660E;&#x767D;&#x53EF;&#x4EE5;&#x770B;&#x770B;&#x4EE5;&#x4E0B;&#x7684;&#x5185;&#x5BB9; &#xFF1A;</p><p><a href="https://www.zhangxinxu.com/wordpress/2016/01/understand-css-stacking-context-order-z-index/" rel="nofollow noreferrer" target="_blank">&#x5F20;&#x946B;&#x65ED;&#x7684;&#x6DF1;&#x5165;&#x7406;&#x89E3;CSS&#x4E2D;&#x7684;&#x5C42;&#x53E0;&#x4E0A;&#x4E0B;&#x6587;&#x548C;&#x5C42;&#x53E0;&#x987A;&#x5E8F;</a><br><a href="https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Understanding_z_index/The_stacking_context" rel="nofollow noreferrer" target="_blank">MDN &#x6587;&#x6863;</a></p><p><strong>&#x66F4;&#x591A;&#x5185;&#x5BB9;&#x53EF;&#x4EE5;&#x5173;&#x6CE8;&#x4E0B;&#x9762;&#x8FD9;&#x4E2A;&#x5F88;&#x5C11;&#x4EBA;&#x559C;&#x6B22;&#x7684;&#x4E00;&#x4E2A;&#x7B28;&#x7B28;&#x7684;&#x4EBA;</strong></p><p><strong>&#x4E00;&#x4E2A;&#x7B28;&#x7B28;&#x7684;&#x7801;&#x519C;&#xFF0C;&#x6211;&#x7684;&#x4E16;&#x754C;&#x53EA;&#x80FD;&#x7EC8;&#x8EAB;&#x5B66;&#x4E60;</strong></p><p><span class="img-wrap"><img data-src="/img/bVbg32a?w=258&amp;h=258" src="https://static.alili.tech/img/bVbg32a?w=258&amp;h=258" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

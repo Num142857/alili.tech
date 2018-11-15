@@ -1,12 +1,12 @@
 ---
 title: 在 Linux 上复制和重命名文件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9789051a
+slug: 9789051a
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#在-linux-上复制和重命名文件"></a>在 Linux 上复制和重命名文件</h1>
 <blockquote>
@@ -82,7 +82,7 @@ approved-minutes<span class="hljs-number">-2018</span><span class="hljs-number">
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [在 Linux 上复制和重命名文件](https://www.zcfy.cc/article/copying-and-renaming-files-on-linux)

@@ -1,12 +1,12 @@
 ---
 title: 花样形状 -- CSS
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 1dfbda1f
+slug: 1dfbda1f
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x53EA;&#x4F7F;&#x7528;&#x4E00;&#x4E2A;html&#x5143;&#x7D20;&#x7ED8;&#x5236;&#x56FE;&#x5F62;&#xFF0C;&#x90E8;&#x5206;&#x56FE;&#x5F62;&#x9700;&#x8981;&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;</p><h1>&#x6B63;&#x65B9;&#x5F62; Square</h1><pre><code>        #square {
             width: 100px;
             height: 100px;
@@ -729,7 +729,7 @@ date: 2018-11-14 02:30:09
             border-top: 20px solid transparent;
             border-bottom: 20px solid transparent;
         }</code></pre><p><strong>&#x539F;&#x6587;&#x94FE;&#x63A5;&#xFF1A;<a href="http://www.bestvist.com/p/58" rel="nofollow noreferrer">http://www.bestvist.com/p/58</a></strong><br><strong>&#x539F;&#x6587;&#x6709;&#x6548;&#x679C;&#x66F4;&#x76F4;&#x89C2;&#x5466;</strong><br><strong><a href="https://github.com/bestvist/css-shape" rel="nofollow noreferrer">GitHub&#x5730;&#x5740;</a> &#x6B22;&#x8FCE;star ^ _ ^</strong></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

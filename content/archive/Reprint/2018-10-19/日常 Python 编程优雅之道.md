@@ -1,12 +1,12 @@
 ---
 title: 日常 Python 编程优雅之道
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 18851f44
+slug: 18851f44
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#日常-python-编程优雅之道"></a>日常 Python 编程优雅之道</h1>
 <blockquote>
@@ -293,7 +293,7 @@ This operation is not supported.
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/3-practical-python-tools-magic-methods-iterators-and-generators-and-method-magic](https://www.zcfy.cc/article/3-practical-python-tools-magic-methods-iterators-and-generators-and-method-magic)

@@ -1,12 +1,12 @@
 ---
 title: 个人分享--web前端学习资源分享
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 674d6e5f
+slug: 674d6e5f
 date: 2018-10-24 08:17:54
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">1.&#x524D;&#x8A00;</h2>
@@ -99,7 +99,7 @@ date: 2018-10-24 08:17:54
 <p><span class="img-wrap"><img src="https://static.alili.tech/img/bV1Cv6?w=258&amp;h=258" del-src="https://static.alili.tech/img/bVSD4Y?w=110&amp;h=112" alt="clipboard.png" title="clipboard.png" style="cursor: pointer;"></span></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

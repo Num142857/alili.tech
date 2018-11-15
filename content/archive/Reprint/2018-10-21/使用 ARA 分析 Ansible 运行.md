@@ -1,12 +1,12 @@
 ---
 title: 使用 ARA 分析 Ansible 运行
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3707de70
+slug: 3707de70
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#使用-ara-分析-ansible-运行"></a>使用 ARA 分析 Ansible 运行</h1>
 <blockquote>
@@ -63,7 +63,7 @@ date: 2018-10-21 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/analyzing-ansible-runs-using-ara)

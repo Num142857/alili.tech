@@ -1,12 +1,12 @@
 ---
 title: 总结下var、let 和 const 的区别
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 427207fb
+slug: 427207fb
 date: 2018-11-07 02:30:16
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>var &#x548C; let &#x7684;&#x533A;&#x522B;&#x662F;&#x8001;&#x751F;&#x5E38;&#x8C08;&#xFF0C;&#x770B;&#x5230;&#x7F51;&#x4E0A;&#x4E00;&#x4E9B;&#x6587;&#x7AE0;&#x7684;&#x603B;&#x7ED3;&#xFF0C;&#x6709;&#x7684;&#x4E0D;&#x592A;&#x5168;&#x9762;&#xFF0C;&#x751A;&#x81F3;&#x6709;&#x7684;&#x63CF;&#x8FF0;&#x4E0D;&#x592A;&#x51C6;&#x786E;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x5C3D;&#x91CF;&#x5168;&#x9762;&#x7684;&#x603B;&#x7ED3;&#x4E0B;&#x8FD9;&#x4E09;&#x8005;&#x7684;&#x533A;&#x522B;&#x3002;</p><hr><p><strong>let &#x662F; ES6&#x65B0;&#x589E;&#x7684;&#x53D8;&#x91CF;&#x7C7B;&#x578B;&#xFF0C;&#x7528;&#x6765;&#x4EE3;&#x66FF; var &#x7684;&#x4E00;&#x4E9B;&#x7F3A;&#x9677;&#xFF0C;&#x8DDF; var &#x76F8;&#x6BD4;&#x4E3B;&#x8981;&#x6709;&#x4EE5;&#x4E0B;&#x533A;&#x522B;&#xFF1A;</strong></p><h3 id="articleHeader1">1. let &#x4F7F;&#x7528;&#x5757;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;</h3><p>&#x5728; ES6&#x4E4B;&#x524D;&#xFF0C;ES5&#x4E2D;js&#x53EA;&#x6709;&#x5168;&#x5C40;&#x4F5C;&#x7528;&#x57DF;&#x548C;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x4F8B;&#x5982;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="if(true) {
    var a = &apos;name&apos;
 }
@@ -116,7 +116,7 @@ const b; // Uncaught SyntaxError: Missing initializer in const declaration" titl
 
 a = <span class="hljs-number">2</span>; // // Uncaught <span class="hljs-built_in">TypeError</span>: Assignment to constant variable
 <span class="hljs-keyword">const</span> b; // Uncaught SyntaxError: Missing initializer <span class="hljs-keyword">in</span> <span class="hljs-keyword">const</span> declaration</code></pre><h2 id="articleHeader6">&#x6700;&#x540E;</h2><p>&#x4EE5;&#x4E0A;&#x5927;&#x6982;&#x662F;&#x603B;&#x7ED3;&#x540E;&#x7684;&#x5185;&#x5BB9;&#xFF0C;&#x770B;&#x6765;&#xFF0C;&#x8FD8;&#x662F;&#x591A;&#x7528; let &#x3001;const &#x5427;&#x3002;</p><blockquote>&#x53C2;&#x8003;&#x8D44;&#x6599;&#xFF1A;<a href="http://es6.ruanyifeng.com/#docs/let" rel="nofollow noreferrer" target="_blank">http://es6.ruanyifeng.com/#do...</a></blockquote>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

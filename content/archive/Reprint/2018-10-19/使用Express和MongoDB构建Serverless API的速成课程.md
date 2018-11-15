@@ -1,12 +1,12 @@
 ---
 title: 使用Express和MongoDB构建Serverless API的速成课程
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: '53106638'
+slug: '53106638'
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>如今，在多种技术场合下，Serverless架构已经变成了一个神奇的工具。我们正在使用Serverless架构来开发数据处理器，聊天机器人，应用API等等。</p>
 <p>今天，我将引导您去使用持久的MongoDB数据存储在AWS Lambda上创建可以随时投入生产的Express API。您可以在AWS Lambda上构建Express应用程序，然后轻松地使用MongoDB。</p>
@@ -227,7 +227,7 @@ date: 2018-10-19 00:00:00
 <p><em>文章首发于</em><a href="https://dev.to/adnanrahic/a-crash-course-on-serverless-apis-with-express-and-mongodb-193k"><em>dev.to</em></a>。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/a-crash-course-on-serverless-apis-with-express-and-mongodb](https://www.zcfy.cc/article/a-crash-course-on-serverless-apis-with-express-and-mongodb)

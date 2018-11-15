@@ -1,11 +1,11 @@
 ---
 title: 'vue常用操作及学习笔记（路由跳转及路由传参篇）' 
 date: 2018-11-15 2:30:08
-reprint: true
+hidden: true
 categories: reprint
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1><strong>&#x8DEF;&#x7531;&#x8DF3;&#x8F6C; - &#x8D85;&#x94FE;&#x63A5;&#x65B9;&#x5F0F;&#x8DF3;&#x8F6C;</strong></h1><p>html&#xFF1A;</p><pre><code>&lt;div id=&quot;app&quot;&gt;
     &lt;h1&gt;Hello App!&lt;/h1&gt;
     &lt;p&gt;
@@ -62,7 +62,7 @@ this.$router.push( name : &apos;xxx&apos;, params : { data })
 //params&#x53D6;&#x503C;
 this.$route.params.data
 </code></pre><p>&#x6CE8;&#x610F;:params&#x4F20;&#x53C2;&#xFF0C;push&#x91CC;&#x9762;&#x53EA;&#x80FD;&#x662F; name:&apos;xxxx&apos;,&#x4E0D;&#x80FD;&#x662F;path:&apos;/xxx&apos;</p><h3>&#x533A;&#x522B;&#xFF1A;&#x76F4;&#x767D;&#x7684;&#x6765;&#x8BF4;query&#x76F8;&#x5F53;&#x4E8E;get&#x8BF7;&#x6C42;&#xFF0C;&#x9875;&#x9762;&#x8DF3;&#x8F6C;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x5730;&#x5740;&#x680F;&#x770B;&#x5230;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#xFF0C;&#x800C;params&#x76F8;&#x5F53;&#x4E8E;post&#x8BF7;&#x6C42;&#xFF0C;&#x53C2;&#x6570;&#x4E0D;&#x4F1A;&#x518D;&#x5730;&#x5740;&#x680F;&#x4E2D;&#x663E;&#x793A;</h3><h3>&#x62D3;&#x5C55;&#xFF1A;this.$router &#x548C;this.$route&#x6709;&#x4F55;&#x533A;&#x522B;&#xFF1F;</h3><p>1.$router&#x4E3A;VueRouter&#x5B9E;&#x4F8B;&#xFF0C;&#x60F3;&#x8981;&#x5BFC;&#x822A;&#x5230;&#x4E0D;&#x540C;URL&#xFF0C;&#x5219;&#x4F7F;&#x7528;$router.push&#x65B9;&#x6CD5;<br>2.$route&#x4E3A;&#x5F53;&#x524D;router&#x8DF3;&#x8F6C;&#x5BF9;&#x8C61;&#xFF0C;&#x91CC;&#x9762;&#x53EF;&#x4EE5;&#x83B7;&#x53D6;name&#x3001;path&#x3001;query&#x3001;params&#x7B49;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

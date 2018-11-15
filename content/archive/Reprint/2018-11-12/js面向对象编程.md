@@ -1,12 +1,12 @@
 ---
 title: js面向对象编程
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 318077db
+slug: 318077db
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2>js&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;</h2><h3>&#x4EC0;&#x4E48;&#x662F;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;&#xFF1F;&#x7528;&#x5BF9;&#x8C61;&#x7684;&#x601D;&#x60F3;&#x53BB;&#x5199;&#x4EE3;&#x7801;&#xFF0C;&#x5C31;&#x662F;&#x9762;&#x5411;&#x5BF9;&#x8C61;&#x7F16;&#x7A0B;</h3><h4>&#x5BF9;&#x8C61;&#x7684;&#x7EC4;&#x6210;&#xFF1A;</h4><ul><li>&#x5BF9;&#x8C61;&#x7684;&#x5C5E;&#x6027;</li><li>&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x6CD5;&#xFF0C;&#x5C31;&#x662F;&#x5BF9;&#x8C61;&#x7684;&#x4E00;&#x4E9B;&#x884C;&#x4E3A;&#xFF08;&#x901A;&#x5E38;&#x662F;&#x4E00;&#x4E2A;&#x51FD;&#x6570;&#xFF09;</li></ul><pre><code>        var person = {
             name: &quot;&#x9ECE;&#x660E;&quot;,
             sex: &quot;&#x7537;&quot;,
@@ -29,7 +29,7 @@ date: 2018-11-12 02:30:05
         }
         var lubu = new Car(&quot;&#x8DEF;&#x864E;&quot;, &quot;&#x7EA2;&#x8272;&quot;, &quot;4&quot;);
         lubu.say();</code></pre><h4>&#x4F7F;&#x7528;&#x6784;&#x9020;&#x51FD;&#x6570;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x5FC5;&#x987B;&#x5148;&#x7528;new Object &#x521D;&#x59CB;&#x5316;&#x6784;&#x9020;&#x51FD;&#x6570;</h4>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

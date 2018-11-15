@@ -1,12 +1,12 @@
 ---
 title: Vertical-Align，你应该知道的一切
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9a1cab33
+slug: 9a1cab33
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>好，我们聊聊<code>vertical-align</code>。这个属性主要目的用于将相邻的文本与元素对齐。而实际上，<code>verticle-algin</code>可以在不同上下文中灵活地对齐元素，以及进行细粒度的控制，不必知道元素的大小。元素仍然在文档流中，因而其他元素可以根据它们大小的变化进行相应的调整。一个有用的例子就是居中图标与旁边的文本。</p>
 <h2>Vertical-Align是个怪物</h2>
@@ -240,7 +240,7 @@ Centered?
 <p>据此就可以找到问题的解决方案。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/vertical-align-all-you-need-to-know](https://www.zcfy.cc/article/vertical-align-all-you-need-to-know)

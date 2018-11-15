@@ -1,12 +1,12 @@
 ---
 title: Cron 任务入门指南
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d0879e5
+slug: d0879e5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#cron-任务入门指南"></a>Cron 任务入门指南</h1>
 <p><strong>Cron</strong> 是您可以在任何类 Unix 操作系统中找到的最有用的实用程序之一。它用于安排命令在特定时间执行。这些预定的命令或任务被称为 “Cron 任务”。Cron 通常用于运行计划备份、监视磁盘空间、定期删除不再需要的文件（例如日志文件）、运行系统维护任务等等。在本简要指南中，我们将看到 Linux 中 Cron 任务的基本用法。</p>
@@ -123,7 +123,7 @@ date: 2018-10-18 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/a-beginners-guide-to-cron-jobs](https://www.zcfy.cc/article/a-beginners-guide-to-cron-jobs)

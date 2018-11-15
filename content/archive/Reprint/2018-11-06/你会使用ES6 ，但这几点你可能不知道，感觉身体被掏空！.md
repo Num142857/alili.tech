@@ -1,12 +1,12 @@
 ---
 title: 你会使用ES6 ，但这几点你可能不知道，感觉身体被掏空！
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: e3b25d5a
+slug: e3b25d5a
 date: 2018-11-06 02:30:12
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">let &#x7684;&#x4F7F;&#x7528;</h2><p>&#x6211;&#x4EEC;&#x77E5;&#x9053; <strong>let</strong> &#x4E3B;&#x8981;&#x6709;&#x4E09;&#x4E2A;&#x7279;&#x6027;&#xFF1A;</p><ol><li>let &#x58F0;&#x660E;&#x7684;&#x53D8;&#x91CF;&#x7684;&#x4F5C;&#x7528;&#x57DF;&#x662F;&#x5757;&#x7EA7;&#x7684; (es5&#x4E2D;&#x53EA;&#x6709;&#x5168;&#x5C40;&#x548C;&#x51FD;&#x6570;&#x4F5C;&#x7528;&#x57DF;)</li><li>let &#x4E0D;&#x80FD;&#x91CD;&#x590D;&#x58F0;&#x660E;&#x5DF2;&#x5B58;&#x5728;&#x7684;&#x53D8;&#x91CF;&#xFF1B;</li><li>let &#x6709;&#x6682;&#x65F6;&#x6B7B;&#x533A;&#xFF0C;&#x4E0D;&#x4F1A;&#x88AB;&#x63D0;&#x5347;&#x3002;</li></ol><p>&#x6211;&#x4EEC;&#x65E9;&#x671F;&#x9762;&#x8BD5;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x7ECF;&#x5E38;&#x4F1A;&#x8003;&#x7684;&#x4E00;&#x9053;&#x9898;&#x76EE;&#x662F;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="// &#x4EE3;&#x7801;&#x6BB5;1
 var liList = document.querySelectorAll(&apos;li&apos;) // &#x5171;5&#x4E2A;li
 for( var i=0; i&lt;liList.length; i++){
@@ -102,7 +102,7 @@ Object.defineProperty(window, &apos;a&apos;,{
     <span class="hljs-built_in">window</span>.obj = obj;
 }
 </code></pre><p><span class="img-wrap"><img data-src="/img/bVbhJNj?w=836&amp;h=286" src="https://static.alili.tech/img/bVbhJNj?w=836&amp;h=286" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p>&#x5982;&#x4E0B;&#xFF0C;&#x6211;&#x6709;&#x5728;&#x5916;&#x90E8;&#x65E0;&#x8BED;&#x4F60;&#x600E;&#x4E48;&#x7528;&#xFF0C;&#x90FD;&#x662F;&#x8C03;&#x7528;&#x4E0D;&#x5230; &#x201C;&#x8FD9;&#x4E2A;&#x662F;&#x79C1;&#x6709;&#x5C5E;&#x6027;&#x201D;,&#x4F60;&#x53EF;&#x80FD;&#x4F1A;&#x8BF4;&#x8FD9;&#x4E2A;&#x6709;&#x5565;&#x7528;&#xFF0C;&#x6211;&#x53EA;&#x80FD;&#x56DE;&#x7B54;&#x4F60;&#x88C5;x&#x7528;&#x7684;&#xFF0C;&#x9762;&#x8BD5;&#x53EF;&#x80FD;&#x4E5F;&#x4F1A;&#x95EE;&#x4F60; &#x6211;&#x4EEC;&#x5982;&#x4F55;&#x5F04;&#x4E00;&#x4E2A;&#x9690;&#x85CF;&#x5C5E;&#x6027;&#x5462;&#xFF1F;&#x7B54;&#x6848;&#x5C31;&#x662F; Symbol ,&#x6EE1;&#x5A5A;&#x6EE1;&#x5A5A;&#x6EE1;&#x5A5A;&#x3002;</p><p>&#x4EE5;&#x4E0A;&#xFF0C;&#x5C31;&#x662F; Symbol &#x7684;&#x7B80;&#x8FF0;&#xFF0C;&#x66F4;&#x8BE6;&#x7EC6;&#x66F4;&#x6743;&#x5A01;&#x7684;&#x77E5;&#x8BC6;&#x53C2;&#x8003;&#x4E0B;&#x9762;&#x7684;&#x81EA;&#x5B66;&#x94FE;&#x63A5;&#x3002;</p><p><a href="https://link.zhihu.com/?target=https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Symbol" rel="nofollow noreferrer" target="_blank">MDN&#xFF1A; Symbol - JavaScript</a><br><a href="https://link.zhihu.com/?target=http://es6.ruanyifeng.com/#docs/symbol" rel="nofollow noreferrer" target="_blank">&#x962E;&#x4E00;&#x5CF0;&#xFF1A;ECMAScript 6&#x5165;&#x95E8;</a></p><p><strong>&#x53C2;&#x8003;&#xFF1A;</strong></p><blockquote><a href="https://zhuanlan.zhihu.com/p/28140450" rel="nofollow noreferrer" target="_blank">&#x6211;&#x7528;&#x4E86;&#x4E24;&#x4E2A;&#x6708;&#x7684;&#x65F6;&#x95F4;&#x624D;&#x7406;&#x89E3; let</a></blockquote><p><strong>&#x4E00;&#x4E2A;&#x7B28;&#x7B28;&#x7684;&#x7801;&#x519C;&#xFF0C;&#x6211;&#x7684;&#x4E16;&#x754C;&#x53EA;&#x80FD;&#x7EC8;&#x8EAB;&#x5B66;&#x4E60;</strong></p><p><span class="img-wrap"><img data-src="/img/bVbg32a?w=258&amp;h=258" src="https://static.alili.tech/img/bVbg32a?w=258&amp;h=258" alt="" title="" style="cursor:pointer;display:inline"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: ES6 系列之我们来聊聊 Promise
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: da4517e
+slug: da4517e
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>Promise &#x7684;&#x57FA;&#x672C;&#x4F7F;&#x7528;&#x53EF;&#x4EE5;&#x770B;&#x962E;&#x4E00;&#x5CF0;&#x8001;&#x5E08;&#x7684; <a href="http://es6.ruanyifeng.com/#docs/promise" rel="nofollow noreferrer" target="_blank">&#x300A;ECMAScript 6 &#x5165;&#x95E8;&#x300B;</a>&#x3002;</p><p>&#x6211;&#x4EEC;&#x6765;&#x804A;&#x70B9;&#x5176;&#x4ED6;&#x7684;&#x3002;</p><h2 id="articleHeader1">&#x56DE;&#x8C03;</h2><p>&#x8BF4;&#x8D77; Promise&#xFF0C;&#x6211;&#x4EEC;&#x4E00;&#x822C;&#x90FD;&#x4F1A;&#x4ECE;&#x56DE;&#x8C03;&#x6216;&#x8005;&#x56DE;&#x8C03;&#x5730;&#x72F1;&#x8BF4;&#x8D77;&#xFF0C;&#x90A3;&#x4E48;&#x4F7F;&#x7528;&#x56DE;&#x8C03;&#x5230;&#x5E95;&#x4F1A;&#x5BFC;&#x81F4;&#x54EA;&#x4E9B;&#x4E0D;&#x597D;&#x7684;&#x5730;&#x65B9;&#x5462;&#xFF1F;</p><h3 id="articleHeader2">1. &#x56DE;&#x8C03;&#x5D4C;&#x5957;</h3><p>&#x4F7F;&#x7528;&#x56DE;&#x8C03;&#xFF0C;&#x6211;&#x4EEC;&#x5F88;&#x6709;&#x53EF;&#x80FD;&#x4F1A;&#x5C06;&#x4E1A;&#x52A1;&#x4EE3;&#x7801;&#x5199;&#x6210;&#x5982;&#x4E0B;&#x8FD9;&#x79CD;&#x5F62;&#x5F0F;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="doA( function(){
     doB();
 
@@ -560,7 +560,7 @@ console.log(2333333);" title="" data-original-title="&#x590D;&#x5236;"></span> <
 .then(<span class="hljs-function">(<span class="hljs-params">[x, y]</span>) =&gt;</span> {
     <span class="hljs-built_in">console</span>.log(x, y);
 });</code></pre><h3 id="articleHeader14">3. &#x65E0;&#x6CD5;&#x53D6;&#x6D88;</h3><p>Promise &#x4E00;&#x65E6;&#x65B0;&#x5EFA;&#x5B83;&#x5C31;&#x4F1A;&#x7ACB;&#x5373;&#x6267;&#x884C;&#xFF0C;&#x65E0;&#x6CD5;&#x4E2D;&#x9014;&#x53D6;&#x6D88;&#x3002;</p><h3 id="articleHeader15">4. &#x65E0;&#x6CD5;&#x5F97;&#x77E5; pending &#x72B6;&#x6001;</h3><p>&#x5F53;&#x5904;&#x4E8E; pending &#x72B6;&#x6001;&#x65F6;&#xFF0C;&#x65E0;&#x6CD5;&#x5F97;&#x77E5;&#x76EE;&#x524D;&#x8FDB;&#x5C55;&#x5230;&#x54EA;&#x4E00;&#x4E2A;&#x9636;&#x6BB5;&#xFF08;&#x521A;&#x521A;&#x5F00;&#x59CB;&#x8FD8;&#x662F;&#x5373;&#x5C06;&#x5B8C;&#x6210;&#xFF09;&#x3002;</p><h2 id="articleHeader16">&#x53C2;&#x8003;</h2><ol><li>&#x300A;&#x4F60;&#x4E0D;&#x77E5;&#x9053;&#x7684; JavaScript &#x4E2D;&#x5377;&#x300B;</li><li><a href="https://segmentfault.com/l/1500000008757392">Promise &#x7684; N &#x79CD;&#x7528;&#x6CD5;</a></li><li><a href="http://liubin.org/promises-book/#promise-done" rel="nofollow noreferrer" target="_blank">JavaScript Promise &#x8FF7;&#x4F60;&#x4E66;</a></li><li><a href="http://www.ituring.com.cn/article/66566" rel="nofollow noreferrer" target="_blank">Promises/A+&#x89C4;&#x8303;</a></li><li><a href="https://www.cnblogs.com/ZHONGZHENHUA/p/8486616.html" rel="nofollow noreferrer" target="_blank">Promise &#x5982;&#x4F55;&#x4F7F;&#x7528;</a></li><li><a>Promise Anti-patterns</a></li><li><a href="http://www.cnblogs.com/dojo-lzz/p/5495671.html" rel="nofollow noreferrer" target="_blank">&#x4E00;&#x9053;&#x5173;&#x4E8E;Promise&#x5E94;&#x7528;&#x7684;&#x9762;&#x8BD5;&#x9898;</a></li></ol><h2 id="articleHeader17">ES6 &#x7CFB;&#x5217;</h2><p>ES6 &#x7CFB;&#x5217;&#x76EE;&#x5F55;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/mqyqingfeng/Blog" rel="nofollow noreferrer" target="_blank">https://github.com/mqyqingfeng/Blog</a></p><p>ES6 &#x7CFB;&#x5217;&#x9884;&#x8BA1;&#x5199;&#x4E8C;&#x5341;&#x7BC7;&#x5DE6;&#x53F3;&#xFF0C;&#x65E8;&#x5728;&#x52A0;&#x6DF1; ES6 &#x90E8;&#x5206;&#x77E5;&#x8BC6;&#x70B9;&#x7684;&#x7406;&#x89E3;&#xFF0C;&#x91CD;&#x70B9;&#x8BB2;&#x89E3;&#x5757;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#x3001;&#x6807;&#x7B7E;&#x6A21;&#x677F;&#x3001;&#x7BAD;&#x5934;&#x51FD;&#x6570;&#x3001;Symbol&#x3001;Set&#x3001;Map &#x4EE5;&#x53CA; Promise &#x7684;&#x6A21;&#x62DF;&#x5B9E;&#x73B0;&#x3001;&#x6A21;&#x5757;&#x52A0;&#x8F7D;&#x65B9;&#x6848;&#x3001;&#x5F02;&#x6B65;&#x5904;&#x7406;&#x7B49;&#x5185;&#x5BB9;&#x3002;</p><p>&#x5982;&#x679C;&#x6709;&#x9519;&#x8BEF;&#x6216;&#x8005;&#x4E0D;&#x4E25;&#x8C28;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x8BF7;&#x52A1;&#x5FC5;&#x7ED9;&#x4E88;&#x6307;&#x6B63;&#xFF0C;&#x5341;&#x5206;&#x611F;&#x8C22;&#x3002;&#x5982;&#x679C;&#x559C;&#x6B22;&#x6216;&#x8005;&#x6709;&#x6240;&#x542F;&#x53D1;&#xFF0C;&#x6B22;&#x8FCE; star&#xFF0C;&#x5BF9;&#x4F5C;&#x8005;&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x9F13;&#x52B1;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

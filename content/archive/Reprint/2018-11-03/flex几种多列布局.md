@@ -1,12 +1,12 @@
 ---
 title: flex几种多列布局
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 25fe6634
+slug: 25fe6634
 date: 2018-11-03 10:03:44
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x57FA;&#x672C;&#x7684;&#x7B49;&#x5206;&#x4E09;&#x5217;&#x5E03;&#x5C40;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=".container{
         display: flex;
         width: 500px;
@@ -308,7 +308,7 @@ date: 2018-11-03 10:03:44
     &lt;<span class="hljs-selector-tag">div</span> class=<span class="hljs-string">&quot;footer&quot;</span>&gt;Footer&lt;/div&gt;
 &lt;/div&gt;
 </code></pre><p><span class="img-wrap"><img data-src="/img/bVbigyd?w=1366&amp;h=662" src="https://static.alili.tech/img/bVbigyd?w=1366&amp;h=662" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span><br>&#x7F29;&#x5C0F;&#x6D4F;&#x89C8;&#x5668;&#x7A97;&#x53E3;&#x4E4B;&#x540E;</p><p><span class="img-wrap"><img data-src="/img/bVbigye?w=681&amp;h=499" src="https://static.alili.tech/img/bVbigye?w=681&amp;h=499" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

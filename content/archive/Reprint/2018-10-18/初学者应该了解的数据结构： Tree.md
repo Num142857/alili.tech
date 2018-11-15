@@ -1,12 +1,12 @@
 ---
 title: 初学者应该了解的数据结构： Tree
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fcaaa7e6
+slug: fcaaa7e6
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://adrianmejia.com/images/data-structures-for-beginners-trees-binary-search-tree-large.jpg" alt="Tree Data Structures for Beginners"></p>
 <p>很多（上层）数据结构，如 Map、Set 等，它们的基础数据结构都（可以）是 Tree。同时，在数据库中快速搜索（元素）用到了树。HTML 的 DOM 节点也通过树来表示对应的层次结构。以上仅仅是树的一少部分例子。在这篇文章中，我们将探讨不同类型的树，如二叉树、二叉搜索树以及如何实现它们。</p>
@@ -353,7 +353,7 @@ const RIGHT = <span class="hljs-number">1</span>;
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/tree-data-structures-for-beginners](https://www.zcfy.cc/article/tree-data-structures-for-beginners)

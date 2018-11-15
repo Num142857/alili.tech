@@ -1,12 +1,12 @@
 ---
 title: 使用Vue创建一个Excel插件
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8d876f92
+slug: 8d876f92
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h3>关于本文</h3>
 <p>在这篇文章中，你将会经历一遍使用Vue和Excel JavaScript API 打造一个Excel插件的过程。</p>
@@ -193,7 +193,7 @@ Office.initialize = <span class="hljs-function"><span class="hljs-params">()</sp
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/build-an-excel-add-in-using-vue](https://www.zcfy.cc/article/build-an-excel-add-in-using-vue)

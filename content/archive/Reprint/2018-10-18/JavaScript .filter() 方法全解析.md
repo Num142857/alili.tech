@@ -1,12 +1,12 @@
 ---
 title: JavaScript .filter() 方法全解析
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 136637be
+slug: 136637be
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>.filter是一个内置的数组迭代方法，它接受一个“谓词（译者注: 指代一个过滤条件的函数）”，该“谓词”针对每个值进行调用，并返回一个符合该条件(“truthy值”)的数组。</p>
 <p>上面那句话包含了很多信息，让我们来逐一解答一下。</p>
@@ -204,7 +204,7 @@ const isCheapPizza = restaurant =&gt; isCheap(<span class="hljs-name">restaurant
 <p>过滤器是JavaScript开发的重要组成部分。无论您是从API响应中挑选出错误数据还是响应用户交互，您都会无数次想要数组值的子集。我希望这个概述有助于您可以操作谓词来编写更易读和可维护的代码。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/level-up-your-filter-game](https://www.zcfy.cc/article/level-up-your-filter-game)

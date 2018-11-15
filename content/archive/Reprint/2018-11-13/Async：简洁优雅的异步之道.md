@@ -1,12 +1,12 @@
 ---
 title: Async：简洁优雅的异步之道
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 36abf0e
+slug: 36abf0e
 date: 2018-11-13 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2>&#x524D;&#x8A00;</h2><p>&#x5728;&#x5F02;&#x6B65;&#x5904;&#x7406;&#x65B9;&#x6848;&#x4E2D;&#xFF0C;&#x76EE;&#x524D;&#x6700;&#x4E3A;&#x7B80;&#x6D01;&#x4F18;&#x96C5;&#x7684;&#x4FBF;&#x662F;<code>async</code>&#x51FD;&#x6570;&#xFF08;&#x4EE5;&#x4E0B;&#x7B80;&#x79F0;A&#x51FD;&#x6570;&#xFF09;&#x3002;&#x7ECF;&#x8FC7;&#x5FC5;&#x8981;&#x7684;&#x5206;&#x5757;&#x5305;&#x88C5;&#x540E;&#xFF0C;A&#x51FD;&#x6570;&#x80FD;&#x4F7F;&#x591A;&#x4E2A;&#x76F8;&#x5173;&#x7684;&#x5F02;&#x6B65;&#x64CD;&#x4F5C;&#x5982;&#x540C;&#x540C;&#x6B65;&#x64CD;&#x4F5C;&#x4E00;&#x6837;&#x805A;&#x5408;&#x8D77;&#x6765;&#xFF0C;&#x4F7F;&#x5176;&#x76F8;&#x4E92;&#x95F4;&#x7684;&#x5173;&#x7CFB;&#x66F4;&#x4E3A;&#x6E05;&#x6670;&#x3001;&#x8FC7;&#x7A0B;&#x66F4;&#x4E3A;&#x7B80;&#x6D01;&#x3001;&#x8C03;&#x8BD5;&#x66F4;&#x4E3A;&#x65B9;&#x4FBF;&#x3002;&#x5B83;&#x672C;&#x8D28;&#x662F;<code>Generator</code>&#x51FD;&#x6570;&#x7684;&#x8BED;&#x6CD5;&#x7CD6;&#xFF0C;&#x901A;&#x4FD7;&#x7684;&#x8BF4;&#x6CD5;&#x662F;&#x4F7F;&#x7528;G&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x5F02;&#x6B65;&#x5904;&#x7406;&#x7684;&#x589E;&#x5F3A;&#x7248;&#x3002;</p><h2>&#x5C1D;&#x8BD5;</h2><p>&#x5B66;&#x4E60;A&#x51FD;&#x6570;&#x5FC5;&#x987B;&#x6709;<code>Promise</code>&#x57FA;&#x7840;&#xFF0C;&#x6700;&#x597D;&#x8FD8;&#x4E86;&#x89E3;<code>Generator</code>&#x51FD;&#x6570;&#xFF0C;&#x6709;&#x9700;&#x8981;&#x7684;&#x53EF;&#x67E5;&#x770B;<a href="https://segmentfault.com/a/1190000016212269#articleHeader11">&#x5EF6;&#x4F38;</a>&#x5C0F;&#x8282;&#x3002;</p><p>&#x4E3A;&#x4E86;&#x76F4;&#x89C2;&#x7684;&#x611F;&#x53D7;A&#x51FD;&#x6570;&#x7684;&#x9B45;&#x529B;&#xFF0C;&#x4E0B;&#x9762;&#x4F7F;&#x7528;<code>Promise</code>&#x548C;A&#x51FD;&#x6570;&#x8FDB;&#x884C;&#x4E86;&#x76F8;&#x540C;&#x7684;&#x5F02;&#x6B65;&#x64CD;&#x4F5C;&#x3002;&#x8BE5;&#x5F02;&#x6B65;&#x7684;&#x76EE;&#x7684;&#x662F;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x7684;&#x7559;&#x8A00;&#x5217;&#x8868;&#xFF0C;&#x9700;&#x8981;&#x5206;&#x9875;&#xFF0C;&#x5206;&#x9875;&#x7531;&#x540E;&#x53F0;&#x63A7;&#x5236;&#x3002;&#x5177;&#x4F53;&#x7684;&#x64CD;&#x4F5C;&#x662F;&#xFF1A;&#x5148;&#x83B7;&#x53D6;&#x5230;&#x7559;&#x8A00;&#x7684;&#x603B;&#x6761;&#x6570;&#xFF0C;&#x518D;&#x66F4;&#x6B63;&#x5F53;&#x524D;&#x9700;&#x8981;&#x663E;&#x793A;&#x7684;&#x9875;&#x6570;&#xFF08;&#x6BCF;&#x6B21;&#x5207;&#x6362;&#x5230;&#x4E0D;&#x540C;&#x9875;&#x65F6;&#xFF0C;&#x603B;&#x6570;&#x76EE;&#x53EF;&#x80FD;&#x4F1A;&#x53D1;&#x751F;&#x53D8;&#x5316;&#xFF09;&#xFF0C;&#x6700;&#x540E;&#x4F20;&#x9012;&#x53C2;&#x6570;&#x5E76;&#x83B7;&#x53D6;&#x5230;&#x76F8;&#x5E94;&#x7684;&#x6570;&#x636E;&#x3002;</p><pre><code class="js">let totalNum = 0; // Total comments number.
 let curPage = 1; // Current page index.
 let pageSize = 10; // The number of comment displayed in one page.
@@ -389,7 +389,7 @@ function spawn(genF) {
     step(function() { return gen.next(undefined); });
   });
 }</code></pre><p>&#x81EA;&#x52A8;&#x6267;&#x884C;G&#x51FD;&#x6570;&#x65F6;&#xFF0C;&#x9047;&#x5230;<code>yield</code>&#x547D;&#x4EE4;&#x540E;&#x4F1A;&#x4F7F;&#x7528;<code>Promise.resolve</code>&#x5305;&#x88F9;&#x5176;&#x540E;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x5E76;&#x4E3A;&#x5176;&#x8BBE;&#x7F6E;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x3002;&#x65E0;&#x8BBA;&#x8BE5;<code>Promise</code>&#x662F;&#x7ACB;&#x523B;&#x6709;&#x4E86;&#x7ED3;&#x679C;&#x8FD8;&#x662F;&#x8FC7;&#x67D0;&#x6BB5;&#x65F6;&#x95F4;&#x4E4B;&#x540E;&#xFF0C;&#x5176;&#x56DE;&#x8C03;&#x51FD;&#x6570;&#x90FD;&#x4F1A;&#x88AB;&#x63A8;&#x8FDF;&#x5230;&#x5728;&#x672C;&#x8F6E;&#x4E8B;&#x4EF6;&#x672B;&#x5C3E;&#x6267;&#x884C;&#x3002;&#x4E4B;&#x540E;&#x518D;&#x662F;&#x4E0B;&#x4E00;&#x6B65;&#xFF0C;&#x518D;&#x4E0B;&#x4E00;&#x6B65;&#x3002;&#x540C;&#x6837;&#x7684;&#x9053;&#x7406;&#x9002;&#x7528;&#x4E8E;A&#x51FD;&#x6570;&#xFF0C;&#x5F53;&#x9047;&#x5230;<code>await</code>&#x547D;&#x4EE4;&#x65F6;&#xFF08;&#x6B64;&#x5904;&#x7565;&#x53BB;&#x4E09;&#x4E94;&#x5B57;&#xFF09;&#xFF0C;&#x6240;&#x4EE5;&#x6709;&#x4E86;&#x5982;&#x6B64;&#x8FD9;&#x822C;&#x7684;&#x6267;&#x884C;&#x987A;&#x5E8F;&#x3002;&#x8C22;&#x5E55;&#x3002;</p><h2>&#x5EF6;&#x4F38;</h2><p><a href="https://segmentfault.com/a/1190000015423360">ES6&#x7CBE;&#x534E;&#xFF1A;Promise</a><br><a href="https://segmentfault.com/a/1190000016047312">Generator&#xFF1A;JS&#x6267;&#x884C;&#x6743;&#x7684;&#x771F;&#x5B9E;&#x64CD;&#x4F5C;&#x8005;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

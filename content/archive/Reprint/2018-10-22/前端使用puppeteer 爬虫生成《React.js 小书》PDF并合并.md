@@ -1,12 +1,12 @@
 ---
 title: 前端使用puppeteer 爬虫生成《React.js 小书》PDF并合并
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d3549292
+slug: d3549292
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <h2 id="articleHeader0">1、<code>puppeteer</code> 是什么？</h2>
@@ -215,7 +215,7 @@ PDFMerge(files, {output: `${__dirname}/3.pdf`})
 <p>最后推荐几个链接，方便大家学习 <code>puppeteer</code>。<br><a href="http://www.r9it.com/20171106/puppeteer.html" rel="nofollow noreferrer" target="_blank">puppeteer入门教程</a><br><a href="https://cloud.tencent.com/developer/article/1006000" rel="nofollow noreferrer" target="_blank">Puppeteer 初探之前端自动化测试</a><br><a href="https://github.com/zhentaoo/puppeteer-deep" rel="nofollow noreferrer" target="_blank">爬虫生成ES6标准入门 pdf</a><br><a href="https://jeffjade.com/2017/12/17/134-kinds-of-toss-using-puppeteer/" rel="nofollow noreferrer" target="_blank">大前端神器安利之 Puppeteer</a><br><a href="https://github.com/zhaoqize/puppeteer-api-zh_CN/" rel="nofollow noreferrer" target="_blank">puppeteer API中文文档</a></p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

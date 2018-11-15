@@ -1,12 +1,12 @@
 ---
 title: Vue 实现展开折叠效果
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 38a298d7
+slug: 38a298d7
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2>Vue &#x5B9E;&#x73B0;&#x5C55;&#x5F00;&#x6298;&#x53E0;&#x6548;&#x679C;</h2><p><code>&#x6548;&#x679C;&#x53C2;&#x89C1;&#xFF1A;https://segmentfault.com/q/1010000011359250/a-1020000011360185</code></p><p>&#x4E0A;&#x8FF0;&#x94FE;&#x63A5;&#x4E2D;&#xFF0C;&#x5927;&#x4F6C;&#x7ED9;&#x9664;&#x4E86;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;&#xFF0C;&#x518D;&#x6B21;&#x8FDB;&#x884C;&#x603B;&#x7ED3;&#xFF0C;&#x65B9;&#x4FBF;&#x4EE5;&#x540E;&#x4F7F;&#x7528;&#x3002;</p><blockquote>&#x9664;&#x4E86;&#x4F7F;&#x7528;jQuery&#x7684;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x4E0A;&#x8FF0;&#x6548;&#x679C;&#xFF0C;&#x540C;&#x6837;&#x53EF;&#x4EE5;&#x5728;Vue&#x5B9E;&#x73B0;&#xFF0C;&#x4E0B;&#x9762;&#x662F;&#x89E3;&#x51B3;&#x529E;&#x6CD5;&#xFF1A;</blockquote><h4>1&#x3001;&#x521B;&#x5EFA;collapse.js&#x6587;&#x4EF6;</h4><pre><code>const elTransition =
   &quot;0.3s height ease-in-out, 0.3s padding-top ease-in-out, 0.3s padding-bottom ease-in-out&quot;;
 const Transition = {
@@ -105,7 +105,7 @@ export default {
   }
 };
 &lt;/script&gt;</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

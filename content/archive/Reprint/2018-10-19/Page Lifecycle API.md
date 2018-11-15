@@ -1,12 +1,12 @@
 ---
 title: Page Lifecycle API
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 44eadeab
+slug: 44eadeab
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>今天的现代浏览器有时在系统资源受限的情境下会暂停页面或完全放弃执行它。将来，浏览器会主动执行此操作，因此它们会消耗更少的电量和内存。在Chrome 68中提供的<a href="https://wicg.github.io/page-lifecycle/spec.html">Page Lifecycle API</a>提供了生命周期钩子，因此网页可以安全地处理这些浏览器干预，而不会影响用户体验。具体请查看API了解你的应用程序是否需要实现这些特性。</p>
 <h2>背景</h2>
@@ -393,7 +393,7 @@ onAllChangesSaved(<span class="hljs-function"><span class="hljs-params">()</span
 <p>最近, 开发者若想要实现本文提到的 <a href="https://developers.google.com/web/updates/2018/07/page-lifecycle-api/#developer-recommendations-for-each-state">最佳实践</a>，但又不想去记所有可能的状态及事件转换那就使用 <a href="https://github.com/GoogleChromeLabs/page-lifecycle">PageLifecycle.js</a>吧，这样可以很容易在所有浏览器监听到一致的生命周期状态变化。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/page-lifecycle-api](https://www.zcfy.cc/article/page-lifecycle-api)

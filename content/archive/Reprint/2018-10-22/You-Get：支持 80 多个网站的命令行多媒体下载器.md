@@ -1,12 +1,12 @@
 ---
 title: You-Get：支持 80 多个网站的命令行多媒体下载器
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: fa871c5d
+slug: fa871c5d
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#you-get支持-80-多个网站的命令行多媒体下载器"></a>You-Get：支持 80 多个网站的命令行多媒体下载器</h1>
 <p>你们大多数人可能用过或听说过 <strong>Youtube-dl</strong>，这个命令行程序可以从包括 Youtube 在内的 100+ 网站下载视频。我偶然发现了一个类似的工具，名字叫做 <strong>You-Get</strong>。这是一个 Python 编写的命令行下载器，可以让你从 Youtube、Facebook、Twitter 等很多热门网站下载图片，音频和视频（LCTT 译注：首先，它们得是存在的网站）。目前该下载器支持 80+ 站点，点击<a href="https://you-get.org/#supported-sites">这里</a>查看所有支持的网站。</p>
@@ -175,7 +175,7 @@ Downloading <span class="hljs-keyword">ALL</span> GIRLS ARE THE SAME (<span clas
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

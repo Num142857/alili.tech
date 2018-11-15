@@ -1,12 +1,12 @@
 ---
 title: vue路由history模式刷新页面出现404问题
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 429669d4
+slug: 429669d4
 date: 2018-11-05 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><code>vue hash</code>&#x6A21;&#x5F0F;&#x4E0B;&#xFF0C;<code>URL</code>&#x4E2D;&#x5B58;&#x5728;<code>&apos;#&apos;</code>&#xFF0C;&#x7528;<code>&apos;history&apos;</code>&#x6A21;&#x5F0F;&#x5C31;&#x80FD;&#x89E3;&#x51B3;&#x8FD9;&#x4E2A;&#x95EE;&#x9898;&#x3002;&#x4F46;&#x662F;<code>history</code>&#x6A21;&#x5F0F;&#x4F1A;&#x51FA;&#x73B0;&#x5237;&#x65B0;&#x9875;&#x9762;&#x540E;&#xFF0C;&#x9875;&#x9762;&#x51FA;&#x73B0;404&#x3002;&#x89E3;&#x51B3;&#x7684;&#x529E;&#x6CD5;&#x662F;&#x7528;<code>nginx</code>&#x914D;&#x7F6E;&#x4E00;&#x4E0B;&#x3002;<br>&#x5728;<code>nginx</code>&#x7684;&#x914D;&#x7F6E;&#x6587;&#x4EF6;&#x4E2D;&#x4FEE;&#x6539;</p><p><strong>&#x65B9;&#x6CD5;&#x4E00;&#xFF1A;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="location /{
     root   /data/nginx/html;
     index  index.html index.htm;
@@ -52,7 +52,7 @@ date: 2018-11-05 02:30:10
         <span class="hljs-comment">#.......&#x5176;&#x4ED6;&#x90E8;&#x5206;&#x7701;&#x7565;</span>
   }
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

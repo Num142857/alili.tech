@@ -1,12 +1,12 @@
 ---
 title: '更快的部署和迭代, hello ecosystem.json'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 71e9065a
+slug: 71e9065a
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>We announced it at <a href="http://www.nodejsparis.fr/meetups">NodeJS paris meetup</a> (here are the <a href="http://www.slideshare.net/Alexandre-Strzelewicz/keymetrics-pm2">slides</a>) and we did it! For the release of <a href="https://github.com/Unitech/pm2">PM2 0.9.x</a>, a new awesome and simple feature will make your life much easier.</p>
 <p>我们从Node.js Mozart，<a href="https://github.com/visionmedia">TJ Holowaychuk</a>嵌入了<a href="https://github.com/visionmedia/deploy">deploy</a> 的修改版本，并且我们还重构了JSON应用程序声明。在内部，它是一个简单的bash脚本，不需要安装任何外部依赖关系。</p>
@@ -144,7 +144,7 @@ $ ssh-copy-id <span class="hljs-keyword">node</span><span class="hljs-title">@my
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

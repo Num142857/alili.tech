@@ -1,12 +1,12 @@
 ---
 title: jquery选择器 （nth-of-type（） nth-child（）区别内容更新）
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 274cd12f
+slug: 274cd12f
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x5B98;&#x7F51;&#x4F20;&#x9001;&#x95E8;&#xFF1A; <a href="http://jquery.com/" rel="nofollow noreferrer" target="_blank">http://jquery.com/</a><br>&#x4E2D;&#x6587;API&#x6587;&#x6863;&#xFF1A; <a href="http://jquery.cuishifeng.cn/" rel="nofollow noreferrer" target="_blank">http://jquery.cuishifeng.cn/</a><br>jQuery&#x662F;&#x4E00;&#x4E2A;&#x5FEB;&#x901F;&#xFF0C;&#x5C0F;&#x5DE7;&#xFF0C;&#x529F;&#x80FD;&#x4E30;&#x5BCC;&#x7684;JavaScript&#x5E93;&#x3002;&#x5B83;&#x901A;&#x8FC7;&#x6613;&#x4E8E;&#x4F7F;&#x7528;&#x7684;API&#x5728;&#x5927;&#x91CF;&#x6D4F;&#x89C8;&#x5668;&#x4E2D;&#x8FD0;&#x884C;&#xFF0C;&#x4F7F;&#x5F97;HTML&#x6587;&#x6863;&#x904D;&#x5386;&#x548C;&#x64CD;&#x4F5C;&#xFF0C;&#x4E8B;&#x4EF6;&#x5904;&#x7406;&#xFF0C;&#x52A8;&#x753B;&#x548C;Ajax&#x66F4;&#x52A0;&#x7B80;&#x5355;&#x3002;&#x901A;&#x8FC7;&#x591A;&#x529F;&#x80FD;&#x6027;&#x548C;&#x53EF;&#x6269;&#x5C55;&#x6027;&#x7684;&#x7ED3;&#x5408;&#xFF0C;jQuery&#x6539;&#x53D8;&#x4E86;&#x6570;&#x767E;&#x4E07;&#x4EBA;&#x7F16;&#x5199;JavaScript&#x7684;&#x65B9;&#x5F0F;&#x3002;</p><h1 id="articleHeader0">&#x5C0F;&#x4F8B;&#x5B50;</h1><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="    
 1.&#x5F15;&#x5165;&#x6587;&#x4EF6;&lt;script src=&quot;jquery-3.3.1.js&quot;&gt;&lt;/script&gt;
 &lt;div id=&quot;div1&quot;&gt;div1&lt;/div&gt;
@@ -586,7 +586,7 @@ nth-child(2n+1) &#x4ECE;0&#x5F00;&#x59CB;
         }</code></pre><p>inputtype=&quot;text&quot;{</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="        background: yellow;
         }" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs scss"><code>        <span class="hljs-attribute">background</span>: yellow;
         }</code></pre><p>&#x9EC4;&#x8272;&#x8F93;&#x5165;&#x6846;&#xFF0C;&#x83B7;&#x53D6;&#x7126;&#x70B9;&#x4E4B;&#x540E;&#x53D8;&#x6210;&#x7EA2;&#x8272;</p><p>&lt;input type=&quot;file&quot;&gt;&#x81EA;&#x52A8;&#x4F1A;&#x8BA9;&#x4F60;&#x9009;&#x62E9;&#x6587;&#x4EF6;<br>&#xFF1A;selected &#x9009;&#x4E2D;&#x4E0B;&#x62C9;&#x83DC;&#x5355;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

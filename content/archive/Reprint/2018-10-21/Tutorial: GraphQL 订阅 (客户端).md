@@ -1,12 +1,12 @@
 ---
 title: 'Tutorial: GraphQL 订阅 (客户端)'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ed7f0275
+slug: ed7f0275
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>这是我们全栈GraphQL + React教程的第7部分，它指导您创建消息传递应用程序。 这个系列的每个部分都是独立的，并着重于一些新的主题，所以您可以直接跳到您感兴趣的部分或整个系列。 以下是我们迄今为止所涉及的内容：</p>
 <ul>
@@ -84,7 +84,7 @@ date: 2018-10-21 00:00:00
 <p><img src="https://p0.ssl.qhimg.com/t014fc6606574d991f5.jpg" alt=""></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/tutorial-graphql-subscriptions-client-side)

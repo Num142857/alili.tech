@@ -1,12 +1,12 @@
 ---
 title: Create-React App的使用绝对导入
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8a1e87e3
+slug: 8a1e87e3
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p0.ssl.qhimg.com/t01837865899c4318c4.png" alt=""></p>
 <p>默认情况下，create-react-app中的ES6模块使用相对路径，这适用于您要导入的文件在文件树中相对比较近的情况：</p>
@@ -55,7 +55,7 @@ date: 2018-10-18 00:00:00
 <p><em>我是一位开发人员，他记录了我遇到的新工具和概念，并发现足够有趣以供分享。 请点击该按钮和/或留下评论，以便我可以写出更适合您兴趣的内容.</em></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/absolute-imports-with-create-react-app](https://www.zcfy.cc/article/absolute-imports-with-create-react-app)

@@ -1,12 +1,12 @@
 ---
 title: 分析 HTTP 203 出的一个 JS 题目
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6cbfaa83
+slug: 6cbfaa83
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x540E;&#x7EED;&#x5185;&#x5BB9;&#x66F4;&#x65B0;&#xFF0C;&#x8BF7;&#x524D;&#x5F80;&#xFF1A;<a href="http://www.sosout.com/2018/08/16/let-for-together-used.html" rel="nofollow noreferrer" target="_blank">&#x4E2A;&#x4EBA;&#x535A;&#x5BA2;</a>&#xFF0C;&#x6B22;&#x8FCE;&#x4E00;&#x8D77;&#x4EA4;&#x6D41;&#x3002;</p><p>&#x8FD9;&#x662F;&#x4E00;&#x9053;&#x51FA;&#x81EA; HTTP 203 &#x7684; JS &#x9898;&#x76EE;&#x3002;HTTP 203 &#x662F; Youtube &#x4E0A;&#x7684;&#x4E00;&#x4E2A;&#x680F;&#x76EE;&#xFF0C;&#x4E3B;&#x8981;&#x8BB2;&#x4E00;&#x4E9B;&#x6709;&#x8DA3;&#x7684;&#x77E5;&#x8BC6;&#x3002;</p><p>&#x539F;&#x9898;&#x76EE;&#x662F;&#x8FD9;&#x6837;&#x7684;&#xFF1A;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="for(
   let i = (setTimeout(()=&gt;console.log(i), 2333), 0);
   i &lt; 2;
@@ -80,7 +80,7 @@ x=z=<span class="hljs-number">5</span>, <span class="hljs-number">5</span>*<span
 }
 
 <span class="hljs-comment">// &#x95EE; 2333 &#x6BEB;&#x79D2;&#x4E4B;&#x540E;&#x6253;&#x5370;&#x51FA;&#x4EC0;&#x4E48;</span></code></pre><p>&#x7B54;&#x6848;&#x662F; 2333 &#x6BEB;&#x79D2;&#x540E;&#x6253;&#x5370;&#x51FA; 0&#x3002;&#x5206;&#x6790;&#x4E0B;&#xFF1A;<br><strong>&#x4E0A;&#x8FF0;&#x9898;&#x76EE;&#x4E2D;&#xFF0C;&#x53D8;&#x91CF; i &#x662F; let &#x58F0;&#x660E;&#x7684;&#xFF0C;&#x5F53;&#x524D;&#x7684; i &#x53EA;&#x5728;&#x672C;&#x8F6E;&#x5FAA;&#x73AF;&#x6709;&#x6548;&#xFF0C;&#x540E;&#x9762;&#x7684;&#x8868;&#x8FBE;&#x5F0F;&#x662F;&#x9017;&#x53F7;&#x8868;&#x8FBE;&#x5F0F;&#xFF0C;&#x53D6;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x503C;&#xFF0C;&#x5373; i = 0&#xFF0C;settimeout &#x5728;&#x8BED;&#x53E5;1&#xFF0C;&#x7531;&#x4E8E;&#x8BED;&#x53E5;1&#x53EA;&#x5728;&#x7B2C;&#x4E00;&#x6B21;&#x5FAA;&#x73AF;&#x6267;&#x884C;&#xFF0C;&#x56E0;&#x6B64; settimeout &#x7684;&#x4F5C;&#x7528;&#x57DF;&#x662F;&#x7B2C;&#x4E00;&#x6B21;&#x8FED;&#x4EE3;&#x7684;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x4E14;&#x53EA;&#x6267;&#x884C;&#x4E00;&#x6B21;&#x3002;&#x7B2C;&#x4E00;&#x6B21;&#x8FED;&#x4EE3;&#x65F6; i = 0&#xFF0C;&#x6240;&#x4EE5;&#x7B54;&#x6848;&#x662F; 2333 &#x6BEB;&#x79D2;&#x540E;&#x6253;&#x5370;&#x51FA; 0&#x3002;</strong></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

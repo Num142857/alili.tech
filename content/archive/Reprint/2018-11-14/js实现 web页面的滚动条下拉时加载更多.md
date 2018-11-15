@@ -1,12 +1,12 @@
 ---
 title: js实现 web页面的滚动条下拉时加载更多
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4ab08e4f
+slug: 4ab08e4f
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h1>js&#x5B9E;&#x73B0; web&#x9875;&#x9762;&#x7684;&#x6EDA;&#x52A8;&#x6761;&#x4E0B;&#x62C9;&#x65F6;&#x52A0;&#x8F7D;&#x66F4;&#x591A;</h1><p>&#x5728;&#x624B;&#x673A;&#x4E0A;&#xFF0C;&#x6570;&#x636E;&#x5217;&#x8868;&#x7684;&#x5206;&#x9875;&#x90FD;&#x662F;&#x4E0B;&#x62C9;&#x5230;&#x5E95;&#x90E8;&#x7684;&#x65F6;&#x5019;&#x4F1A;&#x52A0;&#x8F7D;&#x66F4;&#x591A;&#xFF0C;&#x4F46;&#x662F;&#xFF0C;&#x53BB;&#x5E74;&#x4E09;&#x6708;&#x4EFD;&#x7684;&#x65F6;&#x5019;&#x9047;&#x5230;&#x4E86;&#x5BA2;&#x6237;&#x8981;&#x6C42;web&#x9875;&#x9762;&#x4E5F;&#x8981;&#x4E0B;&#x62C9;&#x52A0;&#x8F7D;&#x66F4;&#x591A;&#x7684;&#x9700;&#x6C42;&#xFF0C;&#x4E8E;&#x662F;&#x6309;&#x7167;<a href="http://www.aichengxu.com/other/10990264.htm" rel="nofollow noreferrer">web&#x9875;&#x9762;&#x5728;&#x6EDA;&#x52A8;&#x6761;&#x4E0B;&#x62C9;&#x65F6;&#x52A0;&#x8F7D;&#x66F4;&#x591A;&#x5185;&#x5BB9;&#xFF08;&#x4E2A;&#x4EBA;&#x9879;&#x76EE;&#x7ECF;&#x9A8C;&#xFF09;</a>&#x6587;&#x4E2D;&#x7684;&#x4EE3;&#x7801;&#x5B9E;&#x73B0;&#x4E86;&#x8FD9;&#x4E2A;&#x4E0B;&#x62C9;&#x52A0;&#x8F7D;&#xFF0C;&#x5F88;&#x7B80;&#x5355;&#x7684;&#xFF0C;&#x4EE3;&#x7801;&#x5982;&#x4E0B;&#xFF1A;</p><pre><code>var totalPages;//&#x603B;&#x9875;&#x6570;
 var pageno = 0;//&#x5F53;&#x524D;&#x9875;&#x6570;
 $(function(){
@@ -63,7 +63,7 @@ function doSomething(pageno) {
                 
         });
 }</code></pre><h1>&#x76F8;&#x5173;&#x53C2;&#x8003;</h1><p><a href="http://www.aichengxu.com/other/10990264.htm" rel="nofollow noreferrer">web&#x9875;&#x9762;&#x5728;&#x6EDA;&#x52A8;&#x6761;&#x4E0B;&#x62C9;&#x65F6;&#x52A0;&#x8F7D;&#x66F4;&#x591A;&#x5185;&#x5BB9;&#xFF08;&#x4E2A;&#x4EBA;&#x9879;&#x76EE;&#x7ECF;&#x9A8C;&#xFF09;</a><br><a href="https://blog.csdn.net/bruce128/article/details/49924257" rel="nofollow noreferrer">&#x4E0B;&#x62C9;&#x52A0;&#x8F7D;&#x66F4;&#x591A;DEMO(js&#x5B9E;&#x73B0;)</a><br><a href="https://segmentfault.com/q/1010000003795357">$(window).scroll(function()&#x76D1;&#x542C;&#x6EDA;&#x52A8;&#x4E8B;&#x4EF6;&#x4E0D;&#x6267;&#x884C;</a></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

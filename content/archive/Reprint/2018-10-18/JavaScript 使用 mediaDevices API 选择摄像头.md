@@ -1,12 +1,12 @@
 ---
 title: JavaScript 使用 mediaDevices API 选择摄像头
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 8e82c37c
+slug: 8e82c37c
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>大多数智能手机都有前置和后置摄像头，当你在创建视频应用时你可能想要选择或者切换前置、后置摄像头。</p>
 <p>如果你开发的是一款聊天应用，你很可能会想调用前置摄像头，但如果你开发的是一款拍照软件，那么你会更倾向于使用后置摄像头。在这篇文章中我们将探讨如何通过 mediaDevices API 和 media constraints (媒体约束) 选择或者切换摄像头。</p>
@@ -167,7 +167,7 @@ date: 2018-10-18 00:00:00
 <p>还有哪些其他你想看到的在视频聊天中有用的功能？或者对这个功能有什么疑问？欢迎在评论中留言或者在 Twitter 上  <a href="https://twitter.com/philnash">@philnash</a>。</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/choosing-cameras-in-javascript-with-the-mediadevices-api](https://www.zcfy.cc/article/choosing-cameras-in-javascript-with-the-mediadevices-api)

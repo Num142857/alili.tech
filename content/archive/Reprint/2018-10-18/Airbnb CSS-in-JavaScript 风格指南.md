@@ -1,12 +1,12 @@
 ---
 title: Airbnb CSS-in-JavaScript 风格指南
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b3966ac5
+slug: b3966ac5
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="https://github.com/#airbnb-css-in-javascript-style-guide">Airbnb CSS-in-JavaScript 风格指南</a></h1>
 <p><em>一个 普遍适用的CSS-in-JavaScript方法</em></p>
@@ -398,7 +398,7 @@ export default withStyles(({ fallback }) =&gt; ({
 <p>CSS puns 改编自 <a href="https://saijogeorge.com/css-puns/">Saijo George</a>.</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/javascript-css-in-javascript-at-master](https://www.zcfy.cc/article/javascript-css-in-javascript-at-master)

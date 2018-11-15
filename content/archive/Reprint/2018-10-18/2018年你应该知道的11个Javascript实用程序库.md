@@ -1,12 +1,12 @@
 ---
 title: 2018年你应该知道的11个Javascript实用程序库
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: cca8f40d
+slug: cca8f40d
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>由于Javascript在2018年仍然是<a href="https://insights.stackoverflow.com/survey/2018/#technology">最受欢迎和最广泛使用的编程语言</a>，因此使得它的生态系统得到了更好的扩展。</p>
 <p><img src="https://p0.ssl.qhimg.com/t017d7ef7f1ed125a35.png" alt=""></p>
@@ -74,7 +74,7 @@ Chart.js允许您使用<code>&lt;canvas&gt;</code>标签创建简单的HTML5图�
 <p><a href="https://github.com/liriliri/licia" title="https://github.com/liriliri/licia"><strong>liriliri/licia</strong> _licia - Useful utility collection with zero dependencies_github.com</a><a href="https://github.com/liriliri/licia"></a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/11-javascript-utility-libraries-you-should-know-in-2018](https://www.zcfy.cc/article/11-javascript-utility-libraries-you-should-know-in-2018)

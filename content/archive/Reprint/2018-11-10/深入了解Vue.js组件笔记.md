@@ -1,12 +1,12 @@
 ---
 title: 深入了解Vue.js组件笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d1cb9bff
+slug: d1cb9bff
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p><strong>1&#x3001;&#x7EC4;&#x4EF6;&#x6CE8;&#x518C;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="Vue.component(&apos;name&apos;,{}) &#x521B;&#x5EFA;&#x7684;&#x7EC4;&#x4EF6;&#x90FD;&#x662F;&#x5168;&#x5C40;&#x7EC4;&#x4EF6;&#xFF0C;&#x5B83;&#x4EEC;&#x5728;&#x6CE8;&#x518C;&#x4E4B;&#x540E;&#x53EF;&#x4EE5;&#x7528;&#x5728;&#x4EFB;&#x4F55;&#x65B0;&#x521B;&#x5EFA;&#x7684;Vue&#x6839;&#x5B9E;&#x4F8B;(new Vue)&#x7684;&#x6A21;&#x677F;&#x4E2D;&#x3002;&#x7B2C;&#x4E00;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x7EC4;&#x4EF6;&#x7684;&#x540D;&#x5B57;&#xFF0C;&#x7B2C;&#x4E8C;&#x4E2A;&#x53C2;&#x6570;&#x662F;&#x4E00;&#x4E2A;&#x65B9;&#x6CD5;&#xFF0C;&#x53EF;&#x4EE5;&#x5728;&#x5176;&#x4E2D;&#x5B9A;&#x4E49;&#x7EC4;&#x4EF6;&#x7684;data&#x6570;&#x636E;&#x3001;template&#x6A21;&#x677F;&#x3001;props&#x4F20;&#x503C;&#x3001;components&#x7EC4;&#x4EF6;&#x6CE8;&#x518C;&#x3001;computed&#x8BA1;&#x7B97;&#x5C5E;&#x6027;&#x3001;method&#x65B9;&#x6CD5;&#x3001;watch&#x76D1;&#x542C;&#x6570;&#x636E;&#x53D8;&#x5316;&#x3001;&#x4EE5;&#x53CA;&#x751F;&#x547D;&#x5468;&#x671F;&#x7684;&#x6784;&#x5B50;&#x51FD;&#x6570;&#xFF1A;beforeCreate&#x3001;created&#x3001;beforeMount&#x3001;mounted&#x3001;beforeupdate&#x3001;updated&#x3001;beforeDestroy&#x3001;destroyed&#x3002;
 &#x63A8;&#x8350;&#x521B;&#x5EFA;&#x4E00;&#x4E2A; components &#x76EE;&#x5F55;&#xFF0C;&#x5E76;&#x5C06;&#x6BCF;&#x4E2A;&#x7EC4;&#x4EF6;&#x653E;&#x7F6E;&#x5728;&#x5176;&#x5404;&#x81EA;&#x7684;&#x6587;&#x4EF6;&#x4E2D;&#xFF1A;
 import ComponentA from &apos;./ComponentA&apos;
@@ -198,7 +198,7 @@ export default {
 <span class="hljs-tag">&lt;<span class="hljs-name">keep-alive</span>&gt;</span>    //<span class="hljs-tag">&lt;<span class="hljs-name">keep-alive</span>&gt;</span>&#x7F13;&#x5B58;&#x7EC4;&#x4EF6;&#x5207;&#x6362;&#x72B6;&#x6001;&#xFF0C;&#x7EC4;&#x4EF6;&#x5FC5;&#x987B;&#x6709;&#x540D;&#x5B57;
   <span class="hljs-tag">&lt;<span class="hljs-name">component</span> <span class="hljs-attr">v-bind:is</span>=<span class="hljs-string">&quot;currentTabComponent&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">component</span>&gt;</span>    //is &#x7279;&#x6027;&#x6765;&#x5207;&#x6362;&#x4E0D;&#x540C;&#x7684;&#x7EC4;&#x4EF6;
 <span class="hljs-tag">&lt;/<span class="hljs-name">keep-alive</span>&gt;</span></code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

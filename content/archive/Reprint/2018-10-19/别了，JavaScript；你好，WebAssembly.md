@@ -1,12 +1,12 @@
 ---
 title: 别了，JavaScript；你好，WebAssembly
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 10b84ef3
+slug: 10b84ef3
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>作为JavaScript替代，一种Web开发的新形式已经浮出水面：WebAssembly.</p>
 <p>Web开发与JavaScript开发向来是同义词。就是说，直到现在。但一种新的Web开发形式已然出现，声言会取代JavaScript。作为一个拥有15年Web开发经验的程序员，这个新方向瞬间吸引了我。</p>
@@ -37,7 +37,7 @@ date: 2018-10-19 00:00:00
 <p><a href="https://www.telerik.com/blogs/tag/web-development">web development</a>, <a href="https://www.telerik.com/blogs/tag/-net">.NET</a>, <a href="https://www.telerik.com/blogs/tag/webassembly">webassembly</a>, <a href="https://www.telerik.com/blogs/tag/blazor">blazor</a>, <a href="https://www.telerik.com/blogs/tag/javascript">JavaScript</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/goodbye-javascript-hello-webassembly](https://www.zcfy.cc/article/goodbye-javascript-hello-webassembly)

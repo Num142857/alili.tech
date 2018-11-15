@@ -1,12 +1,12 @@
 ---
 title: 三大图表库：ECharts 、 BizCharts 和 G2，该如何选择？
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3f1b4baf
+slug: 3f1b4baf
 date: 2018-11-03 02:30:13
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x6700;&#x8FD1;&#x963F;&#x91CC;&#x6B63;&#x5F0F;&#x5F00;&#x6E90;&#x7684;BizCharts&#x56FE;&#x8868;&#x5E93;&#x57FA;&#x4E8E;React&#x6280;&#x672F;&#x6808;&#xFF0C;&#x5404;&#x4E2A;&#x56FE;&#x8868;&#x9879;&#x7686;&#x91C7;&#x7528;&#x4E86;&#x7EC4;&#x4EF6;&#x7684;&#x5F62;&#x5F0F;&#xFF0C;&#x8D34;&#x8FD1;React&#x7684;&#x4F7F;&#x7528;&#x7279;&#x70B9;&#x3002;&#x540C;&#x65F6;BizCharts&#x57FA;&#x4E8E;G2&#x8FDB;&#x884C;&#x5C01;&#x88C5;&#xFF0C;Bizcharts&#x4E5F;&#x7EE7;&#x627F;&#x4E86;G2&#x76F8;&#x5173;&#x7279;&#x6027;&#x3002;&#x516C;&#x53F8;&#x76EE;&#x524D;&#x7EDF;&#x4E00;&#x4F7F;&#x7528;&#x7684;&#x662F;ECharts&#x56FE;&#x8868;&#x5E93;&#xFF0C;&#x4E0B;&#x6587;&#x5C06;&#x5BF9;3&#x79CD;&#x56FE;&#x8868;&#x5E93;&#x8FDB;&#x884C;&#x5206;&#x6790;&#x6BD4;&#x5BF9;&#x3002;</p><h2 id="articleHeader0">BizCharts</h2><p>&#x6587;&#x6863;&#x5730;&#x5740;&#xFF1A;<a href="http://bizcharts.net/index" rel="nofollow noreferrer" target="_blank">BizCharts</a></p><h3 id="articleHeader1">&#x4E00;&#x3001;&#x5B89;&#x88C5;</h3><p>&#x901A;&#x8FC7; npm/yarn &#x5F15;&#x5165;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="npm install bizcharts --save
 
 yarn add bizcharts  --save
@@ -542,7 +542,7 @@ const data = {...};
     <span class="hljs-comment">//do something</span>
   }}
 /&gt;</code></pre><p>G2: <a href="https://antv.alipay.com/zh-cn/g2/3.x/api/chart.html#_%E4%BA%8B%E4%BB%B6" rel="nofollow noreferrer" target="_blank">&#x4E8B;&#x4EF6; api&#x6587;&#x6863;</a></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="chart.on(&apos;mousedown&apos;, ev =&gt; {});" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs less"><code style="word-break:break-word;white-space:initial"><span class="hljs-selector-tag">chart</span><span class="hljs-selector-class">.on</span>(<span class="hljs-string">&apos;mousedown&apos;</span>, ev =&gt; {});</code></pre><h2 id="articleHeader10">&#x603B;&#x7ED3;</h2><p>&#x5BF9;&#x6BD4;&#x4EE5;&#x4E0A;3&#x79CD;&#x56FE;&#x8868;&#xFF0C;ECharts&#x548C;BizCharts&#x76F8;&#x5BF9;&#x5BB9;&#x6613;&#x4F7F;&#x7528;&#xFF0C;&#x5C24;&#x5176;ECharts&#x7684;&#x914D;&#x7F6E;&#x975E;&#x5E38;&#x6E05;&#x6670;&#xFF0C;BizCharts&#x4E0E;&#x5176;&#x4E5F;&#x6709;&#x4E00;&#x5B9A;&#x76F8;&#x4F3C;&#x4E4B;&#x5904;&#x3002;BizCharts&#x4F18;&#x52BF;&#x5728;&#x4E8E;&#x7EC4;&#x4EF6;&#x5316;&#x7684;&#x5F62;&#x5F0F;&#x4F7F;&#x5F97;dom&#x7ED3;&#x6784;&#x76F8;&#x5BF9;&#x6E05;&#x6670;&#xFF0C;&#x6309;&#x9700;&#x5F15;&#x7528;&#x3002;G2&#x6BD4;&#x8F83;&#x9002;&#x5408;&#x9700;&#x8981;&#x5927;&#x91CF;&#x56FE;&#x8868;&#x4EA4;&#x4E92;&#x65F6;&#x5F15;&#x7528;&#xFF0C;&#x5176;&#x4E30;&#x5BCC;&#x7684;api&#x5904;&#x7406;&#x4EA4;&#x4E92;&#x903B;&#x8F91;&#x76F8;&#x5BF9;&#x66F4;&#x6709;&#x4F18;&#x52BF;&#x3002;</p><h1 id="articleHeader11">&#x5E7F;&#x800C;&#x544A;&#x4E4B;</h1><p>&#x672C;&#x6587;&#x53D1;&#x5E03;&#x4E8E;<a href="https://github.com/BooheeFE/weekly" rel="nofollow noreferrer" target="_blank">&#x8584;&#x8377;&#x524D;&#x7AEF;&#x5468;&#x520A;</a>&#xFF0C;&#x6B22;&#x8FCE;Watch &amp; Star &#x2605;&#xFF0C;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#x3002;</p><h2 id="articleHeader12">&#x6B22;&#x8FCE;&#x8BA8;&#x8BBA;&#xFF0C;&#x70B9;&#x4E2A;&#x8D5E;&#x518D;&#x8D70;&#x5427; &#xFF61;&#x25D5;&#x203F;&#x25D5;&#xFF61; &#xFF5E;</h2>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: Get started | Apollo Client
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ce1009c0
+slug: ce1009c0
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>开始使用Apollo客户端最简单的方法是使用我们的入门套件Apollo Boost，该套件使用我们的推荐设置为您配置客户端。 Apollo Boost包含了我们认为对构建Apollo应用程序非常重要的软件包，比如我们在内存缓存，本地状态管理和错误处理方面。 它也足够灵活来处理认证等功能。</p>
 <p>如果您是一位想从头开始配置Apollo客户端的高级用户，请前往我们的网站 <a href="https://www.apollographql.com/docs/react/essentials/get-started.html/../advanced/boost-migration.html">Apollo Boost migration guide</a>. 对于大多数用户来说，Apollo Boost应该满足您的需求，所以我们不建议您切换，除非您需要更多定制。</p>
@@ -94,7 +94,7 @@ render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">App<
 
       return data.rates.map(({ currency, rate }) =&gt; (
         <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{${currency}: ${rate}}<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+          <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>{${currency}: ${rate"}}"<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
         <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
       ));
     }}
@@ -145,7 +145,7 @@ render(<span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">App<
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

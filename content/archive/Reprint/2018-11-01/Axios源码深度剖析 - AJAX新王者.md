@@ -1,12 +1,12 @@
 ---
 title: Axios源码深度剖析 - AJAX新王者
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 3ba215a7
+slug: 3ba215a7
 date: 2018-11-01 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>Axios&#x6E90;&#x7801;&#x5206;&#x6790; - XHR&#x7BC7;</p><p>&#x6587;&#x7AE0;&#x6E90;&#x7801;&#x6258;&#x7BA1;&#x5728;<a href="https://github.com/ronffy/axios-tutorial" rel="nofollow noreferrer" target="_blank">github</a>&#x4E0A;&#xFF0C;&#x6B22;&#x8FCE;fork&#x6307;&#x6B63;&#xFF01;</p><p><a href="https://github.com/axios/axios" rel="nofollow noreferrer" target="_blank">axios</a> &#x662F;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E; Promise &#x7684;http&#x8BF7;&#x6C42;&#x5E93;&#xFF0C;&#x53EF;&#x4EE5;&#x7528;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x548C;node.js&#x4E2D;&#xFF0C;&#x76EE;&#x524D;&#x5728;github&#x4E0A;&#x6709; 42K &#x7684;star&#x6570;</p><h3 id="articleHeader0">&#x5907;&#x6CE8;&#xFF1A;</h3><ol><li>&#x6BCF;&#x4E00;&#x5C0F;&#x8282;&#x90FD;&#x4F1A;&#x4ECE;&#x4E24;&#x4E2A;&#x65B9;&#x9762;&#x4ECB;&#x7ECD;&#xFF1A;&#x5982;&#x4F55;&#x4F7F;&#x7528; -&gt; &#x6E90;&#x7801;&#x5206;&#x6790;</li><li>[&#x5DE5;&#x5177;&#x65B9;&#x6CD5;&#x7B80;&#x5355;&#x4ECB;&#x7ECD;]&#x4E00;&#x8282;&#x53EF;&#x5148;&#x8DF3;&#x8FC7;&#xFF0C;&#x540E;&#x9762;&#x7528;&#x5230;&#x4E86;&#x518D;&#x8FC7;&#x6765;&#x67E5;&#x770B;</li><li>axios&#x6700;&#x6838;&#x5FC3;&#x7684;&#x6280;&#x672F;&#x70B9;&#x662F;<a href="#%E5%A6%82%E4%BD%95%E6%8B%A6%E6%88%AA%E8%AF%B7%E6%B1%82%E5%93%8D%E5%BA%94%E5%B9%B6%E4%BF%AE%E6%94%B9%E8%AF%B7%E6%B1%82%E5%8F%82%E6%95%B0%E4%BF%AE%E6%94%B9%E5%93%8D%E5%BA%94%E6%95%B0%E6%8D%AE">&#x5982;&#x4F55;&#x62E6;&#x622A;&#x8BF7;&#x6C42;&#x54CD;&#x5E94;&#x5E76;&#x4FEE;&#x6539;&#x8BF7;&#x6C42;&#x53C2;&#x6570;&#x4FEE;&#x6539;&#x54CD;&#x5E94;&#x6570;&#x636E;</a> &#x548C; <a href="#axios%E6%98%AF%E5%A6%82%E4%BD%95%E7%94%A8promise%E6%90%AD%E8%B5%B7%E5%9F%BA%E4%BA%8Exhr%E7%9A%84%E5%BC%82%E6%AD%A5%E6%A1%A5%E6%A2%81%E7%9A%84">axios&#x662F;&#x5982;&#x4F55;&#x7528;promise&#x642D;&#x8D77;&#x57FA;&#x4E8E;xhr&#x7684;&#x5F02;&#x6B65;&#x6865;&#x6881;&#x7684;</a></li></ol><h3 id="articleHeader1">axios&#x9879;&#x76EE;&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h3><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="
 &#x251C;&#x2500;&#x2500; /dist/                     # &#x9879;&#x76EE;&#x8F93;&#x51FA;&#x76EE;&#x5F55;
 &#x251C;&#x2500;&#x2500; /lib/                      # &#x9879;&#x76EE;&#x6E90;&#x7801;&#x76EE;&#x5F55;
@@ -1566,7 +1566,7 @@ function settle(resolve, reject, response) {
   }
 };
 </code></pre><h3 id="articleHeader18">&#x603B;&#x7ED3;</h3><p>axios&#x8FD9;&#x4E2A;&#x9879;&#x76EE;&#x91CC;&#xFF0C;&#x6709;&#x5F88;&#x591A;&#x5BF9;JS&#x4F7F;&#x7528;&#x5F88;&#x5DE7;&#x5999;&#x7684;&#x5730;&#x65B9;&#xFF0C;&#x6BD4;&#x5982;&#x5BF9;promise&#x7684;&#x4E32;&#x8054;&#x64CD;&#x4F5C;&#xFF08;&#x5F53;&#x7136;&#x4F60;&#x4E5F;&#x53EF;&#x4EE5;&#x8BF4;&#x8FD9;&#x5757;&#x662F;&#x501F;&#x9274;&#x5F88;&#x591A;&#x5F02;&#x6B65;&#x4E2D;&#x95F4;&#x4EF6;&#x7684;&#x5904;&#x7406;&#x65B9;&#x5F0F;&#xFF09;,&#x8BA9;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5F88;&#x65B9;&#x4FBF;&#x5BF9;&#x8BF7;&#x6C42;&#x524D;&#x540E;&#x7684;&#x5404;&#x79CD;&#x5904;&#x7406;&#x65B9;&#x6CD5;&#x7684;&#x6D41;&#x7A0B;&#x8FDB;&#x884C;&#x63A7;&#x5236;&#xFF1B;&#x5F88;&#x591A;&#x5B9E;&#x7528;&#x7684;&#x5C0F;&#x4F18;&#x5316;&#xFF0C;&#x6BD4;&#x5982;&#x8BF7;&#x6C42;&#x524D;&#x540E;&#x7684;&#x6570;&#x636E;&#x5904;&#x7406;&#xFF0C;&#x7701;&#x4E86;&#x7A0B;&#x5E8F;&#x5458;&#x4E00;&#x904D;&#x4E00;&#x904D;&#x53BB;&#x5199;JSON.xxx&#x4E86;&#xFF1B;&#x540C;&#x65F6;&#x652F;&#x6301;&#x4E86;&#x6D4F;&#x89C8;&#x5668;&#x548C;node&#x4E24;&#x79CD;&#x73AF;&#x5883;&#xFF0C;&#x5BF9;&#x4F7F;&#x7528;node&#x7684;&#x9879;&#x76EE;&#x6765;&#x8BF4;&#x65E0;&#x7591;&#x662F;&#x6781;&#x597D;&#x7684;&#x3002;</p><p>&#x603B;&#x4E4B;&#xFF0C;&#x8FD9;&#x4E2A;&#x80FD;&#x591F;&#x5728;github&#x65A9;&#x83B7;42K+&#xFF08;&#x622A;&#x6B62;2018.05.27&#xFF09;&#x7684;star&#xFF0C;&#x5B9E;&#x529B;&#x7EDD;&#x4E0D;&#x662F;&#x76D6;&#x7684;&#xFF0C;&#x503C;&#x5F97;&#x597D;&#x597D;&#x4EA4;&#x4EA4;&#x5FC3;&#xFF01;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

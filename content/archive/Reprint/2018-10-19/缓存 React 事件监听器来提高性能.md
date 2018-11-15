@@ -1,12 +1,12 @@
 ---
 title: 缓存 React 事件监听器来提高性能
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 2e3f8879
+slug: 2e3f8879
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><img src="https://p5.ssl.qhimg.com/t01786d1b810e4a8256.png" alt=""></p>
 <p>在 js 里面有个不被重视的概念：对象和函数的引用，而这个却直接地影响了 React 的性能。如果你打算创建两个相同的函数，但是却又不相等。你可以试着：（译者注：无法在markdown中插入代码，请查看原文代码！） <code>const functionOne = function() { alert('Hello world!'); }; const functionTwo = function() { alert('Hello world!'); }; functionOne === functionTwo; // false</code></p>
@@ -44,7 +44,7 @@ date: 2018-10-19 00:00:00
 <p>阅读更多我的专栏，可以在 <a href="https://www.linkedin.com/in/charles-stover">LinkedIn</a> 和 <a href="https://twitter.com/CharlesStover">Twitter</a>, 或 <a href="https://charlesstover.com/">check out my portfolio on CharlesStover.com</a>上关注我.</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/cache-your-react-event-listeners-to-improve-performance](https://www.zcfy.cc/article/cache-your-react-event-listeners-to-improve-performance)

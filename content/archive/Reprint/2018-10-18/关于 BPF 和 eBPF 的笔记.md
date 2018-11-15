@@ -1,12 +1,12 @@
 ---
 title: 关于 BPF 和 eBPF 的笔记
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 389eef2b
+slug: 389eef2b
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#关于-bpf-和-ebpf-的笔记"></a>关于 BPF 和 eBPF 的笔记</h1>
 <p>今天，我喜欢的 meetup 网站上有一篇我超爱的文章！<a href="http://suchakra.in/">Suchakra Sharma</a>（<a href="https://twitter.com/tuxology">@tuxology</a> 在 twitter/github）的一篇非常棒的关于传统 BPF 和在 Linux 中最新加入的 eBPF 的讨论文章，正是它促使我想去写一个 eBPF 的程序！</p>
@@ -89,7 +89,7 @@ b.attach_kprobe(<span class="hljs-keyword">event</span>=<span class="hljs-string
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/notes-on-bpf-and-ebpf](https://www.zcfy.cc/article/notes-on-bpf-and-ebpf)

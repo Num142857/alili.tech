@@ -1,12 +1,12 @@
 ---
 title: 'React v16.4.0: 指针事件 - React Blog'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 532621aa
+slug: 532621aa
 date: 2018-10-20 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>May 23, 2018 by <a href="https://twitter.com/acdlite">Andrew Clark</a></p>
 <p>最新的版本增加了对经常请求的功能的支持：指针事件！</p>
@@ -117,7 +117,7 @@ date: 2018-10-20 00:00:00
 </ul>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/react-v16-4-0-pointer-events-react-blog](https://www.zcfy.cc/article/react-v16-4-0-pointer-events-react-blog)

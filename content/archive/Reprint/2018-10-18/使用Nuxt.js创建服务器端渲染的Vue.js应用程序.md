@@ -1,12 +1,12 @@
 ---
 title: 使用Nuxt.js创建服务器端渲染的Vue.js应用程序
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4a8011f1
+slug: 4a8011f1
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>JavaScript框架/库（如Vue）可以在浏览您的网站时提供出色的用户体验。 大多数提供了一种动态更改页面内容的方式，而不必每次都向服务器发送请求。</p>
 <p>但是，这种方法存在问题。 最初加载您的网站时，您的浏览器没有收到完整的页面显示。 相反，它会发送一堆文件来构建页面（HTML，CSS和其他文件）以及如何将它们放在一起的说明（JavaScript框架/库）需要花费相当多的时间将所有这些信息放在一起 在浏览器实际上显示某些内容之前。 这就像被送了一堆书以及一个扁平的书柜一样。 你必须先建立书架，然后用书填充它。</p>
@@ -97,7 +97,7 @@ npm <span class="hljs-keyword">run</span><span class="bash"> dev
 </code></pre>
 <p>请注意_product_id.vue组件开头的下划线 - 这表示可以通过$route.params对象或Nuxt的Context中的params对象（稍后会介绍）访问一个路由参数。 请注意，param的键将是没有初始下划线的组件名 _在这种情况下，product_id_ 因此尽量使它们在项目中保持唯一。 因此，在_product_id.vue中，我们可能会有这样的内容：</p>
 <pre><code class="hljs django"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
- <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Editing Product </span><span class="hljs-template-variable">{{ $route.params.product_id }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+ <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>Editing Product </span><span class="hljs-template-variable">"{{" $route.params.product_id "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
 </span></code></pre>
@@ -172,9 +172,9 @@ export const mutations = {
 <p>加载动作中的setTimeout模拟某种API调用，它将用响应更新存储; 在这种情况下，它需要一秒钟。 现在，让我们在 products/view页面中使用它：</p>
 <pre><code class="hljs django"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">template</span>&gt;</span>
  <span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span>
-   <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>View Product </span><span class="hljs-template-variable">{{ product._id }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
-   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">{{ product.title }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
-   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Price: </span><span class="hljs-template-variable">{{ product.price }}</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">h1</span>&gt;</span>View Product </span><span class="hljs-template-variable">"{{" product._id "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">h1</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span></span><span class="hljs-template-variable">"{{" product.title "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+   <span class="hljs-tag">&lt;<span class="hljs-name">p</span>&gt;</span>Price: </span><span class="hljs-template-variable">"{{" product.price "}}"</span><span class="xml"><span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
  <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">template</span>&gt;</span>
 
@@ -417,7 +417,7 @@ netlify deploy <span class="hljs-keyword">dist</span>
 <p><a href="https://www.toptal.com/vue-js">Hiring? Meet the Top 10 Freelance Vue.js Developers for Hire in May 2018</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/creating-server-side-rendered-vue-js-apps-with-nuxt-js](https://www.zcfy.cc/article/creating-server-side-rendered-vue-js-apps-with-nuxt-js)

@@ -1,12 +1,12 @@
 ---
 title: 如何在 Ubuntu 上安装和优化 Apache
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 49bec1d6
+slug: 49bec1d6
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-ubuntu-上安装和优化-apache"></a>如何在 Ubuntu 上安装和优化 Apache</h1>
 <p>这是我们的 LAMP 系列教程的开始：如何在 Ubuntu 上安装 Apache web 服务器。</p>
@@ -157,7 +157,7 @@ chmod -R og-r /<span class="hljs-keyword">var</span>/www/example.com
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

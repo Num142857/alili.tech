@@ -1,12 +1,12 @@
 ---
 title: Javascript-伪数组
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9501e5ae
+slug: 9501e5ae
 date: 2018-11-06 15:28:32
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">&#x4EC0;&#x4E48;&#x662F;&#x4F2A;&#x6570;&#x7EC4;</h3><p>&#x4F2A;&#x6570;&#x7EC4;&#x662F;&#x4E00;&#x4E2A;&#x542B;&#x6709;length&#x5C5E;&#x6027;&#x7684;json&#x5BF9;&#x8C61;</p><p><strong>&#x4F8B;&#x5982;&#xFF1A;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="{
     0: 1,
     1: 2,
@@ -200,7 +200,7 @@ function SimpleSlice(array, start_i, del_count, len, deleted_elements) {
         }
     }
 }</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

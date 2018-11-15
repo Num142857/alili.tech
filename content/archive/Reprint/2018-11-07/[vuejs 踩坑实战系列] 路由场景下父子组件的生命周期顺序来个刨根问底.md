@@ -1,12 +1,12 @@
 ---
 title: '[vuejs 踩坑实战系列] 路由场景下父子组件的生命周期顺序来个刨根问底'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 466e2be8
+slug: 466e2be8
 date: 2018-11-07 02:30:15
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x5927;&#x5BB6;&#x4E2D;&#x79CB;&#x5047;&#x671F;&#x5FEB;&#x4E50;&#xFF0C;&#x5047;&#x671F;&#x5206;&#x4EAB;&#x4E00;&#x4E9B;&#x539F;&#x7406;&#x8BBE;&#x8BA1;&#x6587;&#x7AE0;&#x7ED9;&#x5927;&#x5BB6;</p><p><code>&#x539F;&#x521B;&#x4E0D;&#x6613;&#xFF0C;&#x6B22;&#x8FCE;&#x8F6C;&#x53D1;&#xFF0C;&#x4E00;&#x8D77;&#x5B66;&#x4E60;(&#x51CC;&#x6668;&#x5199;&#x7684;&#xFF0C;&#x4E0D;&#x5BB9;&#x6613;&#x54C8;&#xFF0C;&#x6536;&#x85CF;&#x6216;&#x8005;&#x70B9;&#x4E2A;&#x8D5E;&#x5427;)</code></p><hr><p>&#x5728;&#x5E38;&#x89C1;&#x7684;&#x5355;&#x9875;&#x5E94;&#x7528;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x90FD;&#x4F1A;&#x6709;&#x4E00;&#x4E2A;&#x6839; App.vue &#x6587;&#x4EF6;&#xFF0C;&#x91CC;&#x9762;&#x653E;&#x7F6E;&#x4E00;&#x4E2A; router-view &#x7136;&#x540E;&#x914D;&#x7F6E;&#x8DEF;&#x7531;&#x6765;&#x5207;&#x6362;.</p><p>&#x5F88;&#x591A;&#x4EBA;&#x5728;&#x5B50;&#x7236;&#x7EC4;&#x4EF6;&#x5D4C;&#x5957;&#x5173;&#x7CFB;&#x4E0B;&#x7684;&#x751F;&#x547D;&#x5468;&#x671F;&#x94A9;&#x5B50;&#x51FD;&#x6570;&#x5982;&#x4F55;&#x5E94;&#x7528;&#xFF0C;&#x8C01;&#x5148;&#x8C01;&#x540E;&#xFF08;&#x6BD4;&#x5982;&#x54EA;&#x4E2A;&#x7528;&#x6765;&#x53D1;&#x9001;&#x8BF7;&#x6C42;&#xFF0C;&#x6570;&#x636E;&#x4F20;&#x9012;&#xFF09;&#x7B49;&#x6709;&#x6240;&#x7591;&#x95EE;&#x3002;</p><p>&#x672C;&#x6587;&#x805A;&#x7126; <code>mounted</code> &#x4E8B;&#x4EF6;(&#x9700;&#x8981; <code>created</code> &#x7684;&#x53EF;&#x4EE5;&#x7559;&#x8A00;&#x54C8;)&#xFF0C;&#x5148;&#x629B;&#x7ED3;&#x8BBA;&#xFF1A;</p><blockquote>&#x5B50;&#x7EC4;&#x4EF6;&#x4E00;&#x5C42;&#x4E00;&#x5C42;&#x5F80;&#x5916;&#x89E6;&#x53D1;&#xFF0C;&#x6700;&#x7EC8;&#x89E6;&#x53D1;&#x6839; App.vue &#x7684; mounted</blockquote><p>&#x9A8C;&#x8BC1;&#x7684;&#x505A;&#x6CD5;&#x5F88;&#x7B80;&#x5355;&#xFF1A;</p><blockquote>&#x4F60;&#x53EA;&#x9700;&#x8981;&#x5728;&#x6BCF;&#x4E00;&#x4E2A;&#x7EC4;&#x4EF6;&#x91CC;&#x9762;&#x7684; mounted &#x589E;&#x52A0;&#x6253;&#x5370;&#x65E5;&#x5FD7;&#x5C31;&#x53EF;&#x4EE5;&#x770B;&#x5230;&#x4E86;&#xFF0C;&#x6211;&#x4EEC;&#x5177;&#x4F53;&#x6765;&#x770B;&#x770B;&#x8BBE;&#x8BA1;&#x539F;&#x7406;</blockquote><p>&#x73B0;&#x5728;&#x5047;&#x8BBE;&#x6211;&#x4EEC;&#x914D;&#x7F6E;&#x4E86;&#x8DEF;&#x7531;&#xFF1A;</p><p>&#x4E00;&#x7EA7;&#x662F; /user/:id &#x4E8C;&#x7EA7;&#x662F; profile</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="const router = new VueRouter({
   routes: [
     { 
@@ -100,7 +100,7 @@ date: 2018-11-07 02:30:15
     callHook(vm, <span class="hljs-string">&apos;mounted&apos;</span>);
   }
 }</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

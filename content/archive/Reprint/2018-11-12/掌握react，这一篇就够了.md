@@ -1,12 +1,12 @@
 ---
 title: 掌握react，这一篇就够了
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b32f4225
+slug: b32f4225
 date: 2018-11-12 02:30:05
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>react&#x4F17;&#x6240;&#x5468;&#x77E5;&#x7684;&#x524D;&#x7AEF;3&#x5927;&#x4E3B;&#x6D41;&#x6846;&#x67B6;&#x4E4B;&#x4E00;&#xFF0C;&#x7531;&#x4E8E;&#x51FA;&#x8272;&#x7684;&#x6027;&#x80FD;&#xFF0C;&#x5B8C;&#x5584;&#x7684;&#x5468;&#x8FB9;&#x8BBE;&#x65BD;&#x98CE;&#x5934;&#x4E00;&#x65F6;&#x65E0;&#x4E24;&#x3002;&#x672C;&#x6587;&#x5C31;&#x5E26;&#x5927;&#x5BB6;&#x4E00;&#x8D77;&#x638C;&#x63E1;react&#x3002;</p><h1>jsx&#x8BED;&#x6CD5;</h1><p>&#x524D;&#x7AEF;MVVM&#x4E3B;&#x6D41;&#x6846;&#x67B6;&#x90FD;&#x6709;&#x4E00;&#x5957;&#x81EA;&#x5DF1;&#x7684;&#x6A21;&#x677F;&#x5904;&#x7406;&#x65B9;&#x6CD5;&#xFF0C;react&#x5219;&#x4F7F;&#x7528;&#x5B83;&#x72EC;&#x7279;&#x7684;jsx&#x8BED;&#x6CD5;&#x3002;&#x5728;&#x7EC4;&#x4EF6;&#x4E2D;&#x63D2;&#x5165;html&#x7C7B;&#x4F3C;&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x7B80;&#x5316;&#x521B;&#x5EFA;view&#x7684;&#x6D41;&#x7A0B;&#x3002;</p><p>&#x4E0B;&#x9762;&#x8BA9;&#x6211;&#x4EEC;&#x6765;&#x8BA4;&#x8BC6;&#x4E00;&#x4E0B;&#x6784;&#x5EFA;&#x7684;&#x4E24;&#x79CD;&#x5143;&#x7D20;</p><h2>&#x539F;&#x751F;&#x5143;&#x7D20;</h2><pre><code>ReactDOM.render((
   &lt;div&gt;
     &lt;h1&gt;&#x6807;&#x9898;&lt;/h1&gt;
@@ -356,7 +356,7 @@ class MessageList extends React.Component {
 MessageList.childContextTypes = {
   color: React.PropTypes.string
 };</code></pre><p>MessageList&#x4E2D;&#x7684;color&#x4F1A;&#x81EA;&#x52A8;&#x66F4;&#x65B0;&#x5230;&#x513F;&#x5B59;&#x7EC4;&#x4EF6;&#x91CC;&#x9762;&#x53BB;&#xFF0C;&#x5B9E;&#x73B0;&#x8DE8;&#x7EA7;&#x554A;&#x901A;&#x4FE1;&#x3002;&#x5982;&#x679C;&#x9700;&#x8981;&#x53CD;&#x8FC7;&#x6765;&#x901A;&#x4FE1;&#xFF0C;&#x5219;&#x9700;&#x8981;&#x501F;&#x52A9;&#x5176;&#x4ED6;&#x5DE5;&#x5177;&#xFF0C;&#x6BD4;&#x5982;&#x4E8B;&#x4EF6;&#x7CFB;&#x7EDF;(Pub/Sub)&#x3002;</p><h2>&#x6CA1;&#x6709;&#x5D4C;&#x5957;&#x5173;&#x7CFB;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x901A;&#x4FE1;</h2><p>&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x901A;&#x4FE1;&#x6700;&#x4E3B;&#x6D41;&#x7684;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x8131;&#x80CE;&#x4E8E;&#x89C2;&#x5BDF;&#x8FD9;&#x6A21;&#x5F0F;&#x548C;&#x4E2D;&#x4ECB;&#x8005;&#x6A21;&#x5F0F;&#x8FD9;&#x4E24;&#x79CD;&#x3002;</p><p>&#x8DE8;&#x7EA7;&#x4E4B;&#x95F4;&#x901A;&#x4FE1;&#x73B0;&#x5728;&#x6700;&#x4E3B;&#x6D41;&#x7684;&#x65B9;&#x5F0F;&#x5C31;&#x662F;&#x89C2;&#x5BDF;&#x8FD9;&#x6A21;&#x5F0F;&#x7684;&#x5B9E;&#x73B0;Pub/Sub&#xFF0C;react&#x793E;&#x533A;&#x4E2D;&#x7684;redux&#x4E5F;&#x662F;&#x4F7F;&#x7528;&#x8FD9;&#x79CD;&#x65B9;&#x5F0F;&#x5B9E;&#x73B0;&#x7684;&#x3002;</p><p><em>vue2.X&#x7248;&#x672C;&#x4E5F;&#x53BB;&#x6389;&#x4E86;&#x8DE8;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x7684;&#x529F;&#x80FD;&#x3002;&#x90A3;&#x5982;&#x4F55;&#x5728;2.x&#x4E2D;&#x505A;&#x8DE8;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x5462;&#xFF1F;&#x5982;&#x679C;&#x4E0D;&#x501F;&#x52A9;&#x5916;&#x529B;&#x7684;&#x8BDD;&#xFF0C;&#x662F;&#x4E0D;&#x662F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;$parent&#x548C;$childen&#x7684;&#x9012;&#x5F52;&#x8C03;&#x7528;&#x5B9E;&#x73B0;&#x5168;&#x5C40;&#x7EC4;&#x4EF6;&#x901A;&#x4FE1;&#x5462;&#xFF1F;&#x6BD4;&#x5982;&#x6211;&#x60F3;&#x5E7F;&#x64AD;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#xFF0C;&#x6211;&#x5C31;&#x67E5;&#x627E;&#x5230;&#x6240;&#x6709;&#x7684;&#x5B50;&#x7EC4;&#x4EF6;&#xFF0C;&#x6328;&#x4E2A;&#x89E6;&#x53D1;$emit(xx)&#xFF0C;&#x4E0A;&#x62A5;&#x4E00;&#x4E2A;&#x4E8B;&#x4EF6;&#x4E5F;&#x662F;&#x540C;&#x7406;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x9700;&#x8981;&#x67E5;&#x627E;&#x6240;&#x6709;&#x7684;$parent&#x3002;&#x7ED3;&#x5408;&#x8D77;&#x6765;&#x5C31;&#x53EF;&#x4EE5;&#x5B9E;&#x73B0;&#x7EC4;&#x4EF6;&#x4E4B;&#x95F4;&#x7684;&#x901A;&#x4FE1;&#xFF0C;&#x53EA;&#x4E0D;&#x8FC7;&#x8FD9;&#x79CD;&#x67E5;&#x627E;&#x6548;&#x7387;&#x6BD4;&#x8F83;&#x4F4E;&#xFF0C;&#x9700;&#x8981;&#x614E;&#x7528;&#x548C;&#x4F18;&#x5316;</em></p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

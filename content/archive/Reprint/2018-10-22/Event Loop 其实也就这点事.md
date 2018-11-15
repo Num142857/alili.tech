@@ -1,12 +1,12 @@
 ---
 title: Event Loop 其实也就这点事
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 956c5598
+slug: 956c5598
 date: 2018-10-22 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>前段时间在网上陆续看了很多关于 Event loop 的文章，看完也就混个眼熟，可能内心深处对这种偏原理的知识有一些抵触心情，看完后也都没有去深入理解。最近在看 Vue 的源码，在读到关于 nextTick 的实现时，总有一种似曾相识的感觉，于是去网上查了下资料，原来 nextTick 的实现正是基于 Event loop 机制（引起重视了）。  <br>Anyway，在翻阅了一些资料以后，将我对 Event loop 的理解记录下来，爱看不看。</p>
@@ -90,7 +90,7 @@ setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span
 </blockquote>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

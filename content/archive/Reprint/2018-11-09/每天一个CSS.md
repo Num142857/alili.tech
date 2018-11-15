@@ -1,12 +1,12 @@
 ---
 title: 每天一个CSS
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: d69504ed
+slug: d69504ed
 date: 2018-11-09 02:30:06
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x6BCF;&#x5929;&#x575A;&#x6301;&#x4E00;&#x4E2A;CSS-------&#x6EDA;&#x52A8;&#x6587;&#x5B57;</h2><h3 id="articleHeader1">&#x6548;&#x679C;&#x56FE;</h3><p><span class="img-wrap"><img data-src="/img/remote/1460000016412993?w=257&amp;h=124" src="https://static.alili.tech/img/remote/1460000016412993?w=257&amp;h=124" alt="" title="" style="cursor:pointer;display:inline"></span></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="
 &#x56FE;&#x7247;&#x63CF;&#x8FF0;&#xFF1A;&#x7BAD;&#x5934;&#x6307;&#x5411;&#x90E8;&#x5206;&#xFF0C;&#x4EE5;&#x767D;&#x8272;&#x4E3A;&#x80CC;&#x666F;&#xFF0C;&#x4ECE;&#x5DE6;&#x5411;&#x53F3;&#x6EDA;&#x52A8;&#x3002;&#xFF08;&#x4E0D;&#x9002;&#x7528;&#x4E8E;IE&#xFF09;
 " title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs"><code>
@@ -102,7 +102,7 @@ to bottom&#xFF1A;
 &#x8BBE;&#x7F6E;&#x6E10;&#x53D8;&#x4ECE;&#x4E0B;&#x5230;&#x4E0A;&#x3002;&#x76F8;&#x5F53;&#x4E8E;: <span class="hljs-number">0</span>deg
 <span class="hljs-keyword">to</span> bottom&#xFF1A;
 &#x8BBE;&#x7F6E;&#x6E10;&#x53D8;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#x3002;&#x76F8;&#x5F53;&#x4E8E;: <span class="hljs-number">180</span>deg&#x3002;&#x8FD9;&#x662F;&#x9ED8;&#x8BA4;&#x503C;&#xFF0C;&#x7B49;&#x540C;&#x4E8E;&#x7559;&#x7A7A;&#x4E0D;&#x5199;&#x3002;</code></pre><p>&#x8FD9;&#x6837;&#x5C31;&#x5B9E;&#x73B0;&#x4E86;&#x6E10;&#x53D8;&#x5B57;&#x4F53;&#x90E8;&#x5206;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="-webkit-text-fill-color: transparent;" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs processing"><code style="word-break:break-word;white-space:initial">-webkit-<span class="hljs-built_in">text</span>-<span class="hljs-built_in">fill</span>-<span class="hljs-built_in">color</span>: transparent;</code></pre><p>&#x5B57;&#x4F53;&#x586B;&#x5145;&#x989C;&#x8272;&#xFF1A;&#x7EE7;&#x627F;&#x4E0E;&#x80CC;&#x666F;&#xFF0C;&#x6240;&#x4EE5;&#x5B57;&#x4F53;&#x989C;&#x8272;&#x4E3A;&#x8BBE;&#x7F6E;&#x7684;box-text&#x7684;background ,&#x800C;&#x975E;box&#x7684;&#x80CC;&#x666F;&#x989C;&#x8272;&#x3002;</p><p>&#x5C31;&#x8FD9;&#x6837;&#x52A0;&#x4E0A;&#x4E00;&#x4E2A;&#x52A8;&#x753B;&#xFF0C;&#x5FAA;&#x73AF;&#x79FB;&#x52A8;&#xFF0C;&#x5C31;&#x662F;&#x5B9E;&#x73B0;&#x4E86;&#x3002;</p><p>PS:&#x6B22;&#x8FCE;&#x4E00;&#x8D77;&#x5B66;&#x4E60;&#xFF0C;&#x7B49;&#x670D;&#x52A1;&#x5668;&#x5907;&#x6848;&#x901A;&#x8FC7;&#xFF0C;&#x4F1A;&#x5C06;&#x6240;&#x6709;&#x6848;&#x4F8B;&#x53D1;&#x5E03;&#x81F3;&#x670D;&#x52A1;&#x5668;&#x4E0A;&#x3002;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

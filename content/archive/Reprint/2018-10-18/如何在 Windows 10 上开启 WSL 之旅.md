@@ -1,12 +1,12 @@
 ---
 title: 如何在 Windows 10 上开启 WSL 之旅
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 6216c0b2
+slug: 6216c0b2
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#如何在-windows-10-上开启-wsl-之旅"></a>如何在 Windows 10 上开启 WSL 之旅</h1>
 <blockquote>
@@ -66,7 +66,7 @@ sudo apt-<span class="hljs-builtin-name">get</span> dist-upgrade
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-to-get-started-using-wsl-in-windows-10](https://www.zcfy.cc/article/how-to-get-started-using-wsl-in-windows-10)

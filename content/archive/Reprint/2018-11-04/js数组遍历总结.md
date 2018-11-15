@@ -1,12 +1,12 @@
 ---
 title: js数组遍历总结
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 5b8c223e
+slug: 5b8c223e
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>js&#x4E2D;&#x7684;&#x6570;&#x7EC4;&#x904D;&#x5386;&#x662F;&#x9879;&#x76EE;&#x4E2D;&#x7ECF;&#x5E38;&#x7528;&#x5230;&#x7684;&#xFF0C;&#x5728;&#x8FD9;&#x91CC;&#x5C06;&#x51E0;&#x79CD;&#x65B9;&#x6CD5;&#x505A;&#x4E2A;&#x5BF9;&#x6BD4;&#x3002;</p><h2 id="articleHeader0">for&#x5FAA;&#x73AF;&#xFF1A;&#x4F7F;&#x7528;&#x8BC4;&#x7387;&#x6700;&#x9AD8;&#xFF0C;&#x4E5F;&#x662F;&#x6700;&#x57FA;&#x672C;&#x7684;&#x4E00;&#x79CD;&#x904D;&#x5386;&#x65B9;&#x5F0F;&#x3002;</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="let arr = [&apos;a&apos;,&apos;b&apos;,&apos;c&apos;,&apos;d&apos;,&apos;e&apos;];
 for (let i = 0, len = arr.length; i &lt; len; i++) {
     console.log(i);       //  0 1 2 3 4
@@ -92,7 +92,7 @@ for (let [item, val] of arr.entries()) {
 <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> [item, val] <span class="hljs-keyword">of</span> arr.entries()) {  
   <span class="hljs-built_in">console</span>.log(item + <span class="hljs-string">&apos;:&apos;</span> + val); <span class="hljs-comment">//  0:&#x79D1;&#x5927;&#x8BAF;&#x98DE;  1&#xFF1A;&#x653F;&#x6CD5;BG  2&#xFF1A;&#x524D;&#x7AEF;&#x5F00;&#x53D1;</span>
 }</code></pre><h2 id="articleHeader5">&#x603B;&#x7ED3;&#xFF1A;forEach&#x3001;map&#x3001;filter&#x3001;reduce&#x3001;every&#x3001;some &#x90FD;&#x4F1A;&#x6709; break &#x548C; continue &#x4E0D;&#x751F;&#x6548;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x56E0;&#x4E3A;&#x662F;&#x5728;function&#x4E2D;&#xFF0C;&#x4F46;function&#x89E3;&#x51B3;&#x4E86;&#x95ED;&#x5305;&#x9677;&#x9631;&#x7684;&#x95EE;&#x9898;&#xFF1B;&#x8981;&#x4F7F;&#x7528; break&#x3001;continue &#x53EF;&#x4EE5;&#x4F7F;&#x7528; for&#x3001;for...in&#x3001;for...of&#x3001;while&#x3002; &#x7528;&#x4E8E;&#x904D;&#x5386;&#x6570;&#x7EC4;&#x5143;&#x7D20;&#x4F7F;&#x7528;&#xFF1A;for()&#xFF0C;forEach()&#xFF0C;map()&#xFF0C;for...of &#x7528;&#x4E8E;&#x5FAA;&#x73AF;&#x5BF9;&#x8C61;&#x5C5E;&#x6027;&#x4F7F;&#x7528;&#xFF1A;for...in</h2>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

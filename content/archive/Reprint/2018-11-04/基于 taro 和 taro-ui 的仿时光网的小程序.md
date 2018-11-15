@@ -1,12 +1,12 @@
 ---
 title: 基于 taro 和 taro-ui 的仿时光网的小程序
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 214bcf93
+slug: 214bcf93
 date: 2018-11-04 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>&#x672C;&#x9879;&#x76EE;&#x662F;&#x57FA;&#x4E8E; taro &#x548C; taro-ui &#x7684;&#x4EFF;&#x65F6;&#x5149;&#x7F51;&#x7684;&#x5C0F;&#x7A0B;&#x5E8F;&#x5B66;&#x4E60;&#x9879;&#x76EE;&#xFF0C;&#x540E;&#x7EED;&#x529F;&#x80FD;&#x4ECD;&#x5728;&#x5F00;&#x53D1;&#x4E2D;</p><p>&#x9879;&#x76EE;&#x4E2D;&#x7684;&#x63A5;&#x53E3;&#x4F7F;&#x7528;&#x7684;&#x65F6;&#x5149;&#x7F51;&#x7684;API&#xFF0C;&#x6709;&#x4FB5;&#x72AF;&#x65F6;&#x5149;&#x7F51;&#x6743;&#x76CA;&#x7684;&#x5ACC;&#x7591;&#xFF0C;&#x82E5;&#x88AB;&#x544A;&#x77E5;&#x9700;&#x505C;&#x6B62;&#x4F7F;&#x7528;&#xFF0C;&#x672C;&#x4EBA;&#x4F1A;&#x53CA;&#x65F6;&#x5220;&#x9664;&#x6B64;&#x9875;&#x9762;&#x4E0E;&#x6574;&#x4E2A;&#x9879;&#x76EE;</p><p><strong>&#x9879;&#x76EE;&#x8FD0;&#x884C;</strong></p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="# &#x5168;&#x5C40;&#x5B89;&#x88C5; taro &#x5F00;&#x53D1;&#x5DE5;&#x5177;
 npm install -g @tarojs/cli
 # &#x514B;&#x9686;&#x9879;&#x76EE;
@@ -60,7 +60,7 @@ npm run dev:h5</code></pre><p><strong>&#x6587;&#x4EF6;&#x76EE;&#x5F55;</strong><
         &#x251C;&#x2500;&#x2500; user-center   &#x7528;&#x6237;&#x4E2D;&#x5FC3;
         &#x251C;&#x2500;&#x2500; user-message  &#x6211;&#x7684;&#x6D88;&#x606F;
         &#x2514;&#x2500;&#x2500; user-setting  &#x4E2A;&#x4EBA;&#x8D44;&#x6599;</code></pre><p><strong>&#x5DF2;&#x5F00;&#x53D1;&#x529F;&#x80FD;&#x5217;&#x8868;</strong></p><ul><li>&#x6B63;&#x5728;&#x70ED;&#x6620;</li><li>&#x5373;&#x5C06;&#x4E0A;&#x6620;</li><li>&#x4E2A;&#x4EBA;&#x4E2D;&#x5FC3;</li><li>&#x4E2A;&#x4EBA;&#x8BBE;&#x7F6E;</li><li>&#x6211;&#x7684;&#x6D88;&#x606F;</li></ul><p><strong>&#x5F85;&#x5F00;&#x53D1;&#x529F;&#x80FD;&#x5217;&#x8868;</strong></p><ul><li>&#x7535;&#x5F71;&#x8BE6;&#x60C5;&#x9875;</li><li>&#x4E2A;&#x4EBA;&#x8BBE;&#x7F6E;&#x9879;&#x5185;&#x5BB9;&#x9875;</li><li>&#x6211;&#x7684;&#x6D88;&#x606F;&#x9879;&#x5185;&#x5BB9;&#x9875;</li></ul><p><strong>&#x9875;&#x9762;&#x622A;&#x56FE;</strong></p><p><span class="img-wrap"><img data-src="/img/bVbh8AB?w=316&amp;h=567" src="https://static.alili.tech/img/bVbh8AB?w=316&amp;h=567" alt="&#x6B63;&#x5728;&#x70ED;&#x6620;" title="&#x6B63;&#x5728;&#x70ED;&#x6620;" style="cursor:pointer;display:inline"></span></p><p><span class="img-wrap"><img data-src="/img/bVbh8Al?w=316&amp;h=563" src="https://static.alili.tech/img/bVbh8Al?w=316&amp;h=563" alt="&#x5373;&#x5C06;&#x4E0A;&#x6620;" title="&#x5373;&#x5C06;&#x4E0A;&#x6620;" style="cursor:pointer;display:inline"></span></p><p><span class="img-wrap"><img data-src="/img/bVbh8AD?w=318&amp;h=567" src="https://static.alili.tech/img/bVbh8AD?w=318&amp;h=567" alt="&#x4E2A;&#x4EBA;&#x4E2D;&#x5FC3;" title="&#x4E2A;&#x4EBA;&#x4E2D;&#x5FC3;" style="cursor:pointer;display:inline"></span></p><p><span class="img-wrap"><img data-src="/img/bVbh8AE?w=316&amp;h=564" src="https://static.alili.tech/img/bVbh8AE?w=316&amp;h=564" alt="&#x6211;&#x7684;&#x8D44;&#x6599;" title="&#x6211;&#x7684;&#x8D44;&#x6599;" style="cursor:pointer;display:inline"></span></p><p><span class="img-wrap"><img data-src="/img/bVbh8AF?w=317&amp;h=562" src="https://static.alili.tech/img/bVbh8AF?w=317&amp;h=562" alt="&#x4E2A;&#x4EBA;&#x8BBE;&#x7F6E;" title="&#x4E2A;&#x4EBA;&#x8BBE;&#x7F6E;" style="cursor:pointer;display:inline"></span></p><p><strong>&#x9879;&#x76EE;&#x5730;&#x5740;</strong></p><p>&#x9879;&#x76EE;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/calabash519/taro-mtime" rel="nofollow noreferrer" target="_blank">https://github.com/calabash51...</a>&#xFF0C;&#x5982;&#x679C;&#x5BF9;&#x60A8;&#x6709;&#x5E2E;&#x52A9;&#xFF0C;&#x60A8;&#x53EF;&#x4EE5;&#x70B9;&#x53F3;&#x4E0A;&#x89D2; &quot;Star&quot; &#x652F;&#x6301;&#x4E00;&#x4E0B; &#x8C22;&#x8C22;&#xFF01; ^_^</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

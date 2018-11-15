@@ -1,12 +1,12 @@
 ---
 title: Javascript-深浅拷贝
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 4ad52c84
+slug: 4ad52c84
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">&#x6DF1;&#x6D45;&#x62F7;&#x8D1D;&#x7B80;&#x4ECB;</h2><p>javascript&#x4E2D;&#x5BF9;&#x4E8E;Object&#x548C;Array&#x8FD9;&#x4E24;&#x4E2A;&#x7C7B;&#x578B;&#xFF0C;&#x628A;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#x8D4B;&#x503C;&#x7ED9;&#x53E6;&#x4E00;&#x4E2A;&#x53D8;&#x91CF;&#xFF1B;&#x6D45;&#x62F7;&#x8D1D;&#x53EA;&#x662F;&#x5BF9;&#x62F7;&#x8D1D;&#x5BF9;&#x8C61;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x6DF1;&#x62F7;&#x8D1D;&#x662F;&#x5F7B;&#x5E95;&#x62F7;&#x8D1D;&#xFF0C;&#x751F;&#x6210;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x5C5E;&#x6027;&#x76F8;&#x540C;&#x7684;&#x5BF9;&#x8C61;</p><h2 id="articleHeader1">&#x6D45;&#x62F7;&#x8D1D;&#xFF08;shallow copy&#xFF09;</h2><p><strong>&#x6D45;&#x62F7;&#x8D1D;&#x53EA;&#x662F;&#x5BF9;&#x62F7;&#x8D1D;&#x5BF9;&#x7684;&#x5F15;&#x7528;&#xFF0C;&#x4E24;&#x8005;&#x76F8;&#x4E92;&#x5F71;&#x54CD;</strong></p><h3 id="articleHeader2">&#x6D45;&#x62F7;&#x8D1D;&#x7684;&#x5B9E;&#x73B0;</h3><h4>1.&#x7B80;&#x5355;&#x8D4B;&#x503C;&#x5B9E;&#x73B0;</h4><p>&#x4F8B;&#x5B50;&#xFF1A;obj2&#x62F7;&#x8D1D;&#x4E86;obj1&#xFF0C;obj2&#x6539;&#x53D8;&#xFF0C;obj1&#x4E5F;&#x4F1A;&#x6539;&#x53D8;&#xFF0C;&#x6539;&#x53D8;&#x4E4B;&#x540E;2&#x8005;&#x8FD8;&#x662F;&#x76F8;&#x540C;&#x7684;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="    var obj1 = {a: 1}
     var obj2 = obj1
     obj2.b = 2
@@ -254,7 +254,7 @@ date: 2018-11-06 15:28:31
         <span class="hljs-comment">// Return the modified object</span>
         <span class="hljs-keyword">return</span> target;
     };</code></pre><h4>&#x66F4;&#x591A;&#x65B9;&#x6CD5;...&#x656C;&#x8BF7;&#x671F;&#x5F85;</h4>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

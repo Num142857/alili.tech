@@ -1,12 +1,12 @@
 ---
 title: Egg.js学习
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a45dec63
+slug: a45dec63
 date: 2018-11-10 02:30:10
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">egg.js&#x662F;&#x4EC0;&#x4E48;</h3><blockquote>&#x662F;&#x4E00;&#x4E2A;node.js&#x7684;&#x540E;&#x53F0;web&#x6846;&#x67B6;&#xFF0C;&#x7C7B;&#x4F3C;&#x7684;&#x8FD8;&#x6709;express&#xFF0C;koa</blockquote><p>&#x4F18;&#x52BF;&#xFF1A;<strong>&#x89C4;&#x8303;</strong>&#x3001;<strong>&#x63D2;&#x4EF6;&#x673A;&#x5236;</strong><br>Egg.js&#x7EA6;&#x5B9A;&#x4E86;&#x4E00;&#x5957;&#x4EE3;&#x7801;&#x76EE;&#x5F55;&#x7ED3;&#x6784;<br>&#xFF08;&#x914D;&#x7F6E;config&#x3001;&#x8DEF;&#x7531;router&#x3001;&#x6269;&#x5C55;extend&#x3001;&#x4E2D;&#x95F4;&#x4EF6;middleware&#x3001;&#x63A7;&#x5236;&#x5668;controller&#xFF09;<br>&#x89C4;&#x8303;&#x7684;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#xFF0C;&#x53EF;&#x4EE5;&#x4F7F;&#x5F97;&#x4E0D;&#x540C;&#x56E2;&#x961F;&#x7684;&#x5F00;&#x53D1;&#x8005;&#x4F7F;&#x7528;&#x6846;&#x67B6;&#x5199;&#x51FA;&#x6765;&#x7684;&#x4EE3;&#x7801;&#x98CE;&#x683C;&#x4F1A;&#x66F4;&#x4E00;&#x81F4;&#xFF0C;&#x63A5;&#x624B;&#x6210;&#x672C;&#x4E5F;&#x4F1A;&#x66F4;&#x4F4E;&#x3002;</p><h3 id="articleHeader1">&#x4F7F;&#x7528;&#x573A;&#x666F;</h3><p>BFF&#x5C42;&#xFF08;&#x524D;&#x540E;&#x7AEF;&#x4E4B;&#x95F4;&#x7684;&#x4E2D;&#x95F4;&#x5C42;&#xFF09;&#x3001;&#x5168;&#x6808;&#x3001;SSR&#xFF08;&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;&#xFF09;</p><h3 id="articleHeader2">&#x76EE;&#x5F55;&#x7ED3;&#x6784;</h3><blockquote>&#x6846;&#x67B6;&#x7EA6;&#x5B9A;&#x7684;&#x76EE;&#x5F55;</blockquote><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="app/router.js &#x7528;&#x4E8E;&#x914D;&#x7F6E;URL&#x8DEF;&#x7531;&#x89C4;&#x5219;
 app/contorller/** &#x7528;&#x4E8E;&#x89E3;&#x6790;&#x7528;&#x6237;&#x7684;&#x8F93;&#x5165;&#xFF0C;&#x5904;&#x7406;&#x540E;&#x8FD4;&#x56DE;&#x76F8;&#x5E94;&#x7684;&#x7ED3;&#x679C;
 app/service/** &#x7528;&#x4E8E;&#x7F16;&#x5199;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#x5C42; &#x3010;&#x53EF;&#x9009;&#x3011;
@@ -516,7 +516,7 @@ module.exports = CustomController;
 
 
 </code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

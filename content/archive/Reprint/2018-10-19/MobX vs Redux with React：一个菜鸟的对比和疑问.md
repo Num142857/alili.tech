@@ -1,12 +1,12 @@
 ---
 title: MobX vs Redux with React：一个菜鸟的对比和疑问
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: a588c908
+slug: a588c908
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>React中的状态管理一直是Javascript兄弟会讨论的主题。 我最近想在我的一个项目中实施状态管理，希望在做出重大决策之前做一点研究。</p>
 <p><img src="https://p0.ssl.qhimg.com/t01c21a5f915093f515.jpg" alt=""></p>
@@ -51,7 +51,7 @@ date: 2018-10-19 00:00:00
 <p><img src="https://p0.ssl.qhimg.com/t01364fba67bb856029.gif" alt=""></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/mobx-vs-redux-with-react-a-noob-s-comparison-and-questions](https://www.zcfy.cc/article/mobx-vs-redux-with-react-a-noob-s-comparison-and-questions)

@@ -1,12 +1,12 @@
 ---
 title: Node.js 前端开发指南
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: b821ddf1
+slug: b821ddf1
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p><a href="https://blog.bloomca.me/2018/06/21/nodejs-guide-for-frontend-developers.html//">原文链接</a> </p>
 <p><a href="https://blog.bloomca.me/about">关于作者</a></p>
@@ -418,7 +418,7 @@ server.listen(PORT, <span class="hljs-function"><span class="hljs-params">()</sp
 </blockquote>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/node-js-guide-for-frontend-developers](https://www.zcfy.cc/article/node-js-guide-for-frontend-developers)

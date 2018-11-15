@@ -1,12 +1,12 @@
 ---
 title: Sosreport：收集系统日志和诊断信息的工具
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 7e362e1c
+slug: 7e362e1c
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#sosreport收集系统日志和诊断信息的工具"></a>Sosreport：收集系统日志和诊断信息的工具</h1>
 <p>如果你是 RHEL 管理员，你可能肯定听说过 <strong>Sosreport</strong> ：一个可扩展、可移植的支持数据收集工具。它是一个从类 Unix 操作系统中收集系统配置详细信息和诊断信息的工具。当用户提出支持服务单时，他/她必须运行此工具并将由 Sosreport 工具生成的结果报告发送给 Red Hat 支持人员。然后，执行人员将根据报告进行初步分析，并尝试找出系统中的问题。不仅在 RHEL 系统上，你可以在任何类 Unix 操作系统上使用它来收集系统日志和其他调试信息。</p>
@@ -96,7 +96,7 @@ $</span><span class="bash"> cat uptime</span>
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/sosreport-a-tool-to-collect-system-logs-and-diagnostic-information](https://www.zcfy.cc/article/sosreport-a-tool-to-collect-system-logs-and-diagnostic-information)

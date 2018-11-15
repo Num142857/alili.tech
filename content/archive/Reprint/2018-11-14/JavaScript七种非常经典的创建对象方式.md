@@ -1,12 +1,12 @@
 ---
 title: JavaScript七种非常经典的创建对象方式
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 628e286f
+slug: 628e286f
 date: 2018-11-14 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <p>JavaScript&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x5F0F;&#x6709;&#x5F88;&#x591A;&#xFF0C;&#x901A;&#x8FC7;Object&#x6784;&#x9020;&#x51FD;&#x6570;&#x6216;&#x5BF9;&#x8C61;&#x5B57;&#x9762;&#x91CF;&#x7684;&#x65B9;&#x5F0F;&#x4E5F;&#x53EF;&#x4EE5;&#x521B;&#x5EFA;&#x5355;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x663E;&#x7136;&#x8FD9;&#x4E24;&#x79CD;&#x65B9;&#x5F0F;&#x4F1A;&#x4EA7;&#x751F;&#x5927;&#x91CF;&#x7684;&#x91CD;&#x590D;&#x4EE3;&#x7801;&#xFF0C;&#x5E76;&#x4E0D;&#x9002;&#x5408;&#x91CF;&#x4EA7;&#x3002;&#x63A5;&#x4E0B;&#x6765;&#x4ECB;&#x7ECD;&#x4E03;&#x79CD;&#x975E;&#x5E38;&#x7ECF;&#x5178;&#x7684;&#x521B;&#x5EFA;&#x5BF9;&#x8C61;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x4ED6;&#x4EEC;&#x4E5F;&#x5404;&#x6709;&#x4F18;&#x7F3A;&#x70B9;&#x3002;&#xFF08;&#x5185;&#x5BB9;&#x4E3B;&#x8981;&#x6765;&#x81EA;&#x4E8E;&#x300A;JavaScript&#x9AD8;&#x7EA7;&#x7A0B;&#x5E8F;&#x8BBE;&#x8BA1;&#x300B;&#xFF0C;&#x8FD8;&#x53C2;&#x8003;&#x4E86;&#x4E00;&#x4E0B;&#x522B;&#x4EBA;&#x5199;&#x7684;&#x6587;&#x7AE0;&#xFF09;</p><h2>&#x4E00;&#x3001;&#x5DE5;&#x5382;&#x6A21;&#x5F0F;</h2><pre><code>function createPerson(name, job) { 
  var o = new Object();
  o.name = name;
@@ -102,7 +102,7 @@ person1.sayName()
 var person1 = Person(&apos;Mike&apos;, &apos;student&apos;) 
 person1.sayName();
 </code></pre><p>&#x548C;&#x5BC4;&#x751F;&#x6784;&#x9020;&#x51FD;&#x6570;&#x6A21;&#x5F0F;&#x4E00;&#x6837;&#xFF0C;&#x8FD9;&#x6837;&#x521B;&#x5EFA;&#x51FA;&#x6765;&#x7684;&#x5BF9;&#x8C61;&#x4E0E;&#x6784;&#x9020;&#x51FD;&#x6570;&#x4E4B;&#x95F4;&#x6CA1;&#x6709;&#x4EC0;&#x4E48;&#x5173;&#x7CFB;&#xFF0C;instanceof&#x64CD;&#x4F5C;&#x7B26;&#x5BF9;&#x4ED6;&#x4EEC;&#x6CA1;&#x6709;&#x610F;&#x4E49;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,12 +1,12 @@
 ---
 title: 能让你开发效率翻倍的 VSCode 插件配置（上）
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f2752c38
+slug: f2752c38
 date: 2018-10-23 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
                     
 <p>工欲善其事必先利其器，软件工程师每天打交道最多的可能就是编辑器了。入行几年来，先后折腾过的编辑器有 EditPlus、UltraEdit、Visual Studio、EClipse、WebStorm、Vim、SublimeText、Atom、VSCode，现在仍高频使用的就是 <a href="https://code.visualstudio.com" rel="nofollow noreferrer" target="_blank">VSCode</a> 和 <a href="http://www.vim.org" rel="nofollow noreferrer" target="_blank">Vim</a> 了。实际上我在 VSCode 里面安装了 Vim 插件，用 Vim 的按键模式编码，因为自从发现双手不离键盘带来的效率提升之后，就尽可能的不去摸鼠标。</p>
@@ -147,7 +147,7 @@ indent_size = 2" title="" data-original-title="复制"></span>
 <p>你都用了哪些插件呢？欢迎留言交流！</p>
 
                 
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。

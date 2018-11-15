@@ -1,12 +1,12 @@
 ---
 title: 'Tutorial: 用良好的用户界面加速GraphQL mutation'
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: c0dd4948
+slug: c0dd4948
 date: 2018-10-21 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <hr>
 <p>这是我们全栈React+GraphQL系列教程的第四部分，每一部分都是独立的且都会介绍一个新的关键的知识点。所以你可以单独的阅读任何一部分或者一整个系列教程，这完全取决于你。</p>
@@ -91,7 +91,7 @@ mutate({         <span class="hljs-attr">variables</span>: { <span class="hljs-a
 </blockquote>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [www.zcfy.cc](https://www.zcfy.cc/article/tutorial-speeding-up-graphql-mutations-with-optimistic-ui)

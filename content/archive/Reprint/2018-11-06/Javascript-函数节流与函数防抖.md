@@ -1,12 +1,12 @@
 ---
 title: Javascript-函数节流与函数防抖
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: ffa82191
+slug: ffa82191
 date: 2018-11-06 15:28:31
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h3 id="articleHeader0">&#x51FD;&#x6570;&#x8282;&#x6D41;&#xFF08;throttle&#xFF09;</h3><h4>&#x540D;&#x8BCD;&#x89E3;&#x91CA;</h4><p>&#x51FD;&#x6570;&#x8282;&#x6D41;&#xFF08;throttle&#xFF09;&#xFF1A;&#x8FDE;&#x7EED;&#x6267;&#x884C;&#x51FD;&#x6570;&#xFF0C;&#x6BCF;&#x9694;&#x4E00;&#x5B9A;&#x65F6;&#x95F4;&#x6267;&#x884C;&#x51FD;&#x6570;</p><h4>&#x4F7F;&#x7528;&#x573A;&#x666F;</h4><p>&#x9F20;&#x6807;&#x79FB;&#x52A8;&#xFF0C;mousemove &#x4E8B;&#x4EF6;<br>DOM &#x5143;&#x7D20;&#x52A8;&#x6001;&#x5B9A;&#x4F4D;&#xFF0C;window&#x5BF9;&#x8C61;&#x7684;resize&#x548C;scroll &#x4E8B;&#x4EF6;<br>&#x7B49;&#x7B49;...</p><h4>&#x51FD;&#x6570;&#x8282;&#x6D41;&#xFF08;throttle&#xFF09;&#x7B80;&#x5355;&#x5B9E;&#x73B0;</h4><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="    function throttle(fn, delay) {
         var last; // &#x4E0A;&#x6B21;&#x6267;&#x884C;&#x7684;&#x65F6;&#x95F4;
         var timer; // &#x5B9A;&#x65F6;&#x5668;
@@ -68,7 +68,7 @@ date: 2018-11-06 15:28:31
             }, delay);
         };
     }</code></pre>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

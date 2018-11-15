@@ -1,12 +1,12 @@
 ---
 title: GraphQL如何取代Redux
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 31cd5561
+slug: 31cd5561
 date: 2018-10-18 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <p>“你说什么？”“GraphQL是一个服务端查询语言，Redux是一个客户端状态管理库，他们如何替换对方？”真是一个好问题<em>坐稳了，接下来我就要回答这个问题了.</em></p>
 <h4>⚛️切换到React</h4>
@@ -48,7 +48,7 @@ date: 2018-10-18 00:00:00
 <p>🤨思考？有问题吗？ 粗鲁的评论？ 在推特上@我： <a href="https://twitter.com/wmdmark">https://twitter.com/wmdmark</a></p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/how-graphql-replaces-redux](https://www.zcfy.cc/article/how-graphql-replaces-redux)

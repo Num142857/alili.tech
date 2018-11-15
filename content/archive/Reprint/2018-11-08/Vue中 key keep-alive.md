@@ -1,12 +1,12 @@
 ---
 title: Vue中 key keep-alive
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: 9da4289c
+slug: 9da4289c
 date: 2018-11-08 02:30:09
 ---
 
-{{% raw %}}
+{{< raw >}}
 <h2 id="articleHeader0">keep-alive key</h2><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 &lt;head&gt;
@@ -84,7 +84,7 @@ date: 2018-11-08 02:30:09
     </span><span class="hljs-tag">&lt;/<span class="hljs-name">script</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">body</span>&gt;</span>
 <span class="hljs-tag">&lt;/<span class="hljs-name">html</span>&gt;</span></code></pre><p>key&#x662F;&#x6807;&#x8BC6;&#x5143;&#x7D20;&#x4E0D;&#x518D;&#x88AB;&#x590D;&#x7528;&#xFF0C;&#x6CE8;&#x610F;key&#x662F;Vue&#x4E2D;&#x7684;&#x4E00;&#x4E2A;&#x4FDD;&#x7559;&#x7684;&#x5C5E;&#x6027;&#xFF0C;&#x4E0D;&#x80FD;&#x4F5C;&#x4E3A;prop&#x4F20;&#x9012;&#x7ED9;&#x5B50;&#x7EC4;&#x4EF6;&#xFF0C;&#x5426;&#x5219;&#x4F1A;&#x5728;&#x63A7;&#x5236;&#x53F0;&#x770B;&#x5230;Vue&#x7684;&#x62A5;&#x9519;</p><p>&#x4F46;&#x662F;keep-alive&#x6807;&#x8BC6;&#x4E0D;&#x91CD;&#x590D;&#x521B;&#x5EFA;&#x7EC4;&#x4EF6;&#x5B9E;&#x4F8B;&#xFF0C;&#x4E5F;&#x5C31;&#x662F;&#x53EA;&#x4F1A;&#x89E6;&#x53D1;&#x4E00;&#x6B21;<code>created mounted</code>&#x4E8B;&#x4EF6;&#xFF0C;</p><p>&#x5229;&#x7528;&#x4E24;&#x8005;&#x53EF;&#x4EE5;&#x5BF9;&#x7EC4;&#x4EF6;&#x7684;&#x590D;&#x7528;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#x7CBE;&#x7EC6;&#x7684;&#x7BA1;&#x7406;</p>
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

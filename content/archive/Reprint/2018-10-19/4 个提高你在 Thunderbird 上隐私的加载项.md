@@ -1,12 +1,12 @@
 ---
 title: 4 个提高你在 Thunderbird 上隐私的加载项
-reprint: true
+hidden: true
 categories: reprint
-abbrlink: f4ae8dce
+slug: f4ae8dce
 date: 2018-10-19 00:00:00
 ---
 
-{{% raw %}}
+{{< raw >}}
 
             <h1><a href="#4-个提高你在-thunderbird-上隐私的加载项"></a>4 个提高你在 Thunderbird 上隐私的加载项</h1>
 <p>Thunderbird 是由 <a href="https://www.mozilla.org/en-US/">Mozilla</a> 开发的流行的免费电子邮件客户端。与 Firefox 类似，Thunderbird 提供了大量加载项来用于额外功能和自定义。本文重点介绍四个加载项，以改善你的隐私。</p>
@@ -35,7 +35,7 @@ date: 2018-10-19 00:00:00
 <p>本文由 <a href="https://github.com/LCTT/TranslateProject">LCTT</a> 原创编译，<a href="https://linux.cn/">Linux中国</a> 荣誉推出</p>
 
           
-{{% /raw %}}
+{{< /raw >}}
 
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/4-add-ons-to-improve-your-privacy-on-thunderbird](https://www.zcfy.cc/article/4-add-ons-to-improve-your-privacy-on-thunderbird)
