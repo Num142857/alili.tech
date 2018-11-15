@@ -1,5 +1,5 @@
 baseURL : "https://alili.tech/"
-languageCode : "en-us"
+languageCode : "zh"
 title : "Alili"
 theme : "hugo-cactus-dark"
 permalinks:

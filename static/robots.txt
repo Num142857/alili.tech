@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /2018/
+Disallow: /2017/
+Disallow: /2016/
+Disallow: /2015/
+Disallow: /2014/
+Disallow: /data/
+
+Allow: /archive/
+
+Sitemap: https://alili.tech/sitemap.xml
+Sitemap: https://alili.tech/baidusitemap.xml
