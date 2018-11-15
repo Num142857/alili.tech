@@ -19,17 +19,17 @@
                               </span>
                             </span>
                         </div>
-                        {{ range .Params.tags }}
-                        <div class="article-tag">
-                                <i class="fa fa-tag"></i>
-                                <a href="/tags/{{ . | urlize }}">
-                                   {{ . }}</a> 
-                            </div>
-                        {{ end }}
-                        <p>
-                                {{ if lt 1 .WordCount }}{{ .WordCount }} words{{ else }}{{ .WordCount }} word{{ end }}
-                                {{ .ReadingTime }} minute read
-                        </p>
+                        | {{ if lt 1 .WordCount }}{{ .WordCount }}字{{ else }}{{ .WordCount }}字{{ end }}
+                        | {{ .ReadingTime }} min
+                        <div class="article-tag-box">
+                                {{ range .Params.tags }}
+                                <div class="article-tag">
+                                        <i class="fa fa-tag"></i>
+                                        <a href="/tags/{{ . | urlize }}">
+                                           {{ . }}</a> 
+                                    </div>
+                                {{ end }}
+                        </div>
 
                         
                       </div>

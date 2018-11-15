@@ -1151,6 +1151,10 @@ article .content .caption {
     line-height: 1.25
 }
 
+.article-tag-box .article-tag:first-child::before {
+    content: "" !important;
+}
+
 .article-tag {
     display: inline
 }
@@ -1186,7 +1190,7 @@ article .content .caption {
 }
 
 @media (min-width: 480px) {
-    .article-tag:before {
+    .article-tag::before {
         content:"|"
     }
 
