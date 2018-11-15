@@ -1,12 +1,12 @@
 ---
 title: '学习ES6笔记──工作中常用到的ES6语法' 
-date: 2018-11-15 21:18:15
+date: 2018-11-15 21:20:48
 hidden: true
-slug: nr86pap998
+slug: cmqgpc7l9w
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <h2>&#x4E00;&#x3001;let&#x548C;const</h2><p>&#x5728;JavaScript&#x4E2D;&#x54B1;&#x4EEC;&#x4EE5;&#x524D;&#x4E3B;&#x8981;&#x7528;&#x5173;&#x952E;var&#x6765;&#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#xFF0C;ES6&#x4E4B;&#x540E;&#xFF0C;&#x65B0;&#x589E;&#x4E86;&#x5B9A;&#x4E49;&#x53D8;&#x91CF;&#x7684;&#x4E24;&#x4E2A;&#x5173;&#x952E;&#x5B57;&#xFF0C;&#x5206;&#x522B;&#x662F;let&#x548C;const&#x3002;<br>&#x5BF9;&#x4E8E;&#x53D8;&#x91CF;&#x6765;&#x8BF4;&#xFF0C;&#x5728;ES5&#x4E2D;var&#x5B9A;&#x4E49;&#x7684;&#x53D8;&#x91CF;&#x4F1A;&#x63D0;&#x5347;&#x5230;&#x4F5C;&#x7528;&#x57DF;&#x4E2D;&#x6240;&#x6709;&#x7684;&#x51FD;&#x6570;&#x4E0E;&#x8BED;&#x53E5;&#x524D;&#x9762;&#xFF0C;&#x800C;ES6&#x4E2D;let&#x5B9A;&#x4E49;&#x7684;&#x53D8;&#x91CF;&#x5219;&#x4E0D;&#x4F1A;&#xFF0C;let&#x58F0;&#x660E;&#x7684;&#x53D8;&#x91CF;&#x4F1A;&#x5728;&#x5176;&#x76F8;&#x5E94;&#x7684;&#x4EE3;&#x7801;&#x5757;&#x4E2D;&#x5EFA;&#x7ACB;&#x4E00;&#x4E2A;&#x6682;&#x65F6;&#x6027;&#x6B7B;&#x533A;&#xFF0C;&#x76F4;&#x81F3;&#x53D8;&#x91CF;&#x88AB;&#x58F0;&#x660E;&#x3002;<br>let&#x548C;const&#x90FD;&#x80FD;&#x591F;&#x58F0;&#x660E;&#x5757;&#x7EA7;&#x4F5C;&#x7528;&#x57DF;&#xFF0C;&#x7528;&#x6CD5;&#x548C;var&#x662F;&#x7C7B;&#x4F3C;&#x7684;&#xFF0C;let&#x7684;&#x7279;&#x70B9;&#x662F;&#x4E0D;&#x4F1A;&#x53D8;&#x91CF;&#x63D0;&#x5347;&#xFF0C;&#x800C;&#x662F;&#x88AB;&#x9501;&#x5728;&#x5F53;&#x524D;&#x5757;&#x4E2D;&#x3002;</p><p>&#x4E00;&#x4E2A;&#x975E;&#x5E38;&#x7B80;&#x5355;&#x7684;&#x4F8B;&#x5B50;&#xFF1A;</p><pre><code>function test() {
 if(true) {
   console.log(a)//TDZ&#xFF0C;&#x4FD7;&#x79F0;&#x4E34;&#x65F6;&#x6B7B;&#x533A;&#xFF0C;&#x7528;&#x6765;&#x63CF;&#x8FF0;&#x53D8;&#x91CF;&#x4E0D;&#x63D0;&#x5347;&#x7684;&#x73B0;&#x8C61;
@@ -282,7 +282,7 @@ console.log(arr1.copyWithin(3, 1)) // [1,2,3,2,3] &#x4ECE;&#x4E0B;&#x6807;&#x4E3
 
 const arr2 = [1, 2, 3, 4, 5]
 console.log(arr2.copyWithin(3, 1, 2)) // [1,2,3,2,5] &#x4ECE;&#x4E0B;&#x6807;&#x4E3A;3&#x7684;&#x5143;&#x7D20;&#x5F00;&#x59CB;&#xFF0C;&#x590D;&#x5236;&#x6570;&#x7EC4;&#xFF0C;&#x6307;&#x5B9A;&#x590D;&#x5236;&#x7684;&#x7B2C;&#x4E00;&#x4E2A;&#x5143;&#x7D20;&#x4E0B;&#x6807;&#x4E3A;1&#xFF0C;&#x7ED3;&#x675F;&#x4F4D;&#x7F6E;&#x4E3A;2&#xFF0C;&#x6240;&#x4EE5;4&#x88AB;&#x66FF;&#x6362;&#x6210;2</code></pre><hr><p>ES6&#x4E2D;&#x7C7B;class&#x3001;Promise&#x4E0E;&#x5F02;&#x6B65;&#x7F16;&#x7A0B;&#x3001;&#x4EE3;&#x7406;&#xFF08;Proxy&#xFF09;&#x548C;&#x53CD;&#x5C04;&#xFF08;Reflection&#xFF09;API&#xFF0C;&#x8FD9;&#x51E0;&#x5757;&#x5185;&#x5BB9;&#x6BD4;&#x8F83;&#x590D;&#x6742;&#xFF0C;&#x4EE5;&#x540E;&#x6709;&#x673A;&#x4F1A;&#x518D;&#x8BE6;&#x7EC6;&#x5199;&#x3002;</p><p>PS: &#x5199;&#x7684;&#x592A;&#x5306;&#x5FD9;&#x4E86;&#xFF0C;&#x96BE;&#x514D;&#x6709;&#x9519;&#x6F0F;&#x7684;&#x5730;&#x65B9;&#x3002;</p>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

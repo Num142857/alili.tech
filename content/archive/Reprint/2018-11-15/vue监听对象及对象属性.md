@@ -1,12 +1,12 @@
 ---
 title: 'vue监听对象及对象属性' 
-date: 2018-11-15 21:18:14
+date: 2018-11-15 21:20:48
 hidden: true
-slug: 74z3dzyfjps
+slug: hpg105keuy9
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <h3>&#x76D1;&#x542C;&#x6574;&#x4E2A;&#x5BF9;&#x8C61;&#xFF0C;&#x4F7F;&#x7528;watch&#x5C31;&#x884C;</h3><pre><code class="cpp">export default {
     data() {
         return {
@@ -44,7 +44,7 @@ categories: reprint
         }
     }
 }</code></pre>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

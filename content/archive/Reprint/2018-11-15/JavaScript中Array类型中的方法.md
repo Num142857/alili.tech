@@ -1,12 +1,12 @@
 ---
 title: 'JavaScript中Array类型中的方法' 
-date: 2018-11-15 21:18:14
+date: 2018-11-15 21:20:48
 hidden: true
-slug: d7mxpkbjzub
+slug: lba27wvhim
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <h2>Array&#x7C7B;&#x578B;</h2><h4>&#x68C0;&#x6D4B;&#x6570;&#x7EC4;</h4><p>&#x68C0;&#x6D4B;&#x6570;&#x7EC4;&#x6709;&#x4EE5;&#x4E0B;&#x51E0;&#x79CD;&#x65B9;&#x6CD5;&#xFF0C;</p><ul><li>instanceof</li></ul><pre><code>var arr=[&apos;&#x524D;&#x7AEF;&apos;,&apos;&#x4FDD;&#x5B9A;&apos;,&apos;&#x5C31;&#x4E1A;&apos;];
 console.log(arr instanceof Array);//true</code></pre><ul><li>Object.prototype.toString.call()&#x65B9;&#x6CD5;</li></ul><pre><code>var arr=[&apos;&#x524D;&#x7AEF;&apos;,&apos;&#x4FDD;&#x5B9A;&apos;,&apos;&#x5C31;&#x4E1A;&apos;];
 console.log(Object.prototype.toString.call(arr));//[object Array]</code></pre><ul><li>Array.prototype.isPrototypeOf()</li></ul><pre><code>var arr=[&apos;&#x524D;&#x7AEF;&apos;,&apos;&#x4FDD;&#x5B9A;&apos;,&apos;&#x5C31;&#x4E1A;&apos;];
@@ -66,7 +66,7 @@ arr.reduce(function(accumulator,currentValue,currentIndex,array){
     console.log(accumulator);
     return accumulator+currentValue;
 });</code></pre>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

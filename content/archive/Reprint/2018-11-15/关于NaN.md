@@ -1,12 +1,12 @@
 ---
 title: '关于NaN' 
-date: 2018-11-15 21:18:14
+date: 2018-11-15 21:20:48
 hidden: true
-slug: vcxcfvi5ab
+slug: q4wi11x3l5k
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <p>&#x6628;&#x5929;&#x770B;&#x5230;&#x4E00;&#x4E2A;&#x9762;&#x8BD5;&#x9898;&#xFF1A;&#x600E;&#x6837;&#x5B9E;&#x73B0; <code>isNaN()</code> &#x65B9;&#x6CD5;&#xFF1F;</p><p>&#x7EC6;&#x7EC6;&#x7814;&#x7A76;&#x4E86;&#x4E00;&#x4E0B; <code>NaN</code>&#xFF0C;&#x53D1;&#x73B0;&#x8FD9;&#x4E2A;&#x4E1C;&#x897F;&#x4E0D;&#x5E38;&#x7528;&#xFF0C;&#x5751;&#x5374;&#x5F02;&#x5E38;&#x591A;&#xFF0C;&#x9887;&#x6709; &#x201C;&#x8334;&#x201D; &#x5B57;&#x6709;&#x51E0;&#x79CD;&#x5199;&#x6CD5;&#x7684;&#x611F;&#x89C9;&#xFF0C;&#x8FD9;&#x91CC;&#x8BB0;&#x5F55;&#x4E0B;&#x603B;&#x7ED3;&#x7684;&#x4E1C;&#x897F;&#x5427;&#x3002;</p><h2><code>NaN</code> &#x662F;&#x4EC0;&#x4E48;</h2><p><code>NaN</code> &#x5373; <b>Not a Number</b>(&#x975E;&#x6570;&#x503C;)&#xFF0C;&#x4F46;&#x5B83;&#x662F;&#x4E00;&#x4E2A;&#x7279;&#x6B8A;&#x7684;&#x6570;&#x503C;&#xFF0C;&#x6240;&#x4EE5;&#xFF1A;</p><pre><code>typeof(NaN)  // &quot;number&quot;</code></pre><p>&#x7F16;&#x7801;&#x65F6;&#x5F88;&#x5C11;&#x76F4;&#x63A5;&#x4F7F;&#x7528; <code>NaN</code>&#xFF0C;&#x901A;&#x5E38;&#x662F;&#x5728;&#x8BA1;&#x7B97;&#x5931;&#x8D25;&#x65F6;&#xFF0C;&#x4F5C;&#x4E3A; <code>Math</code> &#x7684;&#x67D0;&#x4E2A;&#x65B9;&#x6CD5;&#x7684;&#x8FD4;&#x56DE;&#x503C;&#x51FA;&#x73B0;&#x7684;&#x3002;</p><p>&#x5B83;&#x6709;&#x4E24;&#x4E2A;&#x91CD;&#x8981;&#x7684;&#x6027;&#x8D28;&#xFF1A;</p><ul><li><code>NaN</code>&#x4E0E;&#x4EFB;&#x4F55;&#x503C;&#x90FD;&#x4E0D;&#x76F8;&#x7B49;&#xFF0C;&#x5305;&#x62EC;<code>NaN</code>&#x81EA;&#x8EAB;&#xFF1A;</li></ul><pre><code>alert(NaN == NaN)  // false
 alert(NaN === NaN)  // false</code></pre><ul><li>&#x4EFB;&#x4F55;&#x6D89;&#x53CA; <code>NaN</code>&#x7684;&#x64CD;&#x4F5C;&#x90FD;&#x4F1A;&#x8FD4;&#x56DE;<code>NaN</code>&#x3002;</li></ul><h3>&#x54EA;&#x4E9B;&#x60C5;&#x51B5;&#x4F1A;&#x4EA7;&#x751F;<code>NaN</code>?</h3><h4>1. &#x8BA1;&#x7B97;</h4><p>JS &#x5728;&#x8FDB;&#x884C;&#x52A0;&#x51CF;&#x4E58;&#x9664;&#x8FD0;&#x7B97;&#x4E4B;&#x524D;&#xFF0C;&#x4F1A;&#x5148;&#x8C03;&#x7528; <code>Number()</code>&#x65B9;&#x6CD5;&#xFF0C;&#x5C06;&#x975E;&#x6570;&#x503C;&#x7684;&#x8FD0;&#x7B97;&#x9879;&#x8F6C;&#x5316;&#x4E3A;&#x6570;&#x503C;&#xFF0C;&#x5982;&#x679C;&#x8F6C;&#x6362;&#x5931;&#x8D25;&#x5C31;&#x8FD4;&#x56DE;<code>NaN</code>&#xFF0C;&#x6BD4;&#x5982;&#xFF1A;</p><pre><code>1-&apos;a&apos;;   // NaN</code></pre><p>&#x9996;&#x5148;&#x662F;&#x6267;&#x884C;<code>Number(&apos;a&apos;)</code>&#xFF0C;&#x4E0D;&#x80FD;&#x6210;&#x529F;&#x8F6C;&#x5316;&#x4E3A;&#x6570;&#x503C;&#xFF0C;&#x8FD4;&#x56DE;<code>NaN</code>&#xFF0C;&#x518D;&#x5229;&#x7528;<code>NaN</code>&#x7684;&#x7B2C;&#x4E8C;&#x6761;&#x6027;&#x8D28;&#xFF1A;&#x4EFB;&#x4F55;&#x6D89;&#x53CA; <code>NaN</code>&#x7684;&#x64CD;&#x4F5C;&#x90FD;&#x4F1A;&#x8FD4;&#x56DE;<code>NaN</code>&#xFF0C;&#x6240;&#x4EE5;&#x6700;&#x7EC8;&#x7684;&#x7ED3;&#x679C;&#x662F;<code>NaN</code>&#x3002;</p><h4>2. &#x7C7B;&#x578B;&#x8F6C;&#x6362;</h4><p>&#x5F53;&#x4E00;&#x4E2A;&#x503C;&#x4E0D;&#x80FD;&#x88AB;<code>Number</code>&#xFF0C;<code>parseInt</code>&#xFF0C;<code>parseFloat</code>&#x6210;&#x529F;&#x8F6C;&#x6362;&#x4E3A;&#x6570;&#x503C;&#xFF0C;&#x5C31;&#x8FD4;&#x56DE;<code>NaN</code>&#xFF0C;&#x4E3E;&#x4F8B;&#xFF1A;</p><pre><code>Number(&apos;123.456abc&apos;);   // NaN
 parseInt(&apos;123.456abc&apos;);  // 123
@@ -44,7 +44,7 @@ isNaNA(&apos;123abc&apos;);   // true
 isNaNB(&apos;123abc&apos;);   // false</code></pre><h2><code>Number.isNaN()</code></h2><p>ES6 &#x4E2D;&#x7684;<code>Number.isNaN()</code>&#x662F;&#x4E00;&#x4E2A;&#x5224;&#x65AD;<code>NaN</code>&#x7684;&#x5347;&#x7EA7;&#x7248;&#xFF0C;&#x548C;<code>isNaN()</code>&#x4E0D;&#x540C;&#x7684;&#x662F;&#xFF0C;<code>Number.isNaN()</code>&#x4E0D;&#x4F1A;&#x5F3A;&#x5236;&#x8F6C;&#x5316;&#x53C2;&#x6570;&#xFF0C;&#x76F4;&#x63A5;&#x5BF9;&#x53C2;&#x6570;&#x672C;&#x8EAB;&#x505A;&#x5224;&#x65AD;&#xFF0C;&#x8FD9;&#x6837;&#x53EA;&#x6709;&#x53C2;&#x6570;&#x663E;&#x793A;&#x7B49;&#x4E8E;<code>NaN</code>&#xFF0C;&#x624D;&#x4F1A;&#x8FD4;&#x56DE;<code>true</code></p><pre><code>Number.isNaN(NaN);  // true&#xFF0C;&#x5176;&#x4ED6;&#x60C5;&#x51B5;&#x90FD;&#x8FD4;&#x56DE; false</code></pre><p>&#x5B83;&#x7684;&#x5B9E;&#x73B0;&#x539F;&#x7406;&#x662F;&#xFF1A;</p><pre><code>function isNaNC (value) {
     return typeof(value) === &quot;number&quot; &amp;&amp; isNaN(value);
 }</code></pre><p>&#x7B97;&#x4E86;&#xFF0C;&#x8FD8;&#x662F;&#x4E0D;&#x7EA0;&#x7ED3;&#x4E86;....</p><h2>&#x53C2;&#x8003;</h2><p><a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/isNaN" rel="nofollow noreferrer">MDN isNaN()</a><br><a href="https://www.cnblogs.com/onepixel/p/5281796.html" rel="nofollow noreferrer">JavaScript&#x4E2D;&#x7684; NaN &#x4E0E; isNaN</a></p>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

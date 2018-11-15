@@ -1,12 +1,12 @@
 ---
 title: 'ES6指北【5】——展开语法(spread syntax)' 
-date: 2018-11-15 21:18:14
+date: 2018-11-15 21:20:48
 hidden: true
-slug: 78t916kx7ui
+slug: gnkxbx0efzr
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <p>&#x6211;&#x4EEC;&#x5148;&#x6765;&#x770B;&#x4E00;&#x770B;MDN&#x7684;&#x5B98;&#x65B9;&#x5B9A;&#x4E49;</p><blockquote>&#x5C55;&#x5F00;&#x8BED;&#x6CD5;(Spread syntax), &#x53EF;&#x4EE5;&#x5728;<code>&#x51FD;&#x6570;&#x8C03;&#x7528;/&#x6570;&#x7EC4;&#x6784;&#x9020;</code>&#x65F6;, &#x5C06;<strong>&#x6570;&#x7EC4;&#x8868;&#x8FBE;&#x5F0F;</strong>&#x6216;&#x8005;<strong>string</strong>&#x5728;&#x8BED;&#x6CD5;&#x5C42;&#x9762;&#x5C55;&#x5F00;&#xFF1B;<br>&#x8FD8;&#x53EF;&#x4EE5;&#x5728;<code>&#x6784;&#x9020;&#x5B57;&#x9762;&#x91CF;&#x5BF9;&#x8C61;</code>&#x65F6;, &#x5C06;<strong>&#x5BF9;&#x8C61;&#x8868;&#x8FBE;&#x5F0F;</strong>&#x6309;key-value&#x7684;&#x65B9;&#x5F0F;&#x5C55;&#x5F00;&#x3002;(&#x8BD1;&#x8005;&#x6CE8;: &#x5B57;&#x9762;&#x91CF;&#x4E00;&#x822C;&#x6307; [1, 2, 3] &#x6216;&#x8005; {name: &quot;mdn&quot;} &#x8FD9;&#x79CD;&#x7B80;&#x6D01;&#x7684;&#x6784;&#x9020;&#x65B9;&#x5F0F;)</blockquote><p>&#x4ECE;&#x5B9A;&#x4E49;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4E86;&#x89E3;&#x5230;&#x5C55;&#x5F00;&#x8BED;&#x6CD5;&#x7684;<strong>&#x4F7F;&#x7528;&#x573A;&#x666F;</strong>&#x5982;&#x4E0B;</p><ul><li><code>&#x51FD;&#x6570;</code>&#x8C03;&#x7528;</li><li><code>&#x6570;&#x7EC4;</code>&#x6784;&#x9020;</li><li>&#x6784;&#x9020;<code>&#x5B57;&#x9762;&#x91CF;&#x5BF9;&#x8C61;</code>(ES2018)</li></ul><p><strong>&#x4F5C;&#x7528;</strong>&#x5982;&#x4E0B;</p><ul><li>&#x5C55;&#x5F00;<code>&#x6570;&#x7EC4;</code></li><li>&#x5C55;&#x5F00;<code>&#x5B57;&#x7B26;&#x4E32;</code></li><li>&#x5C55;&#x5F00;<code>&#x5BF9;&#x8C61;</code>&#xFF08;<strong>&#x53EA;&#x80FD;&#x7528;&#x4E8E;&#x6784;&#x9020;&#x5B57;&#x9762;&#x91CF;&#x5BF9;&#x8C61;</strong>&#xFF09;</li></ul><h1>1. &#x5728;&#x51FD;&#x6570;&#x8C03;&#x7528;&#x65F6;&#x4F7F;&#x7528;</h1><pre><code class="javascript">// &#x5C55;&#x5F00;&#x6570;&#x7EC4;
 console.log(...[1,2,3]) // 1 2 3
 
@@ -71,7 +71,7 @@ console.log(newObj)
 // 2.&#x4F7F;&#x7528;assign
 let newObj1 = Object.assign({}, obj)
 console.log(newObj1)</code></pre><blockquote>&#x4F7F;&#x7528;&#x5C55;&#x5F00;&#x8BED;&#x6CD5;&#x5B9E;&#x73B0;</blockquote><pre><code class="javascript">let newObj2 = {...obj}</code></pre><blockquote>&#x7531;&#x4E8E;&#x8FD9;&#x662F;ES2018&#x7684;&#x8BED;&#x6CD5;&#xFF0C;&#x73B0;&#x5728;&#x6D4F;&#x89C8;&#x5668;&#x652F;&#x6301;&#x7684;&#x5E76;&#x4E0D;&#x5230;&#x4F4D;&#xFF0C;&#x56E0;&#x6B64;&#x7B14;&#x8005;&#x5C31;&#x4E0D;&#x505A;&#x8FC7;&#x591A;&#x4ECB;&#x7ECD;&#x4E86;&#x3002;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;<a href="https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Spread_syntax#%E6%9E%84%E9%80%A0%E5%AD%97%E9%9D%A2%E9%87%8F%E5%AF%B9%E8%B1%A1%E6%97%B6%E4%BD%BF%E7%94%A8%E5%B1%95%E5%BC%80%E8%AF%AD%E6%B3%95" rel="nofollow noreferrer">&#x53BB;mdn&#x4E0A;&#x67E5;&#x770B;</a></blockquote>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

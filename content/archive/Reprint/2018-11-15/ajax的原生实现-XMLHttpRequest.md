@@ -1,12 +1,12 @@
 ---
 title: 'ajax的原生实现-XMLHttpRequest' 
-date: 2018-11-15 21:18:15
+date: 2018-11-15 21:20:48
 hidden: true
-slug: ywnlf1m0tb
+slug: 273qf47m3vk
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <blockquote>ajax &#x5373;&#x201C;Asynchronous Javascript And XML&#x201D;&#xFF08;&#x5F02;&#x6B65; JavaScript &#x548C; XML&#xFF09;&#xFF0C;&#x662F;&#x6307;&#x4E00;&#x79CD;&#x521B;&#x5EFA;&#x4EA4;&#x4E92;&#x5F0F;&#x7F51;&#x9875;&#x5E94;&#x7528;&#x7684;&#x7F51;&#x9875;&#x5F00;&#x53D1;&#x6280;&#x672F;&#x3002;&#x5F53;&#x521D;JavaScript&#x7684;&#x53D8;&#x9769;&#x5C31;&#x662F;ajax&#x7684;&#x51FA;&#x73B0;&#x800C;&#x6539;&#x53D8;&#x3002;&#x5728;&#x73B0;&#x4EE3;web&#x9886;&#x57DF;&#x5BF9;&#x6570;&#x636E;&#x7684;&#x5F02;&#x6B65;&#x52A0;&#x8F7D;&#x548C;&#x5C40;&#x90E8;&#x66F4;&#x65B0;&#x4E0A;&#x4E5F;&#x5728;&#x5927;&#x91CF;&#x91C7;&#x7528;ajax&#x8FD9;&#x9879;&#x6280;&#x672F;&#x3002;<br>&#x76EE;&#x524D;&#x6D4F;&#x89C8;&#x5668;&#x5728;&#x4F7F;&#x7528;ajax&#x6280;&#x672F;&#x4E0A;&#x90FD;&#x662F;&#x4F7F;&#x7528;XMLHttpRequest(XHR)&#x5BF9;&#x8C61;&#x6765;&#x5BF9;&#x670D;&#x52A1;&#x5668;&#x8FDB;&#x884C;&#x4EA4;&#x4E92;&#x3002;&#x5BF9;&#x4E8E;IE&#x4F4E;&#x7248;&#x672C;&#xFF08;6/7&#xFF09;&#x4E0A;&#x5219;&#x662F;&#x4F7F;&#x7528;&#x7684;&#x53E6;&#x4E00;&#x79CD;&#x5B9E;&#x73B0;&#x65B9;&#x5F0F;&#xFF08;ActiveXObject),&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x4ECE;URL&#x83B7;&#x53D6;&#x6570;&#x636E;&#xFF0C;&#x800C;&#x4E0D;&#x7528;&#x8BA9;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x5237;&#x65B0;&#xFF0C;&#x4ECE;&#x800C;&#x5B9E;&#x73B0;&#x5C40;&#x90E8;&#x5237;&#x65B0;&#x3002;&#x8FD9;&#x6837;&#x8BF7;&#x6C42;&#x7684;&#x6B21;&#x6570;&#x4E5F;&#x4F1A;&#x5927;&#x5927;&#x51CF;&#x5C11;,&#x6709;&#x6548;&#x8282;&#x7EA6;&#x8D44;&#x6E90;&#x6D6A;&#x8D39;&#x3002;XMLHttpRequest&#x7684;&#x4EA4;&#x4E92;&#x539F;&#x7406;&#x5219;&#x662F;XMLHttpRequst&#x8BF7;&#x6C42;&#x4E8B;&#x4EF6;&#x76EE;&#x6807;&#xFF08;XMLHttpRequestEventTarget)&#x4ECE;&#x800C;&#x5230;&#x8FBE;&#x540E;&#x7AEF;&#x4E8B;&#x4EF6;&#x76EE;&#x6807;&#x3002;&#x4E8B;&#x4EF6;&#x76EE;&#x6807;&#x5BF9;&#x8BF7;&#x6C42;&#x4E8B;&#x4EF6;&#x8FDB;&#x884C;&#x9A8C;&#x8BC1;&#x5B9E;&#x73B0;&#x4E1A;&#x52A1;&#x903B;&#x8F91;&#xFF0C;&#x6700;&#x540E;&#x53EF;&#x4EE5;&#x54CD;&#x5E94;&#x5904;&#x7406;&#x7ED3;&#x679C;&#x4E0E;&#x524D;&#x7AEF;&#x4EA4;&#x4E92;&#x3002;XMLHttpRequest&#x4E0D;&#x5149;&#x80FD;&#x8BF7;&#x6C42;XML&#x7C7B;&#x578B;&#x7684;&#x6570;&#x636E;&#xFF08;&#x6587;&#x672C;&#x3001;&#x56FE;&#x7247;&#x3001;html&#xFF0C;&#x4FE1;&#x606F;&#x6D41;&#x7B49;&#xFF09;&#xFF0C;&#x540C;&#x6837;&#x8FD8;&#x652F;&#x6301;HTTP&#x4EE5;&#x5916;&#x7684;&#x534F;&#x8BAE;&#xFF0C;&#x6BD4;&#x5982;&#x6587;&#x4EF6;&#x6D41;&#x548C;ftp&#x7B49;&#x7B49;&#x3002;&#x7C7B;&#x4F3C;&#x7684;&#x8FD8;&#x6709;WebSockets&#xFF08;&#x5168;&#x53CC;&#x5DE5;&#x901A;&#x4FE1;&#xFF09;&#xFF0C;Server-Sent event&#xFF08;HTML5&#x670D;&#x52A1;&#x5668;&#x53D1;&#x9001;&#x4E8B;&#x4EF6;&#xFF09;&#x3002;</blockquote><h2>XMLHttpRequest&#x5BF9;&#x8C61;&#x7684;&#x4F7F;&#x7528;</h2><p>&#x5728;&#x4F7F;&#x7528;<code>XMLHttpRequest</code>&#x4E4B;&#x524D;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;<code>XMLHttpRequest</code>&#x5BF9;&#x8C61;&#xFF0C;&#x624D;&#x80FD;&#x4F7F;&#x7528;&#x5B83;&#x7684;&#x5C5E;&#x6027;&#x548C;&#x65B9;&#x6CD5;&#x3002;</p><p><strong>&#x5E38;&#x7528;&#x65B9;&#x6CD5;&#x548C;&#x5C5E;&#x6027;&#xFF1A;</strong></p><pre><code class="text">// &#x521D;&#x59CB;&#x5316;&#x5BF9;&#x8C61;&#xFF0C;&#x5C06;&#x6700;&#x5148;&#x8C03;&#x7528;&#x8BE5;&#x5BF9;&#x8C61;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;
 var oReq = new XMLHttpRequest(); &#xA0;
 oReq.open(method,url,async);  // &#x521D;&#x59CB;&#x5316;&#x4E00;&#x4E2A;&#x8BF7;&#x6C42;&#xFF0C;&#x4F8B;&#x5982; oReq.open(&apos;GET&apos;,url,true)
@@ -231,7 +231,7 @@ function ajax(method,url,data,success){
 &lt;/script&gt; &#xA0;
  &lt;/body&gt;
 &lt;/html&gt;</code></pre><p>&#x53C2;&#x8003;&#x6587;&#x732E;&#xFF1A;<br><a href="https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest" rel="nofollow noreferrer">MDN-Web-DOCS-XMLHttpRequest</a><br><a href="https://xhr.spec.whatwg.org/#introduction" rel="nofollow noreferrer">W3C.ORG-XMLHttpRequest</a></p>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

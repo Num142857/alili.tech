@@ -1,12 +1,12 @@
 ---
 title: '微信小程序的 request 封装' 
-date: 2018-11-15 21:18:14
+date: 2018-11-15 21:20:48
 hidden: true
-slug: p1uo3yi62f
+slug: abnrb89y5fp
 categories: reprint
 ---
 
-{% raw %}
+{{< raw >}}
 <h1>&#x80CC;&#x666F;</h1><p>&#x4E4B;&#x524D;&#x5C0F;&#x7A0B;&#x5E8F;&#x4EE3;&#x7801;&#x6DF7;&#x4E71;&#xFF0C;&#x6240;&#x4EE5;&#x65B0;&#x9879;&#x76EE;&#x4E00;&#x5F00;&#x59CB;&#x5C31;&#x51C6;&#x5907;&#x5F04;&#x4E2A;&#x5FAE;&#x4FE1;&#x5C0F;&#x7A0B;&#x5E8F;&#x7684; request &#x7684;&#x5C01;&#x88C5;</p><h1>&#x6D41;&#x7A0B;</h1><p>&#x5148;&#x6765;&#x8BF4;&#x8BF4;&#x6574;&#x4E2A;&#x6D41;&#x7A0B;&#xFF1A;</p><ol><li>appjs &#x91CC;&#x9762;&#x5DF2;&#x8FDB;&#x5165;&#x5C31;&#x53BB;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x5982;&#x679C;&#x6CA1;&#x6709;&#x767B;&#x5F55;&#x5219;&#x9ED8;&#x8BA4;&#x767B;&#x5F55;&#xFF0C;&#x8FD9;&#x91CC;&#x4E0D;&#x505A;&#x9519;&#x8BEF;&#x5904;&#x7406;</li><li>&#x7528;&#x6237;&#x5FC5;&#x987B;&#x540C;&#x610F;&#x6388;&#x6743;&#x624D;&#x80FD;&#x8FDB;&#x884C;&#x64CD;&#x4F5C;&#xFF0C;&#x5982;&#x679C;&#x4E0D;&#x540C;&#x610F;&#x6388;&#x6743;&#x5219;&#x4F1A;&#x4E00;&#x76F4;&#x8DF3;&#x8F6C;&#x5230;&#x6388;&#x6743;&#x9875;&#x9762;</li><li>&#x5728;&#x6388;&#x6743;&#x9875;&#x9762;&#x70B9;&#x51FB;&#x6388;&#x6743;&#x767B;&#x5F55;&#x540E;&#xFF0C;&#x8C03;&#x7528;&#x767B;&#x5F55;&#x63A5;&#x53E3;&#xFF0C;&#x6210;&#x529F;&#x540E;&#x8FD4;&#x56DE;&#x8C03;&#x8D77;&#x6388;&#x6743;&#x7684;&#x9875;&#x9762;&#xFF0C;</li></ol><h1>app.js</h1><p>onLaunch &#x91CC;&#x9762;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x4FE1;&#x606F;</p><pre><code>appSelf = this;
         // &#x5E94;&#x7528;&#x7A0B;&#x5E8F;&#x7B2C;&#x4E00;&#x6B21;&#x8FDB;&#x5165;&#xFF0C;&#x83B7;&#x53D6;&#x7528;&#x6237;&#x4FE1;&#x606F;&#xFF0C;&#x4E0D;&#x505A;&#x4EFB;&#x4F55;&#x9519;&#x8BEF;&#x5904;&#x7406;
         userInfo().then( (res)=&gt;{
@@ -148,7 +148,7 @@ categories: reprint
     },
 
 });</code></pre><h1>&#x9879;&#x76EE;&#x5730;&#x5740;</h1><p><a href="https://github.com/lmxdawn/wxa-demo" rel="nofollow noreferrer">https://github.com/lmxdawn/wx...</a></p><p>&#x4E00;&#x4E2A; vue + thinkphp5.1 &#x642D;&#x5EFA;&#x7684;&#x540E;&#x53F0;&#x7BA1;&#x7406;&#xFF1A;<a href="https://github.com/lmxdawn/vue-admin-html" rel="nofollow noreferrer">https://github.com/lmxdawn/vu...</a></p><p>&#x6F14;&#x793A;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbfLAU?w=311&amp;h=508" src="https://static.alili.tech/img/bVbfLAU?w=311&amp;h=508" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></p>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
