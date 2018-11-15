@@ -12,7 +12,7 @@ install:
     - ls
     - pwd
 
-    
+
 script:
     - hugo -d blog
     - echo 'Hugo build done!'
@@ -27,3 +27,4 @@ after_success:
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages
+    - curl -d "" ${DEPLOY_API}
