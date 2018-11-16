@@ -11,4 +11,4 @@ Disallow: /secret/
 Allow: /archive/
 
 Sitemap: https://alili.tech/sitemap.xml
-Sitemap: https://alili.tech/baidusitemap.xml
+Sitemap: https://alili.tech/sitemap/index.html
