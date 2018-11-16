@@ -124,11 +124,6 @@ $(function () {
   }
 });
 
-// (function () {
-//   var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-//   document.write(unescape("%3Cspan style='display:none' id='cnzz_stat_icon_1274673764'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1274673764%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
-// })()
-
 var _mtac = {};
 (function() {
     var mta = document.createElement("script");
@@ -157,6 +152,12 @@ $(function(){
         ele.attr('href',ele.prev().attr('href'))
       }
     })
-  }
   
+    $("#TableOfContents ul").children().each(function(index){
+      if($(this).children('a').length===0){
+        $(this).addClass('no-before')
+      }
+    })
+  
+  }
 })
