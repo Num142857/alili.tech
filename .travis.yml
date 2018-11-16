@@ -1,8 +1,5 @@
-language: python
-
-python:
-    - "3.6"
-
+language: node_js
+node_js: 10.13.0
 install:
     - uname -a
     - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
@@ -13,15 +10,18 @@ install:
     - pwd
 
 script:
-    - hugo -d blog
+    - hugo
+    - gulp
     - echo 'Hugo build done!'
-after_success:
+before_script:
     - git config --global user.email "incomparable9527@foxmail.com"
     - git config --global user.name "Fan"
-    - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git container
-    - rm -rf container/*
-    - cp -r blog/* container 
-    - cd container
+after_success:
+    - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git
+    # - rm -rf container/*
+    # - cp -r blog/* container 
+    - ls
+    - cd public
     - ls
     - git add .
     - git commit -m 'Travis upate blog'

@@ -1,0 +1,27 @@
+{
+  "name": "alili.tech",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fantasy9527/alili.tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fantasy9527/alili.tech/issues"
+  },
+  "homepage": "https://github.com/Fantasy9527/alili.tech#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.2"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1"
+  }
+}
