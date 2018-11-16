@@ -29,7 +29,7 @@
         <span class="h1"><a href="">Writing</a></span>
         <ul class="post-list" id="post-list">
                 {{$count := 0}}
-                {{ range where .Pages "Params.hidden" "ne" "true" }}
+                {{ range  where .Pages "Params.hidden" "ne" "true" }}
                 {{ $url := replace .Permalink .Site.BaseURL "" }}
                     {{ if ne $url "about/" }}
                     {{$count = add $count 1}}

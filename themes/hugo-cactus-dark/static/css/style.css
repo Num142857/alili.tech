@@ -1609,3 +1609,44 @@ pre code {
     }
 }
 
+#more-post-list {
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#more-post-list li:hover a,.dates{
+    color:#2bbc8a;
+}
+#more-post-list li:hover .dates{
+    color:#2bbc8a;
+}
+
+#more-post-list li,#archive-list li {
+	border-top: 1px solid #c9cacc;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	list-style-type: none;
+	margin-bottom: 0;
+}
+
+
+#more-post-list li:last-child {
+	border-bottom: 1px solid #c9cacc;
+}
+
+#more-post-list a {
+	color: #333;
+	display: block;
+    font: bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
+    background-image:none;
+    color:#c9cacc;
+    font-size: 18px;
+}
+
+#more-post-list .dates {
+	float: right;
+	position: relative;
+	top: 1px;
+	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
+	color: #c9cacc;
+}
