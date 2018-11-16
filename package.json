@@ -20,6 +20,8 @@
     "gulp": "^3.9.1"
   },
   "dependencies": {
-    "gulp-htmlmin": "^5.0.1"
+    "gulp-htmlmin": "^5.0.1",
+    "xml2js": "^0.4.19",
+    "xmlhttprequest": "^1.8.0"
   }
 }
