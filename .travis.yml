@@ -1,7 +1,6 @@
 language: node_js
 node_js: 10.13.0
 install:
-    - uname -a
     - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
     - sudo dpkg -i hugo*.deb
     - hugo version
@@ -19,7 +18,6 @@ after_success:
     - rm -rf container/*
     - cp -r public/* container 
     - cd container
-    - ls
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f

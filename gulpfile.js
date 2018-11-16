@@ -86,4 +86,7 @@ function urlSubmint(urls) {
 };
 
 
-gulp.task("default",['seo','minify'])
+gulp.task("default",[
+    'seo',
+    // 'minify'
+])
