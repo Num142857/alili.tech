@@ -92,6 +92,8 @@ date: 2018-10-19 00:00:00
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/link-rel-prefetch-preload-in-webpack](https://www.zcfy.cc/article/link-rel-prefetch-preload-in-webpack)
 原文标题: 在webpack中使用prefetch/preload
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+
 原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！

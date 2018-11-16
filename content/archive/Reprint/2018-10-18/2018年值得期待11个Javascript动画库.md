@@ -76,5 +76,7 @@ date: 2018-10-18 00:00:00
 原文链接: [https://www.zcfy.cc/article/11-javascript-animation-libraries-for-2018](https://www.zcfy.cc/article/11-javascript-animation-libraries-for-2018)
 原文标题: 2018年值得期待11个Javascript动画库
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+
 原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！

@@ -126,6 +126,8 @@ $(<span class="hljs-string">"#confetti-btn"</span>).click(<span class="hljs-func
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/es6-in-depth-arrow-functions-mozilla-hacks-the-web-developer-blog](https://www.zcfy.cc/article/es6-in-depth-arrow-functions-mozilla-hacks-the-web-developer-blog)
 原文标题: 深入ES6：箭头函数
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+
 原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！

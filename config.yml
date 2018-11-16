@@ -50,11 +50,6 @@ params:
           twitter_id:
           google_plus:
 
-  # # Recommended posts
-  # # Dependency: https://github.com/huiwang/hexo-recommended-posts
-  # recommended_posts:
-  #   enabled: false
-
 sitemap:
     changefreq: monthly
     filename: sitemap.xml

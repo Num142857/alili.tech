@@ -260,7 +260,8 @@ console.log(search(<span class="hljs-keyword">array</span>, <span class="hljs-nu
 <p>在数组中查找元素的时间复杂度是  <em>O(n)</em></p>
 </blockquote>
 <h2>在数组中删除元素</h2>
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+
 <p>先一起思考下这两种情况：</p>
 <ol>
 <li>从数组的末尾删除元素所需时间是恒定的，也就是  <em>O(1)</em>。</li>
@@ -1429,6 +1430,8 @@ console.<span class="hljs-built_in">log</span>(insertMap(<span class="hljs-built
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists](https://www.zcfy.cc/article/data-structures-for-beginners-arrays-hashmaps-and-lists)
 原文标题: 初学者应该了解的数据结构：Array、HashMap 与 List
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+
 原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！

@@ -151,7 +151,8 @@ promiseThatRejects.
 <span class="hljs-comment">// onFinally 返回的是一个 Promise， 需要等待它</span>
 <span class="hljs-comment">// 状态凝固才能继续执行</span>
 <span class="hljs-keyword">const</span> start = <span class="hljs-built_in">Date</span>.now();
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。span>.resolve(<span class="hljs-string">'foo'</span>).
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+span>.resolve(<span class="hljs-string">'foo'</span>).
   <span class="hljs-keyword">finally</span>(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> <span class="hljs-keyword">new</span> <span class="hljs-built_in">Promise</span>(<span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> setTimeout(<span class="hljs-function"><span class="hljs-params">()</span> =&gt;</span> resolve(), <span class="hljs-number">1000</span>))).
   then(<span class="hljs-function"><span class="hljs-params">res</span> =&gt;</span> <span class="hljs-built_in">console</span>.log(res, <span class="hljs-built_in">Date</span>.now() - start));
 </code></pre><p>下面是简版 Polyfill 的实现。</p>
@@ -175,6 +176,8 @@ promiseThatRejects.
 # 版权声明
 原文链接: [https://www.zcfy.cc/article/using-promise-prototype-finally-in-node-js](https://www.zcfy.cc/article/using-promise-prototype-finally-in-node-js)
 原文标题: 在 Node.js 中使用 Promise.prototype.finally
-本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。 
+
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+
 原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！
