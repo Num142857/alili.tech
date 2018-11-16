@@ -1431,8 +1431,9 @@ pre code {
     float: right
 }
 
-.highlight figcaption content: "",.highlight figcaption:before {
-    display: table
+.highlight figcaption ,.highlight figcaption:before {
+    display: table;
+    content: "";
 }
 
 .highlight pre {

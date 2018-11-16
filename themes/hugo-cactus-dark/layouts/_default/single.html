@@ -40,7 +40,7 @@
                             
                             {{ .Content }}
                             <h2> 本文链接：</h2>
-                            <a hrsr='{{.Permalink}}'>{{.Permalink}}</a>
+                            <a href='{{.Permalink}}' target="_blank">{{.Permalink}}</a>
                     </div>
                   </article>
                   {{ partial "comments.html" . }}
