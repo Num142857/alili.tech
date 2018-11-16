@@ -24,10 +24,11 @@ gulp.task('minify', () => {
       .pipe(gulp.dest('public'));
   });
 
-gulp.task('seo', () => {
+gulp.task('url', () => {
+    // return gulp.pipe()
     fs.readFile(__dirname + '/public/sitemap.xml', function(err, data) {
         parser.parseString(data, function (err, result) {
-            urlSubmint(result.urlset.url)
+            urlSubmit(result.urlset.url)
             console.log('Done');
         });
     });
@@ -36,7 +37,7 @@ gulp.task('seo', () => {
 
 
 
-function urlSubmint(urls) {
+function urlSubmit(urls) {
     // 最新内容提交
     var new_target = "http://data.zz.baidu.com/urls?appid="+xz_appid+"&token="+xz_token+"&type=realtime"
     

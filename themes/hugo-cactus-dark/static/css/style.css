@@ -1218,7 +1218,7 @@ article .content .caption {
     -webkit-text-size-adjust:none; 
     white-space:nowrap;
     line-height: 23px;
-    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 2px;
     float: left;
 }
