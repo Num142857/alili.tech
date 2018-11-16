@@ -19,7 +19,7 @@ gulp.task('minify', () => {
         // removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
         // removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
         minifyJS: true,//压缩页面JS
-        // minifyCSS: true//压缩页面CSS
+        minifyCSS: true//压缩页面CSS
        }))
       .pipe(gulp.dest('public'));
   });
@@ -27,7 +27,6 @@ gulp.task('minify', () => {
 gulp.task('seo', () => {
     fs.readFile(__dirname + '/public/sitemap.xml', function(err, data) {
         parser.parseString(data, function (err, result) {
-            
             urlSubmint(result.urlset.url)
             console.log('Done');
         });
@@ -53,24 +52,24 @@ function urlSubmint(urls) {
 
     // 最新url,看熊掌号情况而定
     urls = urls.map(item=>item.loc[0])
-    urls.length = 35
-    var new_urls = urls.join('\n')
+    allUrls = urls.join('\n')
+    new_urls = allUrls.slice(0,35)
     
-    console.info('百度站长最新数据开始提交')
+    console.info('百度站长开始提交')
     sendData(baidu_target,new_urls,'百度站长提交成功')
 
-    console.info('最新数据开始提交')
-    sendData(new_target,new_urls,'最新数据提交完成')
+    console.info('熊掌号开始提交')
+    sendData(new_target,new_urls,'熊掌号提交完成')
 
     // 提交历史url 每天最多500w条
     console.info("历史数据开始提交")
-    sendData(history_target,new_urls,"历史数据提交完成")
+    sendData(history_target,allUrls,"历史数据提交完成")
 
     console.info("MIP 开始提交")
-    sendData(MIP_target,new_urls,"MIP提交成功")
+    sendData(MIP_target,allUrls,"MIP提交成功")
 
     console.info("AMP 开始提交")
-    sendData(AMP_target,new_urls,"AMP提交成功")
+    sendData(AMP_target,allUrls,"AMP提交成功")
 
     function sendData(target,urls,message){
         var xhr = new XMLHttpRequest();
@@ -88,5 +87,5 @@ function urlSubmint(urls) {
 
 gulp.task("default",[
     'seo',
-    // 'minify'
+    'minify'
 ])

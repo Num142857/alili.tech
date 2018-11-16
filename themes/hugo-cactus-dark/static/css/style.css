@@ -1210,11 +1210,17 @@ article .content .caption {
     width: 100%
 }
 
+.tagcloud-wrap{
+    overflow: hidden;
+}
 .tagcloud-wrap a,.tagcloud-wrap a:hover {
     background-image: none;
     -webkit-text-size-adjust:none; 
     white-space:nowrap;
     line-height: 23px;
+    margin-left: 10px;
+    margin-bottom: 2px;
+    float: left;
 }
 
 .blog-post-comments.v .power {
