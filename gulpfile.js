@@ -51,8 +51,6 @@ function urlSubmint(urls) {
 
     var AMP_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token=QsL3LjB4I2GLWGbj&type=amp"
 
-    
-    
     // 最新url,看熊掌号情况而定
     urls = urls.map(item=>item.loc[0])
     urls.length = 35
