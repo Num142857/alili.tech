@@ -1,6 +1,6 @@
 ---
 title: React key值的作用和使用
-reprint: true
+hidden: true
 categories: reprint
 slug: af80725b
 date: 2018-11-15 02:30:08

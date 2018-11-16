@@ -1,6 +1,6 @@
 ---
 title: setInterval与setTimeout
-reprint: true
+hidden: true
 categories: reprint
 slug: 355c0120
 date: 2018-11-15 02:30:08

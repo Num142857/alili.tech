@@ -1,6 +1,6 @@
 ---
 title: 前端进阶（5） - js 扩展：静态类型检查（facebook flow）
-reprint: true
+hidden: true
 categories: reprint
 slug: 59e47a86
 date: 2018-11-15 02:30:08

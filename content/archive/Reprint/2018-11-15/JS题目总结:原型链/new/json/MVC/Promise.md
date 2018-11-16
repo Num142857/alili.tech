@@ -1,6 +1,6 @@
 ---
 title: 'JS题目总结:原型链/new/json/MVC/Promise'
-reprint: true
+hidden: true
 categories: reprint
 slug: 8fbf884e
 date: 2018-11-15 02:30:08

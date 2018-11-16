@@ -1,6 +1,6 @@
 ---
 title: 你不知道的Virtual DOM（一）：Virtual Dom介绍
-reprint: true
+hidden: true
 categories: reprint
 slug: cef5e2ef
 date: 2018-11-15 02:30:08

@@ -1,6 +1,6 @@
 ---
 title: js 中一些意想不到的使用技巧（持续更新，欢迎补充）
-reprint: true
+hidden: true
 categories: reprint
 slug: 99edf55d
 date: 2018-11-15 02:30:08

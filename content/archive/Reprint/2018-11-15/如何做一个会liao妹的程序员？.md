@@ -1,6 +1,6 @@
 ---
 title: 如何做一个会liao妹的程序员？
-reprint: true
+hidden: true
 categories: reprint
 slug: b992f56c
 date: 2018-11-15 02:30:08

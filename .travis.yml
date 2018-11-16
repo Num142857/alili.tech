@@ -5,16 +5,12 @@ install:
     - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
     - sudo dpkg -i hugo*.deb
     - hugo version
-    - rm -rf blog
-    - ls
-    - pwd
     - npm install
 
 script:
     - hugo
     - gulp
-    - ls
-    - echo 'Hugo build done!'
+    - echo 'Build done!'
 after_success:
     - git config --global user.email "incomparable9527@foxmail.com"
     - git config --global user.name "Fan"
