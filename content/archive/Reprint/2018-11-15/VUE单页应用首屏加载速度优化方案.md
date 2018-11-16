@@ -1,11 +1,12 @@
 ---
-title: 'VUE单页应用首屏加载速度优化方案' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: VUE单页应用首屏加载速度优化方案
+reprint: true
+categories: reprint
+slug: ea162dab
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <p>&#x5355;&#x9875;&#x5E94;&#x7528;&#x4F1A;&#x968F;&#x7740;&#x9879;&#x76EE;&#x8D8A;&#x5927;&#xFF0C;&#x5BFC;&#x81F4;&#x9996;&#x5C4F;&#x52A0;&#x8F7D;&#x901F;&#x5EA6;&#x5F88;&#x6162;&#xFF01;&#xFF01;&#xFF01;&#x4EE5;&#x4E0B;&#x7ED9;&#x51FA;&#x5728;&#x4E0B;&#x77E5;&#x9053;&#x7684;&#x51E0;&#x79CD;&#x4F18;&#x5316;&#x65B9;&#x6848;</p><ol><li>&#x4F7F;&#x7528;CDN&#x8D44;&#x6E90;,&#x51CF;&#x5C0F;&#x670D;&#x52A1;&#x5668;&#x5E26;&#x5BBD;&#x538B;&#x529B;</li><li>&#x8DEF;&#x7531;&#x61D2;&#x52A0;&#x8F7D;</li><li>&#x5C06;&#x4E00;&#x4E9B;&#x9759;&#x6001;js css&#x653E;&#x5230;&#x5176;&#x4ED6;&#x5730;&#x65B9;&#xFF08;&#x5982;OSS&#xFF09;&#xFF0C;&#x51CF;&#x5C0F;&#x670D;&#x52A1;&#x5668;&#x538B;&#x529B;</li><li>&#x6309;&#x9700;&#x52A0;&#x8F7D;&#x4E09;&#x65B9;&#x8D44;&#x6E90;&#xFF0C;&#x5982;iview,&#x5EFA;&#x8BAE;&#x6309;&#x9700;&#x5F15;&#x5165;iview&#x4E2D;&#x7684;&#x7EC4;&#x4EF6;</li><li>&#x4F7F;&#x7528;nginx&#x5F00;&#x542F;gzip&#x51CF;&#x5C0F;&#x7F51;&#x7EDC;&#x4F20;&#x8F93;&#x7684;&#x6D41;&#x91CF;&#x5927;&#x5C0F;</li><li>&#x82E5;&#x9996;&#x5C4F;&#x4E3A;&#x767B;&#x5F55;&#x9875;&#xFF0C;&#x53EF;&#x4EE5;&#x505A;&#x6210;&#x591A;&#x5165;&#x53E3;&#xFF0C;&#x767B;&#x5F55;&#x9875;&#x5355;&#x72EC;&#x5206;&#x79BB;&#x4E3A;&#x4E00;&#x4E2A;&#x5165;&#x53E3;</li><li>&#x4F7F;&#x7528;uglifyjs-webpack-plugin&#x63D2;&#x4EF6;&#x4EE3;&#x66FF;webpack&#x81EA;&#x5E26;UglifyJsPlugin&#x63D2;&#x4EF6;</li></ol><h2>&#x4F7F;&#x7528;CDN&#x8D44;&#x6E90;,&#x51CF;&#x5C0F;&#x670D;&#x52A1;&#x5668;&#x5E26;&#x5BBD;&#x538B;&#x529B;</h2><ul><li>&#x5728;index.html&#x4E2D;&#x5F15;&#x5165;cdn&#x8D44;&#x6E90;</li></ul><pre><code>...
   &lt;body&gt;
     &lt;div id=&quot;app&quot;&gt;
@@ -126,7 +127,7 @@ const UglifyJsPlugin = require(&apos;uglifyjs-webpack-plugin&apos;)
     //   },
     //   sourceMap: true
     // }),</code></pre><p>&#x6B64;&#x65B9;&#x6CD5;&#x6709;&#x5F85;&#x5B9E;&#x8DF5;&#xFF0C;&#x7559;&#x5F85;&#x4E0B;&#x6B21;&#x5206;&#x4EAB; ==</p>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

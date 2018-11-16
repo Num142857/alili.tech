@@ -1,11 +1,12 @@
 ---
-title: '深入理解ES6笔记（五）解构：使访问数据更便捷' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: 深入理解ES6笔记（五）解构：使访问数据更便捷
+reprint: true
+categories: reprint
+slug: 2c51a5c3
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <blockquote>&#x4E3B;&#x8981;&#x77E5;&#x8BC6;&#x70B9;&#xFF1A;&#x5BF9;&#x8C61;&#x89E3;&#x6784;&#x3001;&#x6570;&#x7EC4;&#x89E3;&#x6784;&#x3001;&#x6DF7;&#x5408;&#x89E3;&#x6784;&#x4EE5;&#x53CA;&#x53C2;&#x6570;&#x89E3;&#x6784;<br><span class="img-wrap"><img data-src="/img/bVbfWgH?w=1020&amp;h=585" src="https://static.alili.tech/img/bVbfWgH?w=1020&amp;h=585" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></blockquote><p><a href="https://segmentfault.com/a/1190000016152299">&#x300A;&#x6DF1;&#x5165;&#x7406;&#x89E3;ES6&#x300B;&#x7B14;&#x8BB0; &#x76EE;&#x5F55;</a></p><h1>&#x5BF9;&#x8C61;&#x89E3;&#x6784;</h1><h2>&#x5BF9;&#x8C61;&#x89E3;&#x6784;</h2><p><strong>&#x5BF9;&#x8C61;&#x89E3;&#x6784;&#x7B80;&#x5355;&#x7684;&#x4F8B;&#x5B50;</strong></p><pre><code>let node = {
     type: &quot;Identifier&quot;,
     name: &quot;foo&quot;
@@ -176,7 +177,7 @@ setCookie(&quot;type&quot;, &quot;js&quot;);</code></pre><p>&#x53EF;&#x4EE5;&#x8
 ) {
 // ...
 }</code></pre>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

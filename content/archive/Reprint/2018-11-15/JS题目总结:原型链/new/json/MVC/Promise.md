@@ -1,11 +1,12 @@
 ---
-title: 'JS题目总结:原型链/new/json/MVC/Promise' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: 'JS题目总结:原型链/new/json/MVC/Promise'
+reprint: true
+categories: reprint
+slug: 8fbf884e
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <h1>JS&#x9898;&#x76EE;&#x603B;&#x7ED3;:&#x539F;&#x578B;&#x94FE;/new/json/MVC/Promise</h1><h2>1&#x539F;&#x578B;&#x94FE;&#x76F8;&#x5173;</h2><p><span class="img-wrap"><img data-src="/img/remote/1460000016107044?w=672&amp;h=815" src="https://static.alili.tech/img/remote/1460000016107044?w=672&amp;h=815" alt="P4oVZ8.png" title="P4oVZ8.png"></span><br>&#x89E3;&#x8BFB;:<br>&#x4E0A;&#x56FE;&#x4E2D;,Object,Function,Array,Boolean&#x90FD;&#x662F;&#x6784;&#x9020;<strong>&#x51FD;&#x6570;</strong></p><p>&#x7B2C;&#x4E00;&#x4E2A;&#x6846;:<br>object&#x662F;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;,&#x4ED6;&#x7684;&#x6A21;&#x677F;&#x5BF9;&#x8C61;(&#x539F;&#x578B;&#x5BF9;&#x8C61;)&#x5728;Object()&#x6784;&#x9020;&#x51FD;&#x6570;&#x91CC;&#x9762;.<br><code>&#x6784;&#x9020;&#x51FD;&#x6570;.prototype</code>&#x6307;&#x5411;&#x7684;&#x662F;<strong>&#x539F;&#x578B;&#x5BF9;&#x8C61;</strong>,&#x5373;&#x6A21;&#x677F;&#x5BF9;&#x8C61;.<br><code>&#x7531;&#x6784;&#x9020;&#x51FD;&#x6570;&#x6784;&#x9020;&#x51FA;&#x6765;&#x7684;&#x5B9E;&#x4F8B;&#x5BF9;&#x8C61;.__proto__</code>&#x4E5F;&#x6307;&#x5411;&#x7684;&#x662F;<strong>&#x539F;&#x578B;&#x5BF9;&#x8C61;</strong>,&#x5373;&#x6A21;&#x677F;&#x5BF9;&#x8C61;.<br>&#x6240;&#x4EE5;true.</p><p>&#x7B2C;&#x4E8C;&#x4E2A;&#x6846;:<br>fn&#x662F;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x51FD;&#x6570;,&#x662F;&#x7531;<strong>&#x7528;&#x6765;&#x6784;&#x9020;&#x51FA;&#x51FD;&#x6570;</strong>&#x7684;<strong>&#x6784;&#x9020;&#x51FD;&#x6570;</strong>&#x9020;&#x51FA;&#x6765;&#x7684;.<br>&#x6240;&#x4EE5;<code>fn.__proto__ === Function.prototype</code></p><p><code>&#x4EFB;&#x4F55;&#x6784;&#x9020;&#x51FD;&#x6570;.prototype</code>&#x90FD;&#x662F;&#x4E00;&#x4E2A;<strong>&#x5BF9;&#x8C61;</strong>.<br>&#x56E0;&#x4E3A;<code>fn.__proto__ === Function.prototype</code><br>&#x6240;&#x4EE5;<code>fn.__proto__.__proto__ === Object.prototype</code>&#x7B49;&#x4EF7;&#x4E8E;<br><code>Function.prototype.__proto__ === Object.prototype</code><br>&#x7B49;&#x4EF7;&#x4E8E;<br><code>&#x4E00;&#x4E2A;&#x5BF9;&#x8C61;.__proto__ === Object.prototype</code><br>&#x6240;&#x4EE5;&#x662F;true</p><p>&#x7B2C;&#x4E09;&#x4E2A;&#x6846;&#x540C;&#x7406;.</p><p>&#x7B2C;&#x56DB;&#x4E2A;&#x6846;&#x6BD4;&#x8F83;&#x96BE;&#x7406;&#x89E3;:<br>&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x51FD;&#x6570;&#x662F;&#x7531;<strong>&#x7528;&#x6765;&#x6784;&#x9020;&#x51FA;&#x51FD;&#x6570;</strong>&#x7684;<strong>&#x6784;&#x9020;&#x51FD;&#x6570;</strong>&#x9020;&#x51FA;&#x6765;&#x7684;.</p><p>Object,Function,Array&#x90FD;&#x662F;&#x4E00;&#x4E2A;&#x5B9E;&#x4F8B;&#x51FD;&#x6570;,&#x51FD;&#x6570;&#x4E5F;&#x662F;&#x4E00;&#x79CD;&#x7C7B;&#x578B;,&#x5C31;&#x50CF;String&#x662F;&#x4E00;&#x79CD;&#x7C7B;&#x578B;,Number&#x662F;&#x4E00;&#x79CD;&#x7C7B;&#x578B;&#x4E00;&#x6837;,&#x51FD;&#x6570;&#x8FD9;&#x4E2A;&#x7C7B;&#x578B;&#x91CC;&#x7684;&#x5B9E;&#x4F8B;&#x51FD;&#x6570;&#x7531;<strong>&#x51FD;&#x6570;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;</strong>&#x9020;&#x51FA;&#x6765;!&#x5F88;&#x96BE;&#x7406;&#x89E3;<br>&#x6240;&#x4EE5;<code>&#x5B9E;&#x4F8B;&#x51FD;&#x6570;.__proto__===&#x6784;&#x9020;&#x51FD;&#x6570;.prototype</code><br>&#x5B9E;&#x4F8B;&#x51FD;&#x6570;&#x7684;&#x6784;&#x9020;&#x51FD;&#x6570;&#x5C31;&#x662F;<code>Function</code></p><p>&#x6709;&#x70B9;&#x9E21;&#x751F;&#x86CB;&#x86CB;&#x751F;&#x9E21;&#x7684;&#x611F;&#x89C9;.</p><p>&#x7B2C;&#x4E94;&#x4E2A;&#x6846;&#x540C;&#x7406;</p><h2>2&#x9762;&#x5411;&#x5BF9;&#x8C61;,new,&#x539F;&#x578B;&#x94FE;&#x76F8;&#x5173;</h2><pre><code>function fn(){
     console.log(this)
 }
@@ -111,7 +112,7 @@ xxx().then(success, fail)</code></pre><p>&#x6216;&#x8005;:</p><pre><code>functio
         },3000)
     })
 }</code></pre><p><a href="https://segmentfault.com/a/1190000015938472#articleHeader8">&#x53EF;&#x4EE5;&#x770B;&#x770B;&#x6211;&#x7684;&#x535A;&#x5BA2;__&#x4F7F;&#x7528;Promise&#x5C01;&#x88C5;Ajax</a></p>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

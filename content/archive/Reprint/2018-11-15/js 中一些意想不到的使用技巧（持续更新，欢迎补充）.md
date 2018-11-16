@@ -1,11 +1,12 @@
 ---
-title: 'js 中一些意想不到的使用技巧（持续更新，欢迎补充）' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: js 中一些意想不到的使用技巧（持续更新，欢迎补充）
+reprint: true
+categories: reprint
+slug: 99edf55d
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <h1>js &#x4E2D;&#x4E00;&#x4E9B;&#x610F;&#x60F3;&#x4E0D;&#x5230;&#x7684;&#x4F7F;&#x7528;&#x6280;&#x5DE7;&#xFF08;&#x6301;&#x7EED;&#x66F4;&#x65B0;&#xFF0C;&#x6B22;&#x8FCE;&#x8865;&#x5145;&#xFF09;</h1><h3>1. &#x7BAD;&#x5934;&#x51FD;&#x6570; <code>=&gt;</code> &#x8FD4;&#x56DE; <code>map</code> &#x5BF9;&#x8C61;</h3><pre><code>// &#x4E00;&#x822C;&#x7684;&#x5199;&#x6CD5;
 const makeMap = () =&gt; {
   return {key: &apos;value&apos;};
@@ -71,7 +72,7 @@ const addManySuffixes = str =&gt; {
 const addManySuffixes = fnCollection.reduce((a, b) =&gt; str =&gt; a(b(str)));
 // &#x53EF;&#x4EE5;&#x628A; str &#x53C2;&#x6570;&#x6269;&#x5C55;&#x6210;&#x4EFB;&#x610F;&#x53C2;&#x6570;
 const addManySuffixes = fnCollection.reduce((a, b) =&gt; (...args) =&gt; a(b(...args)));</code></pre><h2>&#x540E;&#x7EED;</h2><p>&#x66F4;&#x591A;&#x535A;&#x5BA2;&#xFF0C;&#x67E5;&#x770B; <a href="https://github.com/senntyou/blogs" rel="nofollow noreferrer">https://github.com/senntyou/blogs</a></p><p>&#x4F5C;&#x8005;&#xFF1A;<a href="https://github.com/senntyou" rel="nofollow noreferrer">&#x6DF1;&#x4E88;&#x4E4B; (@senntyou)</a></p><p>&#x7248;&#x6743;&#x58F0;&#x660E;&#xFF1A;&#x81EA;&#x7531;&#x8F6C;&#x8F7D;-&#x975E;&#x5546;&#x7528;-&#x975E;&#x884D;&#x751F;-&#x4FDD;&#x6301;&#x7F72;&#x540D;&#xFF08;<a href="https://creativecommons.org/licenses/by-nc-nd/3.0/deed.zh" rel="nofollow noreferrer">&#x521B;&#x610F;&#x5171;&#x4EAB;3.0&#x8BB8;&#x53EF;&#x8BC1;</a>&#xFF09;</p>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

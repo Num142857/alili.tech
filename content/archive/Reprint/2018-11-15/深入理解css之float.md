@@ -1,11 +1,12 @@
 ---
-title: '深入理解css之float' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: 深入理解css之float
+reprint: true
+categories: reprint
+slug: 83becf88
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <h3>&#x524D;&#x8A00;</h3><p>&#x5728;css&#x4E2D;&#xFF0C;&#x662F;&#x5B58;&#x5728;&#x6D41;&#x7684;&#x6982;&#x5FF5;&#x7684;&#x3002;&#x5728;&#x6B63;&#x5E38;&#x60C5;&#x51B5;&#x4E0B;&#xFF0C;&#x9875;&#x9762;&#x603B;&#x662F;&#x4ECE;&#x5DE6;&#x5230;&#x53F3;&#xFF0C;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#x5E03;&#x5C40;&#xFF0C;&#x8FD9;&#x79CD;&#x88AB;&#x79F0;&#x4E3A;&#x6B63;&#x5E38;&#x7684;&#x6D41;&#x3002;&#x4F46;&#x662F;&#x6709;&#x5F88;&#x591A;&#x60C5;&#x51B5;&#xFF0C;&#x6B63;&#x5E38;&#x6D41;&#x662F;&#x6CA1;&#x529E;&#x6CD5;&#x5B9E;&#x73B0;&#x7684;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x9700;&#x8981;&#x4E00;&#x4E9B;&#x624B;&#x6BB5;&#x6765;&#x7834;&#x574F;&#x6D41;&#xFF0C;&#x4ECE;&#x800C;&#x5B9E;&#x73B0;&#x4E00;&#x4E9B;&#x7279;&#x6B8A;&#x7684;&#x5E03;&#x5C40;&#xFF0C;&#x800C;&#x672C;&#x8282;&#x7684;&#x4E3B;&#x89D2;float&#x5C31;&#x5177;&#x5907;&#x7834;&#x574F;&#x6D41;&#x7684;&#x7279;&#x6027;&#x3002;</p><h3>float&#x8BBE;&#x8BA1;&#x7684;&#x521D;&#x8877;</h3><p>&#x5F88;&#x591A;&#x65B0;&#x624B;&#x5728;&#x5E03;&#x5C40;&#x7684;&#x65F6;&#x5019;&#xFF0C;&#x603B;&#x559C;&#x6B22;&#x7528;float&#x6765;&#x5B9E;&#x73B0;&#x3002;&#x4F8B;&#x5982;&#x4E00;&#x4E2A;&#x4E09;&#x680F;&#x5E03;&#x5C40;&#xFF0C;&#x5DE6;&#x53F3;&#x56FA;&#x5B9A;&#xFF0C;&#x4E2D;&#x95F4;&#x81EA;&#x9002;&#x5E94;&#xFF0C;&#x6709;&#x4E9B;&#x4EBA;&#x4F1A;&#x901A;&#x8FC7;float&#x6765;&#x4E00;&#x5217;&#x4E00;&#x5217;&#x628A;&#x5B83;&#x4EEC;&#x780C;&#x8D77;&#x6765;&#x3002;&#x8FD9;&#x6837;&#x7684;&#x5E03;&#x5C40;&#x6781;&#x5176;&#x5BB9;&#x6613;&#x5D29;&#x6E83;&#xFF0C;&#x53EA;&#x8981;&#x9AD8;&#x5EA6;&#x6216;&#x8005;&#x5BBD;&#x5EA6;&#x7A0D;&#x5FAE;&#x6709;&#x4E9B;&#x53D8;&#x5316;&#xFF0C;&#x6574;&#x4E2A;&#x9875;&#x9762;&#x90FD;&#x4F1A;&#x9519;&#x4E71;&#x3002;&#x56E0;&#x6B64;float&#x8BBE;&#x8BA1;&#x7684;&#x521D;&#x8877;&#x5E76;&#x4E0D;&#x662F;&#x7528;&#x6765;&#x5E03;&#x5C40;&#x7684;&#xFF0C;&#x5176;&#x672C;&#x610F;&#x4EC5;&#x4EC5;&#x662F;&#x5B9E;&#x73B0;&#x56FE;&#x7247;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6548;&#x679C;&#xFF0C;&#x5373;&#x56FE;&#x7247;&#x5DE6;&#x6D6E;&#x52A8;&#xFF0C;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x56FE;&#x7247;&#xFF0C;&#x5982;&#x4E0B;&#x56FE;&#x6240;&#x793A;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbfWi8?w=810&amp;h=346" src="https://static.alili.tech/img/bVbfWi8?w=810&amp;h=346" alt="&#x6587;&#x5B57;&#x73AF;&#x7ED5;" title="&#x6587;&#x5B57;&#x73AF;&#x7ED5;"></span></p><pre><code class="css">
 .float {
     width: 150px;
@@ -91,7 +92,7 @@ categories: [reprint]
     &lt;p class=&quot;content&quot;&gt;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&lt;/p&gt;
 &lt;/div&gt;
 </code></pre><h3>&#x603B;&#x7ED3;</h3><ul><li>float&#x8BBE;&#x8BA1;&#x7684;&#x521D;&#x8877;&#x4E0D;&#x662F;&#x5E03;&#x5C40;&#xFF0C;&#x800C;&#x662F;&#x6587;&#x5B57;&#x73AF;&#x7ED5;&#x6548;&#x679C;</li><li>float&#x7684;&#x7279;&#x6027;&#xFF1A;&#x5305;&#x88F9;&#x6027;&#x3001;&#x5757;&#x72B6;&#x683C;&#x5F0F;&#x5316;&#x4E0A;&#x4E0B;&#x6587;&#x3001;&#x7834;&#x574F;&#x6027;&#x3001;&#x6CA1;&#x6709;margin&#x5408;&#x5E76;</li><li>float&#x7684;&#x673A;&#x5236;&#xFF1A;&#x6D6E;&#x52A8;&#x951A;&#x70B9;&#x548C;&#x6D6E;&#x52A8;&#x53C2;&#x8003;</li><li>float&#x5B9E;&#x73B0;&#x81EA;&#x9002;&#x5E94;&#x5E03;&#x5C40;&#x7684;&#x601D;&#x8DEF;</li></ul>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

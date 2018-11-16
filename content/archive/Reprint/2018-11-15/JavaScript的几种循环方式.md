@@ -1,11 +1,12 @@
 ---
-title: 'JavaScript的几种循环方式' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: JavaScript的几种循环方式
+reprint: true
+categories: reprint
+slug: 35cb092b
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <p>JavaScript&#x63D0;&#x4F9B;&#x4E86;&#x8BB8;&#x591A;&#x901A;&#x8FC7;LOOPS&#x8FED;&#x4EE3;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x672C;&#x6559;&#x7A0B;&#x89E3;&#x91CA;&#x4E86;&#x73B0;&#x4EE3;JAVASCRIPT&#x4E2D;&#x5404;&#x79CD;&#x5404;&#x6837;&#x7684;&#x5FAA;&#x73AF;&#x53EF;&#x80FD;&#x6027;</p><p><span class="img-wrap"><img data-src="/img/bVbfH2g?w=863&amp;h=548" src="https://static.alili.tech/img/bVbfH2g?w=863&amp;h=548" alt="clipboard.png" title="clipboard.png"></span></p><h2>&#x76EE;&#x5F55;&#xFF1A;</h2><ul><li>for</li><li>forEach</li><li>do...while</li><li>while</li><li>for...in</li><li>for...of</li><li>for...in vs for...of</li></ul><h2>&#x4ECB;&#x7ECD;</h2><p>JavaScript&#x63D0;&#x4F9B;&#x4E86;&#x8BB8;&#x591A;&#x8FED;&#x4EE3;&#x5FAA;&#x73AF;&#x7684;&#x65B9;&#x6CD5;&#x3002;&#x672C;&#x6559;&#x7A0B;&#x901A;&#x8FC7;&#x4E00;&#x4E2A;&#x5C0F;&#x4F8B;&#x5B50;&#x548C;&#x4E3B;&#x8981;&#x5C5E;&#x6027;&#x89E3;&#x91CA;&#x6BCF;&#x4E00;&#x4E2A;&#x3002;</p><h3>for</h3><pre><code>const list = [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;]
 for (let i = 0; i &lt; list.length; i++) {
   console.log(list[i]) //value
@@ -59,7 +60,7 @@ for (const [index, value] of [&apos;a&apos;, &apos;b&apos;, &apos;c&apos;].entri
   console.log(index) //index
   console.log(value) //value
 }</code></pre><p>&#x6CE8;&#x610F;&#x4F7F;&#x7528;const&#x3002;&#x6B64;&#x5FAA;&#x73AF;&#x5728;&#x6BCF;&#x6B21;&#x8FED;&#x4EE3;&#x4E2D;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x8303;&#x56F4;&#xFF0C;&#x56E0;&#x6B64;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5B89;&#x5168;&#x5730;&#x4F7F;&#x7528;&#x5B83;&#x800C;&#x4E0D;&#x662F;let&#x3002;</p><h3>for...in VS FOR...OF</h3><p>&#x4E0E;for...in&#x7684;&#x533A;&#x522B;&#x5728;&#x4E8E;&#xFF1A;</p><ul><li>for...of &#x8FED;&#x4EE3;&#x5C5E;&#x6027;&#x503C;</li><li>for...in &#x8FED;&#x4EE3;&#x5C5E;&#x6027;&#x540D;&#x79F0;</li></ul>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，

@@ -1,11 +1,12 @@
 ---
-title: '【开发环境】开发者，新的mac 笔记本推荐配置环境' 
-date: 2018-11-15 2:30:08
-hidden: true
-categories: [reprint]
+title: 【开发环境】开发者，新的mac 笔记本推荐配置环境
+reprint: true
+categories: reprint
+slug: d78cc73b
+date: 2018-11-15 02:30:08
 ---
 
-{{< raw >}}
+{% raw %}
 <h2>&#x672C;&#x5730;&#x6DFB;&#x52A0;ssh</h2><pre><code>ssh-keygen -t rsa -C &quot;wsd312@163.com&quot;</code></pre><h2>&#x5B89;&#x88C5; homebrew</h2><pre><code>/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
 </code></pre><h2>&#x4E0B;&#x8F7D; ss</h2><pre><code>mac &#x7248;&#x672C;
 https://github.com/shadowsocks/ShadowsocksX-NG/releases 
@@ -40,7 +41,7 @@ Or, if you don&apos;t want/need a background service you can just run:
   mysql.server start
 ==&gt; Summary
 &#x1F37A;  /usr/local/Cellar/mysql/5.7.22: 317 files, 234.2MB</code></pre><h4>gui &#x684C;&#x9762;&#x5DE5;&#x5177;</h4><ul><li>navicat &#x63A8;&#x8350;</li></ul>
-{{< /raw >}}
+{% endraw %}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
