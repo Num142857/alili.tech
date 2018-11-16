@@ -58,13 +58,3 @@ sitemap:
     changefreq: monthly
     filename: sitemap.xml
     priority: 0.5
-
-outputFormats:
-    html:
-        minify: true
-    json:
-        minify: true
-
-minificationOptions:
-    KeepConditionalComments: true
-    KeepEndTags: false
