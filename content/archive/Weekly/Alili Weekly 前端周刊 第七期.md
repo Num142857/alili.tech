@@ -1,86 +1,87 @@
 ---
 title: Alili Weekly 前端周刊 第七期 
 date: 2018-11-16 0:00:00
+slug: vyetuiwpul
 tags: [前端周刊,Weekly]
 ---
-![Alili Weekly 前端周刊 第七期](https://static.alili.tech/images/github_36.png)
-##   [云开发初探：更简便的小程序开发模式](https://juejin.im/post/5ba2fa43e51d450e5d0b0676)  
+![Alili Weekly 前端周刊 第七期](https://static.alili.tech/images/github_12.png)
+##   [现代浏览器内部揭秘](https://juejin.im/post/5b9b0932e51d450e9059c16a)  
  
-微信最近推出的“ 小程序·云开发”。 
+“本文从高级视角对浏览器架构与多进程架构的优点进行阐述。我们也对 Chrome 中与多进程架构密切相关的服务化与站点隔离进行了讲解。” 
 
-`奇舞推荐`,`小程序` 
+`奇舞推荐`,`浏览器`,`Chrome` 
 
 
 ---
-##   [Flutter 发布预览版 2.0：完美适配 iOS](https://juejin.im/post/5ba3133b5188255c7663f485)  
+##   [利用剪切板 JS API 优化输入框的粘贴体验](https://www.zhangxinxu.com/wordpress/2018/09/js-clipboard-api-paste-input/)  
  
-来自 Google 开发者大会 2018 的消息。这个版本对 Flutter 的 Cupertino主题进行了极大的拓展，配合一套额外的 widgets 以及 classes，构建 iOS 应用变得前所未有的简单。 
+推荐本文的目的不在 API 本身，而在文章背后的体验优化思想。 
 
-`奇舞推荐`,`Flutter`,`iOS`,`移动应用` 
+`clipboard`,`体验` 
 
 
 ---
-##   [CSS魔法堂：一起玩透伪元素和 content 属性](https://segmentfault.com/a/1190000016441049)  
+##   [Web 基础体验改进：div.freeze()](https://zhuanlan.zhihu.com/p/44488055)  
  
-本文讲讲述伪元素以及功能强大的 content 属性，让我们可以通过伪元素更好地实现更多的可能。 
+一些基础体验优化。另附一篇：《Web基础体验改进五：scroll-snap》 
 
-`CSS` 
+`体验`,`性能优化` 
 
 
 ---
-##   [React 16.5 性能分析利器 Profiler](https://juejin.im/post/5ba1f995f265da0a972e1657)  
+##   [NoForm：一个更好的表单解决方案](https://zhuanlan.zhihu.com/p/44120143)  
  
-React 16.5 正式在 devtool 中加入了 Profiler 功能，用于收集每次变更导致的渲染时间，帮助开发者发现潜在的性能问题，有助于开发更高性能的 React 应用。 
+我们日常需要面对大量操作类或者表单类的场景，怎样从这些重复的 CRUD 解放出来呢？ 
 
-`JavaScript`,`React` 
+`表单`,`React`,`JavaScript` 
 
 
 ---
-##   [JavaScript 中数字的底层表示](https://harttle.land/2018/06/29/javascript-numbers.html)  
+##   [V8 十年故事：从农场诞生的星球最强 JS 引擎](https://mp.weixin.qq.com/s/Z2nm2wYC5GV6OadcgKcPbA)  
  
-这篇文章对 JavaScript Number 的二进制表示进行简要的介绍，主要明确使用者观察到的边界， 解释 MAX_VALUE, MIN_VALUE, MAX_SAFE_INTEGER, MIN_SAFE_INTEGER, EPSILON 这些常量取值的原因；回答 POSITIVE_INFINITY, NEGATIVE_INFINITY, NaN 这些常量的表示方法。 
+“这个月不仅有谷歌 Chrome 的十岁生日，也有 V8 的十周年纪念日。这篇文章将为你讲述 V8 在过去 10 年中经历的主要里程碑，以及在它诞生之前的那些秘密的岁月。” 
 
-`JavaScript` 
+`V8`,`JavaScript` 
 
 
 ---
-##   [美团外卖小程序的探索和实践](https://juejin.im/post/5ba1ba036fb9a05d3155056c)  
+##   [精读《REST、GraphQL、Webhooks、gRPC 如何选型》](https://segmentfault.com/a/1190000016331670)  
  
-从技术架构、流程 & 工具、组件化等角度谈美团外卖小程序的解决方案与经验。 
+一起看看接口还可以怎么约定，分别适用于哪些场景，你现在处于哪个场景。 
 
-`小程序` 
+`REST`,`GraphQL`,`Webhooks`,`gRPC` 
 
 
 ---
-##   [80% 的用户时间停留在前三屏，然而八年前完全不是这样](https://zhuanlan.zhihu.com/p/38650679)  
+##   [前端异常监控解决方案研究](http://cdc.tencent.com/2018/09/13/frontend-exception-monitor-research/)  
  
-“这篇文章从一个眼动实验得来的数据分析用户对长网页的阅读习惯，以及对比八年前的数据发现用户行为的惊人变化。最后探讨一下用户行为与体验设计的时效性问题，以及从中得出的更深层次的思考。” 
+“即使只讨论前端异常监控，其实也不能严格区分前后端界限，而要根据实际系统的设计，在最终的报表中体现出监控对开发和业务的帮助。” 
 
-`交互设计` 
+`异常监控` 
 
 
 ---
-##   [新项目的最优技术实践三步曲](https://zhuanlan.zhihu.com/p/44808764?utm_source=tuicool&utm_medium=referral)  
+##   [理解数字世界中的纸张：PDF](https://zhuanlan.zhihu.com/p/44360779)  
  
-“所谓最优，就是从一堆非最佳的方案中找到最好的一个，或者整合一个。” 
+针对 PDF 的科普文章，“PDF 与其说是一种数字文档，不如说是实体文档在数字世界中的影像。” 
 
-`技术实践`,`项目管理` 
+`PDF`,`打印` 
 
 
 ---
-##   [如何评价深圳阿里中心举办的第一届前端艺术家沙龙？](https://www.zhihu.com/question/293898378/answer/489748337)  
+##   [如何打造具有安全感的后台产品体验](https://mp.weixin.qq.com/s/DhbOXKFzbJvPvTHnoCexLQ)  
  
-PPT 地址：https://artist.alibaba.com 
+“安全感是优秀用户体验中不可缺少的基础，用户信任产品，才可以放心的操作，减少不必要的迟疑和困惑。因此，在我们强调人身安全、财产安全、网络安全等的同时，运维操作安全应该作为基础引起后台产品设计师的更多关注。” 
 
-`奇舞推荐` 
+`奇舞推荐`,`设计`,`用户体验` 
 
 
 ---
-##   [揭秘 ISC2018 惊艳绝伦的城市大屏 （上篇）](https://mp.weixin.qq.com/s/13mPZ3mLUWmsjx72vFfJnA)  
+##   [理解元数据，让人机自然交互](https://zhuanlan.zhihu.com/p/43613398)  
  
-揭秘 3D 可视化大屏的制作。下篇在这里：戳我。 
+“从前，我们通常从用户视角来思考设计，设计往往感性和随机化；现在，我们从元数据角度，发现系统实现的背后逻辑，设计往往理性和体系化；最终，感性和理性交织，随机和体系碰撞；让功能找到用户，让用户体验美好。” 
 
-`奇舞推荐`,`可视化`,`WebGL`,`Three.js` 
+`奇舞推荐`,`交互` 
 
 
 ---
