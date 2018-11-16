@@ -16,9 +16,10 @@ before_script:
     - git config --global user.email "incomparable9527@foxmail.com"
     - git config --global user.name "Fan"
 after_success:
-    - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git
+    - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git container
     # - rm -rf container/*
     # - cp -r blog/* container 
+    - cd container
     - ls
     - npm install
     - gulp
