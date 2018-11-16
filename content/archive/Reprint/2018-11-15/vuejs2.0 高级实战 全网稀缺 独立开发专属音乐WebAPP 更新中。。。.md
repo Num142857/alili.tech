@@ -6,7 +6,7 @@ slug: b588ec07
 date: 2018-11-15 02:30:08
 ---
 
-{% raw %}
+{{< raw >}}
 <p><span class="img-wrap"><img data-src="/img/remote/1460000016137167?w=1013&amp;h=573" src="https://static.alili.tech/img/remote/1460000016137167?w=1013&amp;h=573" alt="&#x8FD9;&#x91CC;&#x5199;&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x8FD9;&#x91CC;&#x5199;&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></p><p><strong>&#x8BCD;&#x6761;</strong></p><p>&#x76EE;&#x524D;&#x5E02;&#x9762;&#x4E0A;&#x8FD8;&#x6CA1;&#x6709;&#x4E00;&#x4E2A;Vue 2.0 &#x7684;&#x9AD8;&#x7EA7;&#x6559;&#x5B66;&#xFF0C;&#x90FD;&#x662F;&#x4E00;&#x4E9B;&#x57FA;&#x7840;&#x7684;&#x5165;&#x95E8;&#x8BFE;&#x7A0B;&#xFF0C;&#x4F60;&#x5F88;&#x96BE;&#x627E;&#x5230;&#x4E00;&#x4E2A;&#x57FA;&#x4E8E;Vue.js&#x7684;&#x590D;&#x6742;&#x5E94;&#x7528;&#x7684;&#x6559;&#x5B66;&#xFF0C; &#x4F46;&#x662F;&#xFF0C;&#x6211;&#x4EEC;&#x4E3A;&#x4F60;&#x51C6;&#x5907;&#x4E86;&#x8FD9;&#x95E8;&#x72EC;&#x4E00;&#x65E0;&#x4E8C;&#x7684;Vue 2.0 &#x9AD8;&#x7EA7;&#x5B9E;&#x6218;&#x8BFE;&#x7A0B;</p><hr><p><strong>src&#x7B80;&#x5355;&#x7684;&#x4ECB;&#x7ECD;</strong></p><p><span class="img-wrap"><img data-src="/img/remote/1460000016137168?w=267&amp;h=451" src="https://static.alili.tech/img/remote/1460000016137168?w=267&amp;h=451" alt="&#x8FD9;&#x91CC;&#x5199;&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x8FD9;&#x91CC;&#x5199;&#x56FE;&#x7247;&#x63CF;&#x8FF0;"></span></p><p><strong>&#x5165;&#x53E3;&#x6587;&#x4EF6;</strong></p><pre><code>import &apos;babel-polyfill&apos;  //&#x5199;&#x5728;&#x7B2C;&#x4E00;&#x4F4D;
 import Vue from &apos;vue&apos;
 import App from &apos;./App&apos;
@@ -1942,7 +1942,7 @@ module.exports = {
     100%
       transform: rotate(360deg)
 &lt;/style&gt;</code></pre>
-{% endraw %}
+{{< /raw >}}
 
 # 版权声明
 本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
