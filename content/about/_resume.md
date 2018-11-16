@@ -1,7 +1,7 @@
 ---
 title: 个人简历
-abbrlink: f0b34752
 date: 2016-05-27 14:31:51
+hidden: true
 ---
 
 # 联系方式
