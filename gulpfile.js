@@ -11,7 +11,7 @@ gulp.task('minify', () => {
         // removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
         // removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
         minifyJS: true,//压缩页面JS
-        minifyCSS: true//压缩页面CSS
+        // minifyCSS: true//压缩页面CSS
        }))
       .pipe(gulp.dest('public'));
   });
