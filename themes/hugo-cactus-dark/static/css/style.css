@@ -1424,105 +1424,44 @@ pre code {
     padding: 0
 }
 
-.highlight {
-    background: #232527;
-    -webkit-border-radius: 4px;
-    border-radius: 4px;
-    padding: 10px 15px;
-    margin: 1rem 0
-}
-
-.highlight figcaption {
-    zoom:1;margin: -5px 0 5px;
-    font-size: .9em;
-    color: #999
-}
-
-.highlight figcaption a {
-    float: right
-}
-
-.highlight figcaption ,.highlight figcaption:before {
-    display: table;
-    content: "";
-}
-
-.highlight pre {
-    padding: 0;
-    border: none;
-    background: 0 0
-}
-
-.highlight table {
-    width: auto
-}
-
-.highlight td.gutter {
-    text-align: right;
-    padding-right: 20px;
-    display: none
-}
-
 .hljs {
     display: block;
-    padding: .5em;
+    overflow-x: auto;
+    padding: 0.5em;
+    /* background:#474949; */
     color: #d1d9e1;
-    background-color: #232527
 }
 
 .hljs-comment,.hljs-quote {
-    color: #998
+    color: #969896;
+    font-style: italic
 }
 
-.hljs-keyword,.hljs-selector-tag,.hljs-subst {
-    color: #c9c;
-    font-weight: 700
+.hljs-keyword,.hljs-selector-tag,.hljs-literal,.hljs-type,.hljs-addition {
+    color: #cc99cc
 }
 
-.hljs-literal,.hljs-number,.hljs-tag .hljs-attr,.hljs-template-variable,.hljs-variable {
-    color: #fc6
+.hljs-number,.hljs-selector-attr,.hljs-selector-pseudo {
+    color: #f99157
 }
 
-.hljs-doctag,.hljs-string {
-    color: #c9c
+.hljs-string,.hljs-doctag,.hljs-regexp {
+    color: #8abeb7
 }
 
-.hljs-section,.hljs-selector-id,.hljs-title {
-    color: #fc6;
-    font-weight: 700
+.hljs-title,.hljs-name,.hljs-section,.hljs-built_in {
+    color: #b5bd68
 }
 
-.hljs-subst {
-    font-weight: 400
+.hljs-variable,.hljs-template-variable,.hljs-selector-id,.hljs-class .hljs-title {
+    color: #ffcc66
 }
 
-.hljs-class .hljs-title,.hljs-type {
-    color: #458;
-    font-weight: 700
+.hljs-section,.hljs-name,.hljs-strong {
+    font-weight: bold
 }
 
-.hljs-attribute,.hljs-name,.hljs-tag {
-    color: #f99157;
-    font-weight: 400
-}
-
-.hljs-meta,.hljs-strong {
-    font-weight: 700
-}
-
-.hljs-link,.hljs-regexp {
-    color: #009926
-}
-
-.hljs-bullet,.hljs-symbol {
-    color: #990073
-}
-
-.hljs-built_in,.hljs-builtin-name {
-    color: #0086b3
-}
-
-.hljs-meta {
+.hljs-symbol,.hljs-bullet,.hljs-subst,.hljs-meta,.hljs-link {
     color: #f99157
 }
 
@@ -1530,9 +1469,18 @@ pre code {
     color: #dc322f
 }
 
-.hljs-addition {
-    color: #dfd
+.hljs-formula {
+    background: #eee8d5
 }
+
+.hljs-attr,.hljs-attribute {
+    color: #81a2be
+}
+
+.hljs-emphasis {
+    font-style: italic
+}
+
 
 .coding {
     position: relative
