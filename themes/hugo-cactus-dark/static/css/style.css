@@ -1165,7 +1165,8 @@ article .content .caption {
 }
 
 .article-tag:before {
-    content: "|"
+    content: "|";
+    padding:0 5px;
 }
 
 .article-tag .tag-link:before {
@@ -1196,7 +1197,8 @@ article .content .caption {
 
 @media (min-width: 480px) {
     .article-tag::before {
-        content:"|"
+        content:"|";
+        padding:0 5px;
     }
 
     #archive .post-list .post-item {
