@@ -24,7 +24,7 @@ gulp.task('minify', () => {
       .pipe(gulp.dest('public'));
   });
 
-gulp.task('url', () => {
+gulp.task('baiduSeo', () => {
     // return gulp.pipe()
     fs.readFile(__dirname + '/public/sitemap.xml', function(err, data) {
         parser.parseString(data, function (err, result) {
@@ -89,6 +89,6 @@ function urlSubmit(urls) {
 
 
 gulp.task("default",[
-    'seo',
+    'baiduSeo',
     'minify'
 ])

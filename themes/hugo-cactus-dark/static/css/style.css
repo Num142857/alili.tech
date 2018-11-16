@@ -1652,3 +1652,8 @@ pre code {
 	font: 300 17px/1.8 "Helvetica Neue",helvetica,Arial,sans-serif;
 	color: #c9cacc;
 }
+@media (max-width: 540px) {
+    #more-post-list .dates{
+        display: none;
+    }
+}
