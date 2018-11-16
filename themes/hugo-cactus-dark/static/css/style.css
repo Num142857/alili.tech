@@ -991,7 +991,7 @@ body {
 }
 
 .description {
-    min-height: 100px
+    min-height: 105px
 }
 
 @media (min-width: 480px) {
