@@ -14,7 +14,7 @@
 			{{ partial "twitter-cards.html" . }}
 		{{ end }}
 		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-		<meta name='description' itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ slicestr .Summary 100}}{{ end }}{{ end }}">
+		<meta name='description' itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{substr .Summary 0 200}}{{ end }}{{ end }}">
 		{{ if .Keywords }} 
 		<meta name="keywords" content="{{ delimit .Keywords ", " }}" >
 		{{else}}
@@ -24,7 +24,7 @@
 		<meta property="og:locale" content="en_US">
 		<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
 		<meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}images/logo2.png{{ end }}">
-		<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ slicestr .Summary 100}}{{ end }}{{ end }}">
+		<meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ substr .Summary 0 200}}{{ end }}{{ end }}">
 		<meta property="og:site_name" content="{{ .Site.Title }}">
 
 		<title>{{ if .IsHome }}前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ end }}</title>
