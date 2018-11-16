@@ -148,4 +148,15 @@ var _mtac = {};
 //   }
 // });
 
-
+//  toc 里面是a标签问题
+$(function(){
+  if($("#toc li a")){
+    $("#toc a").each(function(index){
+      var ele = $(this);
+      if(ele.attr('href').indexOf('http') != -1){
+        ele.attr('href',ele.prev().attr('href'))
+      }
+    })
+  }
+  
+})
