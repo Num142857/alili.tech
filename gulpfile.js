@@ -39,15 +39,17 @@ gulp.task('seo', () => {
 function urlSubmint(urls) {
     // 最新内容提交
     var new_target = "http://data.zz.baidu.com/urls?appid="+xz_appid+"&token="+xz_token+"&type=realtime"
+    
+    // 历史提交
+    var history_target = "http://data.zz.baidu.com/urls?appid="+xz_appid+"&token="+xz_token+"&type=batch"
 
     // 百度站长
     var baidu_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token="+baidu_token
 
-    // 历史提交
-    var history_target = "http://data.zz.baidu.com/urls?appid="+xz_appid+"&token="+xz_token+"&type=batch"
-
+    // MIP
     var MIP_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token=QsL3LjB4I2GLWGbj&type=mip"
 
+    // AMP
     var AMP_target = "http://data.zz.baidu.com/urls?site=https://alili.tech&token=QsL3LjB4I2GLWGbj&type=amp"
 
     // 最新url,看熊掌号情况而定
