@@ -12,10 +12,11 @@
             </span>
         </span>|
 
-        Find me on
-        <ul id="sociallinks">
+        
+        Find me on 	 <ul id="sociallinks">
             {{ range $key, $val := .Site.Params.customize.social_links }}
-            <li><a class="icon" target="_blank" href="{{$val}}" title="<%= i %>"><i class="fa fa-{{$key}}"></i></a></li>
+            &nbsp;<li><a class="icon" target="_blank" href="{{$val}}" title="{{$key}}"><i class="fa fa-{{$key}}"></i></a></li>
+            
             {{ end }}
         </ul>.
     </p>
