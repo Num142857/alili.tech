@@ -3,7 +3,7 @@ title: '预告：Javascript全栈开发的系列文章'
 date: 2018-11-16 2:30:07
 hidden: true
 slug: w0ea6x92n7j
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

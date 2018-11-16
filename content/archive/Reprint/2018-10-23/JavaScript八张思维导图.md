@@ -1,7 +1,7 @@
 ---
 title: JavaScript八张思维导图
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1a9f0cef
 date: 2018-10-23 00:00:00
 ---

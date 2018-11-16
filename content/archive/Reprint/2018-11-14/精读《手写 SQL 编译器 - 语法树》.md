@@ -1,7 +1,7 @@
 ---
 title: 精读《手写 SQL 编译器 - 语法树》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c2055615
 date: 2018-11-14 02:30:09
 ---

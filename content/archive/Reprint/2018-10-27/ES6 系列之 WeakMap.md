@@ -1,7 +1,7 @@
 ---
 title: ES6 系列之 WeakMap
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b5caf17c
 date: 2018-10-27 02:30:17
 ---

@@ -1,7 +1,7 @@
 ---
 title: 浅析虚拟dom原理并实现
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 12dd96bd
 date: 2018-11-05 02:30:10
 ---

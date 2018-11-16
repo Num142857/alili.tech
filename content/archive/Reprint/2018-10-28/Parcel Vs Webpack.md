@@ -1,7 +1,7 @@
 ---
 title: Parcel Vs Webpack
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9dde9075
 date: 2018-10-28 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 如何在 Arch Linux 中降级软件包
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dd1d712b
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 如何在 Linux 中找到你的 IP 地址
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 27b45adc
 date: 2018-10-22 00:00:00
 ---

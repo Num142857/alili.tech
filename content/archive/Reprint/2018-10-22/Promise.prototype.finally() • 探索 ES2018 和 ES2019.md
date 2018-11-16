@@ -1,7 +1,7 @@
 ---
 title: Promise.prototype.finally() • 探索 ES2018 和 ES2019
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 99750d9b
 date: 2018-10-22 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 能让你开发效率翻倍的 VSCode 插件配置（上）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f2752c38
 date: 2018-10-23 00:00:00
 ---

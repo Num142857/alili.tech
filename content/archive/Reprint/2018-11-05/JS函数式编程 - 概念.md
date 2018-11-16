@@ -1,7 +1,7 @@
 ---
 title: JS函数式编程 - 概念
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c8ca9661
 date: 2018-11-05 02:30:11
 ---

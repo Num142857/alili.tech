@@ -1,7 +1,7 @@
 ---
 title: vue篇之事件总线（EventBus）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 308ed43a
 date: 2018-11-03 10:03:44
 ---

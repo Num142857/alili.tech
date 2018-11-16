@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: 分页'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 66bfda4
 date: 2018-10-22 00:00:00
 ---

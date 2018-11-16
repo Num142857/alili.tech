@@ -1,7 +1,7 @@
 ---
 title: '前端进阶系列(二):css常见布局解决方案'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3e2653f2
 date: 2018-11-05 02:30:10
 ---

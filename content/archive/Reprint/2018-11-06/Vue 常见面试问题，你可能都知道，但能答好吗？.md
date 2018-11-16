@@ -1,7 +1,7 @@
 ---
 title: Vue 常见面试问题，你可能都知道，但能答好吗？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5e1c3fe4
 date: 2018-11-06 02:30:12
 ---

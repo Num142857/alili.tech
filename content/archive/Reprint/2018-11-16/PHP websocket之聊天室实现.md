@@ -3,7 +3,7 @@ title: 'PHP websocket之聊天室实现'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: 4xj0fggwjqs
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

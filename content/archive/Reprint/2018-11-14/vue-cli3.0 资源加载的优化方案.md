@@ -1,7 +1,7 @@
 ---
 title: vue-cli3.0 资源加载的优化方案
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 500e4f5b
 date: 2018-11-14 02:30:09
 ---

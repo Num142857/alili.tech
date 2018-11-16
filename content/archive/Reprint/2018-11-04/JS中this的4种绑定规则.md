@@ -1,7 +1,7 @@
 ---
 title: JS中this的4种绑定规则
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c08a79c2
 date: 2018-11-04 02:30:10
 ---

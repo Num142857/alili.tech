@@ -1,7 +1,7 @@
 ---
 title: 如何在Vue里建立长按指令
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b6184b9d
 date: 2018-10-18 00:00:00
 ---

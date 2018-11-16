@@ -1,7 +1,7 @@
 ---
 title: 循环下的正则匹配？说说正则中的lastIndex
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: afda056b
 date: 2018-11-10 02:30:10
 ---

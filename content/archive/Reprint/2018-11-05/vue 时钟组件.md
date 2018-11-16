@@ -1,7 +1,7 @@
 ---
 title: vue 时钟组件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5dfe4e93
 date: 2018-11-05 02:30:10
 ---

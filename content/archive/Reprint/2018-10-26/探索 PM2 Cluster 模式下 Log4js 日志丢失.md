@@ -1,7 +1,7 @@
 ---
 title: 探索 PM2 Cluster 模式下 Log4js 日志丢失
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 33beabf8
 date: 2018-10-26 02:30:12
 ---

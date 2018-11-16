@@ -1,7 +1,7 @@
 ---
 title: webpack 4 ：从0配置到项目搭建
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a7580a50
 date: 2018-10-28 02:30:09
 ---

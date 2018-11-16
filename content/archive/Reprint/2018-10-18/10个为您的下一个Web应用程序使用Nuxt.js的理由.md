@@ -1,7 +1,7 @@
 ---
 title: 10个为您的下一个Web应用程序使用Nuxt.js的理由
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 544102cc
 date: 2018-10-18 00:00:00
 ---

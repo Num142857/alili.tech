@@ -1,7 +1,7 @@
 ---
 title: 手把手教你用原生JavaScript造轮子（1）——分页器（最后更新：Vue插件版本，本篇Over！）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5eb2f494
 date: 2018-10-24 08:17:54
 ---

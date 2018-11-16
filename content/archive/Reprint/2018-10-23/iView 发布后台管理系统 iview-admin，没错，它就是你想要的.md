@@ -1,7 +1,7 @@
 ---
 title: iView 发布后台管理系统 iview-admin，没错，它就是你想要的
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 225c3b1d
 date: 2018-10-23 00:00:00
 ---

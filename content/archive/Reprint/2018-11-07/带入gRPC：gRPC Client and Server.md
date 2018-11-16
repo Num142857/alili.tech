@@ -1,7 +1,7 @@
 ---
 title: 带入gRPC：gRPC Client and Server
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f29e3b28
 date: 2018-11-07 02:30:16
 ---

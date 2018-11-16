@@ -1,7 +1,7 @@
 ---
 title: 从 0 到 1 实现 React 系列 —— 5.PureComponent 实现 && HOC 探幽
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 92dc08c6
 date: 2018-11-14 02:30:09
 ---

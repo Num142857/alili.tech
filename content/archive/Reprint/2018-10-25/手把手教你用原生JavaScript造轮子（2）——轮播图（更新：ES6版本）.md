@@ -1,7 +1,7 @@
 ---
 title: 手把手教你用原生JavaScript造轮子（2）——轮播图（更新：ES6版本）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 87da424a
 date: 2018-10-25 09:08:15
 ---

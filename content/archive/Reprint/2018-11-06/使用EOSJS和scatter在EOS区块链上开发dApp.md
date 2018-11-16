@@ -1,7 +1,7 @@
 ---
 title: 使用EOSJS和scatter在EOS区块链上开发dApp
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8478bdc
 date: 2018-11-06 15:28:32
 ---

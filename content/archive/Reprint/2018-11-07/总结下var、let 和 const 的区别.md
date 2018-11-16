@@ -1,7 +1,7 @@
 ---
 title: 总结下var、let 和 const 的区别
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 427207fb
 date: 2018-11-07 02:30:16
 ---

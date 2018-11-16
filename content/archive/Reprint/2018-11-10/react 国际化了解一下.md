@@ -1,7 +1,7 @@
 ---
 title: react 国际化了解一下
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d7abaa10
 date: 2018-11-10 02:30:09
 ---

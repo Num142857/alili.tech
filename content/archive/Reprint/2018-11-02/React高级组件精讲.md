@@ -1,7 +1,7 @@
 ---
 title: React高级组件精讲
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bf7b1ea
 date: 2018-11-02 02:30:12
 ---

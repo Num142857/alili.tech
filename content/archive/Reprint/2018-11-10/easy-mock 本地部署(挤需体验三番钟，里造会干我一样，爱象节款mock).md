@@ -1,7 +1,7 @@
 ---
 title: easy-mock 本地部署(挤需体验三番钟，里造会干我一样，爱象节款mock)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 72ced677
 date: 2018-11-10 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: TrueOS 不再想要成为“桌面 BSD”了
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ff392d72
 date: 2018-10-18 00:00:00
 ---

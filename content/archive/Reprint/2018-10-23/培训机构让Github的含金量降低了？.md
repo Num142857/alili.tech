@@ -1,7 +1,7 @@
 ---
 title: 培训机构让Github的含金量降低了？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b2887750
 date: 2018-10-23 00:00:00
 ---

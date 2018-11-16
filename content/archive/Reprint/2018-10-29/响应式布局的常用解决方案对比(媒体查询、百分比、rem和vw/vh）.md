@@ -1,7 +1,7 @@
 ---
 title: 响应式布局的常用解决方案对比(媒体查询、百分比、rem和vw/vh）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 73ec6a2b
 date: 2018-10-29 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: 精读《sqorn 源码》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 63a6beab
 date: 2018-11-02 02:30:12
 ---

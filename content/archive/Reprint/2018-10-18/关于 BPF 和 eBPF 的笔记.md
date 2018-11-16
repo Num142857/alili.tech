@@ -1,7 +1,7 @@
 ---
 title: 关于 BPF 和 eBPF 的笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 389eef2b
 date: 2018-10-18 00:00:00
 ---

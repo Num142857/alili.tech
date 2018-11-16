@@ -1,7 +1,7 @@
 ---
 title: async语法升级踩坑小记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '31485486'
 date: 2018-11-06 15:28:31
 ---

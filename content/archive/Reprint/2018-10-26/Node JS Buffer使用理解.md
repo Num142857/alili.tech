@@ -1,7 +1,7 @@
 ---
 title: Node JS Buffer使用理解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e9fa7846
 date: 2018-10-26 02:30:12
 ---

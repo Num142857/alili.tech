@@ -1,7 +1,7 @@
 ---
 title: 入职第一天：前端leader手把手教我入门Vue服务器端渲染（SSR）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9c1d2d98
 date: 2018-10-25 09:08:15
 ---

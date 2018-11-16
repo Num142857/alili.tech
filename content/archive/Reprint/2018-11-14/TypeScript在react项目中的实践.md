@@ -1,7 +1,7 @@
 ---
 title: TypeScript在react项目中的实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c955a8e6
 date: 2018-11-14 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: Rest/Spread 属性 • 探索 ES2018 和 ES2019
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ec733d60
 date: 2018-10-21 00:00:00
 ---

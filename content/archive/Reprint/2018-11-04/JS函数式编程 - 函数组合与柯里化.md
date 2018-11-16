@@ -1,7 +1,7 @@
 ---
 title: JS函数式编程 - 函数组合与柯里化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4680a232
 date: 2018-11-04 02:30:10
 ---

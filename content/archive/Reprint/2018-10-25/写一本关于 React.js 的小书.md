@@ -1,7 +1,7 @@
 ---
 title: 写一本关于 React.js 的小书
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bae6bc13
 date: 2018-10-25 09:08:15
 ---

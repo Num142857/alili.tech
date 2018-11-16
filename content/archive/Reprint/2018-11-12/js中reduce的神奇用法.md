@@ -1,7 +1,7 @@
 ---
 title: js中reduce的神奇用法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3ec7546c
 date: 2018-11-12 02:30:05
 ---

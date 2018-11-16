@@ -1,7 +1,7 @@
 ---
 title: AST抽象语法树——最基础的javascript重点知识，99%的人根本不了解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 78fc0aba
 date: 2018-10-22 00:00:00
 ---

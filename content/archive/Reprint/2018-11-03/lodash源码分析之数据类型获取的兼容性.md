@@ -1,7 +1,7 @@
 ---
 title: lodash源码分析之数据类型获取的兼容性
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d52dfdab
 date: 2018-11-03 02:30:13
 ---

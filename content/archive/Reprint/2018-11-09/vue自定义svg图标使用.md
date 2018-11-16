@@ -1,7 +1,7 @@
 ---
 title: vue自定义svg图标使用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b7bf11f5
 date: 2018-11-09 02:30:06
 ---

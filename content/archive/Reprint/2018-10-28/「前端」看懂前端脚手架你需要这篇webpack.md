@@ -1,7 +1,7 @@
 ---
 title: 「前端」看懂前端脚手架你需要这篇webpack
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 70c20b24
 date: 2018-10-28 02:30:10
 ---

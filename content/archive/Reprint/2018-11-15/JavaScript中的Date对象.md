@@ -3,7 +3,7 @@ title: 'JavaScript中的Date对象'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: 3e9tc3y96a7
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: 基于 Gulp 的简易前端自动化工程搭建
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ef2b18e0
 date: 2018-10-27 02:30:17
 ---

@@ -1,7 +1,7 @@
 ---
 title: Python 调试技巧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c317b289
 date: 2018-10-21 00:00:00
 ---

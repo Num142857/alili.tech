@@ -1,7 +1,7 @@
 ---
 title: 当我们在谈论HTTP缓存时我们在谈论什么
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8c154e0b
 date: 2018-11-01 02:30:09
 ---

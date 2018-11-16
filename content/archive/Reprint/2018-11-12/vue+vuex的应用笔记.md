@@ -1,7 +1,7 @@
 ---
 title: vue+vuex的应用笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '2814e449'
 date: 2018-11-12 02:30:05
 ---

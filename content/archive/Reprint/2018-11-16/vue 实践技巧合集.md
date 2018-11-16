@@ -3,7 +3,7 @@ title: 'vue 实践技巧合集'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: qzmffmbrk2a
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: 深入 Promise
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: db2a2476
 date: 2018-11-02 02:30:12
 ---

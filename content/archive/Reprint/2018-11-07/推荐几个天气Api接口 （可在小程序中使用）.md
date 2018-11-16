@@ -1,7 +1,7 @@
 ---
 title: 推荐几个天气Api接口 （可在小程序中使用）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: af0268b4
 date: 2018-11-07 02:30:15
 ---

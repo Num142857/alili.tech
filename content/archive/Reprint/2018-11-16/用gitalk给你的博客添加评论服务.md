@@ -3,7 +3,7 @@ title: '用gitalk给你的博客添加评论服务'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: llaqesehme8
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

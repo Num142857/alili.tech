@@ -2,7 +2,7 @@
 title: 'vue常用操作及学习笔记（路由跳转及路由传参篇）' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: VS Code插件开发介绍
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5229f046
 date: 2018-11-05 02:30:10
 ---

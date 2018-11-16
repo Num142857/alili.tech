@@ -2,7 +2,7 @@
 title: 'vuejs2.0 高级实战 全网稀缺 独立开发专属音乐WebAPP 更新中。。。' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

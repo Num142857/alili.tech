@@ -1,7 +1,7 @@
 ---
 title: Vue.js2.0基础学习笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 85eff157
 date: 2018-11-11 02:30:07
 ---

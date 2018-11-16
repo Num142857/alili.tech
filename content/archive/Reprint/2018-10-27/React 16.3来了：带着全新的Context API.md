@@ -1,7 +1,7 @@
 ---
 title: React 16.3来了：带着全新的Context API
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 326ecab9
 date: 2018-10-27 02:30:17
 ---

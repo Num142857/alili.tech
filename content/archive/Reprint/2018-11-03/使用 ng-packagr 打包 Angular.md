@@ -1,7 +1,7 @@
 ---
 title: 使用 ng-packagr 打包 Angular
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 33617b09
 date: 2018-11-03 02:30:13
 ---

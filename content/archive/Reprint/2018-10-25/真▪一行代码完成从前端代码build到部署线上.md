@@ -1,7 +1,7 @@
 ---
 title: 真▪一行代码完成从前端代码build到部署线上
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f2faaf84
 date: 2018-10-25 09:08:15
 ---

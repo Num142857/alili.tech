@@ -1,7 +1,7 @@
 ---
 title: 网易云音乐接口+vue全家桶开发一款移动端音乐webApp
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 96e51c97
 date: 2018-11-02 02:30:12
 ---

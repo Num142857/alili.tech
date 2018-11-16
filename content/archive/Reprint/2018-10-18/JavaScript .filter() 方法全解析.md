@@ -1,7 +1,7 @@
 ---
 title: JavaScript .filter() 方法全解析
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 136637be
 date: 2018-10-18 00:00:00
 ---

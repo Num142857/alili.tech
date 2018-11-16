@@ -1,7 +1,7 @@
 ---
 title: 'JavaScript(E5,6) 正则学习总结学习，可看可不看！'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6a7bdd09
 date: 2018-11-03 02:30:13
 ---

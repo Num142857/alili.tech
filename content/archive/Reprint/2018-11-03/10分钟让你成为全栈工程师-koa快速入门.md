@@ -1,7 +1,7 @@
 ---
 title: 10分钟让你成为全栈工程师-koa快速入门
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b91d9f4d
 date: 2018-11-03 10:03:44
 ---

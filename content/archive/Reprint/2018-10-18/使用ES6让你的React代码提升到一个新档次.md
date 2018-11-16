@@ -1,7 +1,7 @@
 ---
 title: 使用ES6让你的React代码提升到一个新档次
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3ef11629
 date: 2018-10-18 00:00:00
 ---

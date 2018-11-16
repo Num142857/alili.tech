@@ -1,7 +1,7 @@
 ---
 title: 手摸手，带你用vue撸后台 系列四(vueAdmin 一个极简的后台基础模板)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1470dde1
 date: 2018-10-23 00:00:00
 ---

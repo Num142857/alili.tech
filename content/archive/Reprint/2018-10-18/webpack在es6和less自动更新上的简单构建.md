@@ -1,7 +1,7 @@
 ---
 title: webpack在es6和less自动更新上的简单构建
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3f067123
 date: 2018-10-18 00:00:00
 ---

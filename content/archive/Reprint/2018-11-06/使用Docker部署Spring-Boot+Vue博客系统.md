@@ -1,7 +1,7 @@
 ---
 title: 使用Docker部署Spring-Boot+Vue博客系统
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b265b7db
 date: 2018-11-06 15:28:31
 ---

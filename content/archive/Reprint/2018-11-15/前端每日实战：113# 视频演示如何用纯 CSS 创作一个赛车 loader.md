@@ -3,7 +3,7 @@ title: '前端每日实战：113# 视频演示如何用纯 CSS 创作一个赛�
 date: 2018-11-15 21:20:48
 hidden: true
 slug: ynh5xy3lyj9
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: 使用 Node.js 搭建一个 API 网关
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 85a8e714
 date: 2018-10-27 02:30:17
 ---

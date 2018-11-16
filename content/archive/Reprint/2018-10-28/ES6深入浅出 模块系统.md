@@ -1,7 +1,7 @@
 ---
 title: ES6深入浅出 模块系统
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3e6d0d17
 date: 2018-10-28 02:30:09
 ---

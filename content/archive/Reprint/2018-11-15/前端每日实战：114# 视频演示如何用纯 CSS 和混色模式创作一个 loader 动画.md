@@ -3,7 +3,7 @@ title: '前端每日实战：114# 视频演示如何用纯 CSS 和混色模式�
 date: 2018-11-15 21:18:14
 hidden: true
 slug: r9fpkko1wpi
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

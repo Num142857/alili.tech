@@ -1,7 +1,7 @@
 ---
 title: 在webpack中使用prefetch/preload
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ccbf6875
 date: 2018-10-19 00:00:00
 ---

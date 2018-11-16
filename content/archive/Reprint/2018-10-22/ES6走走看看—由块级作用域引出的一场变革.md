@@ -1,7 +1,7 @@
 ---
 title: ES6走走看看—由块级作用域引出的一场变革
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dfea777f
 date: 2018-10-22 00:00:00
 ---

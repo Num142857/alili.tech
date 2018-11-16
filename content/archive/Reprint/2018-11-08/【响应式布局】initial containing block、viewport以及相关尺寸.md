@@ -1,7 +1,7 @@
 ---
 title: 【响应式布局】initial containing block、viewport以及相关尺寸
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3dd1c6bb
 date: 2018-11-08 02:30:09
 ---

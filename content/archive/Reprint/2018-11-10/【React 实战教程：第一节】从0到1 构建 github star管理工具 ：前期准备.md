@@ -1,7 +1,7 @@
 ---
 title: 【React 实战教程：第一节】从0到1 构建 github star管理工具 ：前期准备
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1d9dfc45
 date: 2018-11-10 02:30:10
 ---

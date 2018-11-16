@@ -1,7 +1,7 @@
 ---
 title: npm发布包的那些事
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c2fc7512
 date: 2018-11-06 15:28:31
 ---

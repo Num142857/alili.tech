@@ -1,7 +1,7 @@
 ---
 title: CSS网格布局（Grid）完全教程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2dccc0a7
 date: 2018-10-18 00:00:00
 ---

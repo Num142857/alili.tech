@@ -1,7 +1,7 @@
 ---
 title: 精读《手写 SQL 编译器 - 错误提示》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5ad581bf
 date: 2018-11-13 02:30:09
 ---

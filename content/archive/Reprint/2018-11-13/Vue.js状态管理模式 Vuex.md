@@ -1,7 +1,7 @@
 ---
 title: Vue.js状态管理模式 Vuex
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '42494691'
 date: 2018-11-13 02:30:09
 ---

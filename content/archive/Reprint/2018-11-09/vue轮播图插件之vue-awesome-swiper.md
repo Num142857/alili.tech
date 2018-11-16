@@ -1,7 +1,7 @@
 ---
 title: vue轮播图插件之vue-awesome-swiper
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4fedc77b
 date: 2018-11-09 02:30:06
 ---

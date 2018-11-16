@@ -1,7 +1,7 @@
 ---
 title: 推荐五个Vue2的免费教程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 929bfb44
 date: 2018-10-23 00:00:00
 ---

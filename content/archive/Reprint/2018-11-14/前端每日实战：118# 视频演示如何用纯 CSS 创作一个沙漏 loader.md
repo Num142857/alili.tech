@@ -1,7 +1,7 @@
 ---
 title: '前端每日实战：118# 视频演示如何用纯 CSS 创作一个沙漏 loader'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 81a55c97
 date: 2018-11-14 02:30:09
 ---

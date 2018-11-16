@@ -3,7 +3,7 @@ title: '实现拖拽复制和可排序的react.js组件'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: txda01wrjb
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

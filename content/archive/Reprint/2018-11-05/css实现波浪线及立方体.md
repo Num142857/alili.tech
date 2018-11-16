@@ -1,7 +1,7 @@
 ---
 title: css实现波浪线及立方体
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 67000d76
 date: 2018-11-05 02:30:10
 ---

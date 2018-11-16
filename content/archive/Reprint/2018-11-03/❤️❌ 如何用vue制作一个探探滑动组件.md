@@ -1,7 +1,7 @@
 ---
 title: ❤️❌ 如何用vue制作一个探探滑动组件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bccad607
 date: 2018-11-03 02:30:13
 ---

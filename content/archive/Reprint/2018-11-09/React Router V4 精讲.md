@@ -1,7 +1,7 @@
 ---
 title: React Router V4 精讲
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 90bfdcf6
 date: 2018-11-09 02:30:05
 ---

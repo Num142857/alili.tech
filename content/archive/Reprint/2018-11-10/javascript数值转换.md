@@ -1,7 +1,7 @@
 ---
 title: javascript数值转换
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c29893f1
 date: 2018-11-10 02:30:10
 ---

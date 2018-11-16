@@ -1,7 +1,7 @@
 ---
 title: 你知道SVG Sprites是什么吗，还在用css sprite就太low了
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 50aab52f
 date: 2018-11-08 02:30:09
 ---

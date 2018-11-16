@@ -1,7 +1,7 @@
 ---
 title: ECMAScript7规范中的ToPrimitive抽象操作
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 21d6cb16
 date: 2018-11-11 02:30:07
 ---

@@ -1,7 +1,7 @@
 ---
 title: 从0到1实现Promise
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b715e759
 date: 2018-11-03 02:30:13
 ---

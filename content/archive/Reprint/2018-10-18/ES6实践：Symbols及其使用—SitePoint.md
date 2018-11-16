@@ -1,7 +1,7 @@
 ---
 title: ES6实践：Symbols及其使用—SitePoint
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e33ba1d1
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 如何在 X 中启动用户软件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3643cbd8
 date: 2018-10-22 00:00:00
 ---

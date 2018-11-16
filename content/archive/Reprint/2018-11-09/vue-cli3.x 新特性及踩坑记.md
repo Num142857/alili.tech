@@ -1,7 +1,7 @@
 ---
 title: vue-cli3.x 新特性及踩坑记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 193bf9da
 date: 2018-11-09 02:30:05
 ---

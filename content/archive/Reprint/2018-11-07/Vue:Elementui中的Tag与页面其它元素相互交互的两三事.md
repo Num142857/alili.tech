@@ -1,7 +1,7 @@
 ---
 title: 'Vue:Elementui中的Tag与页面其它元素相互交互的两三事'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ce6b0714
 date: 2018-11-07 02:30:15
 ---

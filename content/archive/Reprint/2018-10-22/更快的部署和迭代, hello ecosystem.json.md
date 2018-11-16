@@ -1,7 +1,7 @@
 ---
 title: '更快的部署和迭代, hello ecosystem.json'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 71e9065a
 date: 2018-10-22 00:00:00
 ---

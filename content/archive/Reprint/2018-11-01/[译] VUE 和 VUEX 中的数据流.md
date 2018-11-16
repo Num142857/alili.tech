@@ -1,7 +1,7 @@
 ---
 title: '[译] VUE 和 VUEX 中的数据流'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1c42a3c6
 date: 2018-11-01 02:30:08
 ---

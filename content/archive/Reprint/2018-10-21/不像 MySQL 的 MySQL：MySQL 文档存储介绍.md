@@ -1,7 +1,7 @@
 ---
 title: 不像 MySQL 的 MySQL：MySQL 文档存储介绍
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 76370fbf
 date: 2018-10-21 00:00:00
 ---

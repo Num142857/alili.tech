@@ -3,7 +3,7 @@ title: '一眼看穿👀JS原型'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: rvy4d46eobd
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

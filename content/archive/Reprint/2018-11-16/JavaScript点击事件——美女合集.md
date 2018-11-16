@@ -3,7 +3,7 @@ title: 'JavaScript点击事件——美女合集'
 date: 2018-11-16 2:30:07
 hidden: true
 slug: vi32h2qgdt
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

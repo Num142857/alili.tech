@@ -1,7 +1,7 @@
 ---
 title: Vue.js 插件开发详解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4c1814ab
 date: 2018-10-24 08:17:54
 ---

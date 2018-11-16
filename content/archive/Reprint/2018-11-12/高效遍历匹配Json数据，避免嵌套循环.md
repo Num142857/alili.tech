@@ -1,7 +1,7 @@
 ---
 title: 高效遍历匹配Json数据，避免嵌套循环
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 65f55222
 date: 2018-11-12 02:30:05
 ---

@@ -1,7 +1,7 @@
 ---
 title: 常见样式设计及DOM操作整理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b01c1896
 date: 2018-11-11 02:30:06
 ---

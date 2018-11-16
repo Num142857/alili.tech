@@ -1,7 +1,7 @@
 ---
 title: 一步一步教你用 Vue.js + Vuex 制作专门收藏微信公众号的 app
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b5a8e07a
 date: 2018-10-29 02:30:09
 ---

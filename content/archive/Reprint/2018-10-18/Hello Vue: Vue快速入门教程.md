@@ -1,7 +1,7 @@
 ---
 title: 'Hello Vue: Vue快速入门教程 '
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6e67a2bf
 date: 2018-10-18 00:00:00
 ---

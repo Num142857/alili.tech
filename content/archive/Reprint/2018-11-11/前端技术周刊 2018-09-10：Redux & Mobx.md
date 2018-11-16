@@ -1,7 +1,7 @@
 ---
 title: 前端技术周刊 2018-09-10：Redux & Mobx
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: af9753d8
 date: 2018-11-11 02:30:06
 ---

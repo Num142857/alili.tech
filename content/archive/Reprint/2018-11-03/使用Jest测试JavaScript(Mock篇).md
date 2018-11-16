@@ -1,7 +1,7 @@
 ---
 title: 使用Jest测试JavaScript(Mock篇)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 65b518a6
 date: 2018-11-03 10:03:44
 ---

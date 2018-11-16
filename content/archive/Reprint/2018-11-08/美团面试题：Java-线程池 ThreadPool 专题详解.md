@@ -1,7 +1,7 @@
 ---
 title: 美团面试题：Java-线程池 ThreadPool 专题详解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 89bab0dd
 date: 2018-11-08 02:30:09
 ---

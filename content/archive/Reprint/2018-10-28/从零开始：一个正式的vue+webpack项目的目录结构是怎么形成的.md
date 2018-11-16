@@ -1,7 +1,7 @@
 ---
 title: 从零开始：一个正式的vue+webpack项目的目录结构是怎么形成的
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4342fbb8
 date: 2018-10-28 02:30:10
 ---

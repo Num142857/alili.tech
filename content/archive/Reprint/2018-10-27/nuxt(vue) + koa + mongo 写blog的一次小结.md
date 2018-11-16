@@ -1,7 +1,7 @@
 ---
 title: nuxt(vue) + koa + mongo 写blog的一次小结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 980efe7f
 date: 2018-10-27 02:30:17
 ---

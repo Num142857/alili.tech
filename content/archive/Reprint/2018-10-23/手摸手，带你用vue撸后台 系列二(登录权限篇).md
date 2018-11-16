@@ -1,7 +1,7 @@
 ---
 title: 手摸手，带你用vue撸后台 系列二(登录权限篇)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 469e6b78
 date: 2018-10-23 00:00:00
 ---

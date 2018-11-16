@@ -1,7 +1,7 @@
 ---
 title: JavaScript中的“黑话”
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 707a92e3
 date: 2018-11-06 02:30:12
 ---

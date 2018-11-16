@@ -1,7 +1,7 @@
 ---
 title: JavaScript 日期权威指南
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fc1b6dd6
 date: 2018-10-18 00:00:00
 ---

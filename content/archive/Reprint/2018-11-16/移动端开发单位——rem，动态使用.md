@@ -3,7 +3,7 @@ title: '移动端开发单位——rem，动态使用'
 date: 2018-11-16 2:30:07
 hidden: true
 slug: bp751dpaao6
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: JavaScript七种非常经典的创建对象方式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 628e286f
 date: 2018-11-14 02:30:09
 ---

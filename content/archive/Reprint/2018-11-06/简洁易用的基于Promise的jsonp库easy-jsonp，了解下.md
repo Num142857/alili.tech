@@ -1,7 +1,7 @@
 ---
 title: 简洁易用的基于Promise的jsonp库easy-jsonp，了解下
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2ef87562
 date: 2018-11-06 15:28:31
 ---

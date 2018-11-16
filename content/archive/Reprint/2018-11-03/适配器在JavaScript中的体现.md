@@ -1,7 +1,7 @@
 ---
 title: 适配器在JavaScript中的体现
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 773c94a3
 date: 2018-11-03 02:30:13
 ---

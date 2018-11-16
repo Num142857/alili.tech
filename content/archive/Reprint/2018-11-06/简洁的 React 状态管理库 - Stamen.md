@@ -1,7 +1,7 @@
 ---
 title: 简洁的 React 状态管理库 - Stamen
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d3ac19ce
 date: 2018-11-06 02:30:12
 ---

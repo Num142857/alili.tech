@@ -1,7 +1,7 @@
 ---
 title: JavaScript fetch接口
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6808d2da
 date: 2018-11-14 02:30:09
 ---

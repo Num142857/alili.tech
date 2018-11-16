@@ -1,7 +1,7 @@
 ---
 title: node中的session
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ba4e67f4
 date: 2018-11-10 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: Webpack4 搭建 Vue 项目
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ed7f036f
 date: 2018-11-10 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 如何更愉快地使用em —— 别说你懂CSS相对单位
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 77a96e79
 date: 2018-10-30 02:30:12
 ---

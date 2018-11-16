@@ -1,7 +1,7 @@
 ---
 title: 使用JavaScript和D3.js实现数据可视化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 64f6ab7a
 date: 2018-10-29 02:30:09
 ---

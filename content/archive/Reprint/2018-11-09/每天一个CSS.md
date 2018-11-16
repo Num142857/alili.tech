@@ -1,7 +1,7 @@
 ---
 title: 每天一个CSS
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d69504ed
 date: 2018-11-09 02:30:06
 ---

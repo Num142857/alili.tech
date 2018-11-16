@@ -1,7 +1,7 @@
 ---
 title: Node.js 中流操作实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6d879c2b
 date: 2018-11-02 02:30:12
 ---

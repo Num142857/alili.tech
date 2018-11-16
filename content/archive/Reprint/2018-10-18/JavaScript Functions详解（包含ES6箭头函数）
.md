@@ -1,7 +1,7 @@
 ---
 title: JavaScript Functions详解（包含ES6箭头函数）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2d483fa4
 date: 2018-10-18 00:00:00
 ---

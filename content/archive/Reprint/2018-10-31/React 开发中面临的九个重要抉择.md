@@ -1,7 +1,7 @@
 ---
 title: React 开发中面临的九个重要抉择
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5ee7110c
 date: 2018-10-31 02:30:10
 ---

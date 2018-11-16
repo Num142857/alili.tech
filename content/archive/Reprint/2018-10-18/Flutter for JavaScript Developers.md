@@ -1,7 +1,7 @@
 ---
 title: Flutter for JavaScript Developers
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c72de942
 date: 2018-10-18 00:00:00
 ---

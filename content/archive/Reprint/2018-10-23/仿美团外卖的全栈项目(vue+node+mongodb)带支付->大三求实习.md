@@ -1,7 +1,7 @@
 ---
 title: 仿美团外卖的全栈项目(vue+node+mongodb)带支付->大三求实习
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 58ca5aa3
 date: 2018-10-23 00:00:00
 ---

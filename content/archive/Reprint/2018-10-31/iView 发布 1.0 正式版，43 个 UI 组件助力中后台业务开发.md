@@ -1,7 +1,7 @@
 ---
 title: iView 发布 1.0 正式版，43 个 UI 组件助力中后台业务开发
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3288fe28
 date: 2018-10-31 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 图解：HTTP 范围请求，助力断点续传、多线程下载的核心原理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6addaa3c
 date: 2018-11-01 02:30:09
 ---

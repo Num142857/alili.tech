@@ -1,7 +1,7 @@
 ---
 title: JS里深拷贝和浅拷贝的释义
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b8479e8d
 date: 2018-11-03 10:03:44
 ---

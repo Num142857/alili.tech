@@ -1,7 +1,7 @@
 ---
 title: 关于IT培训机构的个人看法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: eacdd004
 date: 2018-10-23 00:00:00
 ---

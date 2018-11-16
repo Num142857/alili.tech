@@ -1,7 +1,7 @@
 ---
 title: Mobx React 最佳实践 - 每日JS
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f2571b7a
 date: 2018-10-18 00:00:00
 ---

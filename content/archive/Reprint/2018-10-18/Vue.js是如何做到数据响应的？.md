@@ -1,7 +1,7 @@
 ---
 title: Vue.js是如何做到数据响应的？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a86700c5
 date: 2018-10-18 00:00:00
 ---

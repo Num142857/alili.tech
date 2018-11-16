@@ -1,7 +1,7 @@
 ---
 title: '后台: node + express + mongodb + redis 前台: vue 微信小程序 完整商城单店模式'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 37cb4244
 date: 2018-11-11 02:30:07
 ---

@@ -1,7 +1,7 @@
 ---
 title: 在 Linux 上如何得到一个段错误的核心转储
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 18b31796
 date: 2018-10-20 00:00:00
 ---

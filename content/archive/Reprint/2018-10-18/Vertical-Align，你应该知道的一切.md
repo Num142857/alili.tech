@@ -1,7 +1,7 @@
 ---
 title: Vertical-Align，你应该知道的一切
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9a1cab33
 date: 2018-10-18 00:00:00
 ---

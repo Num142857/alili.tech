@@ -1,7 +1,7 @@
 ---
 title: 基于 Webpack2、Vue2、iView2 的可视化脚手架 iView Cli 发布 2.0 版本
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 81d1ac67
 date: 2018-10-29 02:30:09
 ---

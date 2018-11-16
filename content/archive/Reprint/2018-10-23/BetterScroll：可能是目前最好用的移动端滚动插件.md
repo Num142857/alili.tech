@@ -1,7 +1,7 @@
 ---
 title: BetterScroll：可能是目前最好用的移动端滚动插件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 743c5acb
 date: 2018-10-23 00:00:00
 ---

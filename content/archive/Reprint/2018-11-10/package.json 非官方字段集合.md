@@ -1,7 +1,7 @@
 ---
 title: package.json 非官方字段集合
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a77ab9e3
 date: 2018-11-10 02:30:10
 ---

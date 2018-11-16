@@ -1,7 +1,7 @@
 ---
 title: 你不知道的Virtual DOM（五）：自定义组件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5f775bdd
 date: 2018-11-13 02:30:09
 ---

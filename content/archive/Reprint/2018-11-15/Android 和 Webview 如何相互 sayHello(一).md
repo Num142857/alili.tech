@@ -3,7 +3,7 @@ title: 'Android 和 Webview 如何相互 sayHello(一)'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: r3totapgtp
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

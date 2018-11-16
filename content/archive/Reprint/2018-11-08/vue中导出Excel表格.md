@@ -1,7 +1,7 @@
 ---
 title: vue中导出Excel表格
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 81cf3500
 date: 2018-11-08 02:30:09
 ---

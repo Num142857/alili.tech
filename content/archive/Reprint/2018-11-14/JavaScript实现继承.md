@@ -1,7 +1,7 @@
 ---
 title: JavaScript实现继承
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 68a1ada0
 date: 2018-11-14 02:30:09
 ---

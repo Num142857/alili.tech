@@ -1,7 +1,7 @@
 ---
 title: 'JavaScript: ECMAScript 2018（ES2018）有哪些新功能？'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4968ddc5
 date: 2018-10-18 00:00:00
 ---

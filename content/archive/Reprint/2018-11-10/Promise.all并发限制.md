@@ -1,7 +1,7 @@
 ---
 title: Promise.all并发限制
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 51a9b
 date: 2018-11-10 02:30:10
 ---

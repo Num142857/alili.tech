@@ -1,7 +1,7 @@
 ---
 title: 使用 javascript 替换 jQuery
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f1bb2c40
 date: 2018-11-06 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: 4 个现在就该去装的 Firefox 扩展
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 90bbab67
 date: 2018-10-22 00:00:00
 ---

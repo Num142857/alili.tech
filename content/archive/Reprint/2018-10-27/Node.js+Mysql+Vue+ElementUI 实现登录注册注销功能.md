@@ -1,7 +1,7 @@
 ---
 title: Node.js+Mysql+Vue+ElementUI 实现登录注册注销功能
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bfcd5ef3
 date: 2018-10-27 02:30:17
 ---

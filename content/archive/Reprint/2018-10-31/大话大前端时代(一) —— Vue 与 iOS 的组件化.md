@@ -1,7 +1,7 @@
 ---
 title: 大话大前端时代(一) —— Vue 与 iOS 的组件化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ad6b85ad
 date: 2018-10-31 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 【干货】js 数组详细操作方法及解析合集
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 72838ac1
 date: 2018-10-24 08:17:54
 ---

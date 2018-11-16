@@ -2,7 +2,7 @@
 title: 'VUE单页应用首屏加载速度优化方案' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

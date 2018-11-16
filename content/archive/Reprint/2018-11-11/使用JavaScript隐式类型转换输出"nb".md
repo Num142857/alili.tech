@@ -1,7 +1,7 @@
 ---
 title: 使用JavaScript隐式类型转换输出"nb"
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f950c0d7
 date: 2018-11-11 02:30:07
 ---

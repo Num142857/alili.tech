@@ -1,7 +1,7 @@
 ---
 title: WebSocket探秘
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d20fa6ee
 date: 2018-10-25 14:16:25
 ---

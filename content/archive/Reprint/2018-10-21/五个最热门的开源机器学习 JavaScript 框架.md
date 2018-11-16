@@ -1,7 +1,7 @@
 ---
 title: 五个最热门的开源机器学习 JavaScript 框架
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e7b0e14f
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: Vue项目数据动态过滤实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c22fd7d7
 date: 2018-11-02 02:30:12
 ---

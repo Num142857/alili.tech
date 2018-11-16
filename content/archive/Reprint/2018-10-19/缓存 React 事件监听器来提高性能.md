@@ -1,7 +1,7 @@
 ---
 title: 缓存 React 事件监听器来提高性能
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2e3f8879
 date: 2018-10-19 00:00:00
 ---

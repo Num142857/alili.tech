@@ -1,7 +1,7 @@
 ---
 title: Vue学习—— Vuex学习笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d70f710e
 date: 2018-11-04 02:30:10
 ---

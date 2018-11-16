@@ -3,7 +3,7 @@ title: 'Generator：JS执行权的真实操作者'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: jxhrzeop528
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

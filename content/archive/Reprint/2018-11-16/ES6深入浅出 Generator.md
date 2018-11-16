@@ -3,7 +3,7 @@ title: 'ES6深入浅出 Generator'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: 32ufjbf3p3i
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

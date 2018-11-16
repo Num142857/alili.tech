@@ -1,7 +1,7 @@
 ---
 title: webpack原理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6e75b89d
 date: 2018-10-28 02:30:10
 ---

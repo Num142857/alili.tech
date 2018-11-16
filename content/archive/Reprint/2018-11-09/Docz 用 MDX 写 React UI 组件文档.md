@@ -1,7 +1,7 @@
 ---
 title: Docz 用 MDX 写 React UI 组件文档
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '6e968326'
 date: 2018-11-09 02:30:06
 ---

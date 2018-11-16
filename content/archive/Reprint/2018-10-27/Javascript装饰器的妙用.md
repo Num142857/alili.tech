@@ -1,7 +1,7 @@
 ---
 title: Javascript装饰器的妙用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cbaa1f9d
 date: 2018-10-27 02:30:17
 ---

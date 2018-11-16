@@ -1,7 +1,7 @@
 ---
 title: 'scrollHeight, clientHeight, offsetHeight的区别'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a5a45d1f
 date: 2018-11-06 15:28:31
 ---

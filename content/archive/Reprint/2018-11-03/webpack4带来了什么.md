@@ -1,7 +1,7 @@
 ---
 title: webpack4带来了什么
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c801bfb7
 date: 2018-11-03 10:03:44
 ---

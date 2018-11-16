@@ -1,7 +1,7 @@
 ---
 title: 从 1 到完美，用 node 写一个命令行工具
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2ea6373
 date: 2018-11-06 15:28:31
 ---

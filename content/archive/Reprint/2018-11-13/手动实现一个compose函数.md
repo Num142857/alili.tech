@@ -1,7 +1,7 @@
 ---
 title: 手动实现一个compose函数
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e72090d9
 date: 2018-11-13 02:30:09
 ---

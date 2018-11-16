@@ -1,7 +1,7 @@
 ---
 title: Flexbox 很棒，但有些情况不适用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8ed5ceaa
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 基于vuejs2+webpack2+vuxui2多页面架手脚，支持二级目录
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8522805f
 date: 2018-10-29 02:30:09
 ---

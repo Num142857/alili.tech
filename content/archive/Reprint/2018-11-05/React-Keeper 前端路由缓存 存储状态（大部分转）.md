@@ -1,7 +1,7 @@
 ---
 title: React-Keeper 前端路由缓存 存储状态（大部分转）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cf6653f8
 date: 2018-11-05 02:30:11
 ---

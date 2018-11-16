@@ -1,7 +1,7 @@
 ---
 title: 用 canvas 的 getImageData 做点有趣的事
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d3e1518e
 date: 2018-11-02 02:30:12
 ---

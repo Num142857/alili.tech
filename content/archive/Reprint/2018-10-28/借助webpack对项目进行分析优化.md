@@ -1,7 +1,7 @@
 ---
 title: 借助webpack对项目进行分析优化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 86ab312c
 date: 2018-10-28 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: JavaScript 使用 mediaDevices API 选择摄像头
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8e82c37c
 date: 2018-10-18 00:00:00
 ---

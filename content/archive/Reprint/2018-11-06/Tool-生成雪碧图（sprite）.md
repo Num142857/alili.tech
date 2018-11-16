@@ -1,7 +1,7 @@
 ---
 title: Tool-生成雪碧图（sprite）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c9daa84c
 date: 2018-11-06 15:28:30
 ---

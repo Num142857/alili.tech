@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: 用良好的用户界面加速GraphQL mutation'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c0dd4948
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: ES6 手写一个“辨色”小游戏
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ed435f3d
 date: 2018-11-03 02:30:13
 ---

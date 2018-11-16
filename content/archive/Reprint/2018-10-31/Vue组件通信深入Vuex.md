@@ -1,7 +1,7 @@
 ---
 title: Vue组件通信深入Vuex
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9b908a87
 date: 2018-10-31 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: webpack启动代码源码解读
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 510918a4
 date: 2018-11-07 02:30:12
 ---

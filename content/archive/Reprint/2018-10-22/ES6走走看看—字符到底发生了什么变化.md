@@ -1,7 +1,7 @@
 ---
 title: ES6走走看看—字符到底发生了什么变化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: caa15126
 date: 2018-10-22 00:00:00
 ---

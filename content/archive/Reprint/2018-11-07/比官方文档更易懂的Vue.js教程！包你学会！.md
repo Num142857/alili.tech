@@ -1,7 +1,7 @@
 ---
 title: 比官方文档更易懂的Vue.js教程！包你学会！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 28a68d42
 date: 2018-11-07 02:30:13
 ---

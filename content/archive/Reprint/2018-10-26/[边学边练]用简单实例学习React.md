@@ -1,7 +1,7 @@
 ---
 title: '[边学边练]用简单实例学习React'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 686f00c8
 date: 2018-10-26 02:30:12
 ---

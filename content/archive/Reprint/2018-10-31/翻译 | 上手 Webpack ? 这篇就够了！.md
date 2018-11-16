@@ -1,7 +1,7 @@
 ---
 title: 翻译 | 上手 Webpack ? 这篇就够了！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6c55cd2a
 date: 2018-10-31 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 如何解释vue的生命周期才能令面试官满意？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 15d2305a
 date: 2018-10-25 09:08:15
 ---

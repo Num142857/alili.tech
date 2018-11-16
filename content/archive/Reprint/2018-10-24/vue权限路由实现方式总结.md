@@ -1,7 +1,7 @@
 ---
 title: vue权限路由实现方式总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 97e1d046
 date: 2018-10-24 08:17:53
 ---

@@ -3,7 +3,7 @@ title: '好用的 Puppeteer 辅助工具 Puppeteer Recorder'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: nm9zkhzyre
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

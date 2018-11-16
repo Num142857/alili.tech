@@ -1,7 +1,7 @@
 ---
 title: 深入浅出Node.js
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bf3f72c4
 date: 2018-11-05 02:30:11
 ---

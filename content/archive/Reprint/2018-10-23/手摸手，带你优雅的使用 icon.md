@@ -1,7 +1,7 @@
 ---
 title: 手摸手，带你优雅的使用 icon
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1e5cc6f0
 date: 2018-10-23 00:00:00
 ---

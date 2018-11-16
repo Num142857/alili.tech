@@ -1,7 +1,7 @@
 ---
 title: 自定义元素介绍 - DEV社区
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 45c69746
 date: 2018-10-19 00:00:00
 ---

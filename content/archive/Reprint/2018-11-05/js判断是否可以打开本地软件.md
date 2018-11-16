@@ -1,7 +1,7 @@
 ---
 title: js判断是否可以打开本地软件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2644af5c
 date: 2018-11-05 02:30:11
 ---

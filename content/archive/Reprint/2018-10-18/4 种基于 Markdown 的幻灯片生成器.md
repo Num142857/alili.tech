@@ -1,7 +1,7 @@
 ---
 title: 4 种基于 Markdown 的幻灯片生成器
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 248f9ce2
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 一只node爬虫的升级打怪之路
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a577e45e
 date: 2018-10-27 02:30:17
 ---

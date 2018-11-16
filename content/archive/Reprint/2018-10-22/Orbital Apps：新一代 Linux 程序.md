@@ -1,7 +1,7 @@
 ---
 title: Orbital Apps：新一代 Linux 程序
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ed27bb94
 date: 2018-10-22 00:00:00
 ---

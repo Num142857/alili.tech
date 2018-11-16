@@ -1,7 +1,7 @@
 ---
 title: SSL协议之数据加密过程详解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e0cc6da2
 date: 2018-11-01 02:30:09
 ---

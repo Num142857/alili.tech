@@ -1,7 +1,7 @@
 ---
 title: Web通信协议，你还需要知道： SPDY 和 QUIC
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: db44c411
 date: 2018-11-03 02:30:13
 ---

@@ -1,7 +1,7 @@
 ---
 title: 异步解决方案----Promise与Await
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 300deff0
 date: 2018-11-04 02:30:10
 ---

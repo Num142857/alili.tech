@@ -1,7 +1,7 @@
 ---
 title: JavaScript 初学者教程（指南）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: edda3a40
 date: 2018-11-11 02:30:06
 ---

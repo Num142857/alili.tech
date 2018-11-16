@@ -1,7 +1,7 @@
 ---
 title: Chrome 小插件开发 - 提醒我点餐
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1f2689af
 date: 2018-11-05 02:30:10
 ---

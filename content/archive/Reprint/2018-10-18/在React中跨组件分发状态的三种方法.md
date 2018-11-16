@@ -1,7 +1,7 @@
 ---
 title: 在React中跨组件分发状态的三种方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4cec9d39
 date: 2018-10-18 00:00:00
 ---

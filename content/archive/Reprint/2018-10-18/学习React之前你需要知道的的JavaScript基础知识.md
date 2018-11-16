@@ -1,7 +1,7 @@
 ---
 title: 学习React之前你需要知道的的JavaScript基础知识
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7f16801f
 date: 2018-10-18 00:00:00
 ---

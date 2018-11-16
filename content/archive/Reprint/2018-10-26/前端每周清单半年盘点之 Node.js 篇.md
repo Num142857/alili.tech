@@ -1,7 +1,7 @@
 ---
 title: 前端每周清单半年盘点之 Node.js 篇
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 62e8c09b
 date: 2018-10-26 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: Git 常用命令清单，掌握这些，轻松驾驭版本管理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 88f4ca75
 date: 2018-11-04 02:30:10
 ---

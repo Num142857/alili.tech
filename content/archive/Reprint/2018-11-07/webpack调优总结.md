@@ -1,7 +1,7 @@
 ---
 title: webpack调优总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2ea30f8c
 date: 2018-11-07 02:30:16
 ---

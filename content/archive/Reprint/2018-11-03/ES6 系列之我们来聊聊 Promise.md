@@ -1,7 +1,7 @@
 ---
 title: ES6 系列之我们来聊聊 Promise
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: da4517e
 date: 2018-11-03 10:03:44
 ---

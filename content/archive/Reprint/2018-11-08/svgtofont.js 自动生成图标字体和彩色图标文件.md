@@ -1,7 +1,7 @@
 ---
 title: svgtofont.js 自动生成图标字体和彩色图标文件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6abbdd3b
 date: 2018-11-08 02:30:09
 ---

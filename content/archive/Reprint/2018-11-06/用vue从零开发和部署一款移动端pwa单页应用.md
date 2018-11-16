@@ -1,7 +1,7 @@
 ---
 title: 用vue从零开发和部署一款移动端pwa单页应用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 440321a9
 date: 2018-11-06 02:30:12
 ---

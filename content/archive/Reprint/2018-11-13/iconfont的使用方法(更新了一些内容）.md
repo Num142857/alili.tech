@@ -1,7 +1,7 @@
 ---
 title: iconfont的使用方法(更新了一些内容）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cb5e89e4
 date: 2018-11-13 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: 带你彻底弄懂Event Loop
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bc9bb1af
 date: 2018-10-22 00:00:00
 ---

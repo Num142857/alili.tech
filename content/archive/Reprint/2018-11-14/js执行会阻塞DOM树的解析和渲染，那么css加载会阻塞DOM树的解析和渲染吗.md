@@ -1,7 +1,7 @@
 ---
 title: js执行会阻塞DOM树的解析和渲染，那么css加载会阻塞DOM树的解析和渲染吗
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fd13d65e
 date: 2018-11-14 02:30:09
 ---

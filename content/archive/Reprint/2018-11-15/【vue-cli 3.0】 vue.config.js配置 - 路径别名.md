@@ -2,7 +2,7 @@
 title: '【vue-cli 3.0】 vue.config.js配置 - 路径别名' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

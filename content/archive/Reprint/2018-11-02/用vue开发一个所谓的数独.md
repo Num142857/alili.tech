@@ -1,7 +1,7 @@
 ---
 title: 用vue开发一个所谓的数独
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 60c336ed
 date: 2018-11-02 02:30:11
 ---

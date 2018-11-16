@@ -1,7 +1,7 @@
 ---
 title: "JavaScript引擎基础：优化原型"
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 44173d64
 date: 2018-10-18 00:00:00
 ---

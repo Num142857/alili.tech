@@ -1,7 +1,7 @@
 ---
 title: Angular开发实践（六）：服务端渲染
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 94b10dc
 date: 2018-11-03 10:03:44
 ---

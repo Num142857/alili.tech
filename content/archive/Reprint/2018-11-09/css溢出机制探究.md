@@ -1,7 +1,7 @@
 ---
 title: css溢出机制探究
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1a886eaf
 date: 2018-11-09 02:30:05
 ---

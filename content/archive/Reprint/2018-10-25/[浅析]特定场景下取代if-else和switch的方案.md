@@ -1,7 +1,7 @@
 ---
 title: '[浅析]特定场景下取代if-else和switch的方案'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 26c697c9
 date: 2018-10-25 09:08:15
 ---

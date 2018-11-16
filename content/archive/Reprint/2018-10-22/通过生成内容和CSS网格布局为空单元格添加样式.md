@@ -1,7 +1,7 @@
 ---
 title: 通过生成内容和CSS网格布局为空单元格添加样式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: eee546d2
 date: 2018-10-22 00:00:00
 ---

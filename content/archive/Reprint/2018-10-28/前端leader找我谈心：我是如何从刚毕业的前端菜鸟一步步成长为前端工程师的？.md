@@ -1,7 +1,7 @@
 ---
 title: 前端leader找我谈心：我是如何从刚毕业的前端菜鸟一步步成长为前端工程师的？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9e60333f
 date: 2018-10-28 02:30:09
 ---

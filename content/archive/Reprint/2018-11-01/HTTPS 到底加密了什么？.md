@@ -1,7 +1,7 @@
 ---
 title: HTTPS 到底加密了什么？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9094c2b0
 date: 2018-11-01 02:30:09
 ---

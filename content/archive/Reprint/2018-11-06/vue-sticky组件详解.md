@@ -1,7 +1,7 @@
 ---
 title: vue-sticky组件详解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 953cb153
 date: 2018-11-06 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: 从 1 到完美，用 js 和 react-native 写一个 APP
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 16dff42a
 date: 2018-11-12 02:30:05
 ---

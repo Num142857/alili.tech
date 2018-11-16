@@ -1,7 +1,7 @@
 ---
 title: 搞懂 Javascript 继承原理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d7791b4e
 date: 2018-11-06 15:28:31
 ---

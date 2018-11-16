@@ -1,7 +1,7 @@
 ---
 title: "JavaScript：处理'undefined'的7个技巧"
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 25e884f1
 date: 2018-10-18 00:00:00
 ---

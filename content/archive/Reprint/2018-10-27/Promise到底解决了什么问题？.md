@@ -1,7 +1,7 @@
 ---
 title: Promise到底解决了什么问题？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5de28baf
 date: 2018-10-27 02:30:16
 ---

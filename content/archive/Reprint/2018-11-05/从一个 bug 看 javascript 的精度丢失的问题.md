@@ -1,7 +1,7 @@
 ---
 title: 从一个 bug 看 javascript 的精度丢失的问题
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d629aa72
 date: 2018-11-05 02:30:10
 ---

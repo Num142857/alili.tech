@@ -1,7 +1,7 @@
 ---
 title: webpack 从入门到上线
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 50b1ed1
 date: 2018-10-29 02:30:09
 ---

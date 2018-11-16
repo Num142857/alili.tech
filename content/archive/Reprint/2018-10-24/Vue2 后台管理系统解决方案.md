@@ -1,7 +1,7 @@
 ---
 title: Vue2 后台管理系统解决方案
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8a357947
 date: 2018-10-24 02:30:09
 ---

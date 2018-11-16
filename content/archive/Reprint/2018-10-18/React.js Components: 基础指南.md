@@ -1,7 +1,7 @@
 ---
 title: 'React.js Components: 基础指南 '
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 67b05647
 date: 2018-10-18 00:00:00
 ---

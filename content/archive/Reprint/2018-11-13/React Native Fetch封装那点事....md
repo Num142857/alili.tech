@@ -1,7 +1,7 @@
 ---
 title: React Native Fetch封装那点事...
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 427b815b
 date: 2018-11-13 02:30:09
 ---

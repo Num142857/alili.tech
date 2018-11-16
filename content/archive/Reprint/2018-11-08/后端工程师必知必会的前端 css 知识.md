@@ -1,7 +1,7 @@
 ---
 title: 后端工程师必知必会的前端 css 知识
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 27056ced
 date: 2018-11-08 02:30:09
 ---

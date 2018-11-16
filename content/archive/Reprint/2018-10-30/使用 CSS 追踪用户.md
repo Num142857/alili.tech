@@ -1,7 +1,7 @@
 ---
 title: 使用 CSS 追踪用户
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d7d02e3
 date: 2018-10-30 02:30:12
 ---

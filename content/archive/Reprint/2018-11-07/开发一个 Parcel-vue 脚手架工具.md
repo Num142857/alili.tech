@@ -1,7 +1,7 @@
 ---
 title: 开发一个 Parcel-vue 脚手架工具
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 74f94a1
 date: 2018-11-07 02:30:16
 ---

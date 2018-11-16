@@ -3,7 +3,7 @@ title: '不会设计没关系！看看这七个实用的网页UI设计小技巧�
 date: 2018-11-16 2:30:06
 hidden: true
 slug: 5exc2jkmdod
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

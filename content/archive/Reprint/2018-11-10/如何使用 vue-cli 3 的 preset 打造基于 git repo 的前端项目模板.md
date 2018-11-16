@@ -1,7 +1,7 @@
 ---
 title: 如何使用 vue-cli 3 的 preset 打造基于 git repo 的前端项目模板
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5e7e6433
 date: 2018-11-10 02:30:10
 ---

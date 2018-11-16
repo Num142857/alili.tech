@@ -1,7 +1,7 @@
 ---
 title: Nuxt.js服务端渲染实践，从开发到部署
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ddfc0f74
 date: 2018-10-27 02:30:17
 ---

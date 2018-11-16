@@ -1,7 +1,7 @@
 ---
 title: 手摸手，带你用vue撸后台 系列三(实战篇)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b82f32d7
 date: 2018-10-23 00:00:00
 ---

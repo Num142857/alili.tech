@@ -1,7 +1,7 @@
 ---
 title: 三大图表库：ECharts 、 BizCharts 和 G2，该如何选择？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3f1b4baf
 date: 2018-11-03 02:30:13
 ---

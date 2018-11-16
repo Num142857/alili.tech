@@ -1,7 +1,7 @@
 ---
 title: 前端阶段性总结（一）： HTTP 协议，从1.0到2.0
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '77e62896'
 date: 2018-11-03 10:03:44
 ---

@@ -1,7 +1,7 @@
 ---
 title: 学习Less-看这篇就够了
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '38415731'
 date: 2018-10-30 02:30:12
 ---

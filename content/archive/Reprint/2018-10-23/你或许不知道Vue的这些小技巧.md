@@ -1,7 +1,7 @@
 ---
 title: 你或许不知道Vue的这些小技巧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d4881399
 date: 2018-10-23 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: React中的函数子组件(FaCC)和高阶组件(HOC)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8a7902d6
 date: 2018-11-12 02:30:05
 ---

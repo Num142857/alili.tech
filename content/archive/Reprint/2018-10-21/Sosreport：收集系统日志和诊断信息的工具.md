@@ -1,7 +1,7 @@
 ---
 title: Sosreport：收集系统日志和诊断信息的工具
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7e362e1c
 date: 2018-10-21 00:00:00
 ---

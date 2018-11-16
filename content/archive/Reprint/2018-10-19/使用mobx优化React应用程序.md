@@ -1,7 +1,7 @@
 ---
 title: 使用mobx优化React应用程序
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 48d77083
 date: 2018-10-19 00:00:00
 ---

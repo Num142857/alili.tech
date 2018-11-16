@@ -1,7 +1,7 @@
 ---
 title: windows本地安装部署 Easy Mock
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 500bb036
 date: 2018-11-09 02:30:06
 ---

@@ -1,7 +1,7 @@
 ---
 title: vue生命周期简记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e4a602bd
 date: 2018-11-05 02:30:11
 ---

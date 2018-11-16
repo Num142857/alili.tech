@@ -1,7 +1,7 @@
 ---
 title: 像程序员一样思考：如何只使用 JavaScript，HTML 和 CSS 开发贪食蛇游戏
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bdd791ff
 date: 2018-10-18 00:00:00
 ---

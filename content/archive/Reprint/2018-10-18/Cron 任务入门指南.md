@@ -1,7 +1,7 @@
 ---
 title: Cron 任务入门指南
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d0879e5
 date: 2018-10-18 00:00:00
 ---

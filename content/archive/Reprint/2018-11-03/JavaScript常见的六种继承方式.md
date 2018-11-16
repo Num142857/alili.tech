@@ -1,7 +1,7 @@
 ---
 title: JavaScript常见的六种继承方式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9eedb2f
 date: 2018-11-03 10:03:44
 ---

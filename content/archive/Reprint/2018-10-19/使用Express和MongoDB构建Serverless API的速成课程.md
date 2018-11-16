@@ -1,7 +1,7 @@
 ---
 title: 使用Express和MongoDB构建Serverless API的速成课程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '53106638'
 date: 2018-10-19 00:00:00
 ---

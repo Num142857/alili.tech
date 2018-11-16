@@ -1,7 +1,7 @@
 ---
 title: Node.js - 200 多行代码实现 Websocket 协议
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 382a9e67
 date: 2018-11-07 02:30:16
 ---

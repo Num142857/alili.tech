@@ -1,7 +1,7 @@
 ---
 title: 一共收集整理了图形20个，比较实用，同时也为了熟悉CSS的代码。整合了一下，有错误欢迎指出。
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 627b7933
 date: 2018-11-06 15:28:31
 ---

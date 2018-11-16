@@ -1,7 +1,7 @@
 ---
 title: 你不曾察觉的隐患：危险的 target="_blank" 与 “opener”
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3aa5de53
 date: 2018-11-09 02:30:05
 ---

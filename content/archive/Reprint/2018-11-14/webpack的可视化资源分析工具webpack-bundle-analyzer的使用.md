@@ -1,7 +1,7 @@
 ---
 title: webpack的可视化资源分析工具webpack-bundle-analyzer的使用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 386e6ff
 date: 2018-11-14 02:30:09
 ---

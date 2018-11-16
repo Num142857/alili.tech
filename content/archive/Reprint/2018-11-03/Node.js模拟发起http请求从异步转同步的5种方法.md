@@ -1,7 +1,7 @@
 ---
 title: Node.js模拟发起http请求从异步转同步的5种方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 112e24ba
 date: 2018-11-03 02:30:12
 ---

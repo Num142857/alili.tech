@@ -1,7 +1,7 @@
 ---
 title: 玩转Redis - 使用有序集合(sorted sets)实现投票游戏
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d7851f9d
 date: 2018-11-03 02:30:13
 ---

@@ -1,7 +1,7 @@
 ---
 title: React 服务端渲染如此轻松 从零开始构建前后端应用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6d0d53b1
 date: 2018-11-01 02:30:08
 ---

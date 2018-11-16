@@ -1,7 +1,7 @@
 ---
 title: flex几种多列布局
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 25fe6634
 date: 2018-11-03 10:03:44
 ---

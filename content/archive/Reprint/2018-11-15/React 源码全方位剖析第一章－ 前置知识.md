@@ -3,7 +3,7 @@ title: 'React 源码全方位剖析第一章－ 前置知识'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: c80dqijn8
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -2,7 +2,7 @@
 title: 'React key值的作用和使用' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

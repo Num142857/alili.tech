@@ -1,7 +1,7 @@
 ---
 title: 6 个可以帮你理解互联网工作原理的 RFC
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: efd6a16f
 date: 2018-10-20 00:00:00
 ---

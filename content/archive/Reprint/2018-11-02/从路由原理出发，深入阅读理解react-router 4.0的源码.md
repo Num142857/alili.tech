@@ -1,7 +1,7 @@
 ---
 title: 从路由原理出发，深入阅读理解react-router 4.0的源码
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f0b90797
 date: 2018-11-02 02:30:12
 ---

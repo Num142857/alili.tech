@@ -1,7 +1,7 @@
 ---
 title: 深入ES6：箭头函数
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 87f6ebe4
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 81道经典Vue面试题总结（长期更新）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cee591b1
 date: 2018-11-10 02:30:11
 ---

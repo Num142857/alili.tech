@@ -1,7 +1,7 @@
 ---
 title: Javascript-深浅拷贝
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4ad52c84
 date: 2018-11-06 15:28:31
 ---

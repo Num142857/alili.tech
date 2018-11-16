@@ -3,7 +3,7 @@ title: 'vue监听对象及对象属性'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: hpg105keuy9
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

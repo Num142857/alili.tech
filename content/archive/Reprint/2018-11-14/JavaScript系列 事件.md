@@ -1,7 +1,7 @@
 ---
 title: JavaScript系列 事件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 26ffb9f8
 date: 2018-11-14 02:30:09
 ---

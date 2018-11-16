@@ -3,7 +3,7 @@ title: '主流的CSS水平和垂直居中技术大全'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: 1nj5zwifpal
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

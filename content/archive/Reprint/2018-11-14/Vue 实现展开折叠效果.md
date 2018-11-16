@@ -1,7 +1,7 @@
 ---
 title: Vue 实现展开折叠效果
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 38a298d7
 date: 2018-11-14 02:30:09
 ---

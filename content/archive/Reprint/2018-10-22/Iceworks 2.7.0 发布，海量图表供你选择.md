@@ -1,7 +1,7 @@
 ---
 title: Iceworks 2.7.0 发布，海量图表供你选择
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 340bdc28
 date: 2018-10-22 00:00:00
 ---

@@ -3,7 +3,7 @@ title: 'JS面试理论题'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: kuarhdceuz
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: 关于如何在部署环境修改process.env & 本地测试
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4abce9bf
 date: 2018-11-06 02:30:12
 ---

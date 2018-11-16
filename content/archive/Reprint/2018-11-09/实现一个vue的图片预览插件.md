@@ -1,7 +1,7 @@
 ---
 title: 实现一个vue的图片预览插件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bfae2f17
 date: 2018-11-09 02:30:06
 ---

@@ -1,7 +1,7 @@
 ---
 title: 关于Babel6你需要了解的六件事
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2ef1009
 date: 2018-10-18 00:00:00
 ---

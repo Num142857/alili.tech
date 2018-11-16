@@ -1,7 +1,7 @@
 ---
 title: '[踩坑] CSS中overflow-y: visible;不起作用'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: da68668a
 date: 2018-11-10 02:30:10
 ---

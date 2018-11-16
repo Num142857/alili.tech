@@ -1,7 +1,7 @@
 ---
 title: 使用Vue创建一个Excel插件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8d876f92
 date: 2018-10-19 00:00:00
 ---

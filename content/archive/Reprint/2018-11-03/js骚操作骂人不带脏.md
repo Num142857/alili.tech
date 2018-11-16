@@ -1,7 +1,7 @@
 ---
 title: js骚操作骂人不带脏
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3817ac30
 date: 2018-11-03 02:30:13
 ---

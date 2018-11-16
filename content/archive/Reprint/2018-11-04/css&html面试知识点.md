@@ -1,7 +1,7 @@
 ---
 title: css&html面试知识点
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 79585ecb
 date: 2018-11-04 02:30:10
 ---

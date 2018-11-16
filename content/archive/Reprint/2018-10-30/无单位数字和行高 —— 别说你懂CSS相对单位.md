@@ -1,7 +1,7 @@
 ---
 title: 无单位数字和行高 —— 别说你懂CSS相对单位
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 55035adf
 date: 2018-10-30 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: 没朋友(mpvue)，点个外卖，一个人也要好好吃饭
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8bd785b
 date: 2018-10-25 09:08:15
 ---

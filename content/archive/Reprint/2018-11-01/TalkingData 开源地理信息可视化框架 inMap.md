@@ -1,7 +1,7 @@
 ---
 title: TalkingData 开源地理信息可视化框架 inMap
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1e0954cb
 date: 2018-11-01 02:30:08
 ---

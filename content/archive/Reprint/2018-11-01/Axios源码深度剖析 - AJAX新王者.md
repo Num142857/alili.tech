@@ -1,7 +1,7 @@
 ---
 title: Axios源码深度剖析 - AJAX新王者
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3ba215a7
 date: 2018-11-01 02:30:09
 ---

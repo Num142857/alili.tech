@@ -1,7 +1,7 @@
 ---
 title: JavaScript之实现一个简单的Vue
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fba2b08e
 date: 2018-11-02 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: '你不知道的js中关于this绑定机制的解析[看完还不懂算我输]'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7a3516ab
 date: 2018-10-25 09:08:15
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Jest 23: \U0001F525 快速愉快的测试 "
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 916cf636
 date: 2018-10-18 00:00:00
 ---

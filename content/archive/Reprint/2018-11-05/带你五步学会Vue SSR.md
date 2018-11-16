@@ -1,7 +1,7 @@
 ---
 title: 带你五步学会Vue SSR
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b07fd488
 date: 2018-11-05 02:30:11
 ---

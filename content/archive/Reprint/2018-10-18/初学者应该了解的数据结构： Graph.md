@@ -1,7 +1,7 @@
 ---
 title: 初学者应该了解的数据结构： Graph
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cf024897
 date: 2018-10-18 00:00:00
 ---

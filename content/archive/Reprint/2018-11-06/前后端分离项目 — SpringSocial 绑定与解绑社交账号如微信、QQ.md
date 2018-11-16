@@ -1,7 +1,7 @@
 ---
 title: 前后端分离项目 — SpringSocial 绑定与解绑社交账号如微信、QQ
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bc6556da
 date: 2018-11-06 15:28:31
 ---

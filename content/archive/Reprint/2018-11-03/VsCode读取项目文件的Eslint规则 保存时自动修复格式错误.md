@@ -1,7 +1,7 @@
 ---
 title: VsCode读取项目文件的Eslint规则 保存时自动修复格式错误
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e7d1661f
 date: 2018-11-03 02:30:13
 ---

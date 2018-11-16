@@ -1,7 +1,7 @@
 ---
 title: 【基础知识】Flex-弹性布局原来如此简单！！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 675bcedf
 date: 2018-11-03 02:30:13
 ---

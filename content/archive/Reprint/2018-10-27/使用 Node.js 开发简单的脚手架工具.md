@@ -1,7 +1,7 @@
 ---
 title: 使用 Node.js 开发简单的脚手架工具
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 37fc4d2c
 date: 2018-10-27 02:30:17
 ---

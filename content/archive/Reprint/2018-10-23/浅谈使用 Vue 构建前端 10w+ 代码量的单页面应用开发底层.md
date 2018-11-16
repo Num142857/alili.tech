@@ -1,7 +1,7 @@
 ---
 title: 浅谈使用 Vue 构建前端 10w+ 代码量的单页面应用开发底层
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9a0ea8f2
 date: 2018-10-23 00:00:00
 ---

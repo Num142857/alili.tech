@@ -1,7 +1,7 @@
 ---
 title: tsquery——一个方便的ast查询工具
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fb7489e5
 date: 2018-11-09 02:30:06
 ---

@@ -1,7 +1,7 @@
 ---
 title: github 上有趣又实用的前端项目（持续更新，欢迎补充）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 185775c5
 date: 2018-11-06 15:28:32
 ---

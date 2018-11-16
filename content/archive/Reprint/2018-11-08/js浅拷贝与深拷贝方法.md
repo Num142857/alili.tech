@@ -1,7 +1,7 @@
 ---
 title: js浅拷贝与深拷贝方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2e32f070
 date: 2018-11-08 02:30:09
 ---

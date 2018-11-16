@@ -3,7 +3,7 @@ title: '基于vue(element ui) + ssm + shiro 的权限框架'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: eeddc2rji2a
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: Node.js 事件循环工作流程 & 生命周期 -- Void Canvas
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f2555a
 date: 2018-10-18 00:00:00
 ---

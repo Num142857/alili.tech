@@ -1,7 +1,7 @@
 ---
 title: 创业公司的 Nodejs 工程师
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b1e1eb56
 date: 2018-10-25 09:08:15
 ---

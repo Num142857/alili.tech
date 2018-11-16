@@ -1,7 +1,7 @@
 ---
 title: vue移动端下拉刷新、上拉加载
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8d66ec23
 date: 2018-11-11 02:30:07
 ---

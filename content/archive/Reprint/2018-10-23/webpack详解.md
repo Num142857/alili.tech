@@ -1,7 +1,7 @@
 ---
 title: webpack详解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '73362992'
 date: 2018-10-23 00:00:00
 ---

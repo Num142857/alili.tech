@@ -3,7 +3,7 @@ title: '关于NaN'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: q4wi11x3l5k
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

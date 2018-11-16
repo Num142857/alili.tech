@@ -1,7 +1,7 @@
 ---
 title: JavaScript深入系列15篇正式完结！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fa6f85aa
 date: 2018-10-23 00:00:00
 ---

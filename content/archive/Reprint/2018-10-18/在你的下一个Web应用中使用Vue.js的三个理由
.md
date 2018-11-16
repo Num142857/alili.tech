@@ -1,7 +1,7 @@
 ---
 title: 在你的下一个Web应用中使用Vue.js的三个理由
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d3f22047
 date: 2018-10-18 00:00:00
 ---

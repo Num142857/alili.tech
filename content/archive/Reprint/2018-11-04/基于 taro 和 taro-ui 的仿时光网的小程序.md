@@ -1,7 +1,7 @@
 ---
 title: 基于 taro 和 taro-ui 的仿时光网的小程序
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 214bcf93
 date: 2018-11-04 02:30:10
 ---

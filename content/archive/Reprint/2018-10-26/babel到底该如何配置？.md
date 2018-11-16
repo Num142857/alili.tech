@@ -1,7 +1,7 @@
 ---
 title: babel到底该如何配置？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 37dfc174
 date: 2018-10-26 02:30:12
 ---

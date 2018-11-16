@@ -1,7 +1,7 @@
 ---
 title: JavaScript之Web Worker
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e0672b87
 date: 2018-11-10 02:30:10
 ---

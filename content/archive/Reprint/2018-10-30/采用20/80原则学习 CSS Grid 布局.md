@@ -1,7 +1,7 @@
 ---
 title: 采用20/80原则学习 CSS Grid 布局
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 45b0d9ec
 date: 2018-10-30 02:30:12
 ---

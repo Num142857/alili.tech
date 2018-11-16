@@ -3,7 +3,7 @@ title: '前端每日实战：106# 视频演示如何用纯 CSS 创作一个没�
 date: 2018-11-16 2:30:06
 hidden: true
 slug: tv72i0wpvre
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: You-Get：支持 80 多个网站的命令行多媒体下载器
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fa871c5d
 date: 2018-10-22 00:00:00
 ---

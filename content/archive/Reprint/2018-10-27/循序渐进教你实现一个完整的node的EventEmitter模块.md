@@ -1,7 +1,7 @@
 ---
 title: 循序渐进教你实现一个完整的node的EventEmitter模块
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 967a17d9
 date: 2018-10-27 02:30:17
 ---

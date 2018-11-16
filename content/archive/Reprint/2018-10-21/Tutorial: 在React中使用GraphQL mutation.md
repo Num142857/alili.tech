@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: 在React中使用GraphQL mutation'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 32ffef6d
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 个人分享--web前端学习资源分享
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 674d6e5f
 date: 2018-10-24 08:17:54
 ---

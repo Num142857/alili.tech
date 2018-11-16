@@ -1,7 +1,7 @@
 ---
 title: 精读《深入浅出Node.js》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: db94cab2
 date: 2018-10-27 02:30:17
 ---

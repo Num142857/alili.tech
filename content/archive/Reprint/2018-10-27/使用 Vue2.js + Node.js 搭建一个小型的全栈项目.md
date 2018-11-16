@@ -1,7 +1,7 @@
 ---
 title: 使用 Vue2.js + Node.js 搭建一个小型的全栈项目
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9193f7e
 date: 2018-10-27 02:30:17
 ---

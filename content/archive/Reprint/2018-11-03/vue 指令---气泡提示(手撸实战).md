@@ -1,7 +1,7 @@
 ---
 title: vue 指令---气泡提示(手撸实战)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 82bb16b
 date: 2018-11-03 10:03:44
 ---

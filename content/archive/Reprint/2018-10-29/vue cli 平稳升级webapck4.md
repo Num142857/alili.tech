@@ -1,7 +1,7 @@
 ---
 title: vue cli 平稳升级webapck4
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5c5d3d9c
 date: 2018-10-29 02:30:09
 ---

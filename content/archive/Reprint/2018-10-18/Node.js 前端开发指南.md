@@ -1,7 +1,7 @@
 ---
 title: Node.js 前端开发指南
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b821ddf1
 date: 2018-10-18 00:00:00
 ---

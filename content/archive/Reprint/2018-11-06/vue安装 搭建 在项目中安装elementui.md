@@ -1,7 +1,7 @@
 ---
 title: vue安装 搭建 在项目中安装elementui
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a078a787
 date: 2018-11-06 02:30:12
 ---

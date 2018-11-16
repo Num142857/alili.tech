@@ -1,7 +1,7 @@
 ---
 title: 2018年值得关注的10大JavaScript动画库
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fd528aee
 date: 2018-10-18 00:00:00
 ---

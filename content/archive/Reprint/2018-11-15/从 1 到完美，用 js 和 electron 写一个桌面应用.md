@@ -3,7 +3,7 @@ title: '从 1 到完美，用 js 和 electron 写一个桌面应用'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: 25nyn36l1ali
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

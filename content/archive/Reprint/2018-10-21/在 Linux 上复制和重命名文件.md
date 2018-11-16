@@ -1,7 +1,7 @@
 ---
 title: 在 Linux 上复制和重命名文件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9789051a
 date: 2018-10-21 00:00:00
 ---

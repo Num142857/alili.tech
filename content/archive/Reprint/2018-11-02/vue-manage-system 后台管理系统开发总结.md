@@ -1,7 +1,7 @@
 ---
 title: vue-manage-system 后台管理系统开发总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fd7f7a12
 date: 2018-11-02 02:30:12
 ---

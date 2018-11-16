@@ -3,7 +3,7 @@ title: '这两天老是有兄弟问到Vue的登陆和注册，登陆成功留在
 date: 2018-11-16 2:30:06
 hidden: true
 slug: k1nujq6ggj
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

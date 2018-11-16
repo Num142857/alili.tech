@@ -1,7 +1,7 @@
 ---
 title: 像打字一样插入图标-iconfont
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8c840e11
 date: 2018-11-04 02:30:10
 ---

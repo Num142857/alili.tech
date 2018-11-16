@@ -1,7 +1,7 @@
 ---
 title: '[开源] SpriteJS -- 一款简单的跨终端 canvas 绘图框架'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 979c7778
 date: 2018-10-31 02:30:10
 ---

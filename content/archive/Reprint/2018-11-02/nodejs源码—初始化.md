@@ -1,7 +1,7 @@
 ---
 title: nodejs源码—初始化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 29ea3dcb
 date: 2018-11-02 02:30:12
 ---

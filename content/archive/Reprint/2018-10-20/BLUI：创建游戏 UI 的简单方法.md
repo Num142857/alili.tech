@@ -1,7 +1,7 @@
 ---
 title: BLUI：创建游戏 UI 的简单方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6adc68c9
 date: 2018-10-20 00:00:00
 ---

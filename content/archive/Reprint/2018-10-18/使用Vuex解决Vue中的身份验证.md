@@ -1,7 +1,7 @@
 ---
 title: 使用Vuex解决Vue中的身份验证
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bd062f28
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 2018年你应该知道的11个Javascript实用程序库
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cca8f40d
 date: 2018-10-18 00:00:00
 ---

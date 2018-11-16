@@ -1,7 +1,7 @@
 ---
 title: 每天坚持一个CSS——社会人
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f74c3b24
 date: 2018-11-08 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: 这个PHP无解深坑，你能解出来吗？（听说能解出来的都很秀）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e3ff8247
 date: 2018-11-07 02:30:16
 ---

@@ -1,7 +1,7 @@
 ---
 title: Js 的事件循环(Event Loop)机制以及实例讲解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7b6793e3
 date: 2018-10-26 02:30:12
 ---

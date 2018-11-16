@@ -1,7 +1,7 @@
 ---
 title: 前端使用puppeteer 爬虫生成《React.js 小书》PDF并合并
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d3549292
 date: 2018-10-22 00:00:00
 ---

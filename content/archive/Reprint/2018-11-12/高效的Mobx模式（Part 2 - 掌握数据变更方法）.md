@@ -1,7 +1,7 @@
 ---
 title: 高效的Mobx模式（Part 2 - 掌握数据变更方法）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2e6d8964
 date: 2018-11-12 02:30:05
 ---

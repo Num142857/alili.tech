@@ -1,7 +1,7 @@
 ---
 title: canvas进阶——如何画出平滑的曲线?
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1e9c78b9
 date: 2018-11-04 02:30:10
 ---

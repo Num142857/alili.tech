@@ -1,7 +1,7 @@
 ---
 title: Get started | Apollo Client
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ce1009c0
 date: 2018-10-22 00:00:00
 ---

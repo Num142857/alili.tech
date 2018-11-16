@@ -1,7 +1,7 @@
 ---
 title: 应用于 Hybrid App 的 Vue 多页面构建
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b080bd59
 date: 2018-10-28 02:30:09
 ---

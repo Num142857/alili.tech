@@ -1,7 +1,7 @@
 ---
 title: JavaScript：面试频繁出现的几个易错点
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 140ddbed
 date: 2018-10-25 09:08:15
 ---

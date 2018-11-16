@@ -1,7 +1,7 @@
 ---
 title: 带入gRPC：gRPC及相关介绍
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '36990838'
 date: 2018-11-07 02:30:16
 ---

@@ -1,7 +1,7 @@
 ---
 title: 干货分享：vue2.0做移动端开发用到的相关插件和经验总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a428074f
 date: 2018-11-08 02:30:09
 ---

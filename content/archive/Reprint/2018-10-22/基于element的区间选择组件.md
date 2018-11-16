@@ -1,7 +1,7 @@
 ---
 title: 基于element的区间选择组件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 92007a9e
 date: 2018-10-22 00:00:00
 ---

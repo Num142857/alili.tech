@@ -1,7 +1,7 @@
 ---
 title: util.promisify 的那些事儿
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d243dbaa
 date: 2018-11-04 02:30:10
 ---

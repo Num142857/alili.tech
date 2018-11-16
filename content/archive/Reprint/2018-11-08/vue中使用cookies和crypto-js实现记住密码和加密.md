@@ -1,7 +1,7 @@
 ---
 title: vue中使用cookies和crypto-js实现记住密码和加密
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8cf05ebf
 date: 2018-11-08 02:30:09
 ---

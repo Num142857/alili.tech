@@ -1,7 +1,7 @@
 ---
 title: 如何判断JavaScript的数据类型？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1873d70a
 date: 2018-11-06 15:28:30
 ---

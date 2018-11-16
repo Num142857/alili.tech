@@ -1,7 +1,7 @@
 ---
 title: '关于scroll,client,innear,avail,offset等的理解'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8bd2d88e
 date: 2018-11-06 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: 基于 React Redux 的错误处理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b641331c
 date: 2018-11-11 02:30:06
 ---

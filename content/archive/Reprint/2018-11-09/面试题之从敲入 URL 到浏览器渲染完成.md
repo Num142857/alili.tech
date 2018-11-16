@@ -1,7 +1,7 @@
 ---
 title: 面试题之从敲入 URL 到浏览器渲染完成
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b38589f0
 date: 2018-11-09 02:30:06
 ---

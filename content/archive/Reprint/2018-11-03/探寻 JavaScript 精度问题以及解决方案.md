@@ -1,7 +1,7 @@
 ---
 title: 探寻 JavaScript 精度问题以及解决方案
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 462a2d7d
 date: 2018-11-03 02:30:13
 ---

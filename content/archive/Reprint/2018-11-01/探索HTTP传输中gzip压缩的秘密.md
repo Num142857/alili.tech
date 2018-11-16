@@ -1,7 +1,7 @@
 ---
 title: 探索HTTP传输中gzip压缩的秘密
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c9dc0a72
 date: 2018-11-01 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: Javascript 模块化指北
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ab0d478c
 date: 2018-10-25 09:08:15
 ---

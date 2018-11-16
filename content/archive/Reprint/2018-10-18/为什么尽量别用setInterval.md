@@ -1,7 +1,7 @@
 ---
 title: 为什么尽量别用setInterval
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8830c0b7
 date: 2018-10-18 00:00:00
 ---

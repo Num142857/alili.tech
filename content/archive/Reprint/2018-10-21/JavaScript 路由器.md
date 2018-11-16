@@ -1,7 +1,7 @@
 ---
 title: JavaScript 路由器
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 46c8b65b
 date: 2018-10-21 00:00:00
 ---

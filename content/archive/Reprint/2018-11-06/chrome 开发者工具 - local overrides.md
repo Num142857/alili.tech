@@ -1,7 +1,7 @@
 ---
 title: chrome 开发者工具 - local overrides
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3adbafe0
 date: 2018-11-06 02:30:12
 ---

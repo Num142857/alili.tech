@@ -1,7 +1,7 @@
 ---
 title: 富文本解析-微信小程序 rich-text 组件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7cf5aa8b
 date: 2018-11-14 02:30:09
 ---

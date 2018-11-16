@@ -1,7 +1,7 @@
 ---
 title: 笔记：js参数传递问题
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 11ab453f
 date: 2018-11-12 02:30:05
 ---

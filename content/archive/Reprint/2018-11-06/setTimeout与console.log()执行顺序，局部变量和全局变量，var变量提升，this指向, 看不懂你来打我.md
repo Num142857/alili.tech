@@ -1,7 +1,7 @@
 ---
 title: 'setTimeout与console.log()执行顺序，局部变量和全局变量，var变量提升，this指向, 看不懂你来打我'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d3df0457
 date: 2018-11-06 02:30:12
 ---

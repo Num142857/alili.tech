@@ -1,7 +1,7 @@
 ---
 title: MobX vs Redux with React：一个菜鸟的对比和疑问
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a588c908
 date: 2018-10-19 00:00:00
 ---

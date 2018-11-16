@@ -1,7 +1,7 @@
 ---
 title: 前端阶段性总结（三）：web安全
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8ad249f
 date: 2018-11-07 02:30:16
 ---

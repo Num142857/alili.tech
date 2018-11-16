@@ -1,7 +1,7 @@
 ---
 title: 飞冰 - ICE Design Pro 使用指南
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2f03feca
 date: 2018-11-02 02:30:12
 ---

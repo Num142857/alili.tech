@@ -1,7 +1,7 @@
 ---
 title: webpack使用-详解DllPlugin
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f3392b53
 date: 2018-11-06 15:28:30
 ---

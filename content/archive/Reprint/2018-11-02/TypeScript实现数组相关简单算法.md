@@ -1,7 +1,7 @@
 ---
 title: TypeScript实现数组相关简单算法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: da6c1d37
 date: 2018-11-02 02:30:12
 ---

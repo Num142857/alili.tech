@@ -1,7 +1,7 @@
 ---
 title: GitHub上传项目教程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a802c1c5
 date: 2018-11-12 02:30:05
 ---

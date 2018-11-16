@@ -1,7 +1,7 @@
 ---
 title: '现代JS中的流控制：: Callbacks to Promises to Async/Await'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c7e93bce
 date: 2018-10-19 00:00:00
 ---

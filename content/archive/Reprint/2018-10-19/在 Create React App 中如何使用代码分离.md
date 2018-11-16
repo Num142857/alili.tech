@@ -1,7 +1,7 @@
 ---
 title: 在 Create React App 中如何使用代码分离
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a8b35793
 date: 2018-10-19 00:00:00
 ---

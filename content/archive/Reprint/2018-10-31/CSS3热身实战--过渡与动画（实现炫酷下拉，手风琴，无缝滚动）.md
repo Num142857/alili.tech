@@ -1,7 +1,7 @@
 ---
 title: CSS3热身实战--过渡与动画（实现炫酷下拉，手风琴，无缝滚动）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ac352b02
 date: 2018-10-31 02:30:10
 ---

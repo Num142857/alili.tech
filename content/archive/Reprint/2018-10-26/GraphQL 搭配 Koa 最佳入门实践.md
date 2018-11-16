@@ -1,7 +1,7 @@
 ---
 title: GraphQL 搭配 Koa 最佳入门实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 10fc0af4
 date: 2018-10-26 02:30:12
 ---

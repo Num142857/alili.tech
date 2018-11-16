@@ -1,7 +1,7 @@
 ---
 title: 深入理解 ES Modules (手绘示例)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '358064e7'
 date: 2018-10-18 00:00:00
 ---

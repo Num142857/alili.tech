@@ -1,7 +1,7 @@
 ---
 title: 使用 TypeScript 改造构建工具及测试用例
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f0ef0977
 date: 2018-10-23 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: vue-cli + webpack 多页面实例配置优化方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9a74ca55
 date: 2018-10-29 02:30:09
 ---

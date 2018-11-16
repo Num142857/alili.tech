@@ -1,7 +1,7 @@
 ---
 title: 前端路由简介以及vue-router实现原理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b722754d
 date: 2018-10-31 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 从零到有模拟实现一个Set类
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5ec856df
 date: 2018-11-02 02:30:12
 ---

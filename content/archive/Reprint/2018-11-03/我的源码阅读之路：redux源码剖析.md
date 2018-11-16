@@ -1,7 +1,7 @@
 ---
 title: 我的源码阅读之路：redux源码剖析
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c9ac83df
 date: 2018-11-03 02:30:13
 ---

@@ -1,7 +1,7 @@
 ---
 title: 即将发布的JavaScript2018：异步生成器，更好的正则表达式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3afe893
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: JavaScript循环和作用域
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: db5efcc5
 date: 2018-10-18 00:00:00
 ---

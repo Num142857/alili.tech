@@ -1,7 +1,7 @@
 ---
 title: 37个JavaScript基本面试问题和解答
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 933bbe19
 date: 2018-10-18 00:00:00
 ---

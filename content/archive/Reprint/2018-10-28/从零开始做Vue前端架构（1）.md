@@ -1,7 +1,7 @@
 ---
 title: 从零开始做Vue前端架构（1）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 15c8274b
 date: 2018-10-28 02:30:10
 ---

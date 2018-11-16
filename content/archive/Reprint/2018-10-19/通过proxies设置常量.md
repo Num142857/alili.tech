@@ -1,7 +1,7 @@
 ---
 title: 通过proxies设置常量
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ea99420
 date: 2018-10-19 00:00:00
 ---

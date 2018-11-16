@@ -1,7 +1,7 @@
 ---
 title: JavaScript数组去重（12种方法，史上最全）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 515a54e3
 date: 2018-11-09 02:30:06
 ---

@@ -1,7 +1,7 @@
 ---
 title: JavaScript中高阶函数的魅力
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c1a81f38
 date: 2018-10-22 00:00:00
 ---

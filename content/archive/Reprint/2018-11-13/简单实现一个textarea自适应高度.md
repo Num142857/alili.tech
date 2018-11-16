@@ -1,7 +1,7 @@
 ---
 title: 简单实现一个textarea自适应高度
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9afa6a0d
 date: 2018-11-13 02:30:09
 ---

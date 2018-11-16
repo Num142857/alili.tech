@@ -1,7 +1,7 @@
 ---
 title: CSS魔法堂：改变单选框颜色就这么吹毛求疵！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4874f1c2
 date: 2018-11-03 02:30:13
 ---

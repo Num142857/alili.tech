@@ -1,7 +1,7 @@
 ---
 title: 前端进阶（9） - js 性能优化利器：prepack
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7c9a6abc
 date: 2018-11-09 02:30:06
 ---

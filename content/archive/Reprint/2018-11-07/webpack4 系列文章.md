@@ -1,7 +1,7 @@
 ---
 title: webpack4 系列文章
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 24cbe3fe
 date: 2018-11-07 02:30:15
 ---

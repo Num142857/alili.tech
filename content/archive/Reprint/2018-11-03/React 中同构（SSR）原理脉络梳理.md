@@ -1,7 +1,7 @@
 ---
 title: React 中同构（SSR）原理脉络梳理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: edd9dd40
 date: 2018-11-03 10:03:44
 ---

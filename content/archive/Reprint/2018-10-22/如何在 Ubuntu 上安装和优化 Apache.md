@@ -1,7 +1,7 @@
 ---
 title: 如何在 Ubuntu 上安装和优化 Apache
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 49bec1d6
 date: 2018-10-22 00:00:00
 ---

@@ -3,7 +3,7 @@ title: '如何利用showdoc自动生成API文档'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: yq5le0ynlj
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

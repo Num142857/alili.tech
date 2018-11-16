@@ -1,7 +1,7 @@
 ---
 title: 揭密 Vue 的双向绑定
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9b7ea80d
 date: 2018-11-03 02:30:13
 ---

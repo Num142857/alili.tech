@@ -1,7 +1,7 @@
 ---
 title: 扩展微信小程序 Page 构造函数，修改生命周期函数
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e33f3d95
 date: 2018-11-13 02:30:09
 ---

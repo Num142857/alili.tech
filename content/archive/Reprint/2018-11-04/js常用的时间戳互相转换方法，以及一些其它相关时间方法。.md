@@ -1,7 +1,7 @@
 ---
 title: js常用的时间戳互相转换方法，以及一些其它相关时间方法。
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1c0d1b79
 date: 2018-11-04 02:30:10
 ---

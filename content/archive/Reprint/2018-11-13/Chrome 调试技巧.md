@@ -1,7 +1,7 @@
 ---
 title: Chrome 调试技巧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f8120d2
 date: 2018-11-13 02:30:09
 ---

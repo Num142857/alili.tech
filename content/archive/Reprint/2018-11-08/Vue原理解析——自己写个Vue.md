@@ -1,7 +1,7 @@
 ---
 title: Vue原理解析——自己写个Vue
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d202ae2d
 date: 2018-11-08 02:30:09
 ---

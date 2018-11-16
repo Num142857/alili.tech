@@ -1,7 +1,7 @@
 ---
 title: axios基于常见业务场景的二次封装
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cab82713
 date: 2018-11-08 02:30:09
 ---

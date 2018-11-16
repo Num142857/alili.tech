@@ -1,7 +1,7 @@
 ---
 title: 前端进阶（11） - js 数据结构类型扩展：immutable-js
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 65516a0c
 date: 2018-11-09 02:30:06
 ---

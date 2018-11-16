@@ -1,7 +1,7 @@
 ---
 title: 浏览器的ES Modules
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2fcf66e9
 date: 2018-10-21 00:00:00
 ---

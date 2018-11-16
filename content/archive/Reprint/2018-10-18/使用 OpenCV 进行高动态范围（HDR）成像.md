@@ -1,7 +1,7 @@
 ---
 title: 使用 OpenCV 进行高动态范围（HDR）成像
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 855c5353
 date: 2018-10-18 00:00:00
 ---

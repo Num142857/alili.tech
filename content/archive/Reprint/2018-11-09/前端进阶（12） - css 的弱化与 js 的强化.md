@@ -1,7 +1,7 @@
 ---
 title: 前端进阶（12） - css 的弱化与 js 的强化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3a722d1c
 date: 2018-11-09 02:30:05
 ---

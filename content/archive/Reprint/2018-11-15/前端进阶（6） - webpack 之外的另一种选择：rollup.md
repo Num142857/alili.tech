@@ -2,7 +2,7 @@
 title: '前端进阶（6） - webpack 之外的另一种选择：rollup' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

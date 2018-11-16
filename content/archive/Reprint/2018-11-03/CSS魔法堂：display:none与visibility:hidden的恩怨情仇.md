@@ -1,7 +1,7 @@
 ---
 title: 'CSS魔法堂：display:none与visibility:hidden的恩怨情仇'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 874add44
 date: 2018-11-03 02:30:13
 ---

@@ -1,7 +1,7 @@
 ---
 title: Using React components in your Ember app
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 414ae069
 date: 2018-10-20 00:00:00
 ---

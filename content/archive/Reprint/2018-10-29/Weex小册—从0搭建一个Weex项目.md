@@ -1,7 +1,7 @@
 ---
 title: Weex小册—从0搭建一个Weex项目
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d26e5125
 date: 2018-10-29 02:30:09
 ---

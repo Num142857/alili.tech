@@ -1,7 +1,7 @@
 ---
 title: Javascript-伪数组
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9501e5ae
 date: 2018-11-06 15:28:32
 ---

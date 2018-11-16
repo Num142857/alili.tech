@@ -1,7 +1,7 @@
 ---
 title: jquery选择器 （nth-of-type（） nth-child（）区别内容更新）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 274cd12f
 date: 2018-11-10 02:30:10
 ---

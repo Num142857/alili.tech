@@ -1,7 +1,7 @@
 ---
 title: 一点感悟：《Node.js学习笔记》star数突破1000+
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cb6887ef
 date: 2018-10-23 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: React v16.3.0：新的生命周期和上下文API - React Blog
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ca95dd4a
 date: 2018-10-18 00:00:00
 ---

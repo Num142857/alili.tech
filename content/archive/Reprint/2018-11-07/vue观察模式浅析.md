@@ -1,7 +1,7 @@
 ---
 title: vue观察模式浅析
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5e3e3550
 date: 2018-11-07 02:30:16
 ---

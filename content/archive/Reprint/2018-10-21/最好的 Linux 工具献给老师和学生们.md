@@ -1,7 +1,7 @@
 ---
 title: 最好的 Linux 工具献给老师和学生们
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 242eb708
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: Node.js究竟是什么？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b8f53d6
 date: 2018-10-18 00:00:00
 ---

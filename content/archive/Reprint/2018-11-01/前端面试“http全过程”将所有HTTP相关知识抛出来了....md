@@ -1,7 +1,7 @@
 ---
 title: 前端面试“http全过程”将所有HTTP相关知识抛出来了...
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b074c9ce
 date: 2018-11-01 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: 如何在 Ubuntu 18.04 服务器上安装和配置 KVM
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 42a45001
 date: 2018-10-18 00:00:00
 ---

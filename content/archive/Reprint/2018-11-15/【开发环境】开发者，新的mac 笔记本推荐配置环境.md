@@ -2,7 +2,7 @@
 title: '【开发环境】开发者，新的mac 笔记本推荐配置环境' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

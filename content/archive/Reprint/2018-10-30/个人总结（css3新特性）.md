@@ -1,7 +1,7 @@
 ---
 title: 个人总结（css3新特性）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3a646551
 date: 2018-10-30 02:30:12
 ---

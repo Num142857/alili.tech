@@ -1,7 +1,7 @@
 ---
 title: iOS 12 JS数组Bug，可能带来互联网风波，附修复方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f23a1e50
 date: 2018-11-08 02:30:09
 ---

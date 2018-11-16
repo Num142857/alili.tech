@@ -1,7 +1,7 @@
 ---
 title: 一篇文章掌握nightwatch自动化测试
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: eb1ab444
 date: 2018-11-03 10:03:44
 ---

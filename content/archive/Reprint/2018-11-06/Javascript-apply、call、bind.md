@@ -1,7 +1,7 @@
 ---
 title: Javascript-apply、call、bind
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c6eb39dc
 date: 2018-11-06 15:28:31
 ---

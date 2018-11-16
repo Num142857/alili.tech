@@ -1,7 +1,7 @@
 ---
 title: vue快速入门的三个小实例
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cfd5a32d
 date: 2018-10-24 08:17:54
 ---

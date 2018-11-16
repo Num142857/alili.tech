@@ -1,7 +1,7 @@
 ---
 title: Ajax 与异步数据传输
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a25a6f68
 date: 2018-11-13 02:30:09
 ---

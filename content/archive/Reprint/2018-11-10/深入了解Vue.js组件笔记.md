@@ -1,7 +1,7 @@
 ---
 title: 深入了解Vue.js组件笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d1cb9bff
 date: 2018-11-10 02:30:10
 ---

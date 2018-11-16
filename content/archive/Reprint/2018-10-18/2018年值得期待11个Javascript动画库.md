@@ -1,7 +1,7 @@
 ---
 title: 2018年值得期待11个Javascript动画库
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b484c703
 date: 2018-10-18 00:00:00
 ---

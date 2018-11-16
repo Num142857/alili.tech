@@ -1,7 +1,7 @@
 ---
 title: JavaScript字符串操作方法大全，包含ES6方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 946c440d
 date: 2018-11-06 02:30:12
 ---

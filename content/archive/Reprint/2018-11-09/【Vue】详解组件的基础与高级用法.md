@@ -1,7 +1,7 @@
 ---
 title: 【Vue】详解组件的基础与高级用法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 64f1660a
 date: 2018-11-09 02:30:06
 ---

@@ -1,7 +1,7 @@
 ---
 title: React中组件通信的几种方式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dd028b50
 date: 2018-11-02 02:30:12
 ---

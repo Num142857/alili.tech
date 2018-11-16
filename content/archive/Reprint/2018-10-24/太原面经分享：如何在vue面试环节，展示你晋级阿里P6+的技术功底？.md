@@ -1,7 +1,7 @@
 ---
 title: 太原面经分享：如何在vue面试环节，展示你晋级阿里P6+的技术功底？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1871d32d
 date: 2018-10-24 08:17:53
 ---

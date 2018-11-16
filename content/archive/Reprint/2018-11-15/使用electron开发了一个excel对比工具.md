@@ -3,7 +3,7 @@ title: '使用electron开发了一个excel对比工具'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: lrprgx1vnga
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

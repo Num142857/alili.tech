@@ -1,7 +1,7 @@
 ---
 title: 一段万能的nginx接口反向代理配置
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 23cae450
 date: 2018-11-06 02:30:12
 ---

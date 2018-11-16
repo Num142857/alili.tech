@@ -3,7 +3,7 @@ title: 'Vue登录注册，并保持登录状态'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: hbim9byaq6
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

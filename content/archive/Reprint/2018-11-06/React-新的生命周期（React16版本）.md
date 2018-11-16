@@ -1,7 +1,7 @@
 ---
 title: React-新的生命周期（React16版本）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 19d01d9
 date: 2018-11-06 02:30:12
 ---

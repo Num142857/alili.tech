@@ -2,7 +2,7 @@
 title: '精读《高性能 javascript》' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

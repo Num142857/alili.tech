@@ -1,7 +1,7 @@
 ---
 title: 分析vue-cli@2.9.3 搭建的webpack项目工程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: eba15795
 date: 2018-10-28 02:30:10
 ---

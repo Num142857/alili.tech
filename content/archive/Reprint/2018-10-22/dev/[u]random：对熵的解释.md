@@ -1,7 +1,7 @@
 ---
 title: '/dev/[u]random：对熵的解释'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ddc3e3dd
 date: 2018-10-22 00:00:00
 ---

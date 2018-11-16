@@ -1,7 +1,7 @@
 ---
 title: 数字滚动插件numberAnimate.js的使用及效果修改
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3b1ac21d
 date: 2018-11-11 02:30:07
 ---

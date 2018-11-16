@@ -1,7 +1,7 @@
 ---
 title: 花样形状 -- CSS
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1dfbda1f
 date: 2018-11-14 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: 前端 JSer 装逼手册
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 947b776
 date: 2018-10-25 09:08:15
 ---

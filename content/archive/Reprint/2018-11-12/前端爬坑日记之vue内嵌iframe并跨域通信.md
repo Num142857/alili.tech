@@ -1,7 +1,7 @@
 ---
 title: 前端爬坑日记之vue内嵌iframe并跨域通信
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 49baafed
 date: 2018-11-12 02:30:05
 ---

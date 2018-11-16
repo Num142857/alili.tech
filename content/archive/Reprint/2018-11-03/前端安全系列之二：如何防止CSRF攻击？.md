@@ -1,7 +1,7 @@
 ---
 title: 前端安全系列之二：如何防止CSRF攻击？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1fd28e6
 date: 2018-11-03 10:03:44
 ---

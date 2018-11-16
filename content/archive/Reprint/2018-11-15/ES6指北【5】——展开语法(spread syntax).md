@@ -3,7 +3,7 @@ title: 'ES6指北【5】——展开语法(spread syntax)'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: gnkxbx0efzr
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

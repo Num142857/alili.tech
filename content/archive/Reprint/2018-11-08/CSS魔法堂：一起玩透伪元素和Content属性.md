@@ -1,7 +1,7 @@
 ---
 title: CSS魔法堂：一起玩透伪元素和Content属性
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f2cd9071
 date: 2018-11-08 02:30:09
 ---

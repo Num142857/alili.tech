@@ -1,7 +1,7 @@
 ---
 title: 手把手教你撸一个 Webpack Loader
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 637d89d5
 date: 2018-10-28 02:30:10
 ---

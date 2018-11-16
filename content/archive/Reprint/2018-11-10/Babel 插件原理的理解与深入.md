@@ -1,7 +1,7 @@
 ---
 title: Babel 插件原理的理解与深入
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 15644fc0
 date: 2018-11-10 02:30:10
 ---

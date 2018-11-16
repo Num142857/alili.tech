@@ -1,7 +1,7 @@
 ---
 title: Vue项目骨架屏注入实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 479db542
 date: 2018-10-26 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: Vue高效UI组件库—iView开发实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b0d156b2
 date: 2018-10-29 02:30:09
 ---

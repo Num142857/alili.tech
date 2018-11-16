@@ -1,7 +1,7 @@
 ---
 title: 详解 vue 双向数据绑定的原理，并实现一组双向数据绑定
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ce0643cd
 date: 2018-11-13 02:30:09
 ---

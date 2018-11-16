@@ -1,7 +1,7 @@
 ---
 title: 三个值得期待的JavaScript新功能！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 31c9727c
 date: 2018-10-18 00:00:00
 ---

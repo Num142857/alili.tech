@@ -3,7 +3,7 @@ title: '快速找出网站中可能存在的XSS漏洞实践(一)'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: flt1o9s5ho4
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

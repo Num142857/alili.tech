@@ -1,7 +1,7 @@
 ---
 title: React性能优化-虚拟Dom原理浅析
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1e8d1406
 date: 2018-10-31 02:30:10
 ---

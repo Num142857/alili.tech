@@ -1,7 +1,7 @@
 ---
 title: Javascript-函数节流与函数防抖
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ffa82191
 date: 2018-11-06 15:28:31
 ---

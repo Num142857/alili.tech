@@ -1,7 +1,7 @@
 ---
 title: 实例感受-es6的常用语法和优越性
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f2548de
 date: 2018-10-25 09:08:15
 ---

@@ -1,7 +1,7 @@
 ---
 title: 从React渲染流程分析Diff算法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7c3465c2
 date: 2018-11-11 02:30:07
 ---

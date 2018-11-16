@@ -1,7 +1,7 @@
 ---
 title: Create-React App的使用绝对导入
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8a1e87e3
 date: 2018-10-18 00:00:00
 ---

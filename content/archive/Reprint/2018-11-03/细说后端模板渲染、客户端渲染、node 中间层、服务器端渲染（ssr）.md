@@ -1,7 +1,7 @@
 ---
 title: 细说后端模板渲染、客户端渲染、node 中间层、服务器端渲染（ssr）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d02a5779
 date: 2018-11-03 10:03:44
 ---

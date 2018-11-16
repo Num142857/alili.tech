@@ -1,7 +1,7 @@
 ---
 title: 5分钟吃透React Native Flexbox
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 22a7161a
 date: 2018-11-01 02:30:09
 ---

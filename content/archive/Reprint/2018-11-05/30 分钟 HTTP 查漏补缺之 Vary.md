@@ -1,7 +1,7 @@
 ---
 title: 30 分钟 HTTP 查漏补缺之 Vary
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 48ee1d17
 date: 2018-11-05 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 学习 Promise，掌握未来世界 JS 异步编程基础
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3d036679
 date: 2018-11-03 10:03:44
 ---

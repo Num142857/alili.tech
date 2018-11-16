@@ -1,7 +1,7 @@
 ---
 title: 基于 React.js + redux + bootstrap 的 RubyChina 示例
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f438f362
 date: 2018-11-01 02:30:08
 ---

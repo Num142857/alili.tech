@@ -1,7 +1,7 @@
 ---
 title: 基于moment写一个滑动日历
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 177bd834
 date: 2018-11-09 02:30:06
 ---

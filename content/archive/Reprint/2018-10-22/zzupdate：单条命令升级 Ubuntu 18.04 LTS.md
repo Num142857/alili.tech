@@ -1,7 +1,7 @@
 ---
 title: zzupdate：单条命令升级 Ubuntu 18.04 LTS
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8bc4dcb0
 date: 2018-10-22 00:00:00
 ---

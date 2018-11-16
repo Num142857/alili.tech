@@ -1,7 +1,7 @@
 ---
 title: 简单的分页组件(react)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3e3d73af
 date: 2018-11-13 02:30:09
 ---

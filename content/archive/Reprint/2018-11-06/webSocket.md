@@ -1,7 +1,7 @@
 ---
 title: webSocket
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4562858f
 date: 2018-11-06 02:30:12
 ---

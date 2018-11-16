@@ -1,7 +1,7 @@
 ---
 title: JavaScript专题系列20篇正式完结！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 71ce8695
 date: 2018-10-23 00:00:00
 ---

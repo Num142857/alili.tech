@@ -1,7 +1,7 @@
 ---
 title: 从零开始创建一个React应用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 745f47ee
 date: 2018-10-18 00:00:00
 ---

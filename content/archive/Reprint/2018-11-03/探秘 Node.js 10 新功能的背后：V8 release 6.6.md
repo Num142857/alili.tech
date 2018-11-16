@@ -1,7 +1,7 @@
 ---
 title: 探秘 Node.js 10 新功能的背后：V8 release 6.6
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 166a4960
 date: 2018-11-03 10:03:44
 ---

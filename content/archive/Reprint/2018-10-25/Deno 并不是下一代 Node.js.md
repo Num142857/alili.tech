@@ -1,7 +1,7 @@
 ---
 title: Deno 并不是下一代 Node.js
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2b4e898b
 date: 2018-10-25 09:08:15
 ---

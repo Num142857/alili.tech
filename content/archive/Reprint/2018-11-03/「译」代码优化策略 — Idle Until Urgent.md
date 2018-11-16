@@ -1,7 +1,7 @@
 ---
 title: 「译」代码优化策略 — Idle Until Urgent
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6ce8297d
 date: 2018-11-03 02:30:13
 ---

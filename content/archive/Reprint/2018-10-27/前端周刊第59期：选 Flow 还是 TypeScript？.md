@@ -1,7 +1,7 @@
 ---
 title: 前端周刊第59期：选 Flow 还是 TypeScript？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7e991b52
 date: 2018-10-27 02:30:17
 ---

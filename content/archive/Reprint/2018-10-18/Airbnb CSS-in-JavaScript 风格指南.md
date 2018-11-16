@@ -1,7 +1,7 @@
 ---
 title: Airbnb CSS-in-JavaScript 风格指南
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b3966ac5
 date: 2018-10-18 00:00:00
 ---

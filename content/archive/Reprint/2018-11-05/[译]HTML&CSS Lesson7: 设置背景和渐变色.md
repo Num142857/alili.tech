@@ -1,7 +1,7 @@
 ---
 title: '[译]HTML&CSS Lesson7: 设置背景和渐变色'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 756421dc
 date: 2018-11-05 02:30:11
 ---

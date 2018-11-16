@@ -1,7 +1,7 @@
 ---
 title: vue 单文件探索
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 804c55fa
 date: 2018-11-12 02:30:05
 ---

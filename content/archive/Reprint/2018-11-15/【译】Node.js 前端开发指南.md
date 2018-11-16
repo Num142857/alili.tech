@@ -3,7 +3,7 @@ title: '【译】Node.js 前端开发指南'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: yqi5qcy0ga
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: 一个完整Java Web项目背后的密码
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cefb6f8d
 date: 2018-11-13 02:30:09
 ---

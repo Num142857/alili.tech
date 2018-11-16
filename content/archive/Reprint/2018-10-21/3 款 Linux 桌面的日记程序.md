@@ -1,7 +1,7 @@
 ---
 title: 3 款 Linux 桌面的日记程序
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 329f08a9
 date: 2018-10-21 00:00:00
 ---

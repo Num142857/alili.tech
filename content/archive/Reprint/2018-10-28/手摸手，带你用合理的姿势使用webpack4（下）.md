@@ -1,7 +1,7 @@
 ---
 title: 手摸手，带你用合理的姿势使用webpack4（下）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d69df477
 date: 2018-10-28 02:30:09
 ---

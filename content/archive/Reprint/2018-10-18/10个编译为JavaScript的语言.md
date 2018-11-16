@@ -1,7 +1,7 @@
 ---
 title: 10个编译为JavaScript的语言
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dc09b6b6
 date: 2018-10-18 00:00:00
 ---

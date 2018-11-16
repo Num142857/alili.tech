@@ -1,7 +1,7 @@
 ---
 title: React Autocomplete（自动完成输入）示例教程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2b34ccbc
 date: 2018-11-11 02:30:07
 ---

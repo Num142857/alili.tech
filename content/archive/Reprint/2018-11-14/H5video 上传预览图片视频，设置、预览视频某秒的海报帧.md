@@ -1,7 +1,7 @@
 ---
 title: H5video 上传预览图片视频，设置、预览视频某秒的海报帧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4214947a
 date: 2018-11-14 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: 使用Nuxt.js创建服务器端渲染的Vue.js应用程序
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4a8011f1
 date: 2018-10-18 00:00:00
 ---

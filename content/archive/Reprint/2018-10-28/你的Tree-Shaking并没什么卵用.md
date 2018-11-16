@@ -1,7 +1,7 @@
 ---
 title: 你的Tree-Shaking并没什么卵用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d2be37e0
 date: 2018-10-28 02:30:10
 ---

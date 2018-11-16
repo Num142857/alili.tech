@@ -1,7 +1,7 @@
 ---
 title: 使用Jest测试Vuex Action
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4984842d
 date: 2018-10-19 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 使用TS+Sequelize实现更简洁的CRUD
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d0383db9
 date: 2018-11-11 02:30:06
 ---

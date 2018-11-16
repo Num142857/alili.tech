@@ -1,7 +1,7 @@
 ---
 title: '前端进阶（8） - 前端开发需要了解的工具集合：webpack, eslint, prettier, ...'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 89d935ae
 date: 2018-11-09 02:30:06
 ---

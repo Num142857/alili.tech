@@ -1,7 +1,7 @@
 ---
 title: 悄悄掀起 WebAssembly 的神秘面纱
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '8e907017'
 date: 2018-10-26 02:30:12
 ---

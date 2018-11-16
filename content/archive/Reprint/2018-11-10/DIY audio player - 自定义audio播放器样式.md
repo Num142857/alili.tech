@@ -1,7 +1,7 @@
 ---
 title: DIY audio player - 自定义audio播放器样式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1628a46f
 date: 2018-11-10 02:30:10
 ---

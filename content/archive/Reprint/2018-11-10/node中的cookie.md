@@ -1,7 +1,7 @@
 ---
 title: node中的cookie
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '30726877'
 date: 2018-11-10 02:30:10
 ---

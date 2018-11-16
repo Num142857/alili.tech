@@ -1,7 +1,7 @@
 ---
 title: Vue.js 开发实践：实现精巧的无限加载与分页功能
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8fb3194
 date: 2018-10-30 02:30:12
 ---

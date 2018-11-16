@@ -1,7 +1,7 @@
 ---
 title: 《Node.js设计模式》使用流进行编码
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 41f6fb7f
 date: 2018-10-26 02:30:11
 ---

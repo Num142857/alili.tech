@@ -1,7 +1,7 @@
 ---
 title: 4 个提高你在 Thunderbird 上隐私的加载项
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f4ae8dce
 date: 2018-10-19 00:00:00
 ---

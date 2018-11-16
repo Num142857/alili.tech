@@ -1,7 +1,7 @@
 ---
 title: 常用JS方法整理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7f867ab0
 date: 2018-10-26 02:30:12
 ---

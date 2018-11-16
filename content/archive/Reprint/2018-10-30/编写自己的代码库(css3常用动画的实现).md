@@ -1,7 +1,7 @@
 ---
 title: 编写自己的代码库(css3常用动画的实现)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '520099e8'
 date: 2018-10-30 02:30:12
 ---

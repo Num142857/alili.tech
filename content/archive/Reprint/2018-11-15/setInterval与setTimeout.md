@@ -2,7 +2,7 @@
 title: 'setInterval与setTimeout' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

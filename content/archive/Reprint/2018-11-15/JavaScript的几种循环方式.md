@@ -2,7 +2,7 @@
 title: 'JavaScript的几种循环方式' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

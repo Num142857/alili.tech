@@ -1,7 +1,7 @@
 ---
 title: 使用Sequelize连接数据库
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7c1265b7
 date: 2018-10-26 02:30:12
 ---

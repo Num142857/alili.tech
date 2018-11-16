@@ -1,7 +1,7 @@
 ---
 title: 用这样的 Vi 配置来保存和组织你的笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bcdc328b
 date: 2018-10-21 00:00:00
 ---

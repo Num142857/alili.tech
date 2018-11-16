@@ -1,7 +1,7 @@
 ---
 title: MongoDB常用语句
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fffda355
 date: 2018-11-03 10:03:44
 ---

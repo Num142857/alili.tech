@@ -1,7 +1,7 @@
 ---
 title: React 构建单页应用方法与实例
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e8eb7f70
 date: 2018-11-01 02:30:09
 ---

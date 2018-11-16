@@ -1,7 +1,7 @@
 ---
 title: 常用echarts图表
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b9c36d8a
 date: 2018-11-06 15:28:30
 ---

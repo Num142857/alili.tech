@@ -3,7 +3,7 @@ title: 'JavaScript ES6功能概述（ECMAScript 6和ES2015 +）'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: 82gahy2bcol
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

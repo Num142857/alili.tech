@@ -1,7 +1,7 @@
 ---
 title: RN自定义组件封装 - 神奇移动
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a47f9bfe
 date: 2018-11-01 02:30:09
 ---

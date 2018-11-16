@@ -1,7 +1,7 @@
 ---
 title: 你可能从未听说过的15种HTML元素方法！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 851f52a0
 date: 2018-10-18 00:00:00
 ---

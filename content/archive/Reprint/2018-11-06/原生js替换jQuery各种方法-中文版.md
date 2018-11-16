@@ -1,7 +1,7 @@
 ---
 title: 原生js替换jQuery各种方法-中文版
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fbfa9898
 date: 2018-11-06 02:30:12
 ---

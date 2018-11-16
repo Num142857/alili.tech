@@ -1,7 +1,7 @@
 ---
 title: 解密传统组件间通信与React组件间通信
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5af40378
 date: 2018-11-03 02:30:12
 ---

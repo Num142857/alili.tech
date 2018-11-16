@@ -1,7 +1,7 @@
 ---
 title: '前端每日实战：156# 视频演示如何用纯 CSS 创作一个飞机舷窗风格的 toggle 控件'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f9c09913
 date: 2018-11-04 02:30:10
 ---

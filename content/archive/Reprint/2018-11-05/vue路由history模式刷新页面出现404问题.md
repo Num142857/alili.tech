@@ -1,7 +1,7 @@
 ---
 title: vue路由history模式刷新页面出现404问题
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 429669d4
 date: 2018-11-05 02:30:10
 ---

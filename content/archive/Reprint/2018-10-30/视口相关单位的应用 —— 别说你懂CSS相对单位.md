@@ -1,7 +1,7 @@
 ---
 title: 视口相关单位的应用 —— 别说你懂CSS相对单位
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d6d1ad5
 date: 2018-10-30 02:30:12
 ---

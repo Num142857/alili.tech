@@ -1,7 +1,7 @@
 ---
 title: vue中使用viewerjs
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5ca6fcf0
 date: 2018-11-06 02:30:12
 ---

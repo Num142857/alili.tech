@@ -1,7 +1,7 @@
 ---
 title: 你不知道的Virtual DOM（三）：Virtual Dom更新优化
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 64ddd581
 date: 2018-11-14 02:30:09
 ---

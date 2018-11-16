@@ -3,7 +3,7 @@ title: 'JavaScript中Array类型中的方法'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: lba27wvhim
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

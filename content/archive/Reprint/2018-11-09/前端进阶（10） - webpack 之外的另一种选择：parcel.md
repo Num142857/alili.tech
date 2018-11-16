@@ -1,7 +1,7 @@
 ---
 title: 前端进阶（10） - webpack 之外的另一种选择：parcel
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b94dd8ab
 date: 2018-11-09 02:30:06
 ---

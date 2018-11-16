@@ -1,7 +1,7 @@
 ---
 title: iView 发布 3.1.0 版本，支持 TypeScript，支持 Vue CLI 3
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c127c8b3
 date: 2018-10-22 00:00:00
 ---

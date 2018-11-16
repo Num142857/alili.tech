@@ -1,7 +1,7 @@
 ---
 title: 告别庞大 PSD，轻松测量尺寸
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 214932b3
 date: 2018-11-07 02:30:15
 ---

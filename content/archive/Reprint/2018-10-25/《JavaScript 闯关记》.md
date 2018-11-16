@@ -1,7 +1,7 @@
 ---
 title: 《JavaScript 闯关记》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a1c2684a
 date: 2018-10-25 09:08:15
 ---

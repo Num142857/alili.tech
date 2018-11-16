@@ -1,7 +1,7 @@
 ---
 title: js面向对象编程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 318077db
 date: 2018-11-12 02:30:05
 ---

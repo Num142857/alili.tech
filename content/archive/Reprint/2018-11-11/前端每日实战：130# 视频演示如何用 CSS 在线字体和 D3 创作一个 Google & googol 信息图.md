@@ -1,7 +1,7 @@
 ---
 title: '前端每日实战：130# 视频演示如何用 CSS 在线字体和 D3 创作一个 Google & googol 信息图'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8d1ac2c5
 date: 2018-11-11 02:30:07
 ---

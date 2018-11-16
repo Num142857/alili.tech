@@ -1,7 +1,7 @@
 ---
 title: vue-cli + es6 多页面项目开发及部署
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: af12434c
 date: 2018-11-02 02:30:12
 ---

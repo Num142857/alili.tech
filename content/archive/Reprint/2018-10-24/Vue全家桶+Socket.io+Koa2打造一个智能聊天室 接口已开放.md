@@ -1,7 +1,7 @@
 ---
 title: Vue全家桶+Socket.io+Koa2打造一个智能聊天室 接口已开放
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7fd30818
 date: 2018-10-24 08:17:54
 ---

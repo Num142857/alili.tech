@@ -1,7 +1,7 @@
 ---
 title: 容器化，原子化发行版以及 Linux 的未来
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 45f223e6
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: Vue-Router基础学习笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 972e35d8
 date: 2018-11-04 02:30:10
 ---

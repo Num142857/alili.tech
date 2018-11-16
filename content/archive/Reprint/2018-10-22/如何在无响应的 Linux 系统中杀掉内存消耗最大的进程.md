@@ -1,7 +1,7 @@
 ---
 title: 如何在无响应的 Linux 系统中杀掉内存消耗最大的进程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 961ee5ac
 date: 2018-10-22 00:00:00
 ---

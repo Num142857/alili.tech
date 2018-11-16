@@ -1,7 +1,7 @@
 ---
 title: 前端er怎样操作剪切复制以及禁止复制+破解等
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ed6efc7d
 date: 2018-10-25 09:08:15
 ---

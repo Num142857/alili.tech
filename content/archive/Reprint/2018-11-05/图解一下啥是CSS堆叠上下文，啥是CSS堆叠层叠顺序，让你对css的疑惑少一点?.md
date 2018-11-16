@@ -1,7 +1,7 @@
 ---
 title: 图解一下啥是CSS堆叠上下文，啥是CSS堆叠层叠顺序，让你对css的疑惑少一点?
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b3209b2b
 date: 2018-11-05 02:30:10
 ---

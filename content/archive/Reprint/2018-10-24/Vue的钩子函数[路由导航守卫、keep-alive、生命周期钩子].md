@@ -1,7 +1,7 @@
 ---
 title: 'Vue的钩子函数[路由导航守卫、keep-alive、生命周期钩子]'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e6561d69
 date: 2018-10-24 08:17:53
 ---

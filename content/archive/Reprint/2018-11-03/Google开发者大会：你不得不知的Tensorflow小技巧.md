@@ -1,7 +1,7 @@
 ---
 title: Google开发者大会：你不得不知的Tensorflow小技巧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 28d1985
 date: 2018-11-03 02:30:13
 ---

@@ -1,7 +1,7 @@
 ---
 title: 做面试的不倒翁：浅谈 Vue 中 computed 实现原理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cf712ace
 date: 2018-11-02 02:30:12
 ---

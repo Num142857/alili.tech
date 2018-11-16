@@ -1,7 +1,7 @@
 ---
 title: 3 个 Python 模板库比较
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c2e956a5
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 手把手教会使用react开发日历组件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8f49361c
 date: 2018-11-12 02:30:05
 ---

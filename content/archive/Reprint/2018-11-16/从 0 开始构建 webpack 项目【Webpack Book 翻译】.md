@@ -3,7 +3,7 @@ title: '从 0 开始构建 webpack 项目【Webpack Book 翻译】'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: 8qsi7gj9jqc
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

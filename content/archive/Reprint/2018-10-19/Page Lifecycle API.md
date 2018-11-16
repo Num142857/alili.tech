@@ -1,7 +1,7 @@
 ---
 title: Page Lifecycle API
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 44eadeab
 date: 2018-10-19 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: electron 自动更新以及手动更新
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d20b79c4
 date: 2018-11-04 02:30:10
 ---

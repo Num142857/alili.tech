@@ -1,7 +1,7 @@
 ---
 title: 理解vue中的组件（二）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ab1752ee
 date: 2018-11-06 15:28:30
 ---

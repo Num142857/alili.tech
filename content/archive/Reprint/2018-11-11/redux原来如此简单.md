@@ -1,7 +1,7 @@
 ---
 title: redux原来如此简单
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ca5a1e3
 date: 2018-11-11 02:30:07
 ---

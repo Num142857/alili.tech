@@ -1,7 +1,7 @@
 ---
 title: 从 0 到 1 实现 React 系列 —— JSX 和 Virtual DOM
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e9e32d3a
 date: 2018-10-31 02:30:10
 ---

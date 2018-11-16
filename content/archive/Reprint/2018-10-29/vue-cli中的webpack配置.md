@@ -1,7 +1,7 @@
 ---
 title: vue-cli中的webpack配置
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '98736992'
 date: 2018-10-29 02:30:09
 ---

@@ -1,7 +1,7 @@
 ---
 title: Session
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1ff9ec48
 date: 2018-11-04 02:30:10
 ---

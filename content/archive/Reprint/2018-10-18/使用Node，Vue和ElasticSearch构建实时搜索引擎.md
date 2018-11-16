@@ -1,7 +1,7 @@
 ---
 title: 使用Node，Vue和ElasticSearch构建实时搜索引擎
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 670f1fcf
 date: 2018-10-18 00:00:00
 ---

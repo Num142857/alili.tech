@@ -3,7 +3,7 @@ title: '【微信小程序】scroll-view，滚动穿透，阻止滚动'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: lut8sgesn5n
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

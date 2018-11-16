@@ -3,7 +3,7 @@ title: '花了两天时间做了一个 deno 的网站，编译了 deno 的 Windo
 date: 2018-11-16 2:30:06
 hidden: true
 slug: pxbmlyuhcg9
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

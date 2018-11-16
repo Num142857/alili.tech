@@ -1,7 +1,7 @@
 ---
 title: 你所不了解的 Bash：关于 Bash 数组的介绍
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6df83367
 date: 2018-10-20 00:00:00
 ---

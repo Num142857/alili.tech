@@ -1,7 +1,7 @@
 ---
 title: javascript-leetcode-字符串 题解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4c5d915e
 date: 2018-11-11 02:30:07
 ---

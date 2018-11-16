@@ -1,7 +1,7 @@
 ---
 title: 基于 Javascript 排序算法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ec056943
 date: 2018-11-12 02:30:05
 ---

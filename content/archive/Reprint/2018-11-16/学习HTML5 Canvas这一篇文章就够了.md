@@ -3,7 +3,7 @@ title: '学习HTML5 Canvas这一篇文章就够了'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: a8jp5hlin5s
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

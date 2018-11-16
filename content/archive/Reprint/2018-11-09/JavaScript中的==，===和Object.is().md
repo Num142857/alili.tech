@@ -1,7 +1,7 @@
 ---
 title: JavaScript中的==，===和Object.is()
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8d4884ac
 date: 2018-11-09 02:30:05
 ---

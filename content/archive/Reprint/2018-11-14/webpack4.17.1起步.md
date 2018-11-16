@@ -1,7 +1,7 @@
 ---
 title: webpack4.17.1起步
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2f960d3d
 date: 2018-11-14 02:30:09
 ---

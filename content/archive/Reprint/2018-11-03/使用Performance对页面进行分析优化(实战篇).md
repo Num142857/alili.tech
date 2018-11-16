@@ -1,7 +1,7 @@
 ---
 title: 使用Performance对页面进行分析优化(实战篇)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e63859c3
 date: 2018-11-03 02:30:13
 ---

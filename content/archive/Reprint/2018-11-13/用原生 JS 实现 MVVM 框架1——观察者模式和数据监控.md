@@ -1,7 +1,7 @@
 ---
 title: 用原生 JS 实现 MVVM 框架1——观察者模式和数据监控
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4bb4bd4b
 date: 2018-11-13 02:30:09
 ---

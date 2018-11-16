@@ -1,7 +1,7 @@
 ---
 title: Vue面试中，经常会被问到的面试题/Vue知识点整理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d394de18
 date: 2018-11-11 02:30:06
 ---

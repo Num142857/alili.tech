@@ -1,7 +1,7 @@
 ---
 title: 分析 HTTP 203 出的一个 JS 题目
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6cbfaa83
 date: 2018-11-08 02:30:09
 ---

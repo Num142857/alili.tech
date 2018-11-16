@@ -3,7 +3,7 @@ title: 'Loader 入门【Webpack Book 翻译】'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: c8vnvsr52no
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

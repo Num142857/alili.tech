@@ -1,7 +1,7 @@
 ---
 title: css自定义属性和聚光灯效果
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9f6a27f7
 date: 2018-11-10 02:30:10
 ---

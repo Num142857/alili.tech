@@ -1,7 +1,7 @@
 ---
 title: 如何在 Fedora 上安装 Pipenv
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6b2dd12d
 date: 2018-10-21 00:00:00
 ---

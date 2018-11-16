@@ -1,7 +1,7 @@
 ---
 title: VS Code：让你工作效率翻倍的23个插件和23个编辑技巧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1b00a898
 date: 2018-11-04 02:30:10
 ---

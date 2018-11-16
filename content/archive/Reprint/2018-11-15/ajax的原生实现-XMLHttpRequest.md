@@ -3,7 +3,7 @@ title: 'ajax的原生实现-XMLHttpRequest'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: 273qf47m3vk
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

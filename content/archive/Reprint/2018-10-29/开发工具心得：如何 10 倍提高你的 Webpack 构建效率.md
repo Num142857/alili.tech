@@ -1,7 +1,7 @@
 ---
 title: 开发工具心得：如何 10 倍提高你的 Webpack 构建效率
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b7abc51e
 date: 2018-10-29 02:30:09
 ---

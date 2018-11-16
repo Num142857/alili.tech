@@ -1,7 +1,7 @@
 ---
 title: 实现移动端上拉加载和下拉刷新的vue插件(mescroll.js)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e694032e
 date: 2018-11-10 02:30:09
 ---

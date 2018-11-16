@@ -3,7 +3,7 @@ title: 'encodeuricomponent VS encodeuri'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: g32euurajuv
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -3,7 +3,7 @@ title: 'Web UI 自动化测试技术选型'
 date: 2018-11-16 2:30:07
 hidden: true
 slug: h1hfkoy4as
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

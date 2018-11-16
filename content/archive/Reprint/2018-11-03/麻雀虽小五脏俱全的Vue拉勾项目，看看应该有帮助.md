@@ -1,7 +1,7 @@
 ---
 title: 麻雀虽小五脏俱全的Vue拉勾项目，看看应该有帮助
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a08bccf
 date: 2018-11-03 10:03:44
 ---

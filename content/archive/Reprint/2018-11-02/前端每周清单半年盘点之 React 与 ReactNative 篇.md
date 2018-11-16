@@ -1,7 +1,7 @@
 ---
 title: 前端每周清单半年盘点之 React 与 ReactNative 篇
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: db3c38e7
 date: 2018-11-02 02:30:11
 ---

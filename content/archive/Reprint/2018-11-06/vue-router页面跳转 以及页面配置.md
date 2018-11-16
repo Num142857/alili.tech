@@ -1,7 +1,7 @@
 ---
 title: vue-router页面跳转 以及页面配置
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c5b6aaa6
 date: 2018-11-06 02:30:12
 ---

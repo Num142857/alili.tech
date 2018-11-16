@@ -1,7 +1,7 @@
 ---
 title: '前端每日实战：153# 视频演示如何用 CSS 和 VanillaJS 创作一组 tooltip 提示框'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 783eb983
 date: 2018-11-05 02:30:10
 ---

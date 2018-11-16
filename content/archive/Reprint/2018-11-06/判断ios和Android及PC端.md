@@ -1,7 +1,7 @@
 ---
 title: 判断ios和Android及PC端
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3c0e25ac
 date: 2018-11-06 15:28:31
 ---

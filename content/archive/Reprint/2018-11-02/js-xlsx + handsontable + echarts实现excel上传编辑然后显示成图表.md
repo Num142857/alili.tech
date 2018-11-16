@@ -1,7 +1,7 @@
 ---
 title: js-xlsx + handsontable + echarts实现excel上传编辑然后显示成图表
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b103c272
 date: 2018-11-02 02:30:12
 ---

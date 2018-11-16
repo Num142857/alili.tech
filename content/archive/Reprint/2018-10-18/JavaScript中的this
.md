@@ -1,7 +1,7 @@
 ---
 title: JavaScript中的this
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a5ceba90
 date: 2018-10-18 00:00:00
 ---

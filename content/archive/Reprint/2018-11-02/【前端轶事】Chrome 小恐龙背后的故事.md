@@ -1,7 +1,7 @@
 ---
 title: 【前端轶事】Chrome 小恐龙背后的故事
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 92a89e2c
 date: 2018-11-02 02:30:12
 ---

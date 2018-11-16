@@ -1,7 +1,7 @@
 ---
 title: 写给 Android 开发的小程序布局指南，Flex 布局！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a570239e
 date: 2018-10-30 02:30:12
 ---

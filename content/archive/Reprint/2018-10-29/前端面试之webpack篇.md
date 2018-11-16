@@ -1,7 +1,7 @@
 ---
 title: 前端面试之webpack篇
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 50990f7a
 date: 2018-10-29 02:30:09
 ---

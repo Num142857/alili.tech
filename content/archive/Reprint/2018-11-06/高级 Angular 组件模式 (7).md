@@ -1,7 +1,7 @@
 ---
 title: 高级 Angular 组件模式 (7)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9bc01347
 date: 2018-11-06 02:30:12
 ---

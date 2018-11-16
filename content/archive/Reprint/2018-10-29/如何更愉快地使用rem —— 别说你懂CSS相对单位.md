@@ -1,7 +1,7 @@
 ---
 title: 如何更愉快地使用rem —— 别说你懂CSS相对单位
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 17a1b8cb
 date: 2018-10-29 02:30:09
 ---

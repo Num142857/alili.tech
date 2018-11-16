@@ -1,7 +1,7 @@
 ---
 title: 2017年校招全国统一模拟笔试(第五场)编程题集合(Javascript版)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8a9263c
 date: 2018-11-13 02:30:09
 ---

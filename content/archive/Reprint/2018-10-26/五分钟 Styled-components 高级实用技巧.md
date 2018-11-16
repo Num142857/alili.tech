@@ -1,7 +1,7 @@
 ---
 title: 五分钟 Styled-components 高级实用技巧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dce0b689
 date: 2018-10-26 02:30:12
 ---

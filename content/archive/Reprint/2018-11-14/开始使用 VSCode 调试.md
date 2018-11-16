@@ -1,7 +1,7 @@
 ---
 title: 开始使用 VSCode 调试
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c7bb46ad
 date: 2018-11-14 02:30:09
 ---

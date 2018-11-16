@@ -1,7 +1,7 @@
 ---
 title: '[Vue CLI 3] 多页应用实践和源码设计'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d0e854c9
 date: 2018-11-13 02:30:09
 ---

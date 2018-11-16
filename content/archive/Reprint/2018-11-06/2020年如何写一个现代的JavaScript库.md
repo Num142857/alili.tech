@@ -1,7 +1,7 @@
 ---
 title: 2020年如何写一个现代的JavaScript库
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3774c2dd
 date: 2018-11-06 02:30:12
 ---

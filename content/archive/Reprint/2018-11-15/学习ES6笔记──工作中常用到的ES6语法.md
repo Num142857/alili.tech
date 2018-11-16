@@ -3,7 +3,7 @@ title: '学习ES6笔记──工作中常用到的ES6语法'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: cmqgpc7l9w
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

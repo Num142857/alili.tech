@@ -1,7 +1,7 @@
 ---
 title: Vue.js 十五分钟入门
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5b742619
 date: 2018-11-10 02:30:10
 ---

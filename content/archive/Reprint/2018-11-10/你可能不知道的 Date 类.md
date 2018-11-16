@@ -1,7 +1,7 @@
 ---
 title: 你可能不知道的 Date 类
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a0dee32a
 date: 2018-11-10 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 使用Nuxt.js简单的服务器端渲染，路由和页面转换CSS-Tricks
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 28b3438b
 date: 2018-10-18 00:00:00
 ---

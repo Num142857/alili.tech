@@ -1,7 +1,7 @@
 ---
 title: 高效的Mobx模式（Part 1 - 构建可观察数据）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f869b514
 date: 2018-11-12 02:30:05
 ---

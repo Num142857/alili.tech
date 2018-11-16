@@ -1,7 +1,7 @@
 ---
 title: Javascript模块全揽
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5602bcda
 date: 2018-10-22 00:00:00
 ---

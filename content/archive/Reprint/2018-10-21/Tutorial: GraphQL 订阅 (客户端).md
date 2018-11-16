@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: GraphQL 订阅 (客户端)'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ed7f0275
 date: 2018-10-21 00:00:00
 ---

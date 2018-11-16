@@ -1,7 +1,7 @@
 ---
 title: 在 Linux 命令行中自定义文本颜色
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a3140e25
 date: 2018-10-21 00:00:00
 ---

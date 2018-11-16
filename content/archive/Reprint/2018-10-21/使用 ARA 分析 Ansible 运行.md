@@ -1,7 +1,7 @@
 ---
 title: 使用 ARA 分析 Ansible 运行
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3707de70
 date: 2018-10-21 00:00:00
 ---

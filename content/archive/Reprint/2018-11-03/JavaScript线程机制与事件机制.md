@@ -1,7 +1,7 @@
 ---
 title: JavaScript线程机制与事件机制
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a6a603ff
 date: 2018-11-03 10:03:44
 ---

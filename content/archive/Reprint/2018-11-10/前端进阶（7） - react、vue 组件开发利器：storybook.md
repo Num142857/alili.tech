@@ -1,7 +1,7 @@
 ---
 title: 前端进阶（7） - react、vue 组件开发利器：storybook
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: bf6de6a3
 date: 2018-11-10 02:30:10
 ---

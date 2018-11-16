@@ -1,7 +1,7 @@
 ---
 title: WebWork（在主线程创建子进程）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5f4cd16
 date: 2018-11-08 02:30:09
 ---

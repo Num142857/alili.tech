@@ -1,7 +1,7 @@
 ---
 title: CSS魔法堂：那个被我们忽略的outline
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 73d3572d
 date: 2018-11-03 10:03:44
 ---

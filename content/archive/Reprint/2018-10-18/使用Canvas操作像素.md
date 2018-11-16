@@ -1,7 +1,7 @@
 ---
 title: 使用Canvas操作像素
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b06c3a33
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: vue组件通信全面总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 109c9ece
 date: 2018-11-05 02:30:11
 ---

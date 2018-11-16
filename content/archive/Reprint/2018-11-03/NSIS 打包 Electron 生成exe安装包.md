@@ -1,7 +1,7 @@
 ---
 title: NSIS 打包 Electron 生成exe安装包
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4d8e09b4
 date: 2018-11-03 10:03:44
 ---

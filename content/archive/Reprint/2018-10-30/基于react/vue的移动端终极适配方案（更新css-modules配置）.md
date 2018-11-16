@@ -1,7 +1,7 @@
 ---
 title: 基于react/vue的移动端终极适配方案（更新css-modules配置）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 19712f5b
 date: 2018-10-30 02:30:12
 ---

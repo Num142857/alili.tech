@@ -1,7 +1,7 @@
 ---
 title: 现代 js 框架存在的根本原因
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 52a4b9a5
 date: 2018-10-18 00:00:00
 ---

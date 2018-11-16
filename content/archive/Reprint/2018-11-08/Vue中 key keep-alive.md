@@ -1,7 +1,7 @@
 ---
 title: Vue中 key keep-alive
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9da4289c
 date: 2018-11-08 02:30:09
 ---

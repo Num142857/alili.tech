@@ -3,7 +3,7 @@ title: '微信JS-SDK选择图片遇到的坑'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: hjl464xq6dw
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

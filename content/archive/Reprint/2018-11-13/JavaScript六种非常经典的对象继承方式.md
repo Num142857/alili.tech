@@ -1,7 +1,7 @@
 ---
 title: JavaScript六种非常经典的对象继承方式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 65c5edce
 date: 2018-11-13 02:30:09
 ---

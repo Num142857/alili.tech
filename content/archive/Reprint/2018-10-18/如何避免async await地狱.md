@@ -1,7 +1,7 @@
 ---
 title: 如何避免async await地狱
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fd2ef994
 date: 2018-10-18 00:00:00
 ---

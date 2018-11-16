@@ -1,7 +1,7 @@
 ---
 title: 使用 Ledger 记录（财务）情况
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6bdca400
 date: 2018-10-20 00:00:00
 ---

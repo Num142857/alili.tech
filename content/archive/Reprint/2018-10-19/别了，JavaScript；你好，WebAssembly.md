@@ -1,7 +1,7 @@
 ---
 title: 别了，JavaScript；你好，WebAssembly
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 10b84ef3
 date: 2018-10-19 00:00:00
 ---

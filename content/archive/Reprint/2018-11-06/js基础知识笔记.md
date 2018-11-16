@@ -1,7 +1,7 @@
 ---
 title: js基础知识笔记
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 27b392b3
 date: 2018-11-06 02:30:12
 ---

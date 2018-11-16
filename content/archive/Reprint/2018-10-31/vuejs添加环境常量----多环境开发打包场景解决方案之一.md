@@ -1,7 +1,7 @@
 ---
 title: vuejs添加环境常量----多环境开发打包场景解决方案之一
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e5a44fb1
 date: 2018-10-31 02:30:10
 ---

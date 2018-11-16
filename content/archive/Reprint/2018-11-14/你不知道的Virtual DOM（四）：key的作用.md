@@ -1,7 +1,7 @@
 ---
 title: 你不知道的Virtual DOM（四）：key的作用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 80006ca9
 date: 2018-11-14 02:30:09
 ---

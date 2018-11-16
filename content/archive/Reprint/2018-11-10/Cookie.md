@@ -1,7 +1,7 @@
 ---
 title: Cookie
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8d4cbf50
 date: 2018-11-10 02:30:10
 ---

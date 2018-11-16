@@ -1,7 +1,7 @@
 ---
 title: JavaScript数组的十八般武艺
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d91c2ca5
 date: 2018-10-26 02:30:12
 ---

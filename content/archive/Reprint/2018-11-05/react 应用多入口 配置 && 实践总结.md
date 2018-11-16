@@ -1,7 +1,7 @@
 ---
 title: react 应用多入口 配置 && 实践总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 792a5c2
 date: 2018-11-05 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 尾调用、优化和 ES6
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c15585ca
 date: 2018-10-18 00:00:00
 ---

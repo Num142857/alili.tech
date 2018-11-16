@@ -1,7 +1,7 @@
 ---
 title: GraphQL如何取代Redux
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 31cd5561
 date: 2018-10-18 00:00:00
 ---

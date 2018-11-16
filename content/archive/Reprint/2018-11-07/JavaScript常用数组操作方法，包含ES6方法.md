@@ -1,7 +1,7 @@
 ---
 title: JavaScript常用数组操作方法，包含ES6方法
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 882dba7e
 date: 2018-11-07 02:30:15
 ---

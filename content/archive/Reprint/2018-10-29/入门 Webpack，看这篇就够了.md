@@ -1,7 +1,7 @@
 ---
 title: 入门 Webpack，看这篇就够了
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3a92325d
 date: 2018-10-29 02:30:09
 ---

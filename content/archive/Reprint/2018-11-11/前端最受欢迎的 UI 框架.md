@@ -1,7 +1,7 @@
 ---
 title: 前端最受欢迎的 UI 框架
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e12f7816
 date: 2018-11-11 02:30:06
 ---

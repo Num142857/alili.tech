@@ -1,7 +1,7 @@
 ---
 title: CSS魔法堂：稍稍深入伪类选择器
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fc06162d
 date: 2018-11-14 02:30:09
 ---

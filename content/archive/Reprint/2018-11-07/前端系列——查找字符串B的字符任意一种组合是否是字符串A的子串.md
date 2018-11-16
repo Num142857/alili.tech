@@ -1,7 +1,7 @@
 ---
 title: 前端系列——查找字符串B的字符任意一种组合是否是字符串A的子串
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ff1459e3
 date: 2018-11-07 02:30:13
 ---

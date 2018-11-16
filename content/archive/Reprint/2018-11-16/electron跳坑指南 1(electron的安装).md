@@ -3,7 +3,7 @@ title: 'electron跳坑指南 1(electron的安装)'
 date: 2018-11-16 02:30:06
 hidden: true
 slug: ev9axazwuk7
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

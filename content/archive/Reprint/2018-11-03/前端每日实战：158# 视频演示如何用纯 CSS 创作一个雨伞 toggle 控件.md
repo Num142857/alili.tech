@@ -1,7 +1,7 @@
 ---
 title: '前端每日实战：158# 视频演示如何用纯 CSS 创作一个雨伞 toggle 控件'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1354bf86
 date: 2018-11-03 10:03:44
 ---

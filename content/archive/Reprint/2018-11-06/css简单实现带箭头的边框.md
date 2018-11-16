@@ -1,7 +1,7 @@
 ---
 title: css简单实现带箭头的边框
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ddb6ae64
 date: 2018-11-06 15:28:31
 ---

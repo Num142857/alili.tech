@@ -1,7 +1,7 @@
 ---
 title: 'Dcloud,hbuilderX开发uni-app第一天踩坑记录'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 494d0a60
 date: 2018-11-14 02:30:09
 ---

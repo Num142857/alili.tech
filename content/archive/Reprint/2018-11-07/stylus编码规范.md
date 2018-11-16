@@ -1,7 +1,7 @@
 ---
 title: stylus编码规范
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5e6298dc
 date: 2018-11-07 02:30:14
 ---

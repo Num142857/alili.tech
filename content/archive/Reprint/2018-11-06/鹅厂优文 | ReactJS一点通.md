@@ -1,7 +1,7 @@
 ---
 title: 鹅厂优文 | ReactJS一点通
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c70a20df
 date: 2018-11-06 02:30:12
 ---

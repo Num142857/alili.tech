@@ -1,7 +1,7 @@
 ---
 title: vue响应式原理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6c6ad520
 date: 2018-11-11 02:30:06
 ---

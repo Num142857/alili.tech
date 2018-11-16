@@ -1,7 +1,7 @@
 ---
 title: 如何在 Windows 10 上开启 WSL 之旅
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6216c0b2
 date: 2018-10-18 00:00:00
 ---

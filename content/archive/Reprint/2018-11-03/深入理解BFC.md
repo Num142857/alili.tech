@@ -1,7 +1,7 @@
 ---
 title: 深入理解BFC
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 90bb1448
 date: 2018-11-03 10:03:44
 ---

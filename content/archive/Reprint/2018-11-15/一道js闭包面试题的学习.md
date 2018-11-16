@@ -3,7 +3,7 @@ title: '一道js闭包面试题的学习'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: j5wook9mfvq
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: JS高级之面试必须知道的几个点
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '1249e040'
 date: 2018-10-24 08:17:53
 ---

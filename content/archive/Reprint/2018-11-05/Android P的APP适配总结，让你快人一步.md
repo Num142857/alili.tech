@@ -1,7 +1,7 @@
 ---
 title: Android P的APP适配总结，让你快人一步
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 52848b73
 date: 2018-11-05 02:30:11
 ---

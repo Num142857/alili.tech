@@ -1,7 +1,7 @@
 ---
 title: ECMAScript正则表达式6个最新特性
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e54a5961
 date: 2018-10-22 00:00:00
 ---

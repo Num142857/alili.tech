@@ -1,7 +1,7 @@
 ---
 title: nodejs中的子进程，深入解析child_process模块和cluster模块
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b846fef3
 date: 2018-10-25 09:08:15
 ---

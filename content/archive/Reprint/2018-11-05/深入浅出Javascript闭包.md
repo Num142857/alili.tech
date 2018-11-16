@@ -1,7 +1,7 @@
 ---
 title: 深入浅出Javascript闭包
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1c8afc86
 date: 2018-11-05 02:30:10
 ---

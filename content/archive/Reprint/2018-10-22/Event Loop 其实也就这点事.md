@@ -1,7 +1,7 @@
 ---
 title: Event Loop 其实也就这点事
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 956c5598
 date: 2018-10-22 00:00:00
 ---

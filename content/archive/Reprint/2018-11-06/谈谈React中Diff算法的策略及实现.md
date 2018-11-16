@@ -1,7 +1,7 @@
 ---
 title: 谈谈React中Diff算法的策略及实现
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b35399aa
 date: 2018-11-06 15:28:32
 ---

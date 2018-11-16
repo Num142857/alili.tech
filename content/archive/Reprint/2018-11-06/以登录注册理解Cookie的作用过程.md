@@ -1,7 +1,7 @@
 ---
 title: 以登录注册理解Cookie的作用过程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1d7eb5bc
 date: 2018-11-06 02:30:12
 ---

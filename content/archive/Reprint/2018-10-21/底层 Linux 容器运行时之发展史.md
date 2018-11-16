@@ -1,7 +1,7 @@
 ---
 title: 底层 Linux 容器运行时之发展史
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7e3006e1
 date: 2018-10-21 00:00:00
 ---

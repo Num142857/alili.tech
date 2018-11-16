@@ -1,7 +1,7 @@
 ---
 title: 前端安全系列（一）：如何防止XSS攻击？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 52ab4dd9
 date: 2018-11-03 02:30:13
 ---

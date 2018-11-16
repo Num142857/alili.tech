@@ -1,7 +1,7 @@
 ---
 title: '前端每日实战：143# 视频演示如何用 CSS 的 Grid 布局创作一枚小松鼠邮票'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 64d10880
 date: 2018-11-07 02:30:14
 ---

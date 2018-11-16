@@ -1,7 +1,7 @@
 ---
 title: 浅析 React / Vue 跨端渲染原理与实现
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c0175c06
 date: 2018-11-03 02:30:13
 ---

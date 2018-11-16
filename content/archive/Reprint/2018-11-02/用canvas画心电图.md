@@ -1,7 +1,7 @@
 ---
 title: 用canvas画心电图
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2a62a43c
 date: 2018-11-02 02:30:12
 ---

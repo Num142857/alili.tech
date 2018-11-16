@@ -1,7 +1,7 @@
 ---
 title: js实现 web页面的滚动条下拉时加载更多
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4ab08e4f
 date: 2018-11-14 02:30:09
 ---

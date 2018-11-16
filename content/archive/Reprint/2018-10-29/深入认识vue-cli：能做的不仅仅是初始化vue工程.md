@@ -1,7 +1,7 @@
 ---
 title: 深入认识vue-cli：能做的不仅仅是初始化vue工程
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fdf05b45
 date: 2018-10-29 02:30:09
 ---

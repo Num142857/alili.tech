@@ -1,7 +1,7 @@
 ---
 title: JavaScript与WebAssembly进行比较+在哪些情况下会优于JavaScript
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 86189f01
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: '小哥哥,小姐姐,我有一份tcp、http面试指南你要吗？'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1d8dd1aa
 date: 2018-10-23 00:00:00
 ---

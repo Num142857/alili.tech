@@ -2,7 +2,7 @@
 title: 'js 中一些意想不到的使用技巧（持续更新，欢迎补充）' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

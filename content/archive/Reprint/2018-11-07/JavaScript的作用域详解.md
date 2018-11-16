@@ -1,7 +1,7 @@
 ---
 title: JavaScript的作用域详解
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e04d068f
 date: 2018-11-07 02:30:13
 ---

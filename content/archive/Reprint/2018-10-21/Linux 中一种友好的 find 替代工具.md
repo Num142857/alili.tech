@@ -1,7 +1,7 @@
 ---
 title: Linux 中一种友好的 find 替代工具
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b14f61b5
 date: 2018-10-21 00:00:00
 ---

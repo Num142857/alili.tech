@@ -1,7 +1,7 @@
 ---
 title: CSS自定义属性 —— 别说你懂CSS相对单位
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8df7edd2
 date: 2018-10-30 02:30:12
 ---

@@ -1,7 +1,7 @@
 ---
 title: vue中$router以及$route的使用
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e61eee75
 date: 2018-11-05 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: webpack系列——实现一个行内样式px转vw的loader
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: cb4473d9
 date: 2018-11-10 02:30:10
 ---

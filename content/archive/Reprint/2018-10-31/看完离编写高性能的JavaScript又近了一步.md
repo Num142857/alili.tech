@@ -1,7 +1,7 @@
 ---
 title: 看完离编写高性能的JavaScript又近了一步
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3a522bf2
 date: 2018-10-31 02:30:10
 ---

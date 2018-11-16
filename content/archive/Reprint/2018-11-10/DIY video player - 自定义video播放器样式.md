@@ -1,7 +1,7 @@
 ---
 title: DIY video player - 自定义video播放器样式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 6b1e07a2
 date: 2018-11-10 02:30:10
 ---

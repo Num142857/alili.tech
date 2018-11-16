@@ -1,7 +1,7 @@
 ---
 title: 使用PDF.JS插件在HTML中预览PDF文件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 551503ea
 date: 2018-11-14 02:30:09
 ---

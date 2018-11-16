@@ -3,7 +3,7 @@ title: 'webpack打包（有面试题）'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: xkt78sdeh08
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

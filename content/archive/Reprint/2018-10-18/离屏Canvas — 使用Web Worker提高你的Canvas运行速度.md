@@ -1,7 +1,7 @@
 ---
 title: 离屏Canvas — 使用Web Worker提高你的Canvas运行速度
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e116eb40
 date: 2018-10-18 00:00:00
 ---

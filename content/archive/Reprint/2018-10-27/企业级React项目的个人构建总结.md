@@ -1,7 +1,7 @@
 ---
 title: 企业级React项目的个人构建总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 54af736c
 date: 2018-10-27 02:30:17
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'VsCode 添加文件头部注释和函数注释[koroFileHeader]'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ce5e0d04
 date: 2018-11-03 10:03:44
 ---

@@ -1,7 +1,7 @@
 ---
 title: 利用HTML5，无JS实现各种交互效果
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d886bfab
 date: 2018-11-03 10:03:44
 ---

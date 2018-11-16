@@ -1,7 +1,7 @@
 ---
 title: 漫谈前端性能 突破 React 应用瓶颈
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 72ce7388
 date: 2018-10-27 02:30:17
 ---

@@ -1,7 +1,7 @@
 ---
 title: 做JAVA开发的同学一定遇到过的爆表问题，看这里解决
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ef9b9345
 date: 2018-11-05 02:30:10
 ---

@@ -1,7 +1,7 @@
 ---
 title: 试用React语法的多端框架Taro问题汇总
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 191939fb
 date: 2018-11-13 02:30:09
 ---

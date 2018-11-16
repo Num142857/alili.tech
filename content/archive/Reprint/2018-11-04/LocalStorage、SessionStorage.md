@@ -1,7 +1,7 @@
 ---
 title: LocalStorage、SessionStorage
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 16707ed1
 date: 2018-11-04 02:30:10
 ---

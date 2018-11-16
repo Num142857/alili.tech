@@ -1,7 +1,7 @@
 ---
 title: 拒绝烂大街——Flexbox布局演示站了解一下
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b4bcc67f
 date: 2018-10-30 02:30:12
 ---

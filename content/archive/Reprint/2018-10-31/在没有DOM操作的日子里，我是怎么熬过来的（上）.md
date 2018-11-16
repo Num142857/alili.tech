@@ -1,7 +1,7 @@
 ---
 title: 在没有DOM操作的日子里，我是怎么熬过来的（上）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 666096a3
 date: 2018-10-31 02:30:10
 ---

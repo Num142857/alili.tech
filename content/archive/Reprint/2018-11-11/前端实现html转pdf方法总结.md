@@ -1,7 +1,7 @@
 ---
 title: 前端实现html转pdf方法总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 799420a9
 date: 2018-11-11 02:30:07
 ---

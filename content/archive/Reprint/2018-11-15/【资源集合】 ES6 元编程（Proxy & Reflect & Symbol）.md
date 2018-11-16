@@ -2,7 +2,7 @@
 title: '【资源集合】 ES6 元编程（Proxy & Reflect & Symbol）' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: Service Worker学习与实践
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 71087eaf
 date: 2018-11-03 02:30:13
 ---

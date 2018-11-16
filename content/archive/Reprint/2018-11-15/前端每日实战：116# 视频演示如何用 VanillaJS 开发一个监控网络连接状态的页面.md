@@ -2,7 +2,7 @@
 title: '前端每日实战：116# 视频演示如何用 VanillaJS 开发一个监控网络连接状态的页面' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

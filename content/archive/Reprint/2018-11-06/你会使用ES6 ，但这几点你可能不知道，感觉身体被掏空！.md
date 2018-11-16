@@ -1,7 +1,7 @@
 ---
 title: 你会使用ES6 ，但这几点你可能不知道，感觉身体被掏空！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e3b25d5a
 date: 2018-11-06 02:30:12
 ---

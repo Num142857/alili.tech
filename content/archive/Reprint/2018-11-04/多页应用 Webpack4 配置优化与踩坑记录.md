@@ -1,7 +1,7 @@
 ---
 title: 多页应用 Webpack4 配置优化与踩坑记录
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2fc41a21
 date: 2018-11-04 02:30:10
 ---

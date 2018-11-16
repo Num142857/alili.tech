@@ -1,7 +1,7 @@
 ---
 title: 如何实现一个HTTP请求库——axios源码阅读与分析
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a4161779
 date: 2018-11-01 02:30:09
 ---

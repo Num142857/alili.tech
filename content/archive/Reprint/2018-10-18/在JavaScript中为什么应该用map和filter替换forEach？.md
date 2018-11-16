@@ -1,7 +1,7 @@
 ---
 title: 在JavaScript中为什么应该用map和filter替换forEach？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e3f771f8
 date: 2018-10-18 00:00:00
 ---

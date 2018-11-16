@@ -1,7 +1,7 @@
 ---
 title: 微任务、宏任务与Event-Loop
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4570d5dc
 date: 2018-10-25 09:08:15
 ---

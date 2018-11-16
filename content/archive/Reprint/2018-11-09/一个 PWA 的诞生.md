@@ -1,7 +1,7 @@
 ---
 title: 一个 PWA 的诞生
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c1d2213
 date: 2018-11-09 02:30:05
 ---

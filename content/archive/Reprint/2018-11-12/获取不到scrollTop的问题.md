@@ -1,7 +1,7 @@
 ---
 title: 获取不到scrollTop的问题
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1edbcd7
 date: 2018-11-12 02:30:05
 ---

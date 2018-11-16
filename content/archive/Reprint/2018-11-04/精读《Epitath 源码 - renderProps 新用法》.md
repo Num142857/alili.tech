@@ -1,7 +1,7 @@
 ---
 title: 精读《Epitath 源码 - renderProps 新用法》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c268ea76
 date: 2018-11-04 02:30:10
 ---

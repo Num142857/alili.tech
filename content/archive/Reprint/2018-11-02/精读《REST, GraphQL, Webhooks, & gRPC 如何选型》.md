@@ -1,7 +1,7 @@
 ---
 title: '精读《REST, GraphQL, Webhooks, & gRPC 如何选型》'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: df886006
 date: 2018-11-02 02:30:12
 ---

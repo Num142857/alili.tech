@@ -1,7 +1,7 @@
 ---
 title: 初学者应该了解的数据结构： Tree
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fcaaa7e6
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: happypack提升项目构建速度
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 30124c04
 date: 2018-11-09 02:30:06
 ---

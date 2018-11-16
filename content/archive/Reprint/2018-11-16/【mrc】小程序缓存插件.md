@@ -3,7 +3,7 @@ title: '【mrc】小程序缓存插件'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: zcer3rt6q68
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

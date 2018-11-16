@@ -1,7 +1,7 @@
 ---
 title: 打造自己的JavaScript武器库
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d15832d
 date: 2018-10-24 08:17:54
 ---

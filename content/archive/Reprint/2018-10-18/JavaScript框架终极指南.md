@@ -1,7 +1,7 @@
 ---
 title: JavaScript框架终极指南
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ee781fe9
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: Class：向传统类模式转变的构造函数
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '38193800'
 date: 2018-11-08 02:30:09
 ---

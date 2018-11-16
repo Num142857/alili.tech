@@ -1,7 +1,7 @@
 ---
 title: 面试题：你能写一个Vue的双向数据绑定吗？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 4da0f3f4
 date: 2018-10-23 00:00:00
 ---

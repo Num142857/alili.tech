@@ -1,7 +1,7 @@
 ---
 title: React Native with MobX — 入门
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dbf4a6bc
 date: 2018-10-19 00:00:00
 ---

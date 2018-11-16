@@ -1,7 +1,7 @@
 ---
 title: Egg.js学习
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a45dec63
 date: 2018-11-10 02:30:10
 ---

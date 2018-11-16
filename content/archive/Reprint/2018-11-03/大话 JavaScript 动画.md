@@ -1,7 +1,7 @@
 ---
 title: 大话 JavaScript 动画
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 852397f4
 date: 2018-11-03 02:30:13
 ---

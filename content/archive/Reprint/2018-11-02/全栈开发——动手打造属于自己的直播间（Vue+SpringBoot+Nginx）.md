@@ -1,7 +1,7 @@
 ---
 title: 全栈开发——动手打造属于自己的直播间（Vue+SpringBoot+Nginx）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e3c0a852
 date: 2018-11-02 02:30:11
 ---

@@ -1,7 +1,7 @@
 ---
 title: 纯css实现瀑布流（multi-column多列及flex布局）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 511a3c14
 date: 2018-11-12 02:30:05
 ---

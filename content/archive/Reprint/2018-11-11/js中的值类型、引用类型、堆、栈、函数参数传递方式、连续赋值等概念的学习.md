@@ -1,7 +1,7 @@
 ---
 title: js中的值类型、引用类型、堆、栈、函数参数传递方式、连续赋值等概念的学习
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 380476a7
 date: 2018-11-11 02:30:07
 ---

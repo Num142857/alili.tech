@@ -1,7 +1,7 @@
 ---
 title: js数组遍历总结
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5b8c223e
 date: 2018-11-04 02:30:10
 ---

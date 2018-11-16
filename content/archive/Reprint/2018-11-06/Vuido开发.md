@@ -1,7 +1,7 @@
 ---
 title: Vuido开发
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d8aea1e7
 date: 2018-11-06 15:28:31
 ---

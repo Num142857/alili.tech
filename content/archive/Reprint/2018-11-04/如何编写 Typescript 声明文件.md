@@ -1,7 +1,7 @@
 ---
 title: 如何编写 Typescript 声明文件
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: f74ee42
 date: 2018-11-04 02:30:10
 ---

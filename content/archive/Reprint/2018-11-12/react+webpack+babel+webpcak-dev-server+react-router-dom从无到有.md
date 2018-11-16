@@ -1,7 +1,7 @@
 ---
 title: react+webpack+babel+webpcak-dev-server+react-router-dom从无到有
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '62407668'
 date: 2018-11-12 02:30:05
 ---

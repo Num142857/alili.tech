@@ -1,7 +1,7 @@
 ---
 title: JavaScript编程语言简介
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d1d5ae47
 date: 2018-10-19 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 'Tutorial: GraphQL输入类型和自定义解析器'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 28e8dc11
 date: 2018-10-21 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: 掌握react，这一篇就够了
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b32f4225
 date: 2018-11-12 02:30:05
 ---

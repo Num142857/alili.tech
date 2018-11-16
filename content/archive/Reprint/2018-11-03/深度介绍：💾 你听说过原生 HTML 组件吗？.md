@@ -1,7 +1,7 @@
 ---
 title: "深度介绍：\U0001F4BE 你听说过原生 HTML 组件吗？"
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d21938af
 date: 2018-11-03 10:03:44
 ---

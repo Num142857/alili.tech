@@ -1,7 +1,7 @@
 ---
 title: vue组件从开发到发布
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5c197dc4
 date: 2018-11-04 02:30:10
 ---

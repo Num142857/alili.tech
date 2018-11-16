@@ -1,7 +1,7 @@
 ---
 title: 细数 JavaScript 实用黑科技(一)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 54bdd25b
 date: 2018-11-07 02:30:15
 ---

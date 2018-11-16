@@ -1,7 +1,7 @@
 ---
 title: js闭包探秘
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c554210b
 date: 2018-11-03 10:03:44
 ---

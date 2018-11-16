@@ -1,7 +1,7 @@
 ---
 title: 由一篇ES6继承文章引发对于super关键字的思考
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 8702d5b0
 date: 2018-11-14 02:30:09
 ---

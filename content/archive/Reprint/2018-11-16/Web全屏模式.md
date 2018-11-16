@@ -3,7 +3,7 @@ title: 'Web全屏模式'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: 7uqy83izkl
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

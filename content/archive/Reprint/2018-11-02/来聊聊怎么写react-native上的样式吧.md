@@ -1,7 +1,7 @@
 ---
 title: 来聊聊怎么写react-native上的样式吧
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3c881185
 date: 2018-11-02 02:30:11
 ---

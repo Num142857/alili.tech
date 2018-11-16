@@ -2,7 +2,7 @@
 title: '如何做一个会liao妹的程序员？' 
 date: 2018-11-15 2:30:08
 hidden: true
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,7 +1,7 @@
 ---
 title: 'snippet,让你编码效率翻倍'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e7ed4f50
 date: 2018-11-02 02:30:12
 ---

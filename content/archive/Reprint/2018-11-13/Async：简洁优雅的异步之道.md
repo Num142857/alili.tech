@@ -1,7 +1,7 @@
 ---
 title: Async：简洁优雅的异步之道
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 36abf0e
 date: 2018-11-13 02:30:09
 ---

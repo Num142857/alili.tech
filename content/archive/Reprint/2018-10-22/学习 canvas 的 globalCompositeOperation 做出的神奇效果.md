@@ -1,7 +1,7 @@
 ---
 title: 学习 canvas 的 globalCompositeOperation 做出的神奇效果
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fc01489
 date: 2018-10-22 00:00:00
 ---

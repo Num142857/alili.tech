@@ -1,7 +1,7 @@
 ---
 title: 仿segmentfault-table横向滚动
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7f9e1a83
 date: 2018-11-13 02:30:09
 ---

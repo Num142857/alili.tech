@@ -1,7 +1,7 @@
 ---
 title: "一眼看穿\U0001F440JS继承"
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 1a921f0c
 date: 2018-11-13 02:30:09
 ---

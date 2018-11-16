@@ -3,7 +3,7 @@ title: '微信小程序的 request 封装'
 date: 2018-11-15 21:20:48
 hidden: true
 slug: abnrb89y5fp
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

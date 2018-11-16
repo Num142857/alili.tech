@@ -1,7 +1,7 @@
 ---
 title: JSX 这么6？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: dd3b254f
 date: 2018-10-18 00:00:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: React源码阅读之：复合类型方案设计
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 993b8d89
 date: 2018-11-12 02:30:05
 ---

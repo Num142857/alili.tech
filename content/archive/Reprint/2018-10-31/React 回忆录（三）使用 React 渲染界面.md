@@ -1,7 +1,7 @@
 ---
 title: React 回忆录（三）使用 React 渲染界面
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a54779db
 date: 2018-10-31 02:30:10
 ---

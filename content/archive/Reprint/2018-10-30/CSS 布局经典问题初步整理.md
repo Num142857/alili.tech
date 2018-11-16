@@ -1,7 +1,7 @@
 ---
 title: CSS 布局经典问题初步整理
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 5ab41459
 date: 2018-10-30 02:30:12
 ---

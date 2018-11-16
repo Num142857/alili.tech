@@ -1,7 +1,7 @@
 ---
 title: 你应该知道关于 Ubuntu 18.04 的一些事
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 192f9dbe
 date: 2018-10-18 00:00:00
 ---

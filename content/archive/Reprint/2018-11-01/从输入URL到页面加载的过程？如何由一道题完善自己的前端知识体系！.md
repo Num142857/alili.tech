@@ -1,7 +1,7 @@
 ---
 title: 从输入URL到页面加载的过程？如何由一道题完善自己的前端知识体系！
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ef4c57aa
 date: 2018-11-01 02:30:09
 ---

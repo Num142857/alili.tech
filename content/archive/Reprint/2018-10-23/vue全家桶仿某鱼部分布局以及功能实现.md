@@ -1,7 +1,7 @@
 ---
 title: vue全家桶仿某鱼部分布局以及功能实现
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9f9a7b3c
 date: 2018-10-23 00:00:00
 ---

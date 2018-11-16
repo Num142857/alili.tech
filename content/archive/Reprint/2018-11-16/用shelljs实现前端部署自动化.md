@@ -3,7 +3,7 @@ title: '用shelljs实现前端部署自动化'
 date: 2018-11-16 2:30:06
 hidden: true
 slug: nrbjnis3z8e
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

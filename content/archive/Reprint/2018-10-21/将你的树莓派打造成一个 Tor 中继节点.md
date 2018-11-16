@@ -1,7 +1,7 @@
 ---
 title: 将你的树莓派打造成一个 Tor 中继节点
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 7e43fcce
 date: 2018-10-21 00:00:00
 ---

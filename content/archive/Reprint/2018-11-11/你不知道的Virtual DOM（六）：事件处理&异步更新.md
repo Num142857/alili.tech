@@ -1,7 +1,7 @@
 ---
 title: '你不知道的Virtual DOM 6 : 事件处理&异步更新'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fa438533
 date: 2018-11-11 02:30:07
 ---

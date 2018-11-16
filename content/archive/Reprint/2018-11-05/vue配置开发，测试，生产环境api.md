@@ -1,7 +1,7 @@
 ---
 title: vue配置开发，测试，生产环境api
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 466ec6f7
 date: 2018-11-05 02:30:10
 ---

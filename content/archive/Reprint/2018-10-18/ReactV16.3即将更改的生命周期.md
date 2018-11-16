@@ -1,7 +1,7 @@
 ---
 title: ReactV16.3即将更改的生命周期
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 66f04d69
 date: 2018-10-18 00:00:00
 ---

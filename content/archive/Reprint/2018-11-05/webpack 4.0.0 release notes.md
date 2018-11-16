@@ -1,7 +1,7 @@
 ---
 title: webpack 4.0.0 release notes
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '12134571'
 date: 2018-11-05 02:30:10
 ---

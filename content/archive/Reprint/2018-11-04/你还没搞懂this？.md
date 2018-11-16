@@ -1,7 +1,7 @@
 ---
 title: 你还没搞懂this？
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: c226ecbb
 date: 2018-11-04 02:30:10
 ---

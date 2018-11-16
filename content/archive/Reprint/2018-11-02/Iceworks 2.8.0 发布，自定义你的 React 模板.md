@@ -1,7 +1,7 @@
 ---
 title: Iceworks 2.8.0 发布，自定义你的 React 模板
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 2b8b2467
 date: 2018-11-02 02:30:12
 ---

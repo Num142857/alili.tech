@@ -1,7 +1,7 @@
 ---
 title: '[vuejs 踩坑实战系列] keep-alive 被 beforeRouteEnter 骗了'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: '17897695'
 date: 2018-11-07 02:30:16
 ---

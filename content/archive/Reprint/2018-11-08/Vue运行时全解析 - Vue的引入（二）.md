@@ -1,7 +1,7 @@
 ---
 title: Vue运行时全解析 - Vue的引入（二）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: fc659492
 date: 2018-11-08 02:30:09
 ---

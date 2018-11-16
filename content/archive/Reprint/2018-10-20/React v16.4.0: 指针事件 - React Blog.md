@@ -1,7 +1,7 @@
 ---
 title: 'React v16.4.0: 指针事件 - React Blog'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 532621aa
 date: 2018-10-20 00:00:00
 ---
