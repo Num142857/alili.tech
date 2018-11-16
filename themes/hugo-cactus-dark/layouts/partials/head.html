@@ -13,7 +13,7 @@
 			{{ partial "twitter-cards.html" . }}
 		{{ end }}
 		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-		<meta itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ end }}{{ end }}">
+		<meta name='description' itemprop="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{if .IsPage}}{{ slicestr .Summary 200}}{{ end }}{{ end }}">
 		{{ if .Keywords }} 
 		<meta name="keywords" content="{{ delimit .Keywords ", " }}" >
 		{{else}}
@@ -62,7 +62,7 @@
 				"appid": "1613049289050283", 
 				"title": "{{ if .IsHome }}前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ end }}", 
 				"images": [],
-				"pubDate": "{{ now.Format "2006-01-02T15:04:05"}}"
+				"pubDate": "{{ .Lastmod.Format "2006-01-02T15:04:05"}}"
 			} 
 			</script>
 	</head>
