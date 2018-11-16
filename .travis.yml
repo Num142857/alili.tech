@@ -20,6 +20,7 @@ after_success:
     # - rm -rf container/*
     # - cp -r blog/* container 
     - ls
+    - npm install
     - gulp
     - cd public
     - ls
