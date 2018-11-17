@@ -1492,7 +1492,9 @@ pre code {
 .coding .prompt {
     display: inline;
     white-space: pre-wrap;
-    margin-bottom: .75em
+    margin-bottom: .75em;
+    line-height: 32px;
+    
 }
 
 .coding .typed-cursor {
