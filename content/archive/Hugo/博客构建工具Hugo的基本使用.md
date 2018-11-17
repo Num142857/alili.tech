@@ -1,5 +1,5 @@
 ---
-title: Hexo迁移Hugo指南
+title: 博客构建工具Hugo的基本使用
 tags: [Hugo]
 slug: obvozmdf
 keywords: [Hugo,博客,迁移]
