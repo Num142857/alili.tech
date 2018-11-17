@@ -2,7 +2,7 @@
 title: 让你的Hugo博客支持echarts图表
 tags: [Hugo]
 slug: r5ibcpo557h
-keywords: [Hugo,博客,Shortcodes]
+keywords: [Hugo,博客,Shortcodes,echarts]
 date: 2018-11-19 16:14:25
 ---
 
