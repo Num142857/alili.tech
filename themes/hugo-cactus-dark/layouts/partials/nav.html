@@ -4,7 +4,6 @@
 	
 		<div id="logo" style='background-image: url({{.Site.Params.Customize.Logo.Url}});'></div>
 	  <div id="title">
-		<!-- <h1><%= page.tag || page.title || config.title %></h1> -->
 		<h1>{{.Title}}</h1>
 	  </div>
 	</a>
@@ -13,10 +12,7 @@
 		<li class="icon">
 		  <a href="#"><i class="fa fa-bars fa-2x"></i></a>
 		</li>
-		<li>	<a href="/">Home</a></li>
-		<li>	<a href=" /archive/">Archives</a></li>
-		<li>	<a href="/about/">About</a></li>
-		<li>	<a href="http://github.com/Fantasy9527" target="_blank">Github</a></li>
+		{{ partial "nav-list.html" . }}
 	  </ul>
 	</div>
   </header>

@@ -1,13 +1,16 @@
 
-<div id='row'>
+<div id='raw'>
     <script>
         $(function(){
-            var html = "{{.Inner}}"
+            var html = $('#temp-raw').html()
             html = html.replace(/"{/g,"{")
             html = html.replace(/{"/g,"{")
             html = html.replace(/"}/g,"}")
             html = html.replace(/}"/g,"}")
-            $('#row').html(html);
+            $('#raw').html(html);
         })
     </script>
+    <div id='temp-raw'>
+        {{.Inner}}
+    </div>
 </div>

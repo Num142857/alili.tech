@@ -5,10 +5,7 @@
         <span id="menu">
           <span id="nav">
             <ul>
-                    <li>	<a href="/">Home</a></li>
-                    <li>	<a href=" /archive/">Archives</a></li>
-                    <li>	<a href="/about/">About</a></li>
-                    <li>	<a href="http://github.com/Fantasy9527" target="_blank">Github</a></li>
+              {{ partial "nav-list.html" . }}
             </ul>
           </span>
           <br/>
@@ -31,7 +28,6 @@
           <br/>
           <div id="share" style="display: none">
               {{ partial "share.html" . }}
-            <!-- <%- partial('_partial/post/share', { icon_class_name: '' }) %> -->
           </div>
           <div id="toc">
                 {{ .TableOfContents }}

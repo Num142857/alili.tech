@@ -1,5 +1,5 @@
 <ul id="more-post-list" class="archive readmore">
-    <h3>{{ .Site.Params.readMore | default "推荐阅读" }}</h3>
+    <h3>{{ .Site.Params.readMore | default "其他推荐" }}</h3>
 
     {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
     {{ $othr := where $kind "URL" "!=" .URL }}
