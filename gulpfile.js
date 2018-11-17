@@ -1,9 +1,9 @@
-var gulp = require("gulp");
+const gulp = require("gulp");
 const htmlmin = require('gulp-htmlmin');
-var fs = require('fs');
+const fs = require('fs');
 const xml2js = require('xml2js')
-var parser = new xml2js.Parser();
-var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+const parser = new xml2js.Parser();
+const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
 var xz_appid = '1613049289050283';
 var xz_token = 'PEQAd9p3kMBAzNjY';
