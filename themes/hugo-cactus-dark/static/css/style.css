@@ -1492,8 +1492,8 @@ pre code {
 .coding .prompt {
     display: inline;
     white-space: pre-wrap;
-    margin-bottom: .75em;
     line-height: 30px;
+    margin-bottom: .75em;
     
 }
 
