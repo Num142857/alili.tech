@@ -97,7 +97,7 @@ $(function () {
     var options = {
       strings: [ 
         str + "Who??^1000",
-        str + "It's me .^3000",
+        str + "It's me ^3000",
         str +'Haha, make a joke',
         str +data.author,
         // str+"Welcome to my blog. ^1000",
@@ -105,7 +105,7 @@ $(function () {
         // str+"Here you can learn the Css",
       ],
       typeSpeed: 20,
-      startDelay:500,
+      startDelay:300,
       // loop: true,
     }
     var typed = new Typed(".description .typed", options);
