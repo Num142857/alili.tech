@@ -4,6 +4,8 @@
   "description": "Blog",
   "main": "index.js",
   "scripts": {
+    "start":"hugo server --buildFuture",
+    "build":"hugo --buildFuture",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -2,27 +2,12 @@
 <script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
 <script src="{{ .Site.BaseURL }}lib/typed.js"></script>
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
-
-
 {{ range .Site.Params.customJS }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
 {{ end }}
 
 {{ if .Site.Params.enableGoogleAnalytics }}
   {{ template "_internal/google_analytics.html" . }}
-{{ end }}
-
-{{ if .Site.Params.enableBaiduAnalytics }}
-<script>
-var baiduAnalytics = '{{ .Site.Params.baiduAnalytics }}';
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "https://hm.baidu.com/hm.js?" + baiduAnalytics;
-  var s = document.getElementsByTagName("script")[0];
-  s.parentNode.insertBefore(hm, s);
-})();
-</script>
 {{ end }}
 
   <script>
@@ -39,14 +24,18 @@ var _hmt = _hmt || [];
       s.parentNode.insertBefore(bp, s);
   })();
   </script>
-  <script>(function(){
+
+  <script>
+    (function(){
+      if(location.host!=='alili.tech')return;
       var src = (document.location.protocol == "http:") ? "http://js.passport.qihucdn.com/11.0.1.js?05520debdbedd780ba345d83b7d5e6f4":"https://jspassport.ssl.qhimg.com/11.0.1.js?05520debdbedd780ba345d83b7d5e6f4";
       document.write('<script src="' + src + '" id="sozz"><\/script>');
       })();
-      </script>
+ </script>
 
 <!-- <script async src="/js/jquery.min.js"></script> -->
-<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
 <!-- <script src="https://c.mipcdn.com/static/v1/mip.js"></script> -->
 
-
+<!-- 阅读量计数 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>

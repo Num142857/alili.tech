@@ -2,7 +2,7 @@
 <div id='raw'>
     <script>
         $(function(){
-            var html = $('#temp-raw').html()
+            var html = "{{.Inner}}"
             html = html.replace(/"{/g,"{")
             html = html.replace(/{"/g,"{")
             html = html.replace(/"}/g,"}")
@@ -10,7 +10,7 @@
             $('#raw').html(html);
         })
     </script>
-    <div id='temp-raw'>
-        {{.Inner}}
-    </div>
+    <!-- <div id='temp-raw'>
+        
+    </div> -->
 </div>
