@@ -1,9 +1,9 @@
 ---
 title: '基于H5实现的react拖拽排序组件' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: cqr0ey9w9oh
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

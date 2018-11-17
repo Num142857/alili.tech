@@ -1,9 +1,9 @@
 ---
 title: 'Web 端反爬虫技术方案' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: o88sgwbky6
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

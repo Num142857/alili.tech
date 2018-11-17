@@ -1,7 +1,7 @@
 ---
 title: 前端进阶（6） - webpack 之外的另一种选择：rollup
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: a2dfd9de
 date: 2018-11-15 02:30:08
 ---

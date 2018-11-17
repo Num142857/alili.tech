@@ -1,7 +1,7 @@
 ---
 title: 【vue-cli 3.0】 vue.config.js配置 - 路径别名
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: e2d64bd9
 date: 2018-11-15 02:30:08
 ---

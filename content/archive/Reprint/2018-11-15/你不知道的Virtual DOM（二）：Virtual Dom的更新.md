@@ -1,7 +1,7 @@
 ---
 title: 你不知道的Virtual DOM（二）：Virtual Dom的更新
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 607ac925
 date: 2018-11-15 02:30:08
 ---

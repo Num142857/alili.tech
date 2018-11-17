@@ -1,7 +1,7 @@
 ---
 title: VUE单页应用首屏加载速度优化方案
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: ea162dab
 date: 2018-11-15 02:30:08
 ---

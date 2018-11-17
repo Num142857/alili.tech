@@ -1,9 +1,9 @@
 ---
 title: '什么是 Webpack？【Webpack Book 翻译】' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: mk62mlfzi
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

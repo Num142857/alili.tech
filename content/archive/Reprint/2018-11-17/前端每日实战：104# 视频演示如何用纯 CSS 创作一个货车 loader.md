@@ -1,9 +1,9 @@
 ---
 title: '前端每日实战：104# 视频演示如何用纯 CSS 创作一个货车 loader' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: m7i5t0aczp
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

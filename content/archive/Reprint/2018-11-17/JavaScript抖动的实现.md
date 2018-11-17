@@ -1,9 +1,9 @@
 ---
 title: 'JavaScript抖动的实现' 
-date: 2018-11-17 2:30:12
+date: 2018-11-17 02:30:12
 hidden: true
 slug: xoebuvujsjk
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

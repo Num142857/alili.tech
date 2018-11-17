@@ -1,7 +1,7 @@
 ---
 title: 使用vue开发pc前端及后台的项目总结(陆续更新)
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 442a563b
 date: 2018-11-15 02:30:08
 ---

@@ -1,7 +1,7 @@
 ---
 title: 精读《高性能 javascript》
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 42b250ee
 date: 2018-11-15 02:30:08
 ---

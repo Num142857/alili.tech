@@ -1,7 +1,7 @@
 ---
 title: 30 分钟理解 CORB 是什么
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 9f6733bb
 date: 2018-11-15 02:30:08
 ---

@@ -1,9 +1,9 @@
 ---
 title: 'ES6指北【4】——ES6的函数参数处理，超乎你想象' 
-date: 2018-11-17 2:30:12
+date: 2018-11-17 02:30:12 +0800
 hidden: true
 slug: wcdexh9hz6
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

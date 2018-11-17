@@ -1,9 +1,9 @@
 ---
 title: 'Vue.js路由管理器 Vue Router' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: n176o2j265q
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

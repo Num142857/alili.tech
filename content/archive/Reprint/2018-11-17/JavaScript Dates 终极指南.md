@@ -1,9 +1,9 @@
 ---
 title: 'JavaScript Dates 终极指南' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: sfimrnov7nh
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

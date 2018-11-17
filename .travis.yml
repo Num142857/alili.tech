@@ -8,7 +8,7 @@ install:
     - npm install
     
 script:
-    - hugo
+    - hugo --buildFuture
     - gulp
     - echo 'Build done!'
 after_success:

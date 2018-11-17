@@ -1,9 +1,9 @@
 ---
 title: '一篇文章用ES6手撸一个Promise' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: js2j3zq5bwl
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

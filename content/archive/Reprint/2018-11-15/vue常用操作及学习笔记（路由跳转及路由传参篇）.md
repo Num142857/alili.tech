@@ -1,7 +1,7 @@
 ---
 title: vue常用操作及学习笔记（路由跳转及路由传参篇）
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 3cff5f71
 date: 2018-11-15 02:30:08
 ---

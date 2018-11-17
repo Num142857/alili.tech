@@ -1,7 +1,7 @@
 ---
 title: 【开发环境】开发者，新的mac 笔记本推荐配置环境
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d78cc73b
 date: 2018-11-15 02:30:08
 ---

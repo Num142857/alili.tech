@@ -1,9 +1,9 @@
 ---
 title: '思维导图—你不知道的JavaScript中卷' 
-date: 2018-11-17 2:30:12
+date: 2018-11-17 02:30:12
 hidden: true
 slug: spn4758va6h
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

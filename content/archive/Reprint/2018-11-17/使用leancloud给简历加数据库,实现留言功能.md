@@ -1,9 +1,9 @@
 ---
 title: '使用leancloud给简历加数据库,实现留言功能' 
-date: 2018-11-17 2:30:12
+date: 2018-11-17 02:30:12
 hidden: true
 slug: siz70v3tza
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

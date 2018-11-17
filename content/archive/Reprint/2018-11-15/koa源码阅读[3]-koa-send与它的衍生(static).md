@@ -1,7 +1,7 @@
 ---
 title: 'koa源码阅读[3]-koa-send与它的衍生(static)'
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: d1dd4ab0
 date: 2018-11-15 02:30:08
 ---

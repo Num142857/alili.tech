@@ -1,9 +1,9 @@
 ---
 title: '用Vue撸一个『A-Z字母滑动检索菜单』' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: lx9qxlzepgj
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,9 +1,9 @@
 ---
 title: '到底什么是闭包？深入理解javascript闭包' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: ray53l4gm
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

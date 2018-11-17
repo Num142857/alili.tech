@@ -1,7 +1,7 @@
 ---
 title: Vuex的基本入门、使用场景及安装配置
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 69b79a0b
 date: 2018-11-15 02:30:08
 ---

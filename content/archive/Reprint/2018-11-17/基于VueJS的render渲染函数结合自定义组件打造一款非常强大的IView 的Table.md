@@ -1,9 +1,9 @@
 ---
 title: '基于VueJS的render渲染函数结合自定义组件打造一款非常强大的IView 的Table' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: yo4zaq1kf7g
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

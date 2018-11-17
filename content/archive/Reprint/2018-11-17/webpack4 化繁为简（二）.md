@@ -1,9 +1,9 @@
 ---
 title: 'webpack4 化繁为简（二）' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: e7j3as7z5lp
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

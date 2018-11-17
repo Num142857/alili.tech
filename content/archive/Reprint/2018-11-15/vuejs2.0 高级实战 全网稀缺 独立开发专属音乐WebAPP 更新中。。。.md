@@ -1,7 +1,7 @@
 ---
 title: vuejs2.0 高级实战 全网稀缺 独立开发专属音乐WebAPP 更新中。。。
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: b588ec07
 date: 2018-11-15 02:30:08
 ---

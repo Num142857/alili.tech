@@ -1,9 +1,9 @@
 ---
 title: 'Webpack Book 翻译计划开坑' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: lb3v6beeec
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

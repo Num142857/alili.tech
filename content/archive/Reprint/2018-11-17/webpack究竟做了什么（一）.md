@@ -1,9 +1,9 @@
 ---
 title: 'webpack究竟做了什么（一）' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: jpar2xwxqk
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

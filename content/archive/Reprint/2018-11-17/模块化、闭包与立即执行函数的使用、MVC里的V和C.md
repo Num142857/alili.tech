@@ -1,9 +1,9 @@
 ---
 title: '模块化、闭包与立即执行函数的使用、MVC里的V和C' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: v3ydbnq3fni
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

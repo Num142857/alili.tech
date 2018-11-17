@@ -1,7 +1,7 @@
 ---
 title: 如何配置 vue-cli 3.0 的 vue.config.js
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: de855b5d
 date: 2018-11-15 02:30:08
 ---

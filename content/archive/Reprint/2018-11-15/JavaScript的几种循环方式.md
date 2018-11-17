@@ -1,7 +1,7 @@
 ---
 title: JavaScript的几种循环方式
 hidden: true
-categories: reprint
+categories: [reprint]
 slug: 35cb092b
 date: 2018-11-15 02:30:08
 ---

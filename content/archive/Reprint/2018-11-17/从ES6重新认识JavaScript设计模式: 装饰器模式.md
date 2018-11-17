@@ -1,9 +1,9 @@
 ---
 title: '从ES6重新认识JavaScript设计模式: 装饰器模式' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: pn3xaiqueb
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

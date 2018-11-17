@@ -1,9 +1,9 @@
 ---
 title: '谈谈Js前端模块化规范' 
-date: 2018-11-17 2:30:12
+date: 2018-11-17 02:30:12
 hidden: true
 slug: 2k9nnr6n5e2
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

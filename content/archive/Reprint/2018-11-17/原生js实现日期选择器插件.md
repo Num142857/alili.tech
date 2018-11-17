@@ -1,9 +1,9 @@
 ---
 title: '原生js实现日期选择器插件' 
-date: 2018-11-17 2:30:13
+date: 2018-11-17 02:30:13
 hidden: true
 slug: 2e1ky99muik
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}

@@ -1,9 +1,9 @@
 ---
 title: 'javaScript中的执行上下文和变量对象' 
-date: 2018-11-17 2:30:12
+date: 2018-11-17 02:30:12
 hidden: true
 slug: u4lcriplrhi
-categories: reprint
+categories: [reprint]
 ---
 
 {{< raw >}}
