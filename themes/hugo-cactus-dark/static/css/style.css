@@ -1490,17 +1490,17 @@ pre code {
 }
 
 .coding .prompt {
-    display: block;
+    display: inline;
     white-space: pre-wrap;
     margin-bottom: .75em
 }
 
-.coding .new-output {
-    display: inline-block
+.coding .typed-cursor {
+    display: inline;
 }
 
-.coding .new-output:after {
-    display: inline-block;
+.coding .typed-cursor:after {
+    display: inline;
     vertical-align: -.15em;
     width: .5em;
     height: 12px;

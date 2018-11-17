@@ -56,9 +56,11 @@ function urlSubmit(urls) {
     // 最新url,看熊掌号情况而定
     urls = urls.map(item=>item.loc[0])
     allUrls = urls.join('\n')
-    new_urls = allUrls.slice(0,35)
-    
-    console.info('百度站长开始提交')
+
+    var new_urls_Arr = urls.slice(0,35)
+    new_urls= new_urls_Arr.join('\n');
+
+    console.info('百度站长开始提交',new_urls)
     sendData(baidu_target,new_urls,'百度站长提交成功')
 
     console.info('熊掌号开始提交')

@@ -83,45 +83,33 @@ $(document).ready(function () {
   }
 });
 
+
 $(function () {
   if(location.pathname !=='/') return;
-  setTimeout(function () {
-    $.get("/data/shanbayToday.json", function (data) {
-      var data = data.data;
-      var str = data.content;
-      print(data.content, ".description .en", function () {
-        print(data.translation, ".description .ch", function () {
-          print("---- " + data.author, ".description .author", function () {
-            // document.querySelector('.description .ad-text').classList.add("show")
-            // print("p.s. 网站已经支持PWA,可尝试添加到桌面", ".description .ad-text", function () {})
-          })
-        })
-      })
-    })
-  }, 150);
-
-  function print(str, target, callback) {
-    var content = "";
-    var index = 0;
-    var timerLoop = function(){
-      var randomNum = parseInt(Math.random()*30+10);
-      var timer = setTimeout(function () {
-        if (index >= str.length) {
-          clearInterval(timer);
-          $(target).html(content);
-          if (callback) callback();
-          return
-        }else{
-          timerLoop()
-        }
-        content += str[index];
-        index++;
-        $(target).html(content + "<span style='color:#2bbc8a'>▌</span>")
-      }, randomNum);
+  $.get("/data/shanbayToday.json", function (data) {
+    var data = data.data;
+    // var str =  data.content+'\n'
+    // + data.translation+"\n---- "
+    // +data.author +'\n'
+    var str =  data.content+'\n'
+    + data.translation+"\n---- "
+    
+    var options = {
+      strings: [ 
+        str + "Who??^1000",
+        str + "It's me .^3000",
+        str +'Haha, make a joke',
+        str +data.author,
+        // str+"Welcome to my blog. ^1000",
+        // str+"Here you can learn the JavaScript",
+        // str+"Here you can learn the Css",
+      ],
+      typeSpeed: 20,
+      startDelay:500,
+      // loop: true,
     }
-
-    timerLoop()
-  }
+    var typed = new Typed(".description .typed", options);
+  })
 });
 
 var _mtac = {};
