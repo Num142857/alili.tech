@@ -19,6 +19,7 @@
                               </span>
                             </span>
                         </div>
+                        {{ if .Params.tags }}
                         <div class="article-tag">
                             <i class="fa fa-tag"></i>
                             {{ range .Params.tags }}
@@ -26,6 +27,7 @@
                                {{ . }}</a> 
                              {{ end }}
                         </div>
+                        {{ end }}
                         <!-- | {{ if lt 1 .WordCount }}{{ .WordCount }}字{{ else }}{{ .WordCount }}字{{ end }} -->
                         <!-- | {{ .ReadingTime }} min -->
                         <div class="article-tag-box">
