@@ -727,7 +727,8 @@ body {
 
 #header-post #nav {
     font-size: .8rem;
-    color: #2bbc8a
+    color: #2bbc8a;
+    float:right;
 }
 
 #header-post #actions .info,.highlight .code .emphasis,.hljs-comment,.hljs-emphasis,.hljs-quote {
