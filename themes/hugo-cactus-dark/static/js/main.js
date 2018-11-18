@@ -114,12 +114,12 @@ $(function () {
 
 var _mtac = {};
 (function() {
+    if(location.host!=='alili.tech')return;
     var mta = document.createElement("script");
     mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.2";
     mta.setAttribute("name", "MTAH5");
     mta.setAttribute("sid", "500643908");
     var s = document.getElementsByTagName("script")[0];
-    if(window.location.host=="localhost:4000")return;
     s.parentNode.insertBefore(mta, s);
 })();
 
