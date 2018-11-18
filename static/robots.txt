@@ -6,7 +6,7 @@ Disallow: /2016/
 Disallow: /2015/
 Disallow: /2014/
 Disallow: /data/
-Disallow: /secret/
+Disallow: /secret
 
 Allow: /archive/
 
