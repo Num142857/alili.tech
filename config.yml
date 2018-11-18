@@ -32,9 +32,6 @@ params:
       social_links:
           github: http://github.com/Fantasy9527
           weibo: http://weibo.com/u/1967233520
-      post_count: 10
-      highlight: rainbow
-      show_all_posts: false
   # RSS
   rss: false
 
