@@ -64,11 +64,14 @@ after_success:
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f
-    - curl -d "" ${DEPLOY_API}
 ```
 
 ## Hexo
-这是我的hexo部署配置,仅供参考
+这是我的hexo部署配置,仅供参考.
+这是你已经有用 `hexo-deployer-git`的配置,当然我也比较推荐使用这个插件.
+因为真的很方便.
+到最后我们只需要使用`sed`命令替换`_config.yml`文件里面的发布地址,就可以免用户名密码发布到指定仓库了.
+
 ```yaml
 language: node_js
 node_js: 10.13.0
