@@ -1,6 +1,6 @@
 ---
 title: 使用Travis CI自动化部署你的Hugo,Hexo博客
-tags: [Hugo,自动化,Travis,Hexo]
+tags: [Hugo,持续集成,Travis,Hexo]
 slug: oj8dtatmwzg
 keywords: [Hugo,博客,自动化,Travis,Hexo]
 date: 2018-11-20 16:14:25
