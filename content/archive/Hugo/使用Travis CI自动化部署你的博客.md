@@ -76,7 +76,6 @@ before_script:
   - git config user.name "Fan"
   - git config user.email "你的邮箱"
   - sed -i'' "s~https://github.com/Fantasy9527/alili.tech.git~https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git~" _config.yml
-  - sed -i'' "s~https://git.coding.net/incomparable9527/incomparable9527.coding.me.git~https://incomparable9527:${CODING_ACCESS_TOKEN}@git.dev.tencent.com/incomparable9527/incomparable9527.coding.me.git~" _config.yml
 script:
   - hexo clean
   - hexo g
