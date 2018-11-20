@@ -1,0 +1,84 @@
+---
+title: 使用Travis CI自动化部署你的Hugo,Hexo博客
+tags: [Hugo,自动化,Travis,Hexo]
+slug: oj8dtatmwzg
+keywords: [Hugo,博客,自动化,Travis,Hexo]
+date: 2018-11-20 16:14:25
+---
+# Travis的钩子与生命周期
+
+## Travis的钩子
+Travis 有不同的阶段,他提供了7个钩子。
+
+- before_install：install 阶段之前执行
+- before_script：script 阶段之前执行
+- after_failure：script 阶段失败时执行
+- after_success：script 阶段成功时执行
+- before_deploy：deploy 步骤之前执行
+- after_deploy：deploy 步骤之后执行
+- after_script：script 阶段之后执行
+
+## 生命周期
+
+1. before_install
+2. install
+3. before_script
+4. script
+5. aftersuccess or afterfailure
+6. [OPTIONAL] before_deploy
+7. [OPTIONAL] deploy
+8. [OPTIONAL] after_deploy
+9. after_script
+
+
+
+#部署配置
+Travis 要求项目的根目录下面，必须有一个`.travis.yml`文件。
+当你的仓库有提交的时候,travis会自动执行你下面配置的行为.
+
+下面是我的博客部署配置,也是我项目`.travis.yml`文件的内容.
+## hugo
+这是我的hugo部署配置,仅供参考
+
+```yaml
+language: node_js
+node_js: 10.13.0
+install:
+    - wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
+    - sudo dpkg -i hugo*.deb
+    - hugo version
+    - rm -rf public
+    - npm install
+    
+script:
+    - hugo --buildFuture
+    - gulp
+    - echo 'Build done!'
+after_success:
+    - git config --global user.name "Fan"
+    - git config --global user.email "你的邮箱"
+    - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git container
+    - rm -rf container/*
+    - cp -r public/* container 
+    - cd container
+    - git add .
+    - git commit -m 'Travis upate blog'
+    - git push -u origin gh-pages -f
+    - curl -d "" ${DEPLOY_API}
+```
+
+## Hexo
+这是我的hexo部署配置,仅供参考
+```yaml
+language: node_js
+node_js: 10.13.0
+before_script:
+  - git config user.name "Fan"
+  - git config user.email "你的邮箱"
+  - sed -i'' "s~https://github.com/Fantasy9527/alili.tech.git~https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git~" _config.yml
+  - sed -i'' "s~https://git.coding.net/incomparable9527/incomparable9527.coding.me.git~https://incomparable9527:${CODING_ACCESS_TOKEN}@git.dev.tencent.com/incomparable9527/incomparable9527.coding.me.git~" _config.yml
+script:
+  - hexo clean
+  - hexo g
+  - hexo d
+```
