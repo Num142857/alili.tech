@@ -22,7 +22,6 @@ hidden : true
  - Fan
  - 职业: Front End Developer > Full Stack Developer
  - 城市：杭州
- - 苦恼:很喜欢Angular,在大环境却用不了Angular.
 
 ---
 
