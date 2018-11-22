@@ -40,6 +40,7 @@ hidden : true
  - [吴钧泽博客](https://www.wujunze.com/)
  - [崔庆才的个人博客](https://cuiqingcai.com/)
  - [赵华伟自媒体博客](http://www.chinacion.cn)
+ - [Nine](www.hellonine.top)
 
 
  
