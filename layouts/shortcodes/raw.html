@@ -1,14 +1,20 @@
-
 <div id='raw'>
     <script>
-        $(function(){
+        $(function () {
             var html = "{{.Inner}}"
-            html = html.replace(/"{/g,"{")
-            html = html.replace(/{"/g,"{")
-            html = html.replace(/"}/g,"}")
-            html = html.replace(/}"/g,"}")
+            html = html.replace(/"{/g, "{")
+            html = html.replace(/{"/g, "{")
+            html = html.replace(/"}/g, "}")
+            html = html.replace(/}"/g, "}")
             $('#raw').html(html);
+
+            let postTitle =  $('.posttitle').text()
+            let postContentTitle =  $('#raw > h1').text()
+            if(postTitle === postContentTitle){
+                $('#raw > h1').hide()
+            }
             $('button.preview').hide()
         })
+
     </script>
 </div>
