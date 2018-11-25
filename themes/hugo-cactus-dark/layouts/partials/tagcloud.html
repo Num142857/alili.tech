@@ -1,7 +1,7 @@
 <div id="theme-tagcloud" class="tagcloud-wrap">
     {{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
     {{ $v1 := where $tags "Count" ">=" 2 }}
-    {{ $v2 := where $v1 "Term" "not in" (slice "hugo" "tags" "rss") }}
+    {{ $v2 := where $v1 "Term" "not in" (slice  "tags" "rss") }}
     {{ range $v2 }}
     {{ if .Term }}
     {{ $tagURL := printf "tags/%s" .Term | relURL }}
