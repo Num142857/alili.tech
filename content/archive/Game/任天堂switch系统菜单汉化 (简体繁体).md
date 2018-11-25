@@ -18,8 +18,8 @@ date: 2018-10-15 19:02:36
 汉化安装器：https://share.weiyun.com/5hS1LSk  （强烈推荐）
 
 ## 覆盖版：（当安装器闪退时使用，覆盖前要把原来的文件删干净。）
-简体中文：https://share.weiyun.com/59MqPxr
-繁体中文：https://share.weiyun.com/52w0vp8
+* 简体中文：https://share.weiyun.com/59MqPxr
+* 繁体中文：https://share.weiyun.com/52w0vp8
 
 ## ReiNX汉化专用版本：
 完整支持汉化，已经修复DOOM和2K19的问题
@@ -59,6 +59,7 @@ https://share.weiyun.com/58azYtc
 
 ## 部分游戏崩溃的问题
 如果你的游戏本身打了汉化补丁，是有可能崩溃的（目前已知龙珠超宇宙2）。
+
 部分游戏崩溃是破解工具本身的问题。比如SXOS2.0极不稳定。大气层某些游戏无法运行与存档。如果你用的是SXOS 2.xx ，运行XCI游戏有很大几率崩溃，应该与汉化无关。
 
 SXOS (2.0, 2.0.1, 2.1) XCI游戏待机死机的问题如果你的游戏本身使用了汉化，待机很大几率死机。与系统汉化无关。
