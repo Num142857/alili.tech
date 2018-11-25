@@ -15,7 +15,7 @@ date: 2018-10-15 19:02:36
 # 下载地址
 
 ## 汉化安装器
-汉化安装器：https://share.weiyun.com/5hS1LSk  （强烈推荐）
+汉化安装器：https://share.weiyun.com/5HNlw1J （强烈推荐）
 
 ## 覆盖版：（当安装器闪退时使用，覆盖前要把原来的文件删干净。）
 * 简体中文：https://share.weiyun.com/59MqPxr
