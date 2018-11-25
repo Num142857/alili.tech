@@ -4,7 +4,7 @@ date: 2018-11-23 0:00:00
 slug: l1gp8abhpha
 tags: [前端周刊,Weekly]
 ---
-![Alili Weekly 前端周刊 第八期](https://static.alili.tech/images/github_40.png)
+![Alili Weekly 前端周刊 第八期](https://static.alili.tech/images/github_55.png)
 ##   [ES6 元编程资源集合](https://segmentfault.com/a/1190000016133613)  
  
 关于 Proxy & Reflect & Symbol，关于 Meta Programming。 
