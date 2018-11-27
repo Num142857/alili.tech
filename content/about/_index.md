@@ -37,6 +37,7 @@ hidden : true
 [自行添加](https://github.com/Fantasy9527/alili.tech/blob/master/source/about/index.md)
 
  - [颜海镜](https://yanhaijing.com/)
+ - [小z博客](https://www.xiaoz.me/)
  <!-- - [吴钧泽博客](https://www.wujunze.com/)
  - [崔庆才的个人博客](https://cuiqingcai.com/)
  - [赵华伟自媒体博客](http://www.chinacion.cn)
