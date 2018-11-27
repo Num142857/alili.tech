@@ -13,8 +13,7 @@
 		{{ if .Site.Params.enableTwitterCard }} 
 			{{ partial "twitter-cards.html" . }}
 		{{ end }}
-		{{ .Site.Params.Description }}
-		{{.IsPage}}
+		
 		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 		<meta name='description' itemprop="description" content="{{if .IsPage}}{{substr .Summary 0 200}}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 		{{ if .Keywords }} 
