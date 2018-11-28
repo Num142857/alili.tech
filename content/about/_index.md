@@ -38,6 +38,7 @@ hidden : true
 
  - [颜海镜](https://yanhaijing.com/)
  - [小z博客](https://www.xiaoz.me/)
+ - [Web前端之家](http://www.jiangweishan.com/)
 
 
 
