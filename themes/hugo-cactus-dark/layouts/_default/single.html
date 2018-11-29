@@ -47,7 +47,10 @@
                     </div>
                   </article>
                   {{ partial "comments.html" . }}
-                  {{ partial "latest-posts.html" . }}
+
+                  {{ if .Params.hidden }}
+                    {{ partial "latest-posts.html" . }}
+                  {{ end }}
                   
         </section>
 
