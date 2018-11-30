@@ -20,7 +20,7 @@ hidden : true
 # 个人信息
 
  - Fan
- - 职业: Front End Developer > Full Stack Developer
+ - 职业: 前端开发工程师
  - 城市：杭州
 
 ---
