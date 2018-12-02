@@ -26,7 +26,7 @@ hidden : true
 ---
 # 微信公众号
 
-![微信公众号](https://alili.tech/qr.png)
+![微信公众号](https://alili.tech/qr_tips.png)
 
 # FAQ
 ## 博客是基于什么做的?
