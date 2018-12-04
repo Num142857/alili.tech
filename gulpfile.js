@@ -57,7 +57,7 @@ function urlSubmit(urls) {
     urls = urls.map(item=>item.loc[0])
     allUrls = urls.join('\n')
 
-    var new_urls_Arr = urls.slice(0,45)
+    var new_urls_Arr = urls.slice(0,55)
     new_urls= new_urls_Arr.join('\n');
 
     console.info('百度站长开始提交',new_urls)
