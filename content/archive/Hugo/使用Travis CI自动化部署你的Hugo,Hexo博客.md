@@ -5,7 +5,17 @@ slug: oj8dtatmwzg
 keywords: [Hugo,博客,自动化,Travis,Hexo]
 date: 2018-11-20 16:14:25
 ---
-# Travis的钩子与生命周期
+# Travis CI是什么?
+
+Travis CI是在线托管的CI服务，用Travis来进行持续集成，不需要自己搭服务器。最重要的是，它对开源项目是免费的。
+
+# CI 配置文件
+Travis 要求项目的根目录下面，必须有一个`.travis.yml`文件。
+
+当你的仓库有提交的时候,travis会自动执行你下面配置的行为.
+
+
+# Travis CI 的钩子与生命周期
 
 ## Travis的钩子
 Travis 有不同的阶段,他提供了7个钩子。
@@ -31,11 +41,7 @@ Travis 有不同的阶段,他提供了7个钩子。
 9. after_script
 
 
-
-#部署配置
-Travis 要求项目的根目录下面，必须有一个`.travis.yml`文件。
-
-当你的仓库有提交的时候,travis会自动执行你下面配置的行为.
+# .travis.yml
 
 下面是我的博客部署配置,也是我项目`.travis.yml`文件的内容.
 
