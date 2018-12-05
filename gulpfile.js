@@ -12,14 +12,14 @@ var baidu_token= 'QsL3LjB4I2GLWGbj'
 gulp.task('minify', () => {
     return gulp.src('public/**/*.html')
       .pipe(htmlmin({ 
-        removeComments: true,//清除HTML注释
+        // removeComments: true,//清除HTML注释
         collapseWhitespace: true,//压缩HTML
         // collapseBooleanAttributes: true,//省略布尔属性的值 <input checked="true"/> ==> <input />
         // removeEmptyAttributes: true,//删除所有空格作属性值 <input id="" /> ==> <input />
         // removeScriptTypeAttributes: true,//删除<script>的type="text/javascript"
         // removeStyleLinkTypeAttributes: true,//删除<style>和<link>的type="text/css"
-        minifyJS: true,//压缩页面JS
-        minifyCSS: true//压缩页面CSS
+        // minifyJS: true,//压缩页面JS
+        // minifyCSS: true//压缩页面CSS
        }))
       .pipe(gulp.dest('public'));
   });
@@ -55,7 +55,8 @@ function urlSubmit(urls) {
 
     // 最新url,看熊掌号情况而定
     urls = urls.map(item=>item.loc[0])
-    allUrls = urls.join('\n')
+    let allurlsArr = urls.slice(0,1999)
+    allUrls = allurlsArr.join('\n')
 
     var new_urls_Arr = urls.slice(0,55)
     new_urls= new_urls_Arr.join('\n');
