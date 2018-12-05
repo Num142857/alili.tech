@@ -39,6 +39,19 @@ npm install husky --save-dev
   },
 }
 ```
+如果你只是局部安装了 `eslint`,请使用以下配置
+
+```json
+{
+    "lint-staged": {
+    "src/**/*.js": [
+      "node_modules/.bin/eslint"
+    ]
+  },
+}
+```
+
+
 最后尝试 Git 提交，你就会很快收到反馈：
 
 ```bash
