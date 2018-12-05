@@ -25,16 +25,18 @@ date: 2018-12-04 00:00:00
 ### 安装
 
 ``` bash
-npm install -D husky
+npm install husky --save-dev
 ```
 
 然后修改 package.json，增加配置：
 
 ```json
 {
-  "scripts": {
-    "precommit": "eslint ."
-  }
+  "husky": {
+    "hooks": {
+      "pre-commit": "eslint ."
+    }
+  },
 }
 ```
 最后尝试 Git 提交，你就会很快收到反馈：
@@ -57,14 +59,16 @@ git commit -m "this is a commit"
 ### 安装
 
 ```bash
-npm install -D lint-staged
+npm install lint-staged --save-dev
 ```
 ### 修改 package.json 配置：
 
 ```json
 {
-  "scripts": {
-    "precommit": "lint-staged"
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   },
   "lint-staged": {
     "src/**/*.js": "eslint"
