@@ -42,7 +42,7 @@ a {-webkit-tap-highlight-color:transparent;}
 }
 
 .highlight,body,pre {
-    font-family: Menlo,"Meslo LG",monospace,"微软雅黑"
+    font-family: Menlo,"Meslo LG","微软雅黑",monospace,
 }
 
 #footer p,#footer-post #toc-footer,.clearfix:after,.highlight figcaption:after {
