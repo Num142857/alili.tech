@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Meslo LG';
+    font-style: normal;
+    src: local('Meslo LG S'), url(fonts/MesloLGS-Regular.woff) format('woff');
+  }
 a {-webkit-tap-highlight-color:transparent;}
 
 .ml0,.mx0 {
@@ -42,7 +47,8 @@ a {-webkit-tap-highlight-color:transparent;}
 }
 
 .highlight,body,pre {
-    font-family: Menlo,"Meslo LG","微软雅黑",monospace,
+    font-family: Menlo,"Meslo LG",monospace;
+    /* font-family:Poppins,"Helvetica Neue",Helvetica,Arial,sans-serif; */
 }
 
 #footer p,#footer-post #toc-footer,.clearfix:after,.highlight figcaption:after {
