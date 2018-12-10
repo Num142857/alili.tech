@@ -8,6 +8,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xz_appid = '1613049289050283';
 var xz_token = 'PEQAd9p3kMBAzNjY';
 var baidu_token= 'QsL3LjB4I2GLWGbj' 
+var urlCount = 60;
 
 gulp.task('minify', () => {
     return gulp.src('public/**/*.html')
@@ -58,7 +59,7 @@ function urlSubmit(urls) {
     let allurlsArr = urls.slice(0,1999)
     allUrls = allurlsArr.join('\n')
 
-    var new_urls_Arr = urls.slice(0,55)
+    var new_urls_Arr = urls.slice(0,urlCount)
     new_urls= new_urls_Arr.join('\n');
 
     console.info('百度站长开始提交',new_urls)
