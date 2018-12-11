@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Meslo LG';
     font-style: normal;
-    src: local('Meslo LG S'), url(fonts/MesloLGS-Regular.woff) format('woff');
+    src: local('Meslo LG S'), url(../lib/meslo-LG/fonts/MesloLGS-Regular.woff) format('woff');
   }
 a {-webkit-tap-highlight-color:transparent;}
 
