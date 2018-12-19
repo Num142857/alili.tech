@@ -135,7 +135,17 @@ ipcMain.on('window-close', function() {
 }
 ```
 
-## 6. 跑起来
+## 6.修改index.html
+找到 `src/index.html`
+```html
+<!-- 找到 -->
+<base href="/">
+
+<!-- 修改为: -->
+<base href="./">
+```
+
+## 7. 跑起来
 ``` bash
 # 构建你的angular应用
 npm run build
