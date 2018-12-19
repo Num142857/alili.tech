@@ -13,15 +13,15 @@ Electron 是一个可以用 JavaScript、HTML 和 CSS 构建桌面应用程序�
 ## Electron的『主进程』和『渲染进程』
 Electron 有两种进程：『主进程』和『渲染进程』。部分模块只能在两者之一上运行，而有些则无限制。主进程更多地充当幕后角色，而渲染进程则是应用程序的各个窗口。
 
-## 主进程
+### 主进程
 主进程，通常是一个命名为 main.js 的文件，该文件是每个 Electron 应用的入口。它控制了应用的生命周期（从打开到关闭）。它既能调用原生元素，也能创建新的（多个）渲染进程。另外，Node API 是内置其中的。
 
-## 渲染进程
+### 渲染进程
 渲染进程是应用的一个浏览器窗口。与主进程不同，它能存在多个（注：一个 Electron 应用只能存在一个主进程）并且相互独立（它也能是隐藏的）。
 
 主窗口通常被命名为 index.html。它们就像典型的 HTML 文件，但 Electron 赋予了它们完整的 Node API。因此，这也是它与浏览器的区别。
 
-# 进程之间的通讯
+## 进程之间的通讯 (IPC)
 想要再网页里调用主进程的功能,比如关闭窗口,最小化全屏等主线程才能控制的功能.
 Electron提供了通讯的机制,这就是IPC.后续会慢慢介绍IPC的使用.
 
@@ -30,23 +30,24 @@ Electron提供了通讯的机制,这就是IPC.后续会慢慢介绍IPC的使用.
 介绍完Electron的一些基础概念之后,
 这里教大家徒手搭建一个基于ng7的桌面应用工程.
 
-1. 安装最新`angular-cli`
+## 1. 安装最新`angular-cli`
 ```bash
 npm i -g @angular/cli
 ```
 
-2. 生成一个`angular`工程
+## 2. 生成一个`angular`工程
 ```bash
 ng new electro-angular7
 ```
 
-3. 安装最新版`electron`
+## 3. 安装最新版`electron`
 ```bash
 cd electro-angular7
 npm install --save-dev electron@latest
 ```
 
-4. 添加`主进程`js文件
+## 4. 在项目根目录添加`主进程` main.js文件
+
 ```js
 const { app, BrowserWindow , ipcMain } = require('electron');
 const  path  = require('path')
@@ -122,7 +123,7 @@ ipcMain.on('window-close', function() {
 
 
 
-5. package.json 文件修改
+## 5. package.json 文件修改
 
 添加main.js的位置与npm scripts electron命令
 ```bash
@@ -134,7 +135,7 @@ ipcMain.on('window-close', function() {
 }
 ```
 
-6. 跑起来
+## 6. 跑起来
 ``` bash
 # 构建你的angular应用
 npm run build
