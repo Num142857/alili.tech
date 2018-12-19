@@ -1,5 +1,5 @@
 ---
-title: Angular 7 + Electron 桌面应用开坑
+title: Angular7 + Electron 桌面应用开坑
 slug: i15aswl1v4s
 date: 2018-12-18 19:02:36
 keywords: Angular,Electron,Angular 7
