@@ -33,6 +33,7 @@ ipcMain.on('main-process-messages', function(event, message) {
 ```
 
 ## 主进程向渲染进程发送通知
+
 ```js
 // main.js
 mainWindow.webContents.send('main-process-messages', 'main-process-messages show')
@@ -50,6 +51,7 @@ ipcRenderer.on('main-process-messages', function(event, message){
 # 在Angular工程中如何使用
 
 当你在angular工程中直接`require('electron')`是会直接报错的.
+
 ```
 ERROR in ./node_modules/electron/index.js
 Module not found: Error: Can't resolve 'fs' in '###/node_modules/electron'
@@ -59,6 +61,7 @@ Module not found: Error: Can't resolve 'path' in '###/node_modules/electron'
 那我们该怎么办呢.
 
 1. 创建一个 `electron.service.ts`
+
 ```js
 // 示例代码
 import { Injectable } from '@angular/core';
