@@ -15,7 +15,6 @@ hidden : true
 
 - Email：incomparable9527@foxmail.com
 
----
 
 # 个人信息
 
@@ -24,11 +23,17 @@ hidden : true
  - 城市：杭州
 
 # 期许
-二十而立，三十不惑，四十知天命，五十耳顺，六十从心所欲而不逾矩。
+二十而立
+
+三十不惑
+
+四十知天命
+
+五十耳顺
+
+六十从心所欲而不逾矩
 
 
-
----
 # 微信公众号
 
 ![微信公众号](https://alili.tech/qr_tips.png)
