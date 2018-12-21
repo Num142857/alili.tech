@@ -1,4 +1,11 @@
 <div id='raw'>
+<p style="display: none">
+{{.Site.Params.subtitle}}
+{{.Site.Params.description}}
+本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+{{ delimit .Site.Params.keywords ", " }}
+</p>
+
     <script>
         $(function () {
             var html = "{{.Inner}}"
