@@ -8,7 +8,7 @@ const XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 var xz_appid = '1613049289050283';
 var xz_token = 'PEQAd9p3kMBAzNjY';
 var baidu_token= 'QsL3LjB4I2GLWGbj' 
-var urlCount = 60;
+var urlCount = 65;
 
 gulp.task('minify', () => {
     return gulp.src('public/**/*.html')
