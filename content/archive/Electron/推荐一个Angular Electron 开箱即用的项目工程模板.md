@@ -11,6 +11,8 @@ tags: ['Electron','Angular']
 让很多新手,至少让我刚开始的时候误以为没有一个比较新的好用的electron的模板,可以快速的创建项目.
 
 # Angular-electron
+
 这里推荐一个完成度非常高的模板,开箱即用
+
 [https://github.com/maximegris/angular-electron](https://github.com/maximegris/angular-electron)
 
