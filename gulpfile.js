@@ -98,7 +98,7 @@ gulp.task('generate-service-worker', () => {
     .generateSW({
         // cacheId: '', // 设置前缀
         globDirectory: './public', //匹配根目录
-        globPatterns: ['**/*.{html,js,css,png.jpg}'], // 匹配的文件
+        globPatterns: ['**/*.{woff2,woff,js,css,png.jpg}'], // 匹配的文件
         globIgnores: ['sw.js'], // 忽略的文件
         swDest: `./public/sw.js`, // 输出 Service worker 文件
         clientsClaim: true, // Service Worker 被激活后使其立即获得页面控制权
