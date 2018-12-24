@@ -4,8 +4,8 @@
   "description": "Blog",
   "main": "index.js",
   "scripts": {
-    "start":"hugo server --buildFuture",
-    "build":"hugo --buildFuture",
+    "start": "hugo server --buildFuture",
+    "build": "hugo --buildFuture",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Fantasy9527/alili.tech#readme",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "workbox-build": "^3.6.3"
   },
   "dependencies": {
     "gulp-htmlmin": "^5.0.1",
