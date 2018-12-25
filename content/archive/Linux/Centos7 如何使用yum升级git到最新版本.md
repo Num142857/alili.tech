@@ -1,7 +1,7 @@
 ---
-title: Centos 7 使用yum升级到最新版本的git
+title: Centos7 如何使用yum升级git到最新版本
 tags: [Linux]
-slug: 3f6742b1
+slug: cue4m2rioxl
 keywords: Linux,Centos
 date: 2018-12-25 20:32:05
 ---
@@ -31,7 +31,7 @@ git version 1.8.3.1
 
 # yum升级git版本到2.0+
 
-## Git第三方仓库安装方式（IUS）
+## Git第三方仓库安装（IUS）
 
 ```bash
 # 安装使用里面说的自动化安装脚本
