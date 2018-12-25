@@ -44,9 +44,8 @@ hidden : true
 
 ## 关于评论系统
 评论系统是基于Valine做的.
-这是官网:
 
-https://valine.js.org/
+这是官网: https://valine.js.org/
 
 # 友情链接
 #### [自行添加](https://github.com/Fantasy9527/alili.tech/blob/master/content/about/_index.md)
