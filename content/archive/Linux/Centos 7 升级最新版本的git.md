@@ -10,6 +10,7 @@ date: 2018-12-25 20:32:05
 在centos7 默认的git版本是1.8.x
 
 ## 查看本机git版本
+
 ```bash
 git --version
 git version 1.8.3.1
@@ -17,6 +18,7 @@ git version 1.8.3.1
 如果你想使用yum升级到2.0+的版本
 
 ## 直接yum升级并不会升级到最新版本
+
 ```bash
 yum -y upgrade git
 git version 1.8.3.1
@@ -29,6 +31,7 @@ git version 1.8.3.1
 # yum升级git版本到2.0+
 
 ## Git第三方仓库安装方式（IUS）
+
 ```bash
 # 安装使用里面说的自动化安装脚本
 curl https://setup.ius.io | sh
