@@ -1,5 +1,5 @@
 ---
-title: Typescript的福音 json转interface vscode 插件
+title: Typescript的福音:Json To Interface
 tags: [Typescript]
 slug: ijfdh4ry66c
 keywords: typescript,vs code, 插件
