@@ -42,6 +42,11 @@ hidden : true
 ## 博客是基于什么做的?
 博客在18年11月之前一直都是用`Hexo`,后面已经全面迁移到了`Hugo`.`Hugo`的性能是真的凶猛.
 
+## 关于评论系统
+评论系统是基于Valine做的.
+这是官网:
+
+https://valine.js.org/
 
 # 友情链接
 #### [自行添加](https://github.com/Fantasy9527/alili.tech/blob/master/content/about/_index.md)
