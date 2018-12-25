@@ -7,6 +7,7 @@ date: 2018-12-25 20:32:05
 ---
 
 # yum upgrade 并不能升级git到最新版本
+
 在centos7 默认的git版本是1.8.x
 
 ## 查看本机git版本
