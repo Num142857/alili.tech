@@ -3,7 +3,7 @@ title: Centos7 如何使用yum升级git到最新版本
 tags: [Linux]
 slug: cue4m2rioxl
 keywords: Linux,Centos
-date: 2018-12-25 20:32:05
+date: 2018-12-24 20:32:05
 ---
 
 # yum upgrade 并不能升级git到最新版本
