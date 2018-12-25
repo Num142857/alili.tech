@@ -5,6 +5,7 @@ slug: ijfdh4ry66c
 keywords: typescript,vs code, 插件
 date: 2018-12-25 19:33:33
 ---
+
 在我们使用ts的时候,我们需要写大量的 interface.
 
 但是我们一条json数据的字段实在是太多了,一个一个写的话不仅会花费大量的时间.
