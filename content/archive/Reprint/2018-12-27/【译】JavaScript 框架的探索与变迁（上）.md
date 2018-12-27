@@ -1,5 +1,5 @@
 ---
-title: '【译】JavaScript 框架的探索与变迁（上）' 
+title: '【译】JavaScript 框架的探索与变迁(上)' 
 date: 2018-12-27 2:30:12
 hidden: true
 slug: mmoxfsz03tc
