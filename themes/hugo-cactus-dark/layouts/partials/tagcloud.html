@@ -1,7 +1,7 @@
 <div id="theme-tagcloud" class="tagcloud-wrap">
     {{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
     {{ $v1 := where $tags "Count" ">=" 2 }}
-    {{ $v2 := where $v1 "Term" "not in" (slice  "tags" "rss") }}
+    {{ $v2 := where $v1 "Term" "not in" (slice  "tags" "rss" "weekly") }}
     {{ range $v2 }}
     {{ if .Term }}
     {{ $tagURL := printf "tags/%s" .Term | relURL }}
@@ -16,11 +16,19 @@
     {{ $tagSize = 22 }}
     {{end}}
 
-    {{if gt .Count 15}}
+    {{if gt .Count 20}}
     {{ $tagSize = 24 }}
     {{end}}
 
-    {{if gt .Count 20}}
+    {{if gt .Count 30}}
+    {{ $tagSize = 26 }}
+    {{end}}
+
+    {{if gt .Count 45}}
+    {{ $tagSize = 28 }}
+    {{end}}
+
+    {{if gt .Count 50}}
     {{ $tagSize = 30 }}
     {{end}}
 
