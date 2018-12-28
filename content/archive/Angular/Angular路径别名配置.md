@@ -36,7 +36,7 @@ import { xxx } from '../../../../../services/api.xxx';
 ## 配置之后
 
 ```js
-import { ApiService } from '@services/api.service';
+import { Api } from '@services/api.service';
 import { xxx } from '@services/api.xxx';
 ```
 
