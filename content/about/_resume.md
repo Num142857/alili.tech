@@ -142,6 +142,7 @@ npm start // 映射的是grunt serve
 使用 webscoket 实现了门店的实时数据的展示。
 
 使用的主要开源库与工具有: 
+
 - AngularJs
 - echarts 
 - jQuery
