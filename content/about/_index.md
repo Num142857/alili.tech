@@ -22,6 +22,11 @@ hidden : true
  - 职业: 前端开发工程师
  - 城市：杭州
 
+# [个人简历](https://alili.tech/about/_resume/)
+
+[详情点这里](https://alili.tech/about/_resume/)
+
+
 # 期许
 二十而立
 
