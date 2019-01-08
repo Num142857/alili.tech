@@ -5,6 +5,7 @@ slug: ltucv5fyj9
 keywords: Visual Studio Code
 date: 2019-01-08 19:33:33
 ---
+今天聊的是 Visual Studio Code 的小技巧.
 
 # jsconfig.json 是什么?
 如果你的项目中有一个 `jsconfig.json`文件的话,这个文件的配置可以对你的文件所在目录下的所有js代码做出个性化支持.
@@ -51,7 +52,9 @@ date: 2019-01-08 19:33:33
 }
 ```
 
+> `jsconfig.json`的配置是`tsconfig.json`的子集, 以后有机会的话聊一聊`tsconfig.json`.
 
+今天就到这里~
 
 
 
