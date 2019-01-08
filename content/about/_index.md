@@ -5,10 +5,10 @@ hidden : true
 ---
 # 前端大爆炸! WEB BANG! BANG!! BANG!!!
 
->  每天你都有機會跟別人擦肩而過，你也許對他一無所知，不過也許有一天他會變成你的一個朋友或知己 <br>
--------- 重慶森林
+> 你有过这种感觉没有，就是你吃不准自己是醒着还是在做梦 <br>
+-------- 黑客帝国
 
-![重慶森林](https://static.alili.tech/images/awe.jpg)
+![黑客帝国](https://static.alili.tech/images/hack.jpg)
 
 
 # 联系方式
