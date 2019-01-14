@@ -26,6 +26,8 @@ git config core.ignorecase false
 # 改回默认
 ``` bash
 git config core.ignorecase true
+# or
+git config --unset core.ignorecase
 ```
 
 
