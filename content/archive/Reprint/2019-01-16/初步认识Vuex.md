@@ -7,8 +7,6 @@ categories: [reprint]
 ---
 
 {{< raw >}}
-
-                    
 <h2 id="articleHeader0">初识Vuex</h2>
 <blockquote><p>1.Vuex是什么？</p></blockquote>
 <ul>
