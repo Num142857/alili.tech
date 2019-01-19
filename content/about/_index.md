@@ -22,7 +22,6 @@ hidden : true
  - 职业: 前端开发工程师
  - 城市：杭州
 
-# [个人简历](https://alili.tech/about/_resume/)
 
 希望真的可以做到互惠互利,相互成长,各自得到真正想要的东西.
 
