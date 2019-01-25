@@ -9,7 +9,7 @@ tags: [前端周刊,Weekly]
  
 在一个嵌入 iframe 的系统中，当我们点击按钮展开 Dropdown 展开后，再去点击 iframe 发现无法触发 Dropdown 的 clickOutside 事件，导致 Dropdown 无法关闭。如何解决这个问题？ 
 
-`奇舞推荐`,`JavaScript` 
+`JavaScript` 
 
 
 ---
@@ -73,7 +73,7 @@ tags: [前端周刊,Weekly]
  
 第一届 GraphQLParty 上宋小菜前端负责人 Scott 与前端工程师陈锦辉的演讲稿。 
 
-`奇舞推荐`,`GraphQL`,`API` 
+`GraphQL`,`API` 
 
 
 ---
@@ -81,7 +81,7 @@ tags: [前端周刊,Weekly]
  
 原文题目：ES6 的解构赋值前每次都创建一个对象吗？会加重 GC 的负担吗？ 
 
-`奇舞推荐`,`ES6` 
+`ES6` 
 
 
 ---

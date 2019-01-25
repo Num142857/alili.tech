@@ -9,7 +9,7 @@ tags: [前端周刊,Weekly]
  
 这篇文章首先会简单介绍 GraphQL 是什么，它能够解决的问题；接着重点分析 GraphQL 在微服务架构中的使用以及在实践过程中遇到的棘手问题，在最后作者给出了自己心中合理的 GraphQL 微服务架构的设计。 
 
-`奇舞推荐`,`GraphQL`,`微服务` 
+`GraphQL`,`微服务` 
 
 
 ---
@@ -73,7 +73,7 @@ face-api.js 建立在 tensorflow.js 之上，它实现了三种卷积神经网�
  
 记录一些有趣、实用的写法。 
 
-`奇舞推荐`,`Typescript` 
+`Typescript` 
 
 
 ---
@@ -81,7 +81,7 @@ face-api.js 建立在 tensorflow.js 之上，它实现了三种卷积神经网�
  
 原本以为 canvas 元素尺寸和 img 元素一样，结果深入一研究发现，还是有不少差异的，有兴趣可以进来看看，说不定可以学到点东西。 
 
-`奇舞推荐`,`HTML5`,`Canavs`,`CSS` 
+`HTML5`,`Canavs`,`CSS` 
 
 
 ---

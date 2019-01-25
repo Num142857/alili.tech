@@ -9,7 +9,7 @@ tags: [前端周刊,Weekly]
  
 Web Push Notification 文档翻译。 
 
-`奇舞推荐`,`Notification`,`Service Worker` 
+`Notification`,`Service Worker` 
 
 
 ---
@@ -17,7 +17,7 @@ Web Push Notification 文档翻译。
  
 你现在可以在 Worker 线程调用 Canvas API 啦，通过在 Worker 线程完成 Canvas 渲染任务，可以提升 WebApp 的并发程度，从而提升性能和使用体验。另附 google 文章一篇。 
 
-`奇舞推荐`,`JavaScript`,`canvas` 
+`JavaScript`,`canvas` 
 
 
 ---

@@ -81,7 +81,7 @@ Webpack 优化实战记录。
  
 Life of a Pixel 这个演讲一开始是 Chrome 组新人入职的学习资料，给新人一个从高层次去看 Chromium 如何从 HTML / CSS / JS 显示到屏幕的网页。这个演讲一直在更新，所以大家可以通过看这个演讲更新自己对 Chromium 的理解。 
 
-`奇舞推荐`,`Chrome`,`渲染`,`浏览器` 
+`Chrome`,`渲染`,`浏览器` 
 
 
 ---
