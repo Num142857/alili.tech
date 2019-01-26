@@ -59,3 +59,5 @@
 [2019-01-17 21:25:59.701] [INFO] info - ::ffff:118.25.224.196 - - "GET / HTTP/1.1" 404 139 "" "undefined"
 [2019-01-17 21:25:59.728] [INFO] info - ::ffff:118.25.224.196 - - "GET / HTTP/1.1" 404 139 "" "Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/65.0.3325.146 Safari/537.36"
 [2019-01-25 13:00:31.507] [INFO] info - ::ffff:193.112.96.94 - - "GET http://www.google.com/ HTTP/1.1" 404 139 "" "curl/7.29.0"
+[2019-01-26 05:44:31.964] [INFO] info - ::ffff:183.57.54.43 - - "GET / HTTP/1.0" 404 139 "" "undefined"
+[2019-01-26 05:44:32.367] [INFO] info - ::ffff:183.57.54.43 - - "GET / HTTP/1.0" 404 139 "" "undefined"
