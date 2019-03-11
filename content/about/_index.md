@@ -57,6 +57,7 @@ hidden : true
  - [Web前端之家](http://www.jiangweishan.com/)
  - [Nine](https://www.hellonine.top/)
  - [zzzmh's blog](https://zzzmh.cn/)
+ - [yugasun](https://yugasun.com)
 
 
 
