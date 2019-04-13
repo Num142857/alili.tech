@@ -29,7 +29,8 @@ date: 2019-04-13 22:17:36
 
 umi也有相关的类似微服务方案: https://github.com/umijs/umi-example-monorepo
 
-但是umi提供的方案,有很大的局限性.如果可以接入single-spa的微服务方案,擦出的火花足以燃烧前端大草原.
+但是umi提供的方案,有很大的局限性.
+如果可以接入single-spa的微服务方案,嘿嘿嘿~~~
 
 
 # 基于umi插件机制做到前端微服务化
