@@ -52,6 +52,7 @@ hidden : true
 # 友情链接
 #### [自行添加](https://github.com/Fantasy9527/alili.tech/blob/master/content/about/_index.md)
 
+ - [ArtJay](https://www.artjay.me/)
  - [颜海镜](https://yanhaijing.com/)
  - [小z博客](https://www.xiaoz.me/)
  - [Web前端之家](http://www.jiangweishan.com/)
