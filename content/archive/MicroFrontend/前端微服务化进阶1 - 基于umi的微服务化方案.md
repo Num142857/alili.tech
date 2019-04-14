@@ -37,7 +37,7 @@ umi也有相关的类似微服务方案: https://github.com/umijs/umi-example-mo
 
 umi 提供了非常强大的插件机制,正是由于这一点,我们才可以让umi也可以接入到微服务架构中来
 
-## umi插件
+## umi插件介绍
 
 umi插件的基本介绍:
 
