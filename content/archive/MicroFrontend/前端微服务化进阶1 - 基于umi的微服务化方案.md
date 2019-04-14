@@ -30,7 +30,8 @@ date: 2019-04-13 22:17:36
 umi也有相关的类似微服务方案: https://github.com/umijs/umi-example-monorepo
 
 但是umi提供的方案,有很大的局限性.
-如果可以接入single-spa的微服务方案,嘿嘿嘿~~~
+如果可以接入single-spa的微服务方案,独立开发,独立部署等等的前端微服务化红利,
+会让你的项目日后有更大的发展空间.
 
 
 # 基于umi插件机制做到前端微服务化
@@ -61,6 +62,8 @@ export default (api, opts) => {
   // 以下的所有代码都写在这里面哦
 };
 ```
+ 
+## 渲染入口处理方法
 
 定义一个动态的元素,当我们的base app 需要加载子模块的时候,会渲染出子模块需要渲染元素.
 
@@ -86,8 +89,6 @@ export default (api, opts) => {
         return el
     }`
 ```
-
-
 
 
 

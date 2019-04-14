@@ -39,9 +39,9 @@ date: 2018-09-02 22:17:36
 
 ![](https://static.alili.tech/images/micro/mf.png)
 
- # Single-SPA的简单用法
+# Single-SPA的简单用法
 
- ## 1.创建一个HTML文件
+## 1.创建一个HTML文件
 ```html
 <html>
 <body>
