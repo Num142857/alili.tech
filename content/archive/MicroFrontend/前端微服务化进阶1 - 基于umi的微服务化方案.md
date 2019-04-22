@@ -97,7 +97,9 @@ export default (api, opts) => {
 在umi的入口文件导入`single-spa-react` ,根据模块的属性来判断模块在运行时是否渲染在root节点上还是指定节点
 
 ```js
-api.addEntryCodeAhead(`
+// 生产环境使用
+if (process.env.NODE_ENV === 'production') {
+ api.addEntryCodeAhead(`
     import singleSpaReact from 'single-spa-react';
     let reactLifecycles;
     reactLifecycles =  singleSpaReact({
@@ -109,6 +111,8 @@ api.addEntryCodeAhead(`
         domElementGetter: ${options.base?`() => document.getElementById('root')`:domElementGetterStr}
     });
   `);
+}
+
 ```
 
 
@@ -116,6 +120,8 @@ api.addEntryCodeAhead(`
 清空umi原来的渲染方法,并且对外导出single-spa需要的生命周期.
 
 ```js
+// 生产环境使用
+if (process.env.NODE_ENV === 'production') {
 api.modifyEntryRender(``)
 
 api.addEntryCode(`
@@ -131,6 +137,7 @@ api.addEntryCode(`
     reactLifecycles.unmount,
     ];
     `)
+}
 ```
 
 
