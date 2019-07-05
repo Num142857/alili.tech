@@ -5,10 +5,10 @@ hidden : true
 ---
 # 前端大爆炸! WEB BANG! BANG!! BANG!!!
 
-> 你有过这种感觉没有，就是你吃不准自己是醒着还是在做梦 <br>
--------- 黑客帝国
+> 世界上 ，没有一拳解决不了的事，如果有，那就两拳 <br>
+-------- ONE PUNCH-MAN
 
-![黑客帝国](https://static.alili.tech/images/hack.jpg)
+![一拳超人](https://static.alili.tech/images/xxx.png)
 
 
 # 联系方式
