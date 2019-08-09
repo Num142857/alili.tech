@@ -52,7 +52,7 @@ hidden : true
 # 友情链接
 #### [自行添加](https://github.com/Fantasy9527/alili.tech/blob/master/content/about/_index.md)
 
- - [水寒的博客](https://dp2px.com)
+
  - [颜海镜](https://yanhaijing.com/)
  - [小z博客](https://www.xiaoz.me/)
  - [Web前端之家](http://www.jiangweishan.com/)
@@ -63,6 +63,7 @@ hidden : true
  - [Aodabo](https://aodabo.tech/)
  - [松花皮蛋的黑板报](http://www.liangsonghua.me)
  - [前端路上](http://refined-x.com/)
+ - [水寒的博客](https://dp2px.com)
 
 
 
