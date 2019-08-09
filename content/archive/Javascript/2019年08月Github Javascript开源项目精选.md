@@ -2,9 +2,9 @@
 title: 2019年08月Github Javascript开源项目精选 
 date: 2019-08-09 0:00:00
 tags: [Trending]
-slug: vkvlp0i0048
+slug: ir0772ttr4
 ---
-![](https://static.alili.tech/images/github_37.png)
+![](https://static.alili.tech/images/github_42.png)
 ##   [chinese-poetry / chinese-poetry](https://github.comundefined) : 
  
 18,604 stars this month
@@ -28,7 +28,7 @@ slug: vkvlp0i0048
 ---
 ##   [aosabook / 500lines](https://github.comundefined) : 
  
-22,727 stars this month
+22,728 stars this month
 
 500 Lines or Less 
 
@@ -91,7 +91,7 @@ Vue.js 源码解析
 ---
 ##   [amejiarosario / dsa.js-data-structures-algorithms-javascript](https://github.comundefined) : 
  
-3,887 stars this month
+3,888 stars this month
 
 Data Structures and Algorithms explained and implemented in JavaScript 
 
