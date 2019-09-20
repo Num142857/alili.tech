@@ -2,9 +2,9 @@
 title: 2019年09月Github Javascript开源项目精选 
 date: 2019-09-20 0:00:00
 tags: [Trending]
-slug: zvomlbvvnja
+slug: 0dhuhyg3t3rh
 ---
-![](https://static.alili.tech/images/github_26.png)
+![](https://static.alili.tech/images/github_40.png)
 ##   [0wczar /      airframe-react](https://github.com/0wczar/airframe-react) : 
  
 1,771 stars this month
@@ -35,7 +35,7 @@ HTML5 FLV Player
 ---
 ##   [nondanee /      UnblockNeteaseMusic](https://github.com/nondanee/UnblockNeteaseMusic) : 
  
-5,485 stars this month
+5,486 stars this month
 
 Revive unavailable songs for Netease Cloud Music 
 
