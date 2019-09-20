@@ -31,7 +31,7 @@ GitLab Runner的安装环境,根据你的需求而定,一个gitlab 可以注册�
 
 安装Runner 非常简单, 这里晒出Gitlab的官方安装教程,你可以根据你的系统环境自行下载.
 
-[安装Gitlab Runner](https://docs.gitlab.com/runner/install/)
+[安装Gitlab Runner 官方文档](https://docs.gitlab.com/runner/install/)
 
 
 ## 注册Runner
@@ -39,7 +39,8 @@ GitLab Runner的安装环境,根据你的需求而定,一个gitlab 可以注册�
 Runner安装好之后,想要关联到你的Gitlab,需要注册Runner.
 
 这里给大家介绍群组的runner注册方式,个人项目的runner方式注册基本一致
-[注册Gitlab Runner](https://docs.gitlab.com/runner/register/)
+
+[注册Gitlab Runner 官方文档](https://docs.gitlab.com/runner/register/)
 
 大致流程为:
 
@@ -67,7 +68,7 @@ Runner的配置文件会以执行的用户身份不同而不同
 
 2. `check_interval` 的配置为多久runner回去gitlab检查是否有job,默认实践为3秒.
 
-[Runner 的高级配置](https://docs.gitlab.com/runner/configuration/advanced-configuration.html)
+[Runner 的高级配置 官方文档](https://docs.gitlab.com/runner/configuration/advanced-configuration.html)
 
 
 
@@ -75,7 +76,7 @@ Runner的配置文件会以执行的用户身份不同而不同
 在项目下创建一个 `.gitlab-ci.yml` ,上传代码到gitlab,便可以根据`.gitlab-ci.yml`的描述执行任务
 下面给一个非常简单的前端静态页面构建与部署的demo
 
-```yml
+```yaml
 image: node:last
 
 # job切换的时候,会清空git忽略的文件,一般dist目录会被忽略
