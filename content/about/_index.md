@@ -8,7 +8,9 @@ hidden : true
 > 世界上 ，没有一拳解决不了的事，如果有，那就两拳 <br>
 -------- ONE PUNCH-MAN
 
-![一拳超人](https://static.alili.tech/images/xxx.png)
+<!-- ![一拳超人](https://static.alili.tech/images/xxx.png) -->
+
+![一拳超人](https://tuchong.pstatp.com/1928176/f/556778411.jpg)
 
 
 # 联系方式
@@ -23,9 +25,9 @@ hidden : true
 - 城市：杭州
 
 
-# 微信公众号
+<!-- # 微信公众号 -->
 
-![微信公众号](https://alili.tech/qr_tips.png)
+<!-- ![微信公众号](https://alili.tech/qr_tips.png) -->
 
 # FAQ
 ## 博客是基于什么做的?
