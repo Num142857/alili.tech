@@ -22,5 +22,5 @@ after_success:
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f
-    - git push -u coding master -f
+    - git push -u coding gh-pages:master -f
     - curl -d "" ${DEPLOY_API}
