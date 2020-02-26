@@ -15,10 +15,12 @@ after_success:
     - git config --global user.email "incomparable9527@foxmail.com"
     - git config --global user.name "Fan"
     - git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git container
+    - git remote add coding https://e.coding.net/incomparable9527/incomparable9527.coding.me/incomparable9527.coding.me.git
     - rm -rf container/*
     - cp -r public/* container 
     - cd container
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f
+    - git push -u coding master -f
     - curl -d "" ${DEPLOY_API}
