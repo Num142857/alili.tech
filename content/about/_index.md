@@ -48,7 +48,7 @@ hidden : true
  - [Nine](https://www.hellonine.top/)
  - [zzzmh's blog](https://zzzmh.cn/)
  - [yugasun](https://yugasun.com)
- - [ArtJay](https://www.artjay.me/)
+ - [Lien](https://www.lien.run/)
  - [Aodabo](https://aodabo.tech/)
  - [松花皮蛋的黑板报](http://www.liangsonghua.me)
  - [前端路上](http://refined-x.com/)
