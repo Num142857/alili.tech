@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+
+<body>
+
+    <div class="content index width mx-auto px3 my4">
+        {{ partial "nav.html" . }}
+        <section id="wrapper" class="home">
+            {{ partial "post-list.html" . }}
+            <!-- {{ partial "pagination.html" . }} -->
+            {{ partial "project.html" . }}
+            
+        </section>
+
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+---
+title: '一个高仿追书神器的vue阅读器。已成功做成app' 
+date: 2018-11-26 2:30:09
+hidden: true
+slug: vbfpq7qvmup
+categories: [reprint]
+---
+
+{{< raw >}}
+<p>&#x5E94;&#x5C4A;&#x6BD5;&#x4E1A;&#x751F;&#xFF0C;&#x76EE;&#x524D;&#x6B63;&#x5728;&#x627E;&#x5DE5;&#x4F5C;&#xFF0C;&#x7B80;&#x5386;&#x9700;&#x8981;&#x6240;&#x4EE5;&#x5F00;&#x53D1;&#x4E86;&#x8FD9;&#x4E2A;app&#x3002;&#x521A;&#x5F00;&#x59CB;&#x5F00;&#x53D1;&#x4E5F;&#x662F;&#x4E00;&#x8138;&#x61F5;&#x903C;&#xFF0C;&#x56E0;&#x4E3A;&#x6CA1;&#x5F97;&#x540E;&#x53F0;&#xFF0C;&#x4E00;&#x4E9B;&#x903B;&#x8F91;&#x529F;&#x80FD;&#x4E5F;&#x4E0D;&#x77E5;&#x9053;&#x600E;&#x4E48;&#x62D3;&#x5C55;&#x3002;&#x597D;&#x5728;&#x770B;&#x5230;&#x4E86;&#x8FFD;&#x4E66;&#x795E;&#x5668;api&#x63A5;&#x53E3;&#xFF0C;&#x987F;&#x65F6;&#x8BA9;&#x6211;&#x51B3;&#x5FC3;&#x505A;&#x51FA;&#x8FD9;&#x4E00;&#x6B3E;app&#x6765;&#x3002;<br>&#x5F00;&#x53D1;&#x4E00;&#x4E2A;&#x9605;&#x8BFB;&#x5668;&#x7CFB;&#x7EDF;&#x96BE;&#x5EA6;&#x786E;&#x5B9E;&#x4E0D;&#x5C0F;&#xFF0C;&#x51E0;&#x4E4E;&#x4E0D;&#x53EF;&#x80FD;&#x7ED9;&#x4E00;&#x4E2A;&#x5E94;&#x5C4A;&#x751F;&#x5B8C;&#x6574;&#x7684;&#x5F00;&#x53D1;&#x51FA;&#x6765;&#x3002;&#x6240;&#x4EE5;&#x672C;&#x6B21;&#x5F00;&#x53D1;&#x501F;&#x9274;&#x4E86;&#x51E0;&#x4E2A;&#x524D;&#x8F88;&#x5F00;&#x53D1;&#x7684;vue&#x9605;&#x8BFB;&#x9879;&#x76EE;&#xFF0C;&#x52A0;&#x4EE5;&#x6539;&#x8FDB;&#xFF0C;&#x4FBF;&#x505A;&#x51FA;&#x4E86;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;vue&#x9605;&#x8BFB;app&#x3002;&#x539F;&#x521B;30%&#xFF0C;&#x57FA;&#x672C;&#x4E0A;&#x662F;&#x754C;&#x9762;&#xFF0C;&#x65B0;&#x52A0;&#x4E86;&#x4E03;&#x516B;&#x4E2A;&#x529F;&#x80FD;&#xFF0C;&#x89E3;&#x51B3;&#x4E86;&#x524D;&#x8F88;&#x9605;&#x8BFB;&#x5668;&#x4E0A;&#x7684;&#x7EDD;&#x5927;&#x90E8;&#x5206;bug&#xFF0C;&#x5E76;&#x6210;&#x529F;&#x6DFB;&#x52A0;&#x8DEF;&#x5F84;&#x6253;&#x5305;&#x6210;app&#x3002;&#x5E9F;&#x8BDD;&#x4E0D;&#x591A;&#x8BF4;&#xFF0C;&#x5F00;&#x59CB;&#x8BB2;&#x9879;&#x76EE;&#xFF1A;</p><p>&#x9879;&#x76EE;&#x5730;&#x5740;&#xFF1A;<a href="https://github.com/charCR2/vue_reader" rel="nofollow noreferrer" target="_blank"></a><a href="https://github.com/charCR2/vue_reader" rel="nofollow noreferrer" target="_blank">https://github.com/charCR2/vu...</a><br>&#x5E0C;&#x671B;&#x5E2E;&#x6211;&#x70B9;&#x661F;&#xFF0C;&#x8C22;&#x8C22;</p><hr><h1 id="articleHeader0"><strong>&#x524D;&#x8A00;</strong></h1><p>&#x672C;&#x6B21;&#x5F00;&#x53D1;&#x662F;vue&#x5168;&#x5BB6;&#x6876;&#x6A21;&#x5F0F;&#xFF0C;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x7B80;&#x5355;&#xFF0C;&#x5E76;&#x4E14;&#x505A;&#x4E86;&#x5927;&#x91CF;&#x7684;&#x4F18;&#x5316;&#x3002;&#x6240;&#x4EE5;&#x542F;&#x52A8;&#x975E;&#x5E38;&#x8FC5;&#x901F;&#x4E0B;&#x8F7D;&#x9879;&#x76EE;&#x540E;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="//install dependencies
+npm install
+
+//serve with hot reload at localhost:8080
+npm run dev
+
+//build for production with minification
+npm run build
+" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs sql"><code>//<span class="hljs-keyword">install</span> dependencies
+npm <span class="hljs-keyword">install</span>
+
+//serve <span class="hljs-keyword">with</span> hot reload <span class="hljs-keyword">at</span> localhost:<span class="hljs-number">8080</span>
+npm run dev
+
+//<span class="hljs-keyword">build</span> <span class="hljs-keyword">for</span> production <span class="hljs-keyword">with</span> minification
+npm run <span class="hljs-keyword">build</span>
+</code></pre><p>&#x5C31;&#x53EF;&#x4EE5;&#x6253;&#x5305;&#x9879;&#x76EE;&#xFF0C;&#x4E0B;&#x9762;&#x662F;&#x6280;&#x672F;&#x6808;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=" &#x6280;&#x672F;&#x6808;&#xFF1A;vue + vue-router + vuex + muse-ui + mint-ui + axios
+" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs"><code> &#x6280;&#x672F;&#x6808;&#xFF1A;vue + vue-router + vuex + muse-ui + mint-ui + axios
+</code></pre><h1 id="articleHeader1"><strong>&#x76EE;&#x5F55;&#x5206;&#x6790;&#x4EE5;&#x53CA;&#x529F;&#x80FD;&#x7B80;&#x4ECB;</strong></h1><p>&#x4E0B;&#x9762;&#x662F;&#x9879;&#x76EE;&#x7ED3;&#x6784;&#x56FE;<br><span class="img-wrap"><img data-src="/img/bVbcLy3?w=810&amp;h=605" src="https://static.alili.tech/img/bVbcLy3?w=810&amp;h=605" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span></p><blockquote><p>&#x5B9E;&#x73B0;&#x529F;&#x80FD;&#xFF1A;</p><ol><li>&#x5C0F;&#x8BF4;&#x6A21;&#x7CCA;&#x641C;&#x7D22;</li><li>&#x4E66;&#x67B6;&#x529F;&#x80FD;&#xFF08;&#x7ECF;&#x8FC7;&#x4F18;&#x5316;&#xFF09;</li><li>&#x7AE0;&#x8282;&#x8DF3;&#x8F6C;</li><li>&#x5C0F;&#x8BF4;&#x5206;&#x7C7B;&#xFF08;&#x4FEE;&#x6539;&#x754C;&#x9762;&#xFF09;</li><li>&#x5C0F;&#x8BF4;&#x8BE6;&#x60C5;</li><li>&#x9605;&#x8BFB;&#x5668;&#x80CC;&#x666F;&#x3001;&#x5B57;&#x4F53;&#x3001;&#x5B57;&#x4F53;&#x5927;&#x5C0F;&#x66F4;&#x6539;(&#x4FEE;&#x6539;&#x52A0;&#x4F18;&#x5316;)</li><li>&#x6362;&#x6E90;&#xFF08;&#x7ECF;&#x8FC7;&#x4F18;&#x5316;&#xFF09;</li><li>&#x6392;&#x884C;&#x699C;&#x529F;&#x80FD;&#xFF08;&#x6CA1;&#x505A;&#x597D;&#xFF09;</li><li>&#x5C0F;&#x8BF4;&#x5220;&#x9664;</li><li>&#x76EE;&#x5F55;</li></ol></blockquote><p>&#x622A;&#x56FE;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbcLA7?w=200&amp;h=355" src="https://static.alili.tech/img/bVbcLA7?w=200&amp;h=355" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span><span class="img-wrap"><img data-src="/img/bVbcLBb?w=200&amp;h=362" src="https://static.alili.tech/img/bVbcLBb?w=200&amp;h=362" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span><br><span class="img-wrap"><img data-src="/img/bVbcLBe?w=200&amp;h=354" src="https://static.alili.tech/img/bVbcLBe?w=200&amp;h=354" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer;display:inline"></span><span class="img-wrap"><img data-src="/img/bVbcLA6?w=200&amp;h=356" src="https://static.alili.tech/img/bVbcLA6?w=200&amp;h=356" alt="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" title="&#x56FE;&#x7247;&#x63CF;&#x8FF0;" style="cursor:pointer"></span></p><h1 id="articleHeader2"><strong>&#x9047;&#x5230;&#x7684;&#x95EE;&#x9898;&#x4EE5;&#x53CA;&#x89E3;&#x51B3;&#x65B9;&#x6CD5;</strong></h1><p>1.<strong>&#x9879;&#x76EE;&#x7EC4;&#x4EF6;&#x590D;&#x7528;&#x5BFC;&#x81F4;&#x518D;&#x6B21;&#x5E26;&#x5165;&#x53C2;&#x6570;&#x4E0D;&#x4F1A;&#x6E32;&#x67D3;&#x9875;&#x9762;</strong><br>&#x4F7F;&#x7528;&#x76D1;&#x542C;&#x4E8B;&#x4EF6;&#xFF0C;&#x76D1;&#x542C;&#x8DEF;&#x7531;&#x662F;&#x5426;&#x8FDB;&#x5165;&#x5F53;&#x524D;&#x9875;&#x9762;&#xFF0C;&#x662F;&#x5C31;&#x6267;&#x884C;&#x66F4;&#x65B0;&#x9875;&#x9762;&#x7684;&#x51FD;&#x6570;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text=" &apos;$route&apos; (to, from) {
+      if(to.name === &apos;reader&apos;){
+        this.getChapters();
+        this.getSources();
+        this.$store.commit()
+      }
+    }
+
+
+" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs kotlin"><code> <span class="hljs-string">&apos;$route&apos;</span> (to, from) {
+      <span class="hljs-keyword">if</span>(to.name === <span class="hljs-string">&apos;reader&apos;</span>){
+        <span class="hljs-keyword">this</span>.getChapters();
+        <span class="hljs-keyword">this</span>.getSources();
+        <span class="hljs-keyword">this</span>.$store.commit()
+      }
+    }
+
+
+</code></pre><p>2.<strong>&#x9879;&#x76EE;&#x7EC4;&#x4EF6;&#x591A;&#xFF0C;&#x52A0;&#x8F7D;&#x4E0D;&#x5FEB;</strong></p><p>(1).&#x56FE;&#x7247;&#x4F7F;&#x7528;&#x61D2;&#x52A0;&#x8F7D; v-lazy=&quot;url&quot; &#xFF0C;&#x6CE8;&#x610F;&#x8FD9;&#x662F;mint-ui&#x7684;&#x63D2;&#x4EF6;<br>(2).&#x8DEF;&#x7531;&#x4F7F;&#x7528;&#x61D2;&#x52A0;&#x8F7D;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="      path: &apos;/&apos;,
+      name: &apos;home&apos;,
+      component:  resolve =&gt; require([&apos;@/components/home&apos;], resolve),
+" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs javascript"><code>      path: <span class="hljs-string">&apos;/&apos;</span>,
+      <span class="hljs-attr">name</span>: <span class="hljs-string">&apos;home&apos;</span>,
+      <span class="hljs-attr">component</span>:  <span class="hljs-function"><span class="hljs-params">resolve</span> =&gt;</span> <span class="hljs-built_in">require</span>([<span class="hljs-string">&apos;@/components/home&apos;</span>], resolve),
+</code></pre><p>(3).&#x5728;&#x7236;&#x7EC4;&#x4EF6;&#x7684;&lt;router-view&gt;&#x4E2D;&#x5957;&#x4E0A;&#x7F13;&#x5B58;&#x6807;&#x7B7E;&lt;keep-alived&gt;</p><div class="widget-codetool" style="display:none"><div class="widget-codetool--inner"><span class="selectCode code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x5168;&#x9009;"></span> <span type="button" class="copyCode code-tool" data-toggle="tooltip" data-placement="top" data-clipboard-text="//&#x9875;&#x9762;&#x8BBE;&#x7F6E;
+&lt;template&gt;
+  &lt;div&gt;
+    &lt;keep-alive &gt;
+    &lt;router-view v-if=&quot;$route.meta.keepAlive&quot;&gt;&lt;/router-view&gt; //&#x9700;&#x8981;&#x7F13;&#x5B58;
+    &lt;/keep-alive&gt;
+      &lt;router-view v-if=&quot;!$route.meta.keepAlive&quot;&gt;&lt;/router-view&gt; //&#x4E0D;&#x9700;&#x8981;
+    &lt;m-foot&gt;&lt;/m-foot&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+//&#x8DEF;&#x7531;&#x8BBE;&#x7F6E;
+
+   path:&apos;/...&apos;,
+      name:&apos;...&apos;,
+      component: resolve =&gt; require([&apos;...&apos;], resolve),
+      meta:{
+        keepAlive:true    //true&#x8868;&#x793A;&#x9700;&#x8981;&#xFF0C;false&#x4E0D;&#x9700;&#x8981;
+      }
+" title="" data-original-title="&#x590D;&#x5236;"></span> <span type="button" class="saveToNote code-tool" data-toggle="tooltip" data-placement="top" title="" data-original-title="&#x653E;&#x8FDB;&#x7B14;&#x8BB0;"></span></div></div><pre class="hljs vim"><code>//&#x9875;&#x9762;&#x8BBE;&#x7F6E;
+<span class="hljs-symbol">&lt;template&gt;</span>
+  <span class="hljs-symbol">&lt;div&gt;</span>
+    &lt;keep-alive &gt;
+    &lt;router-<span class="hljs-keyword">view</span> v-<span class="hljs-keyword">if</span>=<span class="hljs-string">&quot;$route.meta.keepAlive&quot;</span>&gt;&lt;/router-<span class="hljs-keyword">view</span>&gt; //&#x9700;&#x8981;&#x7F13;&#x5B58;
+    &lt;/keep-alive&gt;
+      &lt;router-<span class="hljs-keyword">view</span> v-<span class="hljs-keyword">if</span>=<span class="hljs-string">&quot;!$route.meta.keepAlive&quot;</span>&gt;&lt;/router-<span class="hljs-keyword">view</span>&gt; //&#x4E0D;&#x9700;&#x8981;
+    <span class="hljs-symbol">&lt;m-foot&gt;</span>&lt;/<span class="hljs-keyword">m</span>-foot&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+
+//&#x8DEF;&#x7531;&#x8BBE;&#x7F6E;
+
+   path:<span class="hljs-string">&apos;/...&apos;</span>,
+      name:<span class="hljs-string">&apos;...&apos;</span>,
+      componen<span class="hljs-variable">t:</span> <span class="hljs-built_in">resolve</span> =&gt; require([<span class="hljs-string">&apos;...&apos;</span>], <span class="hljs-built_in">resolve</span>),
+      met<span class="hljs-variable">a:</span>{
+        keepAlive:true    //true&#x8868;&#x793A;&#x9700;&#x8981;&#xFF0C;false&#x4E0D;&#x9700;&#x8981;
+      }
+</code></pre><p>&#x5176;&#x4ED6;&#x7684;&#x5565;&#x670D;&#x52A1;&#x7AEF;&#x6E32;&#x67D3;&#x5C31;&#x7B97;&#x4E86;&#xFF0C;&#x6BD4;&#x8F83;&#x96BE;&#x800C;&#x4E14;&#x4E5F;&#x7528;&#x4E0D;&#x5230;&#x3002;&#x6BD5;&#x7ADF;&#x53EA;&#x662F;&#x4E00;&#x4E2A;&#x5B66;&#x4E60;&#x9879;&#x76EE;</p><p><strong>3.&#x8DE8;&#x57DF;&#x95EE;&#x9898;</strong><br>&#x672C;&#x6B21;&#x5F00;&#x53D1;&#x4F7F;&#x7528;&#x7684;&#x662F;&#x4EE3;&#x7406;&#x8FFD;&#x4E66;&#x795E;&#x5668;api&#xFF0C;&#x662F;&#x4E0D;&#x9700;&#x8981;&#x540E;&#x53F0;&#x8BA4;&#x8BC1;&#x76F4;&#x63A5;&#x53EF;&#x4EE5;&#x8DE8;&#x57DF;&#x7684;&#x63A5;&#x53E3;&#xFF0C;&#x4EE5;&#x5B9E;&#x73B0;&#x5728;&#x79FB;&#x52A8;&#x7AEF;&#x663E;&#x793A;&#x7684;&#x6548;&#x679C;&#x3002;&#x800C;&#x6211;&#x6240;&#x7ED9;&#x7684;&#x4EE3;&#x7801;&#x91CC;&#x662F;&#x6CA1;&#x6709;&#x4EE3;&#x7406;&#x7684;&#x8FFD;&#x4E66;&#x795E;&#x5668;api&#xFF0C;&#x53EA;&#x80FD;&#x5728;&#x5F00;&#x53D1;&#x6A21;&#x5F0F;&#x4E0B;&#x8FD0;&#x884C;&#x3002;&#x6211;&#x4F1A;&#x628A;&#x4EE3;&#x7406;api&#x7684;&#x94FE;&#x63A5;&#x5B8C;&#x6574;&#x5730;&#x5740;&#x6CE8;&#x91CA;&#x5728;&#x539F;api.js&#x91CC;&#xFF0C;&#x63A5;&#x53E3;&#x5730;&#x5740;&#x5728;fetch.js&#x91CC;&#x3002;<br>&#x6700;&#x65B0;&#x4FEE;&#x6539;&#xFF1A;&#x624D;&#x53D1;&#x73B0;&#x624B;&#x673A;&#x4E0A;&#x65E0;&#x8DE8;&#x57DF;&#x95EE;&#x9898;&#xFF0C;&#x6240;&#x4EE5;&#x91CD;&#x65B0;&#x5199;&#x4E86;&#x4EE3;&#x7801;&#xFF0C;&#x901F;&#x5EA6;&#x98DE;&#x5FEB;&#x4E86;&#xFF0C;&#x54C8;&#x54C8;<br>&#x539F;&#x7248;api&#x8DE8;&#x57DF;&#x5B9E;&#x73B0;&#x65B9;&#x6CD5;&#xFF0C;&#x5728;&#x9879;&#x76EE;config-&gt;index.js&#x91CC;&#x52A0;&#x5165;&#x4E0B;&#x9762;&#x7EA2;&#x6846;&#x4EE3;&#x7801;&#xFF08;&#x5DF2;&#x5728;&#x4EE3;&#x7801;&#x4E2D;&#x5B9E;&#x73B0;&#xFF09;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbcMBO?w=889&amp;h=602" src="https://static.alili.tech/img/bVbcMBO?w=889&amp;h=602" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p><strong>4.&#x9759;&#x6001;&#x8D44;&#x6E90;&#x95EE;&#x9898;</strong></p><p>&#x9759;&#x6001;&#x8D44;&#x6E90;&#x5206;&#x4E3A;&#x9759;&#x6001;js&#xFF0C;css&#x6587;&#x4EF6;&#x4E00;&#x7C7B;&#x548C;&#x56FE;&#x7247;&#x3001;&#x5B57;&#x4F53;&#x4E00;&#x7C7B;&#x3002;&#x4E00;&#x822C;&#x524D;&#x8005;&#x76F4;&#x63A5;&#x653E;&#x5728;src&#x91CC;&#x7684;&#x6587;&#x4EF6;&#x5939;&#x91CC;&#x6CA1;&#x4E8B;&#xFF0C;&#x4F46;&#x540E;&#x8005;&#x9700;&#x8981;&#x6CE8;&#x610F;&#xFF0C;&#x56E0;&#x4E3A;vue&#x662F;&#x5355;&#x9875;&#x9762;&#x7A0B;&#x5E8F;&#xFF0C;&#x56FE;&#x7247;&#x3001;&#x5B57;&#x4F53;&#x4E4B;&#x7C7B;&#x7684;&#x4E1C;&#x897F;&#x662F;&#x9700;&#x8981;&#x5F15;&#x5165;&#x5230;&#x9875;&#x9762;&#x4E4B;&#x4E2D;&#x7684;&#x3002;&#x5C24;&#x5176;&#x662F;&#x56FE;&#x7247;&#xFF08;&#x6CA1;&#x6709;&#x5199;&#x5728;css&#x5C5E;&#x6027;background&#x91CC;&#x7684;&#xFF09;&#xFF0C;&#x5982;&#x679C;&#x5199;src&#x7684;&#x7EDD;&#x5BF9;&#x5730;&#x5740;&#x4E0D;&#x4F1A;&#x51FA;&#x73B0;&#x9519;&#x8BEF;&#xFF08;webpack&#x4F1A;&#x628A;&#x8FD9;&#x79CD;&#x5199;&#x6CD5;&#x7684;&#x56FE;&#x7247;&#x8F6C;&#x6362;&#x6210;&#x6D41;&#x5904;&#x7406;&#x6A21;&#x5F0F;&#xFF09;&#xFF0C;&#x4F46;&#x5982;&#x679C;&#x662F;&#xFF1A;src=&#x201C;&#x2018;../../static/&#x2019;+index&#x201D;&#x5217;&#x8868;&#x6E32;&#x67D3;&#x5728;&#x624B;&#x673A;&#x4E0A;&#x662F;&#x5B9E;&#x73B0;&#x4E0D;&#x51FA;&#x6765;&#x7684;&#xFF0C;&#x56E0;&#x4E3A;&#x6253;&#x5305;&#x6210;app&#x540E;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x6539;&#x53D8;&#xFF0C;&#x800C;&#x5217;&#x8868;&#x6E32;&#x67D3;&#x540E;&#x4F60;&#x7684;url&#x662F;&#x539F;&#x9879;&#x76EE;&#x7684;&#x7EDD;&#x5BF9;&#x5730;&#x5740;&#xFF0C;&#x4F60;&#x9700;&#x8981;&#x53BB;&#x7279;&#x5730;&#x770B;&#x4E00;&#x4E0B;app&#x4E0B;&#x7684;&#x8D44;&#x6E90;&#x7ED3;&#x6784;&#xFF0C;&#x76EE;&#x524D;&#x6CA1;&#x89E3;&#x51B3;&#x8FD9;&#x95EE;&#x9898;&#x3002;</p><p>&#x5B57;&#x4F53;&#x5B89;&#x88C5;&#x65B9;&#x6CD5;&#xFF1A;<br>&#x9996;&#x5148;&#x5728;assets&#x6587;&#x4EF6;&#x5939;&#x5BFC;&#x5165;&#x5B57;&#x4F53;&#xFF0C;&#x7136;&#x540E;&#x5728;&#x540C;&#x7EA7;reset.css&#x91CC;&#x5F15;&#x5165;&#x5B57;&#x4F53;<br><span class="img-wrap"><img data-src="/img/bVbcMKM?w=943&amp;h=372" src="https://static.alili.tech/img/bVbcMKM?w=943&amp;h=372" alt="clipboard.png" title="clipboard.png" style="cursor:pointer"></span></p><p>&#x63A5;&#x7740;&#x9700;&#x8981;&#x5728;webpack.base.conf.js&#x91CC;&#x8BBE;&#x7F6E;limit&#xFF08;&#x5355;&#x4F4D;&#x662F;byte&#xFF09;&#xFF0C;&#x5927;&#x4E8E;&#x4F60;&#x7684;&#x5B57;&#x4F53;&#x6587;&#x4EF6;&#x5927;&#x5C0F;&#x5C31;&#x53EF;&#x4EE5;&#x4E86;&#xFF0C;&#x503C;&#x5F97;&#x4E00;&#x63D0;&#x7684;&#x662F;&#x6700;&#x597D;&#x4E0D;&#x8981;&#x5BFC;&#x5165;&#x5927;&#x4E8E;4m&#x7684;&#x5B57;&#x4F53;&#x6587;&#x4EF6;&#xFF0C;&#x6700;&#x597D;&#x4E0D;&#x5230;&#x5BFC;&#x5165;&#x8D85;&#x8FC7;5&#x4E2A;&#x5B57;&#x4F53;&#x6587;&#x4EF6;&#x3002;&#x8FD9;&#x6837;&#x4F1A;&#x8BA9;&#x9879;&#x76EE;&#x52A0;&#x8F7D;&#x53D8;&#x6162;&#xFF0C;&#x624B;&#x673A;&#x597D;&#x4EFB;&#x6027;&#x6211;&#x65E0;&#x8BDD;&#x53EF;&#x8BF4;&#x3002;&#x563F;&#x563F;&#x3002;<br>&#x56E0;&#x4E3A;&#x5728;&#x6253;&#x5305;&#x9879;&#x76EE;&#x4E2D;&#x76EE;&#x5F55;&#x7ED3;&#x6784;&#x6539;&#x53D8;&#xFF0C;&#x8FD8;&#x9700;&#x8981;&#x52A0;&#x5165;publicPath&#xFF08;&#x4F60;&#x5F15;&#x7528;&#x7684;css&#x6587;&#x4EF6;&#x548C;&#x4F60;&#x5B57;&#x4F53;&#x6587;&#x4EF6;&#x7684;&#x4F4D;&#x7F6E;&#xFF09;&#x5177;&#x4F53;&#x5982;&#x4E0B;&#xFF1A;<br><span class="img-wrap"><img data-src="/img/bVbcMOj?w=867&amp;h=253" src="https://static.alili.tech/img/bVbcMOj?w=867&amp;h=253" alt="clipboard.png" title="clipboard.png" style="cursor:pointer"></span></p><p>&#x56FE;&#x7247;css&#x5F15;&#x5165;&#x7B80;&#x5355;&#x591A;&#x4E86;&#x4F46;&#x4E5F;&#x8981;&#x8BBE;&#x7F6E;publicPath&#xFF0C;&#x662F;&#x5728;bulid&#x2014;&#x2014;&gt;utils.js&#x91CC;&#xFF0C;&#x8FD9;&#x662F;&#x9759;&#x6001;&#x6587;&#x4EF6;&#x5939;static&#x4E0B;&#x76EE;&#x5F55;&#x7684;&#x56FE;&#x7247;&#x4F4D;&#x7F6E;&#x8BBE;&#x7F6E;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbcMPa?w=773&amp;h=368" src="https://static.alili.tech/img/bVbcMPa?w=773&amp;h=368" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><p><strong>5.&#x6253;&#x5305;</strong><br>&#x4F7F;&#x7528;&#x5DE5;&#x5177;Hbuilder&#xFF0C;&#x754C;&#x9762;&#x7B80;&#x5355;&#xFF0C;&#x64CD;&#x4F5C;&#x65B9;&#x4FBF;&#xFF0C;&#x5177;&#x4F53;&#x7EC6;&#x8282;&#x6233;&#x4E0B;&#x9762;&#x94FE;&#x63A5;&#x3002;&#x6700;&#x540E;&#x4E00;&#x9053;&#x5DE5;&#x4F5C;&#xFF0C;&#x4FEE;&#x6539;config-&gt;index.js&#x91CC;&#x7684;build&#x89C4;&#x8303;&#x4E0B;&#x7684;&#x4E00;&#x4E2A;&#x5C5E;&#x6027;&#xFF0C;&#x201C;/&#x201D;&#x6539;&#x6210;&#x201C;./&#x201D;&#x3002;&#x6CE8;&#x610F;&#x662F;build&#x4E0B;&#x7684;&#x89C4;&#x8303;&#xFF1A;</p><p><span class="img-wrap"><img data-src="/img/bVbcMRd?w=717&amp;h=338" src="https://static.alili.tech/img/bVbcMRd?w=717&amp;h=338" alt="clipboard.png" title="clipboard.png" style="cursor:pointer;display:inline"></span></p><h1 id="articleHeader3">&#x611F;&#x8C22;</h1><p>&#x501F;&#x9274;&#x8FC7;&#x7684;&#x524D;&#x8F88;&#x7684;&#x4E1C;&#x897F;&#xFF0C;&#x9644;&#x4E0A;&#x94FE;&#x63A5;&#xFF1A;<br>vue&#x7684;APP&#x6253;&#x5305;&#xFF1A;<a href="https://blog.csdn.net/zhoudan232/article/details/73466814" rel="nofollow noreferrer" target="_blank">https://blog.csdn.net/zhoudan...</a><br>wum&#x9605;&#x8BFB;&#xFF1A;<a href="https://github.com/windjourney/vue-wumReader" rel="nofollow noreferrer" target="_blank">https://github.com/windjourne...</a><br>n&#x9605;&#x8BFB;&#xFF1A;<a href="https://github.com/zimplexing/vue-nReader/blob/master/doc/zhuishushenqi.md" rel="nofollow noreferrer" target="_blank">https://github.com/zimplexing...</a><br>&#x8FFD;&#x4E66;&#x795E;&#x5668;api&#xFF1A;<a href="https://github.com/zimplexing/vue-nReader/blob/master/doc/zhuishushenqi.md" rel="nofollow noreferrer" target="_blank">https://github.com/zimplexing...</a></p>
+{{< /raw >}}
+
+# 版权声明
+本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+
+原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！
+
+## 原文标题
+一个高仿追书神器的vue阅读器。已成功做成app
+
+## 原文链接
+[https://segmentfault.com/a/1190000015401972](https://segmentfault.com/a/1190000015401972)
+

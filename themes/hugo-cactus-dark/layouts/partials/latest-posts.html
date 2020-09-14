@@ -1,0 +1,11 @@
+<ul id="more-post-list" class="archive readmore">
+    <h3>{{ .Site.Params.readMore | default "最新文章" }}</h3>
+
+    {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
+    {{ $othr := where $kind "URL" "!=" .URL }}
+    {{ range first 10 $othr }}
+        <li>
+            <a href="{{ .URL }}">{{ .LinkTitle }}<aside class="dates">{{ .Date.Format "2006-01-02" }}</aside></a>
+        </li>
+    {{ end }}
+</ul>

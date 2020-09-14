@@ -1,0 +1,56 @@
+baseURL : "https://alili.tech/"
+languageCode : "zh"
+title : "Hello Alili"
+theme : "hugo-cactus-dark"
+permalinks:
+  archive: archive/:slug/
+params:
+  Author : Fan
+  subtitle: Hello Alili | 前端大爆炸! - WEB BANG! BANG!! BANG!!!
+  description: 前端大爆炸,一个以前端视角学习的技术博客. 此生理想、近期计划、今日功课。
+  keywords: [Hello Alili,前端大爆炸,WEB BANG BANG BANG,web前端博客,前端模块化,前端工程化,前端数据监控,性能优化,网页制作,前端,js,html5,css,踩坑小报告,微前端,树莓派,前端开发,区块链,网络,Mongodb,Vue.js,Angular.js,node.js]
+  customize:
+      gravatar:
+          email: 
+      logo:
+          enabled: true
+          width: 50
+          height: 50
+          url: /images/logo2.png
+          gravatar: false
+      favicon: 
+        # eg. generate with http://realfavicongenerator.net/
+        desktop:
+          url: /images/favicon.ico
+          gravatar: false
+        android:
+          url: /images/favicon-192x192.png
+          gravator: false
+        apple:
+          url: /images/favicon-192x192.png
+          gravator: false
+      social_links:
+          github: http://github.com/Fantasy9527
+        #   weibo: http://weibo.com/u/1967233520
+  # RSS
+  rss: false
+
+  # Plugins
+  plugins:
+      disqus_shortname: alili-tech # Disqus Comments Shortname
+
+  # Miscellaneous
+  miscellaneous:
+      open_graph: # see http://ogp.me
+          fb_app_id:
+          fb_admins:
+          twitter_id:
+          google_plus:
+
+sitemap:
+    changefreq: weekly
+    filename: sitemap.xml
+    priority: 0.5
+
+outputs:
+    home: [ "HTML", "RSS", "JSON"]

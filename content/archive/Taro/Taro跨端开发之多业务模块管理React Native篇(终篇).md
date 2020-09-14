@@ -1,0 +1,222 @@
+---
+title: 'Taro跨端开发之多业务模块管理 React Native篇(终篇)'
+tags: [Taro,跨端开发,前端架构]
+slug: 2f9lla2yjb5
+keywords: Taro,多端同构,前端架构,多端开发技巧,跨端开发
+date: 2020-08-25 22:17:36
+---
+
+
+## React Native 热更新方案
+
+rn的业务越来越庞大,同时协同的团队越来越多. rn的动态化就必须提上日程了.
+对于rn热更新,首当其冲的问题就是分包.
+
+rn的基础库很大,再加上我们依赖了很多的三方库.这些代码就必须在分包的时候单独剥离出来.
+业务包让他比较纯粹的只有业务代码. 这样就可以保证业务包的体积比较小,保证热更新时候的速度.
+
+
+### 使用metro分包
+
+React Native 提供的 metro 自带分包功能。metro我们本来就一直在用,只要在metro打包的时候,提供相应的打包规则.
+就可以实现rn的分包了.
+
+示例: ios打包
+
+```bash
+node ./node_modules/react-native/local-cli/cli.js bundle --platform ios --dev false --entry-file rn入口文件.js --bundle-output ./xxx/ --assets-dest ./xxx/ --config /{你的绝对路径}/你的metro配置文件.js
+```
+### metro 关键api介绍
+
+我们分包需要用的选项主要是两个：
+
+* createModuleIdFactory：这个函数传入要打包的 module 文件的绝对路径，返回这个 module 在打包的时候生成的 id。
+
+* processModuleFilter：这个函数传入 module 信息，返回一个 boolean 值，false 则表示这个文件不打入当前的包。
+
+
+
+### 主工程分包
+之前我们有提到过我们有一个项目是主工程,里面没有任何的业务代码.只有一些代码运行需要的所有依赖.
+
+我们需要将所有的依赖全部收集起来,当业务模块打包的时候,发现本地有这个依赖就可以使用 `processModuleFilter`方法排除掉.
+
+因为我们的主工程与业务项目的依赖版本都是高度统一的.
+所以我们node_modules下面的依赖包路径都是完全一致的.
+
+[Taro跨端开发之依赖管理](https://alili.tech/archive/h8gasmt9u5c/)
+
+主工程的metro配置文件示例:
+```js
+function createModuleIdFactory() {
+    return path => {
+        // 在这里我们拿到依赖的文件路径,
+        // 我们需要在这个函数块中,将路径以收集并且将这些数据生成文件
+        // 部署到我们内网的服务器中
+        // 当业务模块需要打包的时候,是否要将代码打进包中,将以这个文件为依据
+      return path;
+    };
+}
+
+module.exports = {
+    serializer: {
+      createModuleIdFactory:createModuleIdFactory
+    }
+};
+```
+
+
+主工程入口文件示例:
+```js
+// 这个文件我们会引入所有我们要用到的rn依赖,因为这些不常更新.
+// metro打包的时候,会收集这些依赖的路径
+// 保证业务包打包的时候,不会重复打入
+import React, {Component} from'react';
+import { DeviceEventEmitter,Platform, NativeEventEmitter, NativeModules } from 'react-native';
+import { SmartAssets } from "react-native-smartassets";
+import 'moment/locale/zh-cn';
+import 'react-navigation';
+import '@tarojs/components-rn';
+import '@tarojs/taro-router-rn';
+import '@tarojs/taro-rn';
+import '@tarojs/async-await';
+import "@tarojs/mobx-rn";
+import "dayjs";
+import "querystring";
+import "react-native-check-box";
+import "classnames";
+import "lodash.orderby";
+import "react-native-swipe-list-view";
+
+SmartAssets.initSmartAssets();
+DeviceEventEmitter.addListener('sm-bundle-changed',
+	(bundlePath)=>{
+		SmartAssets.setBundlePath(bundlePath);
+	});
+
+if(Platform.OS != 'android') {//ios
+	const {BundleloadEventEmiter} = NativeModules;
+
+	const bundleLoadEmitter = new NativeEventEmitter(BundleloadEventEmiter);
+
+	// eslint-disable-next-line no-unused-vars
+	const subscription = bundleLoadEmitter.addListener(
+		'BundleLoad',
+		(bundleInfo) => {
+			console.log('BundleLoad==' + bundleInfo.path);
+			SmartAssets.setBundlePath(bundleInfo.path);
+		}
+	);
+}
+
+require('react-native/Libraries/Core/checkNativeVersion');
+```
+
+
+### 业务模块的分包
+
+
+业务模块打包主要是排除主模块的依赖.
+
+业务模块的metro配置文件示例:
+```js
+const pathSep = require('path').sep;
+const platformMap = require('业务包的打包数据');
+
+let entry;
+
+function postProcessModulesFilter(module) {
+  const projectRootPath = __dirname;
+  // 如果业务包没有数据,进程直接退出,
+  // 避免打入不必要的代码
+  if (platformMap == null || platformMap.length == 0) {
+    console.log('请先打基础包');
+    process.exit(1);
+    return false;
+  }
+  const path = module['path']
+
+  // 特殊的模块也需要排除
+  if (path.indexOf("__prelude__") >= 0 ||
+    path.indexOf("/node_modules/react-native/Libraries/polyfills") >= 0 ||
+    path.indexOf("source-map") >= 0 ||
+    path.indexOf("/node_modules/metro/src/lib/polyfills/") >= 0) {
+    return false;
+  }
+
+  if (module['path'].indexOf(pathSep + 'node_modules' + pathSep) > 0) {
+    if ('js' + pathSep + 'script' + pathSep + 'virtual' == module['output'][0]['type']) {
+      return true;
+    }else if(platformMap.includes(name)){
+     // 如果之前主工程已经打过包的模块,进行排除 返回 false
+      return false;
+    }
+  }
+  // 没有特殊情况,则可以正常打包
+  return true;
+}
+
+function createModuleIdFactory() {
+  const projectRootPath = __dirname;
+  return path => {
+    let name = getModuleId(projectRootPath,path,entry,true);
+    return name;
+  };
+}
+
+function getModulesRunBeforeMainModule(entryFilePath) {
+  entry = entryFilePath;
+  return [];
+}
+
+module.exports = {
+  serializer: {
+    createModuleIdFactory: createModuleIdFactory,
+    processModuleFilter: postProcessModulesFilter,
+    getModulesRunBeforeMainModule:getModulesRunBeforeMainModule
+    /* serializer options */
+  }
+};
+
+
+```
+
+
+## 分包部署与下发客户端
+
+所有类型的包打完之后,我们会压缩成zip包,部署到cdn上.
+当客户端检测到有模块已经更新,则会从cdn上拉取相对应的代码包.
+
+客户端相关的加载方案我们借鉴的是以下项目:
+https://github.com/smallnew/react-native-multibundler
+
+
+## 客户端加载顺序
+客户端必须加载主工程的代码完成之后,才可以加载业务包.
+这是必要条件,不然会直接闪退.
+
+## 客户端热更新容错
+
+为了保证客户端在任何时候都可以正常运行,我们会在客户端发版的时候将所有分包打进客户端中.当客户端热更新失败的时候,将会回滚到最初打进客户端的代码.
+
+以下是可能会导致更新失败的场景,我们都会回滚渲染:
+
+* 获取代码包超时
+
+* 当md5不匹配时
+
+* 当代码解压失败时
+
+* 代码包版本号不合法
+
+* 首次进入就闪退
+
+还有很多场景,这里就不一一列出了.
+但是这一块要绝对重视,一旦出错,就会导致客户端直接闪退.
+
+## 尾巴
+为了保证独立开发,独立部署,我们的CI/CD根据这一套打包方案也做了很多的定制与开发.这里就不展开篇幅来讲了,分包其实很简单,最重要的还是客户端的稳定性.
+
+在用户手机上会出现非常多意想不到的极端环境.如何保证运行时的稳定性.
+
+这里需要大家好好思考.

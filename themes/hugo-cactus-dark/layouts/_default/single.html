@@ -1,0 +1,66 @@
+{{ partial "head.html" . }}
+<body>
+    {{ partial "actions_desktop.html" . }}
+    <div class="content index width mx-auto px3 my3">
+        <section id="wrapper" class="home">
+                <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+                    <header>
+                    <h1 class="posttitle" itemprop="name headline">
+                            {{ .Title }}
+                        </h1>
+                      <div class="meta">
+                        <div class="postdate">
+                                <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+                            </div>
+                        <div class="article-tag">
+                            <i class="fa fa-eye"></i>
+                            <span id="busuanzi_container_page_pv">
+                                <span id="busuanzi_value_page_pv">0</span>
+                              </span>
+                            </span>
+                        </div>
+                        {{ if .Params.tags }}
+                        <div class="article-tag">
+                            <i class="fa fa-tag"></i>
+                            {{ range .Params.tags }}
+                            <a href="/tags/{{ . | urlize }}">
+                               {{ . }}</a> 
+                             {{ end }}
+                        </div>
+                        {{ end }}
+                        <!-- | {{ if lt 1 .WordCount }}{{ .WordCount }}字{{ else }}{{ .WordCount }}字{{ end }} -->
+                        <!-- | {{ .ReadingTime }} min -->
+                        <div class="article-tag-box">
+                               
+                        </div>
+
+                        
+                      </div>
+                    </header>
+                    <!-- <%- partial('_partial/post/gallery') %> -->
+
+                    <div class="content" itemprop="articleBody">
+                            
+                            {{ .Content }}
+                            <h2> 微信公众号 </h2>
+                            <img src="https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/72402c4a1902a6c28faa936d2ac88608647dc120cc225e51afac10cfcb22e94d.png" />
+                            <h2> 本文链接：</h2>
+                            <a href='{{.Permalink}}' target="_blank">{{.Permalink}}</a>
+                    </div>
+                  </article>
+                  {{ partial "comments.html" . }}
+                  
+                  {{ partial "latest-posts.html" . }}
+                  {{ if .Params.hidden }}
+                  
+                  {{ end }}
+                  
+        </section>
+
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+</body>
+
+</html>
+

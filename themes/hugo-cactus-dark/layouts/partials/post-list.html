@@ -1,0 +1,45 @@
+<section id="about">
+    <div class="description coding">
+        <span class="typed prompt"></span>
+    </div>
+    <p style="display: inline">
+        <span>
+            <i class="fa fa-eye"></i>
+            <span id="busuanzi_container_site_pv">
+                <span id="busuanzi_value_site_pv">0</span>
+            </span>
+        </span>|
+
+        
+        Find me on 	 <ul id="sociallinks">
+            {{ range $key, $val := .Site.Params.customize.social_links }}
+            &nbsp;<li><a class="icon" target="_blank" href="{{$val}}" title="{{$key}}"><i class="fa fa-{{$key}}"></i></a></li>
+            
+            {{ end }}
+        </ul>.
+    </p>
+    <p class="prompt ad-text output new-output">
+        p.s. 网站已经支持PWA,可尝试添加到桌面
+    </p>
+
+</section>
+<section id="writing">
+    <span class="h1"><a href="/archive/">Archives</a></span>
+    <ul class="post-list" id="post-list">
+        {{$count := 0}}
+        {{ range where .Pages "Params.hidden" "ne" "true" }}
+        {{ $url := replace .Permalink .Site.BaseURL "" }}
+        {{ if ne $url "about/" }}
+        {{$count = add $count 1}}
+        {{ if lt $count 10 }}
+        <li class="post-item">
+            <div class="meta">
+                <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02"}}</time>
+            </div>
+            <span> <a href='{{ .Permalink }}'>{{ .Title }}</a></span>
+        </li>
+        {{ end }}
+        {{ end }}
+        {{ end }}
+    </ul>
+</section>

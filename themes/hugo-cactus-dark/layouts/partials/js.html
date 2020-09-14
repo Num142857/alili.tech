@@ -1,0 +1,92 @@
+
+<script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="{{ .Site.BaseURL }}lib/typed.js"></script>
+<script src="{{ .Site.BaseURL }}js/main.js"></script>
+{{ range .Site.Params.customJS }}
+<script src="{{ $.Site.BaseURL }}{{ . }}"></script>
+{{ end }}
+
+{{ if .Site.Params.enableGoogleAnalytics }}
+  {{ template "_internal/google_analytics.html" . }}
+{{ end }}
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src=""></script>
+<script>
+(function(){
+  if(location.host!=='alili.tech')return;
+  var ga = document.createElement('script');
+  var curProtocol = window.location.protocol.split(':')[0];
+  ga.src = 'https://www.googletagmanager.com/gtag/js?id=UA-129382678-1';       
+  var s = document.getElementsByTagName("script")[0];
+  s.parentNode.insertBefore(ga, s);
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-129382678-1');
+})()
+</script>
+
+
+  <script>
+  (function(){
+    if(location.host!=='alili.tech')return;
+      var bp = document.createElement('script');
+      var curProtocol = window.location.protocol.split(':')[0];
+      if (curProtocol === 'https') {
+          bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+      }
+      else {
+          bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+      }
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(bp, s);
+  })();
+  </script>
+
+
+<!-- 阅读量计数 -->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+          navigator.serviceWorker
+              .register('/sw.js')
+              .then(registration => {
+                  // console.log('SW registered: ', registration);
+              })
+              .catch(registrationError => {
+                  console.log('SW registration failed: ', registrationError);
+              });
+      });
+  }
+  </script>
+
+
+
+<script>
+  var _mtac = {};
+  (function() {
+    var mta = document.createElement("script");
+    mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
+    mta.setAttribute("name", "MTAH5");
+    mta.setAttribute("sid", "500643908");
+    mta.setAttribute("cid", "500649335");
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(mta, s);
+  })();
+</script>
+
+  <!-- Hotjar Tracking Code for alili.tech -->
+<!-- <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:1148732,hjsv:6};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script> -->

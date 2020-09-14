@@ -1,0 +1,34 @@
+{
+  "name": "alili.tech",
+  "version": "1.0.0",
+  "description": "Blog",
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo server --buildFuture",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fantasy9527/alili.tech.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fantasy9527/alili.tech/issues"
+  },
+  "homepage": "https://github.com/Fantasy9527/alili.tech#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sync": "^0.1.4",
+    "workbox-build": "^3.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs-extra": "^9.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-shell": "^0.8.0",
+    "xml2js": "^0.4.19",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

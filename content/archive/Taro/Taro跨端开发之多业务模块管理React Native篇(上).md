@@ -1,0 +1,163 @@
+---
+
+title: 'Taro跨端开发之多业务模块管理 React Native篇(上)'
+
+tags: [Taro,跨端开发,前端架构]
+
+slug: w650d9ok34i
+
+keywords: Taro,多端同构,前端架构,多端开发技巧,跨端开发
+
+date: 2020-08-21 22:17:36
+
+---
+
+## 原生RN项目与Taro如何共存?
+
+我们团队一开始就有实践原生React Native的项目,很长一段时间,
+
+所有的业务模块都是在一个项目里面开发维护,时间久了这个项目就变成了一个巨无霸项目.
+
+再加上后来引进了基于Taro开发的rn项目,为了保证原生与Taro的RN共存,
+
+不管是原生rn项目还是taro项目的package.json文件的main对外导出的索引文件格式都是一致的.
+
+我们使用以下方案来维护我们的代码.
+
+## 使用npm来管理我们的业务模块
+
+### RN业务的主工程
+
+这是我最初实践的方案,首先我们创建一个项目为RN的主工程.
+
+里面没有任何的业务代码,只有在根目录下有一个index.js的业务索引文件.
+
+它大概是这样的:
+
+```js
+
+import { AppRegistry} from 'react-native';
+import Module1 from 'Module1';
+import Module2 from 'Module2';
+import Module3 from 'Module3';
+AppRegistry.registerComponent('Module1', () => Module1);
+AppRegistry.registerComponent('Module2', () => Module2);
+AppRegistry.registerComponent('Module3', () => Module3);
+```
+
+之前的一篇文章我已经提到,我们所有的模块依赖都是统一的,并且版本锁死.
+
+有兴趣的可以点击查看:
+
+[Taro跨端开发之依赖管理](https://alili.tech/archive/h8gasmt9u5c/)
+
+所以我的主工程的依赖与业务模块的依赖是保持一致的.
+
+### 使用NPM管理业务模块
+
+我们会把所有的业务模块当成npm来管理,因为npm有很多的生命周期钩子使用.
+
+在统一了npm script 命令之后,很容易统一管理他们.
+
+当然这些业务模块我们不会把他发布到npm服务器上,因为业务代码会频繁变动,如果每一次提交都要上传到npm服务器,自然会添加开发人员的代码管理成本(发布npm包很烦的)
+
+所以我们使用 `npm + git` 地址来拉取我们的业务模块.
+
+例如:
+
+#### 主工程的package.json
+
+```json
+
+{
+"name": "base",
+"version": "0.0.6",
+"scripts": {
+"build":"构建rn的相关操作"
+},
+"dependencies": {
+"公共依赖包": "1.0.0",
+"Module1": "http://xxx.com/webfront/Module1.git",
+"Module2": "http://xxx.com/webfront/Module2.git",
+"Module3": "http://xxx.com/webfront/Module3.git",
+}
+}
+
+```
+
+#### 业务模块的package.json
+
+业务模块添加了postinstall,在使用npm拉取业务模块成功之后,业务模块会在 `node_modules` 中构建自己的项目,提供主工程的`index.js`使用
+
+```json
+{
+"name": "buz",
+"version": "0.0.1",
+"main": "main.js", // main字段要指向rn的索引文件
+"scripts": {
+"build":"构建rn的相关操作",
+"postinstall":"npm run build"
+},
+"dependencies": {
+"公共依赖包": "1.0.0"
+}
+}
+
+```
+
+#### 统一对外输出的main.js文件
+
+```js
+
+"use strict";
+
+// 根据端的环境变量判断是否对外输出什么文件
+
+if (process.env.TARO_ENV === 'weapp' || process.env.TARO_ENV === 'h5') {
+module.exports = require('./dist/index');
+module.exports.default = module.exports
+} else {
+// taro系工程,标准对外输出
+Object.defineProperty(exports, "__esModule", {
+value: true
+});
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var _app = _interopRequireDefault(require("./rn_temp/app"));
+exports.APP = _app.default;
+}
+
+```
+
+### 业务模块之间相互调试
+
+业务与业务之间肯定会有相互联调的情况,以上的方案业务模块只能独立运行自己的代码,当我们想要跳转到其他RN页面的时候,那就不行了.
+
+其实我们可以让所有的业务模块跟主模块一样,在开发调试的时候引入所有的业务模块.
+
+这样所有的业务代码都可以跑起来了,区别只在于其他业务模块放在`node_modules`中,不能修改代码.
+
+### 该方案的优劣势
+
+该方案建议中型的项目推荐
+
+优点:
+
+1. 可以原生RN与Taro共存,只要对外导出的main规范一致,主工程就可以作为统一模块注册
+
+2. 所有业务模块单独维护,避免了项目巨无霸的产生
+
+3. 业务与业务之间也可以相互跳转,单独一个业务模块也可以拉起完整的rn项目
+
+缺点:
+
+1. npm install 项目的时候会非常耗时,因为不单要安装依赖,业务模块也会在postinstall的时候构建项目.
+
+2. 业务模块更新之后,必须要重新npm install
+
+## 尾巴
+
+该方案面向中等大小项目的rn项目,要是你跟我一样几十个业务模块在同时开发.会带来更大的挑战.
+
+后续文章我会介绍基于Taro的RN端终极管理办法.
+
+同时也会解决以上所有的缺点.

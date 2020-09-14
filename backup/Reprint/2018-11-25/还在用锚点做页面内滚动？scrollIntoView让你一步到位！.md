@@ -1,0 +1,25 @@
+---
+title: '还在用锚点做页面内滚动？scrollIntoView让你一步到位！' 
+date: 2018-11-25 2:30:06
+hidden: true
+slug: x6bgsclezng
+categories: [reprint]
+---
+
+{{< raw >}}
+<h2 id="articleHeader0">&#x524D;&#x8A00;</h2><p>&#x5728;&#x5904;&#x7406;&#x9875;&#x9762;&#x5185;&#x5E73;&#x6ED1;&#x6EDA;&#x52A8;&#x6211;&#x4EEC;&#x4F7F;&#x7528;&#x7684;&#x65B9;&#x6848;&#x65E0;&#x5916;&#x4E4E;&#x4EE5;&#x4E0B;&#x51E0;&#x79CD;</p><ol><li>&#x4F7F;&#x7528;<code>a&#x6807;&#x7B7E;&#x7684;href&#x5C5E;&#x6027;</code></li><li>&#x4F7F;&#x7528;<code>location.href</code></li><li>&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;&#x5E93;</li></ol><p>&#x5173;&#x4E8E;1&#x3001;2&#x70B9;&#xFF0C;&#x697C;&#x4E3B;&#x5199;&#x4E86;&#x4E00;&#x4E2A;&#x4F8B;&#x5B50;<br><a href="http://js.jirengu.com/qevud" rel="nofollow noreferrer" target="_blank">http://js.jirengu.com/qevud</a></p><h3 id="articleHeader1">&#x7F3A;&#x9677;</h3><p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4F7F;&#x7528;<code>a&#x6807;&#x7B7E;&#x7684;href&#x5C5E;&#x6027;</code>&#x7684;&#x8BDD;&#xFF1A;<br>&#x5176;&#x4E00;&#x662F;&#x53D7;&#x9650;&#x2014;&#x2014;&#x53EA;&#x80FD;&#x5728;a&#x6807;&#x7B7E;&#x4E0A;&#x4F7F;&#x7528;&#x8FD9;&#x4E00;&#x529F;&#x80FD;<br>&#x5176;&#x4E8C;&#x662F;a&#x94FE;&#x63A5;&#x6539;&#x53D8;&#x4E86;url&#xFF0C;&#x8FD9;&#x53EF;&#x80FD;&#x4F1A;&#x7ED9;&#x6211;&#x4EEC;&#x9020;&#x6210;&#x4E00;&#x4E9B;&#x4E0D;&#x5FC5;&#x8981;&#x7684;&#x9EBB;&#x70E6;<br>&#x5176;&#x4E09;&#x662F;&#x6CA1;&#x6709;&#x52A8;&#x753B;&#x6548;&#x679C;&#xFF08;&#x8FD9;&#x70B9;&#x4EA7;&#x54C1;&#x4E0D;&#x80FD;&#x5FCD;&#xFF09;</p><p>&#x5982;&#x679C;&#x6211;&#x4EEC;&#x4F7F;&#x7528;<code>location.href</code>&#x7684;&#x8BDD;&#xFF1A;<br>&#x6BD4;a&#x6807;&#x7B7E;&#x597D;&#x4E00;&#x70B9;&#xFF0C;&#x5C31;&#x662F;&#x53EF;&#x4EE5;&#x4F7F;&#x7528;js&#x63A7;&#x5236;&#x4E86;&#xFF0C;&#x5176;&#x5B83;&#x5927;&#x540C;&#x5C0F;&#x5F02;</p><p>&#x4F7F;&#x7528;&#x7B2C;&#x4E09;&#x65B9;&#x5E93;&#x53EF;&#x4EE5;&#x89E3;&#x51B3;&#x4EE5;&#x4E0A;&#x7684;&#x95EE;&#x9898;&#xFF0C;&#x4E0D;&#x8FC7;<strong>&#x9EBB;&#x70E6;&#x5440;</strong></p><blockquote><strong>&#x4E0B;&#x9762;&#xFF0C;&#x9686;&#x91CD;&#x4ECB;&#x7ECD;&#x4E00;&#x4E0B;&#x4ECA;&#x5929;&#x7684;&#x4E3B;&#x4EBA;&#x516C; &#x2014;&#x2014; <code>Element.scrollIntoView()</code></strong></blockquote><h2 id="articleHeader2">Element.scrollIntoView()</h2><blockquote><code>Element.scrollIntoView()</code>&#x65B9;&#x6CD5;&#x8BA9;&#x5F53;&#x524D;&#x7684;&#x5143;&#x7D20;&#x6EDA;&#x52A8;&#x5230;<strong>&#x6D4F;&#x89C8;&#x5668;&#x7A97;&#x53E3;&#x7684;&#x53EF;&#x89C6;&#x533A;&#x57DF;&#x5185;</strong></blockquote><p>&#x5177;&#x4F53;&#x7684;&#x4ECB;&#x7ECD;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;&#x53BB;<a href="https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scrollIntoView" rel="nofollow noreferrer" target="_blank">MDN</a>&#x81EA;&#x884C;&#x9605;&#x8BFB;&#xFF0C;&#x7B14;&#x8005;&#x4E3B;&#x8981;&#x4ECB;&#x7ECD;&#x5B83;&#x7684;&#x53C2;&#x6570;<code>scrollIntoViewOptions</code>&#x5BF9;&#x8C61;&#x7684;<code>behavior</code>&#x5C5E;&#x6027;&#x3002;<br>&#x8FD9;&#x4E2A;&#x5C5E;&#x6027;&#x4E3B;&#x8981;&#x662F;&#x7528;&#x6765;&#x63D0;&#x4F9B;<strong>&#x52A8;&#x753B;&#x6548;&#x679C;</strong>&#x7684;&#xFF0C;&#x5176;&#x4E2D;<code>auto</code>&#x548C;<code>instant</code>&#x90FD;&#x662F;&#x77AC;&#x95F4;&#x5230;&#x8FBE;&#x5143;&#x7D20;&#x6240;&#x5728;&#x4F4D;&#x7F6E;&#xFF0C;&#x4F46;&#x662F;<code>smooth</code>&#x63D0;&#x4F9B;&#x4E86;&#x4E00;&#x4E2A;&#x5E73;&#x6ED1;&#x6EDA;&#x52A8;&#x7684;&#x52A8;&#x753B;&#x6548;&#x679C;&#x3002;</p><h2 id="articleHeader3">&#x5B9E;&#x9645;&#x5E94;&#x7528;</h2><p>&#x968F;&#x968F;&#x4FBF;&#x4FBF;&#x64B8;&#x4E2A;&#x4EC0;&#x4E48;<code>&#x56DE;&#x5230;&#x9876;&#x90E8;</code>&#xFF0C;<code>&#x56DE;&#x5230;&#x5E95;&#x90E8;</code>&#xFF0C;<code>&#x56DE;&#x5230;&#x8FD9;&#x56DE;&#x5230;&#x90A3;</code>&#x7684;&#x529F;&#x80FD;&#xFF0C;&#x6240;&#x4EE5;&#xFF0C;&#x61C2;&#x4E86;&#x4F10;&#x3010;&#x5978;&#x7B11;&#x8138;&#x3011;</p><h2 id="articleHeader4">&#x5173;&#x4E8E;&#x517C;&#x5BB9;&#x6027;&#x7684;&#x95EE;&#x9898;</h2><p>&#x57FA;&#x672C;&#x6240;&#x6709;&#x6D4F;&#x89C8;&#x5668;&#xFF08;&#x5305;&#x62EC;IE8&#x4F46;Opera Mini&#x4E0D;&#x884C;&#xFF09;&#x505A;&#x5230;&#x57FA;&#x672C;&#x8DF3;&#x8F6C;&#x662F;&#x6CA1;&#x95EE;&#x9898;&#x7684;&#xFF0C;&#x4E0D;&#x8FC7;<strong>&#x52A8;&#x753B;</strong>&#x6548;&#x679C;&#x652F;&#x6301;&#x7684;&#x5C31;&#x592A;&#x5C11;&#x4E86;&#xFF0C;&#x5177;&#x4F53;&#x5927;&#x5BB6;&#x53EF;&#x4EE5;<a href="https://www.caniuse.com/#search=scrollintoview" rel="nofollow noreferrer" target="_blank">&#x53BB;caniuse&#x4E0A;&#x770B;</a>&#x3002;</p><blockquote>&#x5982;&#x679C;&#x505A;&#x5185;&#x90E8;&#x7CFB;&#x7EDF;&#xFF0C;&#x4EA4;&#x4E92;&#x8981;&#x6C42;&#x53C8;&#x4E0D;&#x9AD8;&#xFF0C;&#x8FD9;&#x4E2A;API&#x73B0;&#x5728;&#x5DF2;&#x7ECF;&#x662F;&#x6211;&#x7684;&#x9996;&#x9009;&#x4E86;&#xFF0C;&#x5E0C;&#x671B;&#x5927;&#x5BB6;&#x591A;&#x591A;&#x4F7F;&#x7528;~~</blockquote>
+{{< /raw >}}
+
+# 版权声明
+本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+
+本文仅用于学习、研究和交流目的。转载请注明出处、完整链接以及原作者。
+
+原作者若认为本站侵犯了您的版权，请联系我们，我们会立即删除！
+
+## 原文标题
+还在用锚点做页面内滚动？scrollIntoView让你一步到位！
+
+## 原文链接
+[https://segmentfault.com/a/1190000015478883](https://segmentfault.com/a/1190000015478883)
+

@@ -1,0 +1,27 @@
+<div id='raw'>
+<p style="opacity: 0;">
+{{.Site.Params.subtitle}}
+{{.Site.Params.description}}
+本文资源来源互联网，仅供学习研究使用，版权归该资源的合法拥有者所有，
+{{ delimit .Site.Params.keywords ", " }}
+</p>
+
+    <script>
+        $(function () {
+            var html = "{{.Inner}}"
+            html = html.replace(/"{/g, "{")
+            html = html.replace(/{"/g, "{")
+            html = html.replace(/"}/g, "}")
+            html = html.replace(/}"/g, "}")
+            $('#raw').html(html);
+
+            let postTitle =  $('.posttitle').text()
+            let postContentTitle =  $('#raw > h1').text()
+            if(postTitle === postContentTitle){
+                $('#raw > h1').hide()
+            }
+            $('button.preview').hide()
+        })
+
+    </script>
+</div>
