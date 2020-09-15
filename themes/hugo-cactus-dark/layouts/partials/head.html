@@ -44,7 +44,7 @@
 		{{ range .Site.Params.customCSS }}
 		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 		{{ end }}
-
+		<script src="{{ .Site.BaseURL }}lib/jquery/jquery.min.js"></script>
 		<script>
 			document.addEventListener("error", function (e) {
 			  var elem = e.target;
