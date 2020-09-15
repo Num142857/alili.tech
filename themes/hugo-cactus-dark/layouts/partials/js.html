@@ -1,6 +1,16 @@
 
-<script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+{{ if .IsHome }}
 <script src="{{ .Site.BaseURL }}lib/typed.js"></script>
+{{ end }}
+
+<script src="{{ .Site.BaseURL }}lib/jquery/jquery.min.js"></script>
+{{ if .IsPage }}
+<script src="{{ .Site.BaseURL }}lib/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+{{ end }}
+
+
 <script src="{{ .Site.BaseURL }}js/main.js"></script>
 {{ range .Site.Params.customJS }}
 <script src="{{ $.Site.BaseURL }}{{ . }}"></script>
@@ -11,7 +21,7 @@
 {{ end }}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src=""></script>
+  <script async src=""></script>
 <script>
 (function(){
   if(location.host!=='alili.tech')return;

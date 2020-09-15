@@ -29,10 +29,10 @@
 		<meta property="og:site_name" content="{{ .Site.Title }}">
 
 		<title>{{ if .IsHome }} Hello Alili | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ end }}</title>
-		<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
+		<link  rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
 		<!-- <link rel="stylesheet" type="text/css" href="https://c.mipcdn.com/static/v1/mip.css"> -->
 		<link rel="manifest" href="/manifest.json">
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}lib/font-awesome/css/font-awesome.min.css">
+		<link  rel="stylesheet" href="{{ .Site.BaseURL }}lib/font-awesome/css/font-awesome.min.css">
 		<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}lib/meslo-LG/styles.css"> -->
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}lib/justified-gallery/justifiedGallery.min.css">
 		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
@@ -44,11 +44,7 @@
 		{{ range .Site.Params.customCSS }}
 		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
 		{{ end }}
-		{{ if .IsPage }}
-		<script src="{{ .Site.BaseURL }}lib/highlight.min.js"></script>
-		<script>hljs.initHighlightingOnLoad();</script>
-		{{ end }}
-		<script src="{{ .Site.BaseURL }}lib/jquery/jquery.min.js"></script>
+
 		<script>
 			document.addEventListener("error", function (e) {
 			  var elem = e.target;
