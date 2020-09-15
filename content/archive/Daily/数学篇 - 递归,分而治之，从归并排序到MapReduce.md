@@ -1,5 +1,5 @@
 ---
-title: 数学篇 - 递归,分而治之，从归并排序到MapReduce
+title: 数学篇 - 递归,分而治之，从归并排序到MapReduce(笔记)
 tags: [Daily, 数学]
 slug: zr4ve5abfzg
 keywords: 人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课
