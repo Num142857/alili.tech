@@ -3,7 +3,7 @@ title: Switch XCI转NSP工具 4NXCI下载
 keywords: 'Nintendo,任天堂,Switch,破解,XCI转NSP,4NXCI,下载'
 hidden: true
 tags: [Game]
-slug: 150b3ba6
+slug: zzabj3gn1as
 date: 2020-02-02 19:02:36
 ---
 
