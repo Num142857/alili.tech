@@ -7,8 +7,8 @@ permalinks:
 params:
   Author : Fan
   subtitle: Hello Alili | 前端大爆炸! - WEB BANG! BANG!! BANG!!!
-  description: 前端大爆炸,一个以前端视角学习的技术博客. 此生理想、近期计划、今日功课。
-  keywords: [Hello Alili,前端大爆炸,WEB BANG BANG BANG,web前端博客,前端模块化,前端工程化,前端数据监控,性能优化,网页制作,前端,js,html5,css,踩坑小报告,微前端,树莓派,前端开发,区块链,网络,Mongodb,Vue.js,Angular.js,node.js]
+  description: '公众号: Alili丶前端大爆炸. 持续学习,持续写博客. 此生理想、近期计划、今日功课。'
+  keywords: [Hello Alili,前端大爆炸,WEB BANG BANG BANG,前端,前端博客,web前端博客,前端模块化,前端工程化,前端数据监控,性能优化,网页制作,前端,js,html5,css,踩坑小报告,微前端,树莓派,前端开发,区块链,网络,Mongodb,Vue.js,Angular.js,node.js]
   customize:
       gravatar:
           email: 
