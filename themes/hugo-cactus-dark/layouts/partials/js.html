@@ -1,12 +1,14 @@
 
 {{ if .IsHome }}
-<script src="{{ .Site.BaseURL }}lib/typed.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/typed.js/2.0.9/typed.min.js"></script>
+<!-- <script src="{{ .Site.BaseURL }}lib/typed.js"></script> -->
 {{ end }}
 
 {{ if .IsPage }}
 <script src="{{ .Site.BaseURL }}lib/highlight.min.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/justifiedGallery/3.6.1/js/jquery.justifiedGallery.min.js"></script>
+<!-- <script src="{{ .Site.BaseURL }}lib/justified-gallery/jquery.justifiedGallery.min.js"></script> -->
 {{ end }}
 
 
