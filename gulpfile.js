@@ -117,14 +117,29 @@ gulp.task('generate-service-worker', () => {
 
 
 
-gulp.task("default",gulpsync.sync([
-    'getTodayData',
-    'build',
-    'baiduSeo',
-    "generate-service-worker",
-    'minify',
-]))
 
+
+gulp.task('sendMessage', () => {
+    let msgUrl = 'https://xizhi.qqoq.net/XZ69d0fc72426ced1c020c56f9b045957e.send';
+    let data = {
+        title:"Hello Alili 博客部署成功",
+        content:`
+        世界上 ，没有一拳解决不了的事，
+        如果有，那就两拳 
+        ——– ONE PUNCH-MAN
+`
+
+    }
+    console.log("开始通知博主")
+    return  axios.post(msgUrl,data)
+      .then(function (response) {
+        console.log('通知完毕')
+      })
+      .catch(function (error) {
+        console.log('通知发送失败',error);
+      });
+
+    });
 
 
 function urlSubmit(urls) {
@@ -179,3 +194,19 @@ function urlSubmit(urls) {
     }
 
 };
+
+
+
+
+gulp.task("default",gulpsync.sync([
+    'getTodayData',
+    'build',
+    'baiduSeo',
+    "generate-service-worker",
+    'minify',
+    'sendMessage'
+]))
+
+
+
+
