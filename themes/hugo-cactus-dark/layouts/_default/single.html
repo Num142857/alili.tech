@@ -43,14 +43,17 @@
                             
                             {{ .Content }}
                             <h2> 微信公众号 </h2>
-                            <img src="https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/72402c4a1902a6c28faa936d2ac88608647dc120cc225e51afac10cfcb22e94d.png" />
+                            <!-- <img src="https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/e73110bce06db5cc2c08cf51551bd6093d5309560ac46ae02695959c80abec4e.png" /> -->
+                            <img src="https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/c2a91cfb597826a4b02b755746c300e00cc7728a9f5bac20bec538e8c76a443f.png" />
                             <h2> 本文链接：</h2>
                             <a href='{{.Permalink}}' target="_blank">{{.Permalink}}</a>
                     </div>
                   </article>
                   {{ partial "comments.html" . }}
-                  
+
+
                   {{ partial "latest-posts.html" . }}
+  
                   {{ if .Params.hidden }}
                   
                   {{ end }}

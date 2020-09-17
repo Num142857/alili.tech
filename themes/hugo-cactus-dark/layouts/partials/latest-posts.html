@@ -1,5 +1,7 @@
+
+<h1>{{ .Site.Params.readMore | default "# 最新文章" }}</h1>
 <ul id="more-post-list" class="archive readmore">
-    <h3>{{ .Site.Params.readMore | default "最新文章" }}</h3>
+   
 
     {{ $kind := where .Site.RegularPages "Section" "!=" "" }}
     {{ $othr := where $kind "URL" "!=" .URL }}
