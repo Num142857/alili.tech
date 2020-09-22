@@ -1,18 +1,3 @@
----
-title: 数学篇 - 树的深度优先搜索(笔记)
-tags: [Daily, 数学]
-slug: 5g1oligl91
-keywords: 人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课
-date: 2020-09-11 00:00:00
----
-
-## 如何使用递归和栈实现深度优先搜索？
-
-深度优先搜索的过程和递归调用在逻辑上是一致的。
-
-### 写一个 TreeNode类代码,支持插入节点
-
-```js
 class TreeNode {
     constructor(key){
         this.key = key;
@@ -24,21 +9,23 @@ class TreeNode {
         return node
     }
 }
-}
-```
 
-### 尝试创建一棵树
 
-```js
-let str = 'hello word'
+let str = 'ahello word'
 let str2 = 'abcdefg'
-
-// 根节点
+let str3 = 'abgfdgdg'
+let str4 = 'abgbvcnbv'
+let str5 = 'akjhkh'
 let root = new TreeNode("root")
-
+// console.log(root)
+// console.log(createTree(str,root))
+// console.log(createTree(str2,root))
 createTree(str,root)
-
 createTree(str2,root)
+createTree(str3,root)
+createTree(str4,root)
+createTree(str5,root)
+console.log(root.sons)
 
 function createTree(strs,parent){
     if(strs.length !==0){
@@ -49,6 +36,7 @@ function createTree(strs,parent){
         }else{
             let node = parent.insert(strs[0])
             let newStrs = strs.slice(1)
+            // console.log(newStrs)
             createTree(newStrs,node)
         }
       
@@ -57,17 +45,11 @@ function createTree(strs,parent){
         return root
     }
 }
-```
+dfsByStack(root)
 
 
-
-## 开始深度优先搜索
-
-```js
 // 使用栈来实现深度优先搜索
-// 大致思路是将所有的结点push到数组中,然后取最后一个处理,边删边处理.
-// 直到没有为止
-function dfsByStack(root) {
+function dfsByStack( root) {
     let stack = []; 
       // 创建堆栈对象，js使用数组代替堆栈,其中每个元素都是TreeNode类型
     stack.push(root);    // 初始化的时候，压入根结点
@@ -78,7 +60,7 @@ function dfsByStack(root) {
       // 已经到达叶子结点了，输出
         console.log('已经到达叶子结点',node.key)
     } else {
-      // 非叶子结点，遍历它的每个子结点
+      // 非叶子结点，遍历它的每个子结点      
       // 注意，这里使用了一个临时的栈stackTemp
       // 这样做是为了保持遍历的顺序，和递归遍历的顺序是一致的
       // 如果不要求一致，可以直接压入stack
@@ -96,4 +78,18 @@ function dfsByStack(root) {
     }
     }
   }  
-```
+
+
+  bfs(root.sons)
+function bfs(queue){
+    if(queue.length === 0){console.log('结束了');return;}
+    let tmpQueue = []
+    for (let index = 0; index < queue.length; index++) {
+        const element = queue[index];
+        console.log(element.key)
+        if(element.sons && element.sons.length){
+            tmpQueue.push(...element.sons)
+        }
+    }
+    bfs(tmpQueue)
+}
