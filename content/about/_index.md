@@ -93,6 +93,13 @@ hidden : true
  - [梦魇小栈](https://blog.ihoey.com)
  - [小丁的个人博客](https://tding.top)
  - [知与南](https://inner.ink)
+ - [小俊博客](https://www.xjisme.com)
+ - [大前端](http://www.daqianduan.com)
+ - [小刚的天堂](https://www.pokemon.vip)
+ - [我在人间凑数的日子](http://tantingfang.cn)
+ - [雨落泪尽](https://couqiao.net/)
+ - [轩枫阁](https://www.xuanfengge.com/)
+ - [一只羊博客](http://www.asheep.cn/)
 
 
 

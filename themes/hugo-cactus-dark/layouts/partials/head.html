@@ -24,7 +24,7 @@
 		<!-- Open Graph Protocol http://ogp.me/ -->
 		<meta property="og:locale" content="en_US">
 		<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-		<meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}images/logo2.png{{ end }}">
+		<meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}images/logo.png{{ end }}">
 		<meta property="og:description" content="{{if .IsPage}}{{substr .Summary 0 200}}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 		<meta property="og:site_name" content="{{ .Site.Title }}">
 
