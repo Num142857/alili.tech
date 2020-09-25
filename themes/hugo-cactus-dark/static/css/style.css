@@ -1645,3 +1645,10 @@ pre code {
         display: none;
     }
 }
+
+.content .tencent-ad{
+    padding-top: 10px;
+}
+.content .tencent-ad a{
+    background: none;
+}
