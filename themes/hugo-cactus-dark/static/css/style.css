@@ -1443,8 +1443,8 @@ pre {
     padding: 10px 15px 0;
     line-height: 22px;
     -webkit-border-radius: 4px;
-    border-radius: 4px;
-    background-color: #232527
+    border-radius: 10px;
+    background-color: #000
 }
 
 code {
@@ -1464,16 +1464,16 @@ pre code {
     overflow-x: auto;
     padding: 0.5em;
     /* background:#474949; */
-    color: #d1d9e1;
+    color: #EEE;
 }
 
 .hljs-comment,.hljs-quote {
-    color: #969896;
+    color: #aed99c;
     font-style: italic
 }
 
 .hljs-keyword,.hljs-selector-tag,.hljs-literal,.hljs-type,.hljs-addition {
-    color: #cc99cc
+    color: #ffa3ff
 }
 
 .hljs-number,.hljs-selector-attr,.hljs-selector-pseudo {
@@ -1485,7 +1485,7 @@ pre code {
 }
 
 .hljs-title,.hljs-name,.hljs-section,.hljs-built_in {
-    color: #b5bd68
+    color: #fffda0
 }
 
 .hljs-variable,.hljs-template-variable,.hljs-selector-id,.hljs-class .hljs-title {
