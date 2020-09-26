@@ -22,7 +22,6 @@
 {{ end }}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src=""></script>
 <script>
 (function(){
   if(location.host!=='alili.tech')return;
@@ -62,6 +61,7 @@
 
 <script>
   if ('serviceWorker' in navigator) {
+    if(location.host!=='alili.tech')return;
       window.addEventListener('load', () => {
           navigator.serviceWorker
               .register('/sw.js')
@@ -80,6 +80,7 @@
 <script>
   var _mtac = {};
   (function() {
+    if(location.host!=='alili.tech')return;
     var mta = document.createElement("script");
     mta.src = "//pingjs.qq.com/h5/stats.js?v2.0.4";
     mta.setAttribute("name", "MTAH5");
