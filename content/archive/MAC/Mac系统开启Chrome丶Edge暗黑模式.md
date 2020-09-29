@@ -3,7 +3,7 @@ title: Mac系统开启Chrome 跟 Edge的网页强制暗黑模式
 tags: [mac]
 slug: xewn7qbng4a
 keywords: Macbook,Pro,chrome,edge,暗黑模式
-date: 2020-09-16 22:30:05
+date: 2020-09-17 22:30:05
 ---
 
 ## 开启强制暗黑模式
