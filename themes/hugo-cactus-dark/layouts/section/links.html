@@ -1,0 +1,22 @@
+
+{{ partial "head.html" . }}
+
+<body>
+
+    <div class="content index width mx-auto px3 my4">
+        {{ partial "nav.html" . }}
+
+        <!-- {{ partial "profile.html" . }} -->
+
+        <article class="content" itemprop="articleBody">
+            <div class="content">
+                {{ .Content }}
+            </div>
+        </article>
+        {{ partial "comments.html" . }}
+    </div>
+    {{ partial "footer.html" . }}
+    {{ partial "js.html" . }}
+</body>
+
+</html>
