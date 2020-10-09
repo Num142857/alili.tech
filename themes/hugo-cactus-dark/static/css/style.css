@@ -1272,7 +1272,7 @@ article .content .caption {
 }
 
 .blog-post-comments.v * {
-    color: #c9cacc
+    color: #e3e3e6;
 }
 
 .blog-post-comments.v .vwrap {
@@ -1285,7 +1285,7 @@ article .content .caption {
 }
 
 .blog-post-comments.v .vempty pre {
-    color: #555
+    color: #e3e3e6
 }
 
 .blog-post-comments.v .vlist .vcard .vh .vmeta .vat,.blog-post-comments.v .vlist .vcard .vhead .vnick:hover {
