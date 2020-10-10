@@ -5,7 +5,7 @@ publish({
     entry: '.', // defaults to '.'
     output: '/',
     // include: /bin|cli|lib|index\.js$|\.md$/,
-    exclude: /.DS_Store$/,
+    exclude: /.DS_Store$|.git/,
     mime: (filename) => {
       if (/\.md$/.test(filename)) {
         return 'text/markdown'
