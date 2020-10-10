@@ -21,11 +21,12 @@ after_success:
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f
-    - git remote add coding ${CODING_REPO}
-    - git checkout --orphan latest_branch
-    - git add -A
-    - git commit -am "clear"
-    - git branch -D gh-pages
-    - git branch -m gh-pages
-    - git push -u coding gh-pages:master -f
+    - node oss.js
+    # - git remote add coding ${CODING_REPO}
+    # - git checkout --orphan latest_branch
+    # - git add -A
+    # - git commit -am "clear"
+    # - git branch -D gh-pages
+    # - git branch -m gh-pages
+    # - git push -u coding gh-pages:master -f
     # - curl -d "" ${DEPLOY_API}
