@@ -35,6 +35,10 @@ gulp.task('build',function(done){
     return gulp.src('./').pipe(shell(['hugo --buildFuture']))
 });
 
+gulp.task('deploy',function(done){
+    return gulp.src('./').pipe(shell(['node oss.js']))
+});
+
 gulp.task('baiduSeo', () => {
     fs.readFile(__dirname + '/public/sitemap.xml', function(err, data) {
         parser.parseString(data, function (err, result) {
@@ -130,7 +134,6 @@ gulp.task('sendMessage', () => {
         如果有，那就两拳 
         ——– ONE PUNCH-MAN
 `
-
     }
     console.log("开始通知博主")
     return  axios.post(msgUrl,data)

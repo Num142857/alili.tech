@@ -8,7 +8,7 @@ install:
     - npm install
     
 script:
-    # - cp -r ./backup/Reprint/* ./content/archive/
+    - cp -r ./backup/Reprint/* ./content/archive/
     - npm run build
     - echo 'Build done!'
 after_success:

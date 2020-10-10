@@ -20,14 +20,14 @@ publish({
       'Cache-Control': 'max-age=30672000'
     },
     rules: [
-    //   {
-    //   test: /(index\.html|service-worker\.js)$/,
-    //   use: {
-    //     headers: {
-    //       'Cache-Control': 'no-cache'
-    //     }
-    //   }
-    // }
+      {
+      test: /(index\.html|service-worker\.js)$/,
+      use: {
+        headers: {
+          'Cache-Control': 'no-cache'
+        }
+      }
+    }
   ],
     // config: '/path/to/config/file.js', // defaults to try load config from 'ali-oss-publish.config.js' when config is not set
     retry: 1,
