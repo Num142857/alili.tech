@@ -2,7 +2,7 @@ const publish = require('ali-oss-publish')
 
 
 publish({
-    entry: './container', // defaults to '.'
+    entry: '.', // defaults to '.'
     output: '/',
     include: /bin|cli|lib|index\.js$|\.md$/,
     exclude: /.DS_Store$/,
