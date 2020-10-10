@@ -4,7 +4,7 @@ const publish = require('ali-oss-publish')
 publish({
     entry: '.', // defaults to '.'
     output: '/',
-    include: /bin|cli|lib|index\.js$|\.md$/,
+    // include: /bin|cli|lib|index\.js$|\.md$/,
     exclude: /.DS_Store$/,
     mime: (filename) => {
       if (/\.md$/.test(filename)) {
@@ -19,14 +19,16 @@ publish({
     headers: {
       'Cache-Control': 'max-age=30672000'
     },
-    rules: [{
-      test: /(index\.html|service-worker\.js)$/,
-      use: {
-        headers: {
-          'Cache-Control': 'no-cache'
-        }
-      }
-    }],
+    rules: [
+    //   {
+    //   test: /(index\.html|service-worker\.js)$/,
+    //   use: {
+    //     headers: {
+    //       'Cache-Control': 'no-cache'
+    //     }
+    //   }
+    // }
+  ],
     // config: '/path/to/config/file.js', // defaults to try load config from 'ali-oss-publish.config.js' when config is not set
     retry: 1,
     concurrency: 4,
