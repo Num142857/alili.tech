@@ -18,10 +18,11 @@ after_success:
     - rm -rf container/*
     - cp -r public/* container 
     - cd container
+    - ls
+    - node oss.js
     - git add .
     - git commit -m 'Travis upate blog'
     - git push -u origin gh-pages -f
-    - node oss.js
     # - git remote add coding ${CODING_REPO}
     # - git checkout --orphan latest_branch
     # - git add -A
