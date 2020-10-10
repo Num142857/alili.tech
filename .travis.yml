@@ -8,7 +8,7 @@ install:
     - npm install
     
 script:
-    - cp -r ./backup/Reprint/* ./content/archive/
+    # - cp -r ./backup/Reprint/* ./content/archive/
     - npm run build
     - echo 'Build done!'
 after_success:
@@ -20,9 +20,9 @@ after_success:
     - cd container
     - ls
     - node oss.js
-    - git add .
-    - git commit -m 'Travis upate blog'
-    - git push -u origin gh-pages -f
+    # - git add .
+    # - git commit -m 'Travis upate blog'
+    # - git push -u origin gh-pages -f
     # - git remote add coding ${CODING_REPO}
     # - git checkout --orphan latest_branch
     # - git add -A
