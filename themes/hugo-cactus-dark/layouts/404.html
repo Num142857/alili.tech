@@ -260,9 +260,8 @@ function nes_load_url(canvas_id, path){
 
 document.addEventListener('keydown', (event) => {keyboard(nes.buttonDown, event)});
 document.addEventListener('keyup', (event) => {keyboard(nes.buttonUp, event)});
-
-    </script>
-    	<script>window.onload = function(){nes_load_url("nes-canvas", "https://alili.tech/super.nes");}</script>
+nes_load_url("nes-canvas", "https://alili.tech/super.nes");
+</script>
     {{ partial "footer.html" . }}
     {{ partial "js.html" . }}
 </body>
