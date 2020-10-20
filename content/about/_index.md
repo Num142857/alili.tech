@@ -101,6 +101,7 @@ hidden : true
  - [轩枫阁](https://www.xuanfengge.com/)
  - [一只羊博客](http://www.asheep.cn/)
  - [scarsu](https://www.scarsu.com//)
+ - [薛定喵君的博客](http://xuedingmiao.com/)
 
 
 
