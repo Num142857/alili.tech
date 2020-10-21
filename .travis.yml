@@ -28,4 +28,3 @@ after_success:
     - git branch -D gh-pages
     - git branch -m gh-pages
     - git push -u coding gh-pages:master -f
-    - curl -d "" ${DEPLOY_API}
