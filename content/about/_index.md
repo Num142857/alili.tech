@@ -79,7 +79,7 @@ hidden : true
 # 友情链接
 #### [自行添加](https://github.com/Fantasy9527/alili.tech/blob/master/content/about/_index.md)
 
-
+ - [pangzi](http://www.pangshuhai.com/)
  - [颜海镜](https://yanhaijing.com/)
  - [phith0n](https://www.leavesongs.com/)
  - [Web前端之家](http://www.jiangweishan.com/)
