@@ -1272,7 +1272,7 @@ article .content .caption {
 }
 
 .blog-post-comments.v * {
-    color: #e3e3e6;
+    color: #e3e3e6 !important;
 }
 
 .blog-post-comments.v .vwrap {
