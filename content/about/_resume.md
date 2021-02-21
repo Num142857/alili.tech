@@ -74,7 +74,7 @@ hidden: true
 - ESB企业服务总线的数据可视化
 
 ### 基础建设与其他事项
-- 搭建公司内部私有Npm服务器
+- 搭建公司内部私有npm服务器
 - 搭建部门前端团队的博客
 - 每周组织前端高质量的分享学习活动
 - 搭建内部Mock系统
@@ -95,13 +95,15 @@ hidden: true
 
 - 基于Angularjs兼容了旧的Ractive.js
 
-- 基于 requirejs,Angularjs实现了按需加载。 并且实现了Angularjs官方没有实现的第三方模块热加载功能。
+- 基于 requirejs,Angularjs实现了业务模块与官方没有实现的第三方模块按需加载。
 
 - 基于自动化工具,提取Angularjs所有的html模板文件合并到一个js文件里。当页面加载时，会把所有模板注入到Angularjs。
 
-- bower管理第三方库。用Grunt以及其插件实现代码的压缩,合并,丑化,自动依赖注入,编译less,postcss,文件名添加MD5后缀,自动构建压缩 zip,自动上传部署, 等一系列任务。
+- bower管理第三方库
 
-- 基于Gulp的请求代理
+- 基于Grunt实现代码的压缩,合并,丑化,自动依赖注入,less编译,文件名添加MD5后缀,自动构建压缩 zip,自动上传部署, 等一系列持续集成工作。
+
+- 基于Gulp的实现请求代理
 
 ### 其他项目
 - 食通宝微信(支付宝)点餐 （2015.12 ~ 2017.03）
@@ -128,16 +130,6 @@ hidden: true
 
 ---
 
-
-## 开源项目
-
- - [lotusjs-cli](https://fantasy9527.github.io/lotusjs-cli/#/)：前端通用脚手架管理工具
- - [lotus-scaffold-micro-frontend-portal](https://github.com/Fantasy9527/lotus-scaffold-micro-frontend-portal) : 微前端动态模块加载器
- - [micro-auto-config](https://github.com/Fantasy9527/micro-auto-config) : 微前端配置自动化工具
- - [lotus-scaffold-micro-antd](https://github.com/Fantasy9527/lotus-scaffold-micro-antd) : 微前端Antd脚手架
- - [lotus-scaffold-micro-react](https://github.com/Fantasy9527/lotus-scaffold-micro-react) : 微前端React脚手架
- - [lotus-scaffold](https://github.com/Fantasy9527/lotus-scaffold) : 脚手架初始化工具
- - [AliToSingn](https://github.com/Fantasy9527/AliToSign) :基于nodejs的阿里云API签名生成工具
 
 
 # 技能清单
