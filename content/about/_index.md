@@ -102,6 +102,7 @@ hidden : true
  - [一只羊博客](http://www.asheep.cn/)
  - [scarsu](https://www.scarsu.com//)
  - [薛定喵君的博客](http://xuedingmiao.com/)
+ - [杂烩饭](https://zahui.fan/)
 
 
 
