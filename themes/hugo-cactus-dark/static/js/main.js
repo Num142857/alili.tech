@@ -1,30 +1,34 @@
-if (!!$.prototype.justifiedGallery) { // if justifiedGallery method is defined
+if (!!$.prototype.justifiedGallery) {
+  // if justifiedGallery method is defined
   var options = {
     rowHeight: 140,
     margins: 4,
-    lastRow: 'justify'
+    lastRow: "justify",
   };
-  $('.article-gallery').justifiedGallery(options);
+  $(".article-gallery").justifiedGallery(options);
 }
 
 $(document).ready(function () {
   $("#menu > #nav").show();
   $("#menu-icon, #menu-icon-tablet").click(function () {
-    if ($('#menu').css('visibility') == 'hidden') {
-      $('#menu').css('visibility', 'visible');
-      $('#menu-icon, #menu-icon-tablet').addClass('active');
+    if ($("#menu").css("visibility") == "hidden") {
+      $("#menu").css("visibility", "visible");
+      $("#menu-icon, #menu-icon-tablet").addClass("active");
 
       var topDistance = $("#menu > #nav").offset().top;
 
-      if ($('#menu').css('visibility') != 'hidden' && topDistance < 50) {
+      if ($("#menu").css("visibility") != "hidden" && topDistance < 50) {
         $("#menu > #nav").show();
-      } else if ($('#menu').css('visibility') != 'hidden' && topDistance > 100) {
+      } else if (
+        $("#menu").css("visibility") != "hidden" &&
+        topDistance > 100
+      ) {
         $("#menu > #nav").hide();
       }
       return false;
     } else {
-      $('#menu').css('visibility', 'hidden');
-      $('#menu-icon, #menu-icon-tablet').removeClass('active');
+      $("#menu").css("visibility", "hidden");
+      $("#menu-icon, #menu-icon-tablet").removeClass("active");
       return false;
     }
   });
@@ -35,12 +39,15 @@ $(document).ready(function () {
   });
 
   if ($("#menu").length) {
-    $(window).on('scroll', function () {
+    $(window).on("scroll", function () {
       var topDistance = $("#menu > #nav").offset().top;
 
-      if ($('#menu').css('visibility') != 'hidden' && topDistance < 50) {
+      if ($("#menu").css("visibility") != "hidden" && topDistance < 50) {
         $("#menu > #nav").show();
-      } else if ($('#menu').css('visibility') != 'hidden' && topDistance > 100) {
+      } else if (
+        $("#menu").css("visibility") != "hidden" &&
+        topDistance > 100
+      ) {
         $("#menu > #nav").hide();
       }
 
@@ -56,7 +63,7 @@ $(document).ready(function () {
 
   if ($("#footer-post").length) {
     var lastScrollTop = 0;
-    $(window).on('scroll', function () {
+    $(window).on("scroll", function () {
       var topDistance = $(window).scrollTop();
 
       if (topDistance > lastScrollTop) {
@@ -83,29 +90,24 @@ $(document).ready(function () {
   }
 });
 
-
 $(function () {
-  if(location.pathname !=='/') return;
+  if (location.pathname !== "/") return;
   $.get("/data/today.json", function (data) {
-    var str =  data.content+'\n'
-    + data.translation+"\n---- "
-    
+    var str = (data.content || "") + "\n" + (data.translation || "");
+
     var options = {
-      strings: [ 
-        str + "Who??^1000",
-        str + "It's me ^3000",
-        str +'Haha, make a joke',
-        str +data.author,
-        // str+"Welcome to my blog. ^1000",
-        // str+"Here you can learn the JavaScript",
-        // str+"Here you can learn the Css",
+      strings: [
+        str + "Welcome to my blog. ^1000",
+        str + "Have a good day. ^1000",
+        str + "You can follow me on the Github. ^2000",
+        str + `\n----${data.author}. ^1000`,
       ],
       typeSpeed: 20,
-      startDelay:300,
+      startDelay: 300,
       // loop: true,
-    }
+    };
     var typed = new Typed(".description .typed", options);
-  })
+  });
 });
 
 // var _mtac = {};
@@ -129,20 +131,21 @@ $(function () {
 // });
 
 //  toc 里面是a标签问题
-$(function(){
-  if($("#toc li a")){
-    $("#toc a").each(function(index){
+$(function () {
+  if ($("#toc li a")) {
+    $("#toc a").each(function (index) {
       var ele = $(this);
-      if(ele.attr('href').indexOf('http') != -1){
-        ele.attr('href',ele.prev().attr('href'))
+      if (ele.attr("href").indexOf("http") != -1) {
+        ele.attr("href", ele.prev().attr("href"));
       }
-    })
-  
-    $("#TableOfContents ul").children().each(function(index){
-      if($(this).children('a').length===0){
-        $(this).addClass('no-before')
-      }
-    })
-  
+    });
+
+    $("#TableOfContents ul")
+      .children()
+      .each(function (index) {
+        if ($(this).children("a").length === 0) {
+          $(this).addClass("no-before");
+        }
+      });
   }
-})
+});
