@@ -52,7 +52,7 @@ gulp.task('baiduSeo', () => {
 
 
 gulp.task('getTodayData', () => {
-  return  axios.get('https://rest.shanbay.com/api/v2/quote/quotes/today/')
+  return  axios.get('https://apiv3.shanbay.com/weapps/dailyquote/quote/')
     .then(function (response) {
         fse.writeJsonSync('./static/data/today.json',response.data)
         console.log('今日骚话:',response.data.data.translation);
