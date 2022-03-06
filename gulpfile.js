@@ -54,8 +54,8 @@ gulp.task('baiduSeo', () => {
 gulp.task('getTodayData', () => {
   return axios.get('https://apiv3.shanbay.com/weapps/dailyquote/quote/')
     .then(function (response) {
-        fse.writeJsonSync('./static/data/today.json',response)
-        console.log('今日骚话:',response.content);
+        fse.writeJsonSync('./static/data/today.json',response.data)
+        console.log('今日骚话:',response.data.content);
     })
     .catch(function (error) {
       console.log('骚话获取失败',error);

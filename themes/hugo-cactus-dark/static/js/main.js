@@ -87,9 +87,6 @@ $(document).ready(function () {
 $(function () {
   if(location.pathname !=='/') return;
   $.get("/data/today.json", function (data) {
-    // var str =  data.content+'\n'
-    // + data.translation+"\n---- "
-    // +data.author +'\n'
     var str =  data.content+'\n'
     + data.translation+"\n---- "
     
