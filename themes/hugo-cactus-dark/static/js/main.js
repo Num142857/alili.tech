@@ -97,9 +97,9 @@ $(function () {
 
     var options = {
       strings: [
-        str + "Welcome to my blog. ^1000",
-        str + "Have a good day. ^1000",
-        str + "You can follow me on the Github. ^2000",
+        str + "\nWelcome to my blog. ^1000",
+        str + "\nHave a good day. ^1000",
+        str + "\nYou can follow me on the Github. ^2000",
         str + `\n---- ${data.author}. ^1000`,
       ],
       typeSpeed: 20,
