@@ -37,13 +37,7 @@ jobs:
         echo 'Build done!'
 
     - name: Deploy to GitHub Pages
-      run: |
-        git config --global user.email "incomparable9527@foxmail.com"
-        git config --global user.name "Fan"
-        git clone https://${{ secrets.GITHUB_TOKEN }}@github.com/Fantasy9527/alili.tech.git container
-        cp -r public/* container/
-        cd container
-        git add .
-        git commit -m 'GitHub Actions update blog'
-        git push -u origin gh-pages -f
-
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./public
