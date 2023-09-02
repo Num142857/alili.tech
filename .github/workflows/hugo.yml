@@ -15,6 +15,14 @@ jobs:
       with:
         node-version: '10.13.0'
 
+    - name: Cache Node Modules
+      uses: actions/cache@v2
+      with:
+        path: node_modules
+        key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.OS }}-node-
+
     - name: Install Hugo
       run: |
         wget https://github.com/gohugoio/hugo/releases/download/v0.51/hugo_0.51_Linux-64bit.deb
@@ -25,7 +33,6 @@ jobs:
       run: |
         rm -rf public
         npm install
-        # cp -r ./backup/Reprint/* ./content/archive/
         npm run build
         echo 'Build done!'
 
@@ -33,20 +40,10 @@ jobs:
       run: |
         git config --global user.email "incomparable9527@foxmail.com"
         git config --global user.name "Fan"
-        git clone https://${ACCESS_TOKEN}@github.com/Fantasy9527/alili.tech.git container
-        rm -rf container/*
-        cp -r public/* container 
+        git clone https://${{ secrets.GITHUB_TOKEN }}@github.com/Fantasy9527/alili.tech.git container
+        cp -r public/* container/
         cd container
         git add .
-        git commit -m 'Travis upate blog'
+        git commit -m 'GitHub Actions update blog'
         git push -u origin gh-pages -f
 
-    - name: Additional Deployment Steps
-      run: |
-        git remote add coding ${CODING_REPO}
-        git checkout --orphan latest_branch
-        git add -A
-        git commit -am "clear"
-        git branch -D gh-pages
-        git branch -m gh-pages
-        git push -u coding gh-pages:master -f
