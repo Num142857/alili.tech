@@ -5,7 +5,7 @@ let cos = new COS({
     SecretKey: process.env.TENCENT_SECRET_KEY
 });
 
-const bucket = 'serverless-page-bucket-5z6gco4t-1257581837'; 
+const bucket = '43f0-static-blog-6ggrjmvj11031e9d'; 
 const region = 'ap-shanghai'; 
 
 function uploadDirectory(directory) {
