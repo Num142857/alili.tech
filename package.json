@@ -24,13 +24,12 @@
     "workbox-build": "^3.6.3"
   },
   "dependencies": {
-    "ali-oss": "^6.11.1",
-    "ali-oss-publish": "^0.4.0",
     "axios": "^0.19.2",
     "fs-extra": "^9.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-shell": "^0.8.0",
     "xml2js": "^0.4.19",
-    "xmlhttprequest": "^1.8.0"
+    "xmlhttprequest": "^1.8.0",
+    "cos-nodejs-sdk-v5":"2.12.4"
   }
 }
