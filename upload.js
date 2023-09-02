@@ -5,8 +5,8 @@ let cos = new COS({
     SecretKey: process.env.TENCENT_SECRET_KEY
 });
 
-const bucket = 'YOUR_BUCKET_NAME-APPID'; 
-const region = 'YOUR_REGION'; 
+const bucket = 'serverless-page-bucket-5z6gco4t-1257581837'; 
+const region = 'ap-shanghai'; 
 
 function uploadDirectory(directory) {
     const fs = require('fs');
