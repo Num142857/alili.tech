@@ -1,0 +1,70 @@
+baseURL = "https://alili.tech/"
+languageCode = "zh"
+title = "Hello Alili"
+theme = "hugo-cactus-dark"
+defaultContentLanguage = "zh"
+[languages]
+  [languages.en]
+    contentDir = "content"
+    languageName = "English"
+    weight = 2
+
+  [languages.zh]
+    contentDir = "content"
+    languageName = "中文"
+    weight = 1
+    
+[permalinks]
+archive = "archive/:slug/"
+
+[params]
+Author = "Fan"
+subtitle = "Hello Alili | 前端大爆炸! - WEB BANG! BANG!! BANG!!!"
+description = '公众号: Alili丶前端大爆炸. 持续学习,持续写博客. 此生理想、近期计划、今日功课。'
+keywords = ["Hello Alili", "前端大爆炸", "WEB BANG BANG BANG", "前端", "前端博客", "web前端博客", "前端模块化", "前端工程化", "前端数据监控", "性能优化", "网页制作", "前端", "js", "html5", "css", "踩坑小报告", "微前端", "树莓派", "前端开发", "区块链", "网络", "Mongodb", "Vue.js", "Angular.js", "node.js"]
+
+[params.customize.gravatar]
+email = ""
+
+[params.customize.logo]
+enabled = true
+width = 50
+height = 50
+url = "/images/logo2.png"
+gravatar = false
+
+[params.customize.favicon.desktop]
+url = "/images/favicon.ico"
+gravatar = false
+
+[params.customize.favicon.android]
+url = "/images/favicon-192x192.png"
+gravator = false
+
+[params.customize.favicon.apple]
+url = "/images/favicon-192x192.png"
+gravator = false
+
+[params.customize.social_links]
+github = "http://github.com/Fantasy9527"
+# weibo = "http://weibo.com/u/1967233520"
+
+[params.plugins]
+disqus_shortname = "alili-tech"
+
+[params.miscellaneous.open_graph]
+fb_app_id = ""
+fb_admins = ""
+twitter_id = ""
+google_plus = ""
+
+[params.rss]
+rss = false
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
