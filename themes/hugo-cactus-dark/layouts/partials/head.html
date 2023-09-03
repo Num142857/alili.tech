@@ -1,73 +1,63 @@
 <!DOCTYPE html>
-<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
-	<head>
-		{{ .Hugo.Generator }}
-		<!-- so meta -->
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="HandheldFriendly" content="True">
-		<meta name="viewport" content="initial-scale=1,width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
-		<meta name="wap-font-scale" content="no">
-		<meta name="360-site-verification" content="0903ba33c82867d1f7bd8831e32a7e34" />
-		<meta name="sogou_site_verification" content="E8uWFBcf4a"/>
-		{{ if .Site.Params.enableTwitterCard }} 
-			{{ partial "twitter-cards.html" . }}
-		{{ end }}
-		
-		{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-		<meta name='description' itemprop="description" content="{{if .IsPage}}{{substr .Summary 0 200}}{{ else }}{{ .Site.Params.Description }}{{ end }}">
-		{{ if .Keywords }} 
-		<meta name="keywords" content="{{ delimit .Keywords ", " }}" >
-		{{else}}
-		<meta name="keywords" content="{{ delimit .Site.Params.Keywords ", " }}" >
-		{{ end }}
-		<!-- Open Graph Protocol http://ogp.me/ -->
-		<meta property="og:locale" content="en_US">
-		<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
-		<meta property="og:image" content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}images/logo.png{{ end }}">
-		<meta property="og:description" content="{{if .IsPage}}{{substr .Summary 0 200}}{{ else }}{{ .Site.Params.Description }}{{ end }}">
-		<meta property="og:site_name" content="{{ .Site.Title }}">
+<html {{ with .Site.LanguageCode }}lang="{{ . }}" {{ end }}>
 
-		<title>{{ if .IsHome }} Hello Alili | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ end }}</title>
-		<link  rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
-		<!-- <link rel="stylesheet" type="text/css" href="https://c.mipcdn.com/static/v1/mip.css"> -->
-		<link rel="manifest" href="/manifest.json">
-		<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
-		<!-- <link  rel="stylesheet" href="{{ .Site.BaseURL }}lib/font-awesome/css/font-awesome.min.css"> -->
-		<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}lib/meslo-LG/styles.css"> -->
-		<link href="https://cdn.bootcdn.net/ajax/libs/justifiedGallery/3.6.1/css/justifiedGallery.min.css" rel="stylesheet">
-		<!-- <link rel="stylesheet" href="{{ .Site.BaseURL }}lib/justified-gallery/justifiedGallery.min.css"> -->
+<head>
+	{{ .Hugo.Generator }}
+	<!-- so meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport"
+		content="initial-scale=1,width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<meta name="wap-font-scale" content="no">
+	<meta name="360-site-verification" content="0903ba33c82867d1f7bd8831e32a7e34" />
+	<meta name="sogou_site_verification" content="E8uWFBcf4a" />
+	{{ if .Site.Params.enableTwitterCard }}
+	{{ partial "twitter-cards.html" . }}
+	{{ end }}
 
-		<link rel="preload" href="{{ .Site.BaseURL }}css/style.css" as="style">
-		<!-- <link rel="preload" href="{{ .Site.BaseURL }}lib/meslo-LG/fonts/MesloLGS-Regular.woff" as="font" type="font/woff">
-		<link rel="preload" href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.6.3/fonts/fontawesome-webfont.woff2?v=4.6.3" as="font" type="font/woff2"> -->
-		<link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+	{{ with .Site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }}
+	<meta name='description' itemprop="description"
+		content="{{if .IsPage}}{{substr .Summary 0 200}}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+	{{ if .Keywords }}
+	<meta name="keywords" content="{{ delimit .Keywords " , " }}">
+	{{else}}
+	<meta name="keywords" content="{{ delimit .Site.Params.Keywords " , " }}">
+	{{ end }}
+	<!-- Open Graph Protocol http://ogp.me/ -->
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+	<meta property="og:image"
+		content="{{ if .Params.image }}{{.Site.BaseURL}}/images/{{.Params.image}}{{ else }}{{.Site.BaseURL}}images/logo.png{{ end }}">
+	<meta property="og:description"
+		content="{{if .IsPage}}{{substr .Summary 0 200}}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+	<meta property="og:site_name" content="{{ .Site.Title }}">
 
-		{{ if .Site.Params.enableRSS }}
-		<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
-		{{ end }}
+	<title>{{ if .IsHome }} Hello Alili | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG!
+		BANG!! BANG!!!{{ end }}</title>
+	<link rel="shortcut icon" href="{{ .Site.BaseURL }}images/favicon.ico">
+	<link rel="manifest" href="/manifest.json">
+	<link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcdn.net/ajax/libs/justifiedGallery/3.6.1/css/justifiedGallery.min.css" rel="stylesheet">
+	<link rel="preload" href="/css/style.css" as="style">
+	<link rel="stylesheet" href="/css/style.css">
 
-		{{ range .Site.Params.customCSS }}
-		<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
-		{{ end }}
-		<!-- <script src="{{ .Site.BaseURL }}lib/jquery/jquery.min.js"></script> -->
-		<script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-		<script>
-			document.addEventListener("error", function (e) {
-			  var elem = e.target;
-			  if (elem.tagName.toLowerCase() == 'img') {
-				elem.style.display='none'
-			  }
-			}, true);
-			</script>
-		<!-- <script type="application/ld+json">
-			{
-				"@context": "https://ziyuan.baidu.com/contexts/cambrian.jsonld",
-				"@id": "{{.Permalink}}",
-				"appid": "1613049289050283", 
-				"title": "{{ if .IsHome }}Alili|前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | 前端大爆炸! - WEB BANG! BANG!! BANG!!!{{ end }}", 
-				"images": [],
-				"pubDate": "{{ .Lastmod.Format "2006-01-02T15:04:05"}}"
-			} 
-			</script> -->
-	</head>
+	{{ if .Site.Params.enableRSS }}
+	<link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+	{{ end }}
+
+	{{ range .Site.Params.customCSS }}
+	<link rel="stylesheet" href="{{ $.Site.BaseURL }}{{ . }}">
+	{{ end }}
+	<!-- <script src="{{ .Site.BaseURL }}lib/jquery/jquery.min.js"></script> -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script>
+		document.addEventListener("error", function (e) {
+			var elem = e.target;
+			if (elem.tagName.toLowerCase() == 'img') {
+				elem.style.display = 'none'
+			}
+		}, true);
+	</script>
+</head>
