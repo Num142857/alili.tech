@@ -28,7 +28,7 @@ gulp.task('build', () => gulp.src('./').pipe(shell(['hugo --buildFuture'])));
 gulp.task('deploy', () => gulp.src('./').pipe(shell(['node oss.js'])));
 
 gulp.task('baiduSeo', async () => {
-    const data = fs.readFileSync(__dirname + '/public/sitemap.xml');
+    const data = fs.readFileSync(__dirname + '/public/zh/sitemap.xml');
     const result = await parser.parseStringPromise(data);
     urlSubmit(result.urlset.url);
 });
