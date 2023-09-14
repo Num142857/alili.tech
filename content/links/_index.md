@@ -28,7 +28,7 @@ hidden : true
  - [雨落泪尽](https://couqiao.net/)
  - [轩枫阁](https://www.xuanfengge.com/)
  - [一只羊博客](http://www.asheep.cn/)
- - [scarsu](https://www.scarsu.com//)
+ - [scarsu](https://www.scarsu.com/)
 
 
 
