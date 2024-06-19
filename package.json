@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Fantasy9527/alili.tech.git"
+    "url": "git+https://github.com/Num142857/alili.tech.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Fantasy9527/alili.tech/issues"
+    "url": "https://github.com/Num142857/alili.tech/issues"
   },
-  "homepage": "https://github.com/Fantasy9527/alili.tech#readme",
+  "homepage": "https://github.com/Num142857/alili.tech#readme",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-sync": "^0.1.4",

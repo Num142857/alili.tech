@@ -1,8 +1,8 @@
 name: Cactus Plus
 license: MIT
-licenselink: 'https://github.com/nodejh/hugo-theme-cactus-plus/blob/master/LICENSE.md'
+licenselink: "https://github.com/nodejh/hugo-theme-cactus-plus/blob/master/LICENSE.md"
 description: A minimalistic and responsive theme for bloggers.
-homepage: 'https://github.com/nodejh/hugo-theme-cactus-plus'
+homepage: "https://github.com/nodejh/hugo-theme-cactus-plus"
 tags:
   - blog
   - beautiful
@@ -20,10 +20,10 @@ features:
 min_version: 0.2
 author:
   name: Fan
-  homepage: 'https://github.com/nodejh'
+  homepage: "https://github.com/nodejh"
 original:
   - name: Cactus
-    homepage: 'https://themes.gohugo.io/cactus/'
-    repo: 'https://github.com/digitalcraftsman/hugo-cactus-theme'
-    projects_url: 'http://github.com/Fantasy9527'
+    homepage: "https://themes.gohugo.io/cactus/"
+    repo: "https://github.com/digitalcraftsman/hugo-cactus-theme"
+    projects_url: "http://github.com/Num142857"
     rss: false
