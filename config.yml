@@ -30,7 +30,7 @@ params:
           url: /images/favicon-192x192.png
           gravator: false
       social_links:
-          github: http://github.com/Fantasy9527
+          github: http://github.com/Num142857
         #   weibo: http://weibo.com/u/1967233520
   # RSS
   rss: false

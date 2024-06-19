@@ -1,13 +1,13 @@
 ---
 title: 让你的Hexo博客支持熊掌号URL自动推送,百度24小时收录
 tags: [SEO]
-keywords: 'Hexo,SEO,搜索引擎优化,百度,熊掌号,baidu,google,优化,曝光,推送'
+keywords: "Hexo,SEO,搜索引擎优化,百度,熊掌号,baidu,google,优化,曝光,推送"
 slug: 9d64fe09
 date: 2018-10-24 21:32:05
 ---
 
-百度推出熊掌号,为了让hexo支持熊掌号推送,我在 `hexo-baidu-url-submit` 这个插件的基础上加上了熊掌号推送功能.
-当天推送的24小时内会直接收录. 用这个,百度的收录速度是非常快的.
+百度推出熊掌号,为了让 hexo 支持熊掌号推送,我在 `hexo-baidu-url-submit` 这个插件的基础上加上了熊掌号推送功能.
+当天推送的 24 小时内会直接收录. 用这个,百度的收录速度是非常快的.
 
 以后再也不用等百度收录等到死也不会理你了.
 
@@ -16,10 +16,11 @@ date: 2018-10-24 21:32:05
 `package.json` 里面的内容改为
 
 ```
- "hexo-baidu-url-submit": "https://github.com/Fantasy9527/hexo-baidu-url-submit",
+ "hexo-baidu-url-submit": "https://github.com/Num142857/hexo-baidu-url-submit",
 ```
 
 ## baidu_url_submit 配置
+
 ```
 baidu_url_submit:
   count: 1000 ## 提交最新的一个链接
@@ -32,6 +33,7 @@ baidu_url_submit:
 ```
 
 ## deploy 配置
+
 ```
 deploy:
 - type: baidu_url_submitter # 百度
