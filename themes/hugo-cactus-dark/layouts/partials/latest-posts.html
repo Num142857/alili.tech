@@ -1,0 +1,22 @@
+
+<h1>{{ .Site.Params.readMore | default "# Latest Articles" }}</h1>
+<ul id="more-post-list" class="archive readmore">
+
+    {{ $enSite := index (where .Site.Sites "Language.Lang" "eq" "en") 0 }}
+    {{ if not $enSite }}
+        {{ $enSite = .Site }}
+    {{ end }}
+    {{ $kind := where $enSite.RegularPages "Section" "!=" "" }}
+    {{ $othr := where $kind "Permalink" "!=" .Permalink }}
+    {{ range first 10 $othr }}
+        <li>
+            <a href="{{ if hasPrefix .RelPermalink "/en" }}{{ .RelPermalink }}{{ else }}/en{{ .RelPermalink }}{{ end }}">{{ .LinkTitle }}<aside class="dates">{{ .Date.Format "2006-01-02" }}</aside></a>
+        </li>
+    {{ end }}
+</ul>
+
+
+<!-- <h2> # Limited Time Offer:</h2>
+<div class="archive tencent-ad">
+<a href="https://curl.qcloud.com/uZMi8l4z"> <img src='https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/4e5895da9441d39afbf66e57b51b032c993916abb42feca1f7ca5e9cdb96fb64.jpg' /></a>
+</div>  -->

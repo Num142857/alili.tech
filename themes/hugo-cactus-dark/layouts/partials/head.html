@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="{{ .Lang }}">
+
+<head>
+	{{ hugo.Generator }}
+	<!-- so meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="HandheldFriendly" content="True">
+	<meta name="viewport"
+		content="initial-scale=1,width=device-width,minimum-scale=1.0, maximum-scale=1.0,user-scalable=no" />
+	<meta name="wap-font-scale" content="no">
+	<meta name="360-site-verification" content="0903ba33c82867d1f7bd8831e32a7e34" />
+	<meta name="sogou_site_verification" content="E8uWFBcf4a" />
+	{{ if .Site.Params.enableTwitterCard }}
+	{{ partial "twitter-cards.html" . }}
+	{{ end }}
+
+	{{ with .Site.Params.author }}
+	<meta name="author" content="{{ . }}">{{ end }}
+	<meta name='description' itemprop="description"
+		content="{{if .IsPage}}{{ truncate 200 .Summary }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+	{{ if .Params.keywords }}
+	<meta name="keywords" content="{{ delimit .Params.keywords " , " }}">
+	{{else}}
+	<meta name="keywords" content="{{ delimit .Site.Params.keywords " , " }}">
+	{{ end }}
+	{{ if .IsTranslated }}
+	{{ range .Translations }}
+	<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+	{{ end }}
+	<link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+	{{ end }}
+	<!-- Open Graph Protocol http://ogp.me/ -->
+	<meta property="og:locale" content="{{ if eq .Lang "zh" }}zh_CN{{ else }}en_US{{ end }}">
+	<meta property="og:title" content="{{ if .Title }}{{ .Title }}{{ else }}{{ .Site.Title }}{{ end }}">
+	<meta property="og:image"
+		content="{{ if .Params.image }}{{ absURL (printf "/images/%s" .Params.image) }}{{ else }}{{ absURL "/images/logo.png" }}{{ end }}">
+	<meta property="og:description"
+		content="{{if .IsPage}}{{ truncate 200 .Summary }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
+	<meta property="og:site_name" content="{{ .Site.Title }}">
+
+	<title>{{ if .IsHome }}Hello Alili | Front-end Explosion! - WEB BANG! BANG!! BANG!!!{{ else }}{{ .Title }} | Front-end Explosion! - WEB BANG! BANG!! BANG!!!{{ end }}</title>
+	<link rel="shortcut icon" href="{{ absURL "/images/favicon.ico" }}">
+	<link rel="manifest" href="/manifest.json">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/justifiedGallery/3.8.1/css/justifiedGallery.min.css" rel="stylesheet">
+	<link rel="preload" href="/css/style.css" as="style">
+	<link rel="stylesheet" href="/css/style.css">
+
+	{{ if .Site.Params.enableRSS }}
+	{{ with .OutputFormats.Get "RSS" }}
+	<link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}" />
+	{{ end }}
+	{{ end }}
+
+	{{ range .Site.Params.customCSS }}
+	<link rel="stylesheet" href="{{ relURL . }}">
+	{{ end }}
+	<!-- <script src="{{ absURL "/lib/jquery/jquery.min.js" }}"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script>
+		document.addEventListener("error", function (e) {
+			var elem = e.target;
+			if (elem.tagName.toLowerCase() == 'img') {
+				elem.style.display = 'none'
+			}
+		}, true);
+	</script>
+</head>

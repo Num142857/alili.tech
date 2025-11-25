@@ -1,0 +1,41 @@
+<div id="theme-tagcloud" class="tagcloud-wrap">
+    {{ $tags := $.Site.Taxonomies.tags.Alphabetical }}
+    {{ $v1 := where $tags "Count" ">=" 2 }}
+    {{ $v2 := where $v1 "Term" "not in" (slice  "tags" "rss" "weekly") }}
+    {{ range $v2 }}
+    {{ if .Term }}
+    {{ $tagURL := printf "tags/%s" (.Term | urlize) | relURL }}
+
+    {{$tagSize := 12}}
+    {{if gt .Count 5}}
+    {{ $tagSize = 16 }}
+    {{end}}
+
+    {{if gt .Count 10}}
+    {{ $tagSize = 22 }}
+    {{end}}
+
+    {{if gt .Count 20}}
+    {{ $tagSize = 24 }}
+    {{end}}
+
+    {{if gt .Count 30}}
+    {{ $tagSize = 26 }}
+    {{end}}
+
+    {{if gt .Count 45}}
+    {{ $tagSize = 28 }}
+    {{end}}
+
+    {{if gt .Count 65}}
+    {{ $tagSize = 30 }}
+    {{end}}
+
+    <a href="{{ $tagURL }}" style="font-size:{{ $tagSize }}px; text-transform:capitalize;">
+        {{ .Term }}<!-- <span class="badge">({{ .Count }})</span> --> 
+    </a>
+        
+   
+    {{ end }}
+    {{ end }}
+</div>

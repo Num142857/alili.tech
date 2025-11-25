@@ -1,0 +1,380 @@
+[
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/English/Long Time No See.md",
+    "relativePath": "English/Long Time No See.md",
+    "title": "Long Time No See",
+    "date": "2024-06-19T19:02:36.000Z",
+    "slug": "4idr9m2kjll",
+    "category": "English",
+    "content": "\nHello everyone,\n\nIt's been almost three years since I last updated my blog. So much has changed since then. I want to share some of my recent experiences with you.\n\nFirst, my whole family and I have moved to a new country. It was a big change for us. We are still getting used to everything.\n\nIn my job, I've noticed that front-end technology is not as demanding as I thought it would be. Instead, good communication in English has become the most important skill for me. English is now the main barrier in my life. It affects my job, my promotion, and everything in my career.\n\nSo, I have decided to start learning English every day. I must get back into study mode and solve this problem quickly. Improving my English is my top priority now.",
+    "frontMatter": {
+      "title": "Long Time No See",
+      "keywords": "English",
+      "tags": [
+        "English"
+      ],
+      "slug": "4idr9m2kjll",
+      "date": "2024-06-19T19:02:36.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/macOS/Mac 最小化所有应用快捷键.md",
+    "relativePath": "macOS/Mac 最小化所有应用快捷键.md",
+    "title": "Mac 最小化所有应用快捷键",
+    "date": "2021-03-31T22:30:05.000Z",
+    "slug": "ry80uk3igi",
+    "category": "macOS",
+    "content": "\n平时使用Mac 的时候,桌面太多的应用窗口.\n\n一直以来没办法跟windows一样可以一键显示桌面.\n\n研究了一下,在Mac上还是有办法做到一样的效果的.\n\n```\nCommand+Option+H+M\n```",
+    "frontMatter": {
+      "title": "Mac 最小化所有应用快捷键",
+      "tags": [
+        "mac"
+      ],
+      "slug": "ry80uk3igi",
+      "keywords": "Macbook,Pro,蓝牙,不可用,问题",
+      "date": "2021-03-31T22:30:05.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Taro/8.使用Taro开发各端的顺序建议.md",
+    "relativePath": "Taro/8.使用Taro开发各端的顺序建议.md",
+    "title": "使用Taro开发各端的顺序建议",
+    "date": "2020-12-16T22:17:36.000Z",
+    "slug": "hm5dl5tsw3k",
+    "category": "Taro",
+    "content": "\n\n## 以最小成本开发Taro各端\n\n现在公司里面的所有小程序,快应用,rn等等都在使用Taro在开发.\n\n如果只兼容一端的话,使用Taro开发,没有任何问题.\n\n但是又想一次开发,各端正常运行的话,在很多的细节上是要花一点心思的.\n\n每一端有每一端的难.\n\n## 开发难度排序\n\n华为快应用 > 快应用 > React Native > Swan小程序 > 微信小程序 > H5\n\n### 关于快应用\n\n在开发过程中,如果有涉及到快应用的业务,建议优先开发快应用.\n\n快应用的布局标准跟js容器环境跟其他的小程序或者是H5有一定的差异.\n\n并且华为快应用与其他快应用有很多莫名其妙的差异.\n\n如果涉及到快应用,请谨慎对待开发时间.\n\n目前看来,快应用的对UI布局的支持与小程序有一定的差异.虽然使用Taro的样式区分,快应用与小程序确实可以使用一套同样的代码同时跑在两端上.\n\n但是在开发过程中,他们之间的差异有太多意想不到(快应用不符合W3C规范)的差异,建议UI布局相关的代码,各端单独布局.业务相关的可以使用一套代码. 就是布局样式独立,行为保持一致.\n\n不然会花掉太多的布局差异抹平的工作.\n\n\n### 关于React Native\n\nReact Native在UI布局上也只是部分支持W3C标准.虽然布局上不能跟小程序H5一样灵活,\n\n对比起快应用来,并不会多出一个要额外兼容的华为快应用.\n\n目前Taro封装的React Native的特性与小程序是非常接近的,\n如果不过多调用太多冷门的API,基本上还是可以独立开发完成大部分UI编程.\n\n如果RN想要调用原生APP的组件,在目前开来会带来相当大的沟通成本.\n\n在开发中本身ios与安卓就有一定的特性差异,放到RN里实现后又会带来其他的差异.\n\n并且开发人员从一个人变成了三个人.\n\n如果桥接的组件太过于复杂,开发人员可能会有一种还不如自己独立开发的抱怨.\n\n这个时候多端一起开发,时间不一定会比独立开发要快.\n\n\n\n### 关于 Swan小程序\n\nSwan小程序与微信小程序已经非常接近了.\n\n就我们现有业务来说除了wifi不能实现以外,其他的基本上都跟微信小程序保持了一致.\n\n目前开发中,IDE的卡顿是Swan小程序最不好的开发体验.\n\n迭代中,swan小程序的基础库兼容方面也做得不是很好,\n\n好几次遇到莫名其妙的问题,都是因为基础库兼容不好导致的.\n\n\n\n\n\n\n",
+    "frontMatter": {
+      "title": "使用Taro开发各端的顺序建议",
+      "tags": [
+        "Taro",
+        "Cross-platform-Development",
+        "Front-end-Architecture"
+      ],
+      "slug": "hm5dl5tsw3k",
+      "keywords": "Taro,多端同构,Front-end-Architecture,多端开发技巧,跨端开发",
+      "date": "2020-12-16T22:17:36.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Taro/7.使用Taro开发的快应用如何优化体积.md",
+    "relativePath": "Taro/7.使用Taro开发的快应用如何优化体积.md",
+    "title": "使用Taro开发的快应用如何优化体积",
+    "date": "2020-12-15T22:17:36.000Z",
+    "slug": "n1j1l1fvzbb",
+    "category": "Taro",
+    "content": "\n\n## 快应用重复打包问题\n\n使用Taro开发快应用,有一个问题绝对不能忽视,那就是体积问题.\n\n因为快应用打包的特性(1080以下)多个页面里,如果重复应用了一个第三方库,那么这个库的代码会一起打到这个页面中,导致一样的代码会存在多个页面中.\n\n因为目前1080版本的快应用没有全面铺开.如果你贸然升级自己快应用的最低平台版本号为1080.\n你将会失去大量低版本的用户.\n\n\n## 官方给出的解决方案 (1080以下版本)\n\n当然快应用官方也意识到了这个问题,给出了最早期的解决方案.\n\n那就是将多个页面会依赖到的代码,全部在快应用初始化的时候挂载到全局变量上面.\n\n其他页面使用的时候,直接引用全局变量就可以了.\n\n\n```js\n// 入口文件\nimport day from 'day';\n\nconst globalRef = Object.getPrototypeOf(global) || global;\nglobalRef.day = day;\n```\n\n```js\n// 页面使用\nconst globalRef = Object.getPrototypeOf(global) || global\nconst day = globalRef.day\n\nday()\n```\n\n\n## 分析项目使用了哪些公共代码\n\n重复打包的内容,npm依赖会占大头,也有可能是自己写的公共代码.\n\n### 我们的项目用到了哪些npm依赖?\n\nTaro打包之后,`dist/quickapp` 下的构建产物会单独把所有项目能用到的npm包放到 `src/npm/` 目录下.\n\n### 公共代码分析\n\n只要一个js被多个page引用,就必须会造成重复打包的问题.\n\n\n## 使用Taro的 alias 特性解决重复打包的问题\n\nalias 是应用路径别名的特性,他的实现原理很简单,在config文件中制定好路径替换规则.\n\n在taro打包的时候,直接替换应用路径成为正确的应用路径就可以了.\n\n```js\n{    \n  '@src': 'src',\n  '@plugin': 'src/plugin',\n  '@components': 'src/components',\n}\n```\n\n### 如何使用alias解决我们的打包问题\n既然 alias有替换应用路径的问题,再加上我们的第三方库只要挂载到全局变量中就可以让所有页面都可以使用到.\n\n两个特性结合起来的解决方案就是这样的.\n\n#### 第一步,修改npm的alias\n\n为什么要这样做,看到第二步你就会明白.\n\n> classnames.ex 文件为classnames的映射文件.\n\n\n```js\n{\n    'classnames': 'src/replacement/classnames.ex',\n    'prop-types': 'src/replacement/prop-types.ex',\n    'mobx': 'src/replacement/mobx.ex',\n}\n```\n\n#### 第二步, 制作替身依赖\n\n1. 拷贝 `dist/quickapp/src/npm` 中的内容到`src/replacement/npm`中.\n2. 在`src/replacement`下新建一个`index.js`文件,大致内容如下\n\n```js\nimport crypt from './npm/crypt/crypt'\nimport classnames from './npm/classnames'\n\n\nconst globalRef = Object.getPrototypeOf(global) || global\n\nglobalRef.classnames = classnames;\nglobalRef.crypt = crypt;\n```\n\n3. 制作npm依赖映射的文件\n\n看到这一步,你应该就会明白为什么alias为什么会将正常的npm依赖路径替换到一个映射文件.\n\n所有页面的对classnames的引用,都将是从全局变量中获取.\n```js\n// src/replacement/classnames.ex\nconst globalRef = Object.getPrototypeOf(global) || global;\nexport default globalRef.classnames;\n```\n\n\n#### 第三步, 在app.js中引用 `replacement`\n\n```js\nimport Taro, { Component } from '@tarojs/taro';\n\nimport './replacement';\n// replacement的引用,必须要放在@tarojs/taro应用的后一句\n// 务必在最前初始化自己的代码.\n// 避免引用顺序的问题,导致其他的第三方库不能正常使用依赖\n\n```\n\n这样我们就可以完美绕过重复打包的问题\n\n## 1080+版本官方支持js独立打包\n\n官方在1080+的版本中提供了js独立打包的方法.\n\n具体使用方法可以去官方文档查看,这里就不过多赘述了.\n\nhttps://doc.quickapp.cn/framework/js-split.html",
+    "frontMatter": {
+      "title": "使用Taro开发的快应用如何优化体积",
+      "tags": [
+        "Taro",
+        "Cross-platform-Development",
+        "Front-end-Architecture"
+      ],
+      "slug": "n1j1l1fvzbb",
+      "keywords": "Taro,多端同构,Front-end-Architecture,多端开发技巧,跨端开发",
+      "date": "2020-12-15T22:17:36.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/AI/1.TensorFlow中的Tensor是什么.md",
+    "relativePath": "AI/1.TensorFlow中的Tensor是什么.md",
+    "title": "TensorFlow中的Tensor是什么?",
+    "date": "2020-09-18T00:00:00.000Z",
+    "slug": "eujpibnlnp8",
+    "category": "AI",
+    "content": "\n\n## Tensor(张量)\n\n“张量”一词最初由威廉·罗恩·哈密顿在1846年引入。对，就是那个发明四元数的哈密顿：\n\n![图 3](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/643fca018187d79da1be1bc50f3beb7544c7ff56ffd50d0b4d332952034daa1b.png)  \n\n\n* Tensor实际上就是一个多维数组（multidimensional array）\n\n* Tensor的目的是能够创造更高维度的矩阵、向量。\n\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/61f12309aef252eb15cb7e168026f7bab180ea4a8cca2726d0ae4454c6003ba6.png)  \n\n\n### 色彩的例子\n彩色图像文件（RGB）一般都会处理成3-d tensor，每个2d array中的element表示一个像素，R代表Red，G代表Green，B代表Blue\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/9d8d1f97a751a320d7ba127a3722691950609d6e21edc6fc1e983923d72096c8.png)  \n\n\n\n\n## 多维数组\n\n![图 4](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/6e86be5b727b21425ed87b5d2971b5f6ea9fa38cfe56455931faacd288085206.png)  \n\n\n把三维张量画成一个立方体：\n\n![图 5](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/0a29499dadc3caf5094316c2a6570a54489f552f36989a67590a2e717b654278.png)  \n\n\n更高维的张量:\n\n![图 6](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/f0cd642725a7b5b30592837c1fe8ec518816a170e57f74e577f1dfbcfaf6bb06.png)  \n\n\n\n## 初始化一个向量\n\n### 0维\n\n```js\ntf.tensor(1).print();\n```\n\n### 1维\n\n```js\ntf.tensor([1, 2, 3, 4]).print();\n// or\ntf.tensor1d([1, 2, 3]).print();\n```\n\n### 2维\n\n```js\ntf.tensor([[1, 2], [3, 4]]).print();\n// or\ntf.tensor2d([[1, 2], [3, 4]]).print();\n```\n\n### 3维\n\n```js\ntf.tensor([[[1], [2]], [[3], [4]]]).print();\n// or\ntf.tensor3d([[[1], [2]], [[3], [4]]]).print();\n```\n\n### 4维\n\n```js\ntf.tensor([[[[1], [2]], [[3], [4]]]]).print();\n// or\ntf.tensor4d([[[[1], [2]], [[3], [4]]]]).print();\n```\n\n\n### 5维\n\n```js\ntf.tensor([[[[[1], [2]], [[3], [4]]]]]).print();\n// or\ntf.tensor5d([[[[[1], [2]], [[3], [4]]]]]).print();\n```\n\n\n### 6维\n\n```js\ntf.tensor([[[[[[1],[2]],[[3],[4]]],[[[5],[6]],[[7],[8]]]]]]).print();\n// or\ntf.tensor6d([[[[[[1],[2]],[[3],[4]]],[[[5],[6]],[[7],[8]]]]]]).print();\n```\n\n\n",
+    "frontMatter": {
+      "title": "TensorFlow中的Tensor是什么?",
+      "tags": [
+        "Daily",
+        "AI"
+      ],
+      "slug": "eujpibnlnp8",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-18T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/macOS/Mac系统开启Chrome丶Edge暗黑模式.md",
+    "relativePath": "macOS/Mac系统开启Chrome丶Edge暗黑模式.md",
+    "title": "Mac系统开启Chrome 跟 Edge的网页强制暗黑模式",
+    "date": "2020-09-17T22:30:05.000Z",
+    "slug": "xewn7qbng4a",
+    "category": "macOS",
+    "content": "\n## 开启强制暗黑模式\n\n### Chrome\n进入浏览器,地址栏输入:\n\n```bash\nchrome://flags/#enable-force-dark\n```\n\n### Edge\n\n进入浏览器,地址栏输入:\n\n```bash\nedge://flags/#enable-force-dark\n```\n\n\n### 操作\n\n将第一项 Disabled 改成 Enabled,然后重启浏览器\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/5993f9393f0452e64281d912952d43d05ca1d0e7077ff83eaba4317c97047fa8.png)  \n\n\n生效:\n\n\n![图 3](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/cdb9fe5995ddf99bd6282102f9126e5ec34558bb599385cd95c5a598063e2395.png)  \n",
+    "frontMatter": {
+      "title": "Mac系统开启Chrome 跟 Edge的网页强制暗黑模式",
+      "tags": [
+        "mac"
+      ],
+      "slug": "xewn7qbng4a",
+      "keywords": "Macbook,Pro,chrome,edge,暗黑模式",
+      "date": "2020-09-17T22:30:05.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/macOS/Mac系统如何关掉Chrome的跨域限制.md",
+    "relativePath": "macOS/Mac系统如何关掉Chrome的跨域限制.md",
+    "title": "Mac系统如何关掉Chrome的跨域限制",
+    "date": "2020-09-16T22:30:05.000Z",
+    "slug": "leqgfwbuko",
+    "category": "macOS",
+    "content": "\n## 关掉Chrome 跨域限制\n\n因为调试经常需要Chrome关掉跨域限制,网上的方法大多是windows的,\n\n这里今天记录一下:\n\n```bash\nopen -n -a /Applications/Google\\ Chrome.app/Contents/MacOS/Google\\ Chrome \\\n--args --user-data-dir=\"/tmp/chrome_dev_test\" --disable-web-security\n```",
+    "frontMatter": {
+      "title": "Mac系统如何关掉Chrome的跨域限制",
+      "tags": [
+        "mac"
+      ],
+      "slug": "leqgfwbuko",
+      "keywords": "Macbook,Pro,chrome,跨域,问题",
+      "date": "2020-09-16T22:30:05.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/15.数学篇 - 数据结构丶编程语句丶基础算法与数学.md",
+    "relativePath": "Math/15.数学篇 - 数据结构丶编程语句丶基础算法与数学.md",
+    "title": "数学篇 - 数据结构丶编程语句丶基础算法与数学的关系(笔记)",
+    "date": "2020-09-15T00:00:00.000Z",
+    "slug": "97enyq3a3m",
+    "category": "Math",
+    "content": "\n看到很多人说,数据结构,算法不能算作数学.\n\n> 不同的数据结构，都是在编程中运用数学思维的产物。\n> 每种数据结构都有自身的特点，有利于我们更方便地实现某种特定的数学模型.\n\n## 数据结构\n\n> 别小看这些数据结构，它们其实就是一个个解决问题的“模型”\n\n### 数组 (Array)\n\n特点: 可以通过下标，直接定位到所需的数据,适合随机访问.常常和循环语句相结合，来实现迭代法，例如二分查找、斐波那契数列等等\n\n缺点: 数组只对稠密的数列更有效。如果数列非常稀疏，那么很多数组的元素就是无效值，浪费了存储空间。此外，数组中元素的插入和删除也比较麻烦，需要进行数据的批量移动。\n\n如何解决稀疏数列问题: `链表`\n\n\n### 链表 (Linked List)\n\n链表中的结点存储了数据，而链表结点之间的相连关系，在 `JavaScript` 语言中是通过对象引用来实现的。\n\n特点: 不能通过下标来直接访问数据，而是必须按照存储的结构逐个读取\n\n优势: 不必事先规定数据的数量，也不再需要保存无效的值，表示稀疏的数列时可以更有效的利用存储空间，同时也利于数据的动态插入和删除\n\n缺点: 于数组而言，链表无法支持快速地随机访问，进行读写操作时就更耗时\n\n### 哈希表 (Hash)\n\n哈希表就可以通过数组和链表来构造,之前我们通过`余数`来实现哈希表.\n\n优势：如果关键字已知则存取速度极快，插入块\n\n缺点：删除慢，如果不知道关键则存取很慢，对存储空间使用不充分,会出现哈希冲突\n\n\n### 树 (Tree)\n\n优点：查找，插入，删除都快，树总是平衡的。类似的树对磁盘存储有用,不会出现哈希冲突\n\n缺点：算法复杂\n\n### 图(Graph)\n\n图是另一种非线性数据结构。在图结构中，数据结点一般称为顶点，而边是顶点的有序偶对。如果两个顶点之间存在一条边，那么就表示这两个顶点具有相邻关系\n\n### 栈 ( Stack)\n\n先进后出的。在我们进行函数递归的时候，函数调用和返回的顺序，也是先进后出，所以，栈体现了递归的思想，可以实现基于递归的编程\n\n### 队列 (Queue)\n\n先进先出的数据结构，先进入队列的元素会优先得到处理.\n\n在消息队列中,实现了生产者和消费者的松耦合，对消费者起到了保护作用，使它不容易被数据洪流冲垮。\n\n\n\n## 编程语句\n\n### 布尔表达式\n体现了逻辑代数中逻辑和集合的概念\n\n```js\nif(表达式) {函数体1} else {函数体2} // 若表达式为真，执行函数体1，否则执行函数体2。\n```\n\n## 循环语句\n\n循环语句是`迭代法（Newton's method）`的体现\n\n## 函数的调用\n\n可以调用自己，也可以调用其他不同的函数。如果不断地调用自己，这就体现了`递归`的思想。\n\n\n### SQL 语言中的 Join 操作\n\nJoin 有多种类型，每种类型其实都对应了一种`集合的操作`。\n\n\n\n## 基础算法\n\n### 算法复杂度分析\n\n`四则运算`、`主次分明`、`齐头并进`、`排列组合`、`一图千言`和`时空互换`。\n\n这些法则体现了数学中的`运算优先级`、`数量级`、`多元变量`、`图论`等思想\n\n\n## 总结\n\n在平时学习编程的时候，你可以多从数学的角度出发，思考其背后的数学模型。\n\n这样不仅有利于你对现有知识的融会贯通，还可以帮助你优化数据结构和算法",
+    "frontMatter": {
+      "title": "数学篇 - 数据结构丶编程语句丶基础算法与数学的关系(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "97enyq3a3m",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-15T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/14.数学篇 - 朴素贝叶斯分类算法.md",
+    "relativePath": "Math/14.数学篇 - 朴素贝叶斯分类算法.md",
+    "title": "数学篇 - 朴素贝叶斯(Naive Bayes)分类算法(笔记)",
+    "date": "2020-09-14T00:00:00.000Z",
+    "slug": "6iwpimvelxh",
+    "category": "Math",
+    "content": "\n## 朴素贝叶斯(Naive Bayes)\n\n> “用客观的新信息更新我们最初关于某个事物的信念后，我们就会得到一个新的、改进了的信念。”\n>  ---- 数学家托马斯·贝叶斯(Thomas Bayes，1702～1761)\n\n当你不能准确知悉一个事物的本质时，你可以依靠与事物特定本质相关的事件出现的多少去判断其本质属性的概率。\n\n支持某项属性的事件发生得愈多，则该属性成立的可能性就愈大。\n\n\n1774年，法国数学家皮埃尔-西蒙·拉普拉斯(Pierre-Simon Laplace，1749-1827)独立地再次发现了贝叶斯公式。\n\n\n![图 16](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/3d6c983eec1f9283cb79904d2cc4cc1c7ee9654d73874ce1daf498b94fd23358.png)  \n\n换种写法:\n\n![图 17](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/a1ace7950302e8e260f8397ea6c765ad2affa502ebc48d64f8b437e03eaf57ac.png)  \n\n\n\n\n## 让计算机分辨水果\n\n我们需要将水果的特征转化为计算机所能理解的数据。最常用的方式就是提取现实世界中的对象之属性，并将这些转化为数字。\n\n比如：形状、外皮颜色、斑马纹理、重量、握感、口感。\n\n\n![图 19](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/a99743fd96d79a2d6d343ef81f988c32f9ea4b28a8ad5c2391c2658ba60c188b.png)  \n\n\n将这些形容转化成数字,把重量由连续值转化成了离散值，这是因为朴素贝叶斯处理的都是离散值\n\n![图 20](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/c6c05b372ef0736d10734971409f755698ca90913095af1e752a7ecee88f9e7a.png)  \n\n扩大样本,仅仅 3 个水果还不足以构成朴素贝叶斯分类所需的训练样本\n\n\n![图 21](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/d485cea0f343ac13f4056b4ec0042563ae0866e275ab17b45ad7aecedc4f41f9.png)  \n\n\n### 我们如何使用贝叶斯公式 \n\n> 用先验概率和条件概率估计后验概率。\n> \n![图 22](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/a725fc90f77e944d101977ea08e273e05f77c4160eb3ecf861a952a8719b8ac1.png)  \n\n\n\n假定数据对象的不同属性对其归类影响时是相互独立的。此时若数据对象 o 中同时出现属性 fi 与 fj，则对象 o 属于类别 c 的概率就是这样 \n\n> 朴素贝叶斯算法是假设各个特征之间相互独立,才可以两边相等,这也是朴素贝叶斯分类有朴素一词的来源\n\n![图 23](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/890407d644aa61250ee7e983ec0fd8e161679f7ff7e29a02bab486922a42e607.png)  \n\n用 10 个水果的数据，来建立朴素贝叶斯模型\n\n![图 24](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/6ec393ee25603bb065911573df41cc0ce291e26087cb78c1a2f80b64e3739eb1.png)  \n\n#### 平滑（Smoothing）\n会出现结果为 0 的情况，因此我们通常取一个比这个数据集里最小统计概率还要小的极小值，来代替“零概率”。比如，我们这里取 0.01。在填充训练数据中从来没有出现过的属性值的时候，我们就会使用这种技巧，我们给这种技巧起个名字就叫作平滑（Smoothing）。\n\n\n\n### 例题:\n\n假设我们有一个新的水果，它的形状是圆形，口感是甜的，那么根据朴素贝叶斯，它属于苹果、甜橙和西瓜的概率分别是多少呢？\n\n![图 25](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/e7bb1d2b6d6271b843f6fe43a407494899f04695c881ed0971f8ad09b862abdb.png)  \n\n\napple 表示分类为苹果，shape-2 表示形状属性的值为 2（也就是圆形），taste-2 表示口感属性的值为 2。以此类推，我们还可计算该水果属于甜橙和西瓜的概率。\n\n\n![图 26](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/566411191bd8528f098fcae1cb13f0ff42a4b689de1e6f364b8dfbd38ebeb8f3.png)  \n\n\n比较这三个数值，0.00198<0.00798<0.26934，所以计算机可以得出的结论，该水果属于甜橙的可能性是最大的\n\n\n### 朴素贝叶斯分类主要包括这几个步骤\n\n* `准备数据`：针对水果分类这个案例，我们收集了若干水果的实例，并从水果的常见属性入手，将其转化为计算机所能理解的数据。这种数据也被称为训练样本。\n  \n* `建立模型`：通过手头上水果的实例，我们让计算机统计每种水果、属性出现的先验概率，以及在某个水果分类下某种属性出现的条件概率。这个过程也被称为基于样本的训练。\n  \n* `分类新数据`：对于一颗新水果的属性数据，计算机根据已经建立的模型进行推导计算，得到该水果属于每个分类的概率，实现了分类的目的。这个过程也被称为预测。\n\n\n### 朴素贝叶斯分类的优缺点\n\n* 优点：\n\n 1. 算法逻辑简单,易于实现\n\n 2. 分类过程中时空开销小\n\n* 缺点：\n\n理论上，朴素贝叶斯模型与其他分类方法相比具有最小的误差率。但是实际上并非总是如此，这是因为朴素贝叶斯模型假设属性之间相互独立，这个假设在实际应用中往往是不成立的，在属性个数比较多或者属性之间相关性较大时，分类效果不好。\n\n\n\n<!-- ### 例题: \n\n一对男女朋友，男生想女生求婚，男生的四个特点分别是不帅，性格不好，身高矮，不上进，请你判断一下女生是嫁还是不嫁？\n\n\n转为数学问题就是比较p(嫁|(不帅、性格不好、身高矮、不上进))与p(不嫁|(不帅、性格不好、身高矮、不上进))的概率\n\n#### 代入公式\n\n![图 18](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/8cc79df2582ccace9b21438ff3e8e6e25c80d045b34da026fbc8c08f7f240e89.png)  \n\n\n\n通过朴素贝叶斯公式可以转化为好求的三个量,只要求得以下三个量,对比概率.就能拿到我们的结果.\n\n* p(不帅、性格不好、身高矮、不上进|嫁)\n* p（不帅、性格不好、身高矮、不上进)\n* p(嫁)\n\n#### 这三个量是如何求得?\n\n```\np(不帅、性格不好、身高矮、不上进|嫁) = p(不帅|嫁)*p(性格不好|嫁)*p(身高矮|嫁)*p(不上进|嫁)\n``` -->",
+    "frontMatter": {
+      "title": "数学篇 - 朴素贝叶斯(Naive Bayes)分类算法(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "6iwpimvelxh",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-14T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/13.数学篇 - 数学篇 - 概率之联合概率、条件概率、边缘概率和贝叶斯法则.md",
+    "relativePath": "Math/13.数学篇 - 数学篇 - 概率之联合概率、条件概率、边缘概率和贝叶斯法则.md",
+    "title": "数学篇 - 概率之联合概率、条件概率、边缘概率和贝叶斯法则(笔记)",
+    "date": "2020-09-13T00:00:00.000Z",
+    "slug": "haz1cu03hf",
+    "category": "Math",
+    "content": "\n> 公式符号解释: `P(A|B).是B已知下的A的条件概率`\n\n\n## 联合概率（Joint Probability）\n\n各种解释描述,便于理解:\n\n* 联合概率指的是包含多个条件且所有条件同时成立的概率，记作P(X=a,Y=b)或P(a,b)，有的书上也习惯记作P(ab)，但是这种记法个人不太习惯，所以下文采用以逗号分隔的记法。一定要注意是所有条件同时成立！\n\n* 两个以上事件的交集的概率\n\n![图 12](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/134caf5fa4c114e6825b4e32eb93a1187310e208764246a05043523aad78cbec.png)  \n\n\n> 例子：从一副扑克牌中抽出一张红色的4的概率为P(红4) = 2/52 = 1/26。（一副扑克牌有52张牌，想抽到的是红心4和方块4）。\n\n## 条件概率（Conditional Probability）\n\n* 条件概率是已知某（些）事件已经发生的前提下，另一（些）事件发生的概率。已知事件B已经发生时，事件A发生的条件概率写作P(A|B)。\n\n* 条件概率表示在条件Y=b成立的情况下，X=a的概率，记作P(X=a|Y=b)或P(a|b)，\n\n> 例子：已知我们抽到了一张红色的牌，这张牌是4的概率为P(4|红) = 2/26 = 1/13 （一副扑克牌有52张牌，26张红色的，26张黑色的。现在因为我们已经抽到了一张红色的牌，我们知道我们抽取的范围是26张牌，因此第一个除数是26）。\n\n## 联合概率与条件概率的区别\n\n### 解释1: \nP(AB) 联合概率：池子没变。\n\nP(A|B) 条件概率：池子变小了！！！！！！\n\n所以如果用条件概率来算联合概率的话：池子不能小，给我乘回去！！！！\n\nP(A|B) x P(B) = P(AB)\n\n\n### 解释2: \n\n当我们想要知道抽到一张红色的4的扑克牌的概率（红色和4的联合概率）时，我想让你想象一下，把所有52张牌面朝下放置，然后随机选中一张。在这52张牌中，有2张是红色的，同时数字是4（红心4和方块4）。所以联合概率是2/52 = 1/26。\n\n而当我们想要知道已知抽中的牌是红色的时候，抽中数字是4的牌的概率，即条件概率P(4|红)时，我想让你再想象一下有52张牌。不过，在随机抽取一张牌之前，你给所有扑克牌排了个序，选中了所有26张红色的牌。现在你把这26张牌面朝下放置，然后随机选择一张牌。同样，这些红色的牌中有两张数字为4，所以条件概率是2/26  = 1/13\n\n### 公式描述\n![图 13](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/d6562409852e71d9261a5a2f423d9f03249fb7869fe6dc51d64bba002de1e9ba.png)  \n\n\n\n## 边缘概率\n\n解释:\n\n* 对于离散型随机变量，我们可以通过通过联合概率 P(x, y) 在 y 上求和，就可以得到 P(x)。对于连续型随机变量，我们可以通过联合概率 P(x, y) 在 y 上的积分(无限求和)，推导出概率 P(x)。这个时候，我们称 P(x) 为边缘概率。\n\n* 边缘概率是与联合概率对应的，P(X=a)或P(Y=b)，这类仅与单个随机变量有关的概率称为边缘概率\n\n\n\n## 贝叶斯定理 (Bayes' Theorem）\n\n英国数学家托马斯·贝叶斯（Thomas Bayes）在1763年发表的一篇论文中，首先提出了这个定理。而这篇论文是在他死后才由他的一位朋友发表出来的。在这篇论文中，他为了解决一个“逆向概率”问题，而提出了贝叶斯定理。\n\n在贝叶斯写这篇文章之前，人们已经能够计算“正向概率”，比如杜蕾斯举办了一个抽奖，抽奖桶里有10个球，其中2个白球，8个黑球，抽到白球就算你中奖。你伸手进去随便摸出1颗球，摸出中奖球的概率是多大。根据频率概率的计算公式，你可以轻松的知道中奖的概率是2/10。\n\n### 贝叶斯定理有什么用？\n\n在有限的信息下，能够帮助我们预测出概率。\n\n所有需要作出概率预测的地方都可以见到贝叶斯定理的影子，特别地，贝叶斯是机器学习的核心方法之一。例如垃圾邮件过滤，中文分词，艾滋病检查，肝癌检查等。\n\n### 贝叶斯定理公式\n\n![图 14](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/16d3e3d035ade0092b4f170b6c4b53b22499c38cc3aa77303e37fae087af35b0.png)  \n\n\n\n\n\n## 参考资料\n\nhttps://www.jianshu.com/p/f1458f478487\n\nhttps://www.zhihu.com/question/278117164\n\nhttps://zhuanlan.zhihu.com/p/37768413\n\nhttps://zhuanlan.zhihu.com/p/53005534\n\nhttps://www.pianshen.com/article/7751693391/\n\nhttps://time.geekbang.org/column/article/80393\n",
+    "frontMatter": {
+      "title": "数学篇 - 概率之联合概率、条件概率、边缘概率和贝叶斯法则(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "haz1cu03hf",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-13T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/12.数学篇 - 概率之随机变量与分布.md",
+    "relativePath": "Math/12.数学篇 - 概率之随机变量与分布.md",
+    "title": "数学篇 - 概率之随机变量与分布(笔记)",
+    "date": "2020-09-12T00:00:00.000Z",
+    "slug": "6mchh1x7mrv",
+    "category": "Math",
+    "content": "\n## 随机变量（ random variable )\n\n* 设随机试验的样本空间为S SS，X = X ( e ) X=X(e)X=X(e)是定义在样本空间S SS上的实值单值函数。称X = X ( e ) X=X(e)X=X(e)为随机变量。\n* 本质是关于基本事件的函数，自变量是基本事件，因变量是函数值。\n\n### 随机试验：\n\n满足: \n\n* (1)可重复性:试验在相同条件下可重复进行；\n  \n* (2)可知性:每次试验的可能结果不止一个，并且事先能明确试验所有可能的结果；\n  \n* (3)不确定性:进行一次试验之前不能确定哪一个结果会出现，但必然会出现结果中的一个。\n\n### 样本空间：\n随机试验的所有基本结果组成的集合称为样本空间。样本空间的元素称为样本点或基本事件。即样本空间本质是一个集合，每一个元素都是一次随机试验的结果。\n\n\n### 样本和随机变量:\n数理统计里的样本具有二重性，即样本既可以看作是一组观测值又可以看作是随机变量。\n\n* 第一，在抽样之前。无法确定样本的观测值，所以可以看成是随机变量。\n  \n* 第二，样本在抽取以后，经观测，样本抽有了具体的观测值，故又可以看成是一组确定的值。\n\n\n## 概率分布\n\n我们拿最简单的抛硬币事件来看。从理论上说来，出现正面和反面的概率都是 50%\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/37ad586a7450df254377069cf6cb942221abec1888d7f4479f847d9052399caf.png)  \n\n### 使用代码来尝试\n\n```js\n\nfunction flipCoin(){\n    for (let index = 0; index < 10; index++) {\n        // 对随机数四舍五入\n        let randomNum = Math.round(Math.random())\n        // 随机为1则为正面\n        if(randomNum === 1){\n            console.log('正面')\n        }else{\n            console.log('反面')\n        }\n    }\n\n}\n\nflipCoin()\n\n```\n\n尝试10次结果:\n\n![图 3](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/ae33d052a617115dd55e6ba4b518174d2e32882ca4d0011ef8c14d882906ca4a.png)  \n\n\n尝试1000次\n\n![图 4](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/ded88ad6ca997dbfbf9424b9b83159d1d16b329611da5902fc2734b219c16362.png)  \n\n\n* 统计的采样次数越多，越趋近于我们理论上的情况\n\n* 概率分布描述的其实就是随机变量的概率规律。\n\n## 离散分布模型\n\n### 伯努利分布（Bernoulli Distribution）\n这是单个随机变量的分布，而且这个变量的取值只有两个，0 或 1。\n\n![图 5](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/857fa1c74e576b0da786c1426090e02a008172a9f3cd01d867c7a7f3580ff1b2.png)  \n\n或者\n\n![图 6](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/f5945b9cf937d09adbb61ff6eb44493efc82170ec4ac1d82210d972555a63f81.png)  \n\n```\n举例子:\n\n假设你要生孩子，生男孩子概率p，生女孩纸概率1-p\n\n伯努利实验：生一次孩子\n\n伯努利分布：生一次孩子，生男孩子概率为p,生女孩纸概率1-p，这个就是伯努利分布\n```\n\n![图 7](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/4dd3a2264061010d7c4a332050cccb1549fe594a97676c3f9d2305c1e44a97ad.png)  \n\n\n## 分类分布（Categorical Distribution）也叫 Multinoulli 分布\n\n它描述了一个具有 k 个不同状态的单个随机变量。这里的 k，是有限的数值，如果 k 为 2 的时候，那么分类分布就变成了伯努利分布。我把这个分布的公式和图解都列了出来。\n\n![图 8](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/fb55f261b37f0963c7c89e2ed67e11132897839b9335bda7c0a150c531929a84.png)  \n\n\n\n## 正态分布（Normal Distribution）\n\n公式:\n![图 9](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/6dc708e463f8c158c107510d1b735dd6b2bb94bfa3f670474a090ad9b38b6e00.png)  \n\n\n在这个公式中有两个参数，μ表示均值，σ表示方差。\n\n![图 10](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/f717b791257809f884e53ec6bba6edd51b48f2bec8509cba5ea9fe5b25a81759.png)  \n\n",
+    "frontMatter": {
+      "title": "数学篇 - 概率之随机变量与分布(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "6mchh1x7mrv",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-12T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/11.数学篇 - 树的深度优先搜索与广度优先搜索.md",
+    "relativePath": "Math/11.数学篇 - 树的深度优先搜索与广度优先搜索.md",
+    "title": "数学篇 - 树的深度优先搜索与广度优先搜索(笔记)",
+    "date": "2020-09-11T00:00:00.000Z",
+    "slug": "5g1oligl91",
+    "category": "Math",
+    "content": "\n## 如何使用递归和栈实现深度优先搜索？\n\n深度优先搜索的过程和递归调用在逻辑上是一致的。\n\n### 写一个 TreeNode类代码,支持插入节点\n\n```js\nclass TreeNode {\n    constructor(key){\n        this.key = key;\n        this.sons = []\n    }\n    insert(key){\n        let node = new TreeNode(key);\n        this.sons.push(node)  \n        return node\n    }\n}\n}\n```\n\n### 尝试创建一棵树\n\n```js\nlet str = 'hello word'\nlet str2 = 'abcdefg'\n\n// 根节点\nlet root = new TreeNode(\"root\")\n\ncreateTree(str,root)\n\ncreateTree(str2,root)\n\nfunction createTree(strs,parent){\n    if(strs.length !==0){\n        let found = parent.sons.find((item)=>item.key === strs[0])\n        if(found){\n            let newStrs = strs.slice(1)\n            createTree(newStrs,parent)\n        }else{\n            let node = parent.insert(strs[0])\n            let newStrs = strs.slice(1)\n            createTree(newStrs,node)\n        }\n      \n    }else if(strs.length === 0){\n        console.log('创建完毕',root)\n        return root\n    }\n}\n```\n\n\n\n## 开始深度优先搜索\n\n```js\n// 使用栈来实现深度优先搜索\n// 大致思路是将所有的结点push到数组中,然后取最后一个处理,边删边处理.\n// 直到没有为止\nfunction dfsByStack(root) {\n    let stack = []; \n      // 创建堆栈对象，js使用数组代替堆栈,其中每个元素都是TreeNode类型\n    stack.push(root);    // 初始化的时候，压入根结点\n    while (stack.length) {  // 只要栈里还有结点，就继续下去\n    // 取出刚刚push进去的节点\n    let node = stack.pop();  // 弹出栈顶的结点 拿到第一个进去的结点\n    if (node.sons.length == 0) {\n      // 已经到达叶子结点了，输出\n        console.log('已经到达叶子结点',node.key)\n    } else {\n      // 非叶子结点，遍历它的每个子结点\n      // 注意，这里使用了一个临时的栈stackTemp\n      // 这样做是为了保持遍历的顺序，和递归遍历的顺序是一致的\n      // 如果不要求一致，可以直接压入stack\n      let stackTemp = []\n      for (let index = 0; index < node.sons.length; index++) {\n          const son = node.sons[index];\n          console.log(son.key)\n          stackTemp.push(son)\n      }\n      //  将各个节点放入栈中排序\n      //  顺序反过来\n      while (stackTemp.length) {\n        stack.push(stackTemp.pop());\n      }\n    }\n    }\n  }  \n```\n\n\n\n\n##  广度优先搜索（Breadth First Search)\n\n 广度优先搜索BFS（Breadth First Search）也称为宽度优先搜索，它是一种先生成的结点先扩展的策略。\n。\n\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/6bb7a63d95beaa9f89748a7b84c0195974d741b7055e6da9cbfaa5516a465233.png)  \n\n\n## 开始广度优先搜索\n\n```js\nbfs(root.sons)\nfunction bfs(queue){\n    if(queue.length === 0){console.log('结束了');return;}\n    let tmpQueue = []\n    for (let index = 0; index < queue.length; index++) {\n        const element = queue[index];\n        console.log(element.key)\n        if(element.sons && element.sons.length){\n           // 准备下一个搜索所需要的数据\n            tmpQueue.push(...element.sons)\n        }\n    }\n    bfs(tmpQueue)\n}\n```",
+    "frontMatter": {
+      "title": "数学篇 - 树的深度优先搜索与广度优先搜索(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "5g1oligl91",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课,深度优先搜索",
+      "date": "2020-09-11T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/10.数学篇 - 树的概念.md",
+    "relativePath": "Math/10.数学篇 - 树的概念.md",
+    "title": "数学篇 - 树的概念(笔记)",
+    "date": "2020-09-10T00:00:00.000Z",
+    "slug": "rakfaq9whbo",
+    "category": "Math",
+    "content": "\n## 树的基本概念\n\n树是由结点或顶点和边组成的(可能是非线性的)且不存在着任何环的一种数据结构。没有结点的树称为空(null或empty)树。一棵非空的树包括一个根结点，还(很可能)有多个附加结点，所有结点构成一个多级分层结构。\n\n> 树是一种特殊的图 (后续文章会提到图).\n\n\n### 前缀树 prefix tree (字典树 - trie)\n\n![图 8](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/dc55d3f7c58c5e38030f58b6a11af37a8535c56b0dfd02b2b9401da912c11247.png)  \n\n\n\n### 有向树\n它的边是有方向的。而树是没有简单回路的连通图。\n\n![图 4](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/d338189fc4a8f481e78f1b2dfc233092a86de06c3cde4aa1b4b66c0bbc4d0974.png)  \n\n以结点 v 为出发点的边的数量，我们叫作 v 的`出度`。而以 v为 终点的边之数量，称为 v 的`入度`。在上图中，结点 v2​ 的入度是 1，出度是 2。\n\n![图 6](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/ef20833f4e203927f14b2cd38fb4aa4a745189edcd2a9bb7f718cf3ccbe724fc.png)  \n\n\n### 回路和连通\n\n![图 5](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/78550e24c117088c62a2ccb3a770704d8f6a1aa3c0b8335f5f3e45ff2c9d40a3.png)  \n\n\n### 高度与结点\n![图 7](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/eee7e70c2d8c6917c8315cc3d6d57e183450a66161268acd129933c0d50a70c3.png)  \n\n\n\n## 二叉树\n二叉树又分为：完美二叉树，完全二叉树，完满二叉树\n\n### 完美二叉树(满二叉树)\n除了叶子节点之外的每一个节点都有两个子节点,每一层(包括最后一层)都被完全填充\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/4bf41f860a4d23494c030df8f4bba58a7e13fd76d6a1c865d719bd1408907e2a.png)  \n\n\n### 完全二叉树\n完全二叉树从根结点到倒数第二层满足完美二叉树，最后一层可以不完全填充，其叶子结点都靠左对齐\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/36856163c4ab4de51257b6a164490c7fa91b36850273ece7db420fea7b25cd5d.png)  \n\n### 完满二叉树\n所有非叶子结点的度都是2\n换句话说：只要你有孩子，你就必然是有两个孩子。\n![图 3](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/2cf115b05053cd1f809651a82255731d9bc1d5a0269ca7228de1ecefccba5a0e.png)  \n\n\n",
+    "frontMatter": {
+      "title": "数学篇 - 树的概念(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "rakfaq9whbo",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-10T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/9.数学篇 - 动态规划,编辑距离的计算.md",
+    "relativePath": "Math/9.数学篇 - 动态规划,编辑距离的计算.md",
+    "title": "数学篇 - 动态规划,编辑距离的计算(笔记)",
+    "date": "2020-09-09T00:00:00.000Z",
+    "slug": "nfo3tlig7y",
+    "category": "Math",
+    "content": "\n## 动态规划 （Dynamic Programming）\n很多人也简称DP,动态规划需要通过子问题的最优解，推导出最终问题的最优解，因此这种方法特别注重子问题之间的转移关系。我们通常把这些子问题之间的转移称为`状态转移`，并把用于刻画这些状态转移的表达式称为`状态转移方程`。\n\n## 编辑距离 (莱文斯坦距离,又称Levenshtein距离)\n\n俄罗斯科学家弗拉基米尔·莱文斯坦（毕业于莫斯科国立大学数学和力学系）在1965年提出，他因对纠错码理论和信息理论的贡献，于2006年获得IEEE Richard W. Hamming奖章。\n\n* 定义：莱文斯坦距离也称编辑距离，指的是将文本 A 编辑成文本 B 需要的最少变动次数（每次只能增加、删除或修改一个字）。\n\n* 用途：可以用来计算字符串的相似度，文本相似度, 拼写纠错和抄袭侦测等等\n\n* 优点：准确率很高，编辑距离算出来很小，文本相似度肯定很高。\n\n* 缺点：召回率不高，由于编辑距离与文本的顺序有关。在文字相同，文字顺序变化很大的情况下，相似度会变得很低。比如“正大光明”和“光明正大”其实是一个意思。但编辑距离是4，完全不匹配\n\n### 计算解析：\n\n首先定义的单字符编辑操作有且仅有三种：\n\n插入（Insertion）\n\n删除（Deletion）\n\n替换（Substitution）\n\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/189c427b9aadfa7c501b025f85ca4186591db79eae686e3a3acabbc0cdbf5d11.png)  \n\n\n\n### 搜索推荐关键词的应用\n计算 `mouuse` 与 `mouse`的编辑距离\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/1e9ab12ce6f3535ab43e7403c067b6fc2b4a972c129bf86731b0b54477f702a4.png)  \n\n\n### 表格推导\n\n\n![图 3](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/39bfcba830d765875f8e29a1672e4d61b1d4891f0343f4da6d0390693cb64013.png)  \n\n> 这里面求最小值的 min 函数里有三个参数，分别对应三种情况的编辑距离，分别是：替换、插入和删除字符。\n\n### 代码实现\n```js\n\n/**\n  * @Description:  使用状态转移方程，计算两个字符串之间的编辑距离\n  * @param a-第一个字符串，b-第二个字符串\n  * @return let-两者之间的编辑距离\n  */\nfunction getStrDistance( a,  b) {\n    \n    if (a == null || b == null) return -1;\n\n\n  // 初始用于记录化状态转移的二维表\n    let d = []\n  for (let index = 0; index <= a.length; index++) {\n     d.push(new Array(b.length))\n  }\n\n\n    // 如果i为0，且j大于等于0，那么d[i, j]为j\n    for (let j = 0; j <= b.length; j++) {\n      d[0][j] = j;\n    }\n    \n    // 如果i大于等于0，且j为0，那么d[i, j]为i\n    for (let i = 0; i <= a.length; i++) {\n      d[i][0] = i;\n    }\n\n    // 当前二维数组的状态\n    //   [\n    //   [0, 1, 2, 3,4, 5, 6  ],\n    //   [ 1, <5 empty items> ],\n    //   [ 2, <5 empty items> ],\n    //   [ 3, <5 empty items> ],\n    //   [ 4, <5 empty items> ],\n    //   [ 5, <5 empty items> ],\n    //   [ 6, <5 empty items> ]\n    // ]\n\n    // 实现状态转移方程\n    for (let i = 0; i < a.length; i++) {\n      for (let j = 0; j < b.length; j++) {\n        \n        let r = 0;\n        if (a.charAt(i) != b.charAt(j)) {\n          r = 1;\n        } \n\n        // 给所有的格志做应有的标记\n        // 坐标加1是为了从第二个格子开始记录数据\n        let first_append = d[i][j + 1] + 1;\n        let second_append = d[i + 1][j] + 1;\n\n\n        // 当前格志记录之前对比的差异\n        let replace = d[i][j] + r;\n\n        console.log(a.charAt(i) , b.charAt(j))\n        console.log(first_append, second_append)\n\n        // 求得first_append, second_append,replace三个最小的一个\n        // 分别对应三种情况的编辑距离，分别是：替换、插入和删除字符\n        let min = Math.min(first_append, second_append);\n        min = Math.min(min, replace);\n\n        // 所有的差异累积\n        d[i + 1][j + 1] = min;\n        \n      }\n    }\n\n    // 当前二维数组的状态\n    // [\n    //   [0, 1, 2, 3, 4, 5, 6],\n    //   [1, 0, 1, 2, 3, 4, 5],\n    //   [2, 1, 1, 2, 3, 4, 5],\n    //   [3, 2, 2, 2, 3, 4, 5],\n    //   [4, 3, 3, 2, 2, 3, 4],\n    //   [5, 4, 4, 3, 3, 2, 3],\n    //   [6, 5, 5, 4, 4, 3, 2]\n    // ]\n    // 输出最终的累积值,就是他们的编辑距离\n    return d[a.length][b.length];\n  }\n\n```\n\n## 尾巴\n这一节有点懵,记录一下后续再查更多资料深入理解了.\n例子理解的还行,一到应用就嗝屁.还是要多做题...\n\n### 参考资料\n\n* 莱文斯坦距离 : https://www.jianshu.com/p/4678d3f7b6f1\n* 程序员的数学基础课 : https://time.geekbang.org/column/article/76183",
+    "frontMatter": {
+      "title": "数学篇 - 动态规划,编辑距离的计算(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "nfo3tlig7y",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-09T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/8.数学篇 - 组合,解决赛程规划与抽奖.md",
+    "relativePath": "Math/8.数学篇 - 组合,解决赛程规划与抽奖.md",
+    "title": "数学篇 - 组合,解决赛程规划与自然语言处理(笔记)",
+    "date": "2020-09-08T00:00:00.000Z",
+    "slug": "yraotmb3ot",
+    "category": "Math",
+    "content": "\n## 组合\n组合（combination）是一个数学名词。一般地，从n个不同的元素中，任取m（m≤n）个元素为一组，叫作从n个不同元素中取出m个元素的一个组合。我们把有关求组合的个数的问题叫作组合问题。\n\n对于所有 m 取值的组合之全集合，我们可以叫作全组合（All Combination）。例如对于集合{1, 2, 3}而言，全组合就是{空集, {1}, {2}, {3}, {1, 2}, {1,3} {2, 3}, {1, 2, 3}}。\n\n## 如何安排世界杯赛程\n\n想让全部的 32 支球队都和其他球队进行一次主客场的比赛.\n\n自己不可能和自己比赛，不可重复的排列中，主场球队有 32 种选择，而客场球队有 31 种选择。那么一共要进行多少场比赛呢？很简单，就是 `32x31=992` 场！\n\n在实际情况中,赛程设计并没有这样做.\n\n这就是为什么要将所有 32 支队伍分成 8 个小组先进行小组赛的原因。一旦分成小组，每个小组的赛事就是 (4x3)/2=6 场。所有小组赛就是 6x8=48 场。\n\n加上在 16 强阶段开始采取淘汰制，两两淘汰，所以需要 8+4+2+2=16 场淘汰赛（最后一次加 2 是因为还有 3、4 名的决赛），那么整个世界杯决赛阶段就是 48+16=64 场比赛。\n\n这两两配对比赛的场次，我是如何计算出来的？让我引出今天的概念，组合（Combination）。\n\n## 让计算机来组合队伍\n\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/b7fab79358476b5a14b566571c7e5ff1915189b170274e1c706005069e43b3df.png)  \n\n```js\n/*\n    * @Description:  使用函数的递归（嵌套）调用，找出所有可能的队伍组合\n    * @param teams-目前还剩多少队伍没有参与组合，result-保存当前已经组合的队伍\n    * @return void\n    */\n  let teams = [\"t1\", \"t2\", \"t3\"];\n  combine(teams,[],2)\n\n\n   function combine(teams,result,m) {\n    // 挑选完了m个元素，输出结果\n    if (result.length == m) {\n       console.log(result)\n      return;\n    }\n\n    for (let i = 0; i < teams.length; i++) {\n      // 从剩下的队伍中，选择一队，加入结果\n      let newResult = [].concat(result)\n      newResult.push(teams[i]);\n\n      // 只考虑当前选择之后的所有队伍\n      let rest_teams = teams.slice(i + 1, teams.length)\n\n      // 递归调用，对于剩余的队伍继续生成组合\n      combine(rest_teams, newResult, m);\n    }\n  }\n\n```\n\n有没有发现,这个算法跟上一篇的密码爆破思想非常接近.\n\n## 利用组合高效处理词组\n\n每篇很长的文章，分隔成一个个的单词，然后对每个单词进行索引，便于日后的查询。但是很多时候，光有单个的单词是不够的，还要考虑多个单词所组成的词组。例如，“red bluetooth mouse”这样的词组。\n\n\n常见的一种方式是`多元文法`。把临近的几个单词合并起来，组合一个新的词组。比如我可以把“red”和“bluetooth”合并为“red bluetooth”，还可以把“bluetooth”和“mouse”合并为“bluetooth mouse”。\n\n如果我们只保留原文的“red bluetooth mouse”，无法将其和用户输入的“bluetooth red mouse”匹配\n\n多个单词出现时，每次用户输入之后将词组排序,例如:\n\n“red bluetooth mouse”，这三个词排序后就是“bluetooth,mouse,red”，而“bluetooth red mouse”排序后也是“bluetooth,mouse,red”，自然两者就能匹配上了。\n\n## 设计一个抽奖系统\n\n假设现在需要设计一个抽奖系统。需要依次从 100 个人中，抽取三等奖 10 名，二等奖 3 名和一等奖 1 名。请列出所有可能的组合，需要注意的每人最多只能被抽中 1 次。\n\n* 思路1: 先运行combine(100, 14)，对每个结果运行combine(14, 10)，再对每个更新的结果运行combine(4, 3)。\n\n* 思路2 : 从100人中选10人得3等奖，combine(100, 10);再从剩下90人中选3人的3等奖，combine(90, 3);再从剩下87人中选1人得1等奖， combine(87, 1)\n\n> 这个数值太大,js计算不过来 ",
+    "frontMatter": {
+      "title": "数学篇 - 组合,解决赛程规划与自然语言处理(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "yraotmb3ot",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-08T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/7.数学篇 - 排列,田忌赛马与密码爆破.md",
+    "relativePath": "Math/7.数学篇 - 排列,田忌赛马与密码爆破.md",
+    "title": "数学篇 - 排列,解决田忌赛马与密码爆破问题(笔记)",
+    "date": "2020-09-07T00:00:00.000Z",
+    "slug": "9kfvaensryf",
+    "category": "Math",
+    "content": "\n## 田忌赛马的故事\n\n田忌是齐国有名的将领，他常常和齐王赛马，可是总是败下阵来，心中非常不悦。孙膑想帮田忌一把。他把这些马分为上、中、下三等。他让田忌用自己的下等马来应战齐王的上等马，用上等马应战齐王的中等马，用中等马应战齐王的下等马。三场比赛结束后，田忌只输了第一场，赢了后面两场，最终赢得与齐王的整场比赛。\n\n## 排列概念\n\n从 n 个不同的元素中取出 m（1≤m≤n）个不同的元素，按照一定的顺序排成一列，这个过程就叫`排列（Permutation）`。\n\n当 m=n 这种特殊情况出现的时候,这就是`全排列（All Permutation）`\n\n## 田忌赛马的排列图\n\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/de799500620468a7d1fcf9a4941166f975385c21a75a39ab66eab8791557d1d1.png)  \n\n### 最终排列的数量\n\n排列总数的计算 3x2x1=6\n\n* 对于 n 个元素的全排列，所有可能的排列数量就是 `nx(n-1)x(n-2)x…x2x1`，也就是 n!\n  \n* 对于 n 个元素里取出` m (0<m≤n)` 个元素的不重复排列数量是 `nx(n-1)x(n-2)x…x(n - m + 1)`，也就是 n!/(n-m)!\n\n## 使用代码计算田忌赛马的各种情况\n\n```js\n// 齐王的马与速度\nlet q_horses_time = {\n  q1: 1,\n  q2: 2,\n  q3: 3\n}\n\n// 田忌的马与速度\nlet t_horses_time = {\n  t1: 1.5,\n  t2: 2.5,\n  t3: 3.5\n}\n\n// 他们马的名字\nlet q_horses = [\"q1\", \"q2\", \"q3\"]\n\nlet t_horses = [\"t1\", \"t2\", \"t3\"]\n\n\n/**\n  * @Description:  使用函数的递归（嵌套）调用，找出所有可能的马匹出战顺序\n  * @param horses-目前还剩多少马没有出战，result-保存当前已经出战的马匹及顺序\n  * @return void\n  */\n\nfunction permutate(horses, result) {\n  // 所有马匹都已经出战，判断哪方获胜，输出结果\n  if (horses.length == 0) {\n    // console.log(result);\n    compare(result, q_horses);\n    return;\n  }\n\n  for (let i = 0; i < horses.length; i++) {\n    // 从剩下的未出战马匹中，选择一匹，加入结果\n    let new_result = [].concat(result)\n    new_result.push(horses[i])\n\n    // 将已选择的马匹从未出战的列表中移出\n    let rest_horses = [].concat(horses);\n    rest_horses.splice(i, 1)\n\n    // 递归调用，对于剩余的马匹继续生成排列\n    // 相当于自己与自己嵌套for循环,打乱顺序\n    permutate(rest_horses, new_result);\n  }\n}\n\n\nfunction compare(t, q) {\n  // 田忌的赛马时间\n  let t_won_cnt = 0;\n  for (let i = 0; i < t.length; i++) {\n    if (t_horses_time[t[i]] < q_horses_time[q[i]]) t_won_cnt++;\n  }\n\n  // 时间对比,本次是三局两胜\n  if (t_won_cnt > (t.length / 2)) {\n    console.log(\"田忌获胜！\")\n  } else {\n    console.log(\"齐王获胜！\")\n  }\n}\n\n// 开始计算\npermutate(t_horses, [])\n```\n\n田忌获胜的概率是 1/6\n\n## 暴力破解密码如何使用排列思想？\n\n暴力破解是要把所有会出现的密码全部试一次\n\n假设有一个 4 位字母密码，每位密码是 a～e 之间的小写字母。你能否编写一段代码，来暴力破解该密码？（提示：根据可重复排列的规律，生成所有可能的 4 位密码。）\n\n```js\nlet words = ['a','b','c','d','e']\nlet passwords = []\n\nfunction getPassword(words,result){\n  // 够4个,这个分支结束\n  if(result.length == 4){\n    passwords.push(result)\n    console.log(result);\n    return;\n  }\n\n  // 不够4个,继续拿\n  for (let index = 0; index < words.length; index++) {\n    let a = [].concat(words);\n    let b = [].concat(result);\n    b.push(a[index])\n    a.splice(index,1)\n    getPassword(a,b)\n  }\n}\n\ngetPassword(words,[])\nconsole.log(passwords)\n```\n\n\n排列可以帮助我们生成很多可能性。由于这种特性，排列最多的用途就是穷举法，也就是，列出所有可能的情况，一个一个验证，然后看每种情况是否符合条件的解。",
+    "frontMatter": {
+      "title": "数学篇 - 排列,解决田忌赛马与密码爆破问题(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "9kfvaensryf",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-07T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/6.数学篇 - 递归,分而治之，从归并排序到MapReduce.md",
+    "relativePath": "Math/6.数学篇 - 递归,分而治之，从归并排序到MapReduce.md",
+    "title": "数学篇 - 递归,分而治之，从归并排序到MapReduce(笔记)",
+    "date": "2020-09-06T00:00:00.000Z",
+    "slug": "zr4ve5abfzg",
+    "category": "Math",
+    "content": "\n黄申老师的标题实在是太好了,找不到更好的标题来描述今天学习的内容.啊哈哈~\n\n## 归并排序中的分治思想\n\n> 问题: 对一堆杂乱无序的数字，按照从小到大或者从大到小的规则进行排序\n\n#### 有序情况\n尝试合并有序数组{1, 2, 5, 8}和{3, 4, 6}的过程。\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/ba8272d5cbead0e8168ecf222e0ddc87bd2a089a7ffb236f5b6b9c38b435723d.png)  \n\n\n#### 乱序情况\n\n尝试把问题不断简化，也就是把数列不断简化，一直简化到只剩 1 个数。1 个数本身就是有序的，\n\n把将长度为 n 的数列，每次简化为长度为 n-1 的数列，直至长度为 1。不过，这样的处理没有并行性，要进行 n-1 次的归并操作，但是效率会很低.\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/a4e5044079ca4e287a13e3f34d81f1bd712222c31aae713439cb9c4afb449e99.png)  \n\n\n#### 引入分而治之（Divide and Conquer）的思想\n\n分而治之，我们通常简称为分治。它的思想就是，将一个复杂的问题，分解成两个甚至多个规模相同或类似的子问题，然后对这些子问题再进一步细分，直到最后的子问题变得很简单，很容易就能被求解出来，这样这个复杂的问题就求解出来了。\n\n\n一个数组的排序\n![图 3](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/561575b5a08832ca432284406d793732de813a010178fa24246130241575c2c8.png)  \n\n\n两个数组排序后合并\n\n![图 4](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/4d11bc859f11b67592da63cb7335032a6d94d283191b15ad36130aff960d34ae.png)  \n\n最重要的思想在于如何拆解问题\n![图 5](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/4af4e60683c72eb81042cad628130719a794e454987742f2ed6ac090bfb5be4e.png)  \n\n\n归并排序的不同阶段\n\n![图 6](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/695f43d5f338aa5f49fe970a32bd9d5cff4ab39a763b2eb407474fa3a0dc5b91.png)  \n\n\n\n### 使用递归的方式来实现已上思路\n\n```js\n      // 递归拆分数组\n      function merge_sort(to_sort) {\n        // 非法数据,直接返回[]\n        if (!to_sort) return [];\n        \n        // 如果分解到只剩一个数，返回该数\n        if (to_sort.length == 1) return to_sort;\n        \n        // 将数组分解成左右两半\n        let mid = to_sort.length / 2;\n\n        // js中的splice会操作原数组内容,\n        // 前半段取出来之后,后半段直接取原数组的变量应用就好了\n        let left = [].concat(to_sort.splice(0,mid))\n        let right = [].concat(to_sort)\n\n        // 嵌套调用，对两半分别进行排序\n        left = merge_sort(left);\n        right = merge_sort(right);\n        \n        // 合并排序后的两半\n        let merged = merge(left, right);\n        \n        return merged;\n      }\n\n\n// 数组合并排序\nfunction merge(a, b) {\n    if (!a) a = [];\n    if (!b) b = [];\n    \n    // 后续会降结果push到这个数组中来\n    let merged_one = []\n    \n    // a,b数组的index\n    let ai = 0;\n    let bi = 0;\n    \n    // 轮流从两个数组中取出较小的值，放入合并后的数组中\n    while (ai < a.length && bi < b.length) {\n     if (a[ai] <= b[bi]) {\n        merged_one.push(a[ai])\n      ai ++;\n     } else {\n        merged_one.push(b[bi])\n      bi ++;\n     }\n    }\n    \n    // 将某个数组内剩余的数字放入合并后的数组中\n    if (ai < a.length) {\n     for (let i = ai; i < a.length; i++) {\n      merged_one.push(a[i])\n     }\n    } else {\n     for (let i = bi; i < b.length; i++) {\n      merged_one.push(b[i])\n     }\n    }\n    \n    return merged_one;\n   }\n\n\nlet arr = [2,5,3,1,4,6,7,8,9]\n\nconsole.log('排序结果',merge_sort(arr))\n// 排序结果 [ 1, 2, 3, 4, 5, 6, 7, 8, 9 ]\n```\n\n\n## 分而治之思想在分布式系统中\n\n当需要排序的数组很大（比如达到 1024GB 的时候），我们没法把这些数据都塞入一台普通机器的内存里。该怎么办呢？有一个办法，我们可以把这个超级大的数据集，分解为多个更小的数据集（比如 16GB 或者更小），然后分配到多台机器，让它们并行地处理。\n\n\n\n![图 8](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/fd13bf6e97bf69b66382e8fae79c7b279efdb2fae25cc092ab552c367fb217ca.png)  \n\n\n### MapReduce 架构\n![图 9](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/f135ad47d8e85e37b3e13a5e0c6fcd3a75d0b37cf1c1731a16a723089673876c.png)  \n\n\n#### 有三个步骤用到了分治的思想\n\n##### 数据分割和映射分割\n\n是指将数据源进行切分，并将分片发送到 Mapper 上。映射是指 Mapper 根据应用的需求，将内容按照键 - 值的匹配，存储到哈希结构中。\n\n##### 归约\n归约是指接受到的一组键值配对，如果是键内容相同的配对，就将它们的值归并。这和本机的递归调用后返回结果的过程类似\n\n##### 合并\n为了提升洗牌阶段的效率，可以选择减少发送到归约阶段的键 - 值配对。具体做法是在数据映射和洗牌之间，加入合并的过程，在每个 Mapper 节点上先进行一次本地的归约。然后只将合并的结果发送到洗牌和归约阶段。这和本机的递归调用后返回结果的过程类似\n\n\n## 尾巴\n\n递归,将复杂问题拆分程简单问题,\n\n再预设自己能想到的所有出现故障的情况(锦囊),加以处理.\n\n一个递归方式的算法就出来了.",
+    "frontMatter": {
+      "title": "数学篇 - 递归,分而治之，从归并排序到MapReduce(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "zr4ve5abfzg",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-06T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/5.数学篇 - 递归,复杂问题分解.md",
+    "relativePath": "Math/5.数学篇 - 递归,复杂问题分解.md",
+    "title": "数学篇 - 递归,复杂问题分解(笔记)",
+    "date": "2020-09-05T00:00:00.000Z",
+    "slug": "ru7lce72gge",
+    "category": "Math",
+    "content": "\n## 递归与循环\n\n理论上所有递归能做到的循环都能实现.\n\n递归和循环其实都是迭代法的实现，而且在某些场合下，它们的实现是可以相互转化的。\n\n## 为什么要使用递归\n\n> 既然递归的函数值返回过程和基于循环的迭代法一致，我们直接用迭代法不就好了，为什么还要用递归的数学思想和编程方法呢？\n\n\n### 如何在限定总和的情况下，求所有可能的加和方式？\n\n> 假设有四种面额的钱币，1 元、2 元、5 元和 10 元，要奖励别人10元，那可以奖赏 1 张 10 元，或者 10 张 1 元，或者 5 张 1 元外加 1 张 5 元等等。最终会有多少种方案?\n\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/685328b2212b37eeb3e874636dd38d7cc2fee83886cc07741a9f5a5f9a82aa8c.png)  \n\n\n## 如何把复杂的问题简单化？\n\n```js\n// 面额\nvar rewards = [1, 2, 5, 10];\n\n\n  /**\n    * @Description:  使用函数的递归（嵌套）调用，找出所有可能的奖赏组合\n    * @param totalReward-奖赏总金额，result-保存当前的解\n    * @return void\n    */\nfunction get(totalReward,result){\n\n  // 如果所有奖励全部给完\n  if (totalReward == 0) { \n      // 拿到复合条件的结果,输出\n    console.log(result); \n    return; \n  }\n\n  // 如果奖励的钱超过当初设想的奖励(钱给多了),\n  // 则不是我们想要的结果\n  if (totalReward < 0) { return; }\n\n        //根据不同面额触发,让他们开始递归\n        for (let i = 0; i < rewards.length; i++) {\n          let newResult = [].concat(result)  // 由于有4种情况，需要clone当前的解并传入被调用的函数\n          newResult.push(rewards[i]);  // 记录当前的选择\n\n          // totalReward - rewards[i]相当于还有多少钱没有给\n          // 交给下一个递归去解决该给多少钱的问题\n          get(totalReward - rewards[i], newResult);    // 剩下的问题，留给嵌套调用去解决\n        }\n}\n\n// 给出10块钱的不同方案\nget(10,[])\n```\n\n如果是循环解决这样的问题,是不是相对没有这样简洁?\n\n* 递归的核心思想和数学归纳法类似，并更具有广泛性。这两者的类似之处体现在：将当前的问题化解为两部分：一个当前所采取的步骤和另一个更简单的问题。\n\n* 递归会使用计算机的函数嵌套调用。而函数的调用本身，就可以保存很多中间状态和变量值，因此极大的方便了编程的处理。\n\n## 尾巴\n\n是上无难事,只要肯拆分",
+    "frontMatter": {
+      "title": "数学篇 - 递归,复杂问题分解(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "ru7lce72gge",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-05T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/4.数学篇 - 数学归纳法,给计算机注入灵魂.md",
+    "relativePath": "Math/4.数学篇 - 数学归纳法,给计算机注入灵魂.md",
+    "title": "数学篇 - 数学归纳法,给计算机注入灵魂(笔记)",
+    "date": "2020-09-04T00:00:00.000Z",
+    "slug": "fexppeuk3m",
+    "category": "Math",
+    "content": "\n## 什么是数学归纳法？\n\n在棋盘上放麦粒的规则是，第一格放一粒，第二格放两粒，以此类推，每一小格内都比前一小格多一倍的麦子，直至放满 64 个格子。你发现第 1 格到第 8 格的麦子数分别是：1、2、4、8、16、32、64、128。\n\n### 找规律\n![图 9](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/873afd7eccb11857ce37c70086e24e186089ea2e8e93daf7ea8677ee5746460e.png)  \n\n\n对于类似这种无穷数列的问题，我们通常可以采用`数学归纳法（Mathematical Induction）`来证明\n\n\n## 数学归纳法步骤\n\n* 证明基本情况（通常是 n=1 的时候）是否成立；\n* 假设 n=k−1 成立，再证明 n=k 也是成立的（k 为任意大于 1 的自然数）。\n\n\n和使用迭代法的计算相比，数学归纳法最大的特点就在于“归纳”二字。它已经总结出了规律。只要我们能够证明这个规律是正确的，就没有必要进行逐步的推算，可以节省很多时间和资源。\n\n### 代码示例\n```js\n\n  let grid = 63;\n  console.time('归纳法耗时')\n  console.log(`舍罕王给了这么多粒: ${  Math.pow(2, grid) - 1 }`)\n  console.timeEnd('归纳法耗时')\n\n```\n> 递归调用的代码和数学归纳法的逻辑是一致的,但是数学归纳法实现的运行时间几乎为 0\n\n数学归纳法需要我们能做出合理的命题假设，然后才能进行证明。\n\n\n\n\n\n",
+    "frontMatter": {
+      "title": "数学篇 - 数学归纳法,给计算机注入灵魂(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "fexppeuk3m",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-04T00:00:00.000Z"
+    }
+  },
+  {
+    "filePath": "/Users/fan/workspace/alili.tech/content/archive/Math/3.数学篇 - 迭代法,让每次计算都更接近真像.md",
+    "relativePath": "Math/3.数学篇 - 迭代法,让每次计算都更接近真像.md",
+    "title": "数学篇 - 迭代法,让每次计算都更接近真像(笔记)",
+    "date": "2020-09-03T00:00:00.000Z",
+    "slug": "35dkyj5swxr",
+    "category": "Math",
+    "content": "\n## 什么是迭代法（Iterative Method）？\n\n就是不断地用旧的变量值，递推计算新的变量值。\n\n### 小故事:\n\n> 古印度国王舍罕酷爱下棋，他打算重赏国际象棋的发明人宰相西萨·班·达依尔。这位聪明的大臣指着象棋盘对国王说：“陛下，我不要别的赏赐，请您在这张棋盘的第一个小格内放入一粒麦子，在第二个小格内放入两粒，第三小格内放入给四粒，以此类推，每一小格内都比前一小格加一倍的麦子，直至放满 64 个格子，然后将棋盘上所有的麦粒都赏给您的仆人我吧！”国王自以为小事一桩，痛快地答应了。可是，当开始放麦粒之后，国王发现，还没放到第二十格，一袋麦子已经空了。随着，一袋又一袋的麦子被放入棋盘的格子里，国王很快看出来，即便拿来全印度的粮食，也兑现不了对达依尔的诺言。\n\n\n通过一个函数来计算最后麦子的数量.\n![图 1](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/2ef3e94c5ea97c2db46680a3d0e8050b7ba122b31a9c14b75b9f7a0f9273b977.png)  \n\n### 用计算机语言其实特别适合\n\n```js\n\nfunction getNumberOfWheat(grid){\nnumberOfWheatInGrid = 0; // 当前格子里麦粒的数量 \nlet numberOfWheatInGrid = 1; // 第一个格子里麦粒的数量 \n\n// 先放一粒米\nsum += numberOfWheatInGrid; \n\nfor (let i = 2; i <= grid; i ++) {         \n    numberOfWheatInGrid *= 2;\n    // 当前格子里麦粒的数量是前一格的2倍 \n    sum += numberOfWheatInGrid; \n    // 累计麦粒总数 \n    } \n    return sum;\n}\n\n// 计算64格的数量\nconsole.log(getNumberOfWheat(64))\n\n```\n\n\n\n\n\n## 具体应用？\n\n* `求数值的精确或者近似解`。典型的方法包括二分法（Bisection method）和牛顿迭代法（Newton’s method）。\n\n* `在一定范围内查找目标值`。典型的方法包括二分查找。\n\n* `机器学习算法中的迭代`。相关的算法或者模型有很多，比如 K- 均值算法（K-means clustering）、PageRank 的马尔科夫链（Markov chain）、梯度下降法（Gradient descent）等等。迭代法之所以在机器学习中有广泛的应用，是因为`很多时候机器学习的过程，就是根据已知的数据和一定的假设，求一个局部最优解`。而迭代法可以帮助学习算法逐步搜索，直至发现这种解。\n\n\n### 实践二分法求方程的精确或者近似解\n\n题: 找 10 的平方根\n\n思路: 我们需要先看 1 到 10 的中间数值，也就是 11/2=5.5。5.5 的平方是大于 10 的，所以我们要一个更小的数值，就看 5.5 和 1 之间的 3.25。由于 3.25 的平方也是大于 10 的，继续查看 3.25 和 1 之间的数值，也就是 2.125。这时，2.125 的平方小于 10 了，所以看 2.125 和 3.25 之间的值，一直继续下去，直到发现某个数的平方正好是 10\n\n![图 2](https://incomparable9527.coding.net/p/imageBed/d/imageBed/git/raw/master/4771cedc9e0875af0010799178b6895af9b44724987c16f3e25186247745666b.png)  \n\n\n```js\n\n/** * \n * @Description: 计算大于1的正整数之平方根 \n * @param n-待求的数, deltaThreshold-误差的阈值, maxTry-二分查找的最大次数\n * @return double-平方根的解 \n * */\n\nfunction getSqureRoot(n, deltaThreshold, maxTry) {\n    // 参数不符合条件,返回-1\n    if (n <= 1) { return -1.0; }\n\n    let min = 1.0;\n    let max = n;\n    \n    // 开始使用尝试次数与预想的进度开始迭代查找结果\n    for (let i = 0; i < maxTry; i++) {\n        // 取一个中间数\n        let middle = (min + max) / 2;\n        // 开始平方\n        let square = middle * middle;\n\n        // 看平方结果是否满足我们的需求\n        // Math.abs为取绝对值\n        let delta = Math.abs((square / n) - 1);\n\n        // 进度符合,返回正确的值\n        if (delta <= deltaThreshold) {\n            // 找到符合条件的平方根\n            return middle;\n        } else {\n            // 平方后的结果大于 待求的数字n\n            if (square > n) {\n                // 重新定义max\n                max = middle;\n            } else {\n                // 小于则重新定义min\n                min = middle;\n            }\n        }\n    }\n    // 所有迭代运行完,没有结果返回 -2\n    return -2.0;\n}\n\n\n\n// 开始求解\n\n  let number = 10;\n\n  // 求10的平方根\n  // 进度为 0.000001\n  // 最多迭代 10000 次\n  let squareRoot = getSqureRoot(number, 0.000001, 10000);\n\n\n  if (squareRoot == -1) {\n   console.log(\"请输入大于1的整数\");\n  } else if (squareRoot == -2) {\n   console.log(\"未能找到解\");\n  } else {\n   console.log(`${number}的平方根是${squareRootString}`);\n  }\n\n```\n\n\n\n## 故事的结局\n\n第1个格子里的小麦有1粒\n\n第2个格子里的小麦有2粒 \n\n第3个格子里的小麦有4粒 \n\n第4个格子里的小麦有8粒 \n\n第5个格子里的小麦有16粒 \n\n第6个格子里的小麦有32粒 \n\n第7个格子里的小麦有64粒 \n\n第8个格子里的小麦有128粒 \n\n第9个格子里的小麦有256粒 \n\n第10个格子里的小麦有512粒 \n\n第11个格子里的小麦有1024粒 \n\n第12个格子里的小麦有2048粒 \n\n第13个格子里的小麦有4096粒 \n\n第14个格子里的小麦有8192粒 \n\n第15个格子里的小麦有16384粒 \n\n第16个格子里的小麦有32768粒 \n\n第17个格子里的小麦有65536粒 \n\n第18个格子里的小麦有131072粒 \n\n第19个格子里的小麦有262144粒 \n\n第20个格子里的小麦有524288粒 \n\n第21个格子里的小麦有1048576粒 \n\n第22个格子里的小麦有2097152粒 \n\n第23个格子里的小麦有4194304粒 \n\n第24个格子里的小麦有8388608粒 \n\n第25个格子里的小麦有16777216粒 \n\n第26个格子里的小麦有33554432粒 \n\n第27个格子里的小麦有67108864粒 \n\n第28个格子里的小麦有134217728粒 \n\n第29个格子里的小麦有268435456粒 \n\n第30个格子里的小麦有536870912粒 \n\n第31个格子里的小麦有1073741824粒 \n\n第32个格子里的小麦有2147483648粒 \n\n第33个格子里的小麦有4294967296粒 \n\n第34个格子里的小麦有8589934592粒 \n\n第35个格子里的小麦有17179869184粒 \n\n第36个格子里的小麦有34359738368粒 \n\n第37个格子里的小麦有68719476736粒 \n\n第38个格子里的小麦有137438953472粒 \n\n第39个格子里的小麦有274877906944粒 \n\n第40个格子里的小麦有549755813888粒 \n\n第41个格子里的小麦有1099511627776粒 \n\n第42个格子里的小麦有2199023255552粒 \n\n第43个格子里的小麦有4398046511104粒 \n\n第44个格子里的小麦有8796093022208粒 \n\n第45个格子里的小麦有17592186044416粒 \n\n第46个格子里的小麦有35184372088832粒 \n\n第47个格子里的小麦有70368744177664粒 \n\n第48个格子里的小麦有140737488355328粒 \n\n第49个格子里的小麦有281474976710656粒 \n\n第50个格子里的小麦有562949953421312粒 \n\n第51个格子里的小麦有1125899906842624粒 \n\n第52个格子里的小麦有2251799813685248粒 \n\n第53个格子里的小麦有4503599627370496粒 \n\n第54个格子里的小麦有9007199254740992粒 \n\n第55个格子里的小麦有18014398509481984粒 \n\n第56个格子里的小麦有36028797018963968粒 \n\n第57个格子里的小麦有72057594037927936粒 \n\n第58个格子里的小麦有144115188075855872粒 \n\n第59个格子里的小麦有288230376151711744粒 \n\n第60个格子里的小麦有576460752303423488粒 \n\n第61个格子里的小麦有1152921504606846976粒 \n\n第62个格子里的小麦有2305843009213693952粒 \n\n第63个格子里的小麦有4611686018427387904粒 \n\n第64个格子里的小麦有9223372036854775808粒 \n\n国王一共给了18446744073709551615粒麦子",
+    "frontMatter": {
+      "title": "数学篇 - 迭代法,让每次计算都更接近真像(笔记)",
+      "tags": [
+        "Daily",
+        "Math"
+      ],
+      "slug": "35dkyj5swxr",
+      "keywords": "人工智能,计算机数学,计算机基础,计算机,前端学人工智能,每日功课",
+      "date": "2020-09-03T00:00:00.000Z"
+    }
+  }
+]

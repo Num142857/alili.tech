@@ -1,0 +1,49 @@
+{{ partial "head.html" . }}
+<body>
+<div class="content index width mx-auto px3 my4">
+	{{ partial "nav.html" . }}
+	{{ partial "tagcloud.html" . }}
+	<section id="wrapper" class="home">
+		<h1 class="archive-title">{{ .Title }}</h1>
+		{{ $termNormalized := (.Data.Term | default .Title) | urlize }}
+		{{ $filteredPages := slice }}
+		{{ $enSite := index (where .Site.Sites "Language.Lang" "eq" "en") 0 }}
+		{{ if not $enSite }}
+			{{ $enSite = .Site }}
+		{{ end }}
+		{{ $allPages := where $enSite.RegularPages "Params.hidden" "ne" "true" }}
+		{{ range $page := $allPages }}
+			{{ if and $page.Params.tags (ne $page.RelPermalink "/about/") }}
+				{{ range $tag := $page.Params.tags }}
+					{{ if eq ($tag | urlize) $termNormalized }}
+						{{ $filteredPages = $filteredPages | append $page }}
+						{{ break }}
+					{{ end }}
+				{{ end }}
+			{{ end }}
+		{{ end }}
+		{{ if $filteredPages }}
+			{{ range ($filteredPages.GroupByDate "2006") }}
+			<div class="archive">
+				<h3>{{ .Key }}</h3>
+				<ul class="post-list" id="post-list">
+					{{ range .Pages }}
+					<li class="post-item">
+						<div class="meta">
+							<time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>
+						</div>
+						<span> <a href='{{ if hasPrefix .RelPermalink "/en" }}{{ .RelPermalink }}{{ else }}/en{{ .RelPermalink }}{{ end }}'>{{ .Title }}</a></span>
+					</li>
+					{{ end }}
+				</ul>
+			</div>
+			{{ end }}
+		{{ else }}
+			<p>No posts found for this tag.</p>
+		{{ end }}
+	</section>
+</div>
+{{ partial "footer.html" . }}
+{{ partial "js.html" . }}
+</body>
+</html>

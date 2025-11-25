@@ -1,0 +1,45 @@
+{
+  "name": "alili.tech",
+  "version": "1.0.0",
+  "description": "Blog",
+  "engines": {
+    "node": ">=24.0.0",
+    "npm": ">=10.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo server --buildFuture",
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0x1428571429/alili.tech.git"
+  },
+  "author": "0x1428571429",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x1428571429/alili.tech/issues"
+  },
+  "homepage": "https://github.com/0x1428571429/alili.tech#readme",
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "gulp": "^3.9.1",
+    "gulp-sync": "^0.1.4",
+    "openai": "^6.9.1",
+    "workbox-build": "^3.6.3"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cos-nodejs-sdk-v5": "2.12.4",
+    "fs-extra": "^9.0.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-shell": "^0.8.0",
+    "tencentcloud-sdk-nodejs": "^4.0.0",
+    "xml2js": "^0.4.19",
+    "xmlhttprequest": "^1.8.0"
+  },
+  "overrides": {
+    "graceful-fs": "^4.2.11"
+  }
+}

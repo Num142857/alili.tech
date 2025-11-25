@@ -1,0 +1,19 @@
+
+<header id="header">
+	<a href="/">
+	
+		<div id="logo" style='background-image: url({{.Site.Params.Customize.Logo.Url}});'></div>
+	  <div id="title">
+		<h1>{{.Title}}</h1>
+	  </div>
+	</a>
+	<div id="nav">
+	  <ul>
+		<li class="icon">
+		  <a href="#"><i class="fa fa-bars fa-2x"></i></a>
+		</li>
+		{{ partial "nav-list.html" . }}
+	  </ul>
+	</div>
+  </header>
+  

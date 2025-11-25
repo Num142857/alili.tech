@@ -1,0 +1,44 @@
+<section id="about">
+    <div class="description coding">
+        <span class="typed prompt"></span>
+    </div>
+    <p style="display: inline">
+        <span>
+            <i class="fa fa-eye"></i>
+            <span id="busuanzi_container_site_pv">
+                <span id="busuanzi_value_site_pv">0</span>
+            </span>
+        </span>|
+
+        
+        Follow me on 	 <ul id="sociallinks">
+            {{ range $key, $val := .Site.Params.customize.social_links }}
+            &nbsp;<li><a class="icon" target="_blank" href="{{$val}}" title="{{$key}}"><i class="fa fa-{{$key}}"></i></a></li>
+            
+            {{ end }}
+        </ul>.
+    </p>
+    <p class="prompt ad-text output new-output">
+        p.s. The website supports PWA, try adding it to your desktop
+    </p>
+
+</section>
+<section id="writing">
+    <span class="h1"><a href="/archive/">Archives</a></span>
+    <ul class="post-list" id="post-list">
+        {{ $enSite := index (where .Site.Sites "Language.Lang" "eq" "en") 0 }}
+        {{ if not $enSite }}
+            {{ $enSite = .Site }}
+        {{ end }}
+        {{ $pages := where $enSite.RegularPages "Params.hidden" "ne" "true" }}
+        {{ $pages = where $pages "RelPermalink" "ne" "/about/" }}
+        {{ range first 10 ($pages) }}
+        <li class="post-item">
+            <div class="meta">
+                <time datetime='{{ .Date.Format "2006-01-02" }}' itemprop="datePublished">{{ .Date.Format "2006-01-02"}}</time>
+            </div>
+            <span> <a href='{{ if hasPrefix .RelPermalink "/en" }}{{ .RelPermalink }}{{ else }}/en{{ .RelPermalink }}{{ end }}'>{{ .Title }}</a></span>
+        </li>
+        {{ end }}
+    </ul>
+</section>
